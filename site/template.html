@@ -185,6 +185,29 @@ footer p{margin:4px 0}
  .sform{padding:12px}
  footer{padding-bottom:90px}
 }
+.layout{display:block}
+.side{display:none}
+.sideh{font:800 21px/1.1 "Barlow Condensed",sans-serif;margin:0 0 10px;padding-bottom:7px;border-bottom:2px solid var(--ink);display:block}
+.side h4{margin:16px 0 6px;font:700 12px Barlow,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+.li{display:flex;align-items:center;gap:9px;width:100%;min-height:38px;padding:6px 10px;margin:1px 0;border:0;border-radius:8px;background:transparent;color:var(--ink);font:600 15px/1.2 Barlow,sans-serif;text-align:left;cursor:pointer}
+.li:hover{background:var(--chip)}
+.li i{flex:0 0 auto;width:10px;height:10px;border-radius:50%}
+.li .n{margin-left:auto;font-size:13px;font-weight:700;color:var(--mute)}
+.li.zero{opacity:.5}
+.li[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.li[aria-pressed=true] .n{color:inherit}
+.li:focus-visible{outline:3px solid var(--gold);outline-offset:1px}
+@media(min-width:960px){
+ .layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:36px;align-items:start}
+ .side{display:block;position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:22px 4px 24px 0;scrollbar-width:thin}
+ .chiprow{display:none}
+ .wrap{max-width:1280px}
+ .layout .teams{overflow-wrap:break-word}
+}
+@media(min-width:960px) and (max-width:1199px){
+ .layout{grid-template-columns:210px minmax(0,1fr);gap:24px}
+ .layout .g .chans{max-width:260px}
+}
 </style>
 </head>
 <body>
@@ -233,7 +256,10 @@ footer p{margin:4px 0}
  </div>
 </div>
 
-<main class="wrap" id="list"></main>
+<div class="wrap layout">
+ <aside class="side" aria-label="Campeonatos"><h2 class="sideh">Campeonatos</h2><div id="side" role="group" aria-label="Campeonatos (clique para escolher um ou mais)"></div></aside>
+ <main id="list"></main>
+</div>
 
 <footer class="wrap">
  <p id="upd"></p>
@@ -365,6 +391,10 @@ function renderChips(){
  $('chips').innerHTML=`<button class="chip" data-c="todas" aria-pressed="${S.comps.size===0}">Todas</button>`
   +main.map(chip).join('')+restShown.map(chip).join('')
   +(hidden||S.more?`<button class="chip more" data-c="mais">${S.more?'Menos ligas':'+ '+hidden+' ligas'}</button>`:'');
+ const li=k=>{const c=C(k),n=cnt(k);return `<button class="li${n?'':' zero'}" data-c="${k}" aria-pressed="${S.comps.has(k)}"><i style="background:${esc(c.cor)}"></i>${esc(c.nome)}<span class="n">${n||''}</span></button>`};
+ const rs=rest.slice().sort((a,b)=>(cnt(b)>0)-(cnt(a)>0));
+ $('side').innerHTML=`<button class="li" data-c="todas" aria-pressed="${S.comps.size===0}"><i style="background:var(--pitch)"></i>Todos os jogos<span class="n">${today.length}</span></button>`
+  +'<h4>Principais</h4>'+main.map(li).join('')+'<h4>Outras ligas</h4>'+rs.map(li).join('');
 }
 
 function renderNext(){
@@ -422,13 +452,15 @@ function render(){renderDays();renderChips();renderNext();renderList()}
 function toast(t){const el=$('toast');el.textContent=t;el.classList.add('on');clearTimeout(toast.h);toast.h=setTimeout(()=>el.classList.remove('on'),2600)}
 
 $('days').addEventListener('click',e=>{const b=e.target.closest('.day');if(!b)return;S.day=b.dataset.k;S.q='';$('q').value='';render()});
-$('chips').addEventListener('click',e=>{
- const b=e.target.closest('.chip');if(!b)return;
+const pick=e=>{
+ const b=e.target.closest('.chip,.li');if(!b)return;
  const k=b.dataset.c;
  if(k==='mais'){S.more=!S.more;renderChips();return}
  if(k==='todas')S.comps.clear(); else S.comps.has(k)?S.comps.delete(k):S.comps.add(k);
  save();render();
-});
+};
+$('chips').addEventListener('click',pick);
+$('side').addEventListener('click',pick);
 $('free').addEventListener('change',e=>{S.free=e.target.checked;render()});
 $('q').addEventListener('input',e=>{S.q=e.target.value;S.open=null;renderList()});
 const tt=$('totop');addEventListener('scroll',()=>{tt.hidden=scrollY<700},{passive:true});tt.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
