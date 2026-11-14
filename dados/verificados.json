@@ -1,0 +1,618 @@
+{
+ "comentario": "Jogos conferidos (pela checagem diária com IA ou à mão). Têm prioridade sobre as APIs. status: confirmado = data, horário e canais batem em 2+ fontes ou vêm da tabela oficial; a_confirmar = fonte única ou horário/canal ainda não anunciado. placar: {\"casa\":n,\"fora\":n} só para jogos encerrados, conferido em 2 fontes.",
+ "verificado_em": "2026-11-14T17:25:00-03:00",
+ "jogos": [
+  {
+   "inicio": "2026-11-14T07:15:00-03:00",
+   "comp": "amistoso",
+   "casa": "Japão",
+   "fora": "Brasil",
+   "local": "Estádio Nacional de Singapura",
+   "rodada": "Data FIFA",
+   "canais": [
+    "globo",
+    "sportv",
+    "getv"
+   ],
+   "status": "confirmado",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  {
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "comp": "brasileirao-b",
+   "casa": "América-MG",
+   "fora": "Avaí",
+   "local": "",
+   "rodada": "38ª rodada",
+   "canais": [
+    "disney",
+    "sportynet",
+    "xsports"
+   ],
+   "status": "confirmado",
+   "nota": "Avaí luta contra o rebaixamento"
+  },
+  {
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "comp": "brasileirao-b",
+   "casa": "Atlético-GO",
+   "fora": "Cuiabá",
+   "local": "",
+   "rodada": "38ª rodada",
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "comp": "brasileirao-b",
+   "casa": "CRB",
+   "fora": "Ceará",
+   "local": "Rei Pelé, Maceió",
+   "rodada": "38ª rodada",
+   "canais": [
+    "redetv",
+    "sportynet",
+    "disney"
+   ],
+   "status": "confirmado",
+   "nota": "Ceará luta contra o rebaixamento"
+  },
+  {
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "comp": "brasileirao-b",
+   "casa": "Criciúma",
+   "fora": "Novorizontino",
+   "local": "Heriberto Hülse",
+   "rodada": "38ª rodada",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "confirmado",
+   "nota": "Novorizontino decide o título"
+  },
+  {
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "comp": "brasileirao-b",
+   "casa": "Fortaleza",
+   "fora": "Vila Nova",
+   "local": "",
+   "rodada": "38ª rodada",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "comp": "brasileirao-b",
+   "casa": "Juventude",
+   "fora": "Botafogo-SP",
+   "local": "",
+   "rodada": "38ª rodada",
+   "canais": [
+    "espn",
+    "disney",
+    "xsports",
+    "goat"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "comp": "brasileirao-b",
+   "casa": "Sport",
+   "fora": "Goiás",
+   "local": "",
+   "rodada": "38ª rodada",
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "comp": "nations",
+   "casa": "Irlanda do Norte",
+   "fora": "Ucrânia",
+   "local": "",
+   "rodada": "Fase de liga",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "comp": "nations",
+   "casa": "Portugal",
+   "fora": "Dinamarca",
+   "local": "",
+   "rodada": "Fase de liga",
+   "canais": [
+    "sportv",
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "comp": "nations",
+   "casa": "Romênia",
+   "fora": "Polônia",
+   "local": "",
+   "rodada": "Fase de liga",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "comp": "nations",
+   "casa": "Suécia",
+   "fora": "Bósnia",
+   "local": "",
+   "rodada": "Fase de liga",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "comp": "nations",
+   "casa": "Áustria",
+   "fora": "Irlanda",
+   "local": "",
+   "rodada": "Fase de liga",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "inicio": "2026-11-14T18:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Mirassol",
+   "fora": "Atlético-MG",
+   "local": "Maião, Mirassol",
+   "rodada": "35ª rodada",
+   "canais": [
+    "prime"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-14T20:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Chapecoense",
+   "fora": "Vasco",
+   "local": "Arena Condá, Chapecó",
+   "rodada": "21ª rodada (jogo atrasado)",
+   "canais": [
+    "premiere",
+    "sportv"
+   ],
+   "status": "a_confirmar",
+   "nota": "Premiere confirmado; SporTV em parte das fontes"
+  },
+  {
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "comp": "nations",
+   "casa": "Bélgica",
+   "fora": "Itália",
+   "local": "",
+   "rodada": "Fase de liga",
+   "canais": [
+    "sportv",
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "comp": "nations",
+   "casa": "Espanha",
+   "fora": "Inglaterra",
+   "local": "",
+   "rodada": "Fase de liga",
+   "canais": [
+    "disney",
+    "sportv"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "comp": "nations",
+   "casa": "França",
+   "fora": "Turquia",
+   "local": "",
+   "rodada": "Fase de liga",
+   "canais": [
+    "disney",
+    "sportv"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "inicio": "2026-11-17T07:00:00-03:00",
+   "comp": "amistoso",
+   "casa": "Singapura",
+   "fora": "Brasil",
+   "local": "Estádio Nacional de Singapura",
+   "rodada": "Data FIFA",
+   "canais": [
+    "globo",
+    "sportv",
+    "getv"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-18T19:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Coritiba",
+   "fora": "Santos",
+   "local": "Couto Pereira, Curitiba",
+   "rodada": "35ª rodada",
+   "canais": [
+    "record",
+    "cazetv",
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-18T20:00:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Remo",
+   "fora": "Chapecoense",
+   "local": "Mangueirão, Belém",
+   "rodada": "35ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-18T20:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Cruzeiro",
+   "fora": "Palmeiras",
+   "local": "Mineirão, Belo Horizonte",
+   "rodada": "35ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-18T20:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Flamengo",
+   "fora": "Athletico-PR",
+   "local": "Maracanã, Rio de Janeiro",
+   "rodada": "35ª rodada",
+   "canais": [
+    "sportv",
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-18T21:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Corinthians",
+   "fora": "Botafogo",
+   "local": "Neo Química Arena, São Paulo",
+   "rodada": "35ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-18T21:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Grêmio",
+   "fora": "Bahia",
+   "local": "Arena do Grêmio, Porto Alegre",
+   "rodada": "35ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-19T19:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Vasco",
+   "fora": "Internacional",
+   "local": "São Januário, Rio de Janeiro",
+   "rodada": "35ª rodada",
+   "canais": [
+    "sportv",
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-19T19:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Vitória",
+   "fora": "Red Bull Bragantino",
+   "local": "Barradão, Salvador",
+   "rodada": "35ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-19T21:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "São Paulo",
+   "fora": "Fluminense",
+   "local": "Morumbis, São Paulo",
+   "rodada": "35ª rodada",
+   "canais": [
+    "globo",
+    "getv",
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-21T09:30:00-03:00",
+   "comp": "premier",
+   "casa": "Manchester City",
+   "fora": "Fulham",
+   "local": "Etihad Stadium",
+   "rodada": "12ª rodada",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "nota": "Horário aproximado"
+  },
+  {
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "comp": "premier",
+   "casa": "Aston Villa",
+   "fora": "Sunderland",
+   "local": "Villa Park",
+   "rodada": "12ª rodada",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "nota": "Horário aproximado"
+  },
+  {
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "comp": "premier",
+   "casa": "Bournemouth",
+   "fora": "Nottingham Forest",
+   "local": "Vitality Stadium",
+   "rodada": "12ª rodada",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "nota": "Horário aproximado"
+  },
+  {
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "comp": "premier",
+   "casa": "Chelsea",
+   "fora": "Leeds",
+   "local": "Stamford Bridge",
+   "rodada": "12ª rodada",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "nota": "Horário aproximado"
+  },
+  {
+   "inicio": "2026-11-21T14:30:00-03:00",
+   "comp": "premier",
+   "casa": "Newcastle",
+   "fora": "Arsenal",
+   "local": "St James' Park",
+   "rodada": "12ª rodada",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "nota": "Horário aproximado"
+  },
+  {
+   "inicio": "2026-11-21T16:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Palmeiras",
+   "fora": "Flamengo",
+   "local": "Nubank Parque, São Paulo",
+   "rodada": "36ª rodada",
+   "canais": [
+    "globo",
+    "getv",
+    "premiere"
+   ],
+   "status": "confirmado",
+   "nota": "Líder contra vice-líder"
+  },
+  {
+   "inicio": "2026-11-21T17:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Bahia",
+   "fora": "Coritiba",
+   "local": "Arena Fonte Nova, Salvador",
+   "rodada": "36ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-21T19:30:00-03:00",
+   "comp": "sul-americana",
+   "casa": "Atlético-MG",
+   "fora": "Boca Juniors",
+   "local": "Roberto Meléndez, Barranquilla",
+   "rodada": "Final",
+   "canais": [
+    "paramount",
+    "disney",
+    "sbt"
+   ],
+   "status": "confirmado",
+   "nota": "Final em jogo único"
+  },
+  {
+   "inicio": "2026-11-21T21:00:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Chapecoense",
+   "fora": "Cruzeiro",
+   "local": "Arena Condá, Chapecó",
+   "rodada": "36ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-22T16:00:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Athletico-PR",
+   "fora": "Remo",
+   "local": "Arena da Baixada, Curitiba",
+   "rodada": "36ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-22T18:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Fluminense",
+   "fora": "Mirassol",
+   "local": "Maracanã, Rio de Janeiro",
+   "rodada": "36ª rodada",
+   "canais": [
+    "record",
+    "cazetv",
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-22T19:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Red Bull Bragantino",
+   "fora": "Vasco",
+   "local": "Cícero de Souza Marques, Bragança Paulista",
+   "rodada": "36ª rodada",
+   "canais": [
+    "sportv",
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-23T19:30:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Internacional",
+   "fora": "Vitória",
+   "local": "Beira-Rio, Porto Alegre",
+   "rodada": "36ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-23T20:00:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Botafogo",
+   "fora": "São Paulo",
+   "local": "Nilton Santos, Rio de Janeiro",
+   "rodada": "36ª rodada",
+   "canais": [
+    "prime"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-23T21:00:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Santos",
+   "fora": "Grêmio",
+   "local": "Morumbis, São Paulo",
+   "rodada": "36ª rodada",
+   "canais": [
+    "sportv",
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-24T18:00:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Chapecoense",
+   "fora": "Palmeiras",
+   "local": "Arena Condá, Chapecó",
+   "rodada": "37ª rodada",
+   "canais": [
+    "record",
+    "cazetv",
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-25T20:00:00-03:00",
+   "comp": "brasileirao-a",
+   "casa": "Atlético-MG",
+   "fora": "Corinthians",
+   "local": "Arena MRV, Belo Horizonte",
+   "rodada": "36ª rodada",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "inicio": "2026-11-28T17:00:00-03:00",
+   "comp": "libertadores",
+   "casa": "Palmeiras",
+   "fora": "Estudiantes",
+   "local": "Estádio Centenário, Montevidéu",
+   "rodada": "Final",
+   "canais": [
+    "globo",
+    "getv",
+    "espn",
+    "disney",
+    "paramount"
+   ],
+   "status": "a_confirmar",
+   "nota": "Horário oficial; transmissão ainda prevista"
+  }
+ ]
+}
