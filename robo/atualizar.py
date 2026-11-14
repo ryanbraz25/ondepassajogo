@@ -9,7 +9,8 @@ Roda sozinho (GitHub Actions, a cada 3 horas) e:
      oficiais (CazéTV, ge tv, Canal GOAT...) e põe o link direto da live no jogo;
   4. junta tudo com dados/verificados.json (jogos conferidos pela checagem diária),
      que sempre tem prioridade;
-  5. grava dados/jogos.json e gera site/index.html.
+  5. acha o escudo de cada time (TheSportsDB) e a bandeira de cada seleção;
+  6. grava dados/jogos.json e gera site/index.html.
 
 Só usa a biblioteca padrão do Python. Variáveis de ambiente (todas opcionais):
   THESPORTSDB_KEY   chave da TheSportsDB (padrão: chave gratuita "123")
@@ -178,6 +179,52 @@ def aplicar_afiliado(cfg):
             c["url"] = f'{c["url"]}{sep}tag={urllib.parse.quote(tag)}'
 
 
+# ---------------------------------------------------------------- Escudos e bandeiras
+BADGE = "https://r2.thesportsdb.com/images/media/team/badge/"
+FLAG = "https://flagcdn.com/w80/{}.png"
+
+
+def escudos(cfg, jogos):
+    """Escudo de cada time (TheSportsDB, grátis) e bandeira de cada seleção (flagcdn).
+
+    dados/escudos.json guarda o que já foi achado: nome do time -> arquivo do escudo
+    (ou "" quando a busca não achou). A cada rodada, busca no máximo 8 times novos,
+    devagar, para respeitar o limite da chave gratuita."""
+    arq = RAIZ / "dados" / "escudos.json"
+    salvos = ler(arq) if arq.exists() else {}
+    band = cfg.get("bandeiras", {})
+    busca = cfg.get("escudos_busca", {})
+    times = []
+    for j in jogos:
+        for t in (j["casa"], j["fora"]):
+            if t not in times:
+                times.append(t)
+    faltam = [t for t in times if t not in band and t not in salvos]
+    if faltam and not OFFLINE:
+        import time
+        key = os.environ.get("THESPORTSDB_KEY", "123")
+        for t in faltam[:8]:
+            termo = busca.get(t) or unicodedata.normalize("NFD", t).encode("ascii", "ignore").decode()
+            try:
+                r = get_json(f"https://www.thesportsdb.com/api/v1/json/{key}/searchteams.php?t={urllib.parse.quote(termo)}")
+                ts = [x for x in (r.get("teams") or []) if x.get("strSport") == "Soccer" and x.get("strBadge")]
+                ts.sort(key=lambda x: x.get("strCountry") != "Brazil")
+                salvos[t] = ts[0]["strBadge"].split("/badge/")[-1] if ts else ""
+                log(f"Escudo de {t}: {salvos[t] or 'não achado'}")
+            except Exception as e:
+                log(f"Escudo de {t}: falhou ({e})")
+            time.sleep(7)
+        arq.write_text(json.dumps(salvos, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    out = {}
+    for t in times:
+        if t in band:
+            out[t] = FLAG.format(band[t])
+        elif salvos.get(t):
+            v = salvos[t]
+            out[t] = v if v.startswith("http") else BADGE + v
+    return out
+
+
 def gerar_site(dados):
     tpl = (RAIZ / "site" / "template.html").read_text(encoding="utf-8")
     bloco = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
@@ -211,6 +258,7 @@ def main():
         "jogos": jogos,
         "sugestoes": {k: v for k, v in cfg.get("sugestoes", {}).items() if k != "comentario"},
         "popularidade": {k: v for k, v in cfg.get("popularidade", {}).items() if k != "comentario"},
+        "escudos": escudos(cfg, jogos),
     }
     anterior.write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
     gerar_site(dados)

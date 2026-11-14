@@ -1,411 +1,478 @@
 {
-  "site": {
-    "nome": "Onde Passa Jogo",
-    "fuso": "America/Sao_Paulo",
-    "dias_a_frente": 14,
-    "dominio": "ondepassajogo.com.br",
-    "usar_thesportsdb": false,
-    "comentario": "usar_thesportsdb: deixe false enquanto a agenda for mantida pela checagem do Claude (dados/verificados.json); true soma os jogos da TheSportsDB, que podem vir com nomes em inglês e duplicar jogos."
+ "site": {
+  "nome": "Onde Passa Jogo",
+  "fuso": "America/Sao_Paulo",
+  "dias_a_frente": 14,
+  "dominio": "ondepassajogo.com.br",
+  "usar_thesportsdb": false,
+  "comentario": "usar_thesportsdb: deixe false enquanto a agenda for mantida pela checagem do Claude (dados/verificados.json); true soma os jogos da TheSportsDB, que podem vir com nomes em inglês e duplicar jogos."
+ },
+ "canais": {
+  "globo": {
+   "nome": "TV Globo",
+   "tipo": "TV aberta",
+   "url": "https://globoplay.globo.com/"
   },
+  "getv": {
+   "nome": "ge tv",
+   "tipo": "YouTube",
+   "url": "https://www.youtube.com/results?search_query=ge+tv+ao+vivo"
+  },
+  "sportv": {
+   "nome": "SporTV",
+   "tipo": "TV fechada",
+   "url": "https://globoplay.globo.com/"
+  },
+  "premiere": {
+   "nome": "Premiere",
+   "tipo": "Pay-per-view",
+   "url": "https://premiere.globo.com/"
+  },
+  "prime": {
+   "nome": "Prime Video",
+   "tipo": "Streaming",
+   "url": "https://www.primevideo.com/",
+   "afiliado": "amazon"
+  },
+  "record": {
+   "nome": "Record",
+   "tipo": "TV aberta",
+   "url": "https://www.r7.com/"
+  },
+  "cazetv": {
+   "nome": "CazéTV",
+   "tipo": "YouTube",
+   "url": "https://www.youtube.com/@CazeTV"
+  },
+  "espn": {
+   "nome": "ESPN",
+   "tipo": "TV fechada",
+   "url": "https://www.disneyplus.com/pt-br"
+  },
+  "disney": {
+   "nome": "Disney+",
+   "tipo": "Streaming",
+   "url": "https://www.disneyplus.com/pt-br"
+  },
+  "paramount": {
+   "nome": "Paramount+",
+   "tipo": "Streaming",
+   "url": "https://www.paramountplus.com/br/"
+  },
+  "sbt": {
+   "nome": "SBT",
+   "tipo": "TV aberta",
+   "url": "https://www.sbt.com.br/"
+  },
+  "tnt": {
+   "nome": "TNT",
+   "tipo": "TV fechada",
+   "url": "https://www.hbomax.com/br/pt"
+  },
+  "hbomax": {
+   "nome": "HBO Max",
+   "tipo": "Streaming",
+   "url": "https://www.hbomax.com/br/pt"
+  },
+  "band": {
+   "nome": "Band",
+   "tipo": "TV aberta",
+   "url": "https://www.band.com.br/"
+  },
+  "goat": {
+   "nome": "Canal GOAT",
+   "tipo": "YouTube",
+   "url": "https://www.youtube.com/results?search_query=Canal+GOAT+ao+vivo"
+  },
+  "onefootball": {
+   "nome": "OneFootball",
+   "tipo": "App",
+   "url": "https://onefootball.com/pt-br/"
+  },
+  "sportynet": {
+   "nome": "SportyNet",
+   "tipo": "YouTube",
+   "url": "https://www.youtube.com/results?search_query=SportyNet+Brasil+ao+vivo"
+  },
+  "xsports": {
+   "nome": "Xsports",
+   "tipo": "TV aberta",
+   "url": "https://www.youtube.com/results?search_query=Xsports+ao+vivo"
+  },
+  "redetv": {
+   "nome": "RedeTV!",
+   "tipo": "TV aberta",
+   "url": "https://www.redetv.uol.com.br/"
+  }
+ },
+ "apelidos_canais": {
+  "tv globo": "globo",
+  "globo": "globo",
+  "globoplay": "globo",
+  "ge tv": "getv",
+  "getv": "getv",
+  "sportv": "sportv",
+  "sportv 2": "sportv",
+  "sportv 3": "sportv",
+  "premiere": "premiere",
+  "prime video": "prime",
+  "amazon prime video": "prime",
+  "record": "record",
+  "recordplus": "record",
+  "cazetv": "cazetv",
+  "cazé tv": "cazetv",
+  "youtube/cazetv": "cazetv",
+  "espn": "espn",
+  "espn 2": "espn",
+  "espn 3": "espn",
+  "espn 4": "espn",
+  "disney+": "disney",
+  "disney plus": "disney",
+  "paramount+": "paramount",
+  "sbt": "sbt",
+  "tnt": "tnt",
+  "space": "tnt",
+  "hbo max": "hbomax",
+  "max": "hbomax",
+  "band": "band",
+  "bandsports": "band",
+  "canal goat": "goat",
+  "onefootball": "onefootball",
+  "sportynet": "sportynet",
+  "sportynet brasil": "sportynet",
+  "xsports": "xsports",
+  "x sports": "xsports",
+  "redetv": "redetv",
+  "redetv!": "redetv",
+  "rede tv": "redetv"
+ },
+ "competicoes": {
+  "brasileirao-a": {
+   "nome": "Brasileirão Série A",
+   "thesportsdb": "Brazilian Serie A",
+   "cor": "#0f8a46",
+   "curto": "Brasileirão",
+   "principal": true
+  },
+  "libertadores": {
+   "nome": "Libertadores",
+   "thesportsdb": "Copa Libertadores",
+   "cor": "#b8860b",
+   "curto": "Libertadores",
+   "principal": true
+  },
+  "sul-americana": {
+   "nome": "Sul-Americana",
+   "thesportsdb": "Copa Sudamericana",
+   "cor": "#1f5fa8",
+   "curto": "Sul-Americana",
+   "principal": true
+  },
+  "copa-do-brasil": {
+   "nome": "Copa do Brasil",
+   "thesportsdb": "Copa do Brasil",
+   "cor": "#1b6b3a",
+   "curto": "Copa do Brasil",
+   "principal": true
+  },
+  "amistoso": {
+   "nome": "Seleção / Amistosos",
+   "thesportsdb": "International Friendlies",
+   "cor": "#f1b600",
+   "curto": "Seleção",
+   "principal": true
+  },
+  "champions": {
+   "nome": "Champions League",
+   "thesportsdb": "UEFA Champions League",
+   "cor": "#0b2a6f",
+   "curto": "Champions",
+   "principal": true
+  },
+  "premier": {
+   "nome": "Premier League",
+   "thesportsdb": "English Premier League",
+   "cor": "#3d195b",
+   "curto": "Premier League",
+   "principal": true
+  },
+  "laliga": {
+   "nome": "La Liga",
+   "thesportsdb": "Spanish La Liga",
+   "cor": "#e8452c",
+   "curto": "La Liga",
+   "principal": true
+  },
+  "serie-a-ita": {
+   "nome": "Serie A (Itália)",
+   "thesportsdb": "Italian Serie A",
+   "cor": "#0a5cff",
+   "curto": "Italiano",
+   "principal": true
+  },
+  "bundesliga": {
+   "nome": "Bundesliga",
+   "thesportsdb": "German Bundesliga",
+   "cor": "#d20515",
+   "curto": "Bundesliga",
+   "principal": true
+  },
+  "ligue1": {
+   "nome": "Ligue 1",
+   "thesportsdb": "French Ligue 1",
+   "cor": "#091c3e",
+   "curto": "Francês",
+   "principal": true
+  },
+  "brasileirao-b": {
+   "nome": "Brasileirão Série B",
+   "thesportsdb": "Brazilian Serie B",
+   "cor": "#3f9e5f",
+   "curto": "Série B",
+   "principal": false
+  },
+  "europa": {
+   "nome": "Liga Europa",
+   "thesportsdb": "UEFA Europa League",
+   "cor": "#f26a00",
+   "curto": "Liga Europa",
+   "principal": false
+  },
+  "conference": {
+   "nome": "Conference League",
+   "thesportsdb": "UEFA Europa Conference League",
+   "cor": "#19a463",
+   "curto": "Conference",
+   "principal": false
+  },
+  "nations": {
+   "nome": "Liga das Nações",
+   "thesportsdb": "UEFA Nations League",
+   "cor": "#143cdb",
+   "curto": "Liga das Nações",
+   "principal": false
+  },
+  "portugal": {
+   "nome": "Liga Portugal",
+   "thesportsdb": "Portuguese Primeira Liga",
+   "cor": "#006a44",
+   "curto": "Português",
+   "principal": false
+  },
+  "argentina": {
+   "nome": "Argentino",
+   "thesportsdb": "Argentinian Primera Division",
+   "cor": "#4aa3df",
+   "curto": "Argentino",
+   "principal": false
+  },
+  "mls": {
+   "nome": "MLS",
+   "thesportsdb": "American Major League Soccer",
+   "cor": "#1a1a1a",
+   "curto": "MLS",
+   "principal": false
+  },
+  "saudita": {
+   "nome": "Saudita",
+   "thesportsdb": "Saudi-Arabian Pro League",
+   "cor": "#0c7a43",
+   "curto": "Saudita",
+   "principal": false
+  }
+ },
+ "youtube": {
+  "comentario": "Canais oficiais monitorados. O robô busca as transmissões agendadas (eventType=upcoming) e casa com os jogos pelo nome dos times no título.",
   "canais": {
-    "globo": {
-      "nome": "TV Globo",
-      "tipo": "TV aberta",
-      "url": "https://globoplay.globo.com/"
-    },
-    "getv": {
-      "nome": "ge tv",
-      "tipo": "YouTube",
-      "url": "https://www.youtube.com/results?search_query=ge+tv+ao+vivo"
-    },
-    "sportv": {
-      "nome": "SporTV",
-      "tipo": "TV fechada",
-      "url": "https://globoplay.globo.com/"
-    },
-    "premiere": {
-      "nome": "Premiere",
-      "tipo": "Pay-per-view",
-      "url": "https://premiere.globo.com/"
-    },
-    "prime": {
-      "nome": "Prime Video",
-      "tipo": "Streaming",
-      "url": "https://www.primevideo.com/",
-      "afiliado": "amazon"
-    },
-    "record": {
-      "nome": "Record",
-      "tipo": "TV aberta",
-      "url": "https://www.r7.com/"
-    },
-    "cazetv": {
-      "nome": "CazéTV",
-      "tipo": "YouTube",
-      "url": "https://www.youtube.com/@CazeTV"
-    },
-    "espn": {
-      "nome": "ESPN",
-      "tipo": "TV fechada",
-      "url": "https://www.disneyplus.com/pt-br"
-    },
-    "disney": {
-      "nome": "Disney+",
-      "tipo": "Streaming",
-      "url": "https://www.disneyplus.com/pt-br"
-    },
-    "paramount": {
-      "nome": "Paramount+",
-      "tipo": "Streaming",
-      "url": "https://www.paramountplus.com/br/"
-    },
-    "sbt": {
-      "nome": "SBT",
-      "tipo": "TV aberta",
-      "url": "https://www.sbt.com.br/"
-    },
-    "tnt": {
-      "nome": "TNT",
-      "tipo": "TV fechada",
-      "url": "https://www.hbomax.com/br/pt"
-    },
-    "hbomax": {
-      "nome": "HBO Max",
-      "tipo": "Streaming",
-      "url": "https://www.hbomax.com/br/pt"
-    },
-    "band": {
-      "nome": "Band",
-      "tipo": "TV aberta",
-      "url": "https://www.band.com.br/"
-    },
-    "goat": {
-      "nome": "Canal GOAT",
-      "tipo": "YouTube",
-      "url": "https://www.youtube.com/results?search_query=Canal+GOAT+ao+vivo"
-    },
-    "onefootball": {
-      "nome": "OneFootball",
-      "tipo": "App",
-      "url": "https://onefootball.com/pt-br/"
-    },
-    "sportynet": {
-      "nome": "SportyNet",
-      "tipo": "YouTube",
-      "url": "https://www.youtube.com/results?search_query=SportyNet+Brasil+ao+vivo"
-    },
-    "xsports": {
-      "nome": "Xsports",
-      "tipo": "TV aberta",
-      "url": "https://www.youtube.com/results?search_query=Xsports+ao+vivo"
-    },
-    "redetv": {
-      "nome": "RedeTV!",
-      "tipo": "TV aberta",
-      "url": "https://www.redetv.uol.com.br/"
-    }
-  },
-  "apelidos_canais": {
-    "tv globo": "globo",
-    "globo": "globo",
-    "globoplay": "globo",
-    "ge tv": "getv",
-    "getv": "getv",
-    "sportv": "sportv",
-    "sportv 2": "sportv",
-    "sportv 3": "sportv",
-    "premiere": "premiere",
-    "prime video": "prime",
-    "amazon prime video": "prime",
-    "record": "record",
-    "recordplus": "record",
-    "cazetv": "cazetv",
-    "cazé tv": "cazetv",
-    "youtube/cazetv": "cazetv",
-    "espn": "espn",
-    "espn 2": "espn",
-    "espn 3": "espn",
-    "espn 4": "espn",
-    "disney+": "disney",
-    "disney plus": "disney",
-    "paramount+": "paramount",
-    "sbt": "sbt",
-    "tnt": "tnt",
-    "space": "tnt",
-    "hbo max": "hbomax",
-    "max": "hbomax",
-    "band": "band",
-    "bandsports": "band",
-    "canal goat": "goat",
-    "onefootball": "onefootball",
-    "sportynet": "sportynet",
-    "sportynet brasil": "sportynet",
-    "xsports": "xsports",
-    "x sports": "xsports",
-    "redetv": "redetv",
-    "redetv!": "redetv",
-    "rede tv": "redetv"
+   "cazetv": "@CazeTV",
+   "getv": "@getv",
+   "goat": "@canalgoat"
+  }
+ },
+ "sugestoes": {
+  "comentario": "Formulário Google que recebe as sugestões dos visitantes. Cole o link do formulário e os ids dos campos (entry.123...).",
+  "form_url": "",
+  "campos": {
+   "jogo": "",
+   "canal": "",
+   "link": ""
+  }
+ },
+ "popularidade": {
+  "comentario": "Peso de audiência para ordenar os jogos ao vivo. Times: torcida (Datafolha, IPEC, Quaest 2026) e redes sociais (Ibope Repucom 2026). Nomes normalizados (sem acento, minúsculo).",
+  "padrao": 10,
+  "times": {
+   "brasil": 110,
+   "flamengo": 100,
+   "corinthians": 85,
+   "palmeiras": 70,
+   "sao paulo": 68,
+   "santos": 62,
+   "vasco": 55,
+   "cruzeiro": 52,
+   "atletico mg": 52,
+   "gremio": 50,
+   "internacional": 48,
+   "fluminense": 45,
+   "botafogo": 45,
+   "bahia": 40,
+   "sport": 35,
+   "fortaleza": 32,
+   "ceara": 32,
+   "vitoria": 30,
+   "athletico pr": 30,
+   "remo": 28,
+   "paysandu": 26,
+   "coritiba": 25,
+   "goias": 22,
+   "chapecoense": 20,
+   "nautico": 18,
+   "santa cruz": 18,
+   "mirassol": 18,
+   "red bull bragantino": 18,
+   "america mg": 18,
+   "juventude": 15,
+   "crb": 15,
+   "avai": 15,
+   "ponte preta": 15,
+   "guarani": 15,
+   "criciuma": 14,
+   "atletico go": 14,
+   "vila nova": 12,
+   "novorizontino": 10,
+   "cuiaba": 10,
+   "botafogo sp": 10,
+   "londrina": 10,
+   "operario pr": 10,
+   "sao bernardo": 8,
+   "athletic": 6,
+   "real madrid": 60,
+   "barcelona": 60,
+   "manchester city": 45,
+   "manchester united": 45,
+   "liverpool": 45,
+   "psg": 45,
+   "paris saint germain": 45,
+   "chelsea": 40,
+   "arsenal": 40,
+   "bayern de munique": 40,
+   "inter miami": 40,
+   "al nassr": 35,
+   "juventus": 35,
+   "milan": 35,
+   "inter de milao": 35,
+   "boca juniors": 35,
+   "river plate": 35,
+   "tottenham": 30,
+   "atletico de madrid": 30,
+   "al hilal": 30,
+   "newcastle": 25,
+   "benfica": 25,
+   "porto": 25,
+   "sporting": 25,
+   "estudiantes": 20,
+   "aston villa": 18,
+   "borussia dortmund": 25,
+   "argentina": 50,
+   "portugal": 45,
+   "franca": 40,
+   "espanha": 40,
+   "inglaterra": 40,
+   "italia": 35,
+   "alemanha": 35,
+   "holanda": 25,
+   "uruguai": 25,
+   "japao": 20
   },
   "competicoes": {
-    "brasileirao-a": {
-      "nome": "Brasileirão Série A",
-      "thesportsdb": "Brazilian Serie A",
-      "cor": "#0f8a46",
-      "curto": "Brasileirão",
-      "principal": true
-    },
-    "libertadores": {
-      "nome": "Libertadores",
-      "thesportsdb": "Copa Libertadores",
-      "cor": "#b8860b",
-      "curto": "Libertadores",
-      "principal": true
-    },
-    "sul-americana": {
-      "nome": "Sul-Americana",
-      "thesportsdb": "Copa Sudamericana",
-      "cor": "#1f5fa8",
-      "curto": "Sul-Americana",
-      "principal": true
-    },
-    "copa-do-brasil": {
-      "nome": "Copa do Brasil",
-      "thesportsdb": "Copa do Brasil",
-      "cor": "#1b6b3a",
-      "curto": "Copa do Brasil",
-      "principal": true
-    },
-    "amistoso": {
-      "nome": "Seleção / Amistosos",
-      "thesportsdb": "International Friendlies",
-      "cor": "#f1b600",
-      "curto": "Seleção",
-      "principal": true
-    },
-    "champions": {
-      "nome": "Champions League",
-      "thesportsdb": "UEFA Champions League",
-      "cor": "#0b2a6f",
-      "curto": "Champions",
-      "principal": true
-    },
-    "premier": {
-      "nome": "Premier League",
-      "thesportsdb": "English Premier League",
-      "cor": "#3d195b",
-      "curto": "Premier League",
-      "principal": true
-    },
-    "laliga": {
-      "nome": "La Liga",
-      "thesportsdb": "Spanish La Liga",
-      "cor": "#e8452c",
-      "curto": "La Liga",
-      "principal": true
-    },
-    "serie-a-ita": {
-      "nome": "Serie A (Itália)",
-      "thesportsdb": "Italian Serie A",
-      "cor": "#0a5cff",
-      "curto": "Italiano",
-      "principal": true
-    },
-    "bundesliga": {
-      "nome": "Bundesliga",
-      "thesportsdb": "German Bundesliga",
-      "cor": "#d20515",
-      "curto": "Bundesliga",
-      "principal": true
-    },
-    "ligue1": {
-      "nome": "Ligue 1",
-      "thesportsdb": "French Ligue 1",
-      "cor": "#091c3e",
-      "curto": "Francês",
-      "principal": true
-    },
-    "brasileirao-b": {
-      "nome": "Brasileirão Série B",
-      "thesportsdb": "Brazilian Serie B",
-      "cor": "#3f9e5f",
-      "curto": "Série B",
-      "principal": false
-    },
-    "europa": {
-      "nome": "Liga Europa",
-      "thesportsdb": "UEFA Europa League",
-      "cor": "#f26a00",
-      "curto": "Liga Europa",
-      "principal": false
-    },
-    "conference": {
-      "nome": "Conference League",
-      "thesportsdb": "UEFA Europa Conference League",
-      "cor": "#19a463",
-      "curto": "Conference",
-      "principal": false
-    },
-    "nations": {
-      "nome": "Liga das Nações",
-      "thesportsdb": "UEFA Nations League",
-      "cor": "#143cdb",
-      "curto": "Liga das Nações",
-      "principal": false
-    },
-    "portugal": {
-      "nome": "Liga Portugal",
-      "thesportsdb": "Portuguese Primeira Liga",
-      "cor": "#006a44",
-      "curto": "Português",
-      "principal": false
-    },
-    "argentina": {
-      "nome": "Argentino",
-      "thesportsdb": "Argentinian Primera Division",
-      "cor": "#4aa3df",
-      "curto": "Argentino",
-      "principal": false
-    },
-    "mls": {
-      "nome": "MLS",
-      "thesportsdb": "American Major League Soccer",
-      "cor": "#1a1a1a",
-      "curto": "MLS",
-      "principal": false
-    },
-    "saudita": {
-      "nome": "Saudita",
-      "thesportsdb": "Saudi-Arabian Pro League",
-      "cor": "#0c7a43",
-      "curto": "Saudita",
-      "principal": false
-    }
+   "libertadores": 25,
+   "sul-americana": 15,
+   "copa-do-brasil": 15,
+   "brasileirao-a": 15,
+   "champions": 15,
+   "amistoso": 10,
+   "premier": 8,
+   "laliga": 8,
+   "serie-a-ita": 5,
+   "bundesliga": 5,
+   "ligue1": 5,
+   "europa": 5,
+   "nations": 0,
+   "brasileirao-b": 0,
+   "conference": 0,
+   "portugal": 0,
+   "argentina": 3,
+   "mls": 3,
+   "saudita": 3
   },
-  "youtube": {
-    "comentario": "Canais oficiais monitorados. O robô busca as transmissões agendadas (eventType=upcoming) e casa com os jogos pelo nome dos times no título.",
-    "canais": {
-      "cazetv": "@CazeTV",
-      "getv": "@getv",
-      "goat": "@canalgoat"
-    }
-  },
-  "sugestoes": {
-    "comentario": "Formulário Google que recebe as sugestões dos visitantes. Cole o link do formulário e os ids dos campos (entry.123...).",
-    "form_url": "",
-    "campos": {
-      "jogo": "",
-      "canal": "",
-      "link": ""
-    }
-  },
-  "popularidade": {
-    "comentario": "Peso de audiência para ordenar os jogos ao vivo. Times: torcida (Datafolha, IPEC, Quaest 2026) e redes sociais (Ibope Repucom 2026). Nomes normalizados (sem acento, minúsculo).",
-    "padrao": 10,
-    "times": {
-      "brasil": 110,
-      "flamengo": 100,
-      "corinthians": 85,
-      "palmeiras": 70,
-      "sao paulo": 68,
-      "santos": 62,
-      "vasco": 55,
-      "cruzeiro": 52,
-      "atletico mg": 52,
-      "gremio": 50,
-      "internacional": 48,
-      "fluminense": 45,
-      "botafogo": 45,
-      "bahia": 40,
-      "sport": 35,
-      "fortaleza": 32,
-      "ceara": 32,
-      "vitoria": 30,
-      "athletico pr": 30,
-      "remo": 28,
-      "paysandu": 26,
-      "coritiba": 25,
-      "goias": 22,
-      "chapecoense": 20,
-      "nautico": 18,
-      "santa cruz": 18,
-      "mirassol": 18,
-      "red bull bragantino": 18,
-      "america mg": 18,
-      "juventude": 15,
-      "crb": 15,
-      "avai": 15,
-      "ponte preta": 15,
-      "guarani": 15,
-      "criciuma": 14,
-      "atletico go": 14,
-      "vila nova": 12,
-      "novorizontino": 10,
-      "cuiaba": 10,
-      "botafogo sp": 10,
-      "londrina": 10,
-      "operario pr": 10,
-      "sao bernardo": 8,
-      "athletic": 6,
-      "real madrid": 60,
-      "barcelona": 60,
-      "manchester city": 45,
-      "manchester united": 45,
-      "liverpool": 45,
-      "psg": 45,
-      "paris saint germain": 45,
-      "chelsea": 40,
-      "arsenal": 40,
-      "bayern de munique": 40,
-      "inter miami": 40,
-      "al nassr": 35,
-      "juventus": 35,
-      "milan": 35,
-      "inter de milao": 35,
-      "boca juniors": 35,
-      "river plate": 35,
-      "tottenham": 30,
-      "atletico de madrid": 30,
-      "al hilal": 30,
-      "newcastle": 25,
-      "benfica": 25,
-      "porto": 25,
-      "sporting": 25,
-      "estudiantes": 20,
-      "aston villa": 18,
-      "borussia dortmund": 25,
-      "argentina": 50,
-      "portugal": 45,
-      "franca": 40,
-      "espanha": 40,
-      "inglaterra": 40,
-      "italia": 35,
-      "alemanha": 35,
-      "holanda": 25,
-      "uruguai": 25,
-      "japao": 20
-    },
-    "competicoes": {
-      "libertadores": 25,
-      "sul-americana": 15,
-      "copa-do-brasil": 15,
-      "brasileirao-a": 15,
-      "champions": 15,
-      "amistoso": 10,
-      "premier": 8,
-      "laliga": 8,
-      "serie-a-ita": 5,
-      "bundesliga": 5,
-      "ligue1": 5,
-      "europa": 5,
-      "nations": 0,
-      "brasileirao-b": 0,
-      "conference": 0,
-      "portugal": 0,
-      "argentina": 3,
-      "mls": 3,
-      "saudita": 3
-    },
-    "final": 30,
-    "decisivo": 5
-  }
+  "final": 30,
+  "decisivo": 5
+ },
+ "bandeiras": {
+  "Brasil": "br",
+  "Japão": "jp",
+  "Singapura": "sg",
+  "Bélgica": "be",
+  "Bósnia": "ba",
+  "Dinamarca": "dk",
+  "Espanha": "es",
+  "França": "fr",
+  "Inglaterra": "gb-eng",
+  "Escócia": "gb-sct",
+  "País de Gales": "gb-wls",
+  "Irlanda": "ie",
+  "Irlanda do Norte": "gb-nir",
+  "Itália": "it",
+  "Polônia": "pl",
+  "Portugal": "pt",
+  "Romênia": "ro",
+  "Suécia": "se",
+  "Turquia": "tr",
+  "Ucrânia": "ua",
+  "Áustria": "at",
+  "Alemanha": "de",
+  "Holanda": "nl",
+  "Suíça": "ch",
+  "Croácia": "hr",
+  "Sérvia": "rs",
+  "Grécia": "gr",
+  "Hungria": "hu",
+  "Noruega": "no",
+  "República Tcheca": "cz",
+  "Eslováquia": "sk",
+  "Eslovênia": "si",
+  "Argentina": "ar",
+  "Uruguai": "uy",
+  "Paraguai": "py",
+  "Chile": "cl",
+  "Colômbia": "co",
+  "Equador": "ec",
+  "Peru": "pe",
+  "Bolívia": "bo",
+  "Venezuela": "ve",
+  "México": "mx",
+  "Estados Unidos": "us",
+  "Canadá": "ca",
+  "Marrocos": "ma",
+  "Senegal": "sn",
+  "Coreia do Sul": "kr",
+  "Austrália": "au",
+  "Arábia Saudita": "sa",
+  "Catar": "qa"
+ },
+ "escudos_busca": {
+  "comentario": "Nome de busca na TheSportsDB quando o nome em português não acha o time certo",
+  "Vasco": "Vasco da Gama",
+  "Sport": "Sport Recife",
+  "Leeds": "Leeds United",
+  "Newcastle": "Newcastle United",
+  "Atlético-MG": "Atletico Mineiro",
+  "Athletico-PR": "Athletico Paranaense",
+  "América-MG": "America Mineiro",
+  "Atlético-GO": "Atletico Goianiense",
+  "Botafogo-SP": "Botafogo-SP",
+  "Red Bull Bragantino": "Bragantino",
+  "São Paulo": "Sao Paulo FC",
+  "Estudiantes": "Estudiantes de La Plata"
+ }
 }
