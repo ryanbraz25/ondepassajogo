@@ -5,7 +5,7 @@
   "dias_a_frente": 14,
   "dominio": "ondepassajogo.com.br",
   "usar_thesportsdb": false,
-  "comentario": "usar_thesportsdb: deixe false enquanto a agenda for mantida pela checagem do Claude (dados/verificados.json); true soma os jogos da TheSportsDB, que podem vir com nomes em inglês e duplicar jogos."
+  "comentario": "Jogos, horários e placares vêm da ESPN (grátis, sem chave). Canais vêm de dados/canais.json (pesquisa noturna). TheSportsDB fica desligada: o plano grátis só devolve 1 a 3 jogos por consulta."
  },
  "canais": {
   "globo": {
@@ -152,133 +152,164 @@
    "thesportsdb": "Brazilian Serie A",
    "cor": "#0f8a46",
    "curto": "Brasileirão",
-   "principal": true
+   "principal": true,
+   "espn": "bra.1"
   },
   "libertadores": {
    "nome": "Libertadores",
    "thesportsdb": "Copa Libertadores",
    "cor": "#b8860b",
    "curto": "Libertadores",
-   "principal": true
+   "principal": true,
+   "espn": "conmebol.libertadores"
   },
   "sul-americana": {
    "nome": "Sul-Americana",
    "thesportsdb": "Copa Sudamericana",
    "cor": "#1f5fa8",
    "curto": "Sul-Americana",
-   "principal": true
+   "principal": true,
+   "espn": "conmebol.sudamericana"
   },
   "copa-do-brasil": {
    "nome": "Copa do Brasil",
    "thesportsdb": "Copa do Brasil",
    "cor": "#1b6b3a",
    "curto": "Copa do Brasil",
-   "principal": true
+   "principal": true,
+   "espn": "bra.copa_do_brazil"
   },
   "amistoso": {
    "nome": "Seleção / Amistosos",
    "thesportsdb": "International Friendlies",
    "cor": "#f1b600",
    "curto": "Seleção",
-   "principal": true
+   "principal": true,
+   "espn": "fifa.friendly",
+   "so_destaque": true
   },
   "champions": {
    "nome": "Champions League",
    "thesportsdb": "UEFA Champions League",
    "cor": "#0b2a6f",
    "curto": "Champions",
-   "principal": true
+   "principal": true,
+   "espn": "uefa.champions"
   },
   "premier": {
    "nome": "Premier League",
    "thesportsdb": "English Premier League",
    "cor": "#3d195b",
    "curto": "Premier League",
-   "principal": true
+   "principal": true,
+   "espn": "eng.1",
+   "canais_padrao": [
+    "espn",
+    "disney"
+   ]
   },
   "laliga": {
    "nome": "La Liga",
    "thesportsdb": "Spanish La Liga",
    "cor": "#e8452c",
    "curto": "La Liga",
-   "principal": true
+   "principal": true,
+   "espn": "esp.1"
   },
   "serie-a-ita": {
    "nome": "Serie A (Itália)",
    "thesportsdb": "Italian Serie A",
    "cor": "#0a5cff",
    "curto": "Italiano",
-   "principal": true
+   "principal": true,
+   "espn": "ita.1"
   },
   "bundesliga": {
    "nome": "Bundesliga",
    "thesportsdb": "German Bundesliga",
    "cor": "#d20515",
    "curto": "Bundesliga",
-   "principal": true
+   "principal": true,
+   "espn": "ger.1"
   },
   "ligue1": {
    "nome": "Ligue 1",
    "thesportsdb": "French Ligue 1",
    "cor": "#091c3e",
    "curto": "Francês",
-   "principal": true
+   "principal": true,
+   "espn": "fra.1"
   },
   "brasileirao-b": {
    "nome": "Brasileirão Série B",
    "thesportsdb": "Brazilian Serie B",
    "cor": "#3f9e5f",
    "curto": "Série B",
-   "principal": false
+   "principal": false,
+   "espn": "bra.2",
+   "canais_padrao": [
+    "disney"
+   ]
   },
   "europa": {
    "nome": "Liga Europa",
    "thesportsdb": "UEFA Europa League",
    "cor": "#f26a00",
    "curto": "Liga Europa",
-   "principal": false
+   "principal": false,
+   "espn": "uefa.europa"
   },
   "conference": {
    "nome": "Conference League",
    "thesportsdb": "UEFA Europa Conference League",
    "cor": "#19a463",
    "curto": "Conference",
-   "principal": false
+   "principal": false,
+   "espn": "uefa.europa.conf"
   },
   "nations": {
    "nome": "Liga das Nações",
    "thesportsdb": "UEFA Nations League",
    "cor": "#143cdb",
    "curto": "Liga das Nações",
-   "principal": false
+   "principal": false,
+   "espn": "uefa.nations",
+   "canais_padrao": [
+    "disney"
+   ],
+   "so_destaque": true
   },
   "portugal": {
    "nome": "Liga Portugal",
    "thesportsdb": "Portuguese Primeira Liga",
    "cor": "#006a44",
    "curto": "Português",
-   "principal": false
+   "principal": false,
+   "espn": "por.1"
   },
   "argentina": {
    "nome": "Argentino",
    "thesportsdb": "Argentinian Primera Division",
    "cor": "#4aa3df",
    "curto": "Argentino",
-   "principal": false
+   "principal": false,
+   "espn": "arg.1"
   },
   "mls": {
    "nome": "MLS",
    "thesportsdb": "American Major League Soccer",
    "cor": "#1a1a1a",
    "curto": "MLS",
-   "principal": false
+   "principal": false,
+   "espn": "usa.1"
   },
   "saudita": {
    "nome": "Saudita",
    "thesportsdb": "Saudi-Arabian Pro League",
    "cor": "#0c7a43",
    "curto": "Saudita",
-   "principal": false
+   "principal": false,
+   "espn": "ksa.1"
   }
  },
  "youtube": {
@@ -474,5 +505,108 @@
   "Red Bull Bragantino": "Bragantino",
   "São Paulo": "Sao Paulo FC",
   "Estudiantes": "Estudiantes de La Plata"
- }
+ },
+ "nomes": {
+  "comentario": "Nome que vem da ESPN -> nome usado no site (português). Times que não estão aqui ficam com o nome da ESPN.",
+  "Vasco da Gama": "Vasco",
+  "América Mineiro": "América-MG",
+  "Atlético Goianiense": "Atlético-GO",
+  "AFC Bournemouth": "Bournemouth",
+  "Leeds United": "Leeds",
+  "Newcastle United": "Newcastle",
+  "Estudiantes de La Plata": "Estudiantes",
+  "Bragantino": "Red Bull Bragantino",
+  "Atletico-MG": "Atlético-MG",
+  "Sao Paulo": "São Paulo",
+  "Brighton & Hove Albion": "Brighton",
+  "Tottenham Hotspur": "Tottenham",
+  "Bayern Munich": "Bayern de Munique",
+  "Internazionale": "Inter de Milão",
+  "AC Milan": "Milan",
+  "AS Roma": "Roma",
+  "Atlético Madrid": "Atlético de Madrid",
+  "Brazil": "Brasil",
+  "Argentina": "Argentina",
+  "Uruguay": "Uruguai",
+  "Paraguay": "Paraguai",
+  "Chile": "Chile",
+  "Colombia": "Colômbia",
+  "Ecuador": "Equador",
+  "Peru": "Peru",
+  "Bolivia": "Bolívia",
+  "Venezuela": "Venezuela",
+  "Mexico": "México",
+  "United States": "Estados Unidos",
+  "USA": "Estados Unidos",
+  "Canada": "Canadá",
+  "Japan": "Japão",
+  "South Korea": "Coreia do Sul",
+  "Singapore": "Singapura",
+  "Saudi Arabia": "Arábia Saudita",
+  "Qatar": "Catar",
+  "Australia": "Austrália",
+  "Morocco": "Marrocos",
+  "Senegal": "Senegal",
+  "Albania": "Albânia",
+  "Austria": "Áustria",
+  "Belgium": "Bélgica",
+  "Bosnia-Herzegovina": "Bósnia",
+  "Croatia": "Croácia",
+  "Czechia": "República Tcheca",
+  "Denmark": "Dinamarca",
+  "England": "Inglaterra",
+  "France": "França",
+  "Germany": "Alemanha",
+  "Greece": "Grécia",
+  "Hungary": "Hungria",
+  "Iceland": "Islândia",
+  "Italy": "Itália",
+  "Netherlands": "Holanda",
+  "Northern Ireland": "Irlanda do Norte",
+  "Norway": "Noruega",
+  "Poland": "Polônia",
+  "Portugal": "Portugal",
+  "Republic of Ireland": "Irlanda",
+  "Romania": "Romênia",
+  "Scotland": "Escócia",
+  "Serbia": "Sérvia",
+  "Slovakia": "Eslováquia",
+  "Slovenia": "Eslovênia",
+  "Spain": "Espanha",
+  "Sweden": "Suécia",
+  "Switzerland": "Suíça",
+  "Türkiye": "Turquia",
+  "Turkey": "Turquia",
+  "Ukraine": "Ucrânia",
+  "Wales": "País de Gales",
+  "Finland": "Finlândia",
+  "Georgia": "Geórgia"
+ },
+ "selecoes_destaque": [
+  "Brasil",
+  "Argentina",
+  "França",
+  "Inglaterra",
+  "Espanha",
+  "Portugal",
+  "Alemanha",
+  "Itália",
+  "Holanda",
+  "Bélgica",
+  "Croácia",
+  "Uruguai",
+  "Colômbia",
+  "Suíça",
+  "Dinamarca",
+  "Escócia",
+  "Turquia",
+  "Ucrânia",
+  "Polônia",
+  "Noruega",
+  "Suécia",
+  "Japão",
+  "Estados Unidos",
+  "México",
+  "Marrocos"
+ ]
 }

@@ -3,12 +3,11 @@
 Robô de atualização da Agenda do Futebol.
 
 Roda sozinho (GitHub Actions, a cada 3 horas) e:
-  1. busca jogos e horários dos próximos dias na TheSportsDB;
-  2. se houver chave premium da TheSportsDB, busca também os canais de TV do Brasil;
+  1. busca jogos, horários e placares dos próximos dias na ESPN (sem chave);
+  2. junta os canais que a pesquisa noturna do Claude grava em dados/canais.json;
   3. se houver chave da API do YouTube, procura as transmissões agendadas nos canais
      oficiais (CazéTV, ge tv, Canal GOAT...) e põe o link direto da live no jogo;
-  4. junta tudo com dados/verificados.json (jogos conferidos pela checagem diária),
-     que sempre tem prioridade;
+  4. aplica dados/verificados.json (correções feitas à mão), que sempre têm prioridade;
   5. acha o escudo de cada time (TheSportsDB) e a bandeira de cada seleção;
   6. grava dados/jogos.json e gera site/index.html.
 
@@ -17,7 +16,8 @@ Só usa a biblioteca padrão do Python. Variáveis de ambiente (todas opcionais)
   YOUTUBE_API_KEY   chave da YouTube Data API v3
   AMAZON_TAG        sua tag de Associado Amazon (vai no link do Prime Video)
 
-Uso:  python robo/atualizar.py            (normal)
+Uso:  python robo/atualizar.py            (normal: a cada 6 horas busca 15 dias; nas outras, ontem a amanhã)
+      python robo/atualizar.py --completo (força a busca dos 15 dias)
       python robo/atualizar.py --offline  (não acessa a internet; só monta o site)
 """
 import json, os, re, sys, unicodedata, urllib.parse, urllib.request
@@ -109,6 +109,123 @@ def thesportsdb_tv(cfg, dias, jogos):
                 j["canais"].append(canal)
                 n += 1
     log(f"TheSportsDB TV: {n} canais brasileiros encontrados")
+
+
+# ---------------------------------------------------------------- ESPN (jogos, horários e placares)
+ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{}/scoreboard?dates={}"
+CACHE = RAIZ / "dados" / "agenda_api.json"
+
+
+def nome(cfg, t):
+    """Nome do time como o site usa (português, igual ao das tarefas de canais)."""
+    return cfg.get("nomes", {}).get(t, t)
+
+
+def espn(cfg, completo):
+    """Busca os jogos de cada campeonato na ESPN, um dia por vez.
+
+    completo=True busca de ontem até dias_a_frente; senão só ontem, hoje e amanhã
+    (o resto vem do cache dados/agenda_api.json, gravado na última busca completa)."""
+    import time
+    hoje = datetime.now(BRT).date()
+    n_dias = cfg["site"]["dias_a_frente"] + 1 if completo else 3
+    datas = [(hoje + timedelta(days=i - 1)).strftime("%Y%m%d") for i in range(n_dias)]
+    cache = ler(CACHE) if CACHE.exists() else {}
+    destaque = set(cfg.get("selecoes_destaque", []))
+    ok = falhas = 0
+    for comp, c in cfg["competicoes"].items():
+        liga = c.get("espn")
+        if not liga:
+            continue
+        for d in datas:
+            try:
+                evs = get_json(ESPN.format(liga, d)).get("events") or []
+            except Exception as e:
+                falhas += 1
+                log("ESPN falhou:", liga, d, e)
+                continue
+            ok += 1
+            for k in [k for k, v in cache.items() if v.get("_liga") == liga and v.get("_d") == d]:
+                del cache[k]
+            for ev in evs:
+                try:
+                    cp = ev["competitions"][0]
+                    times = {x["homeAway"]: x for x in cp["competitors"]}
+                    casa = nome(cfg, times["home"]["team"]["displayName"])
+                    fora = nome(cfg, times["away"]["team"]["displayName"])
+                except (KeyError, IndexError):
+                    continue
+                if c.get("so_destaque") and not ({casa, fora} & destaque):
+                    continue
+                st = ev.get("status", {}).get("type", {})
+                ini = datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(BRT)
+                v = cp.get("venue") or ev.get("venue") or {}
+                local = ", ".join(x for x in (v.get("fullName"), (v.get("address") or {}).get("city")) if x)
+                j = {"inicio": ini.isoformat(), "comp": comp, "casa": casa, "fora": fora, "local": local,
+                     "canais": list(c.get("canais_padrao", [])), "status": "a_confirmar",
+                     "_liga": liga, "_d": d}
+                nm = st.get("name", "")
+                if st.get("completed") and "CANCEL" not in nm and "POSTPON" not in nm:
+                    try:
+                        j["placar"] = {"casa": int(times["home"]["score"]), "fora": int(times["away"]["score"])}
+                    except (KeyError, ValueError, TypeError):
+                        pass
+                    pen = [times[x].get("shootoutScore") for x in ("home", "away")]
+                    if all(p is not None for p in pen):
+                        j["nota"] = f"Pênaltis: {int(pen[0])} x {int(pen[1])}"
+                elif "POSTPON" in nm:
+                    j["nota"] = "Adiado"
+                elif "CANCEL" in nm:
+                    j["nota"] = "Cancelado"
+                cache["espn:" + str(ev.get("id"))] = j
+            time.sleep(0.25)
+    ontem = (hoje - timedelta(days=1)).isoformat()
+    cache = {k: v for k, v in cache.items() if v["inicio"][:10] >= ontem}
+    if ok:
+        CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    log(f"ESPN: {ok} consultas certas, {falhas} falhas, {len(cache)} jogos no cache")
+    return [dict(v) for v in cache.values()]
+
+
+def aplicar_canais(cfg, jogos):
+    """Junta os canais pesquisados pelo Claude (dados/canais.json) aos jogos da ESPN.
+
+    Casa por dia + mandante + visitante (aceita 1 dia de diferença, para jogo remarcado
+    perto da meia-noite). Entrada com "inicio" e "comp" que não achar jogo vira jogo novo."""
+    arq = RAIZ / "dados" / "canais.json"
+    if not arq.exists():
+        return jogos
+    entradas = ler(arq).get("jogos", [])
+    idx = {}
+    for j in jogos:
+        idx.setdefault((norm(j["casa"]), norm(j["fora"])), []).append(j)
+    usados = n = 0
+    for e in entradas:
+        dia = (e.get("data") or e.get("inicio", ""))[:10]
+        alvo = None
+        for j in idx.get((norm(nome(cfg, e["casa"])), norm(nome(cfg, e["fora"]))), []):
+            dif = abs((datetime.fromisoformat(j["inicio"]).date() - datetime.fromisoformat(dia).date()).days) if dia else 0
+            if dif <= 1:
+                alvo = j
+                break
+        if alvo is None:
+            if e.get("inicio") and e.get("comp"):
+                novo = {k: v for k, v in e.items() if k != "data"}
+                novo.setdefault("canais", [])
+                novo.setdefault("status", "a_confirmar")
+                jogos.append(novo)
+                n += 1
+            continue
+        usados += 1
+        if e.get("canais"):
+            alvo["canais"] = [c for c in e["canais"] if c in cfg["canais"]]
+        for k in ("status", "rodada", "nota"):
+            if e.get(k) and not (k == "nota" and alvo.get("nota") in ("Adiado", "Cancelado")):
+                alvo[k] = e[k]
+        if e.get("links"):
+            alvo["links"] = {**alvo.get("links", {}), **e["links"]}
+    log(f"Canais: {usados} jogos com canais pesquisados, {n} jogos acrescentados só pela pesquisa")
+    return jogos
 
 
 # ---------------------------------------------------------------- YouTube
@@ -237,12 +354,21 @@ def main():
     hoje = datetime.now(BRT).date()
     dias = [(hoje + timedelta(days=i)).isoformat() for i in range(cfg["site"]["dias_a_frente"])]
 
-    api = []
-    if not OFFLINE:
+    agora = datetime.now(BRT)
+    if OFFLINE:
+        api = [dict(v) for v in ler(CACHE).values()] if CACHE.exists() else []
+    else:
+        completo = "--completo" in sys.argv or not CACHE.exists() or agora.hour % 6 == 0
+        api = espn(cfg, completo)
         if cfg["site"].get("usar_thesportsdb"):
-            api = thesportsdb(cfg, dias)
+            api += thesportsdb(cfg, dias)
             thesportsdb_tv(cfg, dias, api)
+    api = aplicar_canais(cfg, api)
+    if not OFFLINE:
         youtube(cfg, api + verif)
+    for j in api:
+        j.pop("_liga", None)
+        j.pop("_d", None)
 
     jogos = juntar(api, verif)
     anterior = RAIZ / "dados" / "jogos.json"
