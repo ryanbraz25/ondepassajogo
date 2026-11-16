@@ -3552,13 +3552,13 @@
   "_d": "20261117",
   "_liga": "fifa.friendly",
   "_logos": {
-   "Dominican Republic": "https://a.espncdn.com/i/teamlogos/countries/500/dom.png",
+   "República Dominicana": "https://a.espncdn.com/i/teamlogos/countries/500/dom.png",
    "Uruguai": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png"
   },
   "canais": [],
   "casa": "Uruguai",
   "comp": "amistoso",
-  "fora": "Dominican Republic",
+  "fora": "República Dominicana",
   "inicio": "2026-11-17T20:30:00-03:00",
   "local": "Estadio Domingo Burgueño Miguel, Maldonado",
   "status": "a_confirmar"
