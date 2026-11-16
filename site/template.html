@@ -213,6 +213,22 @@ footer p{margin:4px 0}
 .cr.ini{display:inline-grid;place-items:center;border-radius:50%;background:var(--chip);color:var(--mute);font:700 .5em/1 Barlow,sans-serif;width:2.1em;height:2.1em;vertical-align:.12em}
 .board .tm{display:flex;align-items:center}
 .board .tm .cr{flex:0 0 auto}
+.favb{margin-left:8px;background:none;border:1px solid var(--line);border-radius:999px;padding:1px 9px;min-height:26px;color:var(--mute);font:600 13px Barlow,sans-serif;cursor:pointer;vertical-align:1px}
+.favb.on{color:#8a6a00;border-color:var(--gold);background:color-mix(in srgb,var(--gold) 22%,transparent)}
+:root[data-theme=dark] .favb.on{color:var(--gold)}
+.favbox{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--chip)}
+.favbox span{font-size:14px;color:var(--mute);margin-right:4px}
+.favbox button{min-height:40px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:600 15px Barlow,sans-serif;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.favbox button[aria-pressed=true]{background:var(--gold);border-color:var(--gold);color:#0a0f0c}
+.favbox .ok{background:none;border:0;text-decoration:underline;color:var(--pitch)}
+.chip.favchip[aria-pressed=false]{border-color:var(--gold)}
+.li.favli i{background:var(--gold)!important}
+.g.isfav{box-shadow:inset 3px 0 0 var(--gold);padding-left:10px}
+.ad{margin:22px 0;text-align:center}
+.ad small{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin-bottom:4px}
+.side .ad{margin-top:22px}
+footer a{color:inherit}
+@media(max-width:959px){.side .ad{display:none}}
 </style>
 </head>
 <body>
@@ -262,12 +278,13 @@ footer p{margin:4px 0}
 </div>
 
 <div class="wrap layout">
- <aside class="side" aria-label="Campeonatos"><h2 class="sideh">Campeonatos</h2><div id="side" role="group" aria-label="Campeonatos (clique para escolher um ou mais)"></div></aside>
- <main id="list"></main>
+ <aside class="side" aria-label="Campeonatos"><h2 class="sideh">Campeonatos</h2><div id="side" role="group" aria-label="Campeonatos (clique para escolher um ou mais)"></div><div class="ad" id="adlado" hidden></div></aside>
+ <main id="lista"><div id="list"></div><div class="ad" id="adlista" hidden></div><div id="list2"></div></main>
 </div>
 
 <footer class="wrap">
  <p id="upd"></p>
+ <p><a href="privacidade.html">Privacidade</a></p>
  <p>Fontes: tabelas oficiais da CBF e da Conmebol, grades das emissoras e canais oficiais no YouTube. Os links levam às páginas oficiais de cada emissora. Horários e canais podem mudar; "a confirmar" indica informação ainda não anunciada oficialmente ou vinda de uma só fonte.</p>
 </footer>
 <div class="toast" id="toast" role="status"></div>
@@ -326,7 +343,11 @@ const games = D.jogos.map((g,i)=>({...g,i,t:new Date(g.inicio),k:dayKey(new Date
 const $ = id => document.getElementById(id);
 
 let saved=[]; try{saved=JSON.parse(localStorage.getItem('ligas')||'[]')}catch(_){}
-const S = {day:null, comps:new Set(saved.filter(k=>D.competicoes[k])), free:false, q:'', more:false, open:null};
+let favs=[]; try{favs=JSON.parse(localStorage.getItem('favs')||'[]')}catch(_){}
+const S = {day:null, comps:new Set(saved.filter(k=>D.competicoes[k])), free:false, q:'', more:false, open:null, favs:new Set(favs), view:'todos', fav:null};
+const saveFavs = () => {try{localStorage.setItem('favs',JSON.stringify([...S.favs]))}catch(_){}};
+const isFavG = g => S.favs.has(g.casa)||S.favs.has(g.fora);
+const favFirst = (a,b) => isFavG(b)-isFavG(a);
 const save = () => {try{localStorage.setItem('ligas',JSON.stringify([...S.comps]))}catch(_){}};
 
 const state = g => {const m=(Date.now()-g.t)/60000; return m<0?'up':m<115?'live':'done'};
@@ -348,7 +369,7 @@ function crest(t){
  const u=ESC[t];
  if(!u) return `<span class="cr ini" aria-hidden="true">${esc(ini(t))}</span>`;
  const fl=u.includes('flagcdn');
- return `<img class="cr${fl?' fl':''}" src="${esc(fl?u:u+'/tiny')}" alt="" width="22" height="22" loading="lazy" decoding="async" data-i="${esc(ini(t))}" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'cr ini',textContent:this.dataset.i}))">`;
+ return `<img class="cr${fl?' fl':''}" src="${esc(u.includes('thesportsdb')?u+'/tiny':u)}" alt="" width="22" height="22" loading="lazy" decoding="async" data-i="${esc(ini(t))}" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'cr ini',textContent:this.dataset.i}))">`;
 }
 function board(g){
  const a=Number(g.placar.casa), b=Number(g.placar.fora);
@@ -362,14 +383,20 @@ function row(g){
  const c=C(g.comp), st=state(g);
  const chans = g.canais.length? g.canais.slice().sort((a,b)=>isFreeCh(b)-isFreeCh(a)).map(x=>chanLink(x,g)).join('') : '<div class="tbc">Transmissão a confirmar</div>';
  const info=[g.rodada,g.local].filter(Boolean).join(' · ');
- return `<article class="g ${st}">
+ return `<article class="g ${st}${isFavG(g)?' isfav':''}">
   <div>
    ${g.placar&&st!=='up'?board(g):`<div class="teams">${crest(g.casa)}${esc(g.casa)}<span>x</span>${crest(g.fora)}${esc(g.fora)}</div>`}
-   <div class="meta"><span class="pill"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</span>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
+   <div class="meta"><span class="pill"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</span>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}<button class="favb${isFavG(g)?' on':''}" data-f="${g.i}" aria-expanded="${S.fav===g.i}">${isFavG(g)?'★ Seguindo':'☆ Seguir'}</button>${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
   </div>
   <div class="chans">${chans}</div>
+  ${S.fav===g.i?favbox(g):''}
   ${S.open===g.i?sform(g):`<button class="sug" data-i="${g.i}">Sugerir onde está passando</button>`}
  </article>`;
+}
+
+function favbox(g){
+ const b=t=>`<button type="button" data-t="${esc(t)}" aria-pressed="${S.favs.has(t)}">${crest(t)}${S.favs.has(t)?'★':'☆'} ${esc(t)}</button>`;
+ return `<div class="favbox"><span>Seguir:</span>${b(g.casa)}${b(g.fora)}<button type="button" class="ok">Pronto</button></div>`;
 }
 
 function sform(g){
@@ -399,20 +426,22 @@ function renderChips(){
  const main=ORDER.filter(k=>C(k).principal);
  const rest=ORDER.filter(k=>!C(k).principal);
  const restShown=S.more?rest:rest.filter(k=>cnt(k)||S.comps.has(k));
- const chip=k=>{const c=C(k),n=cnt(k);return `<button class="chip${n?'':' zero'}" data-c="${k}" aria-pressed="${S.comps.has(k)}"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}<span class="n">${n}</span></button>`};
+ const chip=k=>{const c=C(k),n=cnt(k);return `<button class="chip${n?'':' zero'}" data-c="${k}" aria-pressed="${!fv&&S.comps.has(k)}"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}<span class="n">${n}</span></button>`};
  const hidden=rest.length-restShown.length;
- $('chips').innerHTML=`<button class="chip" data-c="todas" aria-pressed="${S.comps.size===0}">Todas</button>`
+ const nf=games.filter(g=>isFavG(g)&&okFree(g)&&(state(g)!=='done'||g.k===dayKey(new Date()))).length;
+ const fv=S.view==='favs';
+ $('chips').innerHTML=`<button class="chip favchip" data-c="favs" aria-pressed="${fv}">★ Meus times<span class="n">${nf}</span></button><button class="chip" data-c="todas" aria-pressed="${!fv&&S.comps.size===0}">Todas</button>`
   +main.map(chip).join('')+restShown.map(chip).join('')
   +(hidden||S.more?`<button class="chip more" data-c="mais">${S.more?'Menos ligas':'+ '+hidden+' ligas'}</button>`:'');
- const li=k=>{const c=C(k),n=cnt(k);return `<button class="li${n?'':' zero'}" data-c="${k}" aria-pressed="${S.comps.has(k)}"><i style="background:${esc(c.cor)}"></i>${esc(c.nome)}<span class="n">${n||''}</span></button>`};
+ const li=k=>{const c=C(k),n=cnt(k);return `<button class="li${n?'':' zero'}" data-c="${k}" aria-pressed="${!fv&&S.comps.has(k)}"><i style="background:${esc(c.cor)}"></i>${esc(c.nome)}<span class="n">${n||''}</span></button>`};
  const rs=rest.slice().sort((a,b)=>(cnt(b)>0)-(cnt(a)>0));
- $('side').innerHTML=`<button class="li" data-c="todas" aria-pressed="${S.comps.size===0}"><i style="background:var(--pitch)"></i>Todos os jogos<span class="n">${today.length}</span></button>`
+ $('side').innerHTML=`<button class="li favli" data-c="favs" aria-pressed="${fv}"><i></i>★ Meus times<span class="n">${nf||''}</span></button><button class="li" data-c="todas" aria-pressed="${!fv&&S.comps.size===0}"><i style="background:var(--pitch)"></i>Todos os jogos<span class="n">${today.length}</span></button>`
   +'<h4>Principais</h4>'+main.map(li).join('')+'<h4>Outras ligas</h4>'+rs.map(li).join('');
 }
 
 function renderNext(){
  const up=games.filter(g=>state(g)!=='done'&&match(g));
- const live=up.filter(g=>state(g)==='live').sort(byAud);
+ const live=up.filter(g=>state(g)==='live').sort((a,b)=>favFirst(a,b)||byAud(a,b));
  const g=live[0]||up[0];
  if(!g){$('next').innerHTML='<span>Sem jogos na agenda</span>';return}
  const c=g.canais.map(x=>D.canais[x]?.nome).filter(Boolean).join(', ')||'canal a confirmar';
@@ -422,32 +451,56 @@ function renderNext(){
 function slots(list,mode){
  const by=[];list.forEach(g=>{const h=hhmm(g.t);const last=by[by.length-1];if(last&&last.h===h)last.g.push(g);else by.push({h,g:[g]})});
  return by.map(s=>{
-  s.g.sort(byAud);
+  s.g.sort((a,b)=>favFirst(a,b)||byAud(a,b));
   const lbl= mode==='live'?'<small><span class="dot"></span>Ao vivo</small>': mode==='done'?'<small>Encerrado</small>':(s.g.length>1?`<small>${s.g.length} jogos</small>`:'');
   return `<div class="slot ${mode||''}"><div class="time">${mode==='live'?'<small>começou</small>':''}${s.h}${lbl}</div><div>${s.g.map(row).join('')}</div></div>`;
  }).join('');
 }
 
+function slotsAd(list){
+ const h=slots(list), parts=h.split('<div class="slot');
+ return parts.length>4?parts.slice(0,4).join('<div class="slot')+'<!--AD--><div class="slot'+parts.slice(4).join('<div class="slot'):h;
+}
 function dayHTML(list,k,searching){
  const today=dayKey(new Date());
- if(k!==today||searching&&k!==today) return slots(list);
+ if(k!==today||searching&&k!==today) return searching?slots(list):slotsAd(list);
  const live=list.filter(g=>state(g)==='live'), up=list.filter(g=>state(g)==='up'), done=list.filter(g=>state(g)==='done');
  let h='';
- if(live.length) h+=`<section class="sec live"><h3><span class="dot"></span>Ao vivo agora<small>${plural(live.length)}</small></h3>${live.slice().sort(byAud).map(g=>slots([g],'live')).join('')}</section>`;
- if(up.length) h+=`<section class="sec"><h3>${live.length?'A seguir':'Próximos jogos'}<small>${plural(up.length)}</small></h3>${slots(up)}</section>`;
+ if(live.length) h+=`<section class="sec live"><h3><span class="dot"></span>Ao vivo agora<small>${plural(live.length)}</small></h3>${live.slice().sort((a,b)=>favFirst(a,b)||byAud(a,b)).map(g=>slots([g],'live')).join('')}</section>`;<!--AD-->
+ if(up.length) h+=`<section class="sec"><h3>${live.length?'A seguir':'Próximos jogos'}<small>${plural(up.length)}</small></h3>${slots(up)}</section>`+(live.length?'':'<!--AD-->');
  if(!live.length&&!up.length) h+=`<p class="empty">Os jogos de hoje já terminaram.</p>`;
  if(done.length) h+=`<section class="sec done"><h3>Encerrados hoje<small>${plural(done.length)}</small></h3>${slots(done,'done')}</section>`;
  return h;
 }
 
+function setList(h){
+ const i=h.indexOf('<!--AD-->');
+ $('list').innerHTML=i<0?h:h.slice(0,i);
+ $('list2').innerHTML=i<0?'':h.slice(i+9);
+ const show=!!(ADS.lista&&i>=0);
+ if(show) fillAd('adlista',ADS.lista);
+ $('adlista').hidden=!show;
+}
+function byDay(list,searching){
+ const by={};list.forEach(g=>(by[g.k]=by[g.k]||[]).push(g));
+ return Object.keys(by).sort().map((k,n)=>`<h2>${esc(longDay(noon(k)))}<small>${plural(by[k].length)}</small></h2>${dayHTML(by[k],k,searching)}${n===0?'<!--AD-->':''}`).join('');
+}
 function renderList(){
+ if(S.view==='favs'){
+  const today=dayKey(new Date());
+  const list=games.filter(g=>isFavG(g)&&okFree(g)&&(state(g)!=='done'||g.k===today));
+  const head=`<h2>Meus times<small>${S.favs.size} ${S.favs.size===1?'time':'times'}</small></h2>`;
+  if(!S.favs.size){setList(head+'<p class="empty">Você ainda não segue nenhum time. Toque em <b>☆ Seguir</b> em qualquer jogo e escolha o seu time: os jogos dele aparecem aqui e ficam sempre em primeiro na lista.</p>');return}
+  if(!list.length){setList(head+`<p class="empty">Nenhum jogo dos seus times nos próximos dias (${esc([...S.favs].join(', '))}).</p>`);return}
+  setList(head+byDay(list,true));
+  return;
+ }
  const q=norm(S.q.trim());
  if(q){
   const sc=games.filter(match).map(g=>[g,fuzzy(S.q,g)]), top=Math.max(0,...sc.map(x=>x[1]));
   const list=top?sc.filter(x=>x[1]===top).map(x=>x[0]).filter(g=>state(g)!=='done'||g.k===dayKey(new Date())):[];
-  if(!list.length){$('list').innerHTML=`<p class="empty">Nenhum jogo encontrado para “${esc(S.q.trim())}”.</p>`;return}
-  const by={};list.forEach(g=>(by[g.k]=by[g.k]||[]).push(g));
-  $('list').innerHTML=Object.keys(by).sort().map(k=>`<h2>${esc(longDay(noon(k)))}<small>${plural(by[k].length)}</small></h2>${dayHTML(by[k],k,true)}`).join('');
+  if(!list.length){setList(`<p class="empty">Nenhum jogo encontrado para “${esc(S.q.trim())}”.</p>`);return}
+  setList(byDay(list,true));
   return;
  }
  const list=games.filter(g=>g.k===S.day&&match(g));
@@ -455,19 +508,36 @@ function renderList(){
  if(!list.length){
   const nxt=games.find(g=>g.k>S.day&&match(g));
   const which=S.comps.size?[...S.comps].map(k=>C(k).curto||C(k).nome).join(', '):'';
-  $('list').innerHTML=title+`<p class="empty">Sem jogos${which?' de '+esc(which):''} neste dia.${nxt?` <button class="jump" data-k="${nxt.k}">Ver próximo: ${esc(nxt.casa)} x ${esc(nxt.fora)}, ${esc(shortDay(nxt.t))}</button>`:''}</p>`;
+  setList(title+`<p class="empty">Sem jogos${which?' de '+esc(which):''} neste dia.${nxt?` <button class="jump" data-k="${nxt.k}">Ver próximo: ${esc(nxt.casa)} x ${esc(nxt.fora)}, ${esc(shortDay(nxt.t))}</button>`:''}</p>`);
   return;
  }
- $('list').innerHTML=title+dayHTML(list,S.day);
+ setList(title+dayHTML(list,S.day));
 }
 
+const AD=D.anuncios||{}, ADS=(AD.adsense_client&&AD.slots)||{}, ADF={};
+function fillAd(id,slot){
+ if(ADF[id]||!slot) return; ADF[id]=1;
+ const el=$(id);
+ el.innerHTML='<small>Publicidade</small><ins class="adsbygoogle" style="display:block" data-ad-client="'+esc(AD.adsense_client)+'" data-ad-slot="'+esc(slot)+'" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+ el.hidden=false;
+ try{(window.adsbygoogle=window.adsbygoogle||[]).push({})}catch(_){}
+}
+function anuncios(){
+ if(!AD.adsense_client) return;
+ const sc=document.createElement('script');sc.async=true;sc.crossOrigin='anonymous';
+ sc.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client='+encodeURIComponent(AD.adsense_client);
+ document.head.appendChild(sc);
+ if(ADS.lateral&&matchMedia('(min-width:960px)').matches) fillAd('adlado',ADS.lateral);
+}
 function render(){renderDays();renderChips();renderNext();renderList()}
 function toast(t){const el=$('toast');el.textContent=t;el.classList.add('on');clearTimeout(toast.h);toast.h=setTimeout(()=>el.classList.remove('on'),2600)}
 
-$('days').addEventListener('click',e=>{const b=e.target.closest('.day');if(!b)return;S.day=b.dataset.k;S.q='';$('q').value='';render()});
+$('days').addEventListener('click',e=>{const b=e.target.closest('.day');if(!b)return;S.day=b.dataset.k;S.q='';$('q').value='';S.view='todos';render()});
 const pick=e=>{
  const b=e.target.closest('.chip,.li');if(!b)return;
  const k=b.dataset.c;
+ if(k==='favs'){S.view=S.view==='favs'?'todos':'favs';S.q='';$('q').value='';S.fav=null;render();if(innerWidth<960)$('lista').scrollIntoView({block:'start'});return}
+ if(k!=='mais')S.view='todos';
  if(k==='mais'){S.more=!S.more;renderChips();return}
  if(k==='todas')S.comps.clear(); else S.comps.has(k)?S.comps.delete(k):S.comps.add(k);
  save();render();
@@ -475,18 +545,23 @@ const pick=e=>{
 $('chips').addEventListener('click',pick);
 $('side').addEventListener('click',pick);
 $('free').addEventListener('change',e=>{S.free=e.target.checked;render()});
-$('q').addEventListener('input',e=>{S.q=e.target.value;S.open=null;renderList()});
+$('q').addEventListener('input',e=>{S.q=e.target.value;S.open=null;S.fav=null;if(S.view==='favs'){S.view='todos';renderChips()}renderList()});
 const tt=$('totop');addEventListener('scroll',()=>{tt.hidden=scrollY<700},{passive:true});tt.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
 $('cprev').addEventListener('click',()=>$('chips').scrollBy({left:-320}));
 $('cnext').addEventListener('click',()=>$('chips').scrollBy({left:320}));
-$('list').addEventListener('click',async e=>{
+$('lista').addEventListener('click',async e=>{
+ const fb=e.target.closest('.favb');
+ if(fb){const i=Number(fb.dataset.f);S.fav=S.fav===i?null:i;renderList();return}
+ const ft=e.target.closest('.favbox button[data-t]');
+ if(ft){const t=ft.dataset.t;S.favs.has(t)?S.favs.delete(t):S.favs.add(t);saveFavs();renderChips();renderNext();renderList();toast(S.favs.has(t)?'Seguindo '+t+'. Os jogos aparecem em ★ Meus times.':'Você deixou de seguir '+t+'.');return}
+ if(e.target.closest('.favbox .ok')){S.fav=null;renderList();return}
  const j=e.target.closest('.jump');
  if(j){S.day=j.dataset.k;render();window.scrollTo({top:0});return}
  const sg=e.target.closest('.sug');
  if(sg){S.open=Number(sg.dataset.i);renderList();const f=document.getElementById('sc'+sg.dataset.i);if(f)f.focus();return}
  if(e.target.closest('.sform .no')){S.open=null;renderList()}
 });
-$('list').addEventListener('submit',async e=>{
+$('lista').addEventListener('submit',async e=>{
  const f=e.target.closest('.sform');if(!f)return;e.preventDefault();
  const g=games.find(x=>x.i===Number(f.dataset.i)), msg=f.querySelector('.msg');
  const canal=f.canal.value.trim(), link=f.link.value.trim();
@@ -515,8 +590,8 @@ $('list').addEventListener('submit',async e=>{
 
 const upd=new Date(D.atualizado);
 $('upd').textContent=`Atualizado em ${new Intl.DateTimeFormat('pt-BR',{timeZone:TZ,day:'2-digit',month:'2-digit',year:'numeric'}).format(upd)} às ${hhmm(upd)}. ${games.length} jogos na agenda.`;
-render();
-setInterval(()=>{renderNext();if(S.open===null)renderList()},60000);
+render();anuncios();
+setInterval(()=>{renderNext();if(S.open===null&&S.fav===null)renderList()},60000);
 }
 </script>
 </body>

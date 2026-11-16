@@ -608,5 +608,13 @@
   "Estados Unidos",
   "México",
   "Marrocos"
- ]
+ ],
+ "anuncios": {
+  "comentario": "Google AdSense. Enquanto adsense_client estiver vazio, o site não mostra anúncio nenhum. Depois de aprovado: adsense_client = 'ca-pub-...' e o número de cada bloco de anúncio em slots (lista = no meio dos jogos; lateral = coluna das ligas no computador).",
+  "adsense_client": "",
+  "slots": {
+   "lista": "",
+   "lateral": ""
+  }
+ }
 }

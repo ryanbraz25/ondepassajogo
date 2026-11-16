@@ -163,7 +163,8 @@ def espn(cfg, completo):
                 local = ", ".join(x for x in (v.get("fullName"), (v.get("address") or {}).get("city")) if x)
                 j = {"inicio": ini.isoformat(), "comp": comp, "casa": casa, "fora": fora, "local": local,
                      "canais": list(c.get("canais_padrao", [])), "status": "a_confirmar",
-                     "_liga": liga, "_d": d}
+                     "_liga": liga, "_d": d,
+                     "_logos": {casa: times["home"]["team"].get("logo", ""), fora: times["away"]["team"].get("logo", "")}}
                 nm = st.get("name", "")
                 if st.get("completed") and "CANCEL" not in nm and "POSTPON" not in nm:
                     try:
@@ -301,7 +302,15 @@ BADGE = "https://r2.thesportsdb.com/images/media/team/badge/"
 FLAG = "https://flagcdn.com/w80/{}.png"
 
 
-def escudos(cfg, jogos):
+def espn_logo(u):
+    """Escudo da ESPN já reduzido (80 px), para carregar rápido."""
+    if not u:
+        return ""
+    m = re.match(r"https://a\.espncdn\.com(/i/.+)$", u)
+    return f"https://a.espncdn.com/combiner/i?img={m.group(1)}&h=80&w=80" if m else u
+
+
+def escudos(cfg, jogos, logos=None):
     """Escudo de cada time (TheSportsDB, grátis) e bandeira de cada seleção (flagcdn).
 
     dados/escudos.json guarda o que já foi achado: nome do time -> arquivo do escudo
@@ -316,7 +325,8 @@ def escudos(cfg, jogos):
         for t in (j["casa"], j["fora"]):
             if t not in times:
                 times.append(t)
-    faltam = [t for t in times if t not in band and t not in salvos]
+    logos = logos or {}
+    faltam = [t for t in times if t not in band and t not in salvos and not logos.get(t)]
     if faltam and not OFFLINE:
         import time
         key = os.environ.get("THESPORTSDB_KEY", "123")
@@ -339,10 +349,18 @@ def escudos(cfg, jogos):
         elif salvos.get(t):
             v = salvos[t]
             out[t] = v if v.startswith("http") else BADGE + v
+        elif logos.get(t):
+            out[t] = espn_logo(logos[t])
     return out
 
 
 def gerar_site(dados):
+    pub = (dados.get("anuncios") or {}).get("adsense_client", "").replace("ca-pub-", "pub-")
+    ads = RAIZ / "site" / "ads.txt"
+    if pub:
+        ads.write_text(f"google.com, {pub}, DIRECT, f08c47fec0942fa0\n", encoding="utf-8")
+    elif ads.exists():
+        ads.unlink()
     tpl = (RAIZ / "site" / "template.html").read_text(encoding="utf-8")
     bloco = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     (RAIZ / "site" / "index.html").write_text(tpl.replace("__DADOS__", bloco), encoding="utf-8")
@@ -366,9 +384,11 @@ def main():
     api = aplicar_canais(cfg, api)
     if not OFFLINE:
         youtube(cfg, api + verif)
+    logos = {}
     for j in api:
         j.pop("_liga", None)
         j.pop("_d", None)
+        logos.update({k: v for k, v in (j.pop("_logos", None) or {}).items() if v})
 
     jogos = juntar(api, verif)
     anterior = RAIZ / "dados" / "jogos.json"
@@ -384,7 +404,8 @@ def main():
         "jogos": jogos,
         "sugestoes": {k: v for k, v in cfg.get("sugestoes", {}).items() if k != "comentario"},
         "popularidade": {k: v for k, v in cfg.get("popularidade", {}).items() if k != "comentario"},
-        "escudos": escudos(cfg, jogos),
+        "escudos": escudos(cfg, jogos, logos),
+        "anuncios": {k: v for k, v in cfg.get("anuncios", {}).items() if k != "comentario"},
     }
     anterior.write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
     gerar_site(dados)
