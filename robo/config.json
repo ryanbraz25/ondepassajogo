@@ -108,6 +108,16 @@
    "nome": "Apple TV",
    "tipo": "Streaming",
    "url": "https://tv.apple.com/br"
+  },
+  "globoplay": {
+   "nome": "Globoplay",
+   "tipo": "Streaming",
+   "url": "https://globoplay.globo.com/"
+  },
+  "dazn": {
+   "nome": "DAZN",
+   "tipo": "Streaming",
+   "url": "https://www.dazn.com/pt-BR/home"
   }
  },
  "apelidos_canais": {
@@ -526,7 +536,31 @@
   "Coreia do Sul": "kr",
   "Austrália": "au",
   "Arábia Saudita": "sa",
-  "Catar": "qa"
+  "Catar": "qa",
+  "República Dominicana": "do",
+  "Costa Rica": "cr",
+  "Costa do Marfim": "ci",
+  "Egito": "eg",
+  "Nigéria": "ng",
+  "Gana": "gh",
+  "Camarões": "cm",
+  "Argélia": "dz",
+  "Tunísia": "tn",
+  "Panamá": "pa",
+  "Jamaica": "jm",
+  "Honduras": "hn",
+  "Irã": "ir",
+  "Iraque": "iq",
+  "China": "cn",
+  "Índia": "in",
+  "Nova Zelândia": "nz",
+  "Uzbequistão": "uz",
+  "Jordânia": "jo",
+  "Emirados Árabes": "ae",
+  "Finlândia": "fi",
+  "Geórgia": "ge",
+  "Islândia": "is",
+  "Albânia": "al"
  },
  "escudos_busca": {
   "comentario": "Nome de busca na TheSportsDB quando o nome em português não acha o time certo",
@@ -617,7 +651,27 @@
   "Ukraine": "Ucrânia",
   "Wales": "País de Gales",
   "Finland": "Finlândia",
-  "Georgia": "Geórgia"
+  "Georgia": "Geórgia",
+  "Dominican Republic": "República Dominicana",
+  "Costa Rica": "Costa Rica",
+  "Ivory Coast": "Costa do Marfim",
+  "Egypt": "Egito",
+  "Nigeria": "Nigéria",
+  "Ghana": "Gana",
+  "Cameroon": "Camarões",
+  "Algeria": "Argélia",
+  "Tunisia": "Tunísia",
+  "Panama": "Panamá",
+  "Jamaica": "Jamaica",
+  "Honduras": "Honduras",
+  "Iran": "Irã",
+  "Iraq": "Iraque",
+  "China": "China",
+  "India": "Índia",
+  "New Zealand": "Nova Zelândia",
+  "Uzbekistan": "Uzbequistão",
+  "Jordan": "Jordânia",
+  "United Arab Emirates": "Emirados Árabes"
  },
  "selecoes_destaque": [
   "Brasil",
