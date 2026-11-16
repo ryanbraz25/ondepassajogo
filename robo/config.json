@@ -103,6 +103,11 @@
    "nome": "RedeTV!",
    "tipo": "TV aberta",
    "url": "https://www.redetv.uol.com.br/"
+  },
+  "appletv": {
+   "nome": "Apple TV",
+   "tipo": "Streaming",
+   "url": "https://tv.apple.com/br"
   }
  },
  "apelidos_canais": {
@@ -161,7 +166,10 @@
    "cor": "#b8860b",
    "curto": "Libertadores",
    "principal": true,
-   "espn": "conmebol.libertadores"
+   "espn": "conmebol.libertadores",
+   "canais_padrao": [
+    "disney"
+   ]
   },
   "sul-americana": {
    "nome": "Sul-Americana",
@@ -194,7 +202,10 @@
    "cor": "#0b2a6f",
    "curto": "Champions",
    "principal": true,
-   "espn": "uefa.champions"
+   "espn": "uefa.champions",
+   "canais_padrao": [
+    "hbomax"
+   ]
   },
   "premier": {
    "nome": "Premier League",
@@ -204,7 +215,6 @@
    "principal": true,
    "espn": "eng.1",
    "canais_padrao": [
-    "espn",
     "disney"
    ]
   },
@@ -214,7 +224,10 @@
    "cor": "#e8452c",
    "curto": "La Liga",
    "principal": true,
-   "espn": "esp.1"
+   "espn": "esp.1",
+   "canais_padrao": [
+    "cazetv"
+   ]
   },
   "serie-a-ita": {
    "nome": "Serie A (Itália)",
@@ -222,7 +235,10 @@
    "cor": "#0a5cff",
    "curto": "Italiano",
    "principal": true,
-   "espn": "ita.1"
+   "espn": "ita.1",
+   "canais_padrao": [
+    "disney"
+   ]
   },
   "bundesliga": {
    "nome": "Bundesliga",
@@ -230,7 +246,10 @@
    "cor": "#d20515",
    "curto": "Bundesliga",
    "principal": true,
-   "espn": "ger.1"
+   "espn": "ger.1",
+   "canais_padrao": [
+    "onefootball"
+   ]
   },
   "ligue1": {
    "nome": "Ligue 1",
@@ -238,7 +257,10 @@
    "cor": "#091c3e",
    "curto": "Francês",
    "principal": true,
-   "espn": "fra.1"
+   "espn": "fra.1",
+   "canais_padrao": [
+    "cazetv"
+   ]
   },
   "brasileirao-b": {
    "nome": "Brasileirão Série B",
@@ -257,7 +279,10 @@
    "cor": "#f26a00",
    "curto": "Liga Europa",
    "principal": false,
-   "espn": "uefa.europa"
+   "espn": "uefa.europa",
+   "canais_padrao": [
+    "cazetv"
+   ]
   },
   "conference": {
    "nome": "Conference League",
@@ -265,7 +290,10 @@
    "cor": "#19a463",
    "curto": "Conference",
    "principal": false,
-   "espn": "uefa.europa.conf"
+   "espn": "uefa.europa.conf",
+   "canais_padrao": [
+    "cazetv"
+   ]
   },
   "nations": {
    "nome": "Liga das Nações",
@@ -285,7 +313,10 @@
    "cor": "#006a44",
    "curto": "Português",
    "principal": false,
-   "espn": "por.1"
+   "espn": "por.1",
+   "canais_padrao": [
+    "disney"
+   ]
   },
   "argentina": {
    "nome": "Argentino",
@@ -293,7 +324,10 @@
    "cor": "#4aa3df",
    "curto": "Argentino",
    "principal": false,
-   "espn": "arg.1"
+   "espn": "arg.1",
+   "canais_padrao": [
+    "disney"
+   ]
   },
   "mls": {
    "nome": "MLS",
@@ -301,7 +335,10 @@
    "cor": "#1a1a1a",
    "curto": "MLS",
    "principal": false,
-   "espn": "usa.1"
+   "espn": "usa.1",
+   "canais_padrao": [
+    "appletv"
+   ]
   },
   "saudita": {
    "nome": "Saudita",
