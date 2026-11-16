@@ -5,19 +5,21 @@ Site com os jogos dos próximos 14 dias: horário de Brasília, campeonato e o c
 ## Como funciona
 
 ```
-a cada 3 horas (GitHub Actions, grátis)
-   │
-   ├─ TheSportsDB ........ jogos e horários das principais ligas
-   ├─ TheSportsDB TV ..... canais do Brasil (só com chave premium)
-   ├─ YouTube Data API ... lives agendadas da CazéTV, ge tv, Canal GOAT
-   │                        (link direto da transmissão no jogo)
-   └─ dados/verificados.json  jogos conferidos (checagem diária), têm prioridade
-   │
-   ▼
-robo/atualizar.py → dados/jogos.json + site/index.html → publicado no GitHub Pages
+GitHub Actions (grátis), de hora em hora
+│
+├─ ESPN ........................ jogos, horários, estádios e placares (19 campeonatos, sem chave)
+│                                a cada 6 horas busca os 15 dias seguintes; nas outras, ontem a amanhã
+├─ dados/canais.json ........... onde passa cada jogo: gravado toda noite pela pesquisa do Claude
+├─ YouTube Data API (opcional) . link direto das lives da CazéTV, ge tv, Canal GOAT
+└─ dados/verificados.json ...... correções feitas à mão (têm prioridade)
+│
+▼
+robo/atualizar.py → dados/jogos.json + site/index.html → GitHub Pages (ondepassajogo.com.br)
 ```
 
-Se todas as fontes falharem, o robô mantém a agenda anterior, para o site nunca ficar vazio.
+Se a ESPN falhar, o robô mantém a agenda anterior, para o site nunca ficar vazio.
+Sem a pesquisa do Claude, o site continua com jogos, horários e placares; os canais
+ficam com o padrão de cada campeonato (`canais_padrao` em robo/config.json).
 
 ## Colocar no ar (uma vez só, uns 15 minutos)
 
