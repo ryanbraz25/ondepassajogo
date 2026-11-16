@@ -1,6 +1,6 @@
 {
  "comentario": "Gravado pela pesquisa noturna do Claude: canais (e rodada/nota) de cada jogo. O robô junta isso aos jogos da ESPN. Pode editar à mão.",
- "atualizado": "",
+ "atualizado": "2026-11-16T13:25:55-03:00",
  "jogos": [
   {
    "data": "2026-11-14",
@@ -245,6 +245,32 @@
    "rodada": "Fase de liga"
   },
   {
+   "data": "2026-11-16",
+   "casa": "Alemanha",
+   "fora": "Holanda",
+   "inicio": "2026-11-16T16:45:00-03:00",
+   "comp": "nations",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "confirmado",
+   "rodada": "Fase de liga"
+  },
+  {
+   "data": "2026-11-16",
+   "casa": "Suíça",
+   "fora": "Escócia",
+   "inicio": "2026-11-16T16:45:00-03:00",
+   "comp": "nations",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "confirmado",
+   "rodada": "Fase de liga"
+  },
+  {
    "data": "2026-11-17",
    "casa": "Singapura",
    "fora": "Brasil",
@@ -256,8 +282,80 @@
     "getv"
    ],
    "status": "confirmado",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   },
    "rodada": "Data FIFA",
    "local": "Estádio Nacional de Singapura"
+  },
+  {
+   "data": "2026-11-17",
+   "casa": "Dinamarca",
+   "fora": "Noruega",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "comp": "nations",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "confirmado",
+   "rodada": "Fase de liga"
+  },
+  {
+   "data": "2026-11-17",
+   "casa": "País de Gales",
+   "fora": "Portugal",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "comp": "nations",
+   "canais": [
+    "sportv"
+   ],
+   "status": "confirmado",
+   "rodada": "Fase de liga"
+  },
+  {
+   "data": "2026-11-17",
+   "casa": "Polônia",
+   "fora": "Suécia",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "comp": "nations",
+   "canais": [
+    "sportv"
+   ],
+   "status": "confirmado",
+   "rodada": "Fase de liga"
+  },
+  {
+   "data": "2026-11-17",
+   "casa": "Ucrânia",
+   "fora": "Geórgia",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "comp": "nations",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "confirmado",
+   "links": {
+    "espn": "https://www.youtube.com/@espnbrasil"
+   },
+   "rodada": "Fase de liga"
+  },
+  {
+   "data": "2026-11-17",
+   "casa": "Argentina",
+   "fora": "Costa Rica",
+   "inicio": "2026-11-17T20:00:00-03:00",
+   "comp": "amistoso",
+   "canais": [
+    "getv",
+    "sportv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   },
+   "rodada": "Data FIFA"
   },
   {
    "data": "2026-11-18",
@@ -271,6 +369,9 @@
     "premiere"
    ],
    "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
    "rodada": "35ª rodada",
    "local": "Couto Pereira, Curitiba"
   },
@@ -285,6 +386,7 @@
    ],
    "status": "confirmado",
    "rodada": "35ª rodada",
+   "nota": "Remo luta contra o rebaixamento",
    "local": "Mangueirão, Belém"
   },
   {
@@ -312,6 +414,7 @@
    ],
    "status": "confirmado",
    "rodada": "35ª rodada",
+   "nota": "Flamengo é o líder",
    "local": "Maracanã, Rio de Janeiro"
   },
   {
@@ -325,6 +428,7 @@
    ],
    "status": "confirmado",
    "rodada": "35ª rodada",
+   "nota": "Corinthians luta contra o rebaixamento",
    "local": "Neo Química Arena, São Paulo"
   },
   {
@@ -338,6 +442,7 @@
    ],
    "status": "confirmado",
    "rodada": "35ª rodada",
+   "nota": "Grêmio luta contra o rebaixamento",
    "local": "Arena do Grêmio, Porto Alegre"
   },
   {
@@ -352,6 +457,7 @@
    ],
    "status": "confirmado",
    "rodada": "35ª rodada",
+   "nota": "Internacional luta contra o rebaixamento",
    "local": "São Januário, Rio de Janeiro"
   },
   {
@@ -379,6 +485,9 @@
     "premiere"
    ],
    "status": "confirmado",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   },
    "rodada": "35ª rodada",
    "local": "Morumbis, São Paulo"
   },
