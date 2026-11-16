@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-16T13:22:58-03:00",
+ "atualizado": "2026-11-16T13:27:58-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -288,9 +288,11 @@
    "fora": "Holanda",
    "local": "Olympic Stadium Berlin, Berlin",
    "canais": [
+    "espn",
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado",
+   "rodada": "Fase de liga"
   },
   {
    "inicio": "2026-11-16T16:45:00-03:00",
@@ -299,9 +301,11 @@
    "fora": "Escócia",
    "local": "Kybunpark, St. Gallen",
    "canais": [
+    "espn",
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado",
+   "rodada": "Fase de liga"
   },
   {
    "inicio": "2026-11-17T07:00:00-03:00",
@@ -315,7 +319,10 @@
     "getv"
    ],
    "status": "confirmado",
-   "rodada": "Data FIFA"
+   "rodada": "Data FIFA",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   }
   },
   {
    "inicio": "2026-11-17T10:10:00-03:00",
@@ -333,9 +340,11 @@
    "fora": "Noruega",
    "local": "Parken Stadium, Copenhagen",
    "canais": [
+    "espn",
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado",
+   "rodada": "Fase de liga"
   },
   {
    "inicio": "2026-11-17T16:45:00-03:00",
@@ -344,9 +353,10 @@
    "fora": "Portugal",
    "local": "Cardiff City Stadium, Cardiff",
    "canais": [
-    "disney"
+    "sportv"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado",
+   "rodada": "Fase de liga"
   },
   {
    "inicio": "2026-11-17T16:45:00-03:00",
@@ -355,9 +365,10 @@
    "fora": "Suécia",
    "local": "Municipal Stadium Wroclaw, Wroclaw",
    "canais": [
-    "disney"
+    "sportv"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado",
+   "rodada": "Fase de liga"
   },
   {
    "inicio": "2026-11-17T16:45:00-03:00",
@@ -366,9 +377,14 @@
    "fora": "Geórgia",
    "local": "Košická futbalová aréna (KFA), Kosice",
    "canais": [
+    "espn",
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado",
+   "rodada": "Fase de liga",
+   "links": {
+    "espn": "https://www.youtube.com/@espnbrasil"
+   }
   },
   {
    "inicio": "2026-11-17T20:00:00-03:00",
@@ -376,8 +392,15 @@
    "casa": "Argentina",
    "fora": "Costa Rica",
    "local": "Mario Alberto Kempes, Córdoba",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "getv",
+    "sportv"
+   ],
+   "status": "confirmado",
+   "rodada": "Data FIFA",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   }
   },
   {
    "inicio": "2026-11-17T20:00:00-03:00",
@@ -409,7 +432,10 @@
     "premiere"
    ],
    "status": "confirmado",
-   "rodada": "35ª rodada"
+   "rodada": "35ª rodada",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "inicio": "2026-11-18T20:00:00-03:00",
@@ -421,7 +447,8 @@
     "premiere"
    ],
    "status": "confirmado",
-   "rodada": "35ª rodada"
+   "rodada": "35ª rodada",
+   "nota": "Remo luta contra o rebaixamento"
   },
   {
    "inicio": "2026-11-18T20:30:00-03:00",
@@ -446,7 +473,8 @@
     "premiere"
    ],
    "status": "confirmado",
-   "rodada": "35ª rodada"
+   "rodada": "35ª rodada",
+   "nota": "Flamengo é o líder"
   },
   {
    "inicio": "2026-11-18T21:30:00-03:00",
@@ -458,7 +486,8 @@
     "premiere"
    ],
    "status": "confirmado",
-   "rodada": "35ª rodada"
+   "rodada": "35ª rodada",
+   "nota": "Corinthians luta contra o rebaixamento"
   },
   {
    "inicio": "2026-11-18T21:30:00-03:00",
@@ -470,7 +499,8 @@
     "premiere"
    ],
    "status": "confirmado",
-   "rodada": "35ª rodada"
+   "rodada": "35ª rodada",
+   "nota": "Grêmio luta contra o rebaixamento"
   },
   {
    "inicio": "2026-11-19T19:30:00-03:00",
@@ -483,7 +513,8 @@
     "premiere"
    ],
    "status": "confirmado",
-   "rodada": "35ª rodada"
+   "rodada": "35ª rodada",
+   "nota": "Internacional luta contra o rebaixamento"
   },
   {
    "inicio": "2026-11-19T19:30:00-03:00",
@@ -518,7 +549,10 @@
     "premiere"
    ],
    "status": "confirmado",
-   "rodada": "35ª rodada"
+   "rodada": "35ª rodada",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   }
   },
   {
    "inicio": "2026-11-20T00:00:00-03:00",
