@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-16T13:27:58-03:00",
+ "atualizado": "2026-11-16T13:30:18-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -96,6 +96,11 @@
    "nome": "RedeTV!",
    "tipo": "TV aberta",
    "url": "https://www.redetv.uol.com.br/"
+  },
+  "appletv": {
+   "nome": "Apple TV",
+   "tipo": "Streaming",
+   "url": "https://tv.apple.com/br"
   }
  },
  "competicoes": {
@@ -534,7 +539,9 @@
    "casa": "Orlando City SC",
    "fora": "FC Cincinnati",
    "local": "Inter&Co Stadium, Orlando, Florida",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -560,7 +567,9 @@
    "casa": "Seattle Sounders FC",
    "fora": "Real Salt Lake",
    "local": "Lumen Field, Seattle, Washington",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -578,7 +587,9 @@
    "casa": "Bayern de Munique",
    "fora": "FC Cologne",
    "local": "Allianz Arena, München",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -587,7 +598,9 @@
    "casa": "Troyes",
    "fora": "Le Havre AC",
    "local": "Stade de l'Aube, Paris",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -596,7 +609,9 @@
    "casa": "Athletic Club",
    "fora": "Espanyol",
    "local": "San Mamés, Bilbao",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -605,7 +620,9 @@
    "casa": "Vélez Sarsfield",
    "fora": "Belgrano (Córdoba)",
    "local": "José Amalfitani, Buenos Aires",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -628,7 +645,9 @@
    "casa": "Alavés",
    "fora": "Deportivo",
    "local": "Mendizorrotza, Vitoria-Gasteiz",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -637,7 +656,9 @@
    "casa": "Como",
    "fora": "Cagliari",
    "local": "Giuseppe Sinigaglia, Como",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -646,7 +667,9 @@
    "casa": "Lazio",
    "fora": "Lecce",
    "local": "Olimpico, Roma",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -655,7 +678,9 @@
    "casa": "1. FC Union Berlin",
    "fora": "RB Leipzig",
    "local": "Stadion An der Alten Försterei, Berlin",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -664,7 +689,9 @@
    "casa": "Bayer Leverkusen",
    "fora": "SC Paderborn 07",
    "local": "BayArena, Leverkusen",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -673,7 +700,9 @@
    "casa": "Borussia Mönchengladbach",
    "fora": "Borussia Dortmund",
    "local": "BORUSSIA-PARK, Mönchengladbach",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -682,7 +711,9 @@
    "casa": "Eintracht Frankfurt",
    "fora": "TSG Hoffenheim",
    "local": "Deutsche Bank Park, Frankfurt",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -691,7 +722,9 @@
    "casa": "SV Elversberg",
    "fora": "SC Freiburg",
    "local": "URSAPHARM-Arena an der Kaiserlinde, Spiesen-Elversberg",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -743,7 +776,6 @@
    "fora": "Crystal Palace",
    "local": "Coventry Building Society Arena, Coventry",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -755,7 +787,6 @@
    "fora": "Ipswich Town",
    "local": "Tottenham Hotspur Stadium, London",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -766,7 +797,9 @@
    "casa": "Rayo Vallecano",
    "fora": "Valencia",
    "local": "Estadio de Vallecas, Madrid",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -775,7 +808,9 @@
    "casa": "Nice",
    "fora": "Paris Saint-Germain",
    "local": "Allianz Riviera, Nice",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -784,7 +819,9 @@
    "casa": "Parma",
    "fora": "Roma",
    "local": "Ennio Tardini, Parma",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -807,7 +844,9 @@
    "casa": "Schalke 04",
    "fora": "VfB Stuttgart",
    "local": "Veltins Arena, Gelsenkirchen",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -816,7 +855,9 @@
    "casa": "Sevilla",
    "fora": "Real Betis",
    "local": "Ramón Sánchez Pizjuán Stadium, Sevilla",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -825,7 +866,9 @@
    "casa": "Defensa y Justicia",
    "fora": "Barracas Central",
    "local": "Norberto Tomaghello, Buenos Aires",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -834,7 +877,9 @@
    "casa": "New England Revolution",
    "fora": "Philadelphia Union",
    "local": "Gillette Stadium, Foxborough, Massachusetts",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -858,7 +903,9 @@
    "casa": "AS Monaco",
    "fora": "AJ Auxerre",
    "local": "Stade Louis II, Monaco",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -867,7 +914,9 @@
    "casa": "Lens",
    "fora": "Toulouse",
    "local": "Stade Bollaert-Delelis, Lens",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -876,7 +925,9 @@
    "casa": "Lille",
    "fora": "Lyon",
    "local": "Decathlon Arena - Stade Pierre-Mauroy, Lille",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -885,7 +936,9 @@
    "casa": "Napoli",
    "fora": "Torino",
    "local": "Stadio Diego Armando Maradona, Napoli",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -894,7 +947,9 @@
    "casa": "Strasbourg",
    "fora": "Brest",
    "local": "Stade de la Meinau, Strasbourg",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -903,7 +958,9 @@
    "casa": "Argentinos Juniors",
    "fora": "Independiente",
    "local": "Diego Armando Maradona, Buenos Aires",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -912,7 +969,9 @@
    "casa": "Real Madrid",
    "fora": "Celta Vigo",
    "local": "Santiago Bernabéu, Madrid",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -933,7 +992,9 @@
    "casa": "FC Dallas",
    "fora": "Portland Timbers",
    "local": "Toyota Stadium, Toyota Stadium",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -957,7 +1018,9 @@
    "casa": "Inter Miami CF",
    "fora": "Columbus Crew",
    "local": "Nu Stadium, Miami, Florida",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -978,7 +1041,9 @@
    "casa": "Juventus",
    "fora": "Venezia",
    "local": "Allianz Stadium, Torino",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -987,7 +1052,9 @@
    "casa": "Barcelona",
    "fora": "Villarreal",
    "local": "Spotify Camp Nou, Barcelona",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -996,7 +1063,9 @@
    "casa": "Bologna",
    "fora": "Udinese",
    "local": "Renato Dall'Ara, Bologna",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1006,7 +1075,6 @@
    "fora": "Brighton",
    "local": "The MKM Stadium, Hull",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -1017,7 +1085,9 @@
    "casa": "Paris FC",
    "fora": "Angers",
    "local": "Stade Jean Bouin, Paris",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1026,7 +1096,9 @@
    "casa": "Sassuolo",
    "fora": "Genoa",
    "local": "Mapei Stadium, Reggio Emilia",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1035,7 +1107,9 @@
    "casa": "FC Augsburg",
    "fora": "Mainz",
    "local": "WWK Arena, Augsburg",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1044,7 +1118,9 @@
    "casa": "Racing Santander",
    "fora": "Real Sociedad",
    "local": "El Sardineros, Santander",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1053,7 +1129,9 @@
    "casa": "Lorient",
    "fora": "Stade Rennais",
    "local": "Stade du Moustoir - Yves Allainmat, Lorient",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1063,7 +1141,6 @@
    "fora": "Manchester United",
    "local": "Anfield, Liverpool",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -1074,7 +1151,9 @@
    "casa": "Werder Bremen",
    "fora": "Hamburg SV",
    "local": "Weserstadion, Bremen",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1083,7 +1162,9 @@
    "casa": "Milan",
    "fora": "Frosinone",
    "local": "San Siro, Milano",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1092,7 +1173,9 @@
    "casa": "Osasuna",
    "fora": "Málaga",
    "local": "El Sadar, Pamplona",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1124,7 +1207,9 @@
    "casa": "Rosario Central",
    "fora": "Gimnasia (Mendoza)",
    "local": "Gigante de Arroyito, Rosario",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1133,7 +1218,9 @@
    "casa": "Atalanta",
    "fora": "Inter de Milão",
    "local": "New Balance Arena, Bergamo",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1142,7 +1229,9 @@
    "casa": "Marseille",
    "fora": "Le Mans",
    "local": "Stade Vélodrome, Marseille",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1151,7 +1240,9 @@
    "casa": "Getafe",
    "fora": "Atlético de Madrid",
    "local": "Estadio Coliseum, Getafe",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1160,7 +1251,9 @@
    "casa": "Nashville SC",
    "fora": "TBD Away",
    "local": "GEODIS Park, Nashville, Tennessee",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1194,7 +1287,9 @@
    "casa": "River Plate",
    "fora": "Lanús",
    "local": "Estadio Más Monumental, Buenos Aires",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1216,7 +1311,9 @@
    "casa": "Chicago Fire FC",
    "fora": "Charlotte FC",
    "local": "SeatGeek Stadium, Bridgeview, Illinois",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1225,7 +1322,9 @@
    "casa": "Instituto (Córdoba)",
    "fora": "Huracán",
    "local": "Mario Alberto Kempes, Córdoba",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1234,7 +1333,9 @@
    "casa": "Vancouver Whitecaps",
    "fora": "TBD Away",
    "local": "BC Place, Vancouver",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1243,7 +1344,9 @@
    "casa": "Monza",
    "fora": "Fiorentina",
    "local": "U-Power Stadium, Monza",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1253,7 +1356,6 @@
    "fora": "Everton",
    "local": "Gtech Community Stadium, Brentford",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -1264,7 +1366,9 @@
    "casa": "Gimnasia La Plata",
    "fora": "Newell's Old Boys",
    "local": "Juan Carmelo Zerillo (El Bosque), La Plata",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1273,7 +1377,9 @@
    "casa": "Levante",
    "fora": "Elche",
    "local": "Estadi Ciutat de València, Manises",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1319,7 +1425,9 @@
    "casa": "St. Louis CITY SC",
    "fora": "LAFC",
    "local": "Energizer Park, St. Louis, Missouri",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1328,7 +1436,9 @@
    "casa": "Bodo/Glimt",
    "fora": "LASK Linz",
    "local": "Aspmyra Stadion, Bodø/Glimt",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1337,7 +1447,9 @@
    "casa": "Galatasaray",
    "fora": "Aston Villa",
    "local": "RAMS Park, Istanbul",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1346,7 +1458,9 @@
    "casa": "Arsenal",
    "fora": "Borussia Dortmund",
    "local": "Emirates Stadium, London",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1355,7 +1469,9 @@
    "casa": "Como",
    "fora": "AEK Athens",
    "local": "Giuseppe Sinigaglia, Como",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1364,7 +1480,9 @@
    "casa": "Feyenoord Rotterdam",
    "fora": "FC Porto",
    "local": "De Kuip, Rotterdam",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1373,7 +1491,9 @@
    "casa": "Manchester City",
    "fora": "Napoli",
    "local": "Etihad Stadium, Manchester",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1382,7 +1502,9 @@
    "casa": "RB Leipzig",
    "fora": "Lens",
    "local": "Red Bull Arena, Leipzig",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1391,7 +1513,9 @@
    "casa": "Real Madrid",
    "fora": "PSV Eindhoven",
    "local": "Santiago Bernabéu, Madrid",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1400,7 +1524,9 @@
    "casa": "Slovan Bratislava",
    "fora": "Real Betis",
    "local": "Národny Futbalovy Stadión, Bratislava",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1423,7 +1549,9 @@
    "casa": "San Jose Earthquakes",
    "fora": "Houston Dynamo FC",
    "local": "PayPal Park, San Jose, California",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1432,7 +1560,9 @@
    "casa": "Sabah FK",
    "fora": "Barcelona",
    "local": "Baku Olympic Stadium, Baku",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1441,7 +1571,9 @@
    "casa": "Slavia Prague",
    "fora": "Villarreal",
    "local": "Fortuna Arena, Prague",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1450,7 +1582,9 @@
    "casa": "Atlético de Madrid",
    "fora": "Viking FK",
    "local": "Riyadh Air Metropolitano, Madrid",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1459,7 +1593,9 @@
    "casa": "Club Brugge",
    "fora": "Liverpool",
    "local": "Jan Breydel Stadium, Brugge",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1468,7 +1604,9 @@
    "casa": "Inter de Milão",
    "fora": "VfB Stuttgart",
    "local": "San Siro, Milano",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1477,7 +1615,9 @@
    "casa": "Lille",
    "fora": "Bayern de Munique",
    "local": "Decathlon Arena - Stade Pierre-Mauroy, Lille",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1486,7 +1626,9 @@
    "casa": "Paris Saint-Germain",
    "fora": "Roma",
    "local": "Parc des Princes, Paris",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1495,7 +1637,9 @@
    "casa": "Shakhtar Donetsk",
    "fora": "Fenerbahce",
    "local": "Stamford Bridge, London",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1504,7 +1648,9 @@
    "casa": "Sporting CP",
    "fora": "Manchester United",
    "local": "Estádio José Alvalade, Lisbon",
-   "canais": [],
+   "canais": [
+    "hbomax"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1525,7 +1671,9 @@
    "casa": "Boca Juniors",
    "fora": "Independiente Rivadavia",
    "local": "Alberto José Armando (La Bombonera), Buenos Aires",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1552,7 +1700,9 @@
    "casa": "Kairat Almaty",
    "fora": "Mjällby AIF",
    "local": "Almaty Ortalyk Stadium, Almaty",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1570,7 +1720,9 @@
    "casa": "Ajax Amsterdam",
    "fora": "FC Thun",
    "local": "Johan Cruijff Arena, Amsterdam",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1579,7 +1731,9 @@
    "casa": "Besiktas",
    "fora": "Hapoel Be'er",
    "local": "Batumi Stadium (Adjarabet Arena), Batumi",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1588,7 +1742,9 @@
    "casa": "Brighton",
    "fora": "CSU Craiova",
    "local": "American Express Stadium, Falmer",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1597,7 +1753,9 @@
    "casa": "Celta Vigo",
    "fora": "Bournemouth",
    "local": "Balaidos, Vigo",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1606,7 +1764,9 @@
    "casa": "Dinamo Zagreb",
    "fora": "Bayer Leverkusen",
    "local": "Maksimir Stadium, Zagreb",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1615,7 +1775,9 @@
    "casa": "Egnatia",
    "fora": "Lincoln Red Imps",
    "local": "Air Albania Stadium, Tirana",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1624,7 +1786,9 @@
    "casa": "Heart of Midlothian",
    "fora": "AS Monaco",
    "local": "Tynecastle Park, Edinburgh",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1633,7 +1797,9 @@
    "casa": "Iberia 1999",
    "fora": "Getafe",
    "local": "Mikheil Meskhi Stadioni, Tbilisi",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1642,7 +1808,9 @@
    "casa": "Jablonec",
    "fora": "FC Lugano",
    "local": "Stadion Strelnice, Jablonec",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1651,7 +1819,9 @@
    "casa": "Kauno Zalgiris",
    "fora": "Riga FC",
    "local": "S. Darius and S. Gireno Stadium, Kaunas",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1660,7 +1830,9 @@
    "casa": "Marseille",
    "fora": "Levski Sofia",
    "local": "Stade Vélodrome, Marseille",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1669,7 +1841,9 @@
    "casa": "Olympiacos",
    "fora": "Milan",
    "local": "Georgios Karaiskakis Stadium, Piraeus",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1678,7 +1852,9 @@
    "casa": "Pafos",
    "fora": "FC Midtjylland",
    "local": "Alphamega Stadium, Kolossi",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1687,7 +1863,9 @@
    "casa": "RB Salzburg",
    "fora": "Ararat-Armenia",
    "local": "Red Bull Arena Salzburg, Salzburg",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1696,7 +1874,9 @@
    "casa": "SK Brann",
    "fora": "AGF",
    "local": "Brann Stadium, Bergen",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1705,7 +1885,9 @@
    "casa": "Union St.-Gilloise",
    "fora": "Lech Poznan",
    "local": "King Power at Den Dreef Stadion, Leuven",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1714,7 +1896,9 @@
    "casa": "Viktoria Plzen",
    "fora": "Benfica",
    "local": "Doosan Arena, Plzen",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1723,7 +1907,9 @@
    "casa": "Borac Banja Luka",
    "fora": "Atalanta",
    "local": "Gradski Stadion Banja Luka, Banja Luka",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1732,7 +1918,9 @@
    "casa": "Braga",
    "fora": "KuPS Kuopio",
    "local": "Estádio Municipal de Braga, Braga",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1741,7 +1929,9 @@
    "casa": "CSKA Sofia",
    "fora": "Trabzonspor",
    "local": "Balgarska Armia Stadium, Sofia",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1750,7 +1940,9 @@
    "casa": "Crystal Palace",
    "fora": "Real Sociedad",
    "local": "Selhurst Park, London",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1759,7 +1951,9 @@
    "casa": "FC Nordsjælland",
    "fora": "Panathinaikos",
    "local": "Right to Dream Park, Farum",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1768,7 +1962,9 @@
    "casa": "Ferencvaros",
    "fora": "NK Celje",
    "local": "Groupama Arena, Budapest",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1777,7 +1973,9 @@
    "casa": "Hajduk Split",
    "fora": "Sint-Truidense",
    "local": "Stadion Poljud, Split",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1786,7 +1984,9 @@
    "casa": "Inter D'Escaldes",
    "fora": "F.C. København",
    "local": "Estadi de la FAF d'Encamp, Encamp",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1795,7 +1995,9 @@
    "casa": "Juventus",
    "fora": "Omonia Nicosia",
    "local": "Allianz Stadium, Torino",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1804,7 +2006,9 @@
    "casa": "KAA Gent",
    "fora": "Red Star Belgrade",
    "local": "Ghelamco Arena, Ghent",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1813,7 +2017,9 @@
    "casa": "Lyon",
    "fora": "Lillestrom",
    "local": "Groupama Stadium, Lyon",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1822,7 +2028,9 @@
    "casa": "NEC Nijmegen",
    "fora": "Stade Rennais",
    "local": "Goffertstadion, Nijmegen",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1831,7 +2039,9 @@
    "casa": "OFI Crete",
    "fora": "Anderlecht",
    "local": "Pankritio Stadium, Crete",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1840,7 +2050,9 @@
    "casa": "SC Freiburg",
    "fora": "FC Twente",
    "local": "Europa-Park Stadion, Freiburg im Breisgau",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1849,7 +2061,9 @@
    "casa": "Sparta Prague",
    "fora": "AZ Alkmaar",
    "local": "Generali Arena, Prague",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1858,7 +2072,9 @@
    "casa": "Sunderland",
    "fora": "Jagiellonia Bialystok",
    "local": "Stadium of Light, Sunderland",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1867,7 +2083,9 @@
    "casa": "TSG Hoffenheim",
    "fora": "SK Sturm Graz",
    "local": "PreZero Arena, Sinsheim",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1876,7 +2094,9 @@
    "casa": "Torreense",
    "fora": "Celtic",
    "local": "Estádio Dr. Magalhaes Pessoa, Leiria",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1921,7 +2141,9 @@
    "casa": "Werder Bremen",
    "fora": "Borussia Mönchengladbach",
    "local": "Weserstadion, Bremen",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1930,7 +2152,9 @@
    "casa": "Brest",
    "fora": "Paris FC",
    "local": "Stade Francis-Le Blé, Brest",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1939,7 +2163,9 @@
    "casa": "Venezia",
    "fora": "Bologna",
    "local": "Stadio Pier Luigi Penzo, Venezia",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1948,7 +2174,9 @@
    "casa": "Levante",
    "fora": "Racing Santander",
    "local": "Estadi Ciutat de València, Manises",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1958,7 +2186,6 @@
    "fora": "Chelsea",
    "local": "The City Ground, Nottingham",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -1969,7 +2196,9 @@
    "casa": "Maritimo",
    "fora": "C.D. Nacional",
    "local": "Estádio do Marítimo, Funchal",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1998,7 +2227,9 @@
    "casa": "Columbus Crew",
    "fora": "Inter Miami CF",
    "local": "ScottsMiracle-Gro Field, Columbus, Ohio",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2007,7 +2238,9 @@
    "casa": "TBD Home",
    "fora": "Vancouver Whitecaps",
    "local": "",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2025,7 +2258,9 @@
    "casa": "Real Betis",
    "fora": "Rayo Vallecano",
    "local": "Estadio La Cartuja, Sevilla",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2034,7 +2269,9 @@
    "casa": "Frosinone",
    "fora": "Parma",
    "local": "Stadio Benito Stirpe, Frosinone",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2052,7 +2289,9 @@
    "casa": "FC Cologne",
    "fora": "SV Elversberg",
    "local": "RheinEnergieStadion, Cologne",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2061,7 +2300,9 @@
    "casa": "Hamburg SV",
    "fora": "Bayern de Munique",
    "local": "Volksparkstadion, Hamburg Norderstedt",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2070,7 +2311,9 @@
    "casa": "Mainz",
    "fora": "1. FC Union Berlin",
    "local": "MEWA ARENA, Mainz",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2079,7 +2322,9 @@
    "casa": "SC Paderborn 07",
    "fora": "Schalke 04",
    "local": "Home Deluxe Arena, Paderborn",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2089,7 +2334,6 @@
    "fora": "Coventry City",
    "local": "Elland Road, Leeds",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -2101,7 +2345,6 @@
    "fora": "Brentford",
    "local": "Old Trafford, Manchester",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -2112,7 +2355,9 @@
    "casa": "Málaga",
    "fora": "Athletic Club",
    "local": "La Rosaleda, Malaga",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2121,7 +2366,9 @@
    "casa": "Arouca",
    "fora": "Rio Ave",
    "local": "Estádio Municipal de Arouca, Arouca",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2130,7 +2377,9 @@
    "casa": "Moreirense",
    "fora": "Santa Clara",
    "local": "Estádio Comendador Joaquim de Almeida Freitas, Moreira de Conegos",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2139,7 +2388,9 @@
    "casa": "Angers",
    "fora": "Lens",
    "local": "Stade Raymond Kopa, Angers",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2157,7 +2408,9 @@
    "casa": "Torino",
    "fora": "Lazio",
    "local": "Stadio Olimpico Grande Torino, Torino",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2175,7 +2428,9 @@
    "casa": "Charlotte FC",
    "fora": "Chicago Fire FC",
    "local": "Bank of America Stadium, Charlotte, North Carolina",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2184,7 +2439,9 @@
    "casa": "Elche",
    "fora": "Atlético de Madrid",
    "local": "Estadio Martínez Valero, Elche",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2194,7 +2451,6 @@
    "fora": "Aston Villa",
    "local": "Portman Road, Ipswich",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -2205,7 +2461,9 @@
    "casa": "VfB Stuttgart",
    "fora": "Eintracht Frankfurt",
    "local": "MHPArena, Stuttgart",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2214,7 +2472,9 @@
    "casa": "Académico de Viseu",
    "fora": "Alverca",
    "local": "Estádio do Fontelo, Viseu",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2223,7 +2483,9 @@
    "casa": "Houston Dynamo FC",
    "fora": "San Jose Earthquakes",
    "local": "Shell Energy Stadium, Houston, Texas",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2232,7 +2494,9 @@
    "casa": "Inter de Milão",
    "fora": "Genoa",
    "local": "San Siro, Milano",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2241,7 +2505,9 @@
    "casa": "Le Havre AC",
    "fora": "Strasbourg",
    "local": "Stade Océane, Le Havre",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2250,7 +2516,9 @@
    "casa": "Le Mans",
    "fora": "Lille",
    "local": "Stade Marie-Marvingt, Le Mans",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2259,7 +2527,9 @@
    "casa": "Nice",
    "fora": "Troyes",
    "local": "Allianz Riviera, Nice",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2268,7 +2538,9 @@
    "casa": "Paris Saint-Germain",
    "fora": "Lorient",
    "local": "Parc des Princes, Paris",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2294,7 +2566,9 @@
    "casa": "Real Madrid",
    "fora": "Alavés",
    "local": "Santiago Bernabéu, Madrid",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2314,7 +2588,9 @@
    "casa": "Vitória de Guimaraes",
    "fora": "Estrela",
    "local": "Estádio D. Afonso Henriques, Guimarães",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2323,7 +2599,9 @@
    "casa": "Philadelphia Union",
    "fora": "New England Revolution",
    "local": "Subaru Park, Chester, Pennsylvania",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2343,7 +2621,9 @@
    "casa": "TBD Home",
    "fora": "Nashville SC",
    "local": "",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2361,7 +2641,9 @@
    "casa": "LAFC",
    "fora": "St. Louis CITY SC",
    "local": "BMO Stadium, Los Angeles, California",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2370,7 +2652,9 @@
    "casa": "Portland Timbers",
    "fora": "FC Dallas",
    "local": "Providence Park, Portland, Oregon",
-   "canais": [],
+   "canais": [
+    "appletv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2379,7 +2663,9 @@
    "casa": "Udinese",
    "fora": "Fiorentina",
    "local": "Stadio Friuli, Udine",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2389,7 +2675,6 @@
    "fora": "Liverpool",
    "local": "Hill Dickinson Stadium, Liverpool",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -2400,7 +2685,9 @@
    "casa": "Valencia",
    "fora": "Osasuna",
    "local": "Mestalla Stadium, Manises",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2409,7 +2696,9 @@
    "casa": "AJ Auxerre",
    "fora": "Marseille",
    "local": "Stade de l'Abbé-Deschamps, Auxerre",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2418,7 +2707,9 @@
    "casa": "Sassuolo",
    "fora": "Napoli",
    "local": "Mapei Stadium, Reggio Emilia",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2428,7 +2719,6 @@
    "fora": "Newcastle",
    "local": "American Express Stadium, Falmer",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -2440,7 +2730,6 @@
    "fora": "Hull City",
    "local": "Selhurst Park, London",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -2452,7 +2741,6 @@
    "fora": "Bournemouth",
    "local": "Craven Cottage, London",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -2464,7 +2752,6 @@
    "fora": "Tottenham",
    "local": "Stadium of Light, Sunderland",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -2475,7 +2762,9 @@
    "casa": "SC Freiburg",
    "fora": "RB Leipzig",
    "local": "Europa-Park Stadion, Freiburg im Breisgau",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2484,7 +2773,9 @@
    "casa": "Deportivo",
    "fora": "Barcelona",
    "local": "Riazor, La Coruña",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2493,7 +2784,9 @@
    "casa": "Toulouse",
    "fora": "Stade Rennais",
    "local": "Stadium Municipal de Toulouse, Toulouse",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2503,7 +2796,6 @@
    "fora": "Manchester City",
    "local": "Emirates Stadium, London",
    "canais": [
-    "espn",
     "disney"
    ],
    "status": "a_confirmar"
@@ -2514,7 +2806,9 @@
    "casa": "TSG Hoffenheim",
    "fora": "FC Augsburg",
    "local": "PreZero Arena, Sinsheim",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2523,7 +2817,9 @@
    "casa": "Roma",
    "fora": "Monza",
    "local": "Olimpico, Roma",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2532,7 +2828,9 @@
    "casa": "Celta Vigo",
    "fora": "Villarreal",
    "local": "Balaidos, Vigo",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2541,7 +2839,9 @@
    "casa": "Gil Vicente",
    "fora": "Estoril",
    "local": "Estádio Cidade de Barcelos, Barcelos",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2550,7 +2850,9 @@
    "casa": "Borussia Dortmund",
    "fora": "Bayer Leverkusen",
    "local": "Signal Iduna Park, Aue",
-   "canais": [],
+   "canais": [
+    "onefootball"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2577,7 +2879,9 @@
    "casa": "Como",
    "fora": "Juventus",
    "local": "Giuseppe Sinigaglia, Como",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2586,7 +2890,9 @@
    "casa": "Lyon",
    "fora": "AS Monaco",
    "local": "Groupama Stadium, Lyon",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2595,7 +2901,9 @@
    "casa": "Real Sociedad",
    "fora": "Sevilla",
    "local": "Reale Arena, San Sebastian",
-   "canais": [],
+   "canais": [
+    "cazetv"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -2604,7 +2912,9 @@
    "casa": "FC Porto",
    "fora": "Sporting CP",
    "local": "Estádio do Dragão, Porto",
-   "canais": [],
+   "canais": [
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {

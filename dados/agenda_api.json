@@ -627,7 +627,9 @@
    "Monza": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
    "Roma": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Roma",
   "comp": "serie-a-ita",
   "fora": "Monza",
@@ -642,7 +644,9 @@
    "Lazio": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
    "Torino": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Torino",
   "comp": "serie-a-ita",
   "fora": "Lazio",
@@ -657,7 +661,9 @@
    "Genoa": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
    "Sassuolo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Sassuolo",
   "comp": "serie-a-ita",
   "fora": "Genoa",
@@ -672,7 +678,9 @@
    "Parma": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
    "Roma": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Parma",
   "comp": "serie-a-ita",
   "fora": "Roma",
@@ -687,7 +695,9 @@
    "Genoa": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
    "Inter de Milão": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Inter de Milão",
   "comp": "serie-a-ita",
   "fora": "Genoa",
@@ -702,7 +712,9 @@
    "Lazio": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
    "Lecce": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Lazio",
   "comp": "serie-a-ita",
   "fora": "Lecce",
@@ -717,7 +729,9 @@
    "Frosinone": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
    "Milan": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Milan",
   "comp": "serie-a-ita",
   "fora": "Frosinone",
@@ -732,7 +746,9 @@
    "Napoli": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
    "Sassuolo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Sassuolo",
   "comp": "serie-a-ita",
   "fora": "Napoli",
@@ -747,7 +763,9 @@
    "Como": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
    "Juventus": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Como",
   "comp": "serie-a-ita",
   "fora": "Juventus",
@@ -762,7 +780,9 @@
    "Atalanta": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "Inter de Milão": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Atalanta",
   "comp": "serie-a-ita",
   "fora": "Inter de Milão",
@@ -777,7 +797,9 @@
    "Bologna": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
    "Venezia": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Venezia",
   "comp": "serie-a-ita",
   "fora": "Bologna",
@@ -792,7 +814,9 @@
    "Juventus": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
    "Venezia": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Juventus",
   "comp": "serie-a-ita",
   "fora": "Venezia",
@@ -807,7 +831,9 @@
    "Fiorentina": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
    "Monza": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Monza",
   "comp": "serie-a-ita",
   "fora": "Fiorentina",
@@ -822,7 +848,9 @@
    "Fiorentina": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
    "Udinese": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Udinese",
   "comp": "serie-a-ita",
   "fora": "Fiorentina",
@@ -837,7 +865,9 @@
    "Bologna": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
    "Udinese": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Bologna",
   "comp": "serie-a-ita",
   "fora": "Udinese",
@@ -852,7 +882,9 @@
    "Cagliari": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
    "Como": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Como",
   "comp": "serie-a-ita",
   "fora": "Cagliari",
@@ -867,7 +899,9 @@
    "Napoli": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
    "Torino": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Napoli",
   "comp": "serie-a-ita",
   "fora": "Torino",
@@ -882,7 +916,9 @@
    "Frosinone": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
    "Parma": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Frosinone",
   "comp": "serie-a-ita",
   "fora": "Parma",
@@ -897,7 +933,9 @@
    "Stade Rennais": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
    "Toulouse": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Toulouse",
   "comp": "ligue1",
   "fora": "Stade Rennais",
@@ -912,7 +950,9 @@
    "Lorient": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
    "Paris Saint-Germain": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Paris Saint-Germain",
   "comp": "ligue1",
   "fora": "Lorient",
@@ -927,7 +967,9 @@
    "Nice": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
    "Troyes": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Nice",
   "comp": "ligue1",
   "fora": "Troyes",
@@ -942,7 +984,9 @@
    "AS Monaco": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
    "Lyon": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Lyon",
   "comp": "ligue1",
   "fora": "AS Monaco",
@@ -957,7 +1001,9 @@
    "Le Mans": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
    "Lille": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Le Mans",
   "comp": "ligue1",
   "fora": "Lille",
@@ -972,7 +1018,9 @@
    "Le Havre AC": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
    "Strasbourg": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Le Havre AC",
   "comp": "ligue1",
   "fora": "Strasbourg",
@@ -987,7 +1035,9 @@
    "Brest": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
    "Paris FC": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Brest",
   "comp": "ligue1",
   "fora": "Paris FC",
@@ -1002,7 +1052,9 @@
    "AJ Auxerre": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
    "Marseille": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "AJ Auxerre",
   "comp": "ligue1",
   "fora": "Marseille",
@@ -1017,7 +1069,9 @@
    "Angers": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
    "Lens": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Angers",
   "comp": "ligue1",
   "fora": "Lens",
@@ -1032,7 +1086,9 @@
    "Le Havre AC": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
    "Troyes": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Troyes",
   "comp": "ligue1",
   "fora": "Le Havre AC",
@@ -1047,7 +1103,9 @@
    "Brest": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
    "Strasbourg": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Strasbourg",
   "comp": "ligue1",
   "fora": "Brest",
@@ -1062,7 +1120,9 @@
    "Angers": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
    "Paris FC": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Paris FC",
   "comp": "ligue1",
   "fora": "Angers",
@@ -1077,7 +1137,9 @@
    "Nice": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
    "Paris Saint-Germain": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Nice",
   "comp": "ligue1",
   "fora": "Paris Saint-Germain",
@@ -1092,7 +1154,9 @@
    "AJ Auxerre": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
    "AS Monaco": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "AS Monaco",
   "comp": "ligue1",
   "fora": "AJ Auxerre",
@@ -1107,7 +1171,9 @@
    "Le Mans": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
    "Marseille": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Marseille",
   "comp": "ligue1",
   "fora": "Le Mans",
@@ -1122,7 +1188,9 @@
    "Lorient": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
    "Stade Rennais": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Lorient",
   "comp": "ligue1",
   "fora": "Stade Rennais",
@@ -1137,7 +1205,9 @@
    "Lille": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
    "Lyon": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Lille",
   "comp": "ligue1",
   "fora": "Lyon",
@@ -1152,7 +1222,9 @@
    "Lens": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
    "Toulouse": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Lens",
   "comp": "ligue1",
   "fora": "Toulouse",
@@ -1168,7 +1240,6 @@
    "Ipswich Town": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Ipswich Town",
@@ -1186,7 +1257,6 @@
    "Manchester City": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Arsenal",
@@ -1204,7 +1274,6 @@
    "Tottenham": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Tottenham",
@@ -1222,7 +1291,6 @@
    "Manchester United": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Liverpool",
@@ -1240,7 +1308,6 @@
    "Sunderland": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Aston Villa",
@@ -1258,7 +1325,6 @@
    "Tottenham": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Sunderland",
@@ -1276,7 +1342,6 @@
    "Nottingham Forest": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Nottingham Forest",
@@ -1294,7 +1359,6 @@
    "Manchester United": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Manchester United",
@@ -1312,7 +1376,6 @@
    "Leeds": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Leeds",
@@ -1330,7 +1393,6 @@
    "Fulham": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Fulham",
@@ -1348,7 +1410,6 @@
    "Liverpool": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Everton",
@@ -1366,7 +1427,6 @@
    "Hull City": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Crystal Palace",
@@ -1384,7 +1444,6 @@
    "Newcastle": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Brighton",
@@ -1402,7 +1461,6 @@
    "Newcastle": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Newcastle",
@@ -1420,7 +1478,6 @@
    "Manchester City": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Manchester City",
@@ -1438,7 +1495,6 @@
    "Hull City": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Hull City",
@@ -1456,7 +1512,6 @@
    "Crystal Palace": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Coventry City",
@@ -1474,7 +1529,6 @@
    "Leeds": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Chelsea",
@@ -1492,7 +1546,6 @@
    "Everton": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Brentford",
@@ -1510,7 +1563,6 @@
    "Nottingham Forest": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
   },
   "canais": [
-   "espn",
    "disney"
   ],
   "casa": "Bournemouth",
@@ -1527,7 +1579,9 @@
    "Osasuna": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
    "Valencia": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Valencia",
   "comp": "laliga",
   "fora": "Osasuna",
@@ -1542,7 +1596,9 @@
    "Real Sociedad": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
    "Sevilla": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Real Sociedad",
   "comp": "laliga",
   "fora": "Sevilla",
@@ -1557,7 +1613,9 @@
    "Alavés": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
    "Real Madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Real Madrid",
   "comp": "laliga",
   "fora": "Alavés",
@@ -1572,7 +1630,9 @@
    "Athletic Club": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
    "Málaga": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Málaga",
   "comp": "laliga",
   "fora": "Athletic Club",
@@ -1587,7 +1647,9 @@
    "Levante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "Racing Santander": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Levante",
   "comp": "laliga",
   "fora": "Racing Santander",
@@ -1602,7 +1664,9 @@
    "Atlético de Madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "Elche": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Elche",
   "comp": "laliga",
   "fora": "Atlético de Madrid",
@@ -1617,7 +1681,9 @@
    "Barcelona": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "Deportivo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Deportivo",
   "comp": "laliga",
   "fora": "Barcelona",
@@ -1632,7 +1698,9 @@
    "Celta Vigo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
    "Villarreal": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Celta Vigo",
   "comp": "laliga",
   "fora": "Villarreal",
@@ -1647,7 +1715,9 @@
    "Rayo Vallecano": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
    "Real Betis": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Real Betis",
   "comp": "laliga",
   "fora": "Rayo Vallecano",
@@ -1662,7 +1732,9 @@
    "Real Betis": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
    "Sevilla": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Sevilla",
   "comp": "laliga",
   "fora": "Real Betis",
@@ -1677,7 +1749,9 @@
    "Celta Vigo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
    "Real Madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Real Madrid",
   "comp": "laliga",
   "fora": "Celta Vigo",
@@ -1692,7 +1766,9 @@
    "Rayo Vallecano": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
    "Valencia": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Rayo Vallecano",
   "comp": "laliga",
   "fora": "Valencia",
@@ -1707,7 +1783,9 @@
    "Racing Santander": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
    "Real Sociedad": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Racing Santander",
   "comp": "laliga",
   "fora": "Real Sociedad",
@@ -1722,7 +1800,9 @@
    "Málaga": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
    "Osasuna": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Osasuna",
   "comp": "laliga",
   "fora": "Málaga",
@@ -1737,7 +1817,9 @@
    "Elche": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
    "Levante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Levante",
   "comp": "laliga",
   "fora": "Elche",
@@ -1752,7 +1834,9 @@
    "Atlético de Madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "Getafe": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Getafe",
   "comp": "laliga",
   "fora": "Atlético de Madrid",
@@ -1767,7 +1851,9 @@
    "Barcelona": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "Villarreal": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Barcelona",
   "comp": "laliga",
   "fora": "Villarreal",
@@ -1782,7 +1868,9 @@
    "Athletic Club": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
    "Espanyol": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Athletic Club",
   "comp": "laliga",
   "fora": "Espanyol",
@@ -1797,7 +1885,9 @@
    "Alavés": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
    "Deportivo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Alavés",
   "comp": "laliga",
   "fora": "Deportivo",
@@ -1812,7 +1902,9 @@
    "SC Paderborn 07": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
    "Schalke 04": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "SC Paderborn 07",
   "comp": "bundesliga",
   "fora": "Schalke 04",
@@ -1827,7 +1919,9 @@
    "Borussia Mönchengladbach": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
    "Werder Bremen": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Werder Bremen",
   "comp": "bundesliga",
   "fora": "Borussia Mönchengladbach",
@@ -1842,7 +1936,9 @@
    "FC Cologne": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
    "SV Elversberg": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "FC Cologne",
   "comp": "bundesliga",
   "fora": "SV Elversberg",
@@ -1857,7 +1953,9 @@
    "Bayern de Munique": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
    "Hamburg SV": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Hamburg SV",
   "comp": "bundesliga",
   "fora": "Bayern de Munique",
@@ -1872,7 +1970,9 @@
    "1. FC Union Berlin": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
    "Mainz": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Mainz",
   "comp": "bundesliga",
   "fora": "1. FC Union Berlin",
@@ -1887,7 +1987,9 @@
    "RB Leipzig": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
    "SC Freiburg": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "SC Freiburg",
   "comp": "bundesliga",
   "fora": "RB Leipzig",
@@ -1902,7 +2004,9 @@
    "FC Augsburg": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
    "TSG Hoffenheim": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "TSG Hoffenheim",
   "comp": "bundesliga",
   "fora": "FC Augsburg",
@@ -1917,7 +2021,9 @@
    "Eintracht Frankfurt": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
    "VfB Stuttgart": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "VfB Stuttgart",
   "comp": "bundesliga",
   "fora": "Eintracht Frankfurt",
@@ -1932,7 +2038,9 @@
    "Bayer Leverkusen": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
    "Borussia Dortmund": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Borussia Dortmund",
   "comp": "bundesliga",
   "fora": "Bayer Leverkusen",
@@ -1947,7 +2055,9 @@
    "SC Freiburg": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
    "SV Elversberg": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "SV Elversberg",
   "comp": "bundesliga",
   "fora": "SC Freiburg",
@@ -1962,7 +2072,9 @@
    "Schalke 04": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
    "VfB Stuttgart": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Schalke 04",
   "comp": "bundesliga",
   "fora": "VfB Stuttgart",
@@ -1977,7 +2089,9 @@
    "Hamburg SV": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
    "Werder Bremen": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Werder Bremen",
   "comp": "bundesliga",
   "fora": "Hamburg SV",
@@ -1992,7 +2106,9 @@
    "Borussia Dortmund": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
    "Borussia Mönchengladbach": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Borussia Mönchengladbach",
   "comp": "bundesliga",
   "fora": "Borussia Dortmund",
@@ -2007,7 +2123,9 @@
    "1. FC Union Berlin": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
    "RB Leipzig": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "1. FC Union Berlin",
   "comp": "bundesliga",
   "fora": "RB Leipzig",
@@ -2022,7 +2140,9 @@
    "FC Augsburg": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
    "Mainz": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "FC Augsburg",
   "comp": "bundesliga",
   "fora": "Mainz",
@@ -2037,7 +2157,9 @@
    "Eintracht Frankfurt": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
    "TSG Hoffenheim": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Eintracht Frankfurt",
   "comp": "bundesliga",
   "fora": "TSG Hoffenheim",
@@ -2052,7 +2174,9 @@
    "Bayer Leverkusen": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
    "SC Paderborn 07": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Bayer Leverkusen",
   "comp": "bundesliga",
   "fora": "SC Paderborn 07",
@@ -2067,7 +2191,9 @@
    "Bayern de Munique": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
    "FC Cologne": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png"
   },
-  "canais": [],
+  "canais": [
+   "onefootball"
+  ],
   "casa": "Bayern de Munique",
   "comp": "bundesliga",
   "fora": "FC Cologne",
@@ -2082,7 +2208,9 @@
    "Estrela": "https://a.espncdn.com/i/teamlogos/soccer/500/21610.png",
    "Vitória de Guimaraes": "https://a.espncdn.com/i/teamlogos/soccer/500/5309.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Vitória de Guimaraes",
   "comp": "portugal",
   "fora": "Estrela",
@@ -2097,7 +2225,9 @@
    "FC Porto": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
    "Sporting CP": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "FC Porto",
   "comp": "portugal",
   "fora": "Sporting CP",
@@ -2112,7 +2242,9 @@
    "Moreirense": "https://a.espncdn.com/i/teamlogos/soccer/500/3696.png",
    "Santa Clara": "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Moreirense",
   "comp": "portugal",
   "fora": "Santa Clara",
@@ -2127,7 +2259,9 @@
    "C.D. Nacional": "https://a.espncdn.com/i/teamlogos/soccer/500/3472.png",
    "Maritimo": "https://a.espncdn.com/i/teamlogos/soccer/500/552.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Maritimo",
   "comp": "portugal",
   "fora": "C.D. Nacional",
@@ -2142,7 +2276,9 @@
    "Estoril": "https://a.espncdn.com/i/teamlogos/soccer/500/12216.png",
    "Gil Vicente": "https://a.espncdn.com/i/teamlogos/soccer/500/3699.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Gil Vicente",
   "comp": "portugal",
   "fora": "Estoril",
@@ -2157,7 +2293,9 @@
    "Arouca": "https://a.espncdn.com/i/teamlogos/soccer/500/15784.png",
    "Rio Ave": "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Arouca",
   "comp": "portugal",
   "fora": "Rio Ave",
@@ -2172,7 +2310,9 @@
    "Académico de Viseu": "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png",
    "Alverca": "https://a.espncdn.com/i/teamlogos/soccer/500/21613.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Académico de Viseu",
   "comp": "portugal",
   "fora": "Alverca",
@@ -2337,7 +2477,9 @@
    "Estudiantes": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
    "Palmeiras": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Palmeiras",
   "comp": "libertadores",
   "fora": "Estudiantes",
@@ -2435,7 +2577,9 @@
    "Atlético de Madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "Viking FK": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Atlético de Madrid",
   "comp": "champions",
   "fora": "Viking FK",
@@ -2450,7 +2594,9 @@
    "Club Brugge": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
    "Liverpool": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Club Brugge",
   "comp": "champions",
   "fora": "Liverpool",
@@ -2465,7 +2611,9 @@
    "Slavia Prague": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
    "Villarreal": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Slavia Prague",
   "comp": "champions",
   "fora": "Villarreal",
@@ -2480,7 +2628,9 @@
    "FC Porto": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
    "Feyenoord Rotterdam": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Feyenoord Rotterdam",
   "comp": "champions",
   "fora": "FC Porto",
@@ -2495,7 +2645,9 @@
    "Arsenal": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
    "Borussia Dortmund": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Arsenal",
   "comp": "champions",
   "fora": "Borussia Dortmund",
@@ -2510,7 +2662,9 @@
    "AEK Athens": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
    "Como": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Como",
   "comp": "champions",
   "fora": "AEK Athens",
@@ -2525,7 +2679,9 @@
    "Real Betis": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
    "Slovan Bratislava": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Slovan Bratislava",
   "comp": "champions",
   "fora": "Real Betis",
@@ -2540,7 +2696,9 @@
    "PSV Eindhoven": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
    "Real Madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Real Madrid",
   "comp": "champions",
   "fora": "PSV Eindhoven",
@@ -2555,7 +2713,9 @@
    "Lens": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
    "RB Leipzig": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "RB Leipzig",
   "comp": "champions",
   "fora": "Lens",
@@ -2570,7 +2730,9 @@
    "Aston Villa": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
    "Galatasaray": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Galatasaray",
   "comp": "champions",
   "fora": "Aston Villa",
@@ -2585,7 +2747,9 @@
    "Manchester United": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
    "Sporting CP": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Sporting CP",
   "comp": "champions",
   "fora": "Manchester United",
@@ -2600,7 +2764,9 @@
    "Paris Saint-Germain": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
    "Roma": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Paris Saint-Germain",
   "comp": "champions",
   "fora": "Roma",
@@ -2615,7 +2781,9 @@
    "Fenerbahce": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
    "Shakhtar Donetsk": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Shakhtar Donetsk",
   "comp": "champions",
   "fora": "Fenerbahce",
@@ -2630,7 +2798,9 @@
    "Inter de Milão": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
    "VfB Stuttgart": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Inter de Milão",
   "comp": "champions",
   "fora": "VfB Stuttgart",
@@ -2645,7 +2815,9 @@
    "Bayern de Munique": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
    "Lille": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Lille",
   "comp": "champions",
   "fora": "Bayern de Munique",
@@ -2660,7 +2832,9 @@
    "Barcelona": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "Sabah FK": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Sabah FK",
   "comp": "champions",
   "fora": "Barcelona",
@@ -2675,7 +2849,9 @@
    "Manchester City": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
    "Napoli": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Manchester City",
   "comp": "champions",
   "fora": "Napoli",
@@ -2690,7 +2866,9 @@
    "Bodo/Glimt": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
    "LASK Linz": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png"
   },
-  "canais": [],
+  "canais": [
+   "hbomax"
+  ],
   "casa": "Bodo/Glimt",
   "comp": "champions",
   "fora": "LASK Linz",
@@ -2705,7 +2883,9 @@
    "Lillestrom": "https://a.espncdn.com/i/teamlogos/soccer/500/987.png",
    "Lyon": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Lyon",
   "comp": "europa",
   "fora": "Lillestrom",
@@ -2720,7 +2900,9 @@
    "Juventus": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
    "Omonia Nicosia": "https://a.espncdn.com/i/teamlogos/soccer/500/617.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Juventus",
   "comp": "europa",
   "fora": "Omonia Nicosia",
@@ -2735,7 +2917,9 @@
    "Anderlecht": "https://a.espncdn.com/i/teamlogos/soccer/500/441.png",
    "OFI Crete": "https://a.espncdn.com/i/teamlogos/soccer/500/1010.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "OFI Crete",
   "comp": "europa",
   "fora": "Anderlecht",
@@ -2750,7 +2934,9 @@
    "Crystal Palace": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
    "Real Sociedad": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Crystal Palace",
   "comp": "europa",
   "fora": "Real Sociedad",
@@ -2765,7 +2951,9 @@
    "NEC Nijmegen": "https://a.espncdn.com/i/teamlogos/soccer/500/147.png",
    "Stade Rennais": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "NEC Nijmegen",
   "comp": "europa",
   "fora": "Stade Rennais",
@@ -2780,7 +2968,9 @@
    "Besiktas": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
    "Hapoel Be'er": "https://a.espncdn.com/i/teamlogos/soccer/500/13083.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Besiktas",
   "comp": "europa",
   "fora": "Hapoel Be'er",
@@ -2795,7 +2985,9 @@
    "Levski Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/490.png",
    "Marseille": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Marseille",
   "comp": "europa",
   "fora": "Levski Sofia",
@@ -2810,7 +3002,9 @@
    "Lech Poznan": "https://a.espncdn.com/i/teamlogos/soccer/500/2990.png",
    "Union St.-Gilloise": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Union St.-Gilloise",
   "comp": "europa",
   "fora": "Lech Poznan",
@@ -2825,7 +3019,9 @@
    "Celtic": "https://a.espncdn.com/i/teamlogos/soccer/500/256.png",
    "Torreense": "https://a.espncdn.com/i/teamlogos/soccer/500/21615.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Torreense",
   "comp": "europa",
   "fora": "Celtic",
@@ -2840,7 +3036,9 @@
    "Jagiellonia Bialystok": "https://a.espncdn.com/i/teamlogos/soccer/500/11505.png",
    "Sunderland": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Sunderland",
   "comp": "europa",
   "fora": "Jagiellonia Bialystok",
@@ -2855,7 +3053,9 @@
    "AZ Alkmaar": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
    "Sparta Prague": "https://a.espncdn.com/i/teamlogos/soccer/500/433.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Sparta Prague",
   "comp": "europa",
   "fora": "AZ Alkmaar",
@@ -2870,7 +3070,9 @@
    "SK Sturm Graz": "https://a.espncdn.com/i/teamlogos/soccer/500/3746.png",
    "TSG Hoffenheim": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "TSG Hoffenheim",
   "comp": "europa",
   "fora": "SK Sturm Graz",
@@ -2885,7 +3087,9 @@
    "Ferencvaros": "https://a.espncdn.com/i/teamlogos/soccer/500/622.png",
    "NK Celje": "https://a.espncdn.com/i/teamlogos/soccer/500/3362.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Ferencvaros",
   "comp": "europa",
   "fora": "NK Celje",
@@ -2900,7 +3104,9 @@
    "Bayer Leverkusen": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
    "Dinamo Zagreb": "https://a.espncdn.com/i/teamlogos/soccer/500/597.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Dinamo Zagreb",
   "comp": "europa",
   "fora": "Bayer Leverkusen",
@@ -2915,7 +3121,9 @@
    "Benfica": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
    "Viktoria Plzen": "https://a.espncdn.com/i/teamlogos/soccer/500/11706.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Viktoria Plzen",
   "comp": "europa",
   "fora": "Benfica",
@@ -2930,7 +3138,9 @@
    "Bournemouth": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
    "Celta Vigo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Celta Vigo",
   "comp": "europa",
   "fora": "Bournemouth",
@@ -2945,7 +3155,9 @@
    "Ararat-Armenia": "https://a.espncdn.com/i/teamlogos/soccer/500/20024.png",
    "RB Salzburg": "https://a.espncdn.com/i/teamlogos/soccer/500/2790.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "RB Salzburg",
   "comp": "europa",
   "fora": "Ararat-Armenia",
@@ -2960,7 +3172,9 @@
    "Milan": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
    "Olympiacos": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Olympiacos",
   "comp": "europa",
   "fora": "Milan",
@@ -2975,7 +3189,9 @@
    "F.C. København": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
    "Inter D'Escaldes": "https://a.espncdn.com/i/teamlogos/soccer/500/20703.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Inter D'Escaldes",
   "comp": "conference",
   "fora": "F.C. København",
@@ -2990,7 +3206,9 @@
    "Kauno Zalgiris": "https://a.espncdn.com/i/teamlogos/soccer/500/20028.png",
    "Riga FC": "https://a.espncdn.com/i/teamlogos/soccer/500/19246.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Kauno Zalgiris",
   "comp": "conference",
   "fora": "Riga FC",
@@ -3005,7 +3223,9 @@
    "FC Twente": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
    "SC Freiburg": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "SC Freiburg",
   "comp": "conference",
   "fora": "FC Twente",
@@ -3020,7 +3240,9 @@
    "Braga": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
    "KuPS Kuopio": "https://a.espncdn.com/i/teamlogos/soccer/500/8169.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Braga",
   "comp": "conference",
   "fora": "KuPS Kuopio",
@@ -3035,7 +3257,9 @@
    "CSKA Sofia": "https://a.espncdn.com/i/teamlogos/soccer/500/10834.png",
    "Trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "CSKA Sofia",
   "comp": "conference",
   "fora": "Trabzonspor",
@@ -3050,7 +3274,9 @@
    "KAA Gent": "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png",
    "Red Star Belgrade": "https://a.espncdn.com/i/teamlogos/soccer/500/2290.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "KAA Gent",
   "comp": "conference",
   "fora": "Red Star Belgrade",
@@ -3065,7 +3291,9 @@
    "Hajduk Split": "https://a.espncdn.com/i/teamlogos/soccer/500/489.png",
    "Sint-Truidense": "https://a.espncdn.com/i/teamlogos/soccer/500/936.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Hajduk Split",
   "comp": "conference",
   "fora": "Sint-Truidense",
@@ -3080,7 +3308,9 @@
    "Atalanta": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "Borac Banja Luka": "https://a.espncdn.com/i/teamlogos/soccer/500/20710.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Borac Banja Luka",
   "comp": "conference",
   "fora": "Atalanta",
@@ -3095,7 +3325,9 @@
    "FC Nordsjælland": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
    "Panathinaikos": "https://a.espncdn.com/i/teamlogos/soccer/500/443.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "FC Nordsjælland",
   "comp": "conference",
   "fora": "Panathinaikos",
@@ -3110,7 +3342,9 @@
    "AGF": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
    "SK Brann": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "SK Brann",
   "comp": "conference",
   "fora": "AGF",
@@ -3125,7 +3359,9 @@
    "FC Midtjylland": "https://a.espncdn.com/i/teamlogos/soccer/500/572.png",
    "Pafos": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Pafos",
   "comp": "conference",
   "fora": "FC Midtjylland",
@@ -3140,7 +3376,9 @@
    "Egnatia": "https://a.espncdn.com/i/teamlogos/soccer/500/21943.png",
    "Lincoln Red Imps": "https://a.espncdn.com/i/teamlogos/soccer/500/17856.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Egnatia",
   "comp": "conference",
   "fora": "Lincoln Red Imps",
@@ -3155,7 +3393,9 @@
    "AS Monaco": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
    "Heart of Midlothian": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Heart of Midlothian",
   "comp": "conference",
   "fora": "AS Monaco",
@@ -3170,7 +3410,9 @@
    "FC Lugano": "https://a.espncdn.com/i/teamlogos/soccer/500/7672.png",
    "Jablonec": "https://a.espncdn.com/i/teamlogos/soccer/500/7922.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Jablonec",
   "comp": "conference",
   "fora": "FC Lugano",
@@ -3185,7 +3427,9 @@
    "Getafe": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
    "Iberia 1999": "https://a.espncdn.com/i/teamlogos/soccer/500/20025.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Iberia 1999",
   "comp": "conference",
   "fora": "Getafe",
@@ -3200,7 +3444,9 @@
    "Brighton": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
    "CSU Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Brighton",
   "comp": "conference",
   "fora": "CSU Craiova",
@@ -3215,7 +3461,9 @@
    "Ajax Amsterdam": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
    "FC Thun": "https://a.espncdn.com/i/teamlogos/soccer/500/3024.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Ajax Amsterdam",
   "comp": "conference",
   "fora": "FC Thun",
@@ -3230,7 +3478,9 @@
    "Kairat Almaty": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
    "Mjällby AIF": "https://a.espncdn.com/i/teamlogos/soccer/500/20301.png"
   },
-  "canais": [],
+  "canais": [
+   "cazetv"
+  ],
   "casa": "Kairat Almaty",
   "comp": "conference",
   "fora": "Mjällby AIF",
@@ -3352,7 +3602,9 @@
    "FC Cincinnati": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
    "Orlando City SC": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Orlando City SC",
   "comp": "mls",
   "fora": "FC Cincinnati",
@@ -3367,7 +3619,9 @@
    "Real Salt Lake": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
    "Seattle Sounders FC": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Seattle Sounders FC",
   "comp": "mls",
   "fora": "Real Salt Lake",
@@ -3382,7 +3636,9 @@
    "FC Dallas": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
    "Portland Timbers": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Portland Timbers",
   "comp": "mls",
   "fora": "FC Dallas",
@@ -3397,7 +3653,9 @@
    "Nashville SC": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
    "TBD Home": ""
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "TBD Home",
   "comp": "mls",
   "fora": "Nashville SC",
@@ -3412,7 +3670,9 @@
    "New England Revolution": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
    "Philadelphia Union": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Philadelphia Union",
   "comp": "mls",
   "fora": "New England Revolution",
@@ -3427,7 +3687,9 @@
    "Houston Dynamo FC": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
    "San Jose Earthquakes": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Houston Dynamo FC",
   "comp": "mls",
   "fora": "San Jose Earthquakes",
@@ -3442,7 +3704,9 @@
    "TBD Home": "",
    "Vancouver Whitecaps": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "TBD Home",
   "comp": "mls",
   "fora": "Vancouver Whitecaps",
@@ -3457,7 +3721,9 @@
    "LAFC": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
    "St. Louis CITY SC": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "LAFC",
   "comp": "mls",
   "fora": "St. Louis CITY SC",
@@ -3472,7 +3738,9 @@
    "Columbus Crew": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
    "Inter Miami CF": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Columbus Crew",
   "comp": "mls",
   "fora": "Inter Miami CF",
@@ -3487,7 +3755,9 @@
    "LAFC": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
    "St. Louis CITY SC": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "St. Louis CITY SC",
   "comp": "mls",
   "fora": "LAFC",
@@ -3502,7 +3772,9 @@
    "TBD Away": "",
    "Vancouver Whitecaps": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Vancouver Whitecaps",
   "comp": "mls",
   "fora": "TBD Away",
@@ -3517,7 +3789,9 @@
    "Charlotte FC": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
    "Chicago Fire FC": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Chicago Fire FC",
   "comp": "mls",
   "fora": "Charlotte FC",
@@ -3532,7 +3806,9 @@
    "Nashville SC": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
    "TBD Away": ""
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Nashville SC",
   "comp": "mls",
   "fora": "TBD Away",
@@ -3547,7 +3823,9 @@
    "FC Dallas": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
    "Portland Timbers": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "FC Dallas",
   "comp": "mls",
   "fora": "Portland Timbers",
@@ -3562,7 +3840,9 @@
    "New England Revolution": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
    "Philadelphia Union": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "New England Revolution",
   "comp": "mls",
   "fora": "Philadelphia Union",
@@ -3577,7 +3857,9 @@
    "Charlotte FC": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
    "Chicago Fire FC": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Charlotte FC",
   "comp": "mls",
   "fora": "Chicago Fire FC",
@@ -3592,7 +3874,9 @@
    "Houston Dynamo FC": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
    "San Jose Earthquakes": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "San Jose Earthquakes",
   "comp": "mls",
   "fora": "Houston Dynamo FC",
@@ -3607,7 +3891,9 @@
    "Columbus Crew": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
    "Inter Miami CF": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png"
   },
-  "canais": [],
+  "canais": [
+   "appletv"
+  ],
   "casa": "Inter Miami CF",
   "comp": "mls",
   "fora": "Columbus Crew",
@@ -3622,7 +3908,9 @@
    "Argentinos Juniors": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
    "Independiente": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Argentinos Juniors",
   "comp": "argentina",
   "fora": "Independiente",
@@ -3637,7 +3925,9 @@
    "Gimnasia La Plata": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
    "Newell's Old Boys": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Gimnasia La Plata",
   "comp": "argentina",
   "fora": "Newell's Old Boys",
@@ -3652,7 +3942,9 @@
    "Boca Juniors": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
    "Independiente Rivadavia": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Boca Juniors",
   "comp": "argentina",
   "fora": "Independiente Rivadavia",
@@ -3667,7 +3959,9 @@
    "Barracas Central": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
    "Defensa y Justicia": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Defensa y Justicia",
   "comp": "argentina",
   "fora": "Barracas Central",
@@ -3682,7 +3976,9 @@
    "Gimnasia (Mendoza)": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
    "Rosario Central": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Rosario Central",
   "comp": "argentina",
   "fora": "Gimnasia (Mendoza)",
@@ -3697,7 +3993,9 @@
    "Belgrano (Córdoba)": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
    "Vélez Sarsfield": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Vélez Sarsfield",
   "comp": "argentina",
   "fora": "Belgrano (Córdoba)",
@@ -3712,7 +4010,9 @@
    "Lanús": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
    "River Plate": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "River Plate",
   "comp": "argentina",
   "fora": "Lanús",
@@ -3727,7 +4027,9 @@
    "Huracán": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
    "Instituto (Córdoba)": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Instituto (Córdoba)",
   "comp": "argentina",
   "fora": "Huracán",
