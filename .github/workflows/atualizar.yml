@@ -15,7 +15,7 @@ on:
       - "dados/verificados.json"
       - "dados/canais.json"
       - "robo/**"
-      - "site/template.html"
+      - "site/**"
 
 permissions:
   contents: write
