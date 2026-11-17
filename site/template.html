@@ -230,6 +230,7 @@ footer p{margin:4px 0}
 footer a{color:inherit}
 @media(max-width:959px){.side .ad{display:none}}
 </style>
+__ADSENSE_HEAD__
 </head>
 <body>
 <header>
@@ -524,9 +525,9 @@ function fillAd(id,slot){
 }
 function anuncios(){
  if(!AD.adsense_client) return;
- const sc=document.createElement('script');sc.async=true;sc.crossOrigin='anonymous';
+ if(!document.querySelector('script[src*="adsbygoogle.js"]')){const sc=document.createElement('script');sc.async=true;sc.crossOrigin='anonymous';
  sc.src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client='+encodeURIComponent(AD.adsense_client);
- document.head.appendChild(sc);
+ document.head.appendChild(sc);}
  if(ADS.lateral&&matchMedia('(min-width:960px)').matches) fillAd('adlado',ADS.lateral);
 }
 function render(){renderDays();renderChips();renderNext();renderList()}

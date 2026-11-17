@@ -362,6 +362,10 @@ def gerar_site(dados):
     elif ads.exists():
         ads.unlink()
     tpl = (RAIZ / "site" / "template.html").read_text(encoding="utf-8")
+    cli = (dados.get("anuncios") or {}).get("adsense_client", "")
+    head = (f'<meta name="google-adsense-account" content="{cli}">\n'
+            f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={cli}" crossorigin="anonymous"></script>') if cli else ""
+    tpl = tpl.replace("__ADSENSE_HEAD__", head)
     bloco = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     (RAIZ / "site" / "index.html").write_text(tpl.replace("__DADOS__", bloco), encoding="utf-8")
 
