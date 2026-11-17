@@ -3529,6 +3529,10 @@
   "fora": "Paraguai",
   "inicio": "2026-11-17T10:10:00-03:00",
   "local": "Singapore National Stadium, Singapore",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401921304": {
