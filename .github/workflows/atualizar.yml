@@ -3,7 +3,8 @@ name: Atualizar agenda
 # O agendamento grátis do GitHub atrasa e pula execuções. Por isso, cada disparo
 # agendado vira uma "rodada" de 6 horas: 6 passos em sequência, um por hora,
 # cada um busca jogos e placares, salva no repositório e publica o site.
-# Disparos por push ou pelo botão "Run workflow" fazem um passo só, na hora.
+# O botão "Run workflow" também começa uma rodada de 6 horas.
+# Disparos por push (canais da pesquisa noturna, mudanças no robô) fazem um passo só, na hora.
 
 on:
   schedule:
@@ -33,7 +34,7 @@ jobs:
       max-parallel: 1
       fail-fast: false
       matrix:
-        passo: ${{ github.event_name == 'schedule' && fromJSON('[0,1,2,3,4,5]') || fromJSON('[0]') }}
+        passo: ${{ github.event_name != 'push' && fromJSON('[0,1,2,3,4,5]') || fromJSON('[0]') }}
     steps:
       - name: Esperar a hora deste passo
         if: matrix.passo > 0
@@ -49,7 +50,7 @@ jobs:
           THESPORTSDB_KEY: ${{ secrets.THESPORTSDB_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
-        run: python robo/atualizar.py ${{ github.event_name != 'schedule' && '--completo' || '' }}
+        run: python robo/atualizar.py ${{ (github.event_name == 'push' || matrix.passo == 0) && '--completo' || '' }}
       - name: Salvar agenda no repositório
         run: |
           git config user.name "robo-agenda"
