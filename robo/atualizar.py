@@ -121,6 +121,9 @@ def nome(cfg, t):
     return cfg.get("nomes", {}).get(t, t)
 
 
+LOGO_LIGA = {}
+
+
 def espn(cfg, completo):
     """Busca os jogos de cada campeonato na ESPN, um dia por vez.
 
@@ -139,7 +142,13 @@ def espn(cfg, completo):
             continue
         for d in datas:
             try:
-                evs = get_json(ESPN.format(liga, d)).get("events") or []
+                r = get_json(ESPN.format(liga, d))
+                evs = r.get("events") or []
+                for lg in r.get("leagues") or []:
+                    for lo in lg.get("logos") or []:
+                        if lo.get("href") and "dark" not in (lo.get("rel") or []):
+                            LOGO_LIGA.setdefault(comp, lo["href"])
+                            break
             except Exception as e:
                 falhas += 1
                 log("ESPN falhou:", liga, d, e)
@@ -354,6 +363,18 @@ def escudos(cfg, jogos, logos=None):
     return out
 
 
+def logos_ligas(cfg):
+    """Logo de cada campeonato (vem da ESPN com os jogos), guardado em dados/logos_ligas.json.
+    Para tirar o logo de uma liga, ponha "" no lugar do endereço nesse arquivo."""
+    arq = RAIZ / "dados" / "logos_ligas.json"
+    salvos = ler(arq) if arq.exists() else {}
+    novos = {k: v for k, v in LOGO_LIGA.items() if k not in salvos}
+    if novos:
+        salvos.update(novos)
+        arq.write_text(json.dumps(salvos, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    return {k: espn_logo(v) for k, v in salvos.items() if v and k in cfg["competicoes"]}
+
+
 def gerar_site(dados):
     pub = (dados.get("anuncios") or {}).get("adsense_client", "").replace("ca-pub-", "pub-")
     ads = RAIZ / "site" / "ads.txt"
@@ -409,6 +430,7 @@ def main():
         "sugestoes": {k: v for k, v in cfg.get("sugestoes", {}).items() if k != "comentario"},
         "popularidade": {k: v for k, v in cfg.get("popularidade", {}).items() if k != "comentario"},
         "escudos": escudos(cfg, jogos, logos),
+        "logos_ligas": logos_ligas(cfg),
         "anuncios": {k: v for k, v in cfg.get("anuncios", {}).items() if k != "comentario"},
     }
     anterior.write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")

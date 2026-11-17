@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-16T22:06:55-03:00",
+ "atualizado": "2026-11-16T22:11:55-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -231,116 +231,116 @@
  },
  "jogos": [
   {
-   "inicio": "2026-11-15T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "Bélgica",
-   "fora": "Itália",
-   "local": "King Baudouin Stadium, Brussels",
    "canais": [
     "sportv",
     "disney"
    ],
-   "status": "a_confirmar",
+   "casa": "Bélgica",
+   "comp": "nations",
+   "fora": "Itália",
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "local": "King Baudouin Stadium, Brussels",
    "placar": {
     "casa": 4,
     "fora": 1
    },
+   "status": "a_confirmar",
    "rodada": "Fase de liga"
   },
   {
-   "inicio": "2026-11-15T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "Croácia",
-   "fora": "República Tcheca",
-   "local": "Opus Arena, Osijek",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
+   "casa": "Croácia",
+   "comp": "nations",
+   "fora": "República Tcheca",
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "local": "Opus Arena, Osijek",
    "placar": {
     "casa": 2,
     "fora": 1
-   }
+   },
+   "status": "a_confirmar"
   },
   {
-   "inicio": "2026-11-15T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "Espanha",
-   "fora": "Inglaterra",
-   "local": "Riyadh Air Metropolitano, Madrid",
    "canais": [
     "disney",
     "sportv"
    ],
-   "status": "a_confirmar",
+   "casa": "Espanha",
+   "comp": "nations",
+   "fora": "Inglaterra",
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "local": "Riyadh Air Metropolitano, Madrid",
    "placar": {
     "casa": 2,
     "fora": 3
    },
+   "status": "a_confirmar",
    "rodada": "Fase de liga"
   },
   {
-   "inicio": "2026-11-15T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "França",
-   "fora": "Turquia",
-   "local": "Stade Atlantique, Bordeaux",
    "canais": [
     "disney",
     "sportv"
    ],
-   "status": "a_confirmar",
+   "casa": "França",
+   "comp": "nations",
+   "fora": "Turquia",
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "local": "Stade Atlantique, Bordeaux",
    "placar": {
     "casa": 2,
     "fora": 1
    },
+   "status": "a_confirmar",
    "rodada": "Fase de liga"
   },
   {
-   "inicio": "2026-11-16T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "Alemanha",
-   "fora": "Holanda",
-   "local": "Olympic Stadium Berlin, Berlin",
    "canais": [
     "espn",
     "disney"
    ],
-   "status": "confirmado",
+   "casa": "Alemanha",
+   "comp": "nations",
+   "fora": "Holanda",
+   "inicio": "2026-11-16T16:45:00-03:00",
+   "local": "Olympic Stadium Berlin, Berlin",
    "placar": {
     "casa": 5,
     "fora": 0
    },
+   "status": "confirmado",
    "rodada": "Fase de liga"
   },
   {
-   "inicio": "2026-11-16T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "Suíça",
-   "fora": "Escócia",
-   "local": "Kybunpark, St. Gallen",
    "canais": [
     "espn",
     "disney"
    ],
-   "status": "confirmado",
+   "casa": "Suíça",
+   "comp": "nations",
+   "fora": "Escócia",
+   "inicio": "2026-11-16T16:45:00-03:00",
+   "local": "Kybunpark, St. Gallen",
    "placar": {
     "casa": 4,
     "fora": 0
    },
+   "status": "confirmado",
    "rodada": "Fase de liga"
   },
   {
-   "inicio": "2026-11-17T07:00:00-03:00",
-   "comp": "amistoso",
-   "casa": "Singapura",
-   "fora": "Brasil",
-   "local": "Singapore National Stadium, Singapore",
    "canais": [
     "globo",
     "sportv",
     "getv"
    ],
+   "casa": "Singapura",
+   "comp": "amistoso",
+   "fora": "Brasil",
+   "inicio": "2026-11-17T07:00:00-03:00",
+   "local": "Singapore National Stadium, Singapore",
    "status": "confirmado",
    "rodada": "Data FIFA",
    "links": {
@@ -348,61 +348,61 @@
    }
   },
   {
-   "inicio": "2026-11-17T10:10:00-03:00",
-   "comp": "amistoso",
-   "casa": "Japão",
-   "fora": "Paraguai",
-   "local": "Singapore National Stadium, Singapore",
    "canais": [],
+   "casa": "Japão",
+   "comp": "amistoso",
+   "fora": "Paraguai",
+   "inicio": "2026-11-17T10:10:00-03:00",
+   "local": "Singapore National Stadium, Singapore",
    "status": "a_confirmar"
   },
   {
-   "inicio": "2026-11-17T16:45:00-03:00",
-   "comp": "nations",
+   "canais": [
+    "espn",
+    "disney"
+   ],
    "casa": "Dinamarca",
+   "comp": "nations",
    "fora": "Noruega",
+   "inicio": "2026-11-17T16:45:00-03:00",
    "local": "Parken Stadium, Copenhagen",
-   "canais": [
-    "espn",
-    "disney"
-   ],
    "status": "confirmado",
    "rodada": "Fase de liga"
   },
   {
-   "inicio": "2026-11-17T16:45:00-03:00",
-   "comp": "nations",
+   "canais": [
+    "sportv"
+   ],
    "casa": "País de Gales",
+   "comp": "nations",
    "fora": "Portugal",
+   "inicio": "2026-11-17T16:45:00-03:00",
    "local": "Cardiff City Stadium, Cardiff",
-   "canais": [
-    "sportv"
-   ],
    "status": "confirmado",
    "rodada": "Fase de liga"
   },
   {
-   "inicio": "2026-11-17T16:45:00-03:00",
-   "comp": "nations",
+   "canais": [
+    "sportv"
+   ],
    "casa": "Polônia",
+   "comp": "nations",
    "fora": "Suécia",
+   "inicio": "2026-11-17T16:45:00-03:00",
    "local": "Municipal Stadium Wroclaw, Wroclaw",
-   "canais": [
-    "sportv"
-   ],
    "status": "confirmado",
    "rodada": "Fase de liga"
   },
   {
-   "inicio": "2026-11-17T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "Ucrânia",
-   "fora": "Geórgia",
-   "local": "Košická futbalová aréna (KFA), Kosice",
    "canais": [
     "espn",
     "disney"
    ],
+   "casa": "Ucrânia",
+   "comp": "nations",
+   "fora": "Geórgia",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "local": "Košická futbalová aréna (KFA), Kosice",
    "status": "confirmado",
    "rodada": "Fase de liga",
    "links": {
@@ -410,15 +410,15 @@
    }
   },
   {
-   "inicio": "2026-11-17T20:00:00-03:00",
-   "comp": "amistoso",
-   "casa": "Argentina",
-   "fora": "Costa Rica",
-   "local": "Mario Alberto Kempes, Córdoba",
    "canais": [
     "getv",
     "sportv"
    ],
+   "casa": "Argentina",
+   "comp": "amistoso",
+   "fora": "Costa Rica",
+   "inicio": "2026-11-17T20:00:00-03:00",
+   "local": "Mario Alberto Kempes, Córdoba",
    "status": "confirmado",
    "rodada": "Data FIFA",
    "links": {
@@ -426,21 +426,21 @@
    }
   },
   {
-   "inicio": "2026-11-17T20:00:00-03:00",
-   "comp": "amistoso",
-   "casa": "Chile",
-   "fora": "Colômbia",
-   "local": "Estadio Nacional Julio Martínez Prádanos, Santiago",
    "canais": [],
+   "casa": "Chile",
+   "comp": "amistoso",
+   "fora": "Colômbia",
+   "inicio": "2026-11-17T20:00:00-03:00",
+   "local": "Estadio Nacional Julio Martínez Prádanos, Santiago",
    "status": "a_confirmar"
   },
   {
-   "inicio": "2026-11-17T20:30:00-03:00",
-   "comp": "amistoso",
-   "casa": "Uruguai",
-   "fora": "República Dominicana",
-   "local": "Estadio Domingo Burgueño Miguel, Maldonado",
    "canais": [],
+   "casa": "Uruguai",
+   "comp": "amistoso",
+   "fora": "República Dominicana",
+   "inicio": "2026-11-17T20:30:00-03:00",
+   "local": "Estadio Domingo Burgueño Miguel, Maldonado",
    "status": "a_confirmar"
   },
   {
@@ -3376,6 +3376,7 @@
   "Gil Vicente": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3699.png&h=80&w=80",
   "Estoril": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12216.png&h=80&w=80"
  },
+ "logos_ligas": {},
  "anuncios": {
   "adsense_client": "ca-pub-6463451105221679",
   "slots": {
