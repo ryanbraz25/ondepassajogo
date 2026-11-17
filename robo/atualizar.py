@@ -116,8 +116,12 @@ ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{}/scoreboard?dates
 CACHE = RAIZ / "dados" / "agenda_api.json"
 
 
-def nome(cfg, t):
-    """Nome do time como o site usa (português, igual ao das tarefas de canais)."""
+def nome(cfg, t, comp=None):
+    """Nome do time como o site usa (português, igual ao das tarefas de canais).
+
+    nomes_por_liga separa times homônimos de países diferentes (ex.: Santos do México = Santos Laguna)."""
+    if comp:
+        t = cfg.get("nomes_por_liga", {}).get(comp, {}).get(t, t)
     return cfg.get("nomes", {}).get(t, t)
 
 
@@ -162,8 +166,8 @@ def espn(cfg, completo):
                 try:
                     cp = ev["competitions"][0]
                     times = {x["homeAway"]: x for x in cp["competitors"]}
-                    casa = nome(cfg, times["home"]["team"]["displayName"])
-                    fora = nome(cfg, times["away"]["team"]["displayName"])
+                    casa = nome(cfg, times["home"]["team"]["displayName"], comp)
+                    fora = nome(cfg, times["away"]["team"]["displayName"], comp)
                 except (KeyError, IndexError):
                     continue
                 if c.get("so_destaque") and not ({casa, fora} & destaque):
