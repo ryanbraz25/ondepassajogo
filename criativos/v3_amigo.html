@@ -1,0 +1,27 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"></head><body><div id="stage"></div>
+<script src="engine.js"></script><script src="common.js"></script><script>
+const DUR=13;
+pop('<div class="cap">Todo grupo tem<br><em>esse amigo</em></div>','top:760px',0.1,2.1,{s0:.7});
+// conversa
+const chat=add(`<div style="position:absolute;left:90px;top:280px;width:900px;height:1330px;border-radius:44px;overflow:hidden;background:#efe7dd;box-shadow:0 30px 70px rgba(0,0,0,.4)">
+ <div style="background:#0a6d35;color:#fff;padding:34px 40px;display:flex;align-items:center;gap:22px"><div style="width:84px;height:84px;border-radius:50%;background:#ffd400;display:grid;place-items:center;font:900 44px 'Barlow Condensed';color:#0a3d20">RF</div><div><div style="font:800 46px Barlow">Resenha do Futebol</div><div style="font:500 30px Barlow;opacity:.85">Zé, Rafa, Bia, você</div></div></div>
+ <div id="msgs" style="position:relative;padding:20px 34px"></div></div>`,'height:1920px',[[2.0,{o:0,y:60}],[2.4,{o:1,y:0},'out'],[9.3,{o:1}],[9.6,{o:0,s:.95}]]);
+const M=chat.querySelector('#msgs');
+const linhas=[['d','SÁBADO'],['z','onde passa o jogo??','15:58',2.6],['d','DOMINGO'],['z','gente onde passa??','17:59',3.4],['d','QUARTA'],['z','passa onde hj???','21:27',4.2],['me','ondepassajogo.com.br','21:28',5.4],['z','kkkkk salvei','21:28',7.0]];
+let y=0;const itens=[];
+linhas.forEach(l=>{
+ const d=document.createElement('div');d.style.cssText='position:absolute;left:34px;right:34px;top:'+y+'px';
+ if(l[0]==='d'){d.innerHTML=`<div style="text-align:center"><span style="background:#e1f2fb;color:#4a5a63;font:700 26px Barlow;border-radius:12px;padding:6px 18px">${l[1]}</span></div>`;y+=70;}
+ else{const me=l[0]==='me';
+  const prev=me?`<div style="margin-top:12px;background:#c8ecc0;border-radius:14px;padding:14px 18px;display:flex;gap:16px;align-items:center"><img src="logo.svg" width="58" height="76"><div style="color:#111"><b style="font:800 32px Barlow">Onde Passa Jogo</b><div style="font:500 26px/1.25 Barlow;color:#334">Jogos de hoje na TV, horário e onde assistir</div></div></div>`:'';
+  d.innerHTML=`<div style="display:flex;justify-content:${me?'flex-end':'flex-start'}"><div style="max-width:640px;background:${me?'#d9fdd3':'#fff'};color:#111;border-radius:22px;padding:16px 24px 10px;box-shadow:0 2px 4px rgba(0,0,0,.12)">${me?'':'<b style="color:#c2185b;font:800 28px Barlow">Zé</b>'}<div style="font:500 44px/1.2 Barlow;${me?'color:#0a58ca;text-decoration:underline':''}">${l[1]}</div>${prev}<div style="text-align:right;font:500 24px Barlow;color:#667">${l[2]}</div></div></div>`;
+  y+=me?300:163;}
+ M.appendChild(d);itens.push([d,l[3]||(l[0]==='d'?null:0)]);
+});
+// separadores aparecem junto da mensagem seguinte
+for(let i=0;i<itens.length;i++) if(itens[i][1]===null) itens[i][1]=itens[i+1][1]-.05;
+HOOKS.push(t=>itens.forEach(([d,t0])=>{const p=Math.max(0,Math.min(1,(t-t0)/.3));d.style.opacity=p;d.style.transform=`translateY(${(1-p)*30}px) scale(${.92+.08*p})`}));
+pop(`<div class="cap">Marca ele<br><em>aqui embaixo</em></div><div class="center" style="margin-top:30px">${ICO.down}</div>`,'top:620px',9.6,11.1,{s0:.7});
+endCard(11.15,'O site que responde onde passa o jogo');
+render(0);
+</script></body></html>

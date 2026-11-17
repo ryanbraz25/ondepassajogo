@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"></head><body><div id="stage"></div>
+<script src="engine.js"></script><script src="common.js"></script><script>
+const DUR=12.5;
+pop('<div class="cap m">Como saber onde<br>passa <em>qualquer jogo</em><br>em 3 segundos</div>','top:640px',0.1,2.0,{s0:.7});
+const passos=[['1','Abre o <em>ondepassajogo.com.br</em>',2.1,4.4],['2','Escolhe o dia ou <em>o campeonato</em>',4.4,6.8],['3','Toca no canal <em>e assiste</em>',6.8,9.7]];
+passos.forEach(([n,txt,a,b])=>add(`<div class="center" style="gap:24px;align-items:center"><div style="width:120px;height:120px;border-radius:50%;background:#ffd400;color:#0a3d20;display:grid;place-items:center;font:900 italic 86px 'Barlow Condensed'">${n}</div><div class="cap s" style="padding:0;text-align:left;max-width:760px">${txt}</div></div>`,
+ 'top:170px',[[a,{o:0,x:120}],[a+.35,{o:1,x:0},'out'],[b-.2,{o:1}],[b,{o:0,x:-120},'inout']]));
+const P=phone(420,[[2.0,{o:0,y:500}],[2.5,{o:1,y:0},'out'],[9.5,{o:1}],[9.8,{o:0,y:200},'inout']],
+ [{src:'s_home.jpg',from:0,to:5.5},{src:'s_bra.jpg',from:5.5}],[[2,0],[7.0,0],[7.7,330*K]]);
+tapS(P.scr,284,397,5.1);
+boxS(P.scr,96,621,282,96,7.9,9.6);
+endCard(9.85,'Salva pra não esquecer');
+render(0);
+</script></body></html>

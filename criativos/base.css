@@ -1,0 +1,31 @@
+@import url(fonts.css);
+@import url(node_modules/@fontsource/noto-color-emoji/index.css);
+*{box-sizing:border-box;margin:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#06331b}
+body{font-family:Barlow,"Noto Color Emoji",sans-serif;color:#fff}
+#stage{position:absolute;inset:0;overflow:hidden;
+ background:radial-gradient(120% 70% at 50% 40%,#0f8a46 0%,#0a6d35 45%,#06331b 100%)}
+#stage::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,.035) 0 135px,transparent 135px 270px)}
+#stage::after{content:"";position:absolute;left:50%;top:52%;width:620px;height:620px;margin:-310px 0 0 -310px;border:4px solid rgba(255,255,255,.07);border-radius:50%}
+.el{position:absolute;left:0;top:0;width:1080px;transform-origin:50% 50%;will-change:transform,opacity}
+.cap{font:900 italic 104px/.98 "Barlow Condensed","Noto Color Emoji",sans-serif;text-align:center;letter-spacing:-.01em;text-transform:uppercase;text-shadow:0 6px 0 rgba(0,0,0,.18);padding:0 70px}
+.cap.m{font-size:86px}
+.cap.s{font-size:70px}
+.cap em{font-style:inherit;color:#ffd400}
+.cap .hl{background:#ffd400;color:#0a3d20;padding:0 18px;border-radius:14px;text-shadow:none;display:inline-block;transform:skewX(-6deg)}
+.tag{display:inline-block;font:800 40px Barlow,"Noto Color Emoji",sans-serif;background:#fff;color:#0a6d35;border-radius:999px;padding:14px 34px}
+.center{display:flex;justify-content:center}
+/* celular */
+.phone{position:absolute;left:220px;width:640px;height:1386px;border-radius:84px;background:#0b0f0d;padding:20px;box-shadow:0 40px 90px rgba(0,0,0,.45),0 0 0 4px #2b332e inset}
+.phone .scr{position:relative;width:600px;height:1346px;border-radius:66px;overflow:hidden;background:#fff}
+.phone .scr img.shot{position:absolute;left:0;top:0;width:600px;display:block}
+.phone .notch{position:absolute;left:50%;top:34px;width:170px;height:46px;margin-left:-85px;border-radius:30px;background:#0b0f0d;z-index:5}
+.tap{position:absolute;width:110px;height:110px;margin:-55px 0 0 -55px;border-radius:50%;background:rgba(255,212,0,.45);border:6px solid #ffd400;z-index:6}
+.box{position:absolute;border:7px solid #ffd400;border-radius:22px;box-shadow:0 0 0 9999px rgba(0,0,0,.38);z-index:4}
+/* final */
+.endlogo{display:flex;flex-direction:column;align-items:center;gap:26px}
+.brand{display:flex;align-items:center;gap:22px;font:900 italic 112px/.9 "Barlow Condensed",sans-serif}
+.brand span{transform:skewX(-6deg);display:block}
+.brand em{font-style:inherit;color:#ffd400}
+.url{font:800 64px Barlow,sans-serif;background:#ffd400;color:#0a3d20;border-radius:999px;padding:16px 46px}
+.sub{font:600 46px Barlow,"Noto Color Emoji",sans-serif;opacity:.95;text-align:center}
