@@ -533,6 +533,10 @@
   "fora": "Holanda",
   "inicio": "2026-11-16T16:45:00-03:00",
   "local": "Olympic Stadium Berlin, Berlin",
+  "placar": {
+   "casa": 5,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401861186": {
@@ -550,6 +554,10 @@
   "fora": "Escócia",
   "inicio": "2026-11-16T16:45:00-03:00",
   "local": "Kybunpark, St. Gallen",
+  "placar": {
+   "casa": 4,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401861189": {
