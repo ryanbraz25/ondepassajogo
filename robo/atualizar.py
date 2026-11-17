@@ -389,7 +389,10 @@ def gerar_site(dados):
     head = (f'<meta name="google-adsense-account" content="{cli}">\n'
             f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={cli}" crossorigin="anonymous"></script>') if cli else ""
     ga = (dados.get("anuncios") or {}).get("google_analytics", "")
-    if ga:
+    if ga.startswith("GTM-"):  # tag do Google no formato novo (como o Analytics entrega hoje)
+        head += (f'\n<script async src="https://www.googletagmanager.com/gtm.js?id={ga}"></script>\n'
+                 "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());</script>")
+    elif ga:
         head += (f'\n<script async src="https://www.googletagmanager.com/gtag/js?id={ga}"></script>\n'
                  f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','{ga}');</script>")
     tpl = tpl.replace("__ADSENSE_HEAD__", head)
