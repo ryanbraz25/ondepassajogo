@@ -450,12 +450,13 @@ def gerar(dados, head_extra, favicon, pin):
     return mudou
 
 
-PENDENTE = RAIZ / ".indexnow_pendente.json"
+PENDENTE = RAIZ / "dados" / "indexnow_pendente.json"
 
 
 def guardar_para_avisar(mudou):
-    """Guarda as páginas mudadas; o GitHub avisa os buscadores depois de publicar o site."""
-    PENDENTE.write_text(json.dumps(mudou), encoding="utf-8")
+    """Guarda as páginas mudadas (somando às que ainda não foram avisadas); o GitHub avisa depois de publicar."""
+    antes = json.loads(PENDENTE.read_text(encoding="utf-8")) if PENDENTE.exists() else []
+    PENDENTE.write_text(json.dumps(sorted(set(antes) | set(mudou))), encoding="utf-8")
 
 
 def avisar_buscadores(mudou=None):
@@ -469,11 +470,16 @@ def avisar_buscadores(mudou=None):
                         "urlList": [URL + c for c in ["/"] + mudou][:10000]}).encode()
     req = urllib.request.Request("https://api.indexnow.org/indexnow", data=corpo,
                                  headers={"Content-Type": "application/json; charset=utf-8"})
-    try:
-        with urllib.request.urlopen(req, timeout=20) as r:
-            log(f"IndexNow: {len(mudou)} endereços enviados (HTTP {r.status})")
-    except Exception as ex:
-        log(f"IndexNow falhou: {ex}")
+    import time
+    for tentativa in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                log(f"IndexNow: {len(mudou)} endereços enviados (HTTP {r.status})")
+                PENDENTE.write_text("[]", encoding="utf-8")
+                return
+        except Exception as ex:
+            log(f"IndexNow tentativa {tentativa + 1} falhou: {ex}")
+            time.sleep(60)  # o site publicado pode levar um minuto para mostrar o arquivo da chave
 
 
 if __name__ == "__main__":
