@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17T12:38:41-03:00",
+ "atualizado": "2026-11-17T12:43:25-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -5326,33 +5326,33 @@
   "brasileirao-a": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/85.png&h=80&w=80",
   "brasileirao-b": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2299.png&h=80&w=80",
   "bundesliga": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/10.png&h=80&w=80",
+  "carioca": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2265.png&h=80&w=80",
   "champions": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2.png&h=80&w=80",
+  "championship": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png&h=80&w=80",
   "conference": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/20296.png&h=80&w=80",
   "copa-do-brasil": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/528.png&h=80&w=80",
+  "copa-do-rei": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/80.png&h=80&w=80",
+  "coppa-italia": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2192.png&h=80&w=80",
+  "eredivisie": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png&h=80&w=80",
+  "eurocopa": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/74.png&h=80&w=80",
   "europa": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2310.png&h=80&w=80",
+  "fa-cup": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/40.png&h=80&w=80",
+  "gaucho": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2272.png&h=80&w=80",
   "laliga": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png&h=80&w=80",
   "libertadores": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/58.png&h=80&w=80",
+  "ligamx": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/22.png&h=80&w=80",
   "ligue1": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/9.png&h=80&w=80",
+  "mineiro": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2360.png&h=80&w=80",
   "mls": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/19.png&h=80&w=80",
+  "mundial": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1932.png&h=80&w=80",
   "nations": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png&h=80&w=80",
+  "paulista": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2322.png&h=80&w=80",
   "portugal": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png&h=80&w=80",
   "premier": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/23.png&h=80&w=80",
+  "recopa": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2335.png&h=80&w=80",
   "saudita": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png&h=80&w=80",
   "serie-a-ita": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/12.png&h=80&w=80",
   "sul-americana": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1208.png&h=80&w=80",
-  "paulista": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2322.png&h=80&w=80",
-  "carioca": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2265.png&h=80&w=80",
-  "mineiro": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2360.png&h=80&w=80",
-  "gaucho": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2272.png&h=80&w=80",
-  "recopa": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2335.png&h=80&w=80",
-  "mundial": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1932.png&h=80&w=80",
-  "eurocopa": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/74.png&h=80&w=80",
-  "ligamx": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/22.png&h=80&w=80",
-  "fa-cup": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/40.png&h=80&w=80",
-  "copa-do-rei": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/80.png&h=80&w=80",
-  "coppa-italia": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2192.png&h=80&w=80",
-  "championship": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/24.png&h=80&w=80",
-  "eredivisie": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/11.png&h=80&w=80",
   "turquia": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png&h=80&w=80"
  },
  "anuncios": {
@@ -5360,6 +5360,7 @@
   "slots": {
    "lista": "",
    "lateral": ""
-  }
+  },
+  "google_analytics": ""
  }
 }
