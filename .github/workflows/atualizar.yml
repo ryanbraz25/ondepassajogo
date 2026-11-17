@@ -85,3 +85,6 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: github-pages-${{ matrix.passo }}
+      - name: Avisar Bing das páginas novas (IndexNow)
+        continue-on-error: true
+        run: python robo/paginas.py

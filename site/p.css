@@ -1,0 +1,55 @@
+/* Páginas de jogo, time, campeonato e "jogos de hoje" (geradas pelo robô) */
+:root{color-scheme:light dark;--bg:light-dark(#fff,#08140d);--ink:light-dark(#0d1a12,#eaf3ec);--mute:light-dark(#5b6b61,#9db3a5);--line:light-dark(#e2e8e4,#1d3326);--card:light-dark(#f6faf7,#0d1f15);--pitch:#0a6d35;--link:light-dark(#0a6d35,#58c98a);--gold:#ffd400;--free:light-dark(#0a7a3a,#58c98a)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Barlow,system-ui,sans-serif}
+a{color:var(--link)}
+.wrap{max-width:780px;margin:0 auto;padding:0 18px}
+.topo{background:var(--pitch);background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.04) 0 60px,transparent 60px 120px)}
+.topo .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px}
+.marca{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font:italic 900 22px/1 "Barlow Condensed",sans-serif;letter-spacing:.2px}
+.marca b{color:var(--gold);font-weight:900}
+.todos{color:#fff;font:600 15px Barlow,sans-serif;border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:7px 14px;text-decoration:none;white-space:nowrap}
+.todos:hover{background:rgba(0,0,0,.2)}
+.mig{font-size:14px;color:var(--mute);margin:16px 0 4px}
+.mig a{color:var(--mute)}
+h1{font:800 clamp(28px,6vw,40px)/1.08 "Barlow Condensed",sans-serif;margin:8px 0 14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+h2{font:800 24px/1.15 "Barlow Condensed",sans-serif;margin:28px 0 10px}
+h3{font:700 18px/1.2 Barlow,sans-serif;margin:22px 0 8px;color:var(--mute)}
+.comp{margin:12px 0 0;font-weight:700;font-size:15px}
+.comp a{text-decoration:none}
+.placa{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 12px}
+.tm{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;color:var(--ink);text-decoration:none;font:700 19px/1.15 Barlow,sans-serif}
+.tm:hover span{text-decoration:underline}
+.hr{display:flex;flex-direction:column;align-items:center;min-width:90px}
+.hr b{font:800 34px/1 "Barlow Condensed",sans-serif}
+.hr .pl{font-size:40px}
+.hr small{color:var(--mute);font-size:14px;margin-top:4px}
+.cr{width:56px;height:56px;object-fit:contain;flex:0 0 auto}
+.cr.ini{display:inline-grid;place-items:center;border-radius:50%;background:var(--line);color:var(--mute);font:700 14px Barlow,sans-serif}
+h1 .cr{width:44px;height:44px}
+.quando{color:var(--mute);margin:10px 0 0}
+.res{font-size:20px}
+.nota{display:inline-block;background:color-mix(in srgb,var(--gold) 25%,transparent);border-radius:8px;padding:2px 10px;font-weight:700}
+.canais{display:flex;flex-wrap:wrap;gap:10px}
+.canal{display:flex;flex-direction:column;min-width:150px;padding:12px 16px;border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);text-decoration:none;position:relative}
+a.canal:hover{border-color:var(--link)}
+.canal b{font-size:18px}
+.canal small{color:var(--mute)}
+.canal .gr{position:absolute;top:-9px;right:10px;background:var(--free);color:#fff;font:700 12px Barlow,sans-serif;padding:1px 8px;border-radius:999px}
+.semcanal,.aconf{color:var(--mute)}
+.cta a{display:inline-block;background:var(--pitch);color:#fff;text-decoration:none;font-weight:700;border-radius:999px;padding:10px 18px}
+.lista{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.lista li{border-bottom:1px solid var(--line)}
+.lj{display:grid;grid-template-columns:auto 1fr;gap:2px 14px;padding:11px 4px;color:var(--ink);text-decoration:none}
+.lj:hover{background:var(--card)}
+.lh{grid-row:1/3;font:800 20px/1.2 "Barlow Condensed",sans-serif;min-width:62px}
+.lt{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-weight:700}
+.lt .cr{width:22px;height:22px}
+.lt .cr.ini{font-size:10px}
+.lt .x{color:var(--mute);font-weight:400}
+.ls{font-size:14px;color:var(--mute)}
+.dest{font-size:18px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px}
+.mais{margin:28px 0}
+.rodape{font-size:14px;color:var(--mute);border-top:1px solid var(--line);margin-top:40px;padding-top:12px;padding-bottom:30px}
+.rodape a{color:var(--mute)}
+@media(max-width:520px){.todos{font-size:13px;padding:6px 11px}.marca{font-size:19px}.cr{width:46px;height:46px}.hr b{font-size:28px}.tm{font-size:17px}.lh{min-width:52px;font-size:18px}}

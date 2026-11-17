@@ -377,6 +377,32 @@ def logos_ligas(cfg):
     return {k: espn_logo(v) for k, v in salvos.items() if v and k in cfg["competicoes"]}
 
 
+def links_seo(dados):
+    """Links fixos no rodapé da página inicial (para o Google achar as páginas de jogo, time e campeonato)."""
+    import paginas
+    from html import escape
+    pop = dados.get("popularidade", {}).get("times", {})
+    times = {}
+    for j in dados["jogos"]:
+        for t in (j["casa"], j["fora"]):
+            if t != "A definir":
+                times[t] = pop.get(" ".join(paginas.slug(t).split("-")), 0)
+    top = sorted(times, key=lambda t: -times[t])[:40]
+    comps = [k for k in dados["competicoes"] if any(j["comp"] == k for j in dados["jogos"])]
+    hoje = datetime.now(BRT).date().isoformat()
+    jh = sorted([j for j in dados["jogos"] if j["inicio"][:10] == hoje],
+                key=lambda j: -(pop.get(" ".join(paginas.slug(j["casa"]).split("-")), 0) + pop.get(" ".join(paginas.slug(j["fora"]).split("-")), 0)))[:12]
+    a = lambda href, txt: f'<a href="{escape(href)}">{escape(txt)}</a>'
+    out = ['<nav class="seo" aria-label="Mais páginas">',
+           '<p><b>Agenda:</b> ' + a("/jogos-de-hoje/", "Jogos de hoje") + " · " + a("/jogos-de-amanha/", "Jogos de amanhã") + "</p>"]
+    if jh:
+        out.append("<p><b>Hoje:</b> " + " · ".join(a(j["pg"], f"{j['casa']} x {j['fora']}") for j in jh) + "</p>")
+    out.append("<p><b>Campeonatos:</b> " + " · ".join(a(f"/campeonato/{paginas.slug(k)}/", dados["competicoes"][k]["nome"]) for k in comps) + "</p>")
+    out.append("<p><b>Times:</b> " + " · ".join(a(f"/time/{paginas.slug(t)}/", paginas.nl(t)) for t in top) + "</p>")
+    out.append("</nav>")
+    return "\n".join(out)
+
+
 def gerar_site(dados):
     pub = (dados.get("anuncios") or {}).get("adsense_client", "").replace("ca-pub-", "pub-")
     ads = RAIZ / "site" / "ads.txt"
@@ -396,6 +422,11 @@ def gerar_site(dados):
         head += (f'\n<script async src="https://www.googletagmanager.com/gtag/js?id={ga}"></script>\n'
                  f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','{ga}');</script>")
     tpl = tpl.replace("__ADSENSE_HEAD__", head)
+    import paginas
+    mudou = paginas.gerar(dados, head, '<link rel="icon" type="image/svg+xml" href="/favicon.svg">',
+                          '<img src="/favicon.svg" width="30" height="40" alt="">')
+    paginas.guardar_para_avisar(mudou)
+    tpl = tpl.replace("__LINKS_SEO__", links_seo(dados))
     bloco = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     (RAIZ / "site" / "index.html").write_text(tpl.replace("__DADOS__", bloco), encoding="utf-8")
 
@@ -430,6 +461,12 @@ def main():
         log("Nenhum jogo obtido; mantendo a agenda anterior para não apagar o site.")
         jogos = ler(anterior)["jogos"]
 
+    import paginas
+    for j in jogos:
+        if "A definir" not in (j["casa"], j["fora"]):
+            j["pg"] = paginas.caminho_jogo(j)
+        else:
+            j.pop("pg", None)
     aplicar_afiliado(cfg)
     dados = {
         "atualizado": datetime.now(BRT).isoformat(timespec="seconds"),
