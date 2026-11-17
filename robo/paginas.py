@@ -272,7 +272,7 @@ def pagina_jogo(cx, j):
         "homeTeam": {"@type": "SportsTeam", "name": casa},
         "awayTeam": {"@type": "SportsTeam", "name": fora},
         "competitor": [{"@type": "SportsTeam", "name": casa}, {"@type": "SportsTeam", "name": fora}],
-        "superEvent": {"@type": "SportsEvent", "name": comp},
+        "performer": [{"@type": "SportsTeam", "name": casa}, {"@type": "SportsTeam", "name": fora}],
         "organizer": {"@type": "Organization", "name": comp, "url": URL + f"/campeonato/{slug(j['comp'])}/"},
     }
     imgs = [cx.esc[x] for x in (casa, fora) if cx.esc.get(x)]
