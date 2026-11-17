@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17T12:43:25-03:00",
+ "atualizado": "2026-11-17T12:52:08-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2064,7 +2064,7 @@
    "inicio": "2026-11-22T18:00:00-03:00",
    "comp": "mls",
    "casa": "Nashville SC",
-   "fora": "TBD Away",
+   "fora": "A definir",
    "local": "GEODIS Park, Nashville, Tennessee",
    "canais": [
     "appletv"
@@ -2191,7 +2191,7 @@
    "inicio": "2026-11-22T22:30:00-03:00",
    "comp": "mls",
    "casa": "Vancouver Whitecaps",
-   "fora": "TBD Away",
+   "fora": "A definir",
    "local": "BC Place, Vancouver",
    "canais": [
     "appletv"
@@ -3548,7 +3548,7 @@
   {
    "inicio": "2026-11-28T00:00:00-03:00",
    "comp": "mls",
-   "casa": "TBD Home",
+   "casa": "A definir",
    "fora": "Vancouver Whitecaps",
    "local": "",
    "canais": [
@@ -4113,6 +4113,20 @@
   },
   {
    "inicio": "2026-11-28T17:00:00-03:00",
+   "comp": "brasileirao-b",
+   "casa": "A definir",
+   "fora": "A definir",
+   "local": "",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "eid": "401932611",
+   "lg": "bra.2",
+   "ed": "20261128"
+  },
+  {
+   "inicio": "2026-11-28T17:00:00-03:00",
    "comp": "libertadores",
    "casa": "Palmeiras",
    "fora": "Estudiantes",
@@ -4155,20 +4169,6 @@
    "status": "a_confirmar",
    "eid": "401875530",
    "lg": "ned.1",
-   "ed": "20261128"
-  },
-  {
-   "inicio": "2026-11-28T17:00:00-03:00",
-   "comp": "brasileirao-b",
-   "casa": "TBD Home",
-   "fora": "TBD Away",
-   "local": "",
-   "canais": [
-    "disney"
-   ],
-   "status": "a_confirmar",
-   "eid": "401932611",
-   "lg": "bra.2",
    "ed": "20261128"
   },
   {
@@ -4216,7 +4216,7 @@
   {
    "inicio": "2026-11-28T20:30:00-03:00",
    "comp": "mls",
-   "casa": "TBD Home",
+   "casa": "A definir",
    "fora": "Nashville SC",
    "local": "",
    "canais": [
@@ -4848,6 +4848,32 @@
    "eid": "401885391",
    "lg": "por.1",
    "ed": "20261130"
+  },
+  {
+   "inicio": "2026-12-01T17:00:00-03:00",
+   "comp": "premier",
+   "casa": "Coventry City",
+   "fora": "Ipswich Town",
+   "local": "Coventry Building Society Arena, Coventry",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "eid": "401879221",
+   "lg": "eng.1",
+   "ed": "20261201"
+  },
+  {
+   "inicio": "2026-12-01T17:00:00-03:00",
+   "comp": "coppa-italia",
+   "casa": "Inter de Milão",
+   "fora": "Genoa",
+   "local": "San Siro, Milano",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401912257",
+   "lg": "ita.coppa_italia",
+   "ed": "20261201"
   }
  ],
  "sugestoes": {

@@ -1995,6 +1995,26 @@
   "local": "Villa Park, Birmingham",
   "status": "a_confirmar"
  },
+ "espn:401879221": {
+  "_d": "20261201",
+  "_liga": "eng.1",
+  "_logos": {
+   "Coventry City": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+   "Ipswich Town": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Coventry City",
+  "comp": "premier",
+  "ed": "20261201",
+  "eid": "401879221",
+  "fora": "Ipswich Town",
+  "inicio": "2026-12-01T17:00:00-03:00",
+  "lg": "eng.1",
+  "local": "Coventry Building Society Arena, Coventry",
+  "status": "a_confirmar"
+ },
  "espn:401879224": {
   "_d": "20261129",
   "_liga": "eng.1",
@@ -4387,6 +4407,24 @@
   "local": "King Abdullah Sports City, Jeddah",
   "status": "a_confirmar"
  },
+ "espn:401912257": {
+  "_d": "20261201",
+  "_liga": "ita.coppa_italia",
+  "_logos": {
+   "Genoa": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+   "Inter de Milão": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+  },
+  "canais": [],
+  "casa": "Inter de Milão",
+  "comp": "coppa-italia",
+  "ed": "20261201",
+  "eid": "401912257",
+  "fora": "Genoa",
+  "inicio": "2026-12-01T17:00:00-03:00",
+  "lg": "ita.coppa_italia",
+  "local": "San Siro, Milano",
+  "status": "a_confirmar"
+ },
  "espn:401912519": {
   "_d": "20261128",
   "_liga": "conmebol.libertadores",
@@ -5795,17 +5833,16 @@
   "_d": "20261128",
   "_liga": "bra.2",
   "_logos": {
-   "TBD Away": "",
-   "TBD Home": ""
+   "A definir": ""
   },
   "canais": [
    "disney"
   ],
-  "casa": "TBD Home",
+  "casa": "A definir",
   "comp": "brasileirao-b",
   "ed": "20261128",
   "eid": "401932611",
-  "fora": "TBD Away",
+  "fora": "A definir",
   "inicio": "2026-11-28T17:00:00-03:00",
   "lg": "bra.2",
   "local": "",
@@ -5893,13 +5930,13 @@
   "_d": "20261128",
   "_liga": "usa.1",
   "_logos": {
-   "Nashville SC": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
-   "TBD Home": ""
+   "A definir": "",
+   "Nashville SC": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png"
   },
   "canais": [
    "appletv"
   ],
-  "casa": "TBD Home",
+  "casa": "A definir",
   "comp": "mls",
   "ed": "20261128",
   "eid": "401933722",
@@ -5953,13 +5990,13 @@
   "_d": "20261127",
   "_liga": "usa.1",
   "_logos": {
-   "TBD Home": "",
+   "A definir": "",
    "Vancouver Whitecaps": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
   },
   "canais": [
    "appletv"
   ],
-  "casa": "TBD Home",
+  "casa": "A definir",
   "comp": "mls",
   "ed": "20261127",
   "eid": "401933725",
@@ -6033,7 +6070,7 @@
   "_d": "20261122",
   "_liga": "usa.1",
   "_logos": {
-   "TBD Away": "",
+   "A definir": "",
    "Vancouver Whitecaps": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
   },
   "canais": [
@@ -6043,7 +6080,7 @@
   "comp": "mls",
   "ed": "20261122",
   "eid": "401933729",
-  "fora": "TBD Away",
+  "fora": "A definir",
   "inicio": "2026-11-22T22:30:00-03:00",
   "lg": "usa.1",
   "local": "BC Place, Vancouver",
@@ -6073,8 +6110,8 @@
   "_d": "20261122",
   "_liga": "usa.1",
   "_logos": {
-   "Nashville SC": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
-   "TBD Away": ""
+   "A definir": "",
+   "Nashville SC": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png"
   },
   "canais": [
    "appletv"
@@ -6083,7 +6120,7 @@
   "comp": "mls",
   "ed": "20261122",
   "eid": "401933731",
-  "fora": "TBD Away",
+  "fora": "A definir",
   "inicio": "2026-11-22T18:00:00-03:00",
   "lg": "usa.1",
   "local": "GEODIS Park, Nashville, Tennessee",
