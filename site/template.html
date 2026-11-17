@@ -131,7 +131,8 @@ h2 small{font:500 14px Barlow,sans-serif;color:var(--mute);white-space:nowrap}
 .board .pts.win::after{content:"";display:inline-block;width:0;height:0;margin-left:6px;border-top:5px solid transparent;border-bottom:5px solid transparent;border-right:7px solid var(--ink);vertical-align:2px}
 .g{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 18px;padding-bottom:12px}
 .g+.g{border-top:1px dashed var(--line);padding-top:12px}
-.g .sug,.g .sform{grid-column:1/-1}
+.g .sug,.g .sform,.g .gacts{grid-column:1/-1}
+.gacts .sug{grid-column:auto}
 .pill{display:inline-flex;align-items:center;gap:6px;font-weight:700;color:var(--ink)}
 .pill i{width:9px;height:9px;border-radius:50%;display:inline-block}
 .sec h3,.sec summary{display:flex;align-items:center;gap:8px;margin:18px 0 0;padding:8px 0;font:800 21px/1.1 "Barlow Condensed",sans-serif}

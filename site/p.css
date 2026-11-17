@@ -83,3 +83,6 @@ a.ver.gratis:hover{filter:brightness(1.08)}
 .sobre p{margin:4px 0 10px}
 .marca span{white-space:nowrap}
 @media(max-width:520px){.marca{font-size:22px;gap:7px}.marca .pin{width:26px}.todos .dk{display:none}.est{max-width:120px;font-size:12px}}
+@media(max-width:400px){.topo .wrap{padding:0 12px;gap:8px}.marca{font-size:19px;gap:6px}.marca .pin{width:22px}.todos{padding:5px 10px;font-size:12px}}
+@media(max-width:340px){.marca{font-size:17px}}
+@media(max-width:400px){.placa{padding:14px 6px;gap:6px}.tm{font-size:15px}.cr{width:42px;height:42px}.hr{min-width:0}.hr b{font-size:26px}.ver{padding:12px}.ver .cn b{font-size:17px}.ver .ir{font-size:14px}.ver.gratis .ir{padding:6px 10px}}
