@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17T18:41:26-03:00",
+ "atualizado": "2026-11-17T18:51:10-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -436,6 +436,10 @@
    "eid": "401861194",
    "lg": "uefa.nations",
    "ed": "20261117",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   },
    "rodada": "Fase de liga",
    "pg": "/jogo/dinamarca-x-noruega-17-11-2026/"
   },

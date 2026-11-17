@@ -635,6 +635,10 @@
   "inicio": "2026-11-17T16:45:00-03:00",
   "lg": "uefa.nations",
   "local": "Parken Stadium, Copenhagen",
+  "placar": {
+   "casa": 2,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401861195": {
