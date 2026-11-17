@@ -75,6 +75,7 @@ h2 small{font:500 14px Barlow,sans-serif;color:var(--mute);white-space:nowrap}
 .time{font:800 34px/1 "Barlow Condensed",sans-serif;letter-spacing:-.01em;white-space:nowrap;font-variant-numeric:tabular-nums}
 .time small{display:block;font:600 13px/1.4 Barlow,sans-serif;color:var(--mute);letter-spacing:0}
 .live .time{color:var(--red)}
+.meta .lmin{color:var(--red);font-weight:700;margin-right:4px;display:inline-flex;align-items:center;gap:5px}.lmin .dot{width:7px;height:7px}
 .live .time small{color:var(--red)}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--red);margin-right:5px;vertical-align:1px;animation:pulse 1.4s infinite}
 @keyframes pulse{50%{opacity:.25}}
@@ -124,6 +125,7 @@ h2 small{font:500 14px Barlow,sans-serif;color:var(--mute);white-space:nowrap}
 .sec.done h3{color:var(--mute)}
 .sec.live .slot{border-top-color:color-mix(in srgb,var(--red) 35%,var(--line))}
 .slot.live .time{color:var(--red)}
+.meta .lmin{color:var(--red);font-weight:700;margin-right:4px;display:inline-flex;align-items:center;gap:5px}.lmin .dot{width:7px;height:7px}
 .slot.live .time small,.slot .time small{display:block}
 .sec summary{cursor:pointer;list-style:none;min-height:44px;color:var(--mute)}
 .sec summary::-webkit-details-marker{display:none}
@@ -460,7 +462,35 @@ const isFavG = g => S.favs.has(g.casa)||S.favs.has(g.fora);
 const favFirst = (a,b) => isFavG(b)-isFavG(a);
 const save = () => {try{localStorage.setItem('ligas',JSON.stringify([...S.comps]))}catch(_){}};
 
-const state = g => {const m=(Date.now()-g.t)/60000; return m<0?'up':m<115?'live':'done'};
+const state = g => {if(g.ao){if(g.ao.s==='in')return 'live';if(g.ao.s==='post')return 'done'}const m=(Date.now()-g.t)/60000; return m<0?'up':m<115?'live':'done'};
+/* Placar ao vivo: o navegador consulta a ESPN (grátis, sem chave) a cada minuto, só para os campeonatos com jogo rolando agora. */
+const ESPNU=(lg,d)=>`https://site.api.espn.com/apis/site/v2/sports/soccer/${lg}/scoreboard?dates=${d}`;
+const minTxt=t=>{t=String(t||'').trim();if(/^(HT|Halftime)$/i.test(t))return 'Intervalo';if(/^(FT|Full ?Time)$/i.test(t))return 'Encerrado';if(/^(ET|AET)/i.test(t))return 'Prorrogação';if(/^Pen/i.test(t))return 'Pênaltis';return /\d/.test(t)?t:''};
+let livePoll=0;
+async function pollLive(){
+ if(document.visibilityState==='hidden')return false;
+ const now=Date.now(), alvo=games.filter(g=>g.eid&&g.lg&&g.ed&&now>=+g.t-6e5&&now<+g.t+1.02e7&&!(g.ao&&g.ao.s==='post'));
+ if(!alvo.length)return false;
+ const byId={};alvo.forEach(g=>byId[g.eid]=g);
+ let mudou=false;
+ for(const q of [...new Set(alvo.map(g=>g.lg+'|'+g.ed))]){
+  const [lg,d]=q.split('|');
+  try{
+   const r=await fetch(ESPNU(lg,d),{cache:'no-store'}); if(!r.ok)continue;
+   for(const ev of ((await r.json()).events||[])){
+    const g=byId[String(ev.id)]; if(!g)continue;
+    const cp=(ev.competitions||[])[0]||{}, st=(ev.status||cp.status||{}), ty=st.type||{};
+    const tm={};(cp.competitors||[]).forEach(x=>tm[x.homeAway]=x);
+    const s=ty.completed?'post':ty.state==='in'?'in':'pre';
+    const ao={s,d:s==='in'?minTxt(ty.shortDetail||st.displayClock):''};
+    if(s!=='pre'&&tm.home&&tm.away&&tm.home.score!=null){const p={casa:Number(tm.home.score),fora:Number(tm.away.score)};if(!g.placar||g.placar.casa!==p.casa||g.placar.fora!==p.fora){g.placar=p;mudou=true}}
+    if(!g.ao||g.ao.s!==ao.s||g.ao.d!==ao.d){g.ao=ao;mudou=true}
+   }
+  }catch(_){}
+ }
+ return mudou;
+}
+async function tickLive(){if(await pollLive()){renderNext();if(S.open===null&&$('sugs').hidden)renderList()}}
 const ytLink = (c,g) => !!(g&&g.links&&g.links[c]&&/(^|\.)(youtube\.com|youtu\.be)\//i.test(String(g.links[c]).replace(/^https?:\/\//,'')));
 const chFree = (c,g) => !!D.canais[c]&&(FREE.has(D.canais[c].tipo)||ytLink(c,g));
 const isFreeCh = (c,g) => chFree(c,g)?1:0;
@@ -501,7 +531,7 @@ function row(g){
  return `<article class="g ${st}${isFavG(g)?' isfav':''}">
   <div>
    ${g.placar&&st!=='up'?board(g):`<div class="teams"><span class="tn">${crest(g.casa)}${esc(g.casa)}${fst(g.casa)}</span> <span>x</span> <span class="tn">${crest(g.fora)}${esc(g.fora)}${fst(g.fora)}</span></div>`}
-   <div class="meta"><span class="pill"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</span>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
+   <div class="meta">${st==='live'?`<b class="lmin"><span class="dot"></span>${g.ao&&g.ao.d?esc(g.ao.d):'Ao vivo'}</b> `:''}<span class="pill"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</span>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
   </div>
   <div class="chans">${chans}</div>
   ${S.open===g.i?sform(g):`<button class="sug" data-i="${g.i}">Sugerir onde está passando</button>`}
@@ -548,7 +578,8 @@ function renderChips(){
   +main.map(chip).join('')+restShown.map(chip).join('')
   +(hidden||S.more?`<button class="chip more" data-c="mais">${S.more?'Menos ligas':'+ '+hidden+' ligas'}</button>`:'');
  const li=k=>{const c=C(k),n=cnt(k);return `<button class="li${n?'':' zero'}" data-c="${k}" aria-pressed="${S.view==='liga'?S.liga===k:!fv&&S.comps.has(k)}">${lgIcon(k)}${esc(c.nome)}<span class="n">${n||''}</span></button>`};
- const rs=rest.slice().sort((a,b)=>(cnt(b)>0)-(cnt(a)>0));
+ const tem=new Set(games.map(g=>g.comp));
+ const rs=rest.filter(k=>tem.has(k)||S.comps.has(k)||S.liga===k).sort((a,b)=>(cnt(b)>0)-(cnt(a)>0));
  $('side').innerHTML=`<button class="li favli" data-c="favs" aria-pressed="${fv}"><i></i>★ Meus times<span class="n">${nf||''}</span></button><button class="li" data-c="todas" aria-pressed="${S.view==='todos'&&S.comps.size===0}"><i style="background:var(--pitch)"></i>Todos os jogos<span class="n">${today.length}</span></button>`
   +'<h4>Principais</h4>'+main.map(li).join('')+'<h4>Outras ligas</h4>'+rs.map(li).join('');
 }
@@ -696,7 +727,7 @@ function teamScore(q,x){
  if(q.length>=4){const t=tol(q.length);if(lev(q,tn.slice(0,q.length))<=t||ws.some(w=>lev(q,w.slice(0,q.length))<=t||lev(q,w)<=t))return 50}
  return 0;
 }
-const LALIAS={'brasileirao-a':['brasileirao','brasileirao serie a','serie a','brasileiro','campeonato brasileiro'],'brasileirao-b':['serie b','brasileirao serie b','segunda divisao'],'copa-do-brasil':['copa do brasil','cdb'],'libertadores':['libertadores','liberta','copa libertadores'],'sul-americana':['sul americana','sulamericana','sula','copa sul americana'],'amistoso':['selecao','amistoso','amistosos','selecao brasileira'],'champions':['champions','champions league','liga dos campeoes','ucl'],'europa':['liga europa','europa league','uel'],'conference':['conference','conference league'],'nations':['liga das nacoes','nations league','nations'],'premier':['premier','premier league','ingles','campeonato ingles','inglaterra'],'laliga':['la liga','laliga','espanhol','campeonato espanhol','espanha'],'serie-a-ita':['serie a italia','italiano','campeonato italiano','calcio','italia'],'bundesliga':['bundesliga','alemao','campeonato alemao','alemanha'],'ligue1':['ligue 1','frances','campeonato frances','franca'],'portugal':['liga portugal','portugues','campeonato portugues'],'argentina':['argentino','campeonato argentino','liga argentina'],'mls':['mls','estados unidos'],'saudita':['saudita','liga saudita','arabia']};
+const LALIAS={'brasileirao-a':['brasileirao','brasileirao serie a','serie a','brasileiro','campeonato brasileiro'],'brasileirao-b':['serie b','brasileirao serie b','segunda divisao'],'copa-do-brasil':['copa do brasil','cdb'],'libertadores':['libertadores','liberta','copa libertadores'],'sul-americana':['sul americana','sulamericana','sula','copa sul americana'],'amistoso':['selecao','amistoso','amistosos','selecao brasileira'],'champions':['champions','champions league','liga dos campeoes','ucl'],'europa':['liga europa','europa league','uel'],'conference':['conference','conference league'],'nations':['liga das nacoes','nations league','nations'],'premier':['premier','premier league','ingles','campeonato ingles','inglaterra'],'laliga':['la liga','laliga','espanhol','campeonato espanhol','espanha'],'serie-a-ita':['serie a italia','italiano','campeonato italiano','calcio','italia'],'bundesliga':['bundesliga','alemao','campeonato alemao','alemanha'],'ligue1':['ligue 1','frances','campeonato frances','franca'],'portugal':['liga portugal','portugues','campeonato portugues'],'argentina':['argentino','campeonato argentino','liga argentina'],'mls':['mls','estados unidos'],'saudita':['saudita','liga saudita','arabia'],'paulista':['paulistao','paulista','campeonato paulista','sao paulo estadual'],'carioca':['carioca','cariocao','campeonato carioca','estadual do rio'],'mineiro':['mineiro','mineirao','campeonato mineiro','estadual de minas'],'gaucho':['gauchao','gaucho','campeonato gaucho'],'nordeste':['copa do nordeste','nordestao','nordeste'],'supercopa':['supercopa','supercopa do brasil','supercopa rei'],'recopa':['recopa','recopa sul americana'],'mundial':['mundial','mundial de clubes','intercontinental','copa intercontinental'],'eurocopa':['eurocopa','euro','eliminatorias da euro','campeonato europeu'],'ligamx':['liga mx','mexicano','campeonato mexicano','mexico'],'fa-cup':['fa cup','copa da inglaterra'],'copa-do-rei':['copa do rei','copa del rey'],'coppa-italia':['copa da italia','coppa italia'],'championship':['championship','segunda divisao inglesa'],'eredivisie':['eredivisie','holandes','campeonato holandes','holanda'],'turquia':['turco','campeonato turco','liga turca','turquia','super lig'],'feminino':['feminino','brasileirao feminino','futebol feminino'],'libertadores-fem':['libertadores feminina','liberta feminina']};
 function lgScore(q,k){
  const c=C(k), names=[n2(c.nome),n2(c.curto||''),...(LALIAS[k]||[])].filter(Boolean);
  let b=0;
@@ -836,6 +867,7 @@ if(matchMedia('(max-width:640px)').matches)$('q').placeholder='Buscar time ou ca
 })();
 render();anuncios();
 setInterval(()=>{renderNext();if(S.open===null&&$('sugs').hidden)renderList()},60000);
+tickLive();setInterval(tickLive,60000);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')tickLive()});
 }
 </script>
 </body>

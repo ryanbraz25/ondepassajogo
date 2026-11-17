@@ -136,10 +136,12 @@ def espn(cfg, completo):
     cache = ler(CACHE) if CACHE.exists() else {}
     destaque = set(cfg.get("selecoes_destaque", []))
     ok = falhas = 0
+    pares = []
     for comp, c in cfg["competicoes"].items():
-        liga = c.get("espn")
-        if not liga:
-            continue
+        ligas = c.get("espn") or []
+        for liga in ([ligas] if isinstance(ligas, str) else ligas):
+            pares.append((comp, c, liga))
+    for comp, c, liga in pares:
         for d in datas:
             try:
                 r = get_json(ESPN.format(liga, d))
@@ -172,7 +174,7 @@ def espn(cfg, completo):
                 local = ", ".join(x for x in (v.get("fullName"), (v.get("address") or {}).get("city")) if x)
                 j = {"inicio": ini.isoformat(), "comp": comp, "casa": casa, "fora": fora, "local": local,
                      "canais": list(c.get("canais_padrao", [])), "status": "a_confirmar",
-                     "_liga": liga, "_d": d,
+                     "_liga": liga, "_d": d, "eid": str(ev.get("id", "")), "lg": liga, "ed": d,
                      "_logos": {casa: times["home"]["team"].get("logo", ""), fora: times["away"]["team"].get("logo", "")}}
                 nm = st.get("name", "")
                 if st.get("completed") and "CANCEL" not in nm and "POSTPON" not in nm:

@@ -283,6 +283,74 @@
     "disney"
    ]
   },
+  "paulista": {
+   "nome": "Paulistão",
+   "cor": "#d71920",
+   "curto": "Paulistão",
+   "espn": "bra.camp.paulista",
+   "principal": false
+  },
+  "carioca": {
+   "nome": "Carioca",
+   "cor": "#e2001a",
+   "curto": "Carioca",
+   "espn": "bra.camp.carioca",
+   "principal": false
+  },
+  "mineiro": {
+   "nome": "Mineiro",
+   "cor": "#111111",
+   "curto": "Mineiro",
+   "espn": "bra.camp.mineiro",
+   "principal": false
+  },
+  "gaucho": {
+   "nome": "Gauchão",
+   "cor": "#009b3a",
+   "curto": "Gauchão",
+   "espn": "bra.camp.gaucho",
+   "principal": false
+  },
+  "nordeste": {
+   "nome": "Copa do Nordeste",
+   "cor": "#f28c00",
+   "curto": "Nordestão",
+   "principal": false
+  },
+  "supercopa": {
+   "nome": "Supercopa do Brasil",
+   "cor": "#0b5e3a",
+   "curto": "Supercopa",
+   "espn": "bra.supercopa_do_brazil",
+   "principal": false
+  },
+  "recopa": {
+   "nome": "Recopa Sul-Americana",
+   "cor": "#8a6d1f",
+   "curto": "Recopa",
+   "espn": "conmebol.recopa",
+   "principal": false
+  },
+  "mundial": {
+   "nome": "Mundial / Intercontinental FIFA",
+   "cor": "#326295",
+   "curto": "Mundial",
+   "espn": [
+    "fifa.intercontinental_cup",
+    "fifa.cwc"
+   ],
+   "principal": false
+  },
+  "eurocopa": {
+   "nome": "Eurocopa e Eliminatórias",
+   "cor": "#003da5",
+   "curto": "Eurocopa",
+   "espn": [
+    "uefa.euro",
+    "uefa.euroq"
+   ],
+   "principal": false
+  },
   "europa": {
    "nome": "Liga Europa",
    "thesportsdb": "UEFA Europa League",
@@ -357,6 +425,67 @@
    "curto": "Saudita",
    "principal": false,
    "espn": "ksa.1"
+  },
+  "ligamx": {
+   "nome": "Liga MX (México)",
+   "cor": "#1d4f2b",
+   "curto": "Liga MX",
+   "espn": "mex.1",
+   "principal": false
+  },
+  "fa-cup": {
+   "nome": "FA Cup",
+   "cor": "#c8102e",
+   "curto": "FA Cup",
+   "espn": "eng.fa",
+   "principal": false
+  },
+  "copa-do-rei": {
+   "nome": "Copa do Rei",
+   "cor": "#a50034",
+   "curto": "Copa do Rei",
+   "espn": "esp.copa_del_rey",
+   "principal": false
+  },
+  "coppa-italia": {
+   "nome": "Copa da Itália",
+   "cor": "#008c45",
+   "curto": "Copa da Itália",
+   "espn": "ita.coppa_italia",
+   "principal": false
+  },
+  "championship": {
+   "nome": "Championship (Inglaterra)",
+   "cor": "#5a2d82",
+   "curto": "Championship",
+   "espn": "eng.2",
+   "principal": false
+  },
+  "eredivisie": {
+   "nome": "Eredivisie (Holanda)",
+   "cor": "#ff6200",
+   "curto": "Holandês",
+   "espn": "ned.1",
+   "principal": false
+  },
+  "turquia": {
+   "nome": "Liga da Turquia",
+   "cor": "#e30a17",
+   "curto": "Turco",
+   "espn": "tur.1",
+   "principal": false
+  },
+  "feminino": {
+   "nome": "Brasileirão Feminino",
+   "cor": "#a4247d",
+   "curto": "Feminino",
+   "principal": false
+  },
+  "libertadores-fem": {
+   "nome": "Libertadores Feminina",
+   "cor": "#9c7a1e",
+   "curto": "Liberta Fem.",
+   "principal": false
   }
  },
  "youtube": {
