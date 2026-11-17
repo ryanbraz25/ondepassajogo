@@ -434,90 +434,6 @@
   "local": "Estadio do Maracana, Rio de Janeiro",
   "status": "a_confirmar"
  },
- "espn:401861175": {
-  "_d": "20261115",
-  "_liga": "uefa.nations",
-  "_logos": {
-   "Espanha": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-   "Inglaterra": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Espanha",
-  "comp": "nations",
-  "fora": "Inglaterra",
-  "inicio": "2026-11-15T16:45:00-03:00",
-  "local": "Riyadh Air Metropolitano, Madrid",
-  "placar": {
-   "casa": 2,
-   "fora": 3
-  },
-  "status": "a_confirmar"
- },
- "espn:401861176": {
-  "_d": "20261115",
-  "_liga": "uefa.nations",
-  "_logos": {
-   "Bélgica": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-   "Itália": "https://a.espncdn.com/i/teamlogos/countries/500/ita.png"
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Bélgica",
-  "comp": "nations",
-  "fora": "Itália",
-  "inicio": "2026-11-15T16:45:00-03:00",
-  "local": "King Baudouin Stadium, Brussels",
-  "placar": {
-   "casa": 4,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
- "espn:401861177": {
-  "_d": "20261115",
-  "_liga": "uefa.nations",
-  "_logos": {
-   "França": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-   "Turquia": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "França",
-  "comp": "nations",
-  "fora": "Turquia",
-  "inicio": "2026-11-15T16:45:00-03:00",
-  "local": "Stade Atlantique, Bordeaux",
-  "placar": {
-   "casa": 2,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
- "espn:401861178": {
-  "_d": "20261115",
-  "_liga": "uefa.nations",
-  "_logos": {
-   "Croácia": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-   "República Tcheca": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png"
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Croácia",
-  "comp": "nations",
-  "fora": "República Tcheca",
-  "inicio": "2026-11-15T16:45:00-03:00",
-  "local": "Opus Arena, Osijek",
-  "placar": {
-   "casa": 2,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
  "espn:401861185": {
   "_d": "20261116",
   "_liga": "uefa.nations",
@@ -849,6 +765,23 @@
   "local": "U-Power Stadium, Monza",
   "status": "a_confirmar"
  },
+ "espn:401875019": {
+  "_d": "20261130",
+  "_liga": "ita.1",
+  "_logos": {
+   "Cagliari": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+   "Milan": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Cagliari",
+  "comp": "serie-a-ita",
+  "fora": "Milan",
+  "inicio": "2026-11-30T16:45:00-03:00",
+  "local": "Unipol Domus, Cagliari",
+  "status": "a_confirmar"
+ },
  "espn:401875031": {
   "_d": "20261129",
   "_liga": "ita.1",
@@ -932,6 +865,23 @@
   "fora": "Parma",
   "inicio": "2026-11-28T11:00:00-03:00",
   "local": "Stadio Benito Stirpe, Frosinone",
+  "status": "a_confirmar"
+ },
+ "espn:401875095": {
+  "_d": "20261130",
+  "_liga": "ita.1",
+  "_logos": {
+   "Atalanta": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "Lecce": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Lecce",
+  "comp": "serie-a-ita",
+  "fora": "Atalanta",
+  "inicio": "2026-11-30T14:30:00-03:00",
+  "local": "Via Del Mare, Lecce",
   "status": "a_confirmar"
  },
  "espn:401876386": {
@@ -1665,6 +1615,23 @@
   "local": "Estadi Ciutat de València, Manises",
   "status": "a_confirmar"
  },
+ "espn:401882792": {
+  "_d": "20261130",
+  "_liga": "esp.1",
+  "_logos": {
+   "Espanyol": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+   "Getafe": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+  },
+  "canais": [
+   "cazetv"
+  ],
+  "casa": "Espanyol",
+  "comp": "laliga",
+  "fora": "Getafe",
+  "inicio": "2026-11-30T17:00:00-03:00",
+  "local": "RCDE Stadium, Barcelona",
+  "status": "a_confirmar"
+ },
  "espn:401882793": {
   "_d": "20261128",
   "_liga": "esp.1",
@@ -2226,6 +2193,23 @@
   "local": "Estádio D. Afonso Henriques, Guimarães",
   "status": "a_confirmar"
  },
+ "espn:401885386": {
+  "_d": "20261130",
+  "_liga": "por.1",
+  "_logos": {
+   "Benfica": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "FC Famalicao": "https://a.espncdn.com/i/teamlogos/soccer/500/12698.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Benfica",
+  "comp": "portugal",
+  "fora": "FC Famalicao",
+  "inicio": "2026-11-30T17:15:00-03:00",
+  "local": "Estádio da Luz, Lisbon",
+  "status": "a_confirmar"
+ },
  "espn:401885387": {
   "_d": "20261129",
   "_liga": "por.1",
@@ -2292,6 +2276,23 @@
   "fora": "Estoril",
   "inicio": "2026-11-29T15:00:00-03:00",
   "local": "Estádio Cidade de Barcelos, Barcelos",
+  "status": "a_confirmar"
+ },
+ "espn:401885391": {
+  "_d": "20261130",
+  "_liga": "por.1",
+  "_logos": {
+   "Braga": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
+   "Casa Pia": "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Casa Pia",
+  "comp": "portugal",
+  "fora": "Braga",
+  "inicio": "2026-11-30T17:15:00-03:00",
+  "local": "Estádio Municipal de Rio Maior, Rio Maior",
   "status": "a_confirmar"
  },
  "espn:401885392": {
