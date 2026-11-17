@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17T17:50:39-03:00",
+ "atualizado": "2026-11-17T18:09:21-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1728,7 +1728,7 @@
   {
    "inicio": "2026-11-21T20:00:00-03:00",
    "comp": "ligamx",
-   "casa": "Santos",
+   "casa": "Santos Laguna",
    "fora": "León",
    "local": "Estadio Corona, Torreón",
    "canais": [],
@@ -1736,7 +1736,7 @@
    "eid": "401877051",
    "lg": "mex.1",
    "ed": "20261121",
-   "pg": "/jogo/santos-x-leon-21-11-2026/"
+   "pg": "/jogo/santos-laguna-x-leon-21-11-2026/"
   },
   {
    "inicio": "2026-11-21T21:00:00-03:00",
@@ -5491,6 +5491,7 @@
   "Toluca": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/223.png&h=80&w=80",
   "Inter Miami CF": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20232.png&h=80&w=80",
   "Columbus Crew": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/183.png&h=80&w=80",
+  "Santos Laguna": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/225.png&h=80&w=80",
   "León": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/228.png&h=80&w=80",
   "Pumas UNAM": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/233.png&h=80&w=80",
   "Monterrey": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/220.png&h=80&w=80",
