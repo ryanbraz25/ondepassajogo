@@ -145,7 +145,7 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 {cx.head_extra}
 {ld}</head>
 <body>
-<header class="topo"><div class="wrap"><a class="marca" href="/">{cx.pin}<span>ONDE PASSA <b>JOGO</b></span></a><a class="todos" href="/">Ver agenda completa</a></div></header>
+<header class="topo"><div class="wrap"><a class="marca" href="/" aria-label="Onde Passa Jogo: página inicial">{cx.pin}<span>ONDE PASSA <b>JOGO</b></span></a><a class="todos" href="/">Ver agenda<span class="dk"> completa</span></a></div></header>
 <main class="wrap">
 {mig}
 {corpo}
@@ -236,9 +236,10 @@ def pagina_jogo(cx, j):
              + (f", pela {e(rodada)}" if rodada else "") + f" do {e(comp)}"
              + (f", no {e(local)}" if local else "") + ". ")
     if nomes:
-        texto += f"A transmissão é {'da' if len(nomes) == 1 else 'de'} {e(lista_nomes)}."
+        texto += f"Transmissão: {e(lista_nomes)}."
         if gratis:
-            texto += f" Dá para assistir de graça em {e(', '.join(gratis))}."
+            lg = (", ".join(gratis[:-1]) + " e " + gratis[-1]) if len(gratis) > 1 else gratis[0]
+            texto += f" De graça: {e(lg)}."
     else:
         texto += "Os canais ainda não foram anunciados; esta página é atualizada assim que sair a confirmação."
     nota = f'<p class="nota">{e(j["nota"])}</p>' if j.get("nota") else ""
@@ -254,12 +255,12 @@ def pagina_jogo(cx, j):
         if xs and time != "A definir":
             rel += f'<h2>Próximos jogos do {e(nl(time))}</h2>' + lista(cx, xs)
 
-    faq = f"""<h2>Que horas é o jogo {e(casa)} x {e(fora)}?</h2>
+    faq = f"""<h3>Que horas é o jogo {e(casa)} x {e(fora)}?</h3>
 <p>A partida começa às <b>{hora(t)}</b>, horário de Brasília, {e(data_longa(t))}.</p>
-<h2>Onde vai passar {e(casa)} x {e(fora)}?</h2>
-<p>{(f"Na {e(lista_nomes)}." if nomes else "Ainda não há canal confirmado.")}{(" Os botões acima levam direto para a transmissão oficial." if nomes else "")}</p>
-<h2>Tem transmissão grátis?</h2>
-<p>{(f"Sim: {e(', '.join(gratis))}." if gratis else ("Por enquanto, não há transmissão gratuita anunciada." if nomes else "Ainda não sabemos; confira de novo mais perto do jogo."))}</p>
+<h3>Onde vai passar {e(casa)} x {e(fora)}?</h3>
+<p>{(f"{e(lista_nomes)}." if nomes else "Ainda não há canal confirmado.")}{(" Os botões acima levam direto para a transmissão oficial." if nomes else "")}</p>
+<h3>Tem transmissão grátis?</h3>
+<p>{(f"Sim: {e(' e '.join(gratis))}." if gratis else ("Por enquanto, não há transmissão gratuita anunciada." if nomes else "Ainda não sabemos; confira de novo mais perto do jogo."))}</p>
 """
     ld = {
         "@context": "https://schema.org", "@type": "SportsEvent",
@@ -288,22 +289,52 @@ def pagina_jogo(cx, j):
     elif "cancel" in (j.get("nota") or "").lower():
         ld["eventStatus"] = "https://schema.org/EventCancelled"
 
+    # canais: grátis primeiro, cada um vira um botão para a transmissão oficial
+    botoes = ""
+    for nome, tipo, link, gr in sorted(canais, key=lambda c: not c[3]):
+        sub = "Grátis" + (f" · {tipo}" if tipo and tipo != "Grátis no YouTube" else " · YouTube" if "YouTube" in tipo else "") if gr else tipo
+        acao = ("Assistir grátis" if gr else "Assistir") if not encerrado else "Abrir"
+        miolo = f'<span class="cn"><b>{e(nome)}</b><small>{e(sub)}</small></span><span class="ir">{acao} <span aria-hidden="true">›</span></span>'
+        cls = "ver gratis" if gr else "ver"
+        botoes += (f'<a class="{cls}" href="{e(link)}" target="_blank" rel="noopener">{miolo}</a>' if link
+                   else f'<span class="{cls}">{miolo}</span>')
+    if botoes:
+        bloco_canais = (f'<div class="botoes">{botoes}</div>'
+                        + ('<p class="aconf">Transmissão a confirmar: ainda não saiu anúncio oficial.</p>' if j.get("status") == "a_confirmar"
+                           else '<p class="ofc">Os botões abrem a página oficial de cada emissora.</p>'))
+    else:
+        bloco_canais = ('<p class="semcanal">Os canais ainda não foram anunciados. Esta página é atualizada assim que sair a confirmação.</p>'
+                        '<p class="cta2"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">Me avise quando sair</a></p>')
+    estadio = local.rsplit(",", 1)[0].strip() if local else ""
+    cidade = local.rsplit(",", 1)[1].strip() if local and "," in local else ""
+    pino = '<svg width="13" height="13" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z" fill="currentColor"/></svg>'
+    status = "" if encerrado else (
+        f'<p class="status" id="st" data-ini="{t.isoformat()}" hidden></p>'
+        "<script>(function(){var e=document.getElementById('st'),i=Date.parse(e.dataset.ini),n=Date.now(),m=Math.round((i-n)/6e4);"
+        "if(n>=i&&n<i+1.3e7){e.textContent='Ao vivo agora';e.className='status live';e.hidden=false}"
+        "else if(m>0&&m<=360){e.textContent=m<60?'Começa em '+m+' min':'Começa em '+Math.floor(m/60)+'h'+(m%60?String(m%60).padStart(2,'0'):'');e.className='status breve';e.hidden=false}})()</script>")
+
     corpo = f"""<article class="jogo">
 <p class="comp"><a href="/campeonato/{slug(j['comp'])}/">{e(comp)}</a>{(' · ' + e(rodada)) if rodada else ''}</p>
 <h1>Onde assistir {e(casa)} x {e(fora)} ao vivo</h1>
 <div class="placa">
+ {f'<p class="nota">{e(j["nota"])}</p>' if j.get("nota") else ''}
  <a class="tm" href="/time/{slug(casa)}/">{escudo(cx, casa, 56)}<span>{e(casa)}</span></a>
- <div class="hr">{(f'<b class="pl">{placar["casa"]} x {placar["fora"]}</b><small>Encerrado</small>' if encerrado else f'<b>{hora(t)}</b><small>{e(data_curta(t))}</small>')}</div>
+ <div class="hr">{(f'<b class="pl">{placar["casa"]} x {placar["fora"]}</b><small>Encerrado · {e(data_curta(t))}</small>' if encerrado else f'<b>{hora(t)}</b><small>{e(data_curta(t))}</small>')}
+  {f'<span class="est" title="{e(local)}">{pino}{e(estadio)}</span>' if estadio else ''}
+ </div>
  <a class="tm" href="/time/{slug(fora)}/">{escudo(cx, fora, 56)}<span>{e(fora)}</span></a>
 </div>
-<p class="quando">{e(data_longa(t).capitalize())} · {hora(t)} (Brasília){(' · ' + e(local)) if local else ''}</p>
-{res}{nota}
-<h2>{'Onde passou' if encerrado else 'Onde vai passar'}</h2>
-{lista_canais(cx, j)}
-<p>{texto}</p>
-<p class="cta"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">Siga seu time e receba aviso no celular</a></p>
-{faq}
+{status}
+<h2>{'Onde passou' if encerrado else 'Onde assistir'}</h2>
+{bloco_canais}
+<p class="cta2"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">★ Seguir {e(nl(casa))} ou {e(nl(fora))} e receber aviso no dia do jogo</a></p>
 {rel}
+<section class="sobre">
+<h2>Sobre o jogo</h2>
+<p>{texto}</p>
+{faq}
+</section>
 <p class="mais"><a href="/jogos-de-hoje/">Ver todos os jogos de hoje</a> · <a href="/campeonato/{slug(j['comp'])}/">Jogos do {e(comp)}</a></p>
 </article>"""
     mig = [("Início", "/"), (comp, f"/campeonato/{slug(j['comp'])}/"), (f"{casa} x {fora}", j["_pg"])]

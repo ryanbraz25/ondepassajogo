@@ -423,8 +423,13 @@ def gerar_site(dados):
                  f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','{ga}');</script>")
     tpl = tpl.replace("__ADSENSE_HEAD__", head)
     import paginas
+    pin = re.search(r'<svg aria-hidden="true" class="pin".*?</svg>', tpl, re.S)
+    if pin:
+        (RAIZ / "site" / "logo.svg").write_text(
+            pin.group(0).replace('<svg aria-hidden="true" class="pin" width="64" height="84"',
+                                 '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="84"'), encoding="utf-8")
     mudou = paginas.gerar(dados, head, '<link rel="icon" type="image/svg+xml" href="/favicon.svg">',
-                          '<img src="/favicon.svg" width="30" height="40" alt="">')
+                          '<img class="pin" src="/logo.svg" width="34" height="45" alt="">')
     paginas.guardar_para_avisar(mudou)
     tpl = tpl.replace("__LINKS_SEO__", links_seo(dados))
     bloco = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
