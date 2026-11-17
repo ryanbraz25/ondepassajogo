@@ -428,7 +428,7 @@ def gerar_site(dados):
         (RAIZ / "site" / "logo.svg").write_text(
             pin.group(0).replace('<svg aria-hidden="true" class="pin" width="64" height="84"',
                                  '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="84"'), encoding="utf-8")
-    mudou = paginas.gerar(dados, head, '<link rel="icon" type="image/svg+xml" href="/favicon.svg">',
+    mudou = paginas.gerar(dados, head, '<link rel="icon" type="image/svg+xml" href="/favicon.svg">\n<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">\n<link rel="icon" href="/favicon.ico" sizes="any">',
                           '<img class="pin" src="/logo.svg" width="34" height="45" alt="">')
     paginas.guardar_para_avisar(mudou)
     tpl = tpl.replace("__LINKS_SEO__", links_seo(dados))
