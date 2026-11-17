@@ -587,6 +587,10 @@
   "inicio": "2026-11-17T16:45:00-03:00",
   "lg": "uefa.nations",
   "local": "Cardiff City Stadium, Cardiff",
+  "placar": {
+   "casa": 2,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401861190": {
@@ -607,6 +611,10 @@
   "inicio": "2026-11-17T16:45:00-03:00",
   "lg": "uefa.nations",
   "local": "Košická futbalová aréna (KFA), Kosice",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401861194": {
@@ -647,6 +655,10 @@
   "inicio": "2026-11-17T16:45:00-03:00",
   "lg": "uefa.nations",
   "local": "Municipal Stadium Wroclaw, Wroclaw",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401874769": {

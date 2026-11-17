@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17T18:09:21-03:00",
+ "atualizado": "2026-11-17T18:41:26-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -452,6 +452,10 @@
    "eid": "401861189",
    "lg": "uefa.nations",
    "ed": "20261117",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   },
    "rodada": "Fase de liga",
    "pg": "/jogo/pais-de-gales-x-portugal-17-11-2026/"
   },
@@ -468,6 +472,10 @@
    "eid": "401861195",
    "lg": "uefa.nations",
    "ed": "20261117",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "rodada": "Fase de liga",
    "pg": "/jogo/polonia-x-suecia-17-11-2026/"
   },
@@ -485,6 +493,10 @@
    "eid": "401861190",
    "lg": "uefa.nations",
    "ed": "20261117",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "rodada": "Fase de liga",
    "links": {
     "espn": "https://www.youtube.com/@espnbrasil"
