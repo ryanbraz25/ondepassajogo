@@ -3510,6 +3510,10 @@
   "fora": "Brasil",
   "inicio": "2026-11-17T07:00:00-03:00",
   "local": "Singapore National Stadium, Singapore",
+  "placar": {
+   "casa": 0,
+   "fora": 7
+  },
   "status": "a_confirmar"
  },
  "espn:401916336": {
