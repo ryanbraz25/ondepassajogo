@@ -2,7 +2,7 @@
  "site": {
   "nome": "Onde Passa Jogo",
   "fuso": "America/Sao_Paulo",
-  "dias_a_frente": 14,
+  "dias_a_frente": 15,
   "dominio": "ondepassajogo.com.br",
   "usar_thesportsdb": false,
   "comentario": "Jogos, horários e placares vêm da ESPN (grátis, sem chave). Canais vêm de dados/canais.json (pesquisa noturna). TheSportsDB fica desligada: o plano grátis só devolve 1 a 3 jogos por consulta."
@@ -800,7 +800,9 @@
   "New Zealand": "Nova Zelândia",
   "Uzbekistan": "Uzbequistão",
   "Jordan": "Jordânia",
-  "United Arab Emirates": "Emirados Árabes"
+  "United Arab Emirates": "Emirados Árabes",
+  "TBD Home": "A definir",
+  "TBD Away": "A definir"
  },
  "selecoes_destaque": [
   "Brasil",

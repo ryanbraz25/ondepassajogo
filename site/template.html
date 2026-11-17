@@ -290,6 +290,7 @@ img.lgi{display:inline-block;width:18px;height:18px;object-fit:contain;vertical-
 #lista,#lista h2{scroll-margin-top:72px}
 @media(max-width:640px){.sugs{right:auto;width:calc(100vw - 2*max(16px,4vw))}}
 @media(min-width:960px){.side{top:64px;max-height:calc(100vh - 64px)}}
+@media(min-width:960px){#days .day{flex:1 0 auto}}
 @media (prefers-reduced-motion:reduce){.mini{transition:none}}
 header .wrap{position:relative}
 .ig{position:absolute;top:14px;right:max(16px,4vw);z-index:2;display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:6px 14px 6px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.18);color:var(--chalk);font:600 14px Barlow,sans-serif;text-decoration:none;transition:background .15s,border-color .15s}
@@ -509,12 +510,13 @@ const ESC=D.escudos||{}, LG=D.logos_ligas||{};
 const lgIcon=(k,cls)=>{const c=C(k),u=LG[k];return u?`<img class="lgi${cls?' '+cls:''}" src="${esc(u)}" alt="" width="18" height="18" loading="lazy" decoding="async" onerror="this.replaceWith(Object.assign(document.createElement('i'),{style:'background:${esc(c.cor)}'}))">`:`<i style="background:${esc(c.cor)}"></i>`};
 function ini(t){const w=String(t).replace(/[^A-Za-zÀ-ú0-9 ]/g,' ').trim().split(/\s+/);return (w.length>1?w[0][0]+w[1][0]:w[0].slice(0,2)).toUpperCase()}
 function crest(t){
+ if(t==='A definir') return '<span class="cr ini" aria-hidden="true">?</span>';
  const u=ESC[t];
  if(!u) return `<span class="cr ini" aria-hidden="true">${esc(ini(t))}</span>`;
  const fl=u.includes('flagcdn');
  return `<img class="cr${fl?' fl':''}" src="${esc(u.includes('thesportsdb')?u+'/tiny':u)}" alt="" width="22" height="22" loading="lazy" decoding="async" data-i="${esc(ini(t))}" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'cr ini',textContent:this.dataset.i}))">`;
 }
-function fst(t){const on=S.favs.has(t);return `<button class="fst${on?' on':''}" type="button" data-t="${esc(t)}" aria-pressed="${on}" aria-label="${on?'Deixar de seguir':'Seguir'} ${esc(t)}" title="${on?'Você segue '+esc(t)+' (toque para deixar de seguir)':'Seguir '+esc(t)}">${on?'★':'☆'}</button>`}
+function fst(t){if(t==='A definir')return '';const on=S.favs.has(t);return `<button class="fst${on?' on':''}" type="button" data-t="${esc(t)}" aria-pressed="${on}" aria-label="${on?'Deixar de seguir':'Seguir'} ${esc(t)}" title="${on?'Você segue '+esc(t)+' (toque para deixar de seguir)':'Seguir '+esc(t)}">${on?'★':'☆'}</button>`}
 function board(g){
  const a=Number(g.placar.casa), b=Number(g.placar.fora);
  const cls=(x,y)=>x>y?'win':x<y?'lose':'';
@@ -715,7 +717,7 @@ function toggleFav(t){
 // índice de times da agenda
 const TEAMS=(()=>{const m={};const now=Date.now()-115*60000;
  games.forEach(g=>[g.casa,g.fora].forEach(t=>{const x=m[t]=m[t]||{t,comps:{},next:null};x.comps[g.comp]=(x.comps[g.comp]||0)+1;if(g.t>=now&&(!x.next||g.t<x.next.t))x.next=g}));
- return Object.values(m).map(x=>({...x,n:n2(x.t),comp:Object.entries(x.comps).sort((a,b)=>b[1]-a[1])[0][0]}));})();
+ delete m["A definir"];return Object.values(m).map(x=>({...x,n:n2(x.t),comp:Object.entries(x.comps).sort((a,b)=>b[1]-a[1])[0][0]}));})();
 function teamScore(q,x){
  const tn=x.n, ws=tn.split(' ');
  if(tn===q) return 100;
