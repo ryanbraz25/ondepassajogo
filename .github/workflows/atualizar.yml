@@ -10,6 +10,11 @@ on:
   schedule:
     - cron: "7 */3 * * *"
   workflow_dispatch:
+    inputs:
+      avisar_agora:
+        description: "Mandar o resumo do dia agora (teste dos avisos)"
+        type: boolean
+        default: false
   push:
     paths:
       - "dados/verificados.json"
@@ -51,6 +56,17 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
         run: python robo/atualizar.py ${{ (github.event_name == 'push' || matrix.passo == 0) && '--completo' || '' }}
+      - name: Avisos no celular (resumo do dia às 9h)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+        run: |
+          if [ -n "$FIREBASE_SA" ]; then
+            pip install -q firebase-admin && python robo/avisos.py ${{ github.event_name == 'workflow_dispatch' && inputs.avisar_agora && matrix.passo == 0 && '--agora' || '' }}
+          else
+            echo "Sem FIREBASE_SA: avisos desligados"
+          fi
       - name: Salvar agenda no repositório
         run: |
           git config user.name "robo-agenda"

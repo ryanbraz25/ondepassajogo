@@ -442,6 +442,9 @@ def main():
         "logos_ligas": logos_ligas(cfg),
         "anuncios": {k: v for k, v in cfg.get("anuncios", {}).items() if k != "comentario"},
     }
+    nt = cfg.get("notificacoes") or {}
+    if (nt.get("firebase") or {}).get("apiKey"):
+        dados["push"] = {"cfg": nt["firebase"], "vapid": nt.get("vapid", "")}
     anterior.write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
     gerar_site(dados)
     log(f"Pronto: {len(jogos)} jogos, site/index.html gerado.")

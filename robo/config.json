@@ -839,5 +839,19 @@
    "lateral": ""
   },
   "google_analytics": "GTM-5SHRZHL6"
+ },
+ "notificacoes": {
+  "comentario": "Avisos no celular (Firebase do Ryan, projeto onde-passa-jogo). A config do app web é pública (vai no site). O envio diário roda no GitHub com o segredo FIREBASE_SA. hora = hora de Brasília a partir da qual sai o resumo do dia.",
+  "firebase": {
+   "apiKey": "AIzaSyCL3ggaCAjymlhrIcRkyRuVfPyE0bIUnec",
+   "authDomain": "onde-passa-jogo.firebaseapp.com",
+   "projectId": "onde-passa-jogo",
+   "storageBucket": "onde-passa-jogo.firebasestorage.app",
+   "messagingSenderId": "842297538605",
+   "appId": "1:842297538605:web:9f829dcb2c12f5dd8960a4"
+  },
+  "vapid": "BEqX48JySKaQEybIu92HgRdI7g9aUCqN6cyOb1V0Wo-dPORTQrqJU-SEIslXbjKKVrAAAubLYKeCW54dAgdaE4w",
+  "hora": 9,
+  "ate": 20
  }
 }
