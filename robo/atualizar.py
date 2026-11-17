@@ -388,6 +388,10 @@ def gerar_site(dados):
     cli = (dados.get("anuncios") or {}).get("adsense_client", "")
     head = (f'<meta name="google-adsense-account" content="{cli}">\n'
             f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={cli}" crossorigin="anonymous"></script>') if cli else ""
+    ga = (dados.get("anuncios") or {}).get("google_analytics", "")
+    if ga:
+        head += (f'\n<script async src="https://www.googletagmanager.com/gtag/js?id={ga}"></script>\n'
+                 f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','{ga}');</script>")
     tpl = tpl.replace("__ADSENSE_HEAD__", head)
     bloco = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     (RAIZ / "site" / "index.html").write_text(tpl.replace("__DADOS__", bloco), encoding="utf-8")
