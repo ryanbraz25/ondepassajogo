@@ -297,6 +297,26 @@ header .wrap{position:relative}
 .igf svg{width:16px;height:16px}
 .mini a.ms{text-decoration:none}
 @media(max-width:640px){.ig{top:12px;right:16px;width:40px;height:40px;padding:0;justify-content:center}.ig span{display:none}.top>div:first-child{padding-right:46px}.mini a.ms{display:none}}
+.ob{position:fixed;inset:0;z-index:60;display:grid;place-items:center;background:rgba(5,12,8,.55);padding:16px;animation:obin .2s ease}
+.ob[hidden]{display:none}
+@keyframes obin{from{opacity:0}to{opacity:1}}
+.obc{width:min(560px,100%);max-height:min(88vh,720px);overflow:auto;background:var(--card);color:var(--ink);border-radius:18px;box-shadow:0 24px 60px rgba(0,0,0,.35);padding:22px 20px 18px;position:relative}
+.obc h2{margin:0 36px 4px 0;font:900 italic 30px/1.05 "Barlow Condensed",sans-serif}
+.obc p{margin:0 0 14px;color:var(--mute);font-size:15px}
+.obx{position:absolute;top:10px;right:10px;width:40px;height:40px;border-radius:50%;border:0;background:var(--chip);color:var(--ink);font-size:20px;cursor:pointer}
+.obgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.obt{display:flex;align-items:center;gap:8px;min-height:50px;padding:6px 10px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:700 16px/1.1 Barlow,sans-serif;text-align:left;cursor:pointer}
+.obt .cr{font-size:24px;margin:0}
+.obt .cr.ini{font-size:12px}
+.obt[aria-pressed=true]{border-color:var(--gold);background:color-mix(in srgb,var(--gold) 22%,var(--card));box-shadow:inset 0 0 0 1px var(--gold)}
+.obt[aria-pressed=true]::after{content:"★";margin-left:auto;color:#c9a400}
+.obq{display:flex;align-items:center;gap:8px;margin:14px 0 10px;padding:0 12px;min-height:46px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.obq input{flex:1;border:0;background:none;color:var(--ink);font:500 16px Barlow,sans-serif;outline:none;min-width:0}
+.obf{display:flex;gap:10px;justify-content:flex-end;align-items:center;margin-top:16px;position:sticky;bottom:-18px;background:var(--card);padding:10px 0 4px}
+.obf .later{background:none;border:0;color:var(--mute);font:600 15px Barlow,sans-serif;text-decoration:underline;cursor:pointer;padding:10px}
+.obf .ok{min-height:46px;padding:8px 22px;border-radius:999px;border:0;background:var(--pitch);color:#fff;font:800 17px Barlow,sans-serif;cursor:pointer}
+.obf .ok:disabled{opacity:.45;cursor:default}
+@media(max-width:640px){.ob{place-items:end center;padding:0}.obc{border-radius:18px 18px 0 0;max-height:86vh}.obgrid{grid-template-columns:1fr 1fr}}
 </style>
 __ADSENSE_HEAD__
 </head>
@@ -366,6 +386,17 @@ __ADSENSE_HEAD__
  <p class="flinks"><a class="igf" href="https://www.instagram.com/ondepassajogo.com.br/" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg> @ondepassajogo.com.br</a> · <a href="privacidade.html">Privacidade</a></p>
  <p>Fontes: tabelas oficiais da CBF e da Conmebol, grades das emissoras e canais oficiais no YouTube. Os links levam às páginas oficiais de cada emissora. Horários e canais podem mudar; "a confirmar" indica informação ainda não anunciada oficialmente ou vinda de uma só fonte.</p>
 </footer>
+<div class="ob" id="ob" hidden role="dialog" aria-modal="true" aria-labelledby="obh">
+ <div class="obc">
+  <button class="obx" type="button" data-ob="fechar" aria-label="Fechar">×</button>
+  <h2 id="obh">Qual é o seu time?</h2>
+  <p>Escolha um ou mais: os jogos deles aparecem primeiro e ficam em ★ Meus times. Dá para mudar quando quiser pela estrela ao lado do nome.</p>
+  <div class="obgrid" id="obpop"></div>
+  <label class="obq"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="obq" type="search" placeholder="Não achou? Digite o nome do time" autocomplete="off"></label>
+  <div class="obgrid" id="obres"></div>
+  <div class="obf"><button class="later" type="button" data-ob="fechar">Agora não</button><button class="ok" type="button" data-ob="ok" disabled>Pronto</button></div>
+ </div>
+</div>
 <div class="toast" id="toast" role="status"></div>
 <button class="totop" id="totop" aria-label="Voltar ao topo" hidden>↑</button>
 
@@ -430,16 +461,19 @@ const favFirst = (a,b) => isFavG(b)-isFavG(a);
 const save = () => {try{localStorage.setItem('ligas',JSON.stringify([...S.comps]))}catch(_){}};
 
 const state = g => {const m=(Date.now()-g.t)/60000; return m<0?'up':m<115?'live':'done'};
-const isFreeCh = c => D.canais[c]&&FREE.has(D.canais[c].tipo)?1:0;
-const isFree = g => g.canais.some(c=>D.canais[c]&&FREE.has(D.canais[c].tipo));
+const ytLink = (c,g) => !!(g&&g.links&&g.links[c]&&/(^|\.)(youtube\.com|youtu\.be)\//i.test(String(g.links[c]).replace(/^https?:\/\//,'')));
+const chFree = (c,g) => !!D.canais[c]&&(FREE.has(D.canais[c].tipo)||ytLink(c,g));
+const isFreeCh = (c,g) => chFree(c,g)?1:0;
+const isFree = g => g.canais.some(c=>chFree(c,g));
 const okFree = g => !S.free||isFree(g);
 const okComp = g => S.comps.size===0||S.comps.has(g.comp);
 const match = g => okFree(g)&&okComp(g);
 
 function chanLink(c,g){
  const x=D.canais[c]; if(!x) return '';
- const free=FREE.has(x.tipo), url=(g.links&&g.links[c])||x.url;
- return `<a class="ch${free?' free':''}" href="${esc(url)}" target="_blank" rel="noopener">${esc(x.nome)}<small>${free?'<span class="gr">Grátis</span><span class="tp"> · '+esc(x.tipo)+'</span>':'<span class="tp">'+esc(x.tipo)+'</span>'}</small></a>`;
+ const yt=ytLink(c,g)&&x.tipo!=='YouTube';
+ const free=chFree(c,g), url=(g.links&&g.links[c])||x.url, tipo=yt?'no YouTube':x.tipo;
+ return `<a class="ch${free?' free':''}" href="${esc(url)}" target="_blank" rel="noopener"${yt?` title="${esc(x.nome)} transmite de graça no YouTube"`:''}>${esc(x.nome)}<small>${free?'<span class="gr">Grátis</span><span class="tp"> · '+esc(tipo)+'</span>':'<span class="tp">'+esc(tipo)+'</span>'}</small></a>`;
 }
 
 const ESC=D.escudos||{}, LG=D.logos_ligas||{};
@@ -462,7 +496,7 @@ function board(g){
 }
 function row(g){
  const c=C(g.comp), st=state(g);
- const chans = g.canais.length? g.canais.slice().sort((a,b)=>isFreeCh(b)-isFreeCh(a)).map(x=>chanLink(x,g)).join('') : '<div class="tbc">Transmissão a confirmar</div>';
+ const chans = g.canais.length? g.canais.slice().sort((a,b)=>isFreeCh(b,g)-isFreeCh(a,g)).map(x=>chanLink(x,g)).join('') : '<div class="tbc">Transmissão a confirmar</div>';
  const info=[g.rodada,g.local].filter(Boolean).join(' · ');
  return `<article class="g ${st}${isFavG(g)?' isfav':''}">
   <div>
@@ -772,6 +806,34 @@ $('lista').addEventListener('submit',async e=>{
 const upd=new Date(D.atualizado);
 $('upd').textContent=`Atualizado em ${new Intl.DateTimeFormat('pt-BR',{timeZone:TZ,day:'2-digit',month:'2-digit',year:'numeric'}).format(upd)} às ${hhmm(upd)}. ${games.length} jogos na agenda.`;
 if(matchMedia('(max-width:640px)').matches)$('q').placeholder='Buscar time ou campeonato';
+// pergunta o time só na primeira visita
+(()=>{
+ let visto=false;try{visto=!!localStorage.getItem('perguntouTime')}catch(_){visto=true}
+ if(visto||S.favs.size) return;
+ const pick=new Set();
+ const todos=[...new Set([...TEAMS.map(x=>x.t),...Object.keys(ESC)])].filter(t=>!(ESC[t]||'').includes('flagcdn'));
+ const pop=todos.slice().sort((a,b)=>tPop(b)-tPop(a)||a.localeCompare(b)).slice(0,12);
+ const bt=t=>`<button class="obt" type="button" data-t="${esc(t)}" aria-pressed="${pick.has(t)}">${crest(t)}${esc(t)}</button>`;
+ const draw=()=>{
+  $('obpop').innerHTML=pop.map(bt).join('');
+  const q=n2($('obq').value);
+  $('obres').innerHTML=q?todos.map(t=>[t,teamScore(q,{t,n:n2(t)})]).filter(a=>a[1]>0).sort((a,b)=>b[1]-a[1]||tPop(b[0])-tPop(a[0])).slice(0,6).map(a=>bt(a[0])).join('')||'<p>Nenhum time com esse nome.</p>':'';
+  const ok=document.querySelector('#ob [data-ob=ok]');ok.disabled=!pick.size;ok.textContent=pick.size?`Seguir ${pick.size===1?[...pick][0]:pick.size+' times'}`:'Pronto';
+ };
+ const fechar=salvar=>{
+  try{localStorage.setItem('perguntouTime','1')}catch(_){}
+  if(salvar&&pick.size){pick.forEach(t=>S.favs.add(t));saveFavs();renderChips();renderNext();renderList();toast(pick.size===1?'Seguindo '+[...pick][0]+'. Os jogos aparecem primeiro.':'Seguindo '+pick.size+' times.')}
+  $('ob').hidden=true;document.removeEventListener('keydown',esc_);
+ };
+ const esc_=e=>{if(e.key==='Escape')fechar(false)};
+ $('ob').addEventListener('click',e=>{
+  const t=e.target.closest('.obt');if(t){const n=t.dataset.t;pick.has(n)?pick.delete(n):pick.add(n);draw();return}
+  const a=e.target.closest('[data-ob]');if(a){fechar(a.dataset.ob==='ok');return}
+  if(e.target.id==='ob')fechar(false);
+ });
+ $('obq').addEventListener('input',draw);
+ setTimeout(()=>{draw();$('ob').hidden=false;document.addEventListener('keydown',esc_);document.querySelector('#ob .obt')?.focus({preventScroll:true})},900);
+})();
 render();anuncios();
 setInterval(()=>{renderNext();if(S.open===null&&$('sugs').hidden)renderList()},60000);
 }
