@@ -84,7 +84,7 @@ h2 small{font:500 14px Barlow,sans-serif;color:var(--mute);white-space:nowrap}
 .comp i{width:10px;height:10px;border-radius:3px;display:inline-block}
 .tag{white-space:nowrap;font-size:12px;font-weight:700;padding:1px 7px;border-radius:5px;background:color-mix(in srgb,var(--gold) 28%,transparent);color:var(--ink)}
 .teams{font:700 clamp(22px,3vw,26px)/1.15 "Barlow Condensed",sans-serif;margin:0 0 2px}
-.teams span{color:var(--mute);font-weight:600;margin:0 6px}
+.teams>span:not(.tn){color:var(--mute);font-weight:600;margin:0 2px}
 .meta{font-size:14px;color:var(--mute)}
 .chans{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end;max-width:360px}
 .ch{display:inline-flex;flex-direction:column;justify-content:center;min-height:44px;padding:5px 12px;border-radius:9px;border:1px solid var(--line);background:var(--card);text-decoration:none;font-weight:700;font-size:15px;line-height:1.15;white-space:nowrap}
@@ -236,9 +236,19 @@ footer a{color:inherit}
 .star{flex:0 0 auto;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--mute);font:400 22px/1 system-ui,sans-serif;cursor:pointer;display:grid;place-items:center}
 .star[aria-pressed=true]{background:var(--gold);border-color:var(--gold);color:#0a0f0c}
 .star:hover{border-color:var(--ink)}
+.sg .dot{flex:0 0 auto;width:27px;height:27px;border-radius:50%;display:grid;place-items:center;color:#fff;font:800 12px Barlow,sans-serif}
+.sg .go{flex:0 0 auto;color:var(--mute);font-size:20px;padding:0 10px}
+.lghead{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.lghead .clr{min-height:36px;padding:4px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:600 14px Barlow,sans-serif;cursor:pointer}
 .sgnone{padding:10px 12px;color:var(--mute);font-size:15px}
-.fs{color:#c9a400;font-size:.7em;margin-left:4px;vertical-align:.15em}
-:root[data-theme=dark] .fs{color:var(--gold)}
+.fst{display:inline-grid;place-items:center;width:30px;height:30px;margin:0 2px 0 1px;padding:0;border:0;border-radius:50%;background:none;color:var(--mute);font:400 17px/1 system-ui,sans-serif;vertical-align:.12em;cursor:pointer;opacity:.4;transition:opacity .15s,color .15s,transform .15s}
+.fst:hover{opacity:1;color:#c9a400;transform:scale(1.12)}
+.fst.on{opacity:1;color:#c9a400}
+:root[data-theme=dark] .fst.on,:root[data-theme=dark] .fst:hover{color:var(--gold)}
+@media(hover:hover){.g .fst:not(.on){opacity:0}.g:hover .fst:not(.on),.g .fst:focus-visible{opacity:.5}}
+.tn{white-space:nowrap}
+.li[aria-pressed=true].zero,.chip[aria-pressed=true].zero{opacity:1}
+.board .tm .fst{width:26px;height:26px;font-size:15px}
 .mytm{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 4px}
 .mytm .tmchip{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:4px 6px 4px 12px;border-radius:999px;border:1px solid var(--gold);background:color-mix(in srgb,var(--gold) 18%,transparent);font:700 15px Barlow,sans-serif;color:var(--ink)}
 .mytm .tmchip .star{width:32px;height:32px;font-size:17px}
@@ -424,12 +434,13 @@ function crest(t){
  const fl=u.includes('flagcdn');
  return `<img class="cr${fl?' fl':''}" src="${esc(u.includes('thesportsdb')?u+'/tiny':u)}" alt="" width="22" height="22" loading="lazy" decoding="async" data-i="${esc(ini(t))}" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'cr ini',textContent:this.dataset.i}))">`;
 }
+function fst(t){const on=S.favs.has(t);return `<button class="fst${on?' on':''}" type="button" data-t="${esc(t)}" aria-pressed="${on}" aria-label="${on?'Deixar de seguir':'Seguir'} ${esc(t)}" title="${on?'Você segue '+esc(t)+' (toque para deixar de seguir)':'Seguir '+esc(t)}">${on?'★':'☆'}</button>`}
 function board(g){
  const a=Number(g.placar.casa), b=Number(g.placar.fora);
  const cls=(x,y)=>x>y?'win':x<y?'lose':'';
  return `<div class="board" aria-label="${esc(g.casa)} ${a}, ${esc(g.fora)} ${b}">
-  <span class="tm ${cls(a,b)}">${crest(g.casa)}${esc(g.casa)}</span><span class="pts ${cls(a,b)}">${a}</span>
-  <span class="tm ${cls(b,a)}">${crest(g.fora)}${esc(g.fora)}</span><span class="pts ${cls(b,a)}">${b}</span>
+  <span class="tm ${cls(a,b)}">${crest(g.casa)}${esc(g.casa)}${fst(g.casa)}</span><span class="pts ${cls(a,b)}">${a}</span>
+  <span class="tm ${cls(b,a)}">${crest(g.fora)}${esc(g.fora)}${fst(g.fora)}</span><span class="pts ${cls(b,a)}">${b}</span>
  </div>`;
 }
 function row(g){
@@ -438,7 +449,7 @@ function row(g){
  const info=[g.rodada,g.local].filter(Boolean).join(' · ');
  return `<article class="g ${st}${isFavG(g)?' isfav':''}">
   <div>
-   ${g.placar&&st!=='up'?board(g):`<div class="teams">${crest(g.casa)}${esc(g.casa)}${S.favs.has(g.casa)?'<span class="fs" title="Você segue">★</span>':''}<span>x</span>${crest(g.fora)}${esc(g.fora)}${S.favs.has(g.fora)?'<span class="fs" title="Você segue">★</span>':''}</div>`}
+   ${g.placar&&st!=='up'?board(g):`<div class="teams"><span class="tn">${crest(g.casa)}${esc(g.casa)}${fst(g.casa)}</span> <span>x</span> <span class="tn">${crest(g.fora)}${esc(g.fora)}${fst(g.fora)}</span></div>`}
    <div class="meta"><span class="pill"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</span>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
   </div>
   <div class="chans">${chans}</div>
@@ -478,16 +489,16 @@ function renderChips(){
  const main=ORDER.filter(k=>C(k).principal);
  const rest=ORDER.filter(k=>!C(k).principal);
  const restShown=S.more?rest:rest.filter(k=>cnt(k)||S.comps.has(k));
- const chip=k=>{const c=C(k),n=cnt(k);return `<button class="chip${n?'':' zero'}" data-c="${k}" aria-pressed="${!fv&&S.comps.has(k)}"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}<span class="n">${n}</span></button>`};
+ const chip=k=>{const c=C(k),n=cnt(k);return `<button class="chip${n?'':' zero'}" data-c="${k}" aria-pressed="${S.view==='liga'?S.liga===k:!fv&&S.comps.has(k)}"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}<span class="n">${n}</span></button>`};
  const hidden=rest.length-restShown.length;
  const nf=games.filter(g=>isFavG(g)&&okFree(g)&&(state(g)!=='done'||g.k===dayKey(new Date()))).length;
  const fv=S.view==='favs';
- $('chips').innerHTML=`<button class="chip favchip" data-c="favs" aria-pressed="${fv}">★ Meus times<span class="n">${nf}</span></button><button class="chip" data-c="todas" aria-pressed="${!fv&&S.comps.size===0}">Todas</button>`
+ $('chips').innerHTML=`<button class="chip favchip" data-c="favs" aria-pressed="${fv}">★ Meus times<span class="n">${nf}</span></button><button class="chip" data-c="todas" aria-pressed="${S.view==='todos'&&S.comps.size===0}">Todas</button>`
   +main.map(chip).join('')+restShown.map(chip).join('')
   +(hidden||S.more?`<button class="chip more" data-c="mais">${S.more?'Menos ligas':'+ '+hidden+' ligas'}</button>`:'');
- const li=k=>{const c=C(k),n=cnt(k);return `<button class="li${n?'':' zero'}" data-c="${k}" aria-pressed="${!fv&&S.comps.has(k)}"><i style="background:${esc(c.cor)}"></i>${esc(c.nome)}<span class="n">${n||''}</span></button>`};
+ const li=k=>{const c=C(k),n=cnt(k);return `<button class="li${n?'':' zero'}" data-c="${k}" aria-pressed="${S.view==='liga'?S.liga===k:!fv&&S.comps.has(k)}"><i style="background:${esc(c.cor)}"></i>${esc(c.nome)}<span class="n">${n||''}</span></button>`};
  const rs=rest.slice().sort((a,b)=>(cnt(b)>0)-(cnt(a)>0));
- $('side').innerHTML=`<button class="li favli" data-c="favs" aria-pressed="${fv}"><i></i>★ Meus times<span class="n">${nf||''}</span></button><button class="li" data-c="todas" aria-pressed="${!fv&&S.comps.size===0}"><i style="background:var(--pitch)"></i>Todos os jogos<span class="n">${today.length}</span></button>`
+ $('side').innerHTML=`<button class="li favli" data-c="favs" aria-pressed="${fv}"><i></i>★ Meus times<span class="n">${nf||''}</span></button><button class="li" data-c="todas" aria-pressed="${S.view==='todos'&&S.comps.size===0}"><i style="background:var(--pitch)"></i>Todos os jogos<span class="n">${today.length}</span></button>`
   +'<h4>Principais</h4>'+main.map(li).join('')+'<h4>Outras ligas</h4>'+rs.map(li).join('');
 }
 
@@ -538,6 +549,13 @@ function byDay(list,searching){
  return Object.keys(by).sort().map((k,n)=>`<h2>${esc(longDay(noon(k)))}<small>${plural(by[k].length)}</small></h2>${dayHTML(by[k],k,searching)}${n===0?'<!--AD-->':''}`).join('');
 }
 function renderList(){
+ if(S.view==='liga'&&S.liga){
+  const c=C(S.liga), list=lgGames(S.liga).filter(okFree);
+  const head=`<div class="lghead"><h2><span class="pill"><i style="background:${esc(c.cor)}"></i></span>${esc(c.nome)}<small>${list.length?'próximos jogos':''}</small></h2><button class="clr" type="button" data-clr>× Ver todos os jogos</button></div>`;
+  if(!list.length){setList(head+`<p class="empty">Nenhum jogo de ${esc(c.nome)} nos próximos dias.</p>`);return}
+  setList(head+byDay(list,true));
+  return;
+ }
  if(S.view==='favs'){
   const today=dayKey(new Date());
   const list=games.filter(g=>isFavG(g)&&okFree(g)&&(state(g)!=='done'||g.k===today));
@@ -621,12 +639,30 @@ function teamScore(q,x){
  if(q.length>=4){const t=tol(q.length);if(lev(q,tn.slice(0,q.length))<=t||ws.some(w=>lev(q,w.slice(0,q.length))<=t||lev(q,w)<=t))return 50}
  return 0;
 }
+const LALIAS={'brasileirao-a':['brasileirao','brasileirao serie a','serie a','brasileiro','campeonato brasileiro'],'brasileirao-b':['serie b','brasileirao serie b','segunda divisao'],'copa-do-brasil':['copa do brasil','cdb'],'libertadores':['libertadores','liberta','copa libertadores'],'sul-americana':['sul americana','sulamericana','sula','copa sul americana'],'amistoso':['selecao','amistoso','amistosos','selecao brasileira'],'champions':['champions','champions league','liga dos campeoes','ucl'],'europa':['liga europa','europa league','uel'],'conference':['conference','conference league'],'nations':['liga das nacoes','nations league','nations'],'premier':['premier','premier league','ingles','campeonato ingles','inglaterra'],'laliga':['la liga','laliga','espanhol','campeonato espanhol','espanha'],'serie-a-ita':['serie a italia','italiano','campeonato italiano','calcio','italia'],'bundesliga':['bundesliga','alemao','campeonato alemao','alemanha'],'ligue1':['ligue 1','frances','campeonato frances','franca'],'portugal':['liga portugal','portugues','campeonato portugues'],'argentina':['argentino','campeonato argentino','liga argentina'],'mls':['mls','estados unidos'],'saudita':['saudita','liga saudita','arabia']};
+function lgScore(q,k){
+ const c=C(k), names=[n2(c.nome),n2(c.curto||''),...(LALIAS[k]||[])].filter(Boolean);
+ let b=0;
+ names.forEach(nm=>{const ws=nm.split(' ');
+  if(nm===q) b=Math.max(b,100);
+  else if(nm.startsWith(q)) b=Math.max(b,q.length>=3?95:60);
+  else if(q.length>=3&&ws.some(w=>w.startsWith(q))) b=Math.max(b,82);
+  else if(q.length>=5&&lev(q,nm.slice(0,q.length))<=tol(q.length)) b=Math.max(b,55);
+ });
+ return b;
+}
+const lgGames=k=>{const today=dayKey(new Date());return games.filter(g=>g.comp===k&&(state(g)!=='done'||g.k===today))};
 let SG=[], SGi=-1;
 function hl(name,q){const i=n2(name).indexOf(q);if(i<0||!q)return esc(name);return esc(name.slice(0,i))+'<mark>'+esc(name.slice(i,i+q.length))+'</mark>'+esc(name.slice(i+q.length))}
 function sgItem(x,q,i){
  const c=C(x.comp), nx=x.next?(x.next.k===dayKey(new Date())?'hoje':shortDay(x.next.t))+' '+hhmm(x.next.t)+' · '+(x.next.casa===x.t?'x '+x.next.fora:'x '+x.next.casa):'sem jogo nos próximos dias';
  const f=S.favs.has(x.t);
  return `<div class="sg${i===SGi?' act':''}" role="option" id="sg${i}" data-i="${i}" aria-selected="${i===SGi}">${crest(x.t)}<span class="nm">${hl(x.t,q)}<small>${esc(c.curto||c.nome)} · ${esc(nx)}</small></span><button class="star" type="button" data-t="${esc(x.t)}" aria-pressed="${f}" aria-label="${f?'Deixar de seguir':'Seguir'} ${esc(x.t)}">${f?'★':'☆'}</button></div>`;
+}
+function lgItem(k,i){
+ const c=C(k), gs=lgGames(k).filter(g=>state(g)!=='done'), nx=gs[0];
+ const sub=gs.length?`${plural(gs.length)} · próximo: ${nx.k===dayKey(new Date())?'hoje':shortDay(nx.t)} ${hhmm(nx.t)}, ${nx.casa} x ${nx.fora}`:'sem jogos nos próximos dias';
+ return `<div class="sg${i===SGi?' act':''}" role="option" id="sg${i}" data-i="${i}" aria-selected="${i===SGi}"><span class="dot" style="background:${esc(c.cor)}">${esc((c.curto||c.nome).slice(0,2).toUpperCase())}</span><span class="nm">${esc(c.nome)}<small>${esc(sub)}</small></span><span class="go" aria-hidden="true">›</span></div>`;
 }
 function renderSugs(){
  const box=$('sugs'), q=n2($('q').value);
@@ -635,34 +671,47 @@ function renderSugs(){
   if(!SG.length){closeSugs();return}
   box.innerHTML='<h5>Seus times</h5>'+SG.map((x,i)=>sgItem(x,'',i)).join('');
  } else {
-  SG=TEAMS.map(x=>[x,teamScore(q,x)]).filter(a=>a[1]>0).sort((a,b)=>b[1]-a[1]||tPop(b[0].t)-tPop(a[0].t)||a[0].t.localeCompare(b[0].t)).slice(0,7).map(a=>a[0]);
-  box.innerHTML=SG.length?'<h5>Times</h5>'+SG.map((x,i)=>sgItem(x,q,i)).join(''):'<div class="sgnone">Nenhum time com esse nome nos próximos dias.</div>';
+  const lg=ORDER.map(k=>[k,lgScore(q,k)]).filter(a=>a[1]>0).sort((a,b)=>b[1]-a[1]).slice(0,3).map(a=>({liga:a[0],sc:a[1]}));
+  const tm=TEAMS.map(x=>[x,teamScore(q,x)]).filter(a=>a[1]>0).sort((a,b)=>b[1]-a[1]||tPop(b[0].t)-tPop(a[0].t)||a[0].t.localeCompare(b[0].t)).slice(0,7);
+  if(lg.length&&lg[0].sc>=90){for(let j=tm.length-1;j>=0;j--)if(tm[j][1]<70)tm.splice(j,1)}
+  const lgFirst=lg.length&&(!tm.length||lg[0].sc>=tm[0][1]);
+  const L=lg, T=tm.map(a=>a[0]);
+  SG=lgFirst?[...L,...T]:[...T,...L];
+  let i=0;
+  const lgH=L.length?'<h5>Campeonatos</h5>'+L.map(x=>lgItem(x.liga,i++)).join(''):'';
+  const tmBlock=()=>T.length?'<h5>Times</h5>'+T.map(x=>sgItem(x,q,i++)).join(''):'';
+  let h='';
+  if(lgFirst){h=lgH+tmBlock()}else{i=0;const tb=T.length?'<h5>Times</h5>'+T.map(x=>sgItem(x,q,i++)).join(''):'';const lb=L.length?'<h5>Campeonatos</h5>'+L.map(x=>lgItem(x.liga,i++)).join(''):'';h=tb+lb}
+  box.innerHTML=h||'<div class="sgnone">Nenhum time ou campeonato com esse nome nos próximos dias.</div>';
  }
  box.hidden=false;$('q').setAttribute('aria-expanded','true');
  $('q').setAttribute('aria-activedescendant',SGi>=0?'sg'+SGi:'');
 }
 function closeSugs(){$('sugs').hidden=true;SGi=-1;$('q').setAttribute('aria-expanded','false');$('q').removeAttribute('aria-activedescendant')}
+function choose(x){if(x.liga)chooseLiga(x.liga);else chooseTeam(x.t)}
+function chooseLiga(k){$('q').value='';S.q='';S.view='liga';S.liga=k;closeSugs();renderChips();renderList();$('q').blur();$('lista').scrollIntoView({block:'start',behavior:'smooth'})}
 function chooseTeam(t){$('q').value=t;S.q=t;S.view='todos';closeSugs();renderChips();renderList();$('q').blur();$('lista').scrollIntoView({block:'start',behavior:'smooth'})}
-$('q').addEventListener('input',e=>{S.q=e.target.value;S.open=null;SGi=-1;if(S.view==='favs'){S.view='todos';renderChips()}renderList();renderSugs()});
+$('q').addEventListener('input',e=>{S.q=e.target.value;S.open=null;SGi=-1;if(S.view!=='todos'){S.view='todos';renderChips()}renderList();renderSugs()});
 $('q').addEventListener('focus',renderSugs);
 $('q').addEventListener('keydown',e=>{
  if($('sugs').hidden) return;
  if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();if(!SG.length)return;SGi=(SGi+(e.key==='ArrowDown'?1:-1)+SG.length)%SG.length;renderSugs();document.getElementById('sg'+SGi)?.scrollIntoView({block:'nearest'})}
- else if(e.key==='Enter'){if(SGi>=0&&SG[SGi]){e.preventDefault();chooseTeam(SG[SGi].t)}else closeSugs()}
+ else if(e.key==='Enter'){if(SGi>=0&&SG[SGi]){e.preventDefault();choose(SG[SGi])}else if(SG.length===1||(SG[0]&&SG[0].liga&&SG[0].sc>=90)){e.preventDefault();choose(SG[0])}else closeSugs()}
  else if(e.key==='Escape'){closeSugs()}
 });
 $('sugs').addEventListener('mousedown',e=>e.preventDefault());
 $('sugs').addEventListener('click',e=>{
  e.preventDefault();e.stopPropagation();
  const st=e.target.closest('.star');if(st){toggleFav(st.dataset.t);return}
- const it=e.target.closest('.sg');if(it)chooseTeam(SG[Number(it.dataset.i)].t);
+ const it=e.target.closest('.sg');if(it)choose(SG[Number(it.dataset.i)]);
 });
 document.addEventListener('click',e=>{if(!e.target.closest('.search'))closeSugs()});
 const tt=$('totop');addEventListener('scroll',()=>{tt.hidden=scrollY<700},{passive:true});tt.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
 $('cprev').addEventListener('click',()=>$('chips').scrollBy({left:-320}));
 $('cnext').addEventListener('click',()=>$('chips').scrollBy({left:320}));
 $('lista').addEventListener('click',async e=>{
- const st=e.target.closest('.star[data-t]');
+ if(e.target.closest('[data-clr]')){S.view='todos';S.liga=null;renderChips();renderList();return}
+ const st=e.target.closest('.star[data-t],.fst[data-t]');
  if(st){toggleFav(st.dataset.t);return}
  const j=e.target.closest('.jump');
  if(j){S.day=j.dataset.k;render();window.scrollTo({top:0});return}
