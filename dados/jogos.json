@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18T14:40:11-03:00",
+ "atualizado": "2026-11-18T17:26:25-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -547,6 +547,10 @@
    "eid": "401928497",
    "lg": "esp.copa_del_rey",
    "ed": "20261118",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   },
    "pg": "/jogo/utebo-x-cd-sabadell-18-11-2026/"
   },
   {

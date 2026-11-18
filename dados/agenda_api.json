@@ -6071,6 +6071,10 @@
   "inicio": "2026-11-18T15:00:00-03:00",
   "lg": "esp.copa_del_rey",
   "local": "Campo de Fútbol Municipal Santa Ana, Utebo",
+  "placar": {
+   "casa": 0,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401928500": {
