@@ -6226,24 +6226,6 @@
   "local": "",
   "status": "a_confirmar"
  },
- "espn:401932719": {
-  "_d": "20261128",
-  "_liga": "fifa.friendly",
-  "_logos": {
-   "Chile": "https://a.espncdn.com/i/teamlogos/countries/500/chi.png",
-   "Espanha": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
-  },
-  "canais": [],
-  "casa": "Espanha",
-  "comp": "amistoso",
-  "ed": "20261128",
-  "eid": "401932719",
-  "fora": "Chile",
-  "inicio": "2026-11-28T14:00:00-03:00",
-  "lg": "fifa.friendly",
-  "local": "Estadio Reino de León, León",
-  "status": "a_confirmar"
- },
  "espn:401933535": {
   "_d": "20261119",
   "_liga": "usa.1",

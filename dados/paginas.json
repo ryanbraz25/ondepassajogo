@@ -2,8 +2,8 @@
 "paginas": {
 "/campeonato/amistoso/": {
 "dia": "",
-"h": "78a954ba103dc7a9",
-"mod": "2026-11-17T22:40-03:00"
+"h": "a42eeb75eec80362",
+"mod": "2026-11-18T12:24-03:00"
 },
 "/campeonato/argentina/": {
 "dia": "",
@@ -622,8 +622,8 @@
 },
 "/jogo/chile-x-colombia-17-11-2026/": {
 "dia": "2026-11-17",
-"h": "44d389dd58f74ea2",
-"mod": "2026-11-17T22:40-03:00"
+"h": "f73a13950a84ece4",
+"mod": "2026-11-18T12:24-03:00"
 },
 "/jogo/club-brugge-x-liverpool-25-11-2026/": {
 "dia": "2026-11-25",
@@ -2524,8 +2524,8 @@
 },
 "/time/chile/": {
 "dia": "",
-"h": "85d402ceb590f8fa",
-"mod": "2026-11-17T22:40-03:00",
+"h": "c97a1040ba1cc6e0",
+"mod": "2026-11-18T12:24-03:00",
 "nome": "Chile"
 },
 "/time/club-brugge/": {
@@ -2686,8 +2686,8 @@
 },
 "/time/espanha/": {
 "dia": "",
-"h": "9c92e2af8923b1d6",
-"mod": "2026-11-17T17:37-03:00",
+"h": "666cfd7d7a7dc626",
+"mod": "2026-11-18T12:24-03:00",
 "nome": "Espanha"
 },
 "/time/espanyol/": {
