@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18T17:26:25-03:00",
+ "atualizado": "2026-11-18T18:26:29-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -534,6 +534,11 @@
    "eid": "401928518",
    "lg": "esp.copa_del_rey",
    "ed": "20261118",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   },
+   "nota": "Pênaltis: 4 x 1",
    "pg": "/jogo/portugalete-x-real-union-irun-18-11-2026/"
   },
   {
@@ -577,6 +582,10 @@
    "eid": "401928532",
    "lg": "esp.copa_del_rey",
    "ed": "20261118",
+   "placar": {
+    "casa": 2,
+    "fora": 5
+   },
    "pg": "/jogo/badajoz-x-tenerife-18-11-2026/"
   },
   {

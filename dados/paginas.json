@@ -52,8 +52,8 @@
 },
 "/campeonato/copa-do-rei/": {
 "dia": "",
-"h": "c1805319bf86980d",
-"mod": "2026-11-18T17:27-03:00"
+"h": "be303ccdbd2dfc4c",
+"mod": "2026-11-18T18:27-03:00"
 },
 "/campeonato/coppa-italia/": {
 "dia": "",
@@ -277,8 +277,8 @@
 },
 "/jogo/alcoyano-x-mallorca-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "01e37dcb7daf3d76",
-"mod": "2026-11-18T17:27-03:00"
+"h": "df0b8ec6efd5e5a5",
+"mod": "2026-11-18T18:27-03:00"
 },
 "/jogo/alemanha-x-holanda-16-11-2026/": {
 "dia": "2026-11-16",
@@ -382,8 +382,8 @@
 },
 "/jogo/badajoz-x-tenerife-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "be9b617108864b58",
-"mod": "2026-11-18T17:27-03:00"
+"h": "4f7e27a402aefe0e",
+"mod": "2026-11-18T18:27-03:00"
 },
 "/jogo/bahia-x-atletico-mg-02-12-2026/": {
 "dia": "2026-12-02",
@@ -567,8 +567,8 @@
 },
 "/jogo/cd-minera-x-fc-cartagena-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "f87dc84c0ed6089e",
-"mod": "2026-11-18T17:27-03:00"
+"h": "315522e0e1d6c034",
+"mod": "2026-11-18T18:27-03:00"
 },
 "/jogo/celta-vigo-x-bournemouth-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1447,8 +1447,8 @@
 },
 "/jogo/portugalete-x-real-union-irun-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "f5150b57d27e542d",
-"mod": "2026-11-18T17:27-03:00"
+"h": "123b743f16ce8a73",
+"mod": "2026-11-18T18:27-03:00"
 },
 "/jogo/preston-north-end-x-norwich-city-28-11-2026/": {
 "dia": "2026-11-28",
@@ -1552,8 +1552,8 @@
 },
 "/jogo/reus-fc-reddis-x-barakaldo-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "60a5e41600db586a",
-"mod": "2026-11-18T17:27-03:00"
+"h": "0f4924b993c2d24b",
+"mod": "2026-11-18T18:27-03:00"
 },
 "/jogo/river-plate-x-lanus-22-11-2026/": {
 "dia": "2026-11-22",
@@ -1857,8 +1857,8 @@
 },
 "/jogo/utebo-x-cd-sabadell-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "23a12e7a294be41f",
-"mod": "2026-11-18T17:27-03:00"
+"h": "98d61239cd1d7f50",
+"mod": "2026-11-18T18:27-03:00"
 },
 "/jogo/valencia-x-osasuna-29-11-2026/": {
 "dia": "2026-11-29",
@@ -1967,8 +1967,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "5fd8464f3f985dbe",
-"mod": "2026-11-18T17:27-03:00"
+"h": "ff43e33250c1f609",
+"mod": "2026-11-18T18:27-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2272,8 +2272,8 @@
 },
 "/time/badajoz/": {
 "dia": "",
-"h": "ce2dd262ffdae02f",
-"mod": "2026-11-17T17:37-03:00",
+"h": "9e1108b25a5143c4",
+"mod": "2026-11-18T18:27-03:00",
 "nome": "Badajoz"
 },
 "/time/bahia/": {
@@ -3550,8 +3550,8 @@
 },
 "/time/portugalete/": {
 "dia": "",
-"h": "8d9298bc4c6975f1",
-"mod": "2026-11-17T17:37-03:00",
+"h": "d7349db0001045bd",
+"mod": "2026-11-18T18:27-03:00",
 "nome": "Portugalete"
 },
 "/time/preston-north-end/": {
@@ -3640,8 +3640,8 @@
 },
 "/time/real-union-irun/": {
 "dia": "",
-"h": "dd785380a88442b7",
-"mod": "2026-11-17T17:37-03:00",
+"h": "a258813d64bcc2a6",
+"mod": "2026-11-18T18:27-03:00",
 "nome": "Real Unión Irun"
 },
 "/time/red-bull-bragantino/": {
@@ -3922,8 +3922,8 @@
 },
 "/time/tenerife/": {
 "dia": "",
-"h": "517850cd15e832b8",
-"mod": "2026-11-17T17:37-03:00",
+"h": "f9117941ee925485",
+"mod": "2026-11-18T18:27-03:00",
 "nome": "Tenerife"
 },
 "/time/tigres-uanl/": {

@@ -6129,6 +6129,11 @@
   "inicio": "2026-11-18T15:00:00-03:00",
   "lg": "esp.copa_del_rey",
   "local": "La Florida, Portugalete",
+  "nota": "Pênaltis: 4 x 1",
+  "placar": {
+   "casa": 0,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401928524": {
@@ -6165,6 +6170,10 @@
   "inicio": "2026-11-18T16:00:00-03:00",
   "lg": "esp.copa_del_rey",
   "local": "Estadio Municipal Nuevo Vivero, Badajoz",
+  "placar": {
+   "casa": 2,
+   "fora": 5
+  },
   "status": "a_confirmar"
  },
  "espn:401930895": {
