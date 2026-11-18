@@ -2,8 +2,8 @@
 "paginas": {
 "/campeonato/amistoso/": {
 "dia": "",
-"h": "22f19f5a007b82c4",
-"mod": "2026-11-17T17:37-03:00"
+"h": "78a954ba103dc7a9",
+"mod": "2026-11-17T22:40-03:00"
 },
 "/campeonato/argentina/": {
 "dia": "",
@@ -297,8 +297,8 @@
 },
 "/jogo/argentina-x-costa-rica-17-11-2026/": {
 "dia": "2026-11-17",
-"h": "4d9b4db6f3b194a1",
-"mod": "2026-11-17T17:37-03:00"
+"h": "e9c696f38d67f223",
+"mod": "2026-11-17T22:40-03:00"
 },
 "/jogo/argentinos-juniors-x-independiente-21-11-2026/": {
 "dia": "2026-11-21",
@@ -582,8 +582,8 @@
 },
 "/jogo/chile-x-colombia-17-11-2026/": {
 "dia": "2026-11-17",
-"h": "8c55182e11505460",
-"mod": "2026-11-17T17:37-03:00"
+"h": "44d389dd58f74ea2",
+"mod": "2026-11-17T22:40-03:00"
 },
 "/jogo/club-brugge-x-liverpool-25-11-2026/": {
 "dia": "2026-11-25",
@@ -992,8 +992,8 @@
 },
 "/jogo/japao-x-paraguai-17-11-2026/": {
 "dia": "2026-11-17",
-"h": "4303db5cb3dfde13",
-"mod": "2026-11-17T17:37-03:00"
+"h": "2b6c61ae9aa8ab20",
+"mod": "2026-11-17T22:40-03:00"
 },
 "/jogo/juventus-x-omonia-nicosia-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1557,8 +1557,8 @@
 },
 "/jogo/singapura-x-brasil-17-11-2026/": {
 "dia": "2026-11-17",
-"h": "033dd741dd47e504",
-"mod": "2026-11-17T17:37-03:00"
+"h": "c68b4352c162c267",
+"mod": "2026-11-17T22:40-03:00"
 },
 "/jogo/sk-brann-x-agf-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1722,8 +1722,8 @@
 },
 "/jogo/uruguai-x-republica-dominicana-17-11-2026/": {
 "dia": "2026-11-17",
-"h": "6b15ad25153eb2a3",
-"mod": "2026-11-17T17:37-03:00"
+"h": "88fcc8c096320024",
+"mod": "2026-11-17T22:40-03:00"
 },
 "/jogo/utebo-x-cd-sabadell-18-11-2026/": {
 "dia": "2026-11-18",
@@ -1832,8 +1832,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "751a717b5531e06c",
-"mod": "2026-11-17T18:52-03:00"
+"h": "16bd165c7925a7f8",
+"mod": "2026-11-17T22:40-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2041,8 +2041,8 @@
 },
 "/time/argentina/": {
 "dia": "",
-"h": "c04f334c0f61b13a",
-"mod": "2026-11-17T17:37-03:00",
+"h": "f7ba0342466a1098",
+"mod": "2026-11-17T22:40-03:00",
 "nome": "Argentina"
 },
 "/time/argentinos-juniors/": {
@@ -2389,8 +2389,8 @@
 },
 "/time/chile/": {
 "dia": "",
-"h": "bcbf5899caf4711d",
-"mod": "2026-11-17T17:37-03:00",
+"h": "85d402ceb590f8fa",
+"mod": "2026-11-17T22:40-03:00",
 "nome": "Chile"
 },
 "/time/club-brugge/": {
@@ -2401,8 +2401,8 @@
 },
 "/time/colombia/": {
 "dia": "",
-"h": "fb9d59a0f5810295",
-"mod": "2026-11-17T17:37-03:00",
+"h": "e2ea5835a2fb0b6c",
+"mod": "2026-11-17T22:40-03:00",
 "nome": "Colômbia"
 },
 "/time/columbus-crew/": {
@@ -2437,8 +2437,8 @@
 },
 "/time/costa-rica/": {
 "dia": "",
-"h": "2eab2468343d0bad",
-"mod": "2026-11-17T17:37-03:00",
+"h": "4885199ff87e83f0",
+"mod": "2026-11-17T22:40-03:00",
 "nome": "Costa Rica"
 },
 "/time/coventry-city/": {
@@ -3523,8 +3523,8 @@
 },
 "/time/republica-dominicana/": {
 "dia": "",
-"h": "592439c8c4294117",
-"mod": "2026-11-17T17:37-03:00",
+"h": "0fc6a0afa1fa0bc3",
+"mod": "2026-11-17T22:40-03:00",
 "nome": "República Dominicana"
 },
 "/time/reus-fc-reddis/": {
@@ -3865,8 +3865,8 @@
 },
 "/time/uruguai/": {
 "dia": "",
-"h": "6ca18afdff23fa21",
-"mod": "2026-11-17T17:37-03:00",
+"h": "847849791ff8678b",
+"mod": "2026-11-17T22:40-03:00",
 "nome": "Uruguai"
 },
 "/time/utebo/": {

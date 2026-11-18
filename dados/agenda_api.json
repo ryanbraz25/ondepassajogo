@@ -5699,6 +5699,10 @@
   "inicio": "2026-11-17T20:00:00-03:00",
   "lg": "fifa.friendly",
   "local": "Estadio Monumental David Arellano, Santiago",
+  "placar": {
+   "casa": 0,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401928497": {
@@ -5825,6 +5829,10 @@
   "inicio": "2026-11-17T20:00:00-03:00",
   "lg": "fifa.friendly",
   "local": "Mario Alberto Kempes, Córdoba",
+  "placar": {
+   "casa": 7,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401932215": {
@@ -5843,6 +5851,10 @@
   "inicio": "2026-11-17T20:30:00-03:00",
   "lg": "fifa.friendly",
   "local": "Estadio Domingo Burgueño Miguel, Maldonado",
+  "placar": {
+   "casa": 5,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401932611": {

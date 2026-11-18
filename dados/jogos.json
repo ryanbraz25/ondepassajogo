@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17T21:42:07-03:00",
+ "atualizado": "2026-11-17T22:39:12-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -521,6 +521,10 @@
    "eid": "401930895",
    "lg": "fifa.friendly",
    "ed": "20261117",
+   "placar": {
+    "casa": 7,
+    "fora": 0
+   },
    "rodada": "Data FIFA",
    "links": {
     "getv": "https://www.youtube.com/@getv"
@@ -538,6 +542,10 @@
    "eid": "401921304",
    "lg": "fifa.friendly",
    "ed": "20261117",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   },
    "pg": "/jogo/chile-x-colombia-17-11-2026/"
   },
   {
@@ -551,6 +559,10 @@
    "eid": "401932215",
    "lg": "fifa.friendly",
    "ed": "20261117",
+   "placar": {
+    "casa": 5,
+    "fora": 0
+   },
    "pg": "/jogo/uruguai-x-republica-dominicana-17-11-2026/"
   },
   {
