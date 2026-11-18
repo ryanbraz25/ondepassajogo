@@ -7,8 +7,23 @@ from playwright.async_api import async_playwright
 BRT = timezone(timedelta(hours=-3))
 D = json.load(open(sys.argv[1] if len(sys.argv) > 1 else "/tmp/t/dados/jogos.json"))
 SAB = sys.argv[2] if len(sys.argv) > 2 else "2026-11-21"
+MODO = sys.argv[3] if len(sys.argv) > 3 else "rodada"  # "rodada" = carrossel do fim de semana; "dia" = story, jogão e rodada do dia
 OUT = "/tmp/vid/out"
 POP = D["popularidade"]["times"]
+sys.path.insert(0, "/home/claude/ondepassajogo/robo")
+try:
+    import atualizar as _a
+    _CFG = json.load(open("/home/claude/ondepassajogo/robo/config.json"))
+    for _j in D["jogos"]:
+        if _j.get("local"):
+            _j["local"] = _a.acentua(_CFG, _j["local"])
+except Exception:
+    pass
+
+
+def estadio(j):
+    l = (j.get("local") or "").split(",")[0].strip()
+    return re.sub(r"^(Estádio|Estadio|Arena)\s+(do|da|de)\s+", "", l) if l.startswith(("Estádio d", "Estadio d")) else l
 SEM = ["SEGUNDA", "TERÇA", "QUARTA", "QUINTA", "SEXTA", "SÁBADO", "DOMINGO"]
 
 
@@ -35,6 +50,9 @@ def hora(t):
 
 def jogos_do_dia(dia, n):
     js = [j for j in D["jogos"] if j["inicio"][:10] == dia and j["comp"] != "ligamx" and "A definir" not in (j["casa"], j["fora"])]
+    com = [j for j in js if j.get("canais")]
+    if len(com) >= min(n, 4):
+        js = com
     js = sorted(js, key=lambda j: -pop(j))[:n]
     return sorted(js, key=lambda j: j["inicio"])
 
@@ -60,6 +78,7 @@ body::before{content:"";position:fixed;inset:0;background:repeating-linear-gradi
 .p{border-radius:999px;padding:3px 14px;font:700 24px Barlow;background:#eef3f0;color:#0d1a12}
 .p.g{background:#0a6d35;color:#fff}
 .aconf{font-size:22px;color:#a06a00}
+.list.lg{gap:20px}.list.lg .j{padding:26px 30px;grid-template-columns:170px 1fr}.list.lg .j .h{font-size:62px}.list.lg .j .t{font-size:44px}.list.lg .p{font-size:28px}.list.lg .j .c{font-size:28px}
 .tag{display:inline-block;background:#fff;color:#0a6d35;border-radius:999px;padding:14px 32px;font:800 40px Barlow}
 """
 
@@ -124,10 +143,51 @@ def slides():
     return out
 
 
+def slides_dia(dia):
+    d = datetime.fromisoformat(dia).date()
+    out = []
+    js = jogos_do_dia(dia, 8)
+    nome_dia = "hoje" if d == datetime.now(BRT).date() else SEM[d.weekday()].lower()
+    out.append((f"story_jogos_do_dia_{d:%d-%m}", 1080, 1920, TOP + f"""
+<div style='margin-top:150px' class='big'>Jogos de <em>{nome_dia}</em></div>
+<div style='font:700 48px Barlow;margin:12px 0 30px'>{SEM[d.weekday()].capitalize()}, {d:%d/%m} · onde assistir</div>
+<div class='list{" lg" if len(js) <= 6 else ""}'>{''.join(linha(j) for j in js)}</div>
+<div style='margin-top:44px;text-align:center'><span class='url' style='font-size:50px'>Link na bio · ondepassajogo.com.br</span></div>
+<div style='height:260px'></div>"""))
+    j = sorted(js, key=lambda x: -pop(x))[0]
+    t = datetime.fromisoformat(j["inicio"]).astimezone(BRT)
+    comp = D["competicoes"][j["comp"]]["nome"]
+    btns = "".join(f"<div style='display:flex;justify-content:space-between;align-items:center;background:{'#ffd400' if g else '#fff'};color:#0a3d20;border-radius:22px;padding:22px 30px;font:800 46px Barlow'><span>{e(n)}</span><span style='font-size:34px'>{'GRÁTIS' if g else ''}</span></div>"
+                   for n, g in sorted((canal(j, c) for c in j.get("canais", [])), key=lambda x: not x[1]))
+    local = estadio(j)
+    rod = (" · " + j["rodada"].upper()) if j.get("rodada") else ""
+    out.append((f"jogao_do_dia_{d:%d-%m}", 1080, 1350, TOP + f"""
+<div style='margin-top:60px;font:800 40px Barlow;color:#ffd400'>JOGÃO DE {'HOJE' if nome_dia == 'hoje' else SEM[t.weekday()]} · {e(comp.upper())}{e(rod)}</div>
+<div class='big' style='font-size:150px;margin-top:10px'>{e(j['casa'])}<br><span style='color:#ffd400'>x</span> {e(j['fora'])}</div>
+<div style='font:800 64px Barlow;margin-top:22px'>{hora(t)} · {t:%d/%m}{(' · ' + e(local)) if local else ''}</div>
+<div style='font:900 italic 64px "Barlow Condensed";margin:40px 0 18px'>ONDE ASSISTIR</div>
+<div style='display:flex;flex-direction:column;gap:14px'>{btns}</div>
+<div class='foot'><span>Links oficiais no site</span><span class='url'>ondepassajogo.com.br</span></div>"""))
+    # rodada do dia no feed: campeonato com mais jogos entre os escolhidos
+    from collections import Counter
+    k = Counter(x["comp"] for x in js).most_common(1)[0][0]
+    rj = [x for x in js if x["comp"] == k][:7]
+    rod = next((x.get("rodada") for x in rj if x.get("rodada")), "")
+    nm = D["competicoes"][k].get("curto") or D["competicoes"][k]["nome"]
+    gr = [x for x in rj if any(canal(x, c)[1] for c in x.get("canais", []))]
+    out.append((f"rodada_do_dia_{d:%d-%m}", 1080, 1350, TOP + f"""
+<div class='dia' style='margin-bottom:6px'>{e(nm.upper())} {nome_dia.upper()}<small>{d:%d/%m}</small></div>
+<div style='font:700 40px Barlow;margin-bottom:22px'>{e(rod + ' · ') if rod else ''}{len(rj)} jogos{' · ' + str(len(gr)) + ' com opção grátis' if gr else ''}</div>
+<div class='list'>{''.join(linha(x) for x in rj)}</div>
+<div class='foot'><span>Links oficiais no site</span><span class='url'>ondepassajogo.com.br</span></div>"""))
+    return out, js, j
+
+
 async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch(executable_path="/usr/bin/google-chrome", args=["--allow-file-access-from-files"])
-        for nome, w, h, body in slides():
+        lista = slides_dia(SAB)[0] if MODO == "dia" else slides()
+        for nome, w, h, body in lista:
             pg = await b.new_page(viewport={"width": w, "height": h})
             open(f"/tmp/vid/_p.html", "w").write(page(w, h, body))
             await pg.goto("file:///tmp/vid/_p.html")

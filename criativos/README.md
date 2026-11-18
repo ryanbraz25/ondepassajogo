@@ -13,6 +13,7 @@ python3 /tmp/vid/shots.py        # telas do site (s_home, s_bra, s_gratis, s_jog
 ```
 
 ## Gerar
+- Criativos do dia: `python3 posts.py <jogos.json> AAAA-MM-DD dia` → story dos jogos do dia, card do jogão e lista da rodada (feed). Reels de cortes rápidos: `python3 video_dia.py <jogos.json> AAAA-MM-DD && python3 render.py v_dia`.
 - Artes: `python3 posts.py /tmp/t/dados/jogos.json AAAA-MM-DD` (data do sábado) → carrossel, story do dia e card do jogão em `out/`.
 - Vídeos: `python3 render.py v1_5minutos v2_gratis ...` → `out/*.mp4`. Para conferir antes: `python3 render.py --frames v1_5minutos 1.0 5.0 9.0`.
 - Cada vídeo é um HTML com quadros-chave (`pop`, `add`, `phone`, `tapS`, `boxS`, `endCard`). `measure.py` dá as posições dos elementos do site para o toque e a moldura.
