@@ -521,52 +521,184 @@
   "local": "Estadio do Maracana, Rio de Janeiro",
   "status": "a_confirmar"
  },
- "espn:401861185": {
-  "_d": "20261116",
-  "_liga": "uefa.nations",
+ "espn:401841338": {
+  "_d": "20261202",
+  "_liga": "bra.1",
   "_logos": {
-   "Alemanha": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-   "Holanda": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
+   "Athletico-PR": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "São Paulo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png"
   },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Alemanha",
-  "comp": "nations",
-  "ed": "20261116",
-  "eid": "401861185",
-  "fora": "Holanda",
-  "inicio": "2026-11-16T16:45:00-03:00",
-  "lg": "uefa.nations",
-  "local": "Olympic Stadium Berlin, Berlin",
-  "placar": {
-   "casa": 5,
-   "fora": 0
-  },
+  "canais": [],
+  "casa": "Athletico-PR",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841338",
+  "fora": "São Paulo",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Arena da Baixada, Curitiba",
   "status": "a_confirmar"
  },
- "espn:401861186": {
-  "_d": "20261116",
-  "_liga": "uefa.nations",
+ "espn:401841339": {
+  "_d": "20261202",
+  "_liga": "bra.1",
   "_logos": {
-   "Escócia": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
-   "Suíça": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
+   "Atlético-MG": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "Bahia": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png"
   },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Suíça",
-  "comp": "nations",
-  "ed": "20261116",
-  "eid": "401861186",
-  "fora": "Escócia",
-  "inicio": "2026-11-16T16:45:00-03:00",
-  "lg": "uefa.nations",
-  "local": "Kybunpark, St. Gallen",
-  "placar": {
-   "casa": 4,
-   "fora": 0
+  "canais": [],
+  "casa": "Bahia",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841339",
+  "fora": "Atlético-MG",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Arena Fonte Nova, Salvador",
+  "status": "a_confirmar"
+ },
+ "espn:401841340": {
+  "_d": "20261202",
+  "_liga": "bra.1",
+  "_logos": {
+   "Cruzeiro": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "Internacional": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
   },
+  "canais": [],
+  "casa": "Cruzeiro",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841340",
+  "fora": "Internacional",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Estadio Mineirão, Belo Horizonte",
+  "status": "a_confirmar"
+ },
+ "espn:401841341": {
+  "_d": "20261202",
+  "_liga": "bra.1",
+  "_logos": {
+   "Chapecoense": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "Flamengo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
+  },
+  "canais": [],
+  "casa": "Flamengo",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841341",
+  "fora": "Chapecoense",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Estadio do Maracana, Rio de Janeiro",
+  "status": "a_confirmar"
+ },
+ "espn:401841342": {
+  "_d": "20261202",
+  "_liga": "bra.1",
+  "_logos": {
+   "Vasco": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "Vitória": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
+  },
+  "canais": [],
+  "casa": "Vasco",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841342",
+  "fora": "Vitória",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Estádio São Januário, Rio de Janeiro",
+  "status": "a_confirmar"
+ },
+ "espn:401841343": {
+  "_d": "20261202",
+  "_liga": "bra.1",
+  "_logos": {
+   "Coritiba": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "Palmeiras": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"
+  },
+  "canais": [],
+  "casa": "Palmeiras",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841343",
+  "fora": "Coritiba",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Allianz Parque, Sao Paulo",
+  "status": "a_confirmar"
+ },
+ "espn:401841344": {
+  "_d": "20261202",
+  "_liga": "bra.1",
+  "_logos": {
+   "Fluminense": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "Red Bull Bragantino": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
+  },
+  "canais": [],
+  "casa": "Red Bull Bragantino",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841344",
+  "fora": "Fluminense",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Estádio Municipal Cicero de Souza Marques, Bragança Paulista",
+  "status": "a_confirmar"
+ },
+ "espn:401841345": {
+  "_d": "20261202",
+  "_liga": "bra.1",
+  "_logos": {
+   "Corinthians": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "Remo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png"
+  },
+  "canais": [],
+  "casa": "Remo",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841345",
+  "fora": "Corinthians",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Mangueirão, Belém",
+  "status": "a_confirmar"
+ },
+ "espn:401841346": {
+  "_d": "20261202",
+  "_liga": "bra.1",
+  "_logos": {
+   "Botafogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "Santos": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png"
+  },
+  "canais": [],
+  "casa": "Santos",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841346",
+  "fora": "Botafogo",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Estádio Vila Belmiro (Urbano Caldeira), Santos",
+  "status": "a_confirmar"
+ },
+ "espn:401841347": {
+  "_d": "20261202",
+  "_liga": "bra.1",
+  "_logos": {
+   "Grêmio": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "Mirassol": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
+  },
+  "canais": [],
+  "casa": "Grêmio",
+  "comp": "brasileirao-a",
+  "ed": "20261202",
+  "eid": "401841347",
+  "fora": "Mirassol",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "bra.1",
+  "local": "Arena do Grêmio, Porto Alegre",
   "status": "a_confirmar"
  },
  "espn:401861189": {
@@ -1911,6 +2043,46 @@
   "local": "Estadio Cuauhtémoc, Puebla",
   "status": "a_confirmar"
  },
+ "espn:401878750": {
+  "_d": "20261202",
+  "_liga": "eng.1",
+  "_logos": {
+   "Arsenal": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "Brentford": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Brentford",
+  "comp": "premier",
+  "ed": "20261202",
+  "eid": "401878750",
+  "fora": "Arsenal",
+  "inicio": "2026-12-02T17:15:00-03:00",
+  "lg": "eng.1",
+  "local": "Gtech Community Stadium, Brentford",
+  "status": "a_confirmar"
+ },
+ "espn:401878751": {
+  "_d": "20261202",
+  "_liga": "eng.1",
+  "_logos": {
+   "Aston Villa": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+   "Everton": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Aston Villa",
+  "comp": "premier",
+  "ed": "20261202",
+  "eid": "401878751",
+  "fora": "Everton",
+  "inicio": "2026-12-02T17:15:00-03:00",
+  "lg": "eng.1",
+  "local": "Villa Park, Birmingham",
+  "status": "a_confirmar"
+ },
  "espn:401878752": {
   "_d": "20261128",
   "_liga": "eng.1",
@@ -2011,6 +2183,86 @@
   "local": "Villa Park, Birmingham",
   "status": "a_confirmar"
  },
+ "espn:401879217": {
+  "_d": "20261202",
+  "_liga": "eng.1",
+  "_logos": {
+   "Manchester United": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+   "Newcastle": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Newcastle",
+  "comp": "premier",
+  "ed": "20261202",
+  "eid": "401879217",
+  "fora": "Manchester United",
+  "inicio": "2026-12-02T17:15:00-03:00",
+  "lg": "eng.1",
+  "local": "St. James' Park, Newcastle-upon-Tyne",
+  "status": "a_confirmar"
+ },
+ "espn:401879218": {
+  "_d": "20261202",
+  "_liga": "eng.1",
+  "_logos": {
+   "Leeds": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+   "Manchester City": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Manchester City",
+  "comp": "premier",
+  "ed": "20261202",
+  "eid": "401879218",
+  "fora": "Leeds",
+  "inicio": "2026-12-02T16:30:00-03:00",
+  "lg": "eng.1",
+  "local": "Etihad Stadium, Manchester",
+  "status": "a_confirmar"
+ },
+ "espn:401879219": {
+  "_d": "20261202",
+  "_liga": "eng.1",
+  "_logos": {
+   "Liverpool": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "Sunderland": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Liverpool",
+  "comp": "premier",
+  "ed": "20261202",
+  "eid": "401879219",
+  "fora": "Sunderland",
+  "inicio": "2026-12-02T16:30:00-03:00",
+  "lg": "eng.1",
+  "local": "Anfield, Liverpool",
+  "status": "a_confirmar"
+ },
+ "espn:401879220": {
+  "_d": "20261202",
+  "_liga": "eng.1",
+  "_logos": {
+   "Hull City": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+   "Nottingham Forest": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Hull City",
+  "comp": "premier",
+  "ed": "20261202",
+  "eid": "401879220",
+  "fora": "Nottingham Forest",
+  "inicio": "2026-12-02T16:30:00-03:00",
+  "lg": "eng.1",
+  "local": "The MKM Stadium, Hull",
+  "status": "a_confirmar"
+ },
  "espn:401879221": {
   "_d": "20261201",
   "_liga": "eng.1",
@@ -2029,6 +2281,46 @@
   "inicio": "2026-12-01T17:00:00-03:00",
   "lg": "eng.1",
   "local": "Coventry Building Society Arena, Coventry",
+  "status": "a_confirmar"
+ },
+ "espn:401879222": {
+  "_d": "20261202",
+  "_liga": "eng.1",
+  "_logos": {
+   "Chelsea": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "Crystal Palace": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Chelsea",
+  "comp": "premier",
+  "ed": "20261202",
+  "eid": "401879222",
+  "fora": "Crystal Palace",
+  "inicio": "2026-12-02T16:30:00-03:00",
+  "lg": "eng.1",
+  "local": "Stamford Bridge, London",
+  "status": "a_confirmar"
+ },
+ "espn:401879223": {
+  "_d": "20261202",
+  "_liga": "eng.1",
+  "_logos": {
+   "Bournemouth": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+   "Brighton": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Bournemouth",
+  "comp": "premier",
+  "ed": "20261202",
+  "eid": "401879223",
+  "fora": "Brighton",
+  "inicio": "2026-12-02T17:15:00-03:00",
+  "lg": "eng.1",
+  "local": "Vitality Stadium, Bournemouth",
   "status": "a_confirmar"
  },
  "espn:401879224": {
@@ -2977,6 +3269,46 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.2",
   "local": "Toughsheet Community Stadium, Bolton",
+  "status": "a_confirmar"
+ },
+ "espn:401882698": {
+  "_d": "20261202",
+  "_liga": "esp.1",
+  "_logos": {
+   "Real Madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "Real Sociedad": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+  },
+  "canais": [
+   "cazetv"
+  ],
+  "casa": "Real Sociedad",
+  "comp": "laliga",
+  "ed": "20261202",
+  "eid": "401882698",
+  "fora": "Real Madrid",
+  "inicio": "2026-12-02T15:00:00-03:00",
+  "lg": "esp.1",
+  "local": "Reale Arena, San Sebastian",
+  "status": "a_confirmar"
+ },
+ "espn:401882700": {
+  "_d": "20261202",
+  "_liga": "esp.1",
+  "_logos": {
+   "Atlético de Madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "Barcelona": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
+  },
+  "canais": [
+   "cazetv"
+  ],
+  "casa": "Barcelona",
+  "comp": "laliga",
+  "ed": "20261202",
+  "eid": "401882700",
+  "fora": "Atlético de Madrid",
+  "inicio": "2026-12-02T17:30:00-03:00",
+  "lg": "esp.1",
+  "local": "Spotify Camp Nou, Barcelona",
   "status": "a_confirmar"
  },
  "espn:401882787": {
@@ -4439,6 +4771,24 @@
   "inicio": "2026-12-01T17:00:00-03:00",
   "lg": "ita.coppa_italia",
   "local": "San Siro, Milano",
+  "status": "a_confirmar"
+ },
+ "espn:401912495": {
+  "_d": "20261202",
+  "_liga": "ita.coppa_italia",
+  "_logos": {
+   "Como": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "Cremonese": "https://a.espncdn.com/i/teamlogos/soccer/500/4050.png"
+  },
+  "canais": [],
+  "casa": "Como",
+  "comp": "coppa-italia",
+  "ed": "20261202",
+  "eid": "401912495",
+  "fora": "Cremonese",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "ita.coppa_italia",
+  "local": "Giuseppe Sinigaglia, Como",
   "status": "a_confirmar"
  },
  "espn:401912519": {
@@ -5934,6 +6284,126 @@
   "local": "Lumen Field, Seattle, Washington",
   "status": "a_confirmar"
  },
+ "espn:401933715": {
+  "_d": "20261202",
+  "_liga": "usa.1",
+  "_logos": {
+   "Houston Dynamo FC": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
+   "San Jose Earthquakes": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png"
+  },
+  "canais": [
+   "appletv"
+  ],
+  "casa": "San Jose Earthquakes",
+  "comp": "mls",
+  "ed": "20261202",
+  "eid": "401933715",
+  "fora": "Houston Dynamo FC",
+  "inicio": "2026-12-03T00:00:00-03:00",
+  "lg": "usa.1",
+  "local": "PayPal Park, San Jose, California",
+  "status": "a_confirmar"
+ },
+ "espn:401933716": {
+  "_d": "20261202",
+  "_liga": "usa.1",
+  "_logos": {
+   "FC Dallas": "https://a.espncdn.com/i/teamlogos/soccer/500/185.png",
+   "Portland Timbers": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png"
+  },
+  "canais": [
+   "appletv"
+  ],
+  "casa": "FC Dallas",
+  "comp": "mls",
+  "ed": "20261202",
+  "eid": "401933716",
+  "fora": "Portland Timbers",
+  "inicio": "2026-12-02T22:00:00-03:00",
+  "lg": "usa.1",
+  "local": "Toyota Stadium, Toyota Stadium",
+  "status": "a_confirmar"
+ },
+ "espn:401933717": {
+  "_d": "20261202",
+  "_liga": "usa.1",
+  "_logos": {
+   "A definir": "",
+   "Vancouver Whitecaps": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
+  },
+  "canais": [
+   "appletv"
+  ],
+  "casa": "Vancouver Whitecaps",
+  "comp": "mls",
+  "ed": "20261202",
+  "eid": "401933717",
+  "fora": "A definir",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "usa.1",
+  "local": "BC Place, Vancouver",
+  "status": "a_confirmar"
+ },
+ "espn:401933718": {
+  "_d": "20261202",
+  "_liga": "usa.1",
+  "_logos": {
+   "Charlotte FC": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png",
+   "Chicago Fire FC": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png"
+  },
+  "canais": [
+   "appletv"
+  ],
+  "casa": "Chicago Fire FC",
+  "comp": "mls",
+  "ed": "20261202",
+  "eid": "401933718",
+  "fora": "Charlotte FC",
+  "inicio": "2026-12-02T22:00:00-03:00",
+  "lg": "usa.1",
+  "local": "SeatGeek Stadium, Bridgeview, Illinois",
+  "status": "a_confirmar"
+ },
+ "espn:401933719": {
+  "_d": "20261202",
+  "_liga": "usa.1",
+  "_logos": {
+   "New England Revolution": "https://a.espncdn.com/i/teamlogos/soccer/500/189.png",
+   "Philadelphia Union": "https://a.espncdn.com/i/teamlogos/soccer/500/10739.png"
+  },
+  "canais": [
+   "appletv"
+  ],
+  "casa": "New England Revolution",
+  "comp": "mls",
+  "ed": "20261202",
+  "eid": "401933719",
+  "fora": "Philadelphia Union",
+  "inicio": "2026-12-02T21:00:00-03:00",
+  "lg": "usa.1",
+  "local": "Gillette Stadium, Foxborough, Massachusetts",
+  "status": "a_confirmar"
+ },
+ "espn:401933720": {
+  "_d": "20261202",
+  "_liga": "usa.1",
+  "_logos": {
+   "Columbus Crew": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+   "Inter Miami CF": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png"
+  },
+  "canais": [
+   "appletv"
+  ],
+  "casa": "Inter Miami CF",
+  "comp": "mls",
+  "ed": "20261202",
+  "eid": "401933720",
+  "fora": "Columbus Crew",
+  "inicio": "2026-12-02T21:30:00-03:00",
+  "lg": "usa.1",
+  "local": "Nu Stadium, Miami, Florida",
+  "status": "a_confirmar"
+ },
  "espn:401933721": {
   "_d": "20261128",
   "_liga": "usa.1",
@@ -6192,6 +6662,46 @@
   "inicio": "2026-11-21T16:00:00-03:00",
   "lg": "usa.1",
   "local": "Gillette Stadium, Foxborough, Massachusetts",
+  "status": "a_confirmar"
+ },
+ "espn:401933735": {
+  "_d": "20261202",
+  "_liga": "usa.1",
+  "_logos": {
+   "LAFC": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
+   "St. Louis CITY SC": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png"
+  },
+  "canais": [
+   "appletv"
+  ],
+  "casa": "St. Louis CITY SC",
+  "comp": "mls",
+  "ed": "20261202",
+  "eid": "401933735",
+  "fora": "LAFC",
+  "inicio": "2026-12-02T22:00:00-03:00",
+  "lg": "usa.1",
+  "local": "Energizer Park, St. Louis, Missouri",
+  "status": "a_confirmar"
+ },
+ "espn:401933736": {
+  "_d": "20261202",
+  "_liga": "usa.1",
+  "_logos": {
+   "A definir": "",
+   "Nashville SC": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png"
+  },
+  "canais": [
+   "appletv"
+  ],
+  "casa": "Nashville SC",
+  "comp": "mls",
+  "ed": "20261202",
+  "eid": "401933736",
+  "fora": "A definir",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "usa.1",
+  "local": "GEODIS Park, Nashville, Tennessee",
   "status": "a_confirmar"
  },
  "espn:401933737": {
