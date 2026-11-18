@@ -116,6 +116,12 @@ ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{}/scoreboard?dates
 CACHE = RAIZ / "dados" / "agenda_api.json"
 
 
+def acentua(cfg, txt):
+    """A ESPN manda estádios e cidades sem acento ("Estadio do Maracana, Rio de Janeiro"). Corrige as palavras conhecidas."""
+    trocas = cfg.get("acentos", {})
+    return re.sub(r"[A-Za-zÀ-ÿ]+", lambda m: trocas.get(m.group(0), m.group(0)), txt)
+
+
 def nome(cfg, t, comp=None):
     """Nome do time como o site usa (português, igual ao das tarefas de canais).
 
@@ -472,6 +478,8 @@ def main():
 
     import paginas
     for j in jogos:
+        if j.get("local"):
+            j["local"] = acentua(cfg, j["local"])
         if "A definir" not in (j["casa"], j["fora"]):
             j["pg"] = paginas.caminho_jogo(j)
         else:
