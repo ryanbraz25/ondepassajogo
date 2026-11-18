@@ -6093,6 +6093,11 @@
   "inicio": "2026-11-18T16:30:00-03:00",
   "lg": "esp.copa_del_rey",
   "local": "Camp Nou Municipal, Reus",
+  "nota": "Pênaltis: 4 x 3",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401928505": {
@@ -6111,6 +6116,10 @@
   "inicio": "2026-11-18T16:00:00-03:00",
   "lg": "esp.copa_del_rey",
   "local": "El Collao, Manises",
+  "placar": {
+   "casa": 1,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401928518": {
@@ -6152,6 +6161,10 @@
   "inicio": "2026-11-18T16:30:00-03:00",
   "lg": "esp.copa_del_rey",
   "local": "Estadio Municipal Ángel Celdrán, Murcia",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401928532": {

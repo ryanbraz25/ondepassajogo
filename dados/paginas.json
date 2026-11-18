@@ -52,8 +52,8 @@
 },
 "/campeonato/copa-do-rei/": {
 "dia": "",
-"h": "be303ccdbd2dfc4c",
-"mod": "2026-11-18T18:27-03:00"
+"h": "ec557f7bf8839909",
+"mod": "2026-11-18T19:24-03:00"
 },
 "/campeonato/coppa-italia/": {
 "dia": "",
@@ -277,8 +277,8 @@
 },
 "/jogo/alcoyano-x-mallorca-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "df0b8ec6efd5e5a5",
-"mod": "2026-11-18T18:27-03:00"
+"h": "933e9b98189312c5",
+"mod": "2026-11-18T19:24-03:00"
 },
 "/jogo/alemanha-x-holanda-16-11-2026/": {
 "dia": "2026-11-16",
@@ -382,8 +382,8 @@
 },
 "/jogo/badajoz-x-tenerife-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "4f7e27a402aefe0e",
-"mod": "2026-11-18T18:27-03:00"
+"h": "5d6f63b073f97e17",
+"mod": "2026-11-18T19:24-03:00"
 },
 "/jogo/bahia-x-atletico-mg-02-12-2026/": {
 "dia": "2026-12-02",
@@ -567,8 +567,8 @@
 },
 "/jogo/cd-minera-x-fc-cartagena-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "315522e0e1d6c034",
-"mod": "2026-11-18T18:27-03:00"
+"h": "edced633b38a607b",
+"mod": "2026-11-18T19:24-03:00"
 },
 "/jogo/celta-vigo-x-bournemouth-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1447,8 +1447,8 @@
 },
 "/jogo/portugalete-x-real-union-irun-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "123b743f16ce8a73",
-"mod": "2026-11-18T18:27-03:00"
+"h": "056f64d6801f0232",
+"mod": "2026-11-18T19:24-03:00"
 },
 "/jogo/preston-north-end-x-norwich-city-28-11-2026/": {
 "dia": "2026-11-28",
@@ -1552,8 +1552,8 @@
 },
 "/jogo/reus-fc-reddis-x-barakaldo-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "0f4924b993c2d24b",
-"mod": "2026-11-18T18:27-03:00"
+"h": "ff5d70f0b79a3a6e",
+"mod": "2026-11-18T19:24-03:00"
 },
 "/jogo/river-plate-x-lanus-22-11-2026/": {
 "dia": "2026-11-22",
@@ -1857,8 +1857,8 @@
 },
 "/jogo/utebo-x-cd-sabadell-18-11-2026/": {
 "dia": "2026-11-18",
-"h": "98d61239cd1d7f50",
-"mod": "2026-11-18T18:27-03:00"
+"h": "a5a5f8b047f092b4",
+"mod": "2026-11-18T19:24-03:00"
 },
 "/jogo/valencia-x-osasuna-29-11-2026/": {
 "dia": "2026-11-29",
@@ -1967,8 +1967,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "ff43e33250c1f609",
-"mod": "2026-11-18T18:27-03:00"
+"h": "5545e728c8efb27d",
+"mod": "2026-11-18T19:24-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2128,8 +2128,8 @@
 },
 "/time/alcoyano/": {
 "dia": "",
-"h": "6beebd6b2222c1d0",
-"mod": "2026-11-17T17:37-03:00",
+"h": "0c14332c6034c137",
+"mod": "2026-11-18T19:24-03:00",
 "nome": "Alcoyano"
 },
 "/time/alemanha/": {
@@ -2284,8 +2284,8 @@
 },
 "/time/barakaldo/": {
 "dia": "",
-"h": "9a93f8d8adf78fa0",
-"mod": "2026-11-17T17:37-03:00",
+"h": "58767971cccfe591",
+"mod": "2026-11-18T19:24-03:00",
 "nome": "Barakaldo"
 },
 "/time/barcelona/": {
@@ -2470,8 +2470,8 @@
 },
 "/time/cd-minera/": {
 "dia": "",
-"h": "2fd513bbaab6754c",
-"mod": "2026-11-17T17:37-03:00",
+"h": "91afcd06fec308b2",
+"mod": "2026-11-18T19:24-03:00",
 "nome": "CD Minera"
 },
 "/time/cd-sabadell/": {
@@ -2746,8 +2746,8 @@
 },
 "/time/fc-cartagena/": {
 "dia": "",
-"h": "9c7c3b737d32acda",
-"mod": "2026-11-17T17:37-03:00",
+"h": "2552c6a8b169e4bf",
+"mod": "2026-11-18T19:24-03:00",
 "nome": "FC Cartagena"
 },
 "/time/fc-cincinnati/": {
@@ -3280,8 +3280,8 @@
 },
 "/time/mallorca/": {
 "dia": "",
-"h": "1db177dde2901bc2",
-"mod": "2026-11-17T17:37-03:00",
+"h": "aefdbe86ba360839",
+"mod": "2026-11-18T19:24-03:00",
 "nome": "Mallorca"
 },
 "/time/manchester-city/": {
@@ -3670,8 +3670,8 @@
 },
 "/time/reus-fc-reddis/": {
 "dia": "",
-"h": "3ca82fec7dbf5c2b",
-"mod": "2026-11-17T17:37-03:00",
+"h": "4ff06c4831ae435f",
+"mod": "2026-11-18T19:24-03:00",
 "nome": "Reus FC Reddis"
 },
 "/time/riga-fc/": {
