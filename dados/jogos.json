@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18T21:18:16-03:00",
+ "atualizado": "2026-11-18T22:15:14-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -642,6 +642,10 @@
    "eid": "401841315",
    "lg": "bra.1",
    "ed": "20261118",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "rodada": "35ª rodada",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -661,6 +665,10 @@
    "eid": "401841310",
    "lg": "bra.1",
    "ed": "20261118",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "rodada": "35ª rodada",
    "nota": "Remo luta contra o rebaixamento",
    "pg": "/jogo/remo-x-chapecoense-18-11-2026/"
