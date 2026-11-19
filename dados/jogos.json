@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18T23:32:44-03:00",
+ "atualizado": "2026-11-19T00:32:22-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -338,191 +338,6 @@
   }
  },
  "jogos": [
-  {
-   "inicio": "2026-11-17T07:00:00-03:00",
-   "comp": "amistoso",
-   "casa": "Singapura",
-   "fora": "Brasil",
-   "local": "Singapore National Stadium, Singapore",
-   "canais": [
-    "globo",
-    "sportv",
-    "getv"
-   ],
-   "status": "confirmado",
-   "eid": "401916335",
-   "lg": "fifa.friendly",
-   "ed": "20261117",
-   "placar": {
-    "casa": 0,
-    "fora": 7
-   },
-   "rodada": "Data FIFA",
-   "links": {
-    "getv": "https://www.youtube.com/@getv"
-   },
-   "pg": "/jogo/singapura-x-brasil-17-11-2026/"
-  },
-  {
-   "inicio": "2026-11-17T10:10:00-03:00",
-   "comp": "amistoso",
-   "casa": "Japão",
-   "fora": "Paraguai",
-   "local": "Singapore National Stadium, Singapore",
-   "canais": [],
-   "status": "a_confirmar",
-   "eid": "401916336",
-   "lg": "fifa.friendly",
-   "ed": "20261117",
-   "placar": {
-    "casa": 1,
-    "fora": 2
-   },
-   "pg": "/jogo/japao-x-paraguai-17-11-2026/"
-  },
-  {
-   "inicio": "2026-11-17T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "Dinamarca",
-   "fora": "Noruega",
-   "local": "Parken Stadium, Copenhagen",
-   "canais": [
-    "espn",
-    "disney"
-   ],
-   "status": "confirmado",
-   "eid": "401861194",
-   "lg": "uefa.nations",
-   "ed": "20261117",
-   "placar": {
-    "casa": 2,
-    "fora": 3
-   },
-   "rodada": "Fase de liga",
-   "pg": "/jogo/dinamarca-x-noruega-17-11-2026/"
-  },
-  {
-   "inicio": "2026-11-17T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "País de Gales",
-   "fora": "Portugal",
-   "local": "Cardiff City Stadium, Cardiff",
-   "canais": [
-    "sportv"
-   ],
-   "status": "confirmado",
-   "eid": "401861189",
-   "lg": "uefa.nations",
-   "ed": "20261117",
-   "placar": {
-    "casa": 2,
-    "fora": 3
-   },
-   "rodada": "Fase de liga",
-   "pg": "/jogo/pais-de-gales-x-portugal-17-11-2026/"
-  },
-  {
-   "inicio": "2026-11-17T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "Polônia",
-   "fora": "Suécia",
-   "local": "Municipal Stadium Wroclaw, Wroclaw",
-   "canais": [
-    "sportv"
-   ],
-   "status": "confirmado",
-   "eid": "401861195",
-   "lg": "uefa.nations",
-   "ed": "20261117",
-   "placar": {
-    "casa": 1,
-    "fora": 1
-   },
-   "rodada": "Fase de liga",
-   "pg": "/jogo/polonia-x-suecia-17-11-2026/"
-  },
-  {
-   "inicio": "2026-11-17T16:45:00-03:00",
-   "comp": "nations",
-   "casa": "Ucrânia",
-   "fora": "Geórgia",
-   "local": "Košická futbalová aréna (KFA), Kosice",
-   "canais": [
-    "espn",
-    "disney"
-   ],
-   "status": "confirmado",
-   "eid": "401861190",
-   "lg": "uefa.nations",
-   "ed": "20261117",
-   "placar": {
-    "casa": 1,
-    "fora": 0
-   },
-   "rodada": "Fase de liga",
-   "links": {
-    "espn": "https://www.youtube.com/@espnbrasil"
-   },
-   "pg": "/jogo/ucrania-x-georgia-17-11-2026/"
-  },
-  {
-   "inicio": "2026-11-17T20:00:00-03:00",
-   "comp": "amistoso",
-   "casa": "Argentina",
-   "fora": "Costa Rica",
-   "local": "Mario Alberto Kempes, Córdoba",
-   "canais": [
-    "getv",
-    "sportv"
-   ],
-   "status": "confirmado",
-   "eid": "401930895",
-   "lg": "fifa.friendly",
-   "ed": "20261117",
-   "placar": {
-    "casa": 7,
-    "fora": 0
-   },
-   "rodada": "Data FIFA",
-   "links": {
-    "getv": "https://www.youtube.com/@getv"
-   },
-   "pg": "/jogo/argentina-x-costa-rica-17-11-2026/"
-  },
-  {
-   "inicio": "2026-11-17T20:00:00-03:00",
-   "comp": "amistoso",
-   "casa": "Chile",
-   "fora": "Colômbia",
-   "local": "Estádio Monumental David Arellano, Santiago",
-   "canais": [],
-   "status": "a_confirmar",
-   "eid": "401921304",
-   "lg": "fifa.friendly",
-   "ed": "20261117",
-   "placar": {
-    "casa": 0,
-    "fora": 0
-   },
-   "pg": "/jogo/chile-x-colombia-17-11-2026/"
-  },
-  {
-   "inicio": "2026-11-17T20:30:00-03:00",
-   "comp": "amistoso",
-   "casa": "Uruguai",
-   "fora": "República Dominicana",
-   "local": "Estádio Domingo Burgueño Miguel, Maldonado",
-   "canais": [],
-   "status": "a_confirmar",
-   "eid": "401932215",
-   "lg": "fifa.friendly",
-   "ed": "20261117",
-   "placar": {
-    "casa": 5,
-    "fora": 0
-   },
-   "pg": "/jogo/uruguai-x-republica-dominicana-17-11-2026/"
-  },
   {
    "inicio": "2026-11-18T15:00:00-03:00",
    "comp": "copa-do-rei",
@@ -5635,6 +5450,73 @@
    "lg": "usa.1",
    "ed": "20261202",
    "pg": "/jogo/san-jose-earthquakes-x-houston-dynamo-fc-03-12-2026/"
+  },
+  {
+   "inicio": "2026-12-03T11:40:00-03:00",
+   "comp": "saudita",
+   "casa": "Al Shabab",
+   "fora": "Al Ettifaq",
+   "local": "Al-Shabab Club Stadium, King Fahd International Stadium",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900440",
+   "lg": "ksa.1",
+   "ed": "20261203",
+   "pg": "/jogo/al-shabab-x-al-ettifaq-03-12-2026/"
+  },
+  {
+   "inicio": "2026-12-03T11:45:00-03:00",
+   "comp": "saudita",
+   "casa": "Al Taawoun",
+   "fora": "Abha",
+   "local": "King Abdullah Sport City Stadium, Buraidah",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900864",
+   "lg": "ksa.1",
+   "ed": "20261203",
+   "pg": "/jogo/al-taawoun-x-abha-03-12-2026/"
+  },
+  {
+   "inicio": "2026-12-03T14:30:00-03:00",
+   "comp": "saudita",
+   "casa": "Al Hilal",
+   "fora": "Al Diriyah",
+   "local": "Kingdom Arena, King Fahd International Stadium",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900867",
+   "lg": "ksa.1",
+   "ed": "20261203",
+   "pg": "/jogo/al-hilal-x-al-diriyah-03-12-2026/"
+  },
+  {
+   "inicio": "2026-12-03T17:00:00-03:00",
+   "comp": "coppa-italia",
+   "casa": "Juventus",
+   "fora": "Sassuolo",
+   "local": "Allianz Stadium, Torino",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401912261",
+   "lg": "ita.coppa_italia",
+   "ed": "20261203",
+   "pg": "/jogo/juventus-x-sassuolo-03-12-2026/"
+  },
+  {
+   "inicio": "2026-12-03T17:00:00-03:00",
+   "comp": "premier",
+   "casa": "Tottenham",
+   "fora": "Fulham",
+   "local": "Tottenham Hotspur Stadium, London",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "eid": "401878749",
+   "lg": "eng.1",
+   "ed": "20261203",
+   "pg": "/jogo/tottenham-x-fulham-03-12-2026/"
   }
  ],
  "sugestoes": {
@@ -5755,24 +5637,6 @@
   "decisivo": 5
  },
  "escudos": {
-  "Singapura": "https://flagcdn.com/w80/sg.png",
-  "Brasil": "https://flagcdn.com/w80/br.png",
-  "Japão": "https://flagcdn.com/w80/jp.png",
-  "Paraguai": "https://flagcdn.com/w80/py.png",
-  "Dinamarca": "https://flagcdn.com/w80/dk.png",
-  "Noruega": "https://flagcdn.com/w80/no.png",
-  "País de Gales": "https://flagcdn.com/w80/gb-wls.png",
-  "Portugal": "https://flagcdn.com/w80/pt.png",
-  "Polônia": "https://flagcdn.com/w80/pl.png",
-  "Suécia": "https://flagcdn.com/w80/se.png",
-  "Ucrânia": "https://flagcdn.com/w80/ua.png",
-  "Geórgia": "https://flagcdn.com/w80/ge.png",
-  "Argentina": "https://flagcdn.com/w80/ar.png",
-  "Costa Rica": "https://flagcdn.com/w80/cr.png",
-  "Chile": "https://flagcdn.com/w80/cl.png",
-  "Colômbia": "https://flagcdn.com/w80/co.png",
-  "Uruguai": "https://flagcdn.com/w80/uy.png",
-  "República Dominicana": "https://flagcdn.com/w80/do.png",
   "CD Sabadell": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11487.png&h=80&w=80",
   "Mallorca": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/84.png&h=80&w=80",
   "Tenerife": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/245.png&h=80&w=80",
