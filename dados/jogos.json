@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T17:30:53-03:00",
+ "atualizado": "2026-11-19T18:30:45-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2114,16 +2114,16 @@
    "pg": "/jogo/red-bull-bragantino-x-vasco-22-11-2026/"
   },
   {
-   "canais": [],
-   "casa": "Guadalajara",
-   "comp": "ligamx",
-   "ed": "20261122",
-   "eid": "401877047",
-   "fora": "Cruz Azul",
    "inicio": "2026-11-22T20:07:00-03:00",
-   "lg": "mex.1",
+   "comp": "ligamx",
+   "casa": "Guadalajara",
+   "fora": "Cruz Azul",
    "local": "Estádio Akron, Guadalajara",
+   "canais": [],
    "status": "a_confirmar",
+   "eid": "401877047",
+   "lg": "mex.1",
+   "ed": "20261122",
    "pg": "/jogo/guadalajara-x-cruz-azul-22-11-2026/"
   },
   {
@@ -2157,16 +2157,16 @@
    "pg": "/jogo/instituto-cordoba-x-huracan-22-11-2026/"
   },
   {
-   "canais": [],
-   "casa": "Querétaro",
-   "comp": "ligamx",
-   "ed": "20261122",
-   "eid": "401877046",
-   "fora": "Necaxa",
    "inicio": "2026-11-22T22:10:00-03:00",
-   "lg": "mex.1",
+   "comp": "ligamx",
+   "casa": "Querétaro",
+   "fora": "Necaxa",
    "local": "Estádio Corregidora, Santiago de Querétaro",
+   "canais": [],
    "status": "a_confirmar",
+   "eid": "401877046",
+   "lg": "mex.1",
+   "ed": "20261122",
    "pg": "/jogo/queretaro-x-necaxa-22-11-2026/"
   },
   {
