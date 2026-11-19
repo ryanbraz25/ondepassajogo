@@ -73,6 +73,10 @@
   "inicio": "2026-11-18T21:30:00-03:00",
   "lg": "bra.1",
   "local": "Arena do Grêmio, Porto Alegre",
+  "placar": {
+   "casa": 0,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401841313": {
@@ -91,6 +95,10 @@
   "inicio": "2026-11-18T20:30:00-03:00",
   "lg": "bra.1",
   "local": "Estadio do Maracana, Rio de Janeiro",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841314": {
@@ -109,6 +117,10 @@
   "inicio": "2026-11-18T20:30:00-03:00",
   "lg": "bra.1",
   "local": "Estadio Mineirão, Belo Horizonte",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841315": {
@@ -149,6 +161,10 @@
   "inicio": "2026-11-18T21:30:00-03:00",
   "lg": "bra.1",
   "local": "Neo Química Arena, Sao Paulo",
+  "placar": {
+   "casa": 4,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401841317": {
