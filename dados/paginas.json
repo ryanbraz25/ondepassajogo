@@ -12,8 +12,8 @@
 },
 "/campeonato/brasileirao-a/": {
 "dia": "",
-"h": "f5fb8a8cfc267229",
-"mod": "2026-11-18T23:33-03:00"
+"h": "d716b9f5d7fe197f",
+"mod": "2026-11-19T22:20-03:00"
 },
 "/campeonato/brasileirao-b/": {
 "dia": "",
@@ -1632,8 +1632,8 @@
 },
 "/jogo/sao-paulo-x-fluminense-19-11-2026/": {
 "dia": "2026-11-19",
-"h": "e525779020ab7465",
-"mod": "2026-11-18T14:41-03:00"
+"h": "44dd0844bc50fad5",
+"mod": "2026-11-19T22:20-03:00"
 },
 "/jogo/sao-paulo-x-remo-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1892,8 +1892,8 @@
 },
 "/jogo/vasco-x-internacional-19-11-2026/": {
 "dia": "2026-11-19",
-"h": "ae2ee7354586ac10",
-"mod": "2026-11-18T00:54-03:00"
+"h": "deaddaf54083d53c",
+"mod": "2026-11-19T22:20-03:00"
 },
 "/jogo/vasco-x-vitoria-02-12-2026/": {
 "dia": "2026-12-02",
@@ -1932,8 +1932,8 @@
 },
 "/jogo/vitoria-x-red-bull-bragantino-19-11-2026/": {
 "dia": "2026-11-19",
-"h": "eeb6fff579babaab",
-"mod": "2026-11-18T14:41-03:00"
+"h": "38a657807263a5e4",
+"mod": "2026-11-19T22:20-03:00"
 },
 "/jogo/vitoria-x-santos-29-11-2026/": {
 "dia": "2026-11-29",
@@ -1992,8 +1992,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "c403862b8d0ff792",
-"mod": "2026-11-19T00:33-03:00"
+"h": "e8a89028b2165e0c",
+"mod": "2026-11-19T22:20-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -3089,8 +3089,8 @@
 },
 "/time/internacional/": {
 "dia": "",
-"h": "403b50a59e5cbd10",
-"mod": "2026-11-18T00:54-03:00",
+"h": "a4d2434e625253e8",
+"mod": "2026-11-19T22:20-03:00",
 "nome": "Internacional"
 },
 "/time/ipswich-town/": {
@@ -3671,8 +3671,8 @@
 },
 "/time/red-bull-bragantino/": {
 "dia": "",
-"h": "507816bc534b4143",
-"mod": "2026-11-18T00:54-03:00",
+"h": "00fe5b64e1664b02",
+"mod": "2026-11-19T22:20-03:00",
 "nome": "Red Bull Bragantino"
 },
 "/time/red-star-belgrade/": {
@@ -4049,8 +4049,8 @@
 },
 "/time/vasco/": {
 "dia": "",
-"h": "4c1c5e5da307b4bf",
-"mod": "2026-11-18T00:54-03:00",
+"h": "2d173f20e28ae42e",
+"mod": "2026-11-19T22:20-03:00",
 "nome": "Vasco"
 },
 "/time/velez-sarsfield/": {
@@ -4103,8 +4103,8 @@
 },
 "/time/vitoria/": {
 "dia": "",
-"h": "b6cdee34378ea4c7",
-"mod": "2026-11-18T00:54-03:00",
+"h": "aead77fd9d69a8b6",
+"mod": "2026-11-19T22:20-03:00",
 "nome": "Vitória"
 },
 "/time/watford/": {

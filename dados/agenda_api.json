@@ -15,6 +15,10 @@
   "inicio": "2026-11-19T19:30:00-03:00",
   "lg": "bra.1",
   "local": "Estádio São Januário, Rio de Janeiro",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841309": {
@@ -183,6 +187,10 @@
   "inicio": "2026-11-19T19:30:00-03:00",
   "lg": "bra.1",
   "local": "Estadio Manoel Barradas, Salvador",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841318": {

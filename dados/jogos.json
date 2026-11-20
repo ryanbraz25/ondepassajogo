@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T21:21:44-03:00",
+ "atualizado": "2026-11-19T22:19:02-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -586,6 +586,10 @@
    "eid": "401841308",
    "lg": "bra.1",
    "ed": "20261119",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   },
    "rodada": "35ª rodada",
    "nota": "Internacional luta contra o rebaixamento",
    "pg": "/jogo/vasco-x-internacional-19-11-2026/"
@@ -603,6 +607,10 @@
    "eid": "401841317",
    "lg": "bra.1",
    "ed": "20261119",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   },
    "rodada": "35ª rodada",
    "pg": "/jogo/vitoria-x-red-bull-bragantino-19-11-2026/"
   },
