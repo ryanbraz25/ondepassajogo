@@ -22,8 +22,8 @@
 },
 "/campeonato/bundesliga/": {
 "dia": "",
-"h": "4a838983c1052bd4",
-"mod": "2026-11-20T00:17-03:00"
+"h": "aba6c76add505b58",
+"mod": "2026-11-20T18:57-03:00"
 },
 "/campeonato/carioca/": {
 "dia": "",
@@ -92,8 +92,8 @@
 },
 "/campeonato/laliga/": {
 "dia": "",
-"h": "d2cfe89f50475cb9",
-"mod": "2026-11-20T00:17-03:00"
+"h": "ed0d0ec7a82bd2ab",
+"mod": "2026-11-20T18:57-03:00"
 },
 "/campeonato/libertadores-fem/": {
 "dia": "",
@@ -112,8 +112,8 @@
 },
 "/campeonato/ligue1/": {
 "dia": "",
-"h": "a09addecaba60715",
-"mod": "2026-11-20T00:17-03:00"
+"h": "487ff671dc8ce637",
+"mod": "2026-11-20T18:57-03:00"
 },
 "/campeonato/mineiro/": {
 "dia": "",
@@ -377,8 +377,8 @@
 },
 "/jogo/athletic-club-x-espanyol-20-11-2026/": {
 "dia": "2026-11-20",
-"h": "c553d2b36e2c4468",
-"mod": "2026-11-20T00:17-03:00"
+"h": "41b5c2ff28fc4c09",
+"mod": "2026-11-20T18:57-03:00"
 },
 "/jogo/athletico-pr-x-remo-22-11-2026/": {
 "dia": "2026-11-22",
@@ -447,8 +447,8 @@
 },
 "/jogo/bayern-de-munique-x-fc-cologne-20-11-2026/": {
 "dia": "2026-11-20",
-"h": "277412351bb9c38b",
-"mod": "2026-11-20T00:17-03:00"
+"h": "bfbec1c73cbc0d7d",
+"mod": "2026-11-20T18:57-03:00"
 },
 "/jogo/bayern-de-munique-x-sc-paderborn-07-04-12-2026/": {
 "dia": "2026-12-04",
@@ -1927,8 +1927,8 @@
 },
 "/jogo/troyes-x-le-havre-ac-20-11-2026/": {
 "dia": "2026-11-20",
-"h": "d01bfa44407714d4",
-"mod": "2026-11-17T17:37-03:00"
+"h": "03e21178a59c1682",
+"mod": "2026-11-20T18:57-03:00"
 },
 "/jogo/tsg-hoffenheim-x-fc-augsburg-29-11-2026/": {
 "dia": "2026-11-29",
@@ -2092,8 +2092,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "cac379c1c4591796",
-"mod": "2026-11-20T17:02-03:00"
+"h": "264ee646e2b5b52d",
+"mod": "2026-11-20T18:57-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2343,8 +2343,8 @@
 },
 "/time/athletic-club/": {
 "dia": "",
-"h": "e3d3651c2c61c275",
-"mod": "2026-11-17T17:37-03:00",
+"h": "393fdd81a1a7a5da",
+"mod": "2026-11-20T18:57-03:00",
 "nome": "Athletic Club"
 },
 "/time/athletico-pr/": {
@@ -2433,8 +2433,8 @@
 },
 "/time/bayern-de-munique/": {
 "dia": "",
-"h": "f37a48dcc408493b",
-"mod": "2026-11-20T00:17-03:00",
+"h": "8bc5005118b47216",
+"mod": "2026-11-20T18:57-03:00",
 "nome": "Bayern de Munique"
 },
 "/time/belgrano-cordoba/": {
@@ -2823,8 +2823,8 @@
 },
 "/time/espanyol/": {
 "dia": "",
-"h": "98c9beaca2a53405",
-"mod": "2026-11-20T00:17-03:00",
+"h": "6b0346bf48975d12",
+"mod": "2026-11-20T18:57-03:00",
 "nome": "Espanyol"
 },
 "/time/estoril/": {
@@ -2889,8 +2889,8 @@
 },
 "/time/fc-cologne/": {
 "dia": "",
-"h": "3d775fd1a13b2060",
-"mod": "2026-11-17T17:37-03:00",
+"h": "ac203643fe1e6c9a",
+"mod": "2026-11-20T18:57-03:00",
 "nome": "FC Cologne"
 },
 "/time/fc-dallas/": {
@@ -3303,8 +3303,8 @@
 },
 "/time/le-havre-ac/": {
 "dia": "",
-"h": "b1dba833d558cda5",
-"mod": "2026-11-17T17:37-03:00",
+"h": "2f2960070c80aae1",
+"mod": "2026-11-20T18:57-03:00",
 "nome": "Le Havre AC"
 },
 "/time/le-mans/": {
@@ -4119,8 +4119,8 @@
 },
 "/time/troyes/": {
 "dia": "",
-"h": "9ab2a0ca906b6766",
-"mod": "2026-11-17T17:37-03:00",
+"h": "d14429d4db032bd5",
+"mod": "2026-11-20T18:57-03:00",
 "nome": "Troyes"
 },
 "/time/tsg-hoffenheim/": {
