@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-20T02:10:02-03:00",
+ "atualizado": "2026-11-20T03:06:12-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -437,6 +437,11 @@
    "eid": "401933555",
    "lg": "usa.1",
    "ed": "20261119",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
+   "nota": "Pênaltis: 2 x 4",
    "pg": "/jogo/seattle-sounders-fc-x-real-salt-lake-20-11-2026/"
   },
   {

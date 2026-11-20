@@ -122,8 +122,8 @@
 },
 "/campeonato/mls/": {
 "dia": "",
-"h": "c61aa2aded016708",
-"mod": "2026-11-20T00:17-03:00"
+"h": "f4bda47832c7390f",
+"mod": "2026-11-20T03:06-03:00"
 },
 "/campeonato/mundial/": {
 "dia": "",
@@ -1732,8 +1732,8 @@
 },
 "/jogo/seattle-sounders-fc-x-real-salt-lake-20-11-2026/": {
 "dia": "2026-11-20",
-"h": "6f7953cab392b7c1",
-"mod": "2026-11-17T17:37-03:00"
+"h": "f86229f3c1d7b6d4",
+"mod": "2026-11-20T03:06-03:00"
 },
 "/jogo/sevilla-x-real-betis-21-11-2026/": {
 "dia": "2026-11-21",
@@ -2077,8 +2077,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "b088835fbb06e470",
-"mod": "2026-11-20T00:17-03:00"
+"h": "d0eac6de38bf4b1c",
+"mod": "2026-11-20T03:06-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -3756,8 +3756,8 @@
 },
 "/time/real-salt-lake/": {
 "dia": "",
-"h": "5ec2abf13ae90b2d",
-"mod": "2026-11-17T17:37-03:00",
+"h": "e5e55f9faea2587e",
+"mod": "2026-11-20T03:06-03:00",
 "nome": "Real Salt Lake"
 },
 "/time/real-sociedad/": {
@@ -3906,8 +3906,8 @@
 },
 "/time/seattle-sounders-fc/": {
 "dia": "",
-"h": "bfeff6f8b2ec028e",
-"mod": "2026-11-17T17:37-03:00",
+"h": "89906413ce157f5a",
+"mod": "2026-11-20T03:06-03:00",
 "nome": "Seattle Sounders FC"
 },
 "/time/sevilla/": {
