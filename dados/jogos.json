@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T23:17:48-03:00",
+ "atualizado": "2026-11-20T00:17:27-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -339,240 +339,6 @@
  },
  "jogos": [
   {
-   "inicio": "2026-11-18T15:00:00-03:00",
-   "comp": "copa-do-rei",
-   "casa": "Portugalete",
-   "fora": "Real Unión Irun",
-   "local": "La Florida, Portugalete",
-   "canais": [],
-   "status": "a_confirmar",
-   "eid": "401928518",
-   "lg": "esp.copa_del_rey",
-   "ed": "20261118",
-   "placar": {
-    "casa": 0,
-    "fora": 0
-   },
-   "nota": "Pênaltis: 4 x 1",
-   "pg": "/jogo/portugalete-x-real-union-irun-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T15:00:00-03:00",
-   "comp": "copa-do-rei",
-   "casa": "Utebo",
-   "fora": "CD Sabadell",
-   "local": "Campo de Fútbol Municipal Santa Ana, Utebo",
-   "canais": [],
-   "status": "a_confirmar",
-   "eid": "401928497",
-   "lg": "esp.copa_del_rey",
-   "ed": "20261118",
-   "placar": {
-    "casa": 0,
-    "fora": 3
-   },
-   "pg": "/jogo/utebo-x-cd-sabadell-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T16:00:00-03:00",
-   "comp": "copa-do-rei",
-   "casa": "Alcoyano",
-   "fora": "Mallorca",
-   "local": "El Collao, Manises",
-   "canais": [],
-   "status": "a_confirmar",
-   "eid": "401928505",
-   "lg": "esp.copa_del_rey",
-   "ed": "20261118",
-   "placar": {
-    "casa": 1,
-    "fora": 3
-   },
-   "pg": "/jogo/alcoyano-x-mallorca-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T16:00:00-03:00",
-   "comp": "copa-do-rei",
-   "casa": "Badajoz",
-   "fora": "Tenerife",
-   "local": "Estádio Municipal Nuevo Vivero, Badajoz",
-   "canais": [],
-   "status": "a_confirmar",
-   "eid": "401928532",
-   "lg": "esp.copa_del_rey",
-   "ed": "20261118",
-   "placar": {
-    "casa": 2,
-    "fora": 5
-   },
-   "pg": "/jogo/badajoz-x-tenerife-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T16:30:00-03:00",
-   "comp": "copa-do-rei",
-   "casa": "CD Minera",
-   "fora": "FC Cartagena",
-   "local": "Estádio Municipal Ángel Celdrán, Murcia",
-   "canais": [],
-   "status": "a_confirmar",
-   "eid": "401928524",
-   "lg": "esp.copa_del_rey",
-   "ed": "20261118",
-   "placar": {
-    "casa": 1,
-    "fora": 2
-   },
-   "pg": "/jogo/cd-minera-x-fc-cartagena-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T16:30:00-03:00",
-   "comp": "copa-do-rei",
-   "casa": "Reus FC Reddis",
-   "fora": "Barakaldo",
-   "local": "Camp Nou Municipal, Reus",
-   "canais": [],
-   "status": "a_confirmar",
-   "eid": "401928500",
-   "lg": "esp.copa_del_rey",
-   "ed": "20261118",
-   "placar": {
-    "casa": 1,
-    "fora": 1
-   },
-   "nota": "Pênaltis: 4 x 3",
-   "pg": "/jogo/reus-fc-reddis-x-barakaldo-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T19:30:00-03:00",
-   "comp": "brasileirao-a",
-   "casa": "Coritiba",
-   "fora": "Santos",
-   "local": "Couto Pereira, Curitiba",
-   "canais": [
-    "record",
-    "cazetv",
-    "premiere"
-   ],
-   "status": "confirmado",
-   "eid": "401841315",
-   "lg": "bra.1",
-   "ed": "20261118",
-   "placar": {
-    "casa": 0,
-    "fora": 1
-   },
-   "rodada": "35ª rodada",
-   "links": {
-    "cazetv": "https://www.youtube.com/@CazeTV"
-   },
-   "pg": "/jogo/coritiba-x-santos-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T20:00:00-03:00",
-   "comp": "brasileirao-a",
-   "casa": "Remo",
-   "fora": "Chapecoense",
-   "local": "Mangueirão, Belém",
-   "canais": [
-    "premiere"
-   ],
-   "status": "confirmado",
-   "eid": "401841310",
-   "lg": "bra.1",
-   "ed": "20261118",
-   "placar": {
-    "casa": 2,
-    "fora": 0
-   },
-   "rodada": "35ª rodada",
-   "nota": "Remo luta contra o rebaixamento",
-   "pg": "/jogo/remo-x-chapecoense-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T20:30:00-03:00",
-   "comp": "brasileirao-a",
-   "casa": "Cruzeiro",
-   "fora": "Palmeiras",
-   "local": "Estádio Mineirão, Belo Horizonte",
-   "canais": [
-    "premiere"
-   ],
-   "status": "confirmado",
-   "eid": "401841314",
-   "lg": "bra.1",
-   "ed": "20261118",
-   "placar": {
-    "casa": 2,
-    "fora": 1
-   },
-   "rodada": "35ª rodada",
-   "pg": "/jogo/cruzeiro-x-palmeiras-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T20:30:00-03:00",
-   "comp": "brasileirao-a",
-   "casa": "Flamengo",
-   "fora": "Athletico-PR",
-   "local": "Estádio do Maracanã, Rio de Janeiro",
-   "canais": [
-    "sportv",
-    "premiere"
-   ],
-   "status": "confirmado",
-   "eid": "401841313",
-   "lg": "bra.1",
-   "ed": "20261118",
-   "placar": {
-    "casa": 2,
-    "fora": 1
-   },
-   "rodada": "35ª rodada",
-   "nota": "Flamengo é o líder",
-   "pg": "/jogo/flamengo-x-athletico-pr-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T21:30:00-03:00",
-   "comp": "brasileirao-a",
-   "casa": "Corinthians",
-   "fora": "Botafogo",
-   "local": "Neo Química Arena, São Paulo",
-   "canais": [
-    "premiere"
-   ],
-   "status": "confirmado",
-   "eid": "401841316",
-   "lg": "bra.1",
-   "ed": "20261118",
-   "placar": {
-    "casa": 4,
-    "fora": 0
-   },
-   "rodada": "35ª rodada",
-   "nota": "Corinthians luta contra o rebaixamento",
-   "pg": "/jogo/corinthians-x-botafogo-18-11-2026/"
-  },
-  {
-   "inicio": "2026-11-18T21:30:00-03:00",
-   "comp": "brasileirao-a",
-   "casa": "Grêmio",
-   "fora": "Bahia",
-   "local": "Arena do Grêmio, Porto Alegre",
-   "canais": [
-    "premiere"
-   ],
-   "status": "confirmado",
-   "eid": "401841312",
-   "lg": "bra.1",
-   "ed": "20261118",
-   "placar": {
-    "casa": 0,
-    "fora": 0
-   },
-   "rodada": "35ª rodada",
-   "nota": "Grêmio luta contra o rebaixamento",
-   "pg": "/jogo/gremio-x-bahia-18-11-2026/"
-  },
-  {
    "inicio": "2026-11-19T19:30:00-03:00",
    "comp": "brasileirao-a",
    "casa": "Vasco",
@@ -627,6 +393,10 @@
    "eid": "401933535",
    "lg": "usa.1",
    "ed": "20261119",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   },
    "pg": "/jogo/orlando-city-sc-x-fc-cincinnati-19-11-2026/"
   },
   {
@@ -644,6 +414,10 @@
    "eid": "401841309",
    "lg": "bra.1",
    "ed": "20261119",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "rodada": "35ª rodada",
    "links": {
     "getv": "https://www.youtube.com/@getv"
@@ -2046,7 +1820,7 @@
    "inicio": "2026-11-22T18:00:00-03:00",
    "comp": "mls",
    "casa": "Nashville SC",
-   "fora": "A definir",
+   "fora": "FC Cincinnati",
    "local": "GEODIS Park, Nashville, Tennessee",
    "canais": [
     "appletv"
@@ -2054,7 +1828,8 @@
    "status": "a_confirmar",
    "eid": "401933731",
    "lg": "usa.1",
-   "ed": "20261122"
+   "ed": "20261122",
+   "pg": "/jogo/nashville-sc-x-fc-cincinnati-22-11-2026/"
   },
   {
    "inicio": "2026-11-22T18:30:00-03:00",
@@ -4340,7 +4115,7 @@
   {
    "inicio": "2026-11-28T20:30:00-03:00",
    "comp": "mls",
-   "casa": "A definir",
+   "casa": "FC Cincinnati",
    "fora": "Nashville SC",
    "local": "",
    "canais": [
@@ -4349,7 +4124,8 @@
    "status": "a_confirmar",
    "eid": "401933722",
    "lg": "usa.1",
-   "ed": "20261128"
+   "ed": "20261128",
+   "pg": "/jogo/fc-cincinnati-x-nashville-sc-28-11-2026/"
   },
   {
    "inicio": "2026-11-28T21:00:00-03:00",
@@ -5419,7 +5195,7 @@
    "inicio": "2026-12-02T22:00:00-03:00",
    "comp": "mls",
    "casa": "Nashville SC",
-   "fora": "A definir",
+   "fora": "FC Cincinnati",
    "local": "GEODIS Park, Nashville, Tennessee",
    "canais": [
     "appletv"
@@ -5427,7 +5203,8 @@
    "status": "a_confirmar",
    "eid": "401933736",
    "lg": "usa.1",
-   "ed": "20261202"
+   "ed": "20261202",
+   "pg": "/jogo/nashville-sc-x-fc-cincinnati-02-12-2026/"
   },
   {
    "inicio": "2026-12-02T22:00:00-03:00",
@@ -5525,6 +5302,198 @@
    "lg": "eng.1",
    "ed": "20261203",
    "pg": "/jogo/tottenham-x-fulham-03-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T09:40:00-03:00",
+   "comp": "saudita",
+   "casa": "Neom SC",
+   "fora": "Al Kholood",
+   "local": "King Khalid Sport City Stadium, Tabuk",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900863",
+   "lg": "ksa.1",
+   "ed": "20261204",
+   "pg": "/jogo/neom-sc-x-al-kholood-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T09:55:00-03:00",
+   "comp": "saudita",
+   "casa": "Al Khaleej",
+   "fora": "Al Ittihad",
+   "local": "Prince Mohammed Bin Fahd Stadium, Dammam",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900866",
+   "lg": "ksa.1",
+   "ed": "20261204",
+   "pg": "/jogo/al-khaleej-x-al-ittihad-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T12:15:00-03:00",
+   "comp": "saudita",
+   "casa": "Al Ahli",
+   "fora": "Al Faisaly",
+   "local": "Prince Abdullah Al-Faisal Stadium, Jeddah",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900869",
+   "lg": "ksa.1",
+   "ed": "20261204",
+   "pg": "/jogo/al-ahli-x-al-faisaly-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T14:00:00-03:00",
+   "comp": "turquia",
+   "casa": "Galatasaray",
+   "fora": "Caykur Rizespor",
+   "local": "RAMS Park, Istanbul",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401888231",
+   "lg": "tur.1",
+   "ed": "20261204",
+   "pg": "/jogo/galatasaray-x-caykur-rizespor-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T14:30:00-03:00",
+   "comp": "saudita",
+   "casa": "Al Nassr",
+   "fora": "Al Qadsiah",
+   "local": "Al-Awwal Park, King Fahd International Stadium",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900441",
+   "lg": "ksa.1",
+   "ed": "20261204",
+   "pg": "/jogo/al-nassr-x-al-qadsiah-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T16:00:00-03:00",
+   "comp": "eredivisie",
+   "casa": "Telstar",
+   "fora": "FC Groningen",
+   "local": "711 Stadion, Velsen-Zuid",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401875522",
+   "lg": "ned.1",
+   "ed": "20261204",
+   "pg": "/jogo/telstar-x-fc-groningen-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T16:30:00-03:00",
+   "comp": "bundesliga",
+   "casa": "Bayern de Munique",
+   "fora": "SC Paderborn 07",
+   "local": "Allianz Arena, München",
+   "canais": [
+    "onefootball"
+   ],
+   "status": "a_confirmar",
+   "eid": "401884718",
+   "lg": "ger.1",
+   "ed": "20261204",
+   "pg": "/jogo/bayern-de-munique-x-sc-paderborn-07-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T16:30:00-03:00",
+   "comp": "fa-cup",
+   "casa": "Wimborne Town",
+   "fora": "Bradford City",
+   "local": "The Wyatt Homes Stadium, Somerset",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401933793",
+   "lg": "eng.fa",
+   "ed": "20261204",
+   "pg": "/jogo/wimborne-town-x-bradford-city-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T16:45:00-03:00",
+   "comp": "serie-a-ita",
+   "casa": "Bologna",
+   "fora": "Roma",
+   "local": "Renato Dall'Ara, Bologna",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "eid": "401874984",
+   "lg": "ita.1",
+   "ed": "20261204",
+   "pg": "/jogo/bologna-x-roma-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T16:45:00-03:00",
+   "comp": "ligue1",
+   "casa": "Toulouse",
+   "fora": "Paris Saint-Germain",
+   "local": "Stadium Municipal de Toulouse, Toulouse",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401876378",
+   "lg": "fra.1",
+   "ed": "20261204",
+   "pg": "/jogo/toulouse-x-paris-saint-germain-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T16:45:00-03:00",
+   "comp": "fa-cup",
+   "casa": "Wycombe Wanderers",
+   "fora": "Milton Keynes Dons",
+   "local": "Adams Park, Wycombe",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401933818",
+   "lg": "eng.fa",
+   "ed": "20261204",
+   "pg": "/jogo/wycombe-wanderers-x-milton-keynes-dons-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T17:00:00-03:00",
+   "comp": "laliga",
+   "casa": "Alavés",
+   "fora": "Espanyol",
+   "local": "Mendizorrotza, Vitória-Gasteiz",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401882786",
+   "lg": "esp.1",
+   "ed": "20261204",
+   "pg": "/jogo/alaves-x-espanyol-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T17:00:00-03:00",
+   "comp": "championship",
+   "casa": "Sheffield United",
+   "fora": "West Ham United",
+   "local": "Bramall Lane, Sheffield",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401880116",
+   "lg": "eng.2",
+   "ed": "20261204",
+   "pg": "/jogo/sheffield-united-x-west-ham-united-04-12-2026/"
+  },
+  {
+   "inicio": "2026-12-04T17:15:00-03:00",
+   "comp": "portugal",
+   "casa": "Sporting CP",
+   "fora": "Maritimo",
+   "local": "Estádio José Alvalade, Lisbon",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "eid": "401885376",
+   "lg": "por.1",
+   "ed": "20261204",
+   "pg": "/jogo/sporting-cp-x-maritimo-04-12-2026/"
   }
  ],
  "sugestoes": {
@@ -5645,22 +5614,6 @@
   "decisivo": 5
  },
  "escudos": {
-  "CD Sabadell": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11487.png&h=80&w=80",
-  "Mallorca": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/84.png&h=80&w=80",
-  "Tenerife": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/245.png&h=80&w=80",
-  "FC Cartagena": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5419.png&h=80&w=80",
-  "Coritiba": "https://r2.thesportsdb.com/images/media/team/badge/ywwsyu1473538050.png",
-  "Santos": "https://r2.thesportsdb.com/images/media/team/badge/j8xk9g1679447486.png",
-  "Remo": "https://r2.thesportsdb.com/images/media/team/badge/u36jfy1579341655.png",
-  "Chapecoense": "https://r2.thesportsdb.com/images/media/team/badge/wy0e1i1765900601.png",
-  "Cruzeiro": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png",
-  "Palmeiras": "https://r2.thesportsdb.com/images/media/team/badge/vsqwqp1473538105.png",
-  "Flamengo": "https://r2.thesportsdb.com/images/media/team/badge/syptwx1473538074.png",
-  "Athletico-PR": "https://r2.thesportsdb.com/images/media/team/badge/irzu1u1554237406.png",
-  "Corinthians": "https://r2.thesportsdb.com/images/media/team/badge/vvuvps1473538042.png",
-  "Botafogo": "https://r2.thesportsdb.com/images/media/team/badge/bs5mbw1733004596.png",
-  "Grêmio": "https://r2.thesportsdb.com/images/media/team/badge/uvpwyt1473538089.png",
-  "Bahia": "https://r2.thesportsdb.com/images/media/team/badge/xuvtsv1473539308.png",
   "Vasco": "https://r2.thesportsdb.com/images/media/team/badge/ynqlxo1630521109.png",
   "Internacional": "https://r2.thesportsdb.com/images/media/team/badge/yprvxx1473538097.png",
   "Vitória": "https://r2.thesportsdb.com/images/media/team/badge/tysrrx1473538156.png",
@@ -5767,6 +5720,8 @@
   "Barracas Central": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10060.png&h=80&w=80",
   "New England Revolution": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/189.png&h=80&w=80",
   "Philadelphia Union": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10739.png&h=80&w=80",
+  "Palmeiras": "https://r2.thesportsdb.com/images/media/team/badge/vsqwqp1473538105.png",
+  "Flamengo": "https://r2.thesportsdb.com/images/media/team/badge/syptwx1473538074.png",
   "AS Monaco": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/174.png&h=80&w=80",
   "AJ Auxerre": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/172.png&h=80&w=80",
   "Lens": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/175.png&h=80&w=80",
@@ -5785,6 +5740,8 @@
   "Celta Vigo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/85.png&h=80&w=80",
   "Telstar": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3735.png&h=80&w=80",
   "PEC Zwolle": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2565.png&h=80&w=80",
+  "Bahia": "https://r2.thesportsdb.com/images/media/team/badge/xuvtsv1473539308.png",
+  "Coritiba": "https://r2.thesportsdb.com/images/media/team/badge/ywwsyu1473538050.png",
   "FC Dallas": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/185.png&h=80&w=80",
   "Portland Timbers": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9723.png&h=80&w=80",
   "Atlético-MG": "https://r2.thesportsdb.com/images/media/team/badge/x5lixs1743742872.png",
@@ -5795,6 +5752,8 @@
   "Columbus Crew": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/183.png&h=80&w=80",
   "Santos Laguna": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/225.png&h=80&w=80",
   "León": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/228.png&h=80&w=80",
+  "Chapecoense": "https://r2.thesportsdb.com/images/media/team/badge/wy0e1i1765900601.png",
+  "Cruzeiro": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png",
   "Pumas UNAM": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/233.png&h=80&w=80",
   "Monterrey": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/220.png&h=80&w=80",
   "Tigres UANL": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/232.png&h=80&w=80",
@@ -5843,6 +5802,8 @@
   "Frosinone": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4057.png&h=80&w=80",
   "Osasuna": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/97.png&h=80&w=80",
   "Málaga": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/99.png&h=80&w=80",
+  "Athletico-PR": "https://r2.thesportsdb.com/images/media/team/badge/irzu1u1554237406.png",
+  "Remo": "https://r2.thesportsdb.com/images/media/team/badge/u36jfy1579341655.png",
   "Criciúma": "https://r2.thesportsdb.com/images/media/team/badge/r11mld1766506200.png",
   "Fortaleza": "https://r2.thesportsdb.com/images/media/team/badge/tosmdr1532853458.png",
   "Rosario Central": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17.png&h=80&w=80",
@@ -5878,6 +5839,9 @@
   "Newell's Old Boys": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/14.png&h=80&w=80",
   "Levante": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1538.png&h=80&w=80",
   "Elche": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3751.png&h=80&w=80",
+  "Botafogo": "https://r2.thesportsdb.com/images/media/team/badge/bs5mbw1733004596.png",
+  "Santos": "https://r2.thesportsdb.com/images/media/team/badge/j8xk9g1679447486.png",
+  "Grêmio": "https://r2.thesportsdb.com/images/media/team/badge/uvpwyt1473538089.png",
   "St. Louis CITY SC": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21812.png&h=80&w=80",
   "LAFC": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18966.png&h=80&w=80",
   "Bodo/Glimt": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2980.png&h=80&w=80",
@@ -5893,6 +5857,7 @@
   "Club Brugge": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/570.png&h=80&w=80",
   "Shakhtar Donetsk": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/493.png&h=80&w=80",
   "Sporting CP": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2250.png&h=80&w=80",
+  "Corinthians": "https://r2.thesportsdb.com/images/media/team/badge/vvuvps1473538042.png",
   "Independiente Rivadavia": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9744.png&h=80&w=80",
   "Al Fateh": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13033.png&h=80&w=80",
   "Al Riyadh": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21965.png&h=80&w=80",
@@ -5974,7 +5939,10 @@
   "Estoril": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12216.png&h=80&w=80",
   "FC Famalicao": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12698.png&h=80&w=80",
   "Casa Pia": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21581.png&h=80&w=80",
-  "Cremonese": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4050.png&h=80&w=80"
+  "Cremonese": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4050.png&h=80&w=80",
+  "Bradford City": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/387.png&h=80&w=80",
+  "Wycombe Wanderers": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/344.png&h=80&w=80",
+  "Milton Keynes Dons": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/390.png&h=80&w=80"
  },
  "logos_ligas": {
   "amistoso": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/53.png&h=80&w=80",
