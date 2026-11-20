@@ -6227,7 +6227,7 @@
   "_d": "20261202",
   "_liga": "usa.1",
   "_logos": {
-   "A definir": "",
+   "Real Salt Lake": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
    "Vancouver Whitecaps": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
   },
   "canais": [
@@ -6237,7 +6237,7 @@
   "comp": "mls",
   "ed": "20261202",
   "eid": "401933717",
-  "fora": "A definir",
+  "fora": "Real Salt Lake",
   "inicio": "2026-12-02T17:00:00-03:00",
   "lg": "usa.1",
   "local": "BC Place, Vancouver",
@@ -6340,7 +6340,7 @@
   "fora": "Nashville SC",
   "inicio": "2026-11-28T20:30:00-03:00",
   "lg": "usa.1",
-  "local": "",
+  "local": "TQL Stadium, Cincinnati, Ohio",
   "status": "a_confirmar"
  },
  "espn:401933723": {
@@ -6387,20 +6387,20 @@
   "_d": "20261127",
   "_liga": "usa.1",
   "_logos": {
-   "A definir": "",
+   "Real Salt Lake": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
    "Vancouver Whitecaps": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
   },
   "canais": [
    "appletv"
   ],
-  "casa": "A definir",
+  "casa": "Real Salt Lake",
   "comp": "mls",
   "ed": "20261127",
   "eid": "401933725",
   "fora": "Vancouver Whitecaps",
   "inicio": "2026-11-28T00:00:00-03:00",
   "lg": "usa.1",
-  "local": "",
+  "local": "America First Field, Sandy, Utah",
   "status": "a_confirmar"
  },
  "espn:401933726": {
@@ -6467,7 +6467,7 @@
   "_d": "20261122",
   "_liga": "usa.1",
   "_logos": {
-   "A definir": "",
+   "Real Salt Lake": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
    "Vancouver Whitecaps": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png"
   },
   "canais": [
@@ -6477,7 +6477,7 @@
   "comp": "mls",
   "ed": "20261122",
   "eid": "401933729",
-  "fora": "A definir",
+  "fora": "Real Salt Lake",
   "inicio": "2026-11-22T22:30:00-03:00",
   "lg": "usa.1",
   "local": "BC Place, Vancouver",
