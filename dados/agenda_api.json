@@ -4861,6 +4861,10 @@
   "inicio": "2026-11-20T14:30:00-03:00",
   "lg": "ksa.1",
   "local": "King Abdullah Sports City, Jeddah",
+  "placar": {
+   "casa": 3,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401912257": {
