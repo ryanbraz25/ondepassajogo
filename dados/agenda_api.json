@@ -1397,6 +1397,10 @@
   "inicio": "2026-11-21T14:45:00-03:00",
   "lg": "ned.1",
   "local": "Stadion Galgenwaard, Utrecht",
+  "placar": {
+   "casa": 2,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401875545": {

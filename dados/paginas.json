@@ -62,8 +62,8 @@
 },
 "/campeonato/eredivisie/": {
 "dia": "",
-"h": "448e7f892e1c878a",
-"mod": "2026-11-21T17:05-03:00"
+"h": "f3a84b58c014220f",
+"mod": "2026-11-21T18:05-03:00"
 },
 "/campeonato/eurocopa/": {
 "dia": "",
@@ -987,8 +987,8 @@
 },
 "/jogo/fc-groningen-x-heerenveen-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "8b4058dc30ffe207",
-"mod": "2026-11-21T17:05-03:00"
+"h": "facc651e6a65ce91",
+"mod": "2026-11-21T18:05-03:00"
 },
 "/jogo/fc-groningen-x-willem-ii-27-11-2026/": {
 "dia": "2026-11-27",
@@ -1017,8 +1017,8 @@
 },
 "/jogo/fc-utrecht-x-sc-cambuur-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "4599e1797171c0bd",
-"mod": "2026-11-21T17:05-03:00"
+"h": "370f2d64bb878e55",
+"mod": "2026-11-21T18:05-03:00"
 },
 "/jogo/fenerbahce-x-erzurum-bb-29-11-2026/": {
 "dia": "2026-11-29",
@@ -1037,8 +1037,8 @@
 },
 "/jogo/feyenoord-rotterdam-x-excelsior-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "30d99612bfba99e0",
-"mod": "2026-11-21T17:05-03:00"
+"h": "9291279351bf3476",
+"mod": "2026-11-21T18:05-03:00"
 },
 "/jogo/feyenoord-rotterdam-x-fc-porto-24-11-2026/": {
 "dia": "2026-11-24",
@@ -1557,8 +1557,8 @@
 },
 "/jogo/nec-nijmegen-x-psv-eindhoven-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "fdb562964e11cefb",
-"mod": "2026-11-21T17:05-03:00"
+"h": "f267fb63fb688403",
+"mod": "2026-11-21T18:05-03:00"
 },
 "/jogo/nec-nijmegen-x-stade-rennais-26-11-2026/": {
 "dia": "2026-11-26",
@@ -2152,8 +2152,8 @@
 },
 "/jogo/telstar-x-pec-zwolle-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "72b62ecf6f7dfbc9",
-"mod": "2026-11-21T17:05-03:00"
+"h": "12f25f6dad63dc13",
+"mod": "2026-11-21T18:05-03:00"
 },
 "/jogo/tigres-uanl-x-america-22-11-2026/": {
 "dia": "2026-11-22",
@@ -2397,8 +2397,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "0466f34a98803e8f",
-"mod": "2026-11-21T17:05-03:00"
+"h": "b0b8bb1697fa0391",
+"mod": "2026-11-21T18:05-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -3320,8 +3320,8 @@
 },
 "/time/fc-utrecht/": {
 "dia": "",
-"h": "91664c787c1e9fd0",
-"mod": "2026-11-17T17:37-03:00",
+"h": "27f5ef5ca33e0908",
+"mod": "2026-11-21T18:05-03:00",
 "nome": "FC Utrecht"
 },
 "/time/fenerbahce/": {
@@ -4334,8 +4334,8 @@
 },
 "/time/sc-cambuur/": {
 "dia": "",
-"h": "58e0521e829bf49f",
-"mod": "2026-11-17T17:37-03:00",
+"h": "a1a71e5f19083629",
+"mod": "2026-11-21T18:05-03:00",
 "nome": "SC Cambuur"
 },
 "/time/sc-freiburg/": {
