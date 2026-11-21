@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T19:01:07-03:00",
+ "atualizado": "2026-11-21T19:57:34-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1409,6 +1409,10 @@
    "eid": "401882798",
    "lg": "esp.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   },
    "pg": "/jogo/real-madrid-x-celta-vigo-21-11-2026/"
   },
   {
@@ -1441,6 +1445,10 @@
    "eid": "401841327",
    "lg": "bra.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "rodada": "36ª rodada",
    "pg": "/jogo/bahia-x-coritiba-21-11-2026/"
   },

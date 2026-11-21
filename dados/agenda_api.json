@@ -181,6 +181,10 @@
   "inicio": "2026-11-21T17:30:00-03:00",
   "lg": "bra.1",
   "local": "Arena Fonte Nova, Salvador",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841328": {
@@ -4191,6 +4195,10 @@
   "inicio": "2026-11-21T17:00:00-03:00",
   "lg": "esp.1",
   "local": "Santiago Bernabéu, Madrid",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401882799": {

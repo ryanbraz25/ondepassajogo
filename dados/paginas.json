@@ -12,8 +12,8 @@
 },
 "/campeonato/brasileirao-a/": {
 "dia": "",
-"h": "6c045d478c40c9ec",
-"mod": "2026-11-21T19:01-03:00"
+"h": "defbe668fb50bc6c",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/campeonato/brasileirao-b/": {
 "dia": "",
@@ -92,8 +92,8 @@
 },
 "/campeonato/laliga/": {
 "dia": "",
-"h": "9a29fa5eca7dbb56",
-"mod": "2026-11-21T17:05-03:00"
+"h": "b3c98c8fa446c07f",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/campeonato/libertadores-fem/": {
 "dia": "",
@@ -317,8 +317,8 @@
 },
 "/jogo/alaves-x-deportivo-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "2b0bf6e1dea160b3",
-"mod": "2026-11-21T17:05-03:00"
+"h": "4140b306e5bde560",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/jogo/alaves-x-espanyol-04-12-2026/": {
 "dia": "2026-12-04",
@@ -462,8 +462,8 @@
 },
 "/jogo/bahia-x-coritiba-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "ca26ab0f127c6d77",
-"mod": "2026-11-21T19:01-03:00"
+"h": "335b99621c3885e7",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/jogo/barcelona-x-atletico-de-madrid-02-12-2026/": {
 "dia": "2026-12-02",
@@ -712,8 +712,8 @@
 },
 "/jogo/chapecoense-x-cruzeiro-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "c230f6316d072aba",
-"mod": "2026-11-21T19:01-03:00"
+"h": "e8ece2208990f5bf",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/jogo/chapecoense-x-palmeiras-24-11-2026/": {
 "dia": "2026-11-24",
@@ -1672,8 +1672,8 @@
 },
 "/jogo/palmeiras-x-flamengo-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "69d881758fba52ea",
-"mod": "2026-11-21T19:01-03:00"
+"h": "8262ffb1da13ece2",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/jogo/paris-fc-x-angers-22-11-2026/": {
 "dia": "2026-11-22",
@@ -1787,8 +1787,8 @@
 },
 "/jogo/rayo-vallecano-x-valencia-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "d764d3cd16b72250",
-"mod": "2026-11-21T17:05-03:00"
+"h": "6dbd5de0a63b1032",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/jogo/rb-leipzig-x-lens-24-11-2026/": {
 "dia": "2026-11-24",
@@ -1822,8 +1822,8 @@
 },
 "/jogo/real-madrid-x-celta-vigo-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "059406575c346cb3",
-"mod": "2026-11-21T17:05-03:00"
+"h": "77589fdd98ed4fca",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/jogo/real-madrid-x-psv-eindhoven-24-11-2026/": {
 "dia": "2026-11-24",
@@ -1997,8 +1997,8 @@
 },
 "/jogo/sevilla-x-real-betis-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "0c144057bed3cfe0",
-"mod": "2026-11-21T17:05-03:00"
+"h": "c3b176420601974d",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/jogo/shakhtar-donetsk-x-fenerbahce-25-11-2026/": {
 "dia": "2026-11-25",
@@ -2397,8 +2397,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "3ab50a0a66a90fc7",
-"mod": "2026-11-21T19:01-03:00"
+"h": "f7f7c21c5bb8fa72",
+"mod": "2026-11-21T19:57-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2708,8 +2708,8 @@
 },
 "/time/bahia/": {
 "dia": "",
-"h": "a69de9fc0fdf32be",
-"mod": "2026-11-20T00:17-03:00",
+"h": "5500aa8d47206031",
+"mod": "2026-11-21T19:57-03:00",
 "nome": "Bahia"
 },
 "/time/barakaldo/": {
@@ -2948,8 +2948,8 @@
 },
 "/time/celta-vigo/": {
 "dia": "",
-"h": "992a82d5150147ab",
-"mod": "2026-11-21T00:09-03:00",
+"h": "1885625d3f873865",
+"mod": "2026-11-21T19:57-03:00",
 "nome": "Celta Vigo"
 },
 "/time/celtic/": {
@@ -3044,8 +3044,8 @@
 },
 "/time/coritiba/": {
 "dia": "",
-"h": "546ae9b6809736a4",
-"mod": "2026-11-20T00:17-03:00",
+"h": "7b2ef8d1444cbe70",
+"mod": "2026-11-21T19:57-03:00",
 "nome": "Coritiba"
 },
 "/time/corum-fk/": {
@@ -4190,8 +4190,8 @@
 },
 "/time/real-madrid/": {
 "dia": "",
-"h": "eaaa1a2b8ca40ff6",
-"mod": "2026-11-18T00:54-03:00",
+"h": "eda69cb420eb71e4",
+"mod": "2026-11-21T19:57-03:00",
 "nome": "Real Madrid"
 },
 "/time/real-salt-lake/": {
