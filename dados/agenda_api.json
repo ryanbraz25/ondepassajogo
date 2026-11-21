@@ -2041,6 +2041,10 @@
   "inicio": "2026-11-21T00:10:00-03:00",
   "lg": "mex.1",
   "local": "Estadio Caliente, Tijuana",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401877053": {
@@ -2059,6 +2063,10 @@
   "inicio": "2026-11-21T00:00:00-03:00",
   "lg": "mex.1",
   "local": "Estadio Olímpico Benito Juárez, Ciudad Juárez",
+  "placar": {
+   "casa": 3,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401877054": {

@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T02:01:36-03:00",
+ "atualizado": "2026-11-21T02:57:58-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -480,6 +480,10 @@
    "eid": "401877053",
    "lg": "mex.1",
    "ed": "20261120",
+   "placar": {
+    "casa": 3,
+    "fora": 3
+   },
    "pg": "/jogo/fc-juarez-x-atlas-21-11-2026/"
   },
   {
@@ -493,6 +497,10 @@
    "eid": "401877052",
    "lg": "mex.1",
    "ed": "20261120",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "pg": "/jogo/tijuana-x-atlante-21-11-2026/"
   },
   {
