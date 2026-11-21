@@ -1375,6 +1375,10 @@
   "inicio": "2026-11-21T14:45:00-03:00",
   "lg": "ned.1",
   "local": "De Kuip, Rotterdam",
+  "placar": {
+   "casa": 2,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401875544": {
@@ -2737,6 +2741,10 @@
   "inicio": "2026-11-21T14:30:00-03:00",
   "lg": "eng.1",
   "local": "St. James' Park, Newcastle-upon-Tyne",
+  "placar": {
+   "casa": 2,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401879233": {
@@ -4123,6 +4131,10 @@
   "inicio": "2026-11-21T14:30:00-03:00",
   "lg": "esp.1",
   "local": "Ramón Sánchez Pizjuán Stadium, Sevilla",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401882798": {
@@ -4679,6 +4691,10 @@
   "inicio": "2026-11-21T14:30:00-03:00",
   "lg": "ger.1",
   "local": "Veltins Arena, Gelsenkirchen",
+  "placar": {
+   "casa": 0,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401884730": {
@@ -7731,6 +7747,10 @@
   "inicio": "2026-11-21T15:00:00-03:00",
   "lg": "arg.1",
   "local": "Norberto Tomaghello, Buenos Aires",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401933759": {
