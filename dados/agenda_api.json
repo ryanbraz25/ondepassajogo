@@ -4235,6 +4235,10 @@
   "inicio": "2026-11-21T10:00:00-03:00",
   "lg": "esp.1",
   "local": "Mendizorrotza, Vitoria-Gasteiz",
+  "placar": {
+   "casa": 3,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401884712": {
@@ -5233,6 +5237,10 @@
   "inicio": "2026-11-21T10:00:00-03:00",
   "lg": "tur.1",
   "local": "Basaksehir Fatih Terim Stadium, Istanbul",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401888246": {
@@ -5381,6 +5389,10 @@
   "inicio": "2026-11-21T10:00:00-03:00",
   "lg": "tur.1",
   "local": "Diyarbakir Stadyumu, Diyarbakir",
+  "placar": {
+   "casa": 0,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401888370": {

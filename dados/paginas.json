@@ -92,8 +92,8 @@
 },
 "/campeonato/laliga/": {
 "dia": "",
-"h": "cd533456bdc3ec6f",
-"mod": "2026-11-21T00:09-03:00"
+"h": "6dbe53bd43959416",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/campeonato/libertadores-fem/": {
 "dia": "",
@@ -182,8 +182,8 @@
 },
 "/campeonato/turquia/": {
 "dia": "",
-"h": "f91444e959c0c0e7",
-"mod": "2026-11-21T09:49-03:00"
+"h": "d72049ecf5af3229",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/jogo/1-fc-union-berlin-x-hamburg-sv-05-12-2026/": {
 "dia": "2026-12-05",
@@ -317,8 +317,8 @@
 },
 "/jogo/alaves-x-deportivo-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "ea5d84ef737f8f13",
-"mod": "2026-11-21T00:09-03:00"
+"h": "e6a9f17f1c90dcfc",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/jogo/alaves-x-espanyol-04-12-2026/": {
 "dia": "2026-12-04",
@@ -342,8 +342,8 @@
 },
 "/jogo/amed-sfk-x-caykur-rizespor-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "30faaf3bcb6d31c4",
-"mod": "2026-11-21T09:49-03:00"
+"h": "7330411f514468a0",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/jogo/angers-x-lens-28-11-2026/": {
 "dia": "2026-11-28",
@@ -1107,8 +1107,8 @@
 },
 "/jogo/galatasaray-x-samsunspor-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "a01347f9b1d16d42",
-"mod": "2026-11-21T09:49-03:00"
+"h": "27d0080d3571ac21",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/jogo/gaziantep-fk-x-amed-sfk-28-11-2026/": {
 "dia": "2026-11-28",
@@ -1117,8 +1117,8 @@
 },
 "/jogo/genclerbirligi-x-gaziantep-fk-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "fa7fe05f27d87969",
-"mod": "2026-11-21T09:49-03:00"
+"h": "fd51998c63033372",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/jogo/getafe-x-atletico-de-madrid-22-11-2026/": {
 "dia": "2026-11-22",
@@ -1312,8 +1312,8 @@
 },
 "/jogo/kocaelispor-x-fenerbahce-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "1f47350cf9a629e2",
-"mod": "2026-11-21T09:49-03:00"
+"h": "fd22dabecedfb8e3",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/jogo/konyaspor-x-besiktas-22-11-2026/": {
 "dia": "2026-11-22",
@@ -1787,8 +1787,8 @@
 },
 "/jogo/rayo-vallecano-x-valencia-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "4b77f820add40656",
-"mod": "2026-11-21T00:09-03:00"
+"h": "5711ed33cc8d2908",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/jogo/rb-leipzig-x-lens-24-11-2026/": {
 "dia": "2026-11-24",
@@ -1822,8 +1822,8 @@
 },
 "/jogo/real-madrid-x-celta-vigo-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "fc0eb4a135951951",
-"mod": "2026-11-21T00:09-03:00"
+"h": "ecfbf64c87a29b6c",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/jogo/real-madrid-x-psv-eindhoven-24-11-2026/": {
 "dia": "2026-11-24",
@@ -1997,8 +1997,8 @@
 },
 "/jogo/sevilla-x-real-betis-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "bf162de447ff48be",
-"mod": "2026-11-17T17:37-03:00"
+"h": "d51cb30f1ea1b8e1",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/jogo/shakhtar-donetsk-x-fenerbahce-25-11-2026/": {
 "dia": "2026-11-25",
@@ -2397,8 +2397,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "e3184a14461d00f7",
-"mod": "2026-11-21T11:42-03:00"
+"h": "42598b0b581869c4",
+"mod": "2026-11-21T12:41-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2552,8 +2552,8 @@
 },
 "/time/alaves/": {
 "dia": "",
-"h": "cb36d0f5ac5fc20c",
-"mod": "2026-11-20T00:17-03:00",
+"h": "dbca66f6506ce9e9",
+"mod": "2026-11-21T12:41-03:00",
 "nome": "Alavés"
 },
 "/time/alcoyano/": {
@@ -2576,8 +2576,8 @@
 },
 "/time/amed-sfk/": {
 "dia": "",
-"h": "707bfd736a89ed16",
-"mod": "2026-11-21T00:09-03:00",
+"h": "ce5b5f7b7e9126bc",
+"mod": "2026-11-21T12:41-03:00",
 "nome": "Amed SFK"
 },
 "/time/america/": {
@@ -2930,8 +2930,8 @@
 },
 "/time/caykur-rizespor/": {
 "dia": "",
-"h": "35115bbb3de41dda",
-"mod": "2026-11-20T00:17-03:00",
+"h": "431bf470596ac23d",
+"mod": "2026-11-21T12:41-03:00",
 "nome": "Caykur Rizespor"
 },
 "/time/cd-minera/": {
@@ -3116,8 +3116,8 @@
 },
 "/time/deportivo/": {
 "dia": "",
-"h": "42a298ea0c002e8b",
-"mod": "2026-11-21T00:09-03:00",
+"h": "15d7e413e3db85af",
+"mod": "2026-11-21T12:41-03:00",
 "nome": "Deportivo"
 },
 "/time/derby-county/": {
@@ -3386,8 +3386,8 @@
 },
 "/time/galatasaray/": {
 "dia": "",
-"h": "78f104fddc108130",
-"mod": "2026-11-20T00:17-03:00",
+"h": "c87851d2f4fd1c6b",
+"mod": "2026-11-21T12:41-03:00",
 "nome": "Galatasaray"
 },
 "/time/gaziantep-fk/": {
@@ -4292,8 +4292,8 @@
 },
 "/time/samsunspor/": {
 "dia": "",
-"h": "a1150555ffd1ddd9",
-"mod": "2026-11-17T17:37-03:00",
+"h": "58dc1876e4648b45",
+"mod": "2026-11-21T12:41-03:00",
 "nome": "Samsunspor"
 },
 "/time/san-jose-earthquakes/": {
