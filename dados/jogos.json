@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T10:45:30-03:00",
+ "atualizado": "2026-11-21T11:41:43-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -534,6 +534,10 @@
    "eid": "401879233",
    "lg": "eng.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "rodada": "12ª rodada",
    "nota": "Horário aproximado",
    "pg": "/jogo/manchester-city-x-fulham-21-11-2026/"
@@ -549,6 +553,10 @@
    "eid": "401880156",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "pg": "/jogo/millwall-x-queens-park-rangers-21-11-2026/"
   },
   {
@@ -562,6 +570,10 @@
    "eid": "401880155",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   },
    "pg": "/jogo/norwich-city-x-cardiff-city-21-11-2026/"
   },
   {
@@ -575,6 +587,10 @@
    "eid": "401880153",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "pg": "/jogo/southampton-x-derby-county-21-11-2026/"
   },
   {

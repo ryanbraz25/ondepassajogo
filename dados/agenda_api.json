@@ -2729,6 +2729,10 @@
   "inicio": "2026-11-21T09:30:00-03:00",
   "lg": "eng.1",
   "local": "Etihad Stadium, Manchester",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401879234": {
@@ -3549,6 +3553,10 @@
   "inicio": "2026-11-21T09:30:00-03:00",
   "lg": "eng.2",
   "local": "St. Mary's Stadium, Southampton",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880154": {
@@ -3585,6 +3593,10 @@
   "inicio": "2026-11-21T09:30:00-03:00",
   "lg": "eng.2",
   "local": "Carrow Road, Norwich",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880156": {
@@ -3603,6 +3615,10 @@
   "inicio": "2026-11-21T09:30:00-03:00",
   "lg": "eng.2",
   "local": "The Den, London",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880157": {

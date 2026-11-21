@@ -37,8 +37,8 @@
 },
 "/campeonato/championship/": {
 "dia": "",
-"h": "5408c4b0f846b523",
-"mod": "2026-11-21T00:09-03:00"
+"h": "14fe6adbd724439d",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/campeonato/conference/": {
 "dia": "",
@@ -152,8 +152,8 @@
 },
 "/campeonato/premier/": {
 "dia": "",
-"h": "36750b376eaae0ef",
-"mod": "2026-11-21T00:09-03:00"
+"h": "3f4638a5f9259381",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/campeonato/recopa/": {
 "dia": "",
@@ -397,8 +397,8 @@
 },
 "/jogo/aston-villa-x-sunderland-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "c1e97423d3de3033",
-"mod": "2026-11-21T00:09-03:00"
+"h": "30c46a7c6790eda8",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/atalanta-x-inter-de-milao-22-11-2026/": {
 "dia": "2026-11-22",
@@ -557,8 +557,8 @@
 },
 "/jogo/bolton-wanderers-x-portsmouth-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "4a0cf2df95717840",
-"mod": "2026-11-21T00:09-03:00"
+"h": "ee1e3e0b6371e8d0",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/bolton-wanderers-x-west-bromwich-albion-25-11-2026/": {
 "dia": "2026-11-25",
@@ -602,8 +602,8 @@
 },
 "/jogo/bournemouth-x-nottingham-forest-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "5d02334365a8ecf4",
-"mod": "2026-11-21T00:09-03:00"
+"h": "e6276f17a21bd47a",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/braga-x-arouca-05-12-2026/": {
 "dia": "2026-12-05",
@@ -742,8 +742,8 @@
 },
 "/jogo/chelsea-x-leeds-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "b3e64c2a1dcef73f",
-"mod": "2026-11-21T00:09-03:00"
+"h": "7de1d91e505c6b7b",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/chelsea-x-liverpool-05-12-2026/": {
 "dia": "2026-12-05",
@@ -832,8 +832,8 @@
 },
 "/jogo/coventry-city-x-crystal-palace-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "4b965982ed35eddb",
-"mod": "2026-11-21T00:09-03:00"
+"h": "98f92408e4ebe4f0",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/coventry-city-x-ipswich-town-01-12-2026/": {
 "dia": "2026-12-01",
@@ -1402,8 +1402,8 @@
 },
 "/jogo/lincoln-city-x-wrexham-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "32afeb8f52687c88",
-"mod": "2026-11-21T00:09-03:00"
+"h": "a4c0f31d7ea82614",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/liverpool-x-manchester-united-22-11-2026/": {
 "dia": "2026-11-22",
@@ -1442,8 +1442,8 @@
 },
 "/jogo/manchester-city-x-fulham-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "5587c8d3e42896e1",
-"mod": "2026-11-21T00:09-03:00"
+"h": "331db10b4cba51e2",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/manchester-city-x-leeds-02-12-2026/": {
 "dia": "2026-12-02",
@@ -1482,8 +1482,8 @@
 },
 "/jogo/middlesbrough-x-bristol-city-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "4d9f816339201a6e",
-"mod": "2026-11-21T00:09-03:00"
+"h": "c93996a3338b1d9c",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/middlesbrough-x-derby-county-05-12-2026/": {
 "dia": "2026-12-05",
@@ -1507,8 +1507,8 @@
 },
 "/jogo/millwall-x-queens-park-rangers-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "9f00674d52d40895",
-"mod": "2026-11-21T00:09-03:00"
+"h": "dc138bc4d4a6ede3",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/mirassol-x-athletico-pr-29-11-2026/": {
 "dia": "2026-11-29",
@@ -1582,8 +1582,8 @@
 },
 "/jogo/newcastle-x-arsenal-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "7514a0b67ae542bd",
-"mod": "2026-11-18T00:54-03:00"
+"h": "7529ccb61735738f",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/newcastle-x-manchester-united-02-12-2026/": {
 "dia": "2026-12-02",
@@ -1602,8 +1602,8 @@
 },
 "/jogo/norwich-city-x-cardiff-city-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "f342e6af6e5cde11",
-"mod": "2026-11-21T00:09-03:00"
+"h": "0c2c89f3decbd0b5",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/norwich-city-x-queens-park-rangers-24-11-2026/": {
 "dia": "2026-11-24",
@@ -2012,8 +2012,8 @@
 },
 "/jogo/sheffield-united-x-watford-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "e275841d4ee810c0",
-"mod": "2026-11-21T00:09-03:00"
+"h": "69772a83cffb9d83",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/sheffield-united-x-west-ham-united-04-12-2026/": {
 "dia": "2026-12-04",
@@ -2047,8 +2047,8 @@
 },
 "/jogo/southampton-x-derby-county-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "cd8e0186753e187a",
-"mod": "2026-11-21T00:09-03:00"
+"h": "36d0a7ec3a325094",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/southampton-x-middlesbrough-27-11-2026/": {
 "dia": "2026-11-27",
@@ -2092,8 +2092,8 @@
 },
 "/jogo/stoke-city-x-birmingham-city-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "abb22424adc69192",
-"mod": "2026-11-21T00:09-03:00"
+"h": "5ded26262bfeecd8",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/stoke-city-x-millwall-25-11-2026/": {
 "dia": "2026-11-25",
@@ -2142,8 +2142,8 @@
 },
 "/jogo/swansea-city-x-west-bromwich-albion-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "e2be5512c410507d",
-"mod": "2026-11-21T00:09-03:00"
+"h": "4ec98e8862263a19",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/telstar-x-fc-groningen-04-12-2026/": {
 "dia": "2026-12-04",
@@ -2182,8 +2182,8 @@
 },
 "/jogo/tottenham-x-ipswich-town-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "ec85433cfec322b2",
-"mod": "2026-11-21T00:09-03:00"
+"h": "558ce64ccc148789",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/toulouse-x-paris-saint-germain-04-12-2026/": {
 "dia": "2026-12-04",
@@ -2337,8 +2337,8 @@
 },
 "/jogo/west-ham-united-x-preston-north-end-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "1c3b093b6335ac2b",
-"mod": "2026-11-20T00:17-03:00"
+"h": "68945ae9e4ee999e",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/west-ham-united-x-stoke-city-28-11-2026/": {
 "dia": "2026-11-28",
@@ -2362,8 +2362,8 @@
 },
 "/jogo/wolverhampton-wanderers-x-charlton-athletic-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "99606085573a2039",
-"mod": "2026-11-21T00:09-03:00"
+"h": "adc74c648bd4b45d",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/jogo/wolverhampton-wanderers-x-derby-county-24-11-2026/": {
 "dia": "2026-11-24",
@@ -2397,8 +2397,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "0a1e1aa648ec810d",
-"mod": "2026-11-21T09:49-03:00"
+"h": "e3184a14461d00f7",
+"mod": "2026-11-21T11:42-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2912,8 +2912,8 @@
 },
 "/time/cardiff-city/": {
 "dia": "",
-"h": "be0ab57a0ecbe267",
-"mod": "2026-11-21T00:09-03:00",
+"h": "02faa073f3c110b4",
+"mod": "2026-11-21T11:42-03:00",
 "nome": "Cardiff City"
 },
 "/time/carlisle-united/": {
@@ -3122,8 +3122,8 @@
 },
 "/time/derby-county/": {
 "dia": "",
-"h": "e7c41ff0b0e181c9",
-"mod": "2026-11-21T00:09-03:00",
+"h": "71df65aff6ff8bc5",
+"mod": "2026-11-21T11:42-03:00",
 "nome": "Derby County"
 },
 "/time/dinamarca/": {
@@ -3380,8 +3380,8 @@
 },
 "/time/fulham/": {
 "dia": "",
-"h": "7fbb82fdc9c08c0b",
-"mod": "2026-11-19T00:33-03:00",
+"h": "83ee6d80b38287b5",
+"mod": "2026-11-21T11:42-03:00",
 "nome": "Fulham"
 },
 "/time/galatasaray/": {
@@ -3812,8 +3812,8 @@
 },
 "/time/manchester-city/": {
 "dia": "",
-"h": "383babba90bc2ffc",
-"mod": "2026-11-21T00:09-03:00",
+"h": "adbd87a926396711",
+"mod": "2026-11-21T11:42-03:00",
 "nome": "Manchester City"
 },
 "/time/manchester-united/": {
@@ -3854,8 +3854,8 @@
 },
 "/time/millwall/": {
 "dia": "",
-"h": "b6a92d997aab7804",
-"mod": "2026-11-21T00:09-03:00",
+"h": "41e7185f1af054d8",
+"mod": "2026-11-21T11:42-03:00",
 "nome": "Millwall"
 },
 "/time/milton-keynes-dons/": {
@@ -3968,8 +3968,8 @@
 },
 "/time/norwich-city/": {
 "dia": "",
-"h": "d0d4b1d7fcecefff",
-"mod": "2026-11-21T00:09-03:00",
+"h": "0b92181a79234bb9",
+"mod": "2026-11-21T11:42-03:00",
 "nome": "Norwich City"
 },
 "/time/nottingham-forest/": {
@@ -4142,8 +4142,8 @@
 },
 "/time/queens-park-rangers/": {
 "dia": "",
-"h": "8856513b8127c3aa",
-"mod": "2026-11-21T00:09-03:00",
+"h": "11787291d6dc06ed",
+"mod": "2026-11-21T11:42-03:00",
 "nome": "Queens Park Rangers"
 },
 "/time/queretaro/": {
@@ -4424,8 +4424,8 @@
 },
 "/time/southampton/": {
 "dia": "",
-"h": "22f171a6941fd864",
-"mod": "2026-11-21T00:09-03:00",
+"h": "936b825131621347",
+"mod": "2026-11-21T11:42-03:00",
 "nome": "Southampton"
 },
 "/time/sparta-prague/": {
