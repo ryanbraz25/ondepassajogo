@@ -182,8 +182,8 @@
 },
 "/campeonato/turquia/": {
 "dia": "",
-"h": "f3332365b410d1c2",
-"mod": "2026-11-21T00:09-03:00"
+"h": "f91444e959c0c0e7",
+"mod": "2026-11-21T09:49-03:00"
 },
 "/jogo/1-fc-union-berlin-x-hamburg-sv-05-12-2026/": {
 "dia": "2026-12-05",
@@ -342,8 +342,8 @@
 },
 "/jogo/amed-sfk-x-caykur-rizespor-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "ddf0a0ed65d1de4e",
-"mod": "2026-11-21T00:09-03:00"
+"h": "30faaf3bcb6d31c4",
+"mod": "2026-11-21T09:49-03:00"
 },
 "/jogo/angers-x-lens-28-11-2026/": {
 "dia": "2026-11-28",
@@ -1107,8 +1107,8 @@
 },
 "/jogo/galatasaray-x-samsunspor-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "2551992c344ec1b7",
-"mod": "2026-11-20T00:17-03:00"
+"h": "a01347f9b1d16d42",
+"mod": "2026-11-21T09:49-03:00"
 },
 "/jogo/gaziantep-fk-x-amed-sfk-28-11-2026/": {
 "dia": "2026-11-28",
@@ -1117,8 +1117,8 @@
 },
 "/jogo/genclerbirligi-x-gaziantep-fk-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "3b69f4482fb8e45e",
-"mod": "2026-11-21T00:09-03:00"
+"h": "fa7fe05f27d87969",
+"mod": "2026-11-21T09:49-03:00"
 },
 "/jogo/getafe-x-atletico-de-madrid-22-11-2026/": {
 "dia": "2026-11-22",
@@ -1312,8 +1312,8 @@
 },
 "/jogo/kocaelispor-x-fenerbahce-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "9ba7eaa0d2b8efd8",
-"mod": "2026-11-21T00:09-03:00"
+"h": "1f47350cf9a629e2",
+"mod": "2026-11-21T09:49-03:00"
 },
 "/jogo/konyaspor-x-besiktas-22-11-2026/": {
 "dia": "2026-11-22",
@@ -2397,8 +2397,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "4fc2fb1daf5e5fb3",
-"mod": "2026-11-21T02:58-03:00"
+"h": "0a1e1aa648ec810d",
+"mod": "2026-11-21T09:49-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -3392,14 +3392,14 @@
 },
 "/time/gaziantep-fk/": {
 "dia": "",
-"h": "32d25cf50a28631f",
-"mod": "2026-11-21T00:09-03:00",
+"h": "96f68aeef9022bc2",
+"mod": "2026-11-21T09:49-03:00",
 "nome": "Gaziantep FK"
 },
 "/time/genclerbirligi/": {
 "dia": "",
-"h": "8c44688fce23c35f",
-"mod": "2026-11-17T17:37-03:00",
+"h": "5f9c50ee9007c36a",
+"mod": "2026-11-21T09:49-03:00",
 "nome": "Genclerbirligi"
 },
 "/time/genoa/": {

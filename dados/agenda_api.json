@@ -5253,6 +5253,10 @@
   "inicio": "2026-11-21T07:30:00-03:00",
   "lg": "tur.1",
   "local": "Eryaman Stadium, Ankara",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401888248": {
