@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T12:41:20-03:00",
+ "atualizado": "2026-11-21T16:08:51-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -659,6 +659,10 @@
    "eid": "401875056",
    "lg": "ita.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "pg": "/jogo/como-x-cagliari-21-11-2026/"
   },
   {
@@ -674,6 +678,10 @@
    "eid": "401874981",
    "lg": "ita.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   },
    "pg": "/jogo/lazio-x-lecce-21-11-2026/"
   },
   {
@@ -689,6 +697,10 @@
    "eid": "401884732",
    "lg": "ger.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 1,
+    "fora": 5
+   },
    "pg": "/jogo/1-fc-union-berlin-x-rb-leipzig-21-11-2026/"
   },
   {
@@ -704,6 +716,10 @@
    "eid": "401884735",
    "lg": "ger.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "pg": "/jogo/bayer-leverkusen-x-sc-paderborn-07-21-11-2026/"
   },
   {
@@ -719,6 +735,10 @@
    "eid": "401884731",
    "lg": "ger.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "pg": "/jogo/borussia-monchengladbach-x-borussia-dortmund-21-11-2026/"
   },
   {
@@ -734,6 +754,10 @@
    "eid": "401884734",
    "lg": "ger.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "pg": "/jogo/eintracht-frankfurt-x-tsg-hoffenheim-21-11-2026/"
   },
   {
@@ -749,6 +773,10 @@
    "eid": "401884728",
    "lg": "ger.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "pg": "/jogo/sv-elversberg-x-sc-freiburg-21-11-2026/"
   },
   {
@@ -765,6 +793,10 @@
    "eid": "401878756",
    "lg": "eng.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   },
    "rodada": "12ª rodada",
    "nota": "Horário aproximado",
    "pg": "/jogo/aston-villa-x-sunderland-21-11-2026/"
@@ -780,6 +812,10 @@
    "eid": "401880160",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "pg": "/jogo/bolton-wanderers-x-portsmouth-21-11-2026/"
   },
   {
@@ -796,6 +832,10 @@
    "eid": "401879238",
    "lg": "eng.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "rodada": "12ª rodada",
    "nota": "Horário aproximado",
    "pg": "/jogo/bournemouth-x-nottingham-forest-21-11-2026/"
@@ -814,6 +854,10 @@
    "eid": "401879236",
    "lg": "eng.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   },
    "rodada": "12ª rodada",
    "nota": "Horário aproximado",
    "pg": "/jogo/chelsea-x-leeds-21-11-2026/"
@@ -831,6 +875,10 @@
    "eid": "401879235",
    "lg": "eng.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   },
    "pg": "/jogo/coventry-city-x-crystal-palace-21-11-2026/"
   },
   {
@@ -844,6 +892,10 @@
    "eid": "401880158",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "pg": "/jogo/lincoln-city-x-wrexham-21-11-2026/"
   },
   {
@@ -857,6 +909,10 @@
    "eid": "401880157",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "pg": "/jogo/middlesbrough-x-bristol-city-21-11-2026/"
   },
   {
@@ -870,6 +926,10 @@
    "eid": "401880154",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "pg": "/jogo/sheffield-united-x-watford-21-11-2026/"
   },
   {
@@ -883,6 +943,10 @@
    "eid": "401880152",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "pg": "/jogo/stoke-city-x-birmingham-city-21-11-2026/"
   },
   {
@@ -896,6 +960,10 @@
    "eid": "401880151",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   },
    "pg": "/jogo/swansea-city-x-west-bromwich-albion-21-11-2026/"
   },
   {
@@ -911,6 +979,10 @@
    "eid": "401878754",
    "lg": "eng.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "pg": "/jogo/tottenham-x-ipswich-town-21-11-2026/"
   },
   {
@@ -924,6 +996,10 @@
    "eid": "401880150",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "pg": "/jogo/west-ham-united-x-preston-north-end-21-11-2026/"
   },
   {
@@ -937,6 +1013,10 @@
    "eid": "401880149",
    "lg": "eng.2",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   },
    "pg": "/jogo/wolverhampton-wanderers-x-charlton-athletic-21-11-2026/"
   },
   {
@@ -952,6 +1032,10 @@
    "eid": "401882799",
    "lg": "esp.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "pg": "/jogo/rayo-vallecano-x-valencia-21-11-2026/"
   },
   {
@@ -965,6 +1049,10 @@
    "eid": "401875541",
    "lg": "ned.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   },
    "pg": "/jogo/nec-nijmegen-x-psv-eindhoven-21-11-2026/"
   },
   {
@@ -978,6 +1066,10 @@
    "eid": "401888244",
    "lg": "tur.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   },
    "pg": "/jogo/kocaelispor-x-fenerbahce-21-11-2026/"
   },
   {
@@ -993,6 +1085,10 @@
    "eid": "401876398",
    "lg": "fra.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   },
    "pg": "/jogo/nice-x-paris-saint-germain-21-11-2026/"
   },
   {
@@ -1008,6 +1104,10 @@
    "eid": "401874967",
    "lg": "ita.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 1,
+    "fora": 5
+   },
    "pg": "/jogo/parma-x-roma-21-11-2026/"
   },
   {
@@ -4114,16 +4214,16 @@
    "pg": "/jogo/fc-cincinnati-x-nashville-sc-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T21:00:00-03:00",
-   "comp": "brasileirao-a",
-   "casa": "Botafogo",
-   "fora": "Bahia",
-   "local": "João Havelange Stadium, Rio de Janeiro",
    "canais": [],
-   "status": "a_confirmar",
-   "eid": "401841336",
-   "lg": "bra.1",
+   "casa": "Botafogo",
+   "comp": "brasileirao-a",
    "ed": "20261128",
+   "eid": "401841336",
+   "fora": "Bahia",
+   "inicio": "2026-11-28T21:00:00-03:00",
+   "lg": "bra.1",
+   "local": "João Havelange Stadium, Rio de Janeiro",
+   "status": "a_confirmar",
    "pg": "/jogo/botafogo-x-bahia-28-11-2026/"
   },
   {

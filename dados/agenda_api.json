@@ -637,6 +637,10 @@
   "inicio": "2026-11-21T14:00:00-03:00",
   "lg": "ita.1",
   "local": "Ennio Tardini, Parma",
+  "placar": {
+   "casa": 1,
+   "fora": 5
+  },
   "status": "a_confirmar"
  },
  "espn:401874975": {
@@ -697,6 +701,10 @@
   "inicio": "2026-11-21T11:00:00-03:00",
   "lg": "ita.1",
   "local": "Olimpico, Roma",
+  "placar": {
+   "casa": 3,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401874984": {
@@ -957,6 +965,10 @@
   "inicio": "2026-11-21T11:00:00-03:00",
   "lg": "ita.1",
   "local": "Giuseppe Sinigaglia, Como",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401875067": {
@@ -1323,6 +1335,10 @@
   "inicio": "2026-11-21T12:30:00-03:00",
   "lg": "ned.1",
   "local": "Goffertstadion, Nijmegen",
+  "placar": {
+   "casa": 1,
+   "fora": 4
+  },
   "status": "a_confirmar"
  },
  "espn:401875542": {
@@ -1815,6 +1831,10 @@
   "inicio": "2026-11-21T13:15:00-03:00",
   "lg": "fra.1",
   "local": "Allianz Riviera, Nice",
+  "placar": {
+   "casa": 2,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401876399": {
@@ -2229,6 +2249,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.1",
   "local": "Tottenham Hotspur Stadium, London",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401878755": {
@@ -2269,6 +2293,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.1",
   "local": "Villa Park, Birmingham",
+  "placar": {
+   "casa": 0,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401879210": {
@@ -2773,6 +2801,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.1",
   "local": "Coventry Building Society Arena, Coventry",
+  "placar": {
+   "casa": 3,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401879236": {
@@ -2793,6 +2825,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.1",
   "local": "Stamford Bridge, London",
+  "placar": {
+   "casa": 1,
+   "fora": 4
+  },
   "status": "a_confirmar"
  },
  "espn:401879237": {
@@ -2833,6 +2869,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.1",
   "local": "Vitality Stadium, Bournemouth",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880113": {
@@ -3481,6 +3521,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.2",
   "local": "Molineux Stadium, Wolverhampton",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880150": {
@@ -3499,6 +3543,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.2",
   "local": "London Stadium, London",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880151": {
@@ -3517,6 +3565,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.2",
   "local": "Swansea.com Stadium, Swansea",
+  "placar": {
+   "casa": 2,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401880152": {
@@ -3535,6 +3587,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.2",
   "local": "bet365 Stadium, Stoke-on-Trent",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880153": {
@@ -3575,6 +3631,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.2",
   "local": "Bramall Lane, Sheffield",
+  "placar": {
+   "casa": 4,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880155": {
@@ -3637,6 +3697,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.2",
   "local": "Riverside Stadium, Middlesbrough",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880158": {
@@ -3655,6 +3719,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.2",
   "local": "LNER Stadium, Lincoln",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880159": {
@@ -3691,6 +3759,10 @@
   "inicio": "2026-11-21T12:00:00-03:00",
   "lg": "eng.2",
   "local": "Toughsheet Community Stadium, Bolton",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401882698": {
@@ -4091,6 +4163,10 @@
   "inicio": "2026-11-21T12:15:00-03:00",
   "lg": "esp.1",
   "local": "Estadio de Vallecas, Madrid",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401882800": {
@@ -4579,6 +4655,10 @@
   "inicio": "2026-11-21T11:30:00-03:00",
   "lg": "ger.1",
   "local": "URSAPHARM-Arena an der Kaiserlinde, Spiesen-Elversberg",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401884729": {
@@ -4639,6 +4719,10 @@
   "inicio": "2026-11-21T11:30:00-03:00",
   "lg": "ger.1",
   "local": "BORUSSIA-PARK, Mönchengladbach",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401884732": {
@@ -4659,6 +4743,10 @@
   "inicio": "2026-11-21T11:30:00-03:00",
   "lg": "ger.1",
   "local": "Stadion An der Alten Försterei, Berlin",
+  "placar": {
+   "casa": 1,
+   "fora": 5
+  },
   "status": "a_confirmar"
  },
  "espn:401884733": {
@@ -4699,6 +4787,10 @@
   "inicio": "2026-11-21T11:30:00-03:00",
   "lg": "ger.1",
   "local": "Deutsche Bank Park, Frankfurt",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401884735": {
@@ -4719,6 +4811,10 @@
   "inicio": "2026-11-21T11:30:00-03:00",
   "lg": "ger.1",
   "local": "BayArena, Leverkusen",
+  "placar": {
+   "casa": 4,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401884736": {
@@ -5219,6 +5315,10 @@
   "inicio": "2026-11-21T13:00:00-03:00",
   "lg": "tur.1",
   "local": "Yildiz Entegre Kocaeli Stadyumu, Kocaeli",
+  "placar": {
+   "casa": 2,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401888245": {
