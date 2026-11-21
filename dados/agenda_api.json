@@ -7591,6 +7591,10 @@
   "inicio": "2026-11-21T18:00:00-03:00",
   "lg": "usa.1",
   "local": "Toyota Stadium, Toyota Stadium",
+  "placar": {
+   "casa": 3,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401933733": {

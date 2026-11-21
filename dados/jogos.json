@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T19:57:34-03:00",
+ "atualizado": "2026-11-21T20:53:57-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1465,6 +1465,10 @@
    "eid": "401933732",
    "lg": "usa.1",
    "ed": "20261121",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   },
    "pg": "/jogo/fc-dallas-x-portland-timbers-21-11-2026/"
   },
   {

@@ -122,8 +122,8 @@
 },
 "/campeonato/mls/": {
 "dia": "",
-"h": "d2d28f83223a7b9e",
-"mod": "2026-11-21T19:01-03:00"
+"h": "cbca4f97929f707e",
+"mod": "2026-11-21T20:54-03:00"
 },
 "/campeonato/mundial/": {
 "dia": "",
@@ -982,8 +982,8 @@
 },
 "/jogo/fc-dallas-x-portland-timbers-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "1fc63ecdaf88d010",
-"mod": "2026-11-21T19:01-03:00"
+"h": "1474fdc3fb9c2e68",
+"mod": "2026-11-21T20:54-03:00"
 },
 "/jogo/fc-groningen-x-heerenveen-21-11-2026/": {
 "dia": "2026-11-21",
@@ -1237,8 +1237,8 @@
 },
 "/jogo/inter-miami-cf-x-columbus-crew-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "30271ad0402afb6e",
-"mod": "2026-11-21T19:01-03:00"
+"h": "1afb556595222d3a",
+"mod": "2026-11-21T20:54-03:00"
 },
 "/jogo/internacional-x-red-bull-bragantino-29-11-2026/": {
 "dia": "2026-11-29",
@@ -1577,8 +1577,8 @@
 },
 "/jogo/new-england-revolution-x-philadelphia-union-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "3666970543ee1840",
-"mod": "2026-11-21T19:01-03:00"
+"h": "68d83cf59b66998c",
+"mod": "2026-11-21T20:54-03:00"
 },
 "/jogo/newcastle-x-arsenal-21-11-2026/": {
 "dia": "2026-11-21",
@@ -2397,8 +2397,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "f7f7c21c5bb8fa72",
-"mod": "2026-11-21T19:57-03:00"
+"h": "52630bcaa8dae731",
+"mod": "2026-11-21T20:54-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -3260,8 +3260,8 @@
 },
 "/time/fc-dallas/": {
 "dia": "",
-"h": "c3dc470020fa06fe",
-"mod": "2026-11-18T00:54-03:00",
+"h": "b42907d031f6ba72",
+"mod": "2026-11-21T20:54-03:00",
 "nome": "FC Dallas"
 },
 "/time/fc-famalicao/": {
@@ -4094,8 +4094,8 @@
 },
 "/time/portland-timbers/": {
 "dia": "",
-"h": "cb1872fc24a0caa4",
-"mod": "2026-11-18T00:54-03:00",
+"h": "dac12dabf6e2e2e0",
+"mod": "2026-11-21T20:54-03:00",
 "nome": "Portland Timbers"
 },
 "/time/portsmouth/": {
