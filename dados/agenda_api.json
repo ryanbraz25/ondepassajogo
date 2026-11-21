@@ -87,6 +87,10 @@
   "inicio": "2026-11-21T16:30:00-03:00",
   "lg": "bra.1",
   "local": "Allianz Parque, Sao Paulo",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841323": {
@@ -989,6 +993,10 @@
   "inicio": "2026-11-21T16:45:00-03:00",
   "lg": "ita.1",
   "local": "Stadio Diego Armando Maradona, Napoli",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401875081": {
@@ -1299,6 +1307,10 @@
   "inicio": "2026-11-21T17:00:00-03:00",
   "lg": "ned.1",
   "local": "711 Stadion, Velsen-Zuid",
+  "placar": {
+   "casa": 1,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401875540": {
@@ -1437,6 +1449,10 @@
   "inicio": "2026-11-21T17:00:00-03:00",
   "lg": "ned.1",
   "local": "Euroborg, Groningen",
+  "placar": {
+   "casa": 1,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401875547": {
@@ -1799,6 +1815,10 @@
   "inicio": "2026-11-21T16:45:00-03:00",
   "lg": "fra.1",
   "local": "Stade de la Meinau, Strasbourg",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401876397": {
@@ -1863,6 +1883,10 @@
   "inicio": "2026-11-21T16:45:00-03:00",
   "lg": "fra.1",
   "local": "Stade Louis II, Monaco",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401876400": {
@@ -1923,6 +1947,10 @@
   "inicio": "2026-11-21T16:45:00-03:00",
   "lg": "fra.1",
   "local": "Decathlon Arena - Stade Pierre-Mauroy, Lille",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401876403": {
@@ -1943,6 +1971,10 @@
   "inicio": "2026-11-21T16:45:00-03:00",
   "lg": "fra.1",
   "local": "Stade Bollaert-Delelis, Lens",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401877046": {
@@ -7571,6 +7603,10 @@
   "inicio": "2026-11-21T16:00:00-03:00",
   "lg": "usa.1",
   "local": "Gillette Stadium, Foxborough, Massachusetts",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401933735": {
@@ -7691,6 +7727,10 @@
   "inicio": "2026-11-21T17:00:00-03:00",
   "lg": "arg.1",
   "local": "Diego Armando Maradona, Buenos Aires",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401933756": {
