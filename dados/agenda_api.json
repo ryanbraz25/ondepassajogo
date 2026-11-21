@@ -6797,6 +6797,11 @@
   "inicio": "2026-11-20T20:00:00-03:00",
   "lg": "arg.1",
   "local": "José Amalfitani, Buenos Aires",
+  "nota": "Pênaltis: 3 x 1",
+  "placar": {
+   "casa": 2,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401933761": {

@@ -7,8 +7,8 @@
 },
 "/campeonato/argentina/": {
 "dia": "",
-"h": "eae0bf8fd06c151f",
-"mod": "2026-11-17T17:37-03:00"
+"h": "a68328cd09cea9f3",
+"mod": "2026-11-20T23:10-03:00"
 },
 "/campeonato/brasileirao-a/": {
 "dia": "",
@@ -1992,8 +1992,8 @@
 },
 "/jogo/velez-sarsfield-x-belgrano-cordoba-20-11-2026/": {
 "dia": "2026-11-20",
-"h": "46e0521733eebb79",
-"mod": "2026-11-17T17:37-03:00"
+"h": "c88fe86fe9ec02da",
+"mod": "2026-11-20T23:10-03:00"
 },
 "/jogo/venezia-x-bologna-27-11-2026/": {
 "dia": "2026-11-27",
@@ -2092,8 +2092,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "264ee646e2b5b52d",
-"mod": "2026-11-20T18:57-03:00"
+"h": "7addb414aee8c280",
+"mod": "2026-11-20T23:10-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2439,8 +2439,8 @@
 },
 "/time/belgrano-cordoba/": {
 "dia": "",
-"h": "b97ab5aa782af90f",
-"mod": "2026-11-17T17:37-03:00",
+"h": "ef2684071fcf252f",
+"mod": "2026-11-20T23:10-03:00",
 "nome": "Belgrano (Córdoba)"
 },
 "/time/benfica/": {
@@ -4179,8 +4179,8 @@
 },
 "/time/velez-sarsfield/": {
 "dia": "",
-"h": "9885b56bfae03471",
-"mod": "2026-11-17T17:37-03:00",
+"h": "7b85342373aeda18",
+"mod": "2026-11-20T23:10-03:00",
 "nome": "Vélez Sarsfield"
 },
 "/time/venezia/": {
