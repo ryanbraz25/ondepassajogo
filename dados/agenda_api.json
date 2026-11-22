@@ -2225,6 +2225,10 @@
   "inicio": "2026-11-22T00:00:00-03:00",
   "lg": "mex.1",
   "local": "Estadio Universitario, San Nicolás de los Garza",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401877049": {
