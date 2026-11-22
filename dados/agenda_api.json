@@ -4061,6 +4061,10 @@
   "inicio": "2026-11-22T09:00:00-03:00",
   "lg": "eng.2",
   "local": "Turf Moor, Burnley",
+  "placar": {
+   "casa": 2,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401880160": {

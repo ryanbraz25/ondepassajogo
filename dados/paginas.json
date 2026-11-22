@@ -37,8 +37,8 @@
 },
 "/campeonato/championship/": {
 "dia": "",
-"h": "842820f1db9d609e",
-"mod": "2026-11-22T00:08-03:00"
+"h": "00854817268f0b2e",
+"mod": "2026-11-22T11:54-03:00"
 },
 "/campeonato/conference/": {
 "dia": "",
@@ -692,8 +692,8 @@
 },
 "/jogo/burnley-x-blackburn-rovers-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "84fdf92aa874da01",
-"mod": "2026-11-22T00:08-03:00"
+"h": "eca14c01e405912b",
+"mod": "2026-11-22T11:54-03:00"
 },
 "/jogo/burnley-x-preston-north-end-06-12-2026/": {
 "dia": "2026-12-06",
@@ -2567,8 +2567,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "94ea071e5678f9f1",
-"mod": "2026-11-22T10:57-03:00"
+"h": "bc525e82e6030eb9",
+"mod": "2026-11-22T11:54-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2962,8 +2962,8 @@
 },
 "/time/blackburn-rovers/": {
 "dia": "",
-"h": "911017a34efeaecf",
-"mod": "2026-11-21T00:09-03:00",
+"h": "080a5cd38a2bfa88",
+"mod": "2026-11-22T11:54-03:00",
 "nome": "Blackburn Rovers"
 },
 "/time/blackpool/": {
@@ -3076,8 +3076,8 @@
 },
 "/time/burnley/": {
 "dia": "",
-"h": "d1f0e03ef7c41f27",
-"mod": "2026-11-22T00:08-03:00",
+"h": "0fe0c3b1a88aabdc",
+"mod": "2026-11-22T11:54-03:00",
 "nome": "Burnley"
 },
 "/time/burton-albion/": {

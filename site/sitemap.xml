@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- <url><loc>https://ondepassajogo.com.br/</loc><lastmod>2026-11-22T10:57-03:00</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
- <url><loc>https://ondepassajogo.com.br/jogos-de-hoje/</loc><lastmod>2026-11-22T10:57-03:00</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+ <url><loc>https://ondepassajogo.com.br/</loc><lastmod>2026-11-22T11:54-03:00</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+ <url><loc>https://ondepassajogo.com.br/jogos-de-hoje/</loc><lastmod>2026-11-22T11:54-03:00</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogos-de-amanha/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/amistoso/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/argentina/</loc><lastmod>2026-11-21T19:01-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -10,7 +10,7 @@
  <url><loc>https://ondepassajogo.com.br/campeonato/bundesliga/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/carioca/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/champions/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
- <url><loc>https://ondepassajogo.com.br/campeonato/championship/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+ <url><loc>https://ondepassajogo.com.br/campeonato/championship/</loc><lastmod>2026-11-22T11:54-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/conference/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/copa-do-brasil/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/copa-do-rei/</loc><lastmod>2026-11-18T19:24-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -141,7 +141,7 @@
  <url><loc>https://ondepassajogo.com.br/jogo/bristol-city-x-swansea-city-05-12-2026/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/bristol-city-x-wrexham-24-11-2026/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/burnley-x-birmingham-city-25-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
- <url><loc>https://ondepassajogo.com.br/jogo/burnley-x-blackburn-rovers-22-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+ <url><loc>https://ondepassajogo.com.br/jogo/burnley-x-blackburn-rovers-22-11-2026/</loc><lastmod>2026-11-22T11:54-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/burnley-x-preston-north-end-06-12-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/c-d-nacional-x-benfica-05-12-2026/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/cagliari-x-milan-30-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -580,7 +580,7 @@
  <url><loc>https://ondepassajogo.com.br/time/benfica/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/besiktas/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/birmingham-city/</loc><lastmod>2026-11-21T16:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
- <url><loc>https://ondepassajogo.com.br/time/blackburn-rovers/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+ <url><loc>https://ondepassajogo.com.br/time/blackburn-rovers/</loc><lastmod>2026-11-22T11:54-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/blackpool/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/boca-juniors/</loc><lastmod>2026-11-21T22:12-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/bodo-glimt/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -599,7 +599,7 @@
  <url><loc>https://ondepassajogo.com.br/time/brighton/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/bristol-city/</loc><lastmod>2026-11-21T16:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/bristol-rovers/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
- <url><loc>https://ondepassajogo.com.br/time/burnley/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+ <url><loc>https://ondepassajogo.com.br/time/burnley/</loc><lastmod>2026-11-22T11:54-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/burton-albion/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/c-d-nacional/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/cagliari/</loc><lastmod>2026-11-21T16:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>

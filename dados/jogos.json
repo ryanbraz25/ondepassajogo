@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T10:56:55-03:00",
+ "atualizado": "2026-11-22T11:53:30-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1534,6 +1534,10 @@
    "eid": "401880159",
    "lg": "eng.2",
    "ed": "20261122",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   },
    "pg": "/jogo/burnley-x-blackburn-rovers-22-11-2026/"
   },
   {
