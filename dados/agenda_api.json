@@ -897,6 +897,10 @@
   "inicio": "2026-11-22T08:30:00-03:00",
   "lg": "ita.1",
   "local": "Allianz Stadium, Torino",
+  "placar": {
+   "casa": 4,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401875009": {
@@ -1591,6 +1595,10 @@
   "inicio": "2026-11-22T08:15:00-03:00",
   "lg": "ned.1",
   "local": "De Grolsch Veste, Enschede",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401875546": {

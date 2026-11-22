@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T10:00:16-03:00",
+ "atualizado": "2026-11-22T10:56:55-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1498,6 +1498,10 @@
    "eid": "401875545",
    "lg": "ned.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   },
    "pg": "/jogo/fc-twente-x-willem-ii-22-11-2026/"
   },
   {
@@ -1513,6 +1517,10 @@
    "eid": "401875008",
    "lg": "ita.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "pg": "/jogo/juventus-x-venezia-22-11-2026/"
   },
   {
