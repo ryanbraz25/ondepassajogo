@@ -5827,6 +5827,10 @@
   "inicio": "2026-11-22T07:30:00-03:00",
   "lg": "tur.1",
   "local": "Erzurum Kazim Karabekir, Erzurum",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401888244": {

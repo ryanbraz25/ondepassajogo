@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- <url><loc>https://ondepassajogo.com.br/</loc><lastmod>2026-11-22T09:04-03:00</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
- <url><loc>https://ondepassajogo.com.br/jogos-de-hoje/</loc><lastmod>2026-11-22T02:58-03:00</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+ <url><loc>https://ondepassajogo.com.br/</loc><lastmod>2026-11-22T10:00-03:00</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+ <url><loc>https://ondepassajogo.com.br/jogos-de-hoje/</loc><lastmod>2026-11-22T10:00-03:00</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogos-de-amanha/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/amistoso/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/argentina/</loc><lastmod>2026-11-21T19:01-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -39,7 +39,7 @@
  <url><loc>https://ondepassajogo.com.br/campeonato/serie-a-ita/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/sul-americana/</loc><lastmod>2026-11-21T22:12-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/campeonato/supercopa/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
- <url><loc>https://ondepassajogo.com.br/campeonato/turquia/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+ <url><loc>https://ondepassajogo.com.br/campeonato/turquia/</loc><lastmod>2026-11-22T10:00-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-hamburg-sv-05-12-2026/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-rb-leipzig-21-11-2026/</loc><lastmod>2026-11-21T17:05-03:00</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/abha-x-al-shabab-26-11-2026/</loc><lastmod>2026-11-19T00:33-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -195,7 +195,7 @@
  <url><loc>https://ondepassajogo.com.br/jogo/eintracht-frankfurt-x-tsg-hoffenheim-21-11-2026/</loc><lastmod>2026-11-21T17:05-03:00</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/eintracht-frankfurt-x-werder-bremen-05-12-2026/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/elche-x-atletico-de-madrid-28-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
- <url><loc>https://ondepassajogo.com.br/jogo/erzurum-bb-x-goztepe-22-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+ <url><loc>https://ondepassajogo.com.br/jogo/erzurum-bb-x-goztepe-22-11-2026/</loc><lastmod>2026-11-22T10:00-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/erzurum-bb-x-kocaelispor-06-12-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/espanha-x-chile-28-11-2026/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/espanyol-x-getafe-30-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -283,10 +283,10 @@
  <url><loc>https://ondepassajogo.com.br/jogo/juventus-x-venezia-22-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/kaa-gent-x-red-star-belgrade-26-11-2026/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/kairat-almaty-x-mjallby-aif-26-11-2026/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
- <url><loc>https://ondepassajogo.com.br/jogo/kasimpasa-x-alanyaspor-22-11-2026/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+ <url><loc>https://ondepassajogo.com.br/jogo/kasimpasa-x-alanyaspor-22-11-2026/</loc><lastmod>2026-11-22T10:00-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/kauno-zalgiris-x-riga-fc-26-11-2026/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/kocaelispor-x-fenerbahce-21-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
- <url><loc>https://ondepassajogo.com.br/jogo/konyaspor-x-besiktas-22-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+ <url><loc>https://ondepassajogo.com.br/jogo/konyaspor-x-besiktas-22-11-2026/</loc><lastmod>2026-11-22T10:00-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/konyaspor-x-gaziantep-fk-05-12-2026/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/lafc-x-st-louis-city-sc-28-11-2026/</loc><lastmod>2026-11-20T08:23-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/lazio-x-atalanta-06-12-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -475,7 +475,7 @@
  <url><loc>https://ondepassajogo.com.br/jogo/toulouse-x-paris-saint-germain-04-12-2026/</loc><lastmod>2026-11-20T00:17-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/toulouse-x-stade-rennais-29-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/trabzonspor-x-corum-fk-06-12-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
- <url><loc>https://ondepassajogo.com.br/jogo/trabzonspor-x-eyupspor-22-11-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+ <url><loc>https://ondepassajogo.com.br/jogo/trabzonspor-x-eyupspor-22-11-2026/</loc><lastmod>2026-11-22T10:00-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/troyes-x-le-havre-ac-20-11-2026/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.4</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/troyes-x-lyon-06-12-2026/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
  <url><loc>https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-fc-augsburg-29-11-2026/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -646,7 +646,7 @@
  <url><loc>https://ondepassajogo.com.br/time/egnatia/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/eintracht-frankfurt/</loc><lastmod>2026-11-21T16:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/elche/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
- <url><loc>https://ondepassajogo.com.br/time/erzurum-bb/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+ <url><loc>https://ondepassajogo.com.br/time/erzurum-bb/</loc><lastmod>2026-11-22T10:00-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/escocia/</loc><lastmod>2026-11-18T00:54-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/espanha/</loc><lastmod>2026-11-18T12:24-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/espanyol/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
@@ -693,7 +693,7 @@
  <url><loc>https://ondepassajogo.com.br/time/gimnasia-la-plata/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/gimnasia-mendoza/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/go-ahead-eagles/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
- <url><loc>https://ondepassajogo.com.br/time/goztepe/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+ <url><loc>https://ondepassajogo.com.br/time/goztepe/</loc><lastmod>2026-11-22T10:00-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/gremio/</loc><lastmod>2026-11-22T00:08-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/grimsby-town/</loc><lastmod>2026-11-21T00:09-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
  <url><loc>https://ondepassajogo.com.br/time/guadalajara/</loc><lastmod>2026-11-17T17:37-03:00</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>

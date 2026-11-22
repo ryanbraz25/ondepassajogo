@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T09:03:34-03:00",
+ "atualizado": "2026-11-22T10:00:16-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1481,6 +1481,10 @@
    "eid": "401888243",
    "lg": "tur.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "pg": "/jogo/erzurum-bb-x-goztepe-22-11-2026/"
   },
   {
