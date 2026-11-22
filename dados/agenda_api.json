@@ -15,6 +15,10 @@
   "inicio": "2026-11-22T16:00:00-03:00",
   "lg": "bra.1",
   "local": "Arena da Baixada, Curitiba",
+  "placar": {
+   "casa": 4,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401841319": {
@@ -845,6 +849,10 @@
   "inicio": "2026-11-22T16:45:00-03:00",
   "lg": "ita.1",
   "local": "New Balance Arena, Bergamo",
+  "placar": {
+   "casa": 4,
+   "fora": 4
+  },
   "status": "a_confirmar"
  },
  "espn:401875004": {
@@ -2139,6 +2147,10 @@
   "inicio": "2026-11-22T16:45:00-03:00",
   "lg": "fra.1",
   "local": "Stade Vélodrome, Marseille",
+  "placar": {
+   "casa": 2,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401876401": {
@@ -4707,6 +4719,10 @@
   "inicio": "2026-11-22T17:00:00-03:00",
   "lg": "esp.1",
   "local": "Estadio Coliseum, Getafe",
+  "placar": {
+   "casa": 0,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401882804": {
@@ -6565,6 +6581,10 @@
   "inicio": "2026-11-22T16:00:00-03:00",
   "lg": "bra.2",
   "local": "Heriberto Hülse, Criciúma",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401912683": {
@@ -8382,6 +8402,10 @@
   "inicio": "2026-11-22T16:00:00-03:00",
   "lg": "arg.1",
   "local": "Gigante de Arroyito, Rosario",
+  "placar": {
+   "casa": 3,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401933761": {

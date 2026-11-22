@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T17:26:50-03:00",
+ "atualizado": "2026-11-22T19:13:13-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1883,6 +1883,10 @@
    "eid": "401841318",
    "lg": "bra.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 4,
+    "fora": 2
+   },
    "rodada": "36ª rodada",
    "pg": "/jogo/athletico-pr-x-remo-22-11-2026/"
   },
@@ -1899,6 +1903,10 @@
    "eid": "401912682",
    "lg": "bra.2",
    "ed": "20261122",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "pg": "/jogo/criciuma-x-fortaleza-22-11-2026/"
   },
   {
@@ -1914,6 +1922,10 @@
    "eid": "401933759",
    "lg": "arg.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   },
    "pg": "/jogo/rosario-central-x-gimnasia-mendoza-22-11-2026/"
   },
   {
@@ -1929,6 +1941,10 @@
    "eid": "401875001",
    "lg": "ita.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 4,
+    "fora": 4
+   },
    "pg": "/jogo/atalanta-x-inter-de-milao-22-11-2026/"
   },
   {
@@ -1944,6 +1960,10 @@
    "eid": "401876400",
    "lg": "fra.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   },
    "pg": "/jogo/marseille-x-le-mans-22-11-2026/"
   },
   {
@@ -1959,6 +1979,10 @@
    "eid": "401882803",
    "lg": "esp.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   },
    "pg": "/jogo/getafe-x-atletico-de-madrid-22-11-2026/"
   },
   {
