@@ -62,8 +62,8 @@
 },
 "/campeonato/eredivisie/": {
 "dia": "",
-"h": "dde958c20d73c12f",
-"mod": "2026-11-22T10:57-03:00"
+"h": "f70850f38f0f0eda",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/campeonato/eurocopa/": {
 "dia": "",
@@ -92,8 +92,8 @@
 },
 "/campeonato/laliga/": {
 "dia": "",
-"h": "a52a4530d1ff57c4",
-"mod": "2026-11-22T00:08-03:00"
+"h": "2b7dcca41802b75e",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/campeonato/libertadores-fem/": {
 "dia": "",
@@ -182,8 +182,8 @@
 },
 "/campeonato/turquia/": {
 "dia": "",
-"h": "e202da7b9bc70e7e",
-"mod": "2026-11-22T10:00-03:00"
+"h": "7eded0c8c6330125",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/1-fc-union-berlin-x-hamburg-sv-05-12-2026/": {
 "dia": "2026-12-05",
@@ -227,8 +227,8 @@
 },
 "/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "ea58f320417d6fc2",
-"mod": "2026-11-22T10:57-03:00"
+"h": "c3cc343ad53174f1",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/": {
 "dia": "2026-11-26",
@@ -502,8 +502,8 @@
 },
 "/jogo/barcelona-x-villarreal-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "a8cbe087c4a2e994",
-"mod": "2026-11-21T00:09-03:00"
+"h": "819e70e5c69cb873",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/barrow-x-kidderminster-harriers-05-12-2026/": {
 "dia": "2026-12-05",
@@ -962,8 +962,8 @@
 },
 "/jogo/erzurum-bb-x-goztepe-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "259f6212268d6aba",
-"mod": "2026-11-22T10:00-03:00"
+"h": "0147618b72c857ad",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/erzurum-bb-x-kocaelispor-06-12-2026/": {
 "dia": "2026-12-06",
@@ -1077,8 +1077,8 @@
 },
 "/jogo/fc-twente-x-willem-ii-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "c8ca159d11a4d09b",
-"mod": "2026-11-22T10:57-03:00"
+"h": "530e5f2e0541b4b5",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/fc-utrecht-x-sc-cambuur-21-11-2026/": {
 "dia": "2026-11-21",
@@ -1197,8 +1197,8 @@
 },
 "/jogo/getafe-x-atletico-de-madrid-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "62a00d086c1ec27b",
-"mod": "2026-11-22T00:08-03:00"
+"h": "76dd06a1c7d6866d",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/getafe-x-valencia-06-12-2026/": {
 "dia": "2026-12-06",
@@ -1222,8 +1222,8 @@
 },
 "/jogo/go-ahead-eagles-x-fortuna-sittard-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "ad0270e069a7db6d",
-"mod": "2026-11-22T10:57-03:00"
+"h": "8c9163555ea4afe1",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/goztepe-x-trabzonspor-30-11-2026/": {
 "dia": "2026-11-30",
@@ -1402,8 +1402,8 @@
 },
 "/jogo/kasimpasa-x-alanyaspor-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "465f6a213f8e3bdb",
-"mod": "2026-11-22T10:00-03:00"
+"h": "623c94e15c14af11",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/kauno-zalgiris-x-riga-fc-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1417,8 +1417,8 @@
 },
 "/jogo/konyaspor-x-besiktas-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "2dfd5b4c36308633",
-"mod": "2026-11-22T10:00-03:00"
+"h": "e66d71dc1283b5c0",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/konyaspor-x-gaziantep-fk-05-12-2026/": {
 "dia": "2026-12-05",
@@ -1767,8 +1767,8 @@
 },
 "/jogo/osasuna-x-malaga-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "56aa582944233c61",
-"mod": "2026-11-22T00:08-03:00"
+"h": "e60582431a7388b2",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/pachuca-x-toluca-21-11-2026/": {
 "dia": "2026-11-21",
@@ -1907,8 +1907,8 @@
 },
 "/jogo/racing-santander-x-real-sociedad-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "b6c5c41be7adbdb7",
-"mod": "2026-11-21T00:09-03:00"
+"h": "df85d9f5199c63a4",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/rayo-vallecano-x-levante-05-12-2026/": {
 "dia": "2026-12-05",
@@ -2207,8 +2207,8 @@
 },
 "/jogo/sparta-rotterdam-x-az-alkmaar-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "d30bbc112ea1e134",
-"mod": "2026-11-22T10:57-03:00"
+"h": "d729163a6a600afa",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/sparta-rotterdam-x-nec-nijmegen-05-12-2026/": {
 "dia": "2026-12-05",
@@ -2362,8 +2362,8 @@
 },
 "/jogo/trabzonspor-x-eyupspor-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "e9368aa57b0e09ca",
-"mod": "2026-11-22T10:00-03:00"
+"h": "ddd6b93a9d6f7373",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/jogo/troyes-x-le-havre-ac-20-11-2026/": {
 "dia": "2026-11-20",
@@ -2567,8 +2567,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "bc525e82e6030eb9",
-"mod": "2026-11-22T11:54-03:00"
+"h": "596f145c0a05bac8",
+"mod": "2026-11-22T12:53-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2590,8 +2590,8 @@
 },
 "/time/ado-den-haag/": {
 "dia": "",
-"h": "00f04b01df8deab8",
-"mod": "2026-11-22T00:08-03:00",
+"h": "c3fb5427fe88d94a",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "ADO Den Haag"
 },
 "/time/aek-athens/": {
@@ -2620,8 +2620,8 @@
 },
 "/time/ajax-amsterdam/": {
 "dia": "",
-"h": "bb4e520f4b157e26",
-"mod": "2026-11-22T00:08-03:00",
+"h": "163a4060cca9d879",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "Ajax Amsterdam"
 },
 "/time/al-ahli/": {
@@ -2722,8 +2722,8 @@
 },
 "/time/alanyaspor/": {
 "dia": "",
-"h": "34efd45f4dfbd0e1",
-"mod": "2026-11-21T00:09-03:00",
+"h": "46927ac855903968",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "Alanyaspor"
 },
 "/time/alaves/": {
@@ -2872,8 +2872,8 @@
 },
 "/time/az-alkmaar/": {
 "dia": "",
-"h": "1f1d442904a88e7a",
-"mod": "2026-11-21T00:09-03:00",
+"h": "8aa15510c53725c0",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "AZ Alkmaar"
 },
 "/time/badajoz/": {
@@ -2896,8 +2896,8 @@
 },
 "/time/barcelona/": {
 "dia": "",
-"h": "d303e9a32c2804c8",
-"mod": "2026-11-21T00:09-03:00",
+"h": "ba2223e8c0a40b09",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "Barcelona"
 },
 "/time/barnet/": {
@@ -2950,8 +2950,8 @@
 },
 "/time/besiktas/": {
 "dia": "",
-"h": "3adea2a53b8be996",
-"mod": "2026-11-22T00:08-03:00",
+"h": "d8813bb5f22bcaad",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "Besiktas"
 },
 "/time/birmingham-city/": {
@@ -3820,8 +3820,8 @@
 },
 "/time/kasimpasa/": {
 "dia": "",
-"h": "fc1c1a9f9ae43aca",
-"mod": "2026-11-17T17:37-03:00",
+"h": "2e07d575c35ea8e7",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "Kasimpasa"
 },
 "/time/kauno-zalgiris/": {
@@ -3844,8 +3844,8 @@
 },
 "/time/konyaspor/": {
 "dia": "",
-"h": "0850d24480899c73",
-"mod": "2026-11-21T00:09-03:00",
+"h": "1a4e7035bd3e8c6f",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "Konyaspor"
 },
 "/time/kups-kuopio/": {
@@ -4654,8 +4654,8 @@
 },
 "/time/sparta-rotterdam/": {
 "dia": "",
-"h": "bffe2124821693ae",
-"mod": "2026-11-21T00:09-03:00",
+"h": "549f2cf04b5712a8",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "Sparta Rotterdam"
 },
 "/time/sporting-cp/": {
@@ -4888,8 +4888,8 @@
 },
 "/time/villarreal/": {
 "dia": "",
-"h": "849909dce5cd0a9e",
-"mod": "2026-11-21T00:09-03:00",
+"h": "7fe4c598d3ba41b0",
+"mod": "2026-11-22T12:53-03:00",
 "nome": "Villarreal"
 },
 "/time/vitoria-de-guimaraes/": {
