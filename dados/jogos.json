@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T12:53:12-03:00",
+ "atualizado": "2026-11-22T16:30:14-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1640,6 +1640,10 @@
    "eid": "401875047",
    "lg": "ita.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "pg": "/jogo/bologna-x-udinese-22-11-2026/"
   },
   {
@@ -1655,6 +1659,10 @@
    "eid": "401879234",
    "lg": "eng.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "pg": "/jogo/hull-city-x-brighton-22-11-2026/"
   },
   {
@@ -1670,6 +1678,10 @@
    "eid": "401876397",
    "lg": "fra.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "pg": "/jogo/paris-fc-x-angers-22-11-2026/"
   },
   {
@@ -1685,6 +1697,10 @@
    "eid": "401874960",
    "lg": "ita.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   },
    "pg": "/jogo/sassuolo-x-genoa-22-11-2026/"
   },
   {
@@ -1700,6 +1716,10 @@
    "eid": "401884733",
    "lg": "ger.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   },
    "pg": "/jogo/fc-augsburg-x-mainz-22-11-2026/"
   },
   {
@@ -1715,6 +1735,10 @@
    "eid": "401882800",
    "lg": "esp.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   },
    "pg": "/jogo/racing-santander-x-real-sociedad-22-11-2026/"
   },
   {
@@ -1728,6 +1752,10 @@
    "eid": "401875542",
    "lg": "ned.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "pg": "/jogo/go-ahead-eagles-x-fortuna-sittard-22-11-2026/"
   },
   {
@@ -1741,6 +1769,10 @@
    "eid": "401888249",
    "lg": "tur.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "pg": "/jogo/trabzonspor-x-eyupspor-22-11-2026/"
   },
   {
@@ -1756,6 +1788,10 @@
    "eid": "401876401",
    "lg": "fra.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "pg": "/jogo/lorient-x-stade-rennais-22-11-2026/"
   },
   {
@@ -1771,6 +1807,10 @@
    "eid": "401878755",
    "lg": "eng.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "pg": "/jogo/liverpool-x-manchester-united-22-11-2026/"
   },
   {
@@ -1786,6 +1826,10 @@
    "eid": "401884730",
    "lg": "ger.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "pg": "/jogo/werder-bremen-x-hamburg-sv-22-11-2026/"
   },
   {
@@ -1801,6 +1845,10 @@
    "eid": "401874989",
    "lg": "ita.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 5,
+    "fora": 1
+   },
    "pg": "/jogo/milan-x-frosinone-22-11-2026/"
   },
   {
@@ -1816,6 +1864,10 @@
    "eid": "401882801",
    "lg": "esp.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "pg": "/jogo/osasuna-x-malaga-22-11-2026/"
   },
   {
@@ -4724,6 +4776,21 @@
    "pg": "/jogo/real-sociedad-x-sevilla-29-11-2026/"
   },
   {
+   "inicio": "2026-11-29T17:00:00-03:00",
+   "comp": "argentina",
+   "casa": "Vélez Sarsfield",
+   "fora": "Independiente",
+   "local": "",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "eid": "401936353",
+   "lg": "arg.1",
+   "ed": "20261129",
+   "pg": "/jogo/velez-sarsfield-x-independiente-29-11-2026/"
+  },
+  {
    "inicio": "2026-11-29T17:30:00-03:00",
    "comp": "portugal",
    "casa": "FC Porto",
@@ -7357,6 +7424,7 @@
   "Estrela": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21610.png&h=80&w=80",
   "Gil Vicente": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3699.png&h=80&w=80",
   "Estoril": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12216.png&h=80&w=80",
+  "Vélez Sarsfield": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21.png&h=80&w=80",
   "Espanyol": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/88.png&h=80&w=80",
   "FC Famalicao": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12698.png&h=80&w=80",
   "Casa Pia": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21581.png&h=80&w=80",
