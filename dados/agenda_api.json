@@ -2069,6 +2069,10 @@
   "inicio": "2026-11-21T19:50:00-03:00",
   "lg": "mex.1",
   "local": "Estadio Hidalgo, Pachuca",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401877051": {
@@ -2087,6 +2091,10 @@
   "inicio": "2026-11-21T20:00:00-03:00",
   "lg": "mex.1",
   "local": "Estadio Corona, Torreón",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401877052": {
@@ -6089,6 +6097,10 @@
   "inicio": "2026-11-21T19:30:00-03:00",
   "lg": "conmebol.sudamericana",
   "local": "Metropolitano Roberto Meléndez, Barranquilla",
+  "placar": {
+   "casa": 0,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401915291": {
@@ -7719,6 +7731,10 @@
   "inicio": "2026-11-21T20:00:00-03:00",
   "lg": "usa.1",
   "local": "Nu Stadium, Miami, Florida",
+  "placar": {
+   "casa": 0,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401933755": {

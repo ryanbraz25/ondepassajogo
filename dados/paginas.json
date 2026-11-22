@@ -107,8 +107,8 @@
 },
 "/campeonato/ligamx/": {
 "dia": "",
-"h": "f968d4e3f3f59a85",
-"mod": "2026-11-21T02:58-03:00"
+"h": "4eaf969b33c07009",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/campeonato/ligue1/": {
 "dia": "",
@@ -122,8 +122,8 @@
 },
 "/campeonato/mls/": {
 "dia": "",
-"h": "cbca4f97929f707e",
-"mod": "2026-11-21T20:54-03:00"
+"h": "5d7b6cb382a34ce7",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/campeonato/mundial/": {
 "dia": "",
@@ -172,8 +172,8 @@
 },
 "/campeonato/sul-americana/": {
 "dia": "",
-"h": "8ed32805d4ca830b",
-"mod": "2026-11-17T17:37-03:00"
+"h": "f1b171c891cf4bc9",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/campeonato/supercopa/": {
 "dia": "",
@@ -432,8 +432,8 @@
 },
 "/jogo/atletico-mg-x-boca-juniors-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "0e09c0de9aada863",
-"mod": "2026-11-18T00:54-03:00"
+"h": "e40bd95fa557a8df",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/jogo/atletico-mg-x-corinthians-25-11-2026/": {
 "dia": "2026-11-25",
@@ -982,8 +982,8 @@
 },
 "/jogo/fc-dallas-x-portland-timbers-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "1474fdc3fb9c2e68",
-"mod": "2026-11-21T20:54-03:00"
+"h": "f1f92888adffa3d1",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/jogo/fc-groningen-x-heerenveen-21-11-2026/": {
 "dia": "2026-11-21",
@@ -997,8 +997,8 @@
 },
 "/jogo/fc-juarez-x-atlas-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "b7dbe72e8453034c",
-"mod": "2026-11-21T02:58-03:00"
+"h": "17ee0dc87ba17047",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/jogo/fc-nordsjlland-x-panathinaikos-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1237,8 +1237,8 @@
 },
 "/jogo/inter-miami-cf-x-columbus-crew-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "1afb556595222d3a",
-"mod": "2026-11-21T20:54-03:00"
+"h": "2d70ddccee18b16c",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/jogo/internacional-x-red-bull-bragantino-29-11-2026/": {
 "dia": "2026-11-29",
@@ -1577,8 +1577,8 @@
 },
 "/jogo/new-england-revolution-x-philadelphia-union-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "68d83cf59b66998c",
-"mod": "2026-11-21T20:54-03:00"
+"h": "511bf7a87350e28c",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/jogo/newcastle-x-arsenal-21-11-2026/": {
 "dia": "2026-11-21",
@@ -1647,8 +1647,8 @@
 },
 "/jogo/pachuca-x-toluca-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "3607c974bc5c391e",
-"mod": "2026-11-21T02:58-03:00"
+"h": "c35c636f10138692",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/jogo/pafos-x-fc-midtjylland-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1757,8 +1757,8 @@
 },
 "/jogo/pumas-unam-x-monterrey-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "6f772d901a731356",
-"mod": "2026-11-21T02:58-03:00"
+"h": "668533dddcac10a8",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/jogo/queens-park-rangers-x-sheffield-united-28-11-2026/": {
 "dia": "2026-11-28",
@@ -1922,8 +1922,8 @@
 },
 "/jogo/santos-laguna-x-leon-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "35c2fb057d677745",
-"mod": "2026-11-21T02:58-03:00"
+"h": "f88351a1e09979f8",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/jogo/santos-x-botafogo-02-12-2026/": {
 "dia": "2026-12-02",
@@ -2162,8 +2162,8 @@
 },
 "/jogo/tijuana-x-atlante-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "785781ff88789fb7",
-"mod": "2026-11-21T02:58-03:00"
+"h": "b84479ea57e8f78b",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/jogo/torino-x-lazio-28-11-2026/": {
 "dia": "2026-11-28",
@@ -2397,8 +2397,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "52630bcaa8dae731",
-"mod": "2026-11-21T20:54-03:00"
+"h": "d65914f27c20abec",
+"mod": "2026-11-21T22:12-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2690,8 +2690,8 @@
 },
 "/time/atletico-mg/": {
 "dia": "",
-"h": "a01e4013f3ac3b56",
-"mod": "2026-11-18T00:54-03:00",
+"h": "4844dfa6673d59d1",
+"mod": "2026-11-21T22:12-03:00",
 "nome": "Atlético-MG"
 },
 "/time/az-alkmaar/": {
@@ -2786,8 +2786,8 @@
 },
 "/time/boca-juniors/": {
 "dia": "",
-"h": "605920690593dd60",
-"mod": "2026-11-17T17:37-03:00",
+"h": "c08edd16734a78c7",
+"mod": "2026-11-21T22:12-03:00",
 "nome": "Boca Juniors"
 },
 "/time/bodo-glimt/": {
@@ -3026,8 +3026,8 @@
 },
 "/time/columbus-crew/": {
 "dia": "",
-"h": "76f65b15e0d76b00",
-"mod": "2026-11-18T00:54-03:00",
+"h": "ddb45a089bc4bbd2",
+"mod": "2026-11-21T22:12-03:00",
 "nome": "Columbus Crew"
 },
 "/time/como/": {
@@ -3566,8 +3566,8 @@
 },
 "/time/inter-miami-cf/": {
 "dia": "",
-"h": "4ef697ce2b6f26ed",
-"mod": "2026-11-18T00:54-03:00",
+"h": "5e74d49ea6b7528e",
+"mod": "2026-11-21T22:12-03:00",
 "nome": "Inter Miami CF"
 },
 "/time/internacional/": {
@@ -3728,8 +3728,8 @@
 },
 "/time/leon/": {
 "dia": "",
-"h": "f03cab2bd956c646",
-"mod": "2026-11-17T18:10-03:00",
+"h": "6569ad3f8434a519",
+"mod": "2026-11-21T22:12-03:00",
 "nome": "León"
 },
 "/time/levante/": {
@@ -4016,8 +4016,8 @@
 },
 "/time/pachuca/": {
 "dia": "",
-"h": "e0e20c92b15b2c12",
-"mod": "2026-11-17T17:37-03:00",
+"h": "fca2da6344d2c56c",
+"mod": "2026-11-21T22:12-03:00",
 "nome": "Pachuca"
 },
 "/time/pafos/": {
@@ -4310,8 +4310,8 @@
 },
 "/time/santos-laguna/": {
 "dia": "",
-"h": "215c05e07057e23d",
-"mod": "2026-11-17T18:10-03:00",
+"h": "cd2eccd59d17dda3",
+"mod": "2026-11-21T22:12-03:00",
 "nome": "Santos Laguna"
 },
 "/time/santos/": {
@@ -4538,8 +4538,8 @@
 },
 "/time/toluca/": {
 "dia": "",
-"h": "30ddee83d06606e4",
-"mod": "2026-11-17T17:37-03:00",
+"h": "a9b079aeb7837c66",
+"mod": "2026-11-21T22:12-03:00",
 "nome": "Toluca"
 },
 "/time/torino/": {
