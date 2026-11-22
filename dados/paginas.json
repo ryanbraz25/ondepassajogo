@@ -12,8 +12,8 @@
 },
 "/campeonato/brasileirao-a/": {
 "dia": "",
-"h": "defbe668fb50bc6c",
-"mod": "2026-11-21T19:57-03:00"
+"h": "ecaf61da5323e610",
+"mod": "2026-11-21T23:08-03:00"
 },
 "/campeonato/brasileirao-b/": {
 "dia": "",
@@ -462,8 +462,8 @@
 },
 "/jogo/bahia-x-coritiba-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "335b99621c3885e7",
-"mod": "2026-11-21T19:57-03:00"
+"h": "535d1335142099a3",
+"mod": "2026-11-21T23:08-03:00"
 },
 "/jogo/barcelona-x-atletico-de-madrid-02-12-2026/": {
 "dia": "2026-12-02",
@@ -712,8 +712,8 @@
 },
 "/jogo/chapecoense-x-cruzeiro-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "e8ece2208990f5bf",
-"mod": "2026-11-21T19:57-03:00"
+"h": "2f4007a8fedd2b32",
+"mod": "2026-11-21T23:08-03:00"
 },
 "/jogo/chapecoense-x-palmeiras-24-11-2026/": {
 "dia": "2026-11-24",
@@ -1672,8 +1672,8 @@
 },
 "/jogo/palmeiras-x-flamengo-21-11-2026/": {
 "dia": "2026-11-21",
-"h": "8262ffb1da13ece2",
-"mod": "2026-11-21T19:57-03:00"
+"h": "9f9735c5ec0f1f6f",
+"mod": "2026-11-21T23:08-03:00"
 },
 "/jogo/paris-fc-x-angers-22-11-2026/": {
 "dia": "2026-11-22",
@@ -2397,8 +2397,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "d65914f27c20abec",
-"mod": "2026-11-21T22:12-03:00"
+"h": "433ff616f086ede8",
+"mod": "2026-11-21T23:08-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2960,8 +2960,8 @@
 },
 "/time/chapecoense/": {
 "dia": "",
-"h": "95d60fd3bb4f1440",
-"mod": "2026-11-20T00:17-03:00",
+"h": "16d7523328dfc6dc",
+"mod": "2026-11-21T23:08-03:00",
 "nome": "Chapecoense"
 },
 "/time/charlotte-fc/": {
@@ -3086,8 +3086,8 @@
 },
 "/time/cruzeiro/": {
 "dia": "",
-"h": "25962c94138692f1",
-"mod": "2026-11-20T00:17-03:00",
+"h": "e8ea8a828cf19f8b",
+"mod": "2026-11-21T23:08-03:00",
 "nome": "Cruzeiro"
 },
 "/time/crystal-palace/": {

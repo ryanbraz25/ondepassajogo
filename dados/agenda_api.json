@@ -145,6 +145,10 @@
   "inicio": "2026-11-21T21:00:00-03:00",
   "lg": "bra.1",
   "local": "Arena Condá, Chapecó",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401841326": {
