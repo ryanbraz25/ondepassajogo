@@ -1,167 +1,338 @@
 {
  "feitos": [
+  "arg.1:20261113",
+  "arg.1:20261114",
+  "arg.1:20261115",
+  "arg.1:20261116",
+  "arg.1:20261117",
   "arg.1:20261118",
   "arg.1:20261119",
   "arg.1:20261120",
   "arg.1:20261121",
+  "bra.1:20261113",
+  "bra.1:20261114",
+  "bra.1:20261115",
+  "bra.1:20261116",
   "bra.1:20261117",
   "bra.1:20261118",
   "bra.1:20261119",
   "bra.1:20261120",
   "bra.1:20261121",
+  "bra.2:20261113",
+  "bra.2:20261114",
+  "bra.2:20261115",
+  "bra.2:20261116",
   "bra.2:20261117",
   "bra.2:20261118",
   "bra.2:20261119",
   "bra.2:20261120",
   "bra.2:20261121",
+  "bra.camp.carioca:20261113",
+  "bra.camp.carioca:20261114",
+  "bra.camp.carioca:20261115",
+  "bra.camp.carioca:20261116",
   "bra.camp.carioca:20261117",
   "bra.camp.carioca:20261118",
   "bra.camp.carioca:20261119",
   "bra.camp.carioca:20261120",
   "bra.camp.carioca:20261121",
+  "bra.camp.gaucho:20261113",
+  "bra.camp.gaucho:20261114",
+  "bra.camp.gaucho:20261115",
+  "bra.camp.gaucho:20261116",
   "bra.camp.gaucho:20261117",
   "bra.camp.gaucho:20261118",
   "bra.camp.gaucho:20261119",
   "bra.camp.gaucho:20261120",
   "bra.camp.gaucho:20261121",
+  "bra.camp.mineiro:20261113",
+  "bra.camp.mineiro:20261114",
+  "bra.camp.mineiro:20261115",
+  "bra.camp.mineiro:20261116",
   "bra.camp.mineiro:20261117",
   "bra.camp.mineiro:20261118",
   "bra.camp.mineiro:20261119",
   "bra.camp.mineiro:20261120",
   "bra.camp.mineiro:20261121",
+  "bra.camp.paulista:20261113",
+  "bra.camp.paulista:20261114",
+  "bra.camp.paulista:20261115",
+  "bra.camp.paulista:20261116",
   "bra.camp.paulista:20261117",
   "bra.camp.paulista:20261118",
   "bra.camp.paulista:20261119",
   "bra.camp.paulista:20261120",
   "bra.camp.paulista:20261121",
+  "bra.copa_do_brazil:20261113",
+  "bra.copa_do_brazil:20261114",
+  "bra.copa_do_brazil:20261115",
+  "bra.copa_do_brazil:20261116",
   "bra.copa_do_brazil:20261117",
   "bra.copa_do_brazil:20261118",
   "bra.copa_do_brazil:20261119",
   "bra.copa_do_brazil:20261120",
   "bra.copa_do_brazil:20261121",
+  "bra.supercopa_do_brazil:20261113",
+  "bra.supercopa_do_brazil:20261114",
+  "bra.supercopa_do_brazil:20261115",
+  "bra.supercopa_do_brazil:20261116",
+  "bra.supercopa_do_brazil:20261117",
   "bra.supercopa_do_brazil:20261118",
   "bra.supercopa_do_brazil:20261119",
   "bra.supercopa_do_brazil:20261120",
   "bra.supercopa_do_brazil:20261121",
+  "conmebol.libertadores:20261113",
+  "conmebol.libertadores:20261114",
+  "conmebol.libertadores:20261115",
+  "conmebol.libertadores:20261116",
   "conmebol.libertadores:20261117",
   "conmebol.libertadores:20261118",
   "conmebol.libertadores:20261119",
   "conmebol.libertadores:20261120",
   "conmebol.libertadores:20261121",
+  "conmebol.recopa:20261113",
+  "conmebol.recopa:20261114",
+  "conmebol.recopa:20261115",
+  "conmebol.recopa:20261116",
+  "conmebol.recopa:20261117",
   "conmebol.recopa:20261118",
   "conmebol.recopa:20261119",
   "conmebol.recopa:20261120",
   "conmebol.recopa:20261121",
+  "conmebol.sudamericana:20261113",
+  "conmebol.sudamericana:20261114",
+  "conmebol.sudamericana:20261115",
+  "conmebol.sudamericana:20261116",
   "conmebol.sudamericana:20261117",
   "conmebol.sudamericana:20261118",
   "conmebol.sudamericana:20261119",
   "conmebol.sudamericana:20261120",
   "conmebol.sudamericana:20261121",
+  "eng.1:20261113",
+  "eng.1:20261114",
+  "eng.1:20261115",
+  "eng.1:20261116",
   "eng.1:20261117",
   "eng.1:20261118",
   "eng.1:20261119",
   "eng.1:20261120",
   "eng.1:20261121",
+  "eng.2:20261114",
+  "eng.2:20261115",
+  "eng.2:20261116",
+  "eng.2:20261117",
   "eng.2:20261118",
   "eng.2:20261119",
   "eng.2:20261120",
   "eng.2:20261121",
+  "eng.fa:20261113",
+  "eng.fa:20261114",
+  "eng.fa:20261115",
+  "eng.fa:20261116",
+  "eng.fa:20261117",
   "eng.fa:20261118",
   "eng.fa:20261119",
   "eng.fa:20261120",
   "eng.fa:20261121",
+  "esp.1:20261113",
+  "esp.1:20261114",
+  "esp.1:20261115",
+  "esp.1:20261116",
   "esp.1:20261117",
   "esp.1:20261118",
   "esp.1:20261119",
   "esp.1:20261120",
   "esp.1:20261121",
+  "esp.copa_del_rey:20261113",
+  "esp.copa_del_rey:20261114",
+  "esp.copa_del_rey:20261115",
+  "esp.copa_del_rey:20261116",
+  "esp.copa_del_rey:20261117",
   "esp.copa_del_rey:20261118",
   "esp.copa_del_rey:20261119",
   "esp.copa_del_rey:20261120",
   "esp.copa_del_rey:20261121",
+  "fifa.cwc:20261113",
+  "fifa.cwc:20261114",
+  "fifa.cwc:20261115",
+  "fifa.cwc:20261116",
+  "fifa.cwc:20261117",
   "fifa.cwc:20261118",
   "fifa.cwc:20261119",
   "fifa.cwc:20261120",
   "fifa.cwc:20261121",
+  "fifa.friendly:20261113",
+  "fifa.friendly:20261114",
+  "fifa.friendly:20261115",
+  "fifa.friendly:20261116",
   "fifa.friendly:20261117",
   "fifa.friendly:20261118",
   "fifa.friendly:20261119",
   "fifa.friendly:20261120",
   "fifa.friendly:20261121",
+  "fifa.intercontinental_cup:20261113",
+  "fifa.intercontinental_cup:20261114",
+  "fifa.intercontinental_cup:20261115",
+  "fifa.intercontinental_cup:20261116",
+  "fifa.intercontinental_cup:20261117",
   "fifa.intercontinental_cup:20261118",
   "fifa.intercontinental_cup:20261119",
   "fifa.intercontinental_cup:20261120",
   "fifa.intercontinental_cup:20261121",
+  "fra.1:20261113",
+  "fra.1:20261114",
+  "fra.1:20261115",
+  "fra.1:20261116",
   "fra.1:20261117",
   "fra.1:20261118",
   "fra.1:20261119",
   "fra.1:20261120",
   "fra.1:20261121",
+  "ger.1:20261113",
+  "ger.1:20261114",
+  "ger.1:20261115",
+  "ger.1:20261116",
   "ger.1:20261117",
   "ger.1:20261118",
   "ger.1:20261119",
   "ger.1:20261120",
   "ger.1:20261121",
+  "ita.1:20261113",
+  "ita.1:20261114",
+  "ita.1:20261115",
+  "ita.1:20261116",
   "ita.1:20261117",
   "ita.1:20261118",
   "ita.1:20261119",
   "ita.1:20261120",
   "ita.1:20261121",
+  "ita.coppa_italia:20261114",
+  "ita.coppa_italia:20261115",
+  "ita.coppa_italia:20261116",
+  "ita.coppa_italia:20261117",
   "ita.coppa_italia:20261118",
   "ita.coppa_italia:20261119",
   "ita.coppa_italia:20261120",
   "ita.coppa_italia:20261121",
+  "ksa.1:20261113",
+  "ksa.1:20261114",
+  "ksa.1:20261115",
+  "ksa.1:20261116",
+  "ksa.1:20261117",
   "ksa.1:20261118",
   "ksa.1:20261119",
   "ksa.1:20261120",
   "ksa.1:20261121",
+  "mex.1:20261113",
+  "mex.1:20261114",
+  "mex.1:20261115",
+  "mex.1:20261116",
+  "mex.1:20261117",
   "mex.1:20261118",
   "mex.1:20261119",
   "mex.1:20261120",
   "mex.1:20261121",
+  "ned.1:20261114",
+  "ned.1:20261115",
+  "ned.1:20261116",
+  "ned.1:20261117",
   "ned.1:20261118",
   "ned.1:20261119",
   "ned.1:20261120",
   "ned.1:20261121",
+  "por.1:20261113",
+  "por.1:20261114",
+  "por.1:20261115",
+  "por.1:20261116",
+  "por.1:20261117",
   "por.1:20261118",
   "por.1:20261119",
   "por.1:20261120",
   "por.1:20261121",
+  "tur.1:20261114",
+  "tur.1:20261115",
+  "tur.1:20261116",
+  "tur.1:20261117",
   "tur.1:20261118",
   "tur.1:20261119",
   "tur.1:20261120",
   "tur.1:20261121",
+  "uefa.champions:20261113",
+  "uefa.champions:20261114",
+  "uefa.champions:20261115",
+  "uefa.champions:20261116",
   "uefa.champions:20261117",
   "uefa.champions:20261118",
   "uefa.champions:20261119",
   "uefa.champions:20261120",
   "uefa.champions:20261121",
+  "uefa.euro:20261113",
+  "uefa.euro:20261114",
+  "uefa.euro:20261115",
+  "uefa.euro:20261116",
+  "uefa.euro:20261117",
   "uefa.euro:20261118",
   "uefa.euro:20261119",
   "uefa.euro:20261120",
   "uefa.euro:20261121",
+  "uefa.europa.conf:20261113",
+  "uefa.europa.conf:20261114",
+  "uefa.europa.conf:20261115",
+  "uefa.europa.conf:20261116",
+  "uefa.europa.conf:20261117",
   "uefa.europa.conf:20261118",
   "uefa.europa.conf:20261119",
   "uefa.europa.conf:20261120",
   "uefa.europa.conf:20261121",
+  "uefa.europa:20261113",
+  "uefa.europa:20261114",
+  "uefa.europa:20261115",
+  "uefa.europa:20261116",
+  "uefa.europa:20261117",
   "uefa.europa:20261118",
   "uefa.europa:20261119",
   "uefa.europa:20261120",
   "uefa.europa:20261121",
+  "uefa.euroq:20261113",
+  "uefa.euroq:20261114",
+  "uefa.euroq:20261115",
+  "uefa.euroq:20261116",
+  "uefa.euroq:20261117",
   "uefa.euroq:20261118",
   "uefa.euroq:20261119",
   "uefa.euroq:20261120",
   "uefa.euroq:20261121",
+  "uefa.nations:20261113",
+  "uefa.nations:20261114",
+  "uefa.nations:20261115",
+  "uefa.nations:20261116",
+  "uefa.nations:20261117",
   "uefa.nations:20261118",
   "uefa.nations:20261119",
   "uefa.nations:20261120",
   "uefa.nations:20261121",
+  "usa.1:20261113",
+  "usa.1:20261114",
+  "usa.1:20261115",
+  "usa.1:20261116",
+  "usa.1:20261117",
   "usa.1:20261118",
   "usa.1:20261119",
   "usa.1:20261120",
   "usa.1:20261121"
  ],
  "jogos": {
+  "401841175": {
+   "casa": "Chapecoense",
+   "comp": "brasileirao-a",
+   "fora": "Vasco",
+   "inicio": "2026-11-14T20:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
   "401841308": {
    "casa": "Vasco",
    "comp": "brasileirao-a",
@@ -192,6 +363,17 @@
    "lg": "bra.1",
    "placar": {
     "casa": 2,
+    "fora": 0
+   }
+  },
+  "401841311": {
+   "casa": "Mirassol",
+   "comp": "brasileirao-a",
+   "fora": "Atlético-MG",
+   "inicio": "2026-11-14T18:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 0,
     "fora": 0
    }
   },
@@ -324,6 +506,567 @@
    "lg": "bra.1",
    "placar": {
     "casa": 0,
+    "fora": 1
+   }
+  },
+  "401860432": {
+   "casa": "América-MG",
+   "comp": "brasileirao-b",
+   "fora": "Avaí",
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401860433": {
+   "casa": "Sport",
+   "comp": "brasileirao-b",
+   "fora": "Goiás",
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401860437": {
+   "casa": "Fortaleza",
+   "comp": "brasileirao-b",
+   "fora": "Vila Nova",
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401860438": {
+   "casa": "Criciúma",
+   "comp": "brasileirao-b",
+   "fora": "Novorizontino",
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401860439": {
+   "casa": "CRB",
+   "comp": "brasileirao-b",
+   "fora": "Ceará",
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401860440": {
+   "casa": "Atlético-GO",
+   "comp": "brasileirao-b",
+   "fora": "Cuiabá",
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401860441": {
+   "casa": "Juventude",
+   "comp": "brasileirao-b",
+   "fora": "Botafogo-SP",
+   "inicio": "2026-11-14T16:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401861153": {
+   "casa": "Liechtenstein",
+   "comp": "nations",
+   "fora": "Azerbaijan",
+   "inicio": "2026-11-13T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401861154": {
+   "casa": "Luxembourg",
+   "comp": "nations",
+   "fora": "Estonia",
+   "inicio": "2026-11-13T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401861155": {
+   "casa": "Andorra",
+   "comp": "nations",
+   "fora": "Gibraltar",
+   "inicio": "2026-11-13T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401861156": {
+   "casa": "Eslovênia",
+   "comp": "nations",
+   "fora": "Suíça",
+   "inicio": "2026-11-13T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401861157": {
+   "casa": "Bulgaria",
+   "comp": "nations",
+   "fora": "Islândia",
+   "inicio": "2026-11-13T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 5
+   }
+  },
+  "401861158": {
+   "casa": "Sérvia",
+   "comp": "nations",
+   "fora": "Alemanha",
+   "inicio": "2026-11-13T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   }
+  },
+  "401861159": {
+   "casa": "Holanda",
+   "comp": "nations",
+   "fora": "Grécia",
+   "inicio": "2026-11-13T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 7,
+    "fora": 0
+   }
+  },
+  "401861160": {
+   "casa": "Eslováquia",
+   "comp": "nations",
+   "fora": "Faroe Islands",
+   "inicio": "2026-11-13T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401861161": {
+   "casa": "Escócia",
+   "comp": "nations",
+   "fora": "North Macedonia",
+   "inicio": "2026-11-13T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401861162": {
+   "casa": "Moldova",
+   "comp": "nations",
+   "fora": "Kazakhstan",
+   "inicio": "2026-11-13T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401861163": {
+   "casa": "Kosovo",
+   "comp": "nations",
+   "fora": "Israel",
+   "inicio": "2026-11-14T11:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401861164": {
+   "casa": "Geórgia",
+   "comp": "nations",
+   "fora": "Hungria",
+   "inicio": "2026-11-14T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401861165": {
+   "casa": "Noruega",
+   "comp": "nations",
+   "fora": "País de Gales",
+   "inicio": "2026-11-14T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401861166": {
+   "casa": "Suécia",
+   "comp": "nations",
+   "fora": "Bósnia",
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401861167": {
+   "casa": "Portugal",
+   "comp": "nations",
+   "fora": "Dinamarca",
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   }
+  },
+  "401861168": {
+   "casa": "Romênia",
+   "comp": "nations",
+   "fora": "Polônia",
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401861169": {
+   "casa": "Irlanda do Norte",
+   "comp": "nations",
+   "fora": "Ucrânia",
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401861170": {
+   "casa": "Áustria",
+   "comp": "nations",
+   "fora": "Irlanda",
+   "inicio": "2026-11-14T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401861171": {
+   "casa": "Latvia",
+   "comp": "nations",
+   "fora": "Armenia",
+   "inicio": "2026-11-15T11:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401861172": {
+   "casa": "Cyprus",
+   "comp": "nations",
+   "fora": "Montenegro",
+   "inicio": "2026-11-15T11:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   }
+  },
+  "401861173": {
+   "casa": "Belarus",
+   "comp": "nations",
+   "fora": "Albânia",
+   "inicio": "2026-11-15T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401861174": {
+   "casa": "Finlândia",
+   "comp": "nations",
+   "fora": "San Marino",
+   "inicio": "2026-11-15T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 7,
+    "fora": 2
+   }
+  },
+  "401861175": {
+   "casa": "Espanha",
+   "comp": "nations",
+   "fora": "Inglaterra",
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401861176": {
+   "casa": "Bélgica",
+   "comp": "nations",
+   "fora": "Itália",
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 4,
+    "fora": 1
+   }
+  },
+  "401861177": {
+   "casa": "França",
+   "comp": "nations",
+   "fora": "Turquia",
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401861178": {
+   "casa": "Croácia",
+   "comp": "nations",
+   "fora": "República Tcheca",
+   "inicio": "2026-11-15T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401861179": {
+   "casa": "Gibraltar",
+   "comp": "nations",
+   "fora": "Malta",
+   "inicio": "2026-11-16T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401861180": {
+   "casa": "Faroe Islands",
+   "comp": "nations",
+   "fora": "Moldova",
+   "inicio": "2026-11-16T12:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401861181": {
+   "casa": "Kazakhstan",
+   "comp": "nations",
+   "fora": "Eslováquia",
+   "inicio": "2026-11-16T12:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401861182": {
+   "casa": "Islândia",
+   "comp": "nations",
+   "fora": "Luxembourg",
+   "inicio": "2026-11-16T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401861183": {
+   "casa": "Estonia",
+   "comp": "nations",
+   "fora": "Bulgaria",
+   "inicio": "2026-11-16T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401861184": {
+   "casa": "Lithuania",
+   "comp": "nations",
+   "fora": "Liechtenstein",
+   "inicio": "2026-11-16T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401861185": {
+   "casa": "Alemanha",
+   "comp": "nations",
+   "fora": "Holanda",
+   "inicio": "2026-11-16T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 5,
+    "fora": 0
+   }
+  },
+  "401861186": {
+   "casa": "Suíça",
+   "comp": "nations",
+   "fora": "Escócia",
+   "inicio": "2026-11-16T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401861187": {
+   "casa": "North Macedonia",
+   "comp": "nations",
+   "fora": "Eslovênia",
+   "inicio": "2026-11-16T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401861188": {
+   "casa": "Grécia",
+   "comp": "nations",
+   "fora": "Sérvia",
+   "inicio": "2026-11-16T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401861189": {
+   "casa": "País de Gales",
+   "comp": "nations",
+   "fora": "Portugal",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401861190": {
+   "casa": "Ucrânia",
+   "comp": "nations",
+   "fora": "Geórgia",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401861191": {
+   "casa": "Hungria",
+   "comp": "nations",
+   "fora": "Irlanda do Norte",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401861192": {
+   "casa": "Irlanda",
+   "comp": "nations",
+   "fora": "Kosovo",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401861193": {
+   "casa": "Israel",
+   "comp": "nations",
+   "fora": "Áustria",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401861194": {
+   "casa": "Dinamarca",
+   "comp": "nations",
+   "fora": "Noruega",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401861195": {
+   "casa": "Polônia",
+   "comp": "nations",
+   "fora": "Suécia",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401861196": {
+   "casa": "Bósnia",
+   "comp": "nations",
+   "fora": "Romênia",
+   "inicio": "2026-11-17T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
     "fora": 1
    }
   },
@@ -621,6 +1364,17 @@
    "lg": "fra.1",
    "placar": {
     "casa": 1,
+    "fora": 1
+   }
+  },
+  "401876988": {
+   "casa": "Querétaro",
+   "comp": "ligamx",
+   "fora": "Monterrey",
+   "inicio": "2026-11-14T20:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 0,
     "fora": 1
    }
   },
@@ -1251,6 +2005,17 @@
     "fora": 1
    }
   },
+  "401906463": {
+   "casa": "Nova Zelândia",
+   "comp": "amistoso",
+   "fora": "Índia",
+   "inicio": "2026-11-15T00:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
   "401912682": {
    "casa": "Criciúma",
    "comp": "brasileirao-b",
@@ -1284,6 +2049,17 @@
     "fora": 2
    }
   },
+  "401914292": {
+   "casa": "Andorra",
+   "comp": "amistoso",
+   "fora": "Azerbaijan",
+   "inicio": "2026-11-16T15:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   }
+  },
   "401916335": {
    "casa": "Singapura",
    "comp": "amistoso",
@@ -1306,6 +2082,28 @@
     "fora": 2
    }
   },
+  "401916337": {
+   "casa": "Japão",
+   "comp": "amistoso",
+   "fora": "Brasil",
+   "inicio": "2026-11-14T07:15:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401916338": {
+   "casa": "Singapura",
+   "comp": "amistoso",
+   "fora": "Paraguai",
+   "inicio": "2026-11-13T09:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   }
+  },
   "401919974": {
    "casa": "Jordânia",
    "comp": "amistoso",
@@ -1317,6 +2115,17 @@
     "fora": 0
    }
   },
+  "401919978": {
+   "casa": "Catar",
+   "comp": "amistoso",
+   "fora": "Austrália",
+   "inicio": "2026-11-13T11:45:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
   "401921304": {
    "casa": "Chile",
    "comp": "amistoso",
@@ -1326,6 +2135,28 @@
    "placar": {
     "casa": 0,
     "fora": 0
+   }
+  },
+  "401921325": {
+   "casa": "Colômbia",
+   "comp": "amistoso",
+   "fora": "Chile",
+   "inicio": "2026-11-13T21:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401928487": {
+   "casa": "Salamanca UDS",
+   "comp": "copa-do-rei",
+   "fora": "Celta Vigo",
+   "inicio": "2026-11-13T17:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 0,
+    "fora": 5
    }
   },
   "401928497": {
@@ -1402,6 +2233,17 @@
     "fora": 5
    }
   },
+  "401930236": {
+   "casa": "China",
+   "comp": "amistoso",
+   "fora": "Malaysia",
+   "inicio": "2026-11-14T09:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
   "401930237": {
    "casa": "Malaysia",
    "comp": "amistoso",
@@ -1421,6 +2263,50 @@
    "lg": "fifa.friendly",
    "placar": {
     "casa": 2,
+    "fora": 1
+   }
+  },
+  "401930243": {
+   "casa": "Chinese Taipei",
+   "comp": "amistoso",
+   "fora": "Kyrgyz Republic",
+   "inicio": "2026-11-14T09:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401930876": {
+   "casa": "Argentina",
+   "comp": "amistoso",
+   "fora": "Uruguai",
+   "inicio": "2026-11-13T20:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401930878": {
+   "casa": "Peru",
+   "comp": "amistoso",
+   "fora": "Bolívia",
+   "inicio": "2026-11-13T22:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401930879": {
+   "casa": "Bahrain",
+   "comp": "amistoso",
+   "fora": "Yemen",
+   "inicio": "2026-11-14T03:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 3,
     "fora": 1
    }
   },
@@ -1446,6 +2332,17 @@
     "fora": 0
    }
   },
+  "401930898": {
+   "casa": "Equador",
+   "comp": "amistoso",
+   "fora": "Costa Rica",
+   "inicio": "2026-11-13T21:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
   "401930899": {
    "casa": "Equador",
    "comp": "amistoso",
@@ -1466,6 +2363,17 @@
    "placar": {
     "casa": 2,
     "fora": 0
+   }
+  },
+  "401931476": {
+   "casa": "Arábia Saudita",
+   "comp": "amistoso",
+   "fora": "Coreia do Sul",
+   "inicio": "2026-11-13T11:30:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 3,
+    "fora": 2
    }
   },
   "401931477": {
@@ -1501,6 +2409,28 @@
     "fora": 2
    }
   },
+  "401931957": {
+   "casa": "Emirados Árabes",
+   "comp": "amistoso",
+   "fora": "Honduras",
+   "inicio": "2026-11-13T11:10:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401931978": {
+   "casa": "Kuwait",
+   "comp": "amistoso",
+   "fora": "Syria",
+   "inicio": "2026-11-13T13:30:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
   "401932215": {
    "casa": "Uruguai",
    "comp": "amistoso",
@@ -1510,6 +2440,17 @@
    "placar": {
     "casa": 5,
     "fora": 0
+   }
+  },
+  "401932237": {
+   "casa": "Palestine",
+   "comp": "amistoso",
+   "fora": "Irã",
+   "inicio": "2026-11-14T12:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 2
    }
   },
   "401932718": {
@@ -1565,6 +2506,17 @@
    "comp": "amistoso",
    "fora": "Palestine",
    "inicio": "2026-11-17T10:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401933636": {
+   "casa": "Iraque",
+   "comp": "amistoso",
+   "fora": "Lebanon",
+   "inicio": "2026-11-13T12:00:00-03:00",
    "lg": "fifa.friendly",
    "placar": {
     "casa": 0,
@@ -1705,6 +2657,28 @@
    "placar": {
     "casa": 2,
     "fora": 1
+   }
+  },
+  "401933837": {
+   "casa": "Suriname",
+   "comp": "amistoso",
+   "fora": "Eswatini",
+   "inicio": "2026-11-15T14:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401933864": {
+   "casa": "Tahiti",
+   "comp": "amistoso",
+   "fora": "Cook Islands",
+   "inicio": "2026-11-14T02:30:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 4,
+    "fora": 0
    }
   },
   "401933879": {

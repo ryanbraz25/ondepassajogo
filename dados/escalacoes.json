@@ -1,6 +1,6 @@
 {
  "401888370": {
-  "achada": "2026-11-23T14:10-03:00",
+  "achada": "2026-11-23T14:25-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -135,9 +135,9 @@
    ]
   },
   "comp": "turquia",
-  "completa": false,
+  "completa": true,
   "fora": {
-   "esquema": "4-1-4-1",
+   "esquema": "4-2-3-1",
    "reservas": [
     {
      "fp": 0,
@@ -223,7 +223,7 @@
      "fp": 4,
      "n": "20",
      "nome": "Y. Ramadani",
-     "pos": "MD"
+     "pos": "ME"
     },
     {
      "fp": 5,
@@ -245,9 +245,9 @@
     },
     {
      "fp": 8,
-     "n": "8",
-     "nome": "M. Karlsbakk",
-     "pos": "MC"
+     "n": "10",
+     "nome": "M. Diomande",
+     "pos": "MD"
     },
     {
      "fp": 9,
@@ -257,9 +257,9 @@
     },
     {
      "fp": 10,
-     "n": "10",
-     "nome": "M. Diomande",
-     "pos": "MCE"
+     "n": "8",
+     "nome": "M. Karlsbakk",
+     "pos": "MA"
     },
     {
      "fp": 11,
