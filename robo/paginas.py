@@ -161,12 +161,15 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/p.css?v=3">
-<script src="/p.js?v=3" defer></script>
+<link rel="stylesheet" href="/p.css?v=4">
+<link rel="stylesheet" href="/menu.css?v=1">
+<script src="/p.js?v=4" defer></script>
+<script src="/menu.js?v=1" defer></script>
 {cx.head_extra}
 {ld}</head>
 <body>
-<header class="topo"><div class="wrap"><a class="marca" href="/" aria-label="Onde Passa Jogo: página inicial">{cx.pin}<span>ONDE PASSA <b>JOGO</b></span></a><a class="todos" href="/">Ver agenda<span class="dk"> completa</span></a></div></header>
+<header class="topo"><div class="wrap"><a class="marca" href="/" aria-label="Onde Passa Jogo: página inicial">{cx.pin}<span>ONDE PASSA <b>JOGO</b></span></a><div class="hdir"><a class="todos" href="/">Ver agenda<span class="dk"> completa</span></a>{botao_menu()}</div></div></header>
+{menu_html(cx.comps, cx.tabs)}
 <main class="wrap">
 {mig}
 {corpo}
@@ -261,6 +264,63 @@ def esc_tab(cx, l):
     return f'<img class="cr" src="{e(u)}" alt="" width="20" height="20" loading="lazy">' if u else '<span class="cr ini"></span>'
 
 
+def texto_sobre(cor):
+    """Cor do número em cima da faixa: branco nas cores escuras, quase preto nas claras."""
+    h = str(cor).lstrip("#")
+    if len(h) != 6:
+        return "#fff"
+    r, g, b = (int(h[i:i + 2], 16) / 255 for i in (0, 2, 4))
+    lum = lambda c: c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+    return "#0b1a10" if 0.2126 * lum(r) + 0.7152 * lum(g) + 0.0722 * lum(b) > 0.33 else "#fff"
+
+
+# ---------------------------------------------------------------- menu (botão de três barrinhas)
+ICO_MENU = '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>'
+_ICO = {
+    "hoje": '<path d="M5 6h14v13H5zM5 10h14M9 3.5v4M15 3.5v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
+    "amanha": '<path d="M5 6h14v13H5zM5 10h14M9 3.5v4M15 3.5v4M10 14.5h4m-1.5-1.5 1.5 1.5-1.5 1.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
+    "agenda": '<path d="M5 6h14M5 12h14M5 18h9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>',
+    "seg": '<path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
+    "tab": '<path d="M4 5h16v14H4zM4 10h16M4 15h16M9 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
+    "aviso": '<path d="M6 17V11a6 6 0 0 1 12 0v6l1.6 2H4.4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 21.5h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+    "ig": '<rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/>',
+}
+
+
+def _ico(k):
+    return f'<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">{_ICO[k]}</svg>'
+
+
+def botao_menu(classe="mbtn", rotulo=True):
+    return (f'<button class="{classe}" type="button" data-menu aria-haspopup="dialog" aria-controls="menu" aria-label="Abrir menu">'
+            f'{ICO_MENU}{"<span>Menu</span>" if rotulo else ""}</button>')
+
+
+def menu_html(comps, com_tabela):
+    """A gaveta do menu. comps = config dos campeonatos (na ordem do site); com_tabela = os que têm tabela agora."""
+    tabs = "".join(
+        f'<a href="/campeonato/{slug(k)}/"><i style="background:{e(c.get("cor") or "#0a6d35")}"></i>{e(c.get("curto") or c.get("nome") or k)}</a>'
+        for k, c in comps.items() if k in com_tabela)
+    item = lambda href, ico, txt, extra="": f'<a href="{href}"{extra}>{_ico(ico)}<span>{txt}</span></a>'
+    return (
+        '<dialog class="menu" id="menu" aria-labelledby="menu-t">'
+        '<div class="mn-hd"><b id="menu-t">Menu</b><button class="mn-x" type="button" data-menu-fechar aria-label="Fechar menu">'
+        '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button></div>'
+        '<nav class="mn-bd" aria-label="Menu do site">'
+        '<h3>Jogos</h3><div class="mn-ls">'
+        + item("/jogos-de-hoje/", "hoje", "Jogos de hoje")
+        + item("/jogos-de-amanha/", "amanha", "Jogos de amanhã")
+        + item("/", "agenda", "Agenda completa (15 dias)")
+        + item("/#seguindo", "seg", "Meus times e campeonatos", ' data-menu-seguindo')
+        + '</div>'
+        + (f'<h3>Tabelas</h3><div class="mn-tb">{tabs}</div>' if tabs else "")
+        + item("/tabelas/", "tab", "Todas as tabelas", ' class="mn-all"')
+        + '<h3>Mais</h3><div class="mn-ls">'
+        + item("/#avisos", "aviso", "Avisos no celular", ' data-menu-avisos')
+        + item("https://www.instagram.com/ondepassajogo.com.br/", "ig", "Siga no Instagram", ' target="_blank" rel="noopener"')
+        + '</div></nav></dialog>')
+
+
 def tabela_html(cx, k, destaque=(), recorte=None, com_forma=True):
     t = cx.tabs.get(k)
     if not t:
@@ -277,9 +337,9 @@ def tabela_html(cx, k, destaque=(), recorte=None, com_forma=True):
         for l in linhas:
             if l.get("zona"):
                 zonas[l["zona"]] = l.get("cor") or "#0a6d35"
-            cor = f' style="--z:{e(l["cor"])}"' if l.get("cor") else ""
+            cor = f' style="--z:{e(l["cor"])};--zt:{texto_sobre(l["cor"])}"' if l.get("zona") and l.get("cor") else ""
             dst = " eu" if l["time"] in destaque else ""
-            rows.append(f'<tr class="{("zn" if l.get("zona") else "") + dst}"{cor}><td class="c-pos">{l["pos"]}</td>'
+            rows.append(f'<tr class="{("zn" if l.get("zona") else "") + dst}"{cor}><td class="c-pos"><span title="{e(l.get("zona", ""))}">{l["pos"]}</span></td>'
                         f'<td class="c-time"><a href="/time/{slug(l["time"])}/">{esc_tab(cx, l)}<span>{e(l["time"])}</span></a></td>'
                         f'<td class="c-p"><b>{l["pts"]}</b></td><td>{l["pj"]}</td><td class="c-x">{l["v"]}</td><td class="c-x">{l["e"]}</td><td class="c-x">{l["d"]}</td>'
                         f'<td class="c-x">{l["gp"]}</td><td class="c-x">{l["gc"]}</td><td>{"+" if l["sg"] > 0 else ""}{l["sg"]}</td>'
@@ -288,7 +348,10 @@ def tabela_html(cx, k, destaque=(), recorte=None, com_forma=True):
         out.append(f'{cab}<div class="tabwrap"><table class="tab"><thead>{COLS}</thead><tbody>{"".join(rows)}</tbody></table></div>')
     leg = ""
     if zonas and not recorte:
-        leg = '<p class="leg">' + " ".join(f'<span><i style="background:{e(c)}"></i>{e(z)}</span>' for z, c in zonas.items()) + "</p>"
+        leg = '<ul class="leg" aria-label="Legenda da tabela">' + "".join(
+            f'<li><i style="background:{e(c)}"></i>{e(z)}</li>' for z, c in zonas.items()) + "</ul>"
+        if t.get("obs"):
+            leg += f'<p class="leg2">{e(t["obs"])}</p>'
     return "".join(out) + leg + '<p class="leg2">P = pontos · J = jogos · V/E/D = vitórias, empates e derrotas · SG = saldo de gols</p>'
 
 

@@ -272,6 +272,10 @@ footer a{color:inherit}
 .mytm .lgchip .lgi{width:20px;height:20px}
 @media(hover:hover){.g .fst:not(.on){opacity:0}.g:hover .fst:not(.on),.g .fst:focus-visible{opacity:.5}}
 .tn{white-space:nowrap}
+.tl{color:inherit;text-decoration:none;border-radius:4px}
+.tl:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+.tl:focus-visible{outline:2px solid var(--pitch);outline-offset:2px}
+.board .tm .tl{display:inline-flex;align-items:center;gap:inherit}
 img.lgi{display:inline-block;width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:6px;border-radius:4px;background:#fff;padding:1px;box-shadow:0 0 0 1px var(--line)}
 .pill img.lgi{width:16px;height:16px;margin-right:5px}
 .pill.big img.lgi{width:30px;height:30px;vertical-align:-6px}
@@ -317,17 +321,18 @@ img.lgi{display:inline-block;width:18px;height:18px;object-fit:contain;vertical-
 @media(min-width:960px){#days .day{flex:1 0 auto}}
 @media (prefers-reduced-motion:reduce){.mini{transition:none}}
 header .wrap{position:relative}
-.ig{position:absolute;top:14px;right:max(16px,4vw);z-index:2;display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:6px 14px 6px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.18);color:var(--chalk);font:600 14px Barlow,sans-serif;text-decoration:none;transition:background .15s,border-color .15s}
+.hbtns{position:absolute;top:14px;right:max(16px,4vw);z-index:2;display:flex;align-items:center;gap:8px}
+.ig{display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:6px 14px 6px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.18);color:var(--chalk);font:600 14px Barlow,sans-serif;text-decoration:none;transition:background .15s,border-color .15s}
 .ig:hover{background:rgba(0,0,0,.32);border-color:#fff}
 .flinks a{display:inline-flex;align-items:center;gap:5px}
 .igf svg{width:16px;height:16px}
 .mini a.ms{text-decoration:none}
-@media(max-width:640px){.ig{top:12px;right:16px;width:40px;height:40px;padding:0;justify-content:center}.ig span{display:none}.top>div:first-child{padding-right:46px}.mini a.ms{display:none}}
-.bell{position:absolute;top:14px;right:calc(max(16px,4vw) + 182px);z-index:2;display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:6px 14px 6px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.18);color:#fff;font:600 14px Barlow,sans-serif;cursor:pointer}
+@media(max-width:640px){.hbtns{top:12px;right:16px;flex-direction:column;gap:8px}.hbtns .ig{display:none}.hbtns .mbtn{order:-1;width:40px;height:40px;padding:0;justify-content:center}.hbtns .mbtn span{display:none}.top>div:first-child{padding-right:46px}.mini a.ms{display:none}}
+.bell{display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:6px 14px 6px 11px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.18);color:#fff;font:600 14px Barlow,sans-serif;cursor:pointer}
 .bell:hover{background:rgba(0,0,0,.32);border-color:#fff}
 .bell.on{border-color:var(--gold);color:var(--gold)}
 .bell[hidden]{display:none}
-@media(max-width:640px){.bell{top:60px;right:16px;width:40px;height:40px;padding:0;justify-content:center}.bell span{display:none}}
+@media(max-width:640px){.bell{width:40px;height:40px;padding:0;justify-content:center}.bell span{display:none}}
 .avc ol{margin:6px 0 14px;padding-left:22px;font-size:16px;line-height:1.45}
 .avc ol li{margin:4px 0}
 .avopt{display:flex;gap:10px;align-items:flex-start;padding:12px;border:1px solid var(--line);border-radius:12px;margin:8px 0;background:var(--bg);font-size:15px;cursor:pointer}
@@ -354,14 +359,17 @@ header .wrap{position:relative}
 .tb{width:100%;border-collapse:collapse;font-size:15px;font-variant-numeric:tabular-nums}
 .tb th{font:700 12px Barlow,sans-serif;text-transform:uppercase;color:var(--mute);background:var(--card);padding:9px 6px;text-align:center}
 .tb td{padding:8px 6px;text-align:center;border-top:1px solid var(--line);white-space:nowrap}
-.tb .tp{width:34px;font-weight:700;color:var(--mute);position:relative}
-.tb tr.zn .tp::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:4px;border-radius:0 3px 3px 0;background:var(--z)}
+.tb .tp{width:40px;font-weight:700;color:var(--mute);padding-inline:6px 2px}
+.tb .tp span{display:inline-grid;place-items:center;min-width:26px;height:26px;padding:0 4px;border-radius:8px}
+.tb tr.zn .tp span{background:var(--z);color:var(--zt,#fff)}
+.tb tr.zn td:first-child{box-shadow:inset 3px 0 var(--z)}
 .tb .tt{text-align:left}
 .tb .tt a{display:flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none;font-weight:600}
 .tb .tt .cr{width:20px;height:20px;flex:0 0 auto}
 .tb tr.eu td{background:color-mix(in srgb,var(--gold) 18%,transparent)}
-.tleg{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--mute);margin:8px 0 0}
-.tleg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
+.tleg{display:flex;flex-wrap:wrap;gap:8px 16px;list-style:none;padding:0;font-size:13px;color:var(--ink);margin:10px 0 0}
+.tleg li{display:inline-flex;align-items:center;gap:7px}
+.tleg i{display:inline-block;width:14px;height:14px;border-radius:4px}
 .tleg2{font-size:12px;color:var(--mute);margin:6px 0 0}
 .grp{font:800 18px Barlow,sans-serif;margin:16px 0 6px}
 .rl{list-style:none;margin:0;padding:0}
@@ -395,6 +403,8 @@ header .wrap{position:relative}
 .obf .ok:disabled{opacity:.45;cursor:default}
 @media(max-width:640px){.ob{place-items:end center;padding:0}.obc{border-radius:18px 18px 0 0;max-height:86vh}.obgrid{grid-template-columns:1fr 1fr}}
 </style>
+<link rel="stylesheet" href="/menu.css?v=1">
+<script src="/menu.js?v=1" defer></script>
 __ADSENSE_HEAD__
 </head>
 <body>
@@ -413,8 +423,11 @@ __ADSENSE_HEAD__
   <circle cx="600" cy="150" r="4" fill="rgba(255,255,255,.35)"/>
  </svg>
  <div class="wrap">
+  <div class="hbtns">
   <button class="bell" id="bell" type="button" hidden aria-label="Avisos no celular"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 17V11a6 6 0 0 1 12 0v6l1.6 2H4.4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 21.5h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Avisos</span></button>
   <a class="ig" href="https://www.instagram.com/ondepassajogo.com.br/" target="_blank" rel="noopener" aria-label="Siga o Onde Passa Jogo no Instagram"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg><span>Siga no Instagram</span></a>
+  __BOTAO_MENU__
+  </div>
   <div class="top">
    <div>
     <h1 class="brand"><svg aria-hidden="true" class="pin" width="64" height="84" viewBox="0 0 100 132">
@@ -443,8 +456,10 @@ __ADSENSE_HEAD__
   <nav class="days" id="mdays" aria-label="Escolher dia"></nav>
   <a class="ms" href="https://www.instagram.com/ondepassajogo.com.br/" target="_blank" rel="noopener" aria-label="Instagram" tabindex="-1"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/></svg></a>
   <button class="ms" id="msearch" type="button" aria-label="Buscar time" tabindex="-1"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  __BOTAO_MENU_MINI__
  </div>
 </div>
+__MENU__
 
 <div class="bar">
  <div class="wrap filters">
@@ -603,13 +618,14 @@ function crest(t){
  const fl=u.includes('flagcdn');
  return `<img class="cr${fl?' fl':''}" src="${esc(u.includes('thesportsdb')?u+'/tiny':u)}" alt="" width="22" height="22" loading="lazy" decoding="async" data-i="${esc(ini(t))}" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'cr ini',textContent:this.dataset.i}))">`;
 }
+function tl(t){return t==='A definir'?crest(t)+esc(t):`<a class="tl" href="/time/${slugJS(t)}/" title="Ver jogos, tabela e resultados do ${esc(t)}">${crest(t)}${esc(t)}</a>`}
 function fst(t){if(t==='A definir')return '';const on=S.favs.has(t);return `<button class="fst${on?' on':''}" type="button" data-t="${esc(t)}" aria-pressed="${on}" aria-label="${on?'Deixar de seguir':'Seguir'} ${esc(t)}" title="${on?'Você segue '+esc(t)+' (toque para deixar de seguir)':'Seguir '+esc(t)}">${on?'★':'☆'}</button>`}
 function board(g){
  const a=Number(g.placar.casa), b=Number(g.placar.fora);
  const cls=(x,y)=>x>y?'win':x<y?'lose':'';
  return `<div class="board" aria-label="${esc(g.casa)} ${a}, ${esc(g.fora)} ${b}">
-  <span class="tm ${cls(a,b)}">${crest(g.casa)}${esc(g.casa)}${fst(g.casa)}</span><span class="pts ${cls(a,b)}">${a}</span>
-  <span class="tm ${cls(b,a)}">${crest(g.fora)}${esc(g.fora)}${fst(g.fora)}</span><span class="pts ${cls(b,a)}">${b}</span>
+  <span class="tm ${cls(a,b)}">${tl(g.casa)}${fst(g.casa)}</span><span class="pts ${cls(a,b)}">${a}</span>
+  <span class="tm ${cls(b,a)}">${tl(g.fora)}${fst(g.fora)}</span><span class="pts ${cls(b,a)}">${b}</span>
  </div>`;
 }
 function row(g){
@@ -618,7 +634,7 @@ function row(g){
  const info=[g.rodada,g.local].filter(Boolean).join(' · ');
  return `<article class="g ${st}${isFavG(g)?' isfav':''}">
   <div>
-   ${g.placar&&st!=='up'?board(g):`<div class="teams"><span class="tn">${crest(g.casa)}${esc(g.casa)}${fst(g.casa)}</span> <span>x</span> <span class="tn">${crest(g.fora)}${esc(g.fora)}${fst(g.fora)}</span></div>`}
+   ${g.placar&&st!=='up'?board(g):`<div class="teams"><span class="tn">${tl(g.casa)}${fst(g.casa)}</span> <span>x</span> <span class="tn">${tl(g.fora)}${fst(g.fora)}</span></div>`}
    <div class="meta">${st==='live'?`<b class="lmin"><span class="dot"></span>${g.ao&&g.ao.d?esc(g.ao.d):'Ao vivo'}</b> `:''}<span class="pill"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</span>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
   </div>
   <div class="chans">${chans}</div>
@@ -721,7 +737,7 @@ function byDay(list,searching){
 }
 // ---------- abas do campeonato: Jogos | Tabela | Resultados (dados em /dados/camp-<id>.json)
 const CAMP={};
-const slugJS=s=>String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const slugJS=s=>String(s).normalize('NFD').replace(/[^\x00-\x7f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'x'; // igual ao slug() do robô
 function abaComp(){if(S.view==='liga'&&S.liga)return S.liga;if(S.view==='todos'&&!S.q.trim()&&S.comps.size===1)return [...S.comps][0];return null}
 function abasBar(k){
  const a=(D.abas||{})[k]||'';if(!a)return '';
@@ -730,11 +746,12 @@ function abasBar(k){
  return `<nav class="abas" role="tablist" aria-label="${esc(C(k).nome)}">${b.map(([i,n])=>`<button type="button" role="tab" class="aba${S.aba===i?' on':''}" data-aba="${i}" aria-selected="${S.aba===i}">${n}</button>`).join('')}<a class="abapg" href="/campeonato/${slugJS(k)}/">Página do campeonato ›</a></nav>`;
 }
 function crestTb(t,u){const x=ESC[t]||u;return x?`<img class="cr" src="${esc(/thesportsdb/.test(x)?x+'/tiny':x)}" alt="" width="20" height="20" loading="lazy" onerror="this.style.visibility='hidden'">`:'<span class="cr ini"></span>'}
+function txtSobre(c){const h=String(c).replace('#','');if(h.length!==6)return '#fff';const l=[0,2,4].map(i=>{const v=parseInt(h.substr(i,2),16)/255;return v<=.03928?v/12.92:((v+.055)/1.055)**2.4});return .2126*l[0]+.7152*l[1]+.0722*l[2]>.33?'#0b1a10':'#fff'}
 function tabelaHtml(d){
  if(!d.tabela||!d.tabela.length)return '<p class="empty">Tabela indisponível.</p>';
  const zonas={};
- const g=d.tabela.map(gr=>`${gr.nome?`<h3 class="grp">${esc(gr.nome)}</h3>`:''}<div class="tbw"><table class="tb"><thead><tr><th>#</th><th class="tt">Time</th><th>P</th><th>J</th><th class="tx">V</th><th class="tx">E</th><th class="tx">D</th><th class="tx">GP</th><th class="tx">GC</th><th>SG</th></tr></thead><tbody>${gr.linhas.map(l=>{if(l.zona)zonas[l.zona]=l.cor||'#0a6d35';const eu=S.favs.has(l.time);return `<tr class="${l.zona?'zn':''}${eu?' eu':''}"${l.cor?` style="--z:${esc(l.cor)}"`:''}><td class="tp">${l.pos}</td><td class="tt"><a href="/time/${slugJS(l.time)}/">${crestTb(l.time,l.esc)}<span>${esc(l.time)}</span></a></td><td><b>${l.pts}</b></td><td>${l.pj}</td><td class="tx">${l.v}</td><td class="tx">${l.e}</td><td class="tx">${l.d}</td><td class="tx">${l.gp}</td><td class="tx">${l.gc}</td><td>${l.sg>0?'+':''}${l.sg}</td></tr>`}).join('')}</tbody></table></div>`).join('');
- const leg=Object.keys(zonas).length?`<p class="tleg">${Object.entries(zonas).map(([z,c])=>`<span><i style="background:${esc(c)}"></i>${esc(z)}</span>`).join('')}</p>`:'';
+ const g=d.tabela.map(gr=>`${gr.nome?`<h3 class="grp">${esc(gr.nome)}</h3>`:''}<div class="tbw"><table class="tb"><thead><tr><th>#</th><th class="tt">Time</th><th>P</th><th>J</th><th class="tx">V</th><th class="tx">E</th><th class="tx">D</th><th class="tx">GP</th><th class="tx">GC</th><th>SG</th></tr></thead><tbody>${gr.linhas.map(l=>{if(l.zona)zonas[l.zona]=l.cor||'#0a6d35';const eu=S.favs.has(l.time);return `<tr class="${l.zona?'zn':''}${eu?' eu':''}"${l.zona&&l.cor?` style="--z:${esc(l.cor)};--zt:${txtSobre(l.cor)}"`:''}><td class="tp"><span${l.zona?` title="${esc(l.zona)}"`:''}>${l.pos}</span></td><td class="tt"><a href="/time/${slugJS(l.time)}/">${crestTb(l.time,l.esc)}<span>${esc(l.time)}</span></a></td><td><b>${l.pts}</b></td><td>${l.pj}</td><td class="tx">${l.v}</td><td class="tx">${l.e}</td><td class="tx">${l.d}</td><td class="tx">${l.gp}</td><td class="tx">${l.gc}</td><td>${l.sg>0?'+':''}${l.sg}</td></tr>`}).join('')}</tbody></table></div>`).join('');
+ const leg=(Object.keys(zonas).length?`<ul class="tleg" aria-label="Legenda da tabela">${Object.entries(zonas).map(([z,c])=>`<li><i style="background:${esc(c)}"></i>${esc(z)}</li>`).join('')}</ul>`:'')+(d.obs?`<p class="tleg2">${esc(d.obs)}</p>`:'');
  return g+leg+`<p class="tleg2">${d.temporada?'Temporada '+esc(d.temporada)+' · ':''}P = pontos · J = jogos · SG = saldo de gols. Toque no time para ver os jogos dele.</p>`;
 }
 function resultadosHtml(d){
@@ -1082,6 +1099,9 @@ if(AV&&PUSH&&pushApi()&&Notification.permission==='granted'&&Date.now()-(AV.em||
 bellUI();
 if(location.hash==='#seguindo'){S.view='favs'}
 render();anuncios();
+// o menu (menu.js) chama estes atalhos
+window.OPJ={avisosOk:avDisponivel,avisos:abrirAv,seguindo(){S.view='favs';S.q='';$('q').value='';closeSugs();render();$('lista').scrollIntoView({block:'start'})}};
+if(location.hash==='#avisos'&&avDisponivel())setTimeout(abrirAv,400);
 setInterval(()=>{renderNext();if(S.open===null&&$('sugs').hidden)renderList()},60000);
 tickLive();setInterval(tickLive,60000);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')tickLive()});
 }

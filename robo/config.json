@@ -910,6 +910,24 @@
   "comentario": "Faixas fixas da tabela (regras que não mudam de um ano para o outro). A ESPN às vezes manda as zonas sozinha; estas têm prioridade.",
   "brasileirao-a": [
    {
+    "de": 1,
+    "ate": 4,
+    "nome": "Libertadores",
+    "cor": "#1d5fd1"
+   },
+   {
+    "de": 5,
+    "ate": 5,
+    "nome": "Pré-Libertadores",
+    "cor": "#6aa5f0"
+   },
+   {
+    "de": 6,
+    "ate": 11,
+    "nome": "Sul-Americana",
+    "cor": "#f08a1c"
+   },
+   {
     "de": 17,
     "ate": 20,
     "nome": "Rebaixamento",
@@ -919,9 +937,15 @@
   "brasileirao-b": [
    {
     "de": 1,
-    "ate": 4,
+    "ate": 2,
     "nome": "Acesso à Série A",
-    "cor": "#0a7a3a"
+    "cor": "#12924f"
+   },
+   {
+    "de": 3,
+    "ate": 6,
+    "nome": "Playoff de acesso",
+    "cor": "#6cc795"
    },
    {
     "de": 17,
@@ -929,6 +953,17 @@
     "nome": "Rebaixamento",
     "cor": "#d7263d"
    }
+  ],
+  "argentina": [
+   {
+    "de": 1,
+    "ate": 8,
+    "nome": "Mata-mata (oitavas)",
+    "cor": "#1d5fd1"
+   }
   ]
+ },
+ "zonas_obs": {
+  "brasileirao-a": "Faixas pelo regulamento de 2026. As vagas podem aumentar conforme os campeões da Copa do Brasil, da Libertadores e da Sul-Americana."
  }
 }

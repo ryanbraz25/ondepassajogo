@@ -79,6 +79,48 @@ def _nome_tabela(cfg, nome, comp, t, conhecidos):
     return cands[0] if cands else "?"
 
 
+# ---------------------------------------------------------------- faixas da tabela (vagas, acesso, queda)
+# Paleta única do site, para a mesma ideia ter a mesma cor em qualquer campeonato.
+AZUL, AZUL_CL, LARANJA, VERDE, VERDE_CL, ROSA, VERMELHO, CINZA = (
+    "#1d5fd1", "#6aa5f0", "#f08a1c", "#12924f", "#6cc795", "#f39aa2", "#d7263d", "#a7b0bb")
+# (trecho em inglês que a ESPN manda, nome em português, cor) — o primeiro que casar vale
+FAIXAS_ESPN = [
+    ("relegation playoff", "Playoff de rebaixamento", ROSA),
+    ("relegation", "Rebaixamento", VERMELHO),
+    ("relegated", "Rebaixamento", VERMELHO),
+    ("promotion playoff", "Playoff de acesso", VERDE_CL),
+    ("promotion", "Acesso", VERDE),
+    ("champions league qualifying", "Pré-Champions", AZUL_CL),
+    ("champions league", "Champions League", AZUL),
+    ("europa league qualifying", "Pré-Europa League", LARANJA),
+    ("europa league", "Europa League", LARANJA),
+    ("conference league qualifying", "Pré-Conference League", VERDE_CL),
+    ("conference league", "Conference League", VERDE),
+    ("sudamericana", "Playoff da Sul-Americana", LARANJA),
+    ("seeded", "Playoff das oitavas (cabeça de chave)", AZUL_CL),
+    ("knockout phase playoffs", "Playoff das oitavas", "#9cc3f5"),
+    ("ko playoffs", "Playoff das oitavas", AZUL_CL),
+    ("best 3rd", "Melhores 3ºs avançam", AZUL_CL),
+    ("round of 16", "Oitavas de final", AZUL),
+    ("qfs", "Quartas de final", AZUL),
+    ("wild card", "Playoffs (repescagem)", AZUL_CL),
+    ("playoffs", "Playoffs", AZUL),
+    ("eliminated", "Eliminado", CINZA),
+]
+
+
+def faixa_espn(desc, cor=""):
+    d = (desc or "").lower()
+    if d.startswith("a: qualifies for qfs; b-d: promotion playoffs"):
+        return "Quartas (Liga A) / playoff de acesso", AZUL_CL
+    for trecho, nome_pt, c in FAIXAS_ESPN:
+        if trecho in d:
+            if trecho == "seeded" and "unseeded" in d:
+                continue
+            return nome_pt, c
+    return desc, "#" + (cor or "").lstrip("#") if cor else CINZA
+
+
 def tabelas(cfg, nome, get_json, logo=lambda u: u, conhecidos=()):
     """Classificação de cada campeonato (pontos corridos e fases de grupos)."""
     conhecidos = set(conhecidos)
@@ -105,7 +147,7 @@ def tabelas(cfg, nome, get_json, logo=lambda u: u, conhecidos=()):
                     "pos": v("rank") or len(linhas) + 1, "time": _nome_tabela(cfg, nome, comp, t, conhecidos_comp.get(comp, conhecidos)),
                     "pj": v("gamesPlayed"), "v": v("wins"), "e": v("ties"), "d": v("losses"),
                     "gp": v("pointsFor"), "gc": v("pointsAgainst"), "sg": v("pointDifferential"), "pts": v("points"),
-                    **({"zona": nota.get("description", ""), "cor": nota.get("color", "")} if nota.get("description") else {}),
+                    **(dict(zip(("zona", "cor"), faixa_espn(nota["description"], nota.get("color")))) if nota.get("description") else {}),
                     **({"esc": logo(lg_)} if lg_ else {}),
                 })
             if linhas:
@@ -122,10 +164,13 @@ def tabelas(cfg, nome, get_json, logo=lambda u: u, conhecidos=()):
             zonas = [z for z in (cfg.get("zonas", {}).get(comp) or []) if isinstance(z, dict)]
             for g in grupos:
                 for l in g["linhas"]:
+                    if zonas:  # faixas do regulamento substituem as da ESPN
+                        l.pop("zona", None); l.pop("cor", None)
                     for z in zonas:
                         if z["de"] <= l["pos"] <= z["ate"]:
                             l["zona"], l["cor"] = z["nome"], z["cor"]
-            out[comp] = {"grupos": grupos, "liga": liga, "temporada": temporada,
+            obs = (cfg.get("zonas_obs") or {}).get(comp)
+            out[comp] = {"grupos": grupos, "liga": liga, "temporada": temporada, **({"obs": obs} if obs else {}),
                          "atualizado": datetime.now(BRT).isoformat(timespec="minutes"), "_rodada": RODADA}
             novas += 1
         time.sleep(0.2)
@@ -281,7 +326,7 @@ def arquivos_site(comps, tabs, hist, ativos_=None):
         res = sorted(por_comp.get(comp, []), key=lambda x: x["inicio"], reverse=True)[:40]
         if not t and not res:
             continue
-        grava(SAIDA / f"camp-{comp}.json", {"tabela": t, "temporada": (tabs.get(comp) or {}).get("temporada", ""), "resultados": [{k: r[k] for k in ("inicio", "casa", "fora", "placar") if k in r} |
+        grava(SAIDA / f"camp-{comp}.json", {"tabela": t, "temporada": (tabs.get(comp) or {}).get("temporada", ""), **({"obs": tabs[comp]["obs"]} if (tabs.get(comp) or {}).get("obs") else {}), "resultados": [{k: r[k] for k in ("inicio", "casa", "fora", "placar") if k in r} |
                                                                          ({"pen": r["pen"]} if r.get("pen") else {}) for r in res]}, compacto=True)
         feitos.add(f"camp-{comp}.json")
     return _limpa(feitos, tabs, por_comp)
