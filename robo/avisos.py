@@ -97,40 +97,78 @@ def mensagem(dados, meus, destaque, total_hoje):
             SITE + "?utm_source=push&utm_medium=notificacao&utm_campaign=destaque")
 
 
-def main():
-    simular = "--simular" in sys.argv
-    agora = datetime.now(BRT)
-    cfg = ler(RAIZ / "robo" / "config.json")
+class Firebase:
+    """Conexão única com o Firebase (inscritos + envio), usada pelo resumo do dia e pelo aviso de escalação."""
+    def __init__(self, simular):
+        self.simular = simular
+        self.sa = os.environ.get("FIREBASE_SA", "").strip()
+        self.db = None
+        self._inscritos = None
+
+    def ok(self):
+        return bool(self.sa) or self.simular
+
+    def inscritos(self):
+        if self._inscritos is None:
+            if self.simular and not self.sa:
+                self._inscritos = [{"id": "teste", "token": "x", "times": ["Flamengo", "Palmeiras"], "ligas": ["premier"], "destaques": True},
+                                   {"id": "teste2", "token": "y", "times": [], "ligas": [], "destaques": True}]
+            else:
+                import firebase_admin
+                from firebase_admin import credentials, firestore
+                if not firebase_admin._apps:
+                    firebase_admin.initialize_app(credentials.Certificate(json.loads(self.sa)))
+                self.db = firestore.client()
+                self._inscritos = [{"id": d.id, **d.to_dict()} for d in self.db.collection("inscritos").stream()]
+            log(f"{len(self._inscritos)} inscritos")
+        return self._inscritos
+
+    def enviar(self, envios, tag, ttl):
+        """envios: [(inscrito, título, texto, url)] -> quantos chegaram"""
+        if self.simular:
+            for p, t, c, u in envios:
+                log(f"{p['id']}: {t} | {c} | {u}")
+            return len(envios)
+        from firebase_admin import messaging
+        ok = ruins = 0
+        for i in range(0, len(envios), 500):
+            lote = envios[i:i + 500]
+            msgs = [messaging.Message(
+                token=p["token"],
+                webpush=messaging.WebpushConfig(
+                    headers={"Urgency": "high", "TTL": str(ttl)},
+                    data={"title": t, "body": c, "url": u, "tag": tag},
+                    fcm_options=messaging.WebpushFCMOptions(link=u)))
+                for p, t, c, u in lote]
+            resp = messaging.send_each(msgs)
+            for (p, *_), r in zip(lote, resp.responses):
+                if r.success:
+                    ok += 1
+                else:
+                    nome = type(r.exception).__name__
+                    if nome in ("UnregisteredError", "SenderIdMismatchError") or "not a valid FCM registration token" in str(r.exception):
+                        self.db.collection("inscritos").document(p["id"]).delete()
+                        ruins += 1
+                    else:
+                        log("falhou:", nome, str(r.exception)[:120])
+        log(f"enviados {ok}, tokens vencidos apagados {ruins}")
+        return ok
+
+
+def resumo_do_dia(fb, cfg, estado, agora, forcar):
     nt = cfg.get("notificacoes") or {}
-    estado = ler(ESTADO) if ESTADO.exists() else {}
-    if not simular and "--agora" not in sys.argv:
+    if not forcar:
         if estado.get("ultimo") == agora.date().isoformat():
             return log("resumo de hoje já foi enviado")
         if not (nt.get("hora", 9) <= agora.hour < nt.get("ate", 20)):
-            return log(f"fora do horário ({agora:%H:%M})")
-    sa = os.environ.get("FIREBASE_SA", "").strip()
-    if not sa and not simular:
-        return log("sem FIREBASE_SA; nada a fazer")
-
+            return log(f"resumo: fora do horário ({agora:%H:%M})")
     dados = ler(RAIZ / "dados" / "jogos.json")
     hoje = jogos_de_hoje(dados, agora)
     destaque = sorted(hoje, key=lambda j: -audiencia(cfg, j))
     destaque = [j for j in destaque if audiencia(cfg, j) >= 40][:1]
     log(f"{len(hoje)} jogos hoje; destaque: {destaque[0]['casa'] + ' x ' + destaque[0]['fora'] if destaque else 'nenhum'}")
-
-    if simular and not sa:
-        inscritos = [{"id": "teste", "token": "x", "times": ["Flamengo", "Palmeiras"], "ligas": ["premier"], "destaques": True},
-                     {"id": "teste2", "token": "y", "times": [], "ligas": [], "destaques": True}]
-    else:
-        import firebase_admin
-        from firebase_admin import credentials, firestore, messaging
-        firebase_admin.initialize_app(credentials.Certificate(json.loads(sa)))
-        db = firestore.client()
-        inscritos = [{"id": d.id, **d.to_dict()} for d in db.collection("inscritos").stream()]
-    log(f"{len(inscritos)} inscritos")
-
     envios = []
-    for p in inscritos:
+    for p in fb.inscritos():
         times, ligas = set(p.get("times") or []), set(p.get("ligas") or [])
         meus = []
         for j in hoje:
@@ -143,38 +181,60 @@ def main():
             continue
         titulo, corpo, url = mensagem(dados, meus, destaque, len(hoje))
         envios.append((p, titulo, corpo, url))
+    ok = fb.enviar(envios, "resumo-" + agora.date().isoformat(), 6 * 3600)
+    if not fb.simular:
+        estado.update({"ultimo": agora.date().isoformat(), "enviados": ok, "inscritos": len(fb.inscritos()),
+                       "hora": agora.isoformat(timespec="minutes")})
 
-    if simular:
-        for p, t, c, u in envios:
-            log(f"{p['id']}: {t} | {c} | {u}")
+
+def aviso_escalacao(fb, cfg, estado, agora):
+    """Quando a escalação oficial sai (cerca de 1h antes), avisa quem segue um dos times. Uma vez por jogo."""
+    arq = RAIZ / "dados" / "escalacoes.json"
+    if not arq.exists():
         return
+    esc = ler(arq)
+    jogos = {j.get("eid"): j for j in ler(RAIZ / "dados" / "jogos.json")["jogos"] if j.get("eid")}
+    feitos = set(estado.get("escalacoes", []))
+    pend = []
+    for eid, x in esc.items():
+        ini = datetime.fromisoformat(x["inicio"]).astimezone(BRT)
+        if eid in feitos or not (timedelta(minutes=-5) <= ini - agora <= timedelta(minutes=100)):
+            continue
+        pend.append((eid, x, ini))
+    if not pend:
+        return
+    for eid, x, ini in pend:
+        j = jogos.get(eid, {})
+        url = SITE.rstrip("/") + (j.get("pg") or "/") + "?utm_source=push&utm_medium=notificacao&utm_campaign=escalacao#escalacoes"
+        envios = []
+        for p in fb.inscritos():
+            times = set(p.get("times") or [])
+            quem = [t for t in (x["time_casa"], x["time_fora"]) if t in times]
+            if not quem:
+                continue
+            q = quem[0] if len(quem) == 1 else f"{x['time_casa']} e {x['time_fora']}"
+            envios.append((p, f"📋 Saiu a escalação do {q}!" if len(quem) == 1 else f"📋 Saíram as escalações de {q}!",
+                           f"{x['time_casa']} x {x['time_fora']} às {hhmm(ini)}. Veja quem joga e onde assistir.", url))
+        log(f"escalação {x['time_casa']} x {x['time_fora']}: {len(envios)} avisos")
+        if envios:
+            fb.enviar(envios, "escalacao-" + eid, 2 * 3600)
+        feitos.add(eid)
+    if not fb.simular:
+        estado["escalacoes"] = sorted(feitos)[-200:]
 
-    from firebase_admin import messaging
-    ok = ruins = 0
-    for i in range(0, len(envios), 500):
-        lote = envios[i:i + 500]
-        msgs = [messaging.Message(
-            token=p["token"],
-            webpush=messaging.WebpushConfig(
-                headers={"Urgency": "high", "TTL": str(6 * 3600)},
-                data={"title": t, "body": c, "url": u, "tag": "resumo-" + agora.date().isoformat()},
-                fcm_options=messaging.WebpushFCMOptions(link=u)))
-            for p, t, c, u in lote]
-        resp = messaging.send_each(msgs)
-        for (p, *_), r in zip(lote, resp.responses):
-            if r.success:
-                ok += 1
-            else:
-                nome = type(r.exception).__name__
-                if nome in ("UnregisteredError", "SenderIdMismatchError") or "not a valid FCM registration token" in str(r.exception):
-                    db.collection("inscritos").document(p["id"]).delete()
-                    ruins += 1
-                else:
-                    log("falhou:", nome, str(r.exception)[:120])
-    log(f"enviados {ok}, tokens vencidos apagados {ruins}")
-    ESTADO.write_text(json.dumps({"ultimo": agora.date().isoformat(), "enviados": ok, "inscritos": len(inscritos),
-                                  "hora": agora.isoformat(timespec="minutes")}, ensure_ascii=False, indent=1) + "\n",
-                      encoding="utf-8")
+
+def main():
+    simular = "--simular" in sys.argv
+    agora = datetime.now(BRT)
+    cfg = ler(RAIZ / "robo" / "config.json")
+    estado = ler(ESTADO) if ESTADO.exists() else {}
+    fb = Firebase(simular)
+    if not fb.ok():
+        return log("sem FIREBASE_SA; nada a fazer")
+    resumo_do_dia(fb, cfg, estado, agora, simular or "--agora" in sys.argv)
+    aviso_escalacao(fb, cfg, estado, agora)
+    if not simular:
+        ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

@@ -81,7 +81,18 @@ jobs:
         with:
           path: site
           name: github-pages-${{ matrix.passo }}
+      - name: Esperar o GitHub registrar o pacote do site
+        run: sleep 15
       - id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ matrix.passo }}
+      - name: Tentar publicar de novo (se a primeira falhou)
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 45
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4
         with:
           artifact_name: github-pages-${{ matrix.passo }}

@@ -905,5 +905,30 @@
   "Redonda": "Redonda",
   "Mirassol": "Mirassol",
   "Maraca": "Maracá"
+ },
+ "zonas": {
+  "comentario": "Faixas fixas da tabela (regras que não mudam de um ano para o outro). A ESPN às vezes manda as zonas sozinha; estas têm prioridade.",
+  "brasileirao-a": [
+   {
+    "de": 17,
+    "ate": 20,
+    "nome": "Rebaixamento",
+    "cor": "#d7263d"
+   }
+  ],
+  "brasileirao-b": [
+   {
+    "de": 1,
+    "ate": 4,
+    "nome": "Acesso à Série A",
+    "cor": "#0a7a3a"
+   },
+   {
+    "de": 17,
+    "ate": 20,
+    "nome": "Rebaixamento",
+    "cor": "#d7263d"
+   }
+  ]
  }
 }

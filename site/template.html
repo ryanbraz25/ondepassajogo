@@ -342,6 +342,38 @@ header .wrap{position:relative}
 .avcard button{min-height:42px;padding:6px 18px;border-radius:999px;border:0;background:var(--pitch);color:#fff;font:800 15px Barlow,sans-serif;cursor:pointer}
 .avcard.on{border-color:var(--line);background:var(--card)}
 .avcard.on button{background:transparent;color:var(--pitch);border:1px solid var(--line)}
+.sidetab{display:block;margin:-4px 0 10px;font:700 14px Barlow,sans-serif;color:var(--pitch);text-decoration:none}
+:root[data-theme=dark] .sidetab{color:#58c98a}
+.chipa{flex:0 0 auto;display:inline-flex;align-items:center;min-height:40px;padding:6px 14px;border-radius:999px;border:1px dashed var(--line);color:var(--ink);font:700 14px Barlow,sans-serif;text-decoration:none;white-space:nowrap}
+.abas{display:flex;align-items:center;gap:4px;margin:4px 0 14px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.abas::-webkit-scrollbar{display:none}
+.aba{padding:10px 14px;border:0;border-bottom:3px solid transparent;background:none;color:var(--mute);font:700 16px Barlow,sans-serif;cursor:pointer;white-space:nowrap;margin-bottom:-1px}
+.aba.on{color:var(--ink);border-bottom-color:var(--pitch)}
+.abapg{margin-left:auto;font:600 14px Barlow,sans-serif;color:var(--mute);white-space:nowrap;padding:8px 4px}
+.tbw{overflow-x:auto;border:1px solid var(--line);border-radius:14px;margin:4px 0}
+.tb{width:100%;border-collapse:collapse;font-size:15px;font-variant-numeric:tabular-nums}
+.tb th{font:700 12px Barlow,sans-serif;text-transform:uppercase;color:var(--mute);background:var(--card);padding:9px 6px;text-align:center}
+.tb td{padding:8px 6px;text-align:center;border-top:1px solid var(--line);white-space:nowrap}
+.tb .tp{width:34px;font-weight:700;color:var(--mute);position:relative}
+.tb tr.zn .tp::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:4px;border-radius:0 3px 3px 0;background:var(--z)}
+.tb .tt{text-align:left}
+.tb .tt a{display:flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none;font-weight:600}
+.tb .tt .cr{width:20px;height:20px;flex:0 0 auto}
+.tb tr.eu td{background:color-mix(in srgb,var(--gold) 18%,transparent)}
+.tleg{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--mute);margin:8px 0 0}
+.tleg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
+.tleg2{font-size:12px;color:var(--mute);margin:6px 0 0}
+.grp{font:800 18px Barlow,sans-serif;margin:16px 0 6px}
+.rl{list-style:none;margin:0;padding:0}
+.rl li{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line);font-size:15px}
+.rl li span{display:flex;align-items:center;gap:8px}
+.rl li span:first-child{justify-content:flex-end;text-align:right}
+.rl li b{font:800 19px "Barlow Condensed",sans-serif;white-space:nowrap}
+.rl li .vc{font-weight:700}
+.rl li small{grid-column:1/-1;text-align:center;color:var(--mute);font-size:12px;margin-top:-6px}
+.rl .rdia{display:block;padding:14px 4px 6px;font:700 13px Barlow,sans-serif;color:var(--mute);border-bottom:0}
+.rl .cr{width:22px;height:22px}
+@media(max-width:600px){.tb .tx{display:none}.tb{font-size:14px}.tb .tt span{max-width:46vw;overflow:hidden;text-overflow:ellipsis}.abapg{display:none}.rl li{font-size:14px;gap:6px}.rl li b{font-size:17px}}
 .ob{position:fixed;inset:0;z-index:60;display:grid;place-items:center;background:rgba(5,12,8,.55);padding:16px;animation:obin .2s ease}
 .ob[hidden]{display:none}
 @keyframes obin{from{opacity:0}to{opacity:1}}
@@ -423,7 +455,7 @@ __ADSENSE_HEAD__
 </div>
 
 <div class="wrap layout">
- <aside class="side" aria-label="Campeonatos"><h2 class="sideh">Campeonatos</h2><div id="side" role="group" aria-label="Campeonatos (clique para escolher um ou mais)"></div><div class="ad" id="adlado" hidden></div></aside>
+ <aside class="side" aria-label="Campeonatos"><h2 class="sideh">Campeonatos</h2><a class="sidetab" href="/tabelas/">Tabelas dos campeonatos ›</a><div id="side" role="group" aria-label="Campeonatos (clique para escolher um ou mais)"></div><div class="ad" id="adlado" hidden></div></aside>
  <main id="lista"><div id="list"></div><div class="ad" id="adlista" hidden></div><div id="list2"></div></main>
 </div>
 
@@ -632,7 +664,8 @@ function renderChips(){
  const fv=S.view==='favs';
  $('chips').innerHTML=`<button class="chip favchip" data-c="favs" aria-pressed="${fv}">★ Seguindo<span class="n">${nf}</span></button><button class="chip" data-c="todas" aria-pressed="${S.view==='todos'&&S.comps.size===0}">Todas</button>`
   +main.map(chip).join('')+restShown.map(chip).join('')
-  +(hidden||S.more?`<button class="chip more" data-c="mais">${S.more?'Menos ligas':'+ '+hidden+' ligas'}</button>`:'');
+  +(hidden||S.more?`<button class="chip more" data-c="mais">${S.more?'Menos ligas':'+ '+hidden+' ligas'}</button>`:'')
+  +(Object.keys(D.abas||{}).length?'<a class="chipa" href="/tabelas/">Tabelas ›</a>':'');
  const li=k=>{const c=C(k),n=cnt(k),on=S.lfav.has(k);return `<button class="li${n?'':' zero'}${on?' lon':''}" data-c="${k}" aria-pressed="${S.view==='liga'?S.liga===k:!fv&&S.comps.has(k)}">${lgIcon(k)}${esc(c.nome)}<span class="n">${n||''}</span><span class="lst${on?' on':''}" data-l="${k}" role="button" tabindex="0" aria-label="${on?'Deixar de seguir':'Seguir'} ${esc(c.nome)}" title="${on?'Você segue '+esc(c.nome):'Seguir '+esc(c.nome)}">${on?'★':'☆'}</span></button>`};
  const tem=new Set(games.map(g=>g.comp));
  const rs=rest.filter(k=>tem.has(k)||S.comps.has(k)||S.liga===k).sort((a,b)=>(cnt(b)>0)-(cnt(a)>0));
@@ -686,12 +719,48 @@ function byDay(list,searching){
  const by={};list.forEach(g=>(by[g.k]=by[g.k]||[]).push(g));
  return Object.keys(by).sort().map((k,n)=>`<h2>${esc(longDay(noon(k)))}<small>${plural(by[k].length)}</small></h2>${dayHTML(by[k],k,searching)}${n===0?'<!--AD-->':''}`).join('');
 }
+// ---------- abas do campeonato: Jogos | Tabela | Resultados (dados em /dados/camp-<id>.json)
+const CAMP={};
+const slugJS=s=>String(s).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+function abaComp(){if(S.view==='liga'&&S.liga)return S.liga;if(S.view==='todos'&&!S.q.trim()&&S.comps.size===1)return [...S.comps][0];return null}
+function abasBar(k){
+ const a=(D.abas||{})[k]||'';if(!a)return '';
+ if(S.abaK!==k){S.abaK=k;S.aba='jogos'}
+ const b=[['jogos','Jogos']].concat(a.includes('t')?[['tabela','Tabela']]:[],a.includes('r')?[['resultados','Resultados']]:[]);
+ return `<nav class="abas" role="tablist" aria-label="${esc(C(k).nome)}">${b.map(([i,n])=>`<button type="button" role="tab" class="aba${S.aba===i?' on':''}" data-aba="${i}" aria-selected="${S.aba===i}">${n}</button>`).join('')}<a class="abapg" href="/campeonato/${slugJS(k)}/">Página do campeonato ›</a></nav>`;
+}
+function crestTb(t,u){const x=ESC[t]||u;return x?`<img class="cr" src="${esc(/thesportsdb/.test(x)?x+'/tiny':x)}" alt="" width="20" height="20" loading="lazy" onerror="this.style.visibility='hidden'">`:'<span class="cr ini"></span>'}
+function tabelaHtml(d){
+ if(!d.tabela||!d.tabela.length)return '<p class="empty">Tabela indisponível.</p>';
+ const zonas={};
+ const g=d.tabela.map(gr=>`${gr.nome?`<h3 class="grp">${esc(gr.nome)}</h3>`:''}<div class="tbw"><table class="tb"><thead><tr><th>#</th><th class="tt">Time</th><th>P</th><th>J</th><th class="tx">V</th><th class="tx">E</th><th class="tx">D</th><th class="tx">GP</th><th class="tx">GC</th><th>SG</th></tr></thead><tbody>${gr.linhas.map(l=>{if(l.zona)zonas[l.zona]=l.cor||'#0a6d35';const eu=S.favs.has(l.time);return `<tr class="${l.zona?'zn':''}${eu?' eu':''}"${l.cor?` style="--z:${esc(l.cor)}"`:''}><td class="tp">${l.pos}</td><td class="tt"><a href="/time/${slugJS(l.time)}/">${crestTb(l.time,l.esc)}<span>${esc(l.time)}</span></a></td><td><b>${l.pts}</b></td><td>${l.pj}</td><td class="tx">${l.v}</td><td class="tx">${l.e}</td><td class="tx">${l.d}</td><td class="tx">${l.gp}</td><td class="tx">${l.gc}</td><td>${l.sg>0?'+':''}${l.sg}</td></tr>`}).join('')}</tbody></table></div>`).join('');
+ const leg=Object.keys(zonas).length?`<p class="tleg">${Object.entries(zonas).map(([z,c])=>`<span><i style="background:${esc(c)}"></i>${esc(z)}</span>`).join('')}</p>`:'';
+ return g+leg+`<p class="tleg2">${d.temporada?'Temporada '+esc(d.temporada)+' · ':''}P = pontos · J = jogos · SG = saldo de gols. Toque no time para ver os jogos dele.</p>`;
+}
+function resultadosHtml(d){
+ const r=d.resultados||[];if(!r.length)return '<p class="empty">Sem resultados recentes.</p>';
+ let dia='';
+ return '<ul class="rl">'+r.map(x=>{const t=new Date(x.inicio),k=dayKey(t),h=k!==dia?`<li class="rdia">${esc((s=>s.charAt(0).toUpperCase()+s.slice(1))(longDay(noon(k))))}</li>`:'';dia=k;const a=x.placar.casa,b=x.placar.fora;
+  return h+`<li><span class="${a>b?'vc':''}">${crest(x.casa)}${esc(x.casa)}</span><b>${a} x ${b}</b><span class="${b>a?'vc':''}">${esc(x.fora)}${crest(x.fora)}</span>${x.pen?`<small>pên. ${x.pen[0]} x ${x.pen[1]}</small>`:''}</li>`}).join('')+'</ul>';
+}
+function painelHtml(k){
+ const d=CAMP[k];
+ if(d===undefined){CAMP[k]=false;fetch(`/dados/camp-${k}.json`,{cache:'no-cache'}).then(r=>r.json()).then(x=>{CAMP[k]=x;renderList()}).catch(()=>{CAMP[k]=null;renderList()})}
+ if(!d)return d===null?'<p class="empty">Não deu para carregar agora. Tente de novo em instantes.</p>':'<p class="empty">Carregando…</p>';
+ return S.aba==='tabela'?tabelaHtml(d):resultadosHtml(d);
+}
 function renderList(){
+ const ak=abaComp(), bar=ak?abasBar(ak):'';
+ if(ak&&bar&&S.aba!=='jogos'){
+  const c=C(ak);
+  setList(`<div class="lghead"><h2><span class="pill big">${lgIcon(ak)}</span>${esc(c.nome)}</h2>${S.view==='liga'?'<span class="lgbtns"><button class="clr" type="button" data-clr>× Ver todos os jogos</button></span>':''}</div>`+bar+painelHtml(ak));
+  return;
+ }
  if(S.view==='liga'&&S.liga){
   const c=C(S.liga), list=lgGames(S.liga).filter(okFree);
   const head=`<div class="lghead"><h2><span class="pill big">${lgIcon(S.liga)}</span>${esc(c.nome)}<small>${list.length?'próximos jogos':''}</small></h2><span class="lgbtns">${(()=>{const on=S.lfav.has(S.liga);return `<button class="lgfollow${on?' on':''}" type="button" data-l="${S.liga}" aria-pressed="${on}">${on?'★ Seguindo':'☆ Seguir liga'}</button>`})()}<button class="clr" type="button" data-clr>× Ver todos os jogos</button></span></div>`;
-  if(!list.length){setList(head+`<p class="empty">Nenhum jogo de ${esc(c.nome)} nos próximos dias.</p>`);return}
-  setList(head+byDay(list,true));
+  if(!list.length){setList(head+bar+`<p class="empty">Nenhum jogo de ${esc(c.nome)} nos próximos dias.</p>`);return}
+  setList(head+bar+byDay(list,true));
   return;
  }
  if(S.view==='favs'){
@@ -721,7 +790,7 @@ function renderList(){
   return;
  }
  const list=games.filter(g=>g.k===S.day&&match(g));
- const title=`<h2>${esc(longDay(noon(S.day)))}<small>${plural(list.length)}</small></h2>`;
+ const title=bar+`<h2>${esc(longDay(noon(S.day)))}<small>${plural(list.length)}</small></h2>`;
  if(!list.length){
   const nxt=games.find(g=>g.k>S.day&&match(g));
   const which=S.comps.size?[...S.comps].map(k=>C(k).curto||C(k).nome).join(', '):'';
@@ -866,6 +935,7 @@ $('cprev').addEventListener('click',()=>$('chips').scrollBy({left:-320}));
 $('cnext').addEventListener('click',()=>$('chips').scrollBy({left:320}));
 $('lista').addEventListener('click',async e=>{
  if(e.target.closest('[data-clr]')){S.view='todos';S.liga=null;renderChips();renderList();return}
+ const ab=e.target.closest('[data-aba]');if(ab){S.aba=ab.dataset.aba;renderList();return}
  const st=e.target.closest('.star[data-t],.fst[data-t]');
  if(st){toggleFav(st.dataset.t);return}
  const sl=e.target.closest('[data-l]');

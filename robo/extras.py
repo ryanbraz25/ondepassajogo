@@ -50,8 +50,39 @@ def ligas(cfg):
 
 
 # ---------------------------------------------------------------- tabelas
-def tabelas(cfg, nome, get_json, logo=lambda u: u):
+def _n(s):
+    import re
+    import unicodedata
+    s = unicodedata.normalize("NFD", str(s)).encode("ascii", "ignore").decode().lower()
+    s = re.sub(r"\b(fc|ec|sc|cf|afc|club|clube|de|futebol|esporte|sport)\b", " ", s)
+    return " ".join(re.sub(r"[^a-z0-9]+", " ", s).split())
+
+
+def _nome_tabela(cfg, nome, comp, t, conhecidos):
+    """A tabela da ESPN às vezes usa outro nome que o placar ("Athletico Paranaense" x "Athletico-PR").
+    Usa o nome que o site já conhece para esse time."""
+    cands = [nome(cfg, t[k], comp) for k in ("displayName", "shortDisplayName", "name", "location") if t.get(k)]
+    for c in cands:
+        if c in conhecidos:
+            return c
+    idx = {_n(k): k for k in conhecidos}
+    for c in cands:
+        if _n(c) in idx:
+            return idx[_n(c)]
+    for c in cands:  # mesma primeira palavra, e só um time conhecido com ela: "Athletico Paranaense" ~ "Athletico-PR"
+        a = _n(c).split()
+        if not a or len(a[0]) < 6:
+            continue
+        iguais = [v for k, v in idx.items() if k.split()[:1] == a[:1]]
+        if len(iguais) == 1:
+            return iguais[0]
+    return cands[0] if cands else "?"
+
+
+def tabelas(cfg, nome, get_json, logo=lambda u: u, conhecidos=()):
     """Classificação de cada campeonato (pontos corridos e fases de grupos)."""
+    conhecidos = set(conhecidos)
+    conhecidos_comp = {}
     out = ler(TABELAS, {})
     novas = 0
     for comp, c, liga in ligas(cfg):
@@ -71,7 +102,7 @@ def tabelas(cfg, nome, get_json, logo=lambda u: u):
                 nota = en.get("note") or {}
                 lg_ = ((t.get("logos") or [{}])[0] or {}).get("href", "")
                 linhas.append({
-                    "pos": v("rank") or len(linhas) + 1, "time": nome(cfg, t.get("displayName", "?"), comp),
+                    "pos": v("rank") or len(linhas) + 1, "time": _nome_tabela(cfg, nome, comp, t, conhecidos_comp.get(comp, conhecidos)),
                     "pj": v("gamesPlayed"), "v": v("wins"), "e": v("ties"), "d": v("losses"),
                     "gp": v("pointsFor"), "gc": v("pointsAgainst"), "sg": v("pointDifferential"), "pts": v("points"),
                     **({"zona": nota.get("description", ""), "cor": nota.get("color", "")} if nota.get("description") else {}),
@@ -87,7 +118,15 @@ def tabelas(cfg, nome, get_json, logo=lambda u: u):
             # campeonato com mais de um código na ESPN (ex.: Eurocopa + eliminatórias): fica a que tem grupos agora
             if ant.get("liga") and ant.get("liga") != liga and ant.get("_rodada") == RODADA:
                 grupos = ant["grupos"] + grupos
-            out[comp] = {"grupos": grupos, "liga": liga, "atualizado": datetime.now(BRT).isoformat(timespec="minutes"), "_rodada": RODADA}
+            temporada = str((r.get("season") or {}).get("displayName") or (r.get("season") or {}).get("year") or "")
+            zonas = [z for z in (cfg.get("zonas", {}).get(comp) or []) if isinstance(z, dict)]
+            for g in grupos:
+                for l in g["linhas"]:
+                    for z in zonas:
+                        if z["de"] <= l["pos"] <= z["ate"]:
+                            l["zona"], l["cor"] = z["nome"], z["cor"]
+            out[comp] = {"grupos": grupos, "liga": liga, "temporada": temporada,
+                         "atualizado": datetime.now(BRT).isoformat(timespec="minutes"), "_rodada": RODADA}
             novas += 1
         time.sleep(0.2)
     grava(TABELAS, out)
@@ -213,8 +252,18 @@ def escalacoes(cfg, get_json, jogos, offline=False):
 
 
 # ---------------------------------------------------------------- arquivos das abas (página inicial)
-def arquivos_site(comps, tabs, hist):
+def ativos(jogos, hist, dias=45):
+    """Campeonatos em andamento: com jogo na agenda ou resultado recente (evita mostrar tabela de edição antiga)."""
+    corte = (datetime.now(BRT) - timedelta(days=dias)).isoformat()
+    a = {j["comp"] for j in jogos}
+    a |= {x["comp"] for x in hist["jogos"].values() if x["inicio"] >= corte}
+    return a
+
+
+def arquivos_site(comps, tabs, hist, ativos_=None):
     SAIDA.mkdir(parents=True, exist_ok=True)
+    if ativos_ is not None:
+        tabs = {k: v for k, v in tabs.items() if k in ativos_}
     por_comp = {}
     for x in hist["jogos"].values():
         por_comp.setdefault(x["comp"], []).append(x)
@@ -224,7 +273,7 @@ def arquivos_site(comps, tabs, hist):
         res = sorted(por_comp.get(comp, []), key=lambda x: x["inicio"], reverse=True)[:40]
         if not t and not res:
             continue
-        grava(SAIDA / f"camp-{comp}.json", {"tabela": t, "resultados": [{k: r[k] for k in ("inicio", "casa", "fora", "placar") if k in r} |
+        grava(SAIDA / f"camp-{comp}.json", {"tabela": t, "temporada": (tabs.get(comp) or {}).get("temporada", ""), "resultados": [{k: r[k] for k in ("inicio", "casa", "fora", "placar") if k in r} |
                                                                          ({"pen": r["pen"]} if r.get("pen") else {}) for r in res]}, compacto=True)
         feitos.add(f"camp-{comp}.json")
     return _limpa(feitos, tabs, por_comp)

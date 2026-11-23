@@ -66,8 +66,28 @@ def e(s):
     return escape(str(s), quote=True)
 
 
+MASC = ("Brasileirão", "Paulistão", "Campeonato", "Carioca", "Mineiro", "Gauchão", "Mundial", "Championship", "Argentino", "Italiano", "Francês", "Alemão", "Inglês", "Espanhol", "Português", "Turco", "Holandês", "Saudita", "Nordestão")
+
+
+def art(nome, m, f):
+    """Artigo certo para o campeonato: "do Brasileirão", "da Liga da Turquia"."""
+    return m if str(nome).startswith(MASC) else f
+
+
+def do_(nome):
+    return art(nome, "do", "da") + " " + nome
+
+
+def no_(nome):
+    return art(nome, "no", "na") + " " + nome
+
+
 class Ctx:
-    def __init__(self, dados, head_extra, favicon, pin):
+    def __init__(self, dados, head_extra, favicon, pin, extras=None):
+        ex = extras or {}
+        self.tabs = ex.get("tabelas") or {}
+        self.hist = ex.get("historico") or {"jogos": {}}
+        self.escs = ex.get("escalacoes") or {}
         self.d = dados
         self.head_extra = head_extra
         self.favicon = favicon
@@ -141,7 +161,8 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/p.css">
+<link rel="stylesheet" href="/p.css?v=3">
+<script src="/p.js?v=3" defer></script>
 {cx.head_extra}
 {ld}</head>
 <body>
@@ -213,6 +234,138 @@ def por_dia(cx, jogos, **kw):
     return "".join(out)
 
 
+# ---------------------------------------------------------------- tabela, forma, resultados, escalações
+import extras as X  # noqa: E402
+
+COLS = '<tr><th class="c-pos">#</th><th class="c-time">Time</th><th>P</th><th>J</th><th class="c-x">V</th><th class="c-x">E</th><th class="c-x">D</th><th class="c-x">GP</th><th class="c-x">GC</th><th>SG</th><th class="c-f">Últimos 5</th></tr>'
+
+
+def forma(cx, time_, n=5, antes=None):
+    js = X.ultimos(cx.hist, time_, n, antes)
+    if not js:
+        return ""
+    bolas = []
+    for x in reversed(js):
+        r = X.resultado_para(time_, x)
+        adv = x["fora"] if x["casa"] == time_ else x["casa"]
+        pl = f'{x["placar"]["casa"]} x {x["placar"]["fora"]}'
+        tit = f'{"Vitória" if r == "V" else "Empate" if r == "E" else "Derrota"}: {x["casa"]} {pl} {x["fora"]} ({datetime.fromisoformat(x["inicio"]).astimezone(BRT):%d/%m})'
+        bolas.append(f'<span class="fm f{r}" title="{e(tit)}" aria-label="{e(tit)}">{r}</span>')
+    return '<span class="forma">' + "".join(bolas) + "</span>"
+
+
+def esc_tab(cx, l):
+    u = cx.esc.get(l["time"]) or l.get("esc", "")
+    if u and "thesportsdb" in u:
+        u += "/tiny"
+    return f'<img class="cr" src="{e(u)}" alt="" width="20" height="20" loading="lazy">' if u else '<span class="cr ini"></span>'
+
+
+def tabela_html(cx, k, destaque=(), recorte=None, com_forma=True):
+    t = cx.tabs.get(k)
+    if not t:
+        return ""
+    out = []
+    zonas = {}
+    for g in t["grupos"]:
+        linhas = g["linhas"]
+        if recorte:
+            linhas = [l for l in linhas if recorte[0] <= l["pos"] <= recorte[1]]
+            if not linhas:
+                continue
+        rows = []
+        for l in linhas:
+            if l.get("zona"):
+                zonas[l["zona"]] = l.get("cor") or "#0a6d35"
+            cor = f' style="--z:{e(l["cor"])}"' if l.get("cor") else ""
+            dst = " eu" if l["time"] in destaque else ""
+            rows.append(f'<tr class="{("zn" if l.get("zona") else "") + dst}"{cor}><td class="c-pos">{l["pos"]}</td>'
+                        f'<td class="c-time"><a href="/time/{slug(l["time"])}/">{esc_tab(cx, l)}<span>{e(l["time"])}</span></a></td>'
+                        f'<td class="c-p"><b>{l["pts"]}</b></td><td>{l["pj"]}</td><td class="c-x">{l["v"]}</td><td class="c-x">{l["e"]}</td><td class="c-x">{l["d"]}</td>'
+                        f'<td class="c-x">{l["gp"]}</td><td class="c-x">{l["gc"]}</td><td>{"+" if l["sg"] > 0 else ""}{l["sg"]}</td>'
+                        f'<td class="c-f">{forma(cx, l["time"]) if com_forma else ""}</td></tr>')
+        cab = f'<h3 class="grp">{e(g["nome"])}</h3>' if g.get("nome") else ""
+        out.append(f'{cab}<div class="tabwrap"><table class="tab"><thead>{COLS}</thead><tbody>{"".join(rows)}</tbody></table></div>')
+    leg = ""
+    if zonas and not recorte:
+        leg = '<p class="leg">' + " ".join(f'<span><i style="background:{e(c)}"></i>{e(z)}</span>' for z, c in zonas.items()) + "</p>"
+    return "".join(out) + leg + '<p class="leg2">P = pontos · J = jogos · V/E/D = vitórias, empates e derrotas · SG = saldo de gols</p>'
+
+
+def resultados_html(cx, xs, time_=None, mostrar_comp=True):
+    if not xs:
+        return ""
+    itens = []
+    for x in xs:
+        t = datetime.fromisoformat(x["inicio"]).astimezone(BRT)
+        r = f'<span class="fm f{X.resultado_para(time_, x)}">{X.resultado_para(time_, x)}</span>' if time_ else ""
+        pen = f' <small>(pên. {x["pen"][0]} x {x["pen"][1]})</small>' if x.get("pen") else ""
+        comp = f' · {e(cx.comp_nome(x["comp"]))}' if mostrar_comp else ""
+        itens.append(f'<li><span class="rd">{t:%d/%m}</span>{r}<span class="rj"><span class="{"vc" if x["placar"]["casa"] > x["placar"]["fora"] else ""}">{e(x["casa"])}</span>'
+                     f' <b>{x["placar"]["casa"]} x {x["placar"]["fora"]}</b> <span class="{"vc" if x["placar"]["fora"] > x["placar"]["casa"] else ""}">{e(x["fora"])}</span>{pen}</span>'
+                     f'<span class="rc">{comp[3:] if comp else ""}</span></li>')
+    return '<ul class="res">' + "".join(itens) + "</ul>"
+
+
+GOL = {"G", "GK", "GOL"}
+ATA = {"A", "AC", "AE", "AD", "CA", "PE", "PD", "F", "CF", "ST", "LW", "RW", "SS", "FW", "LF", "RF"}
+
+
+def linha_pos(p):
+    a = (p or "").upper()
+    if a in GOL:
+        return 0
+    if a.startswith("Z") or a in {"LD", "LE", "LB", "RB", "CB", "D", "DF", "RWB", "LWB", "SW", "DC", "CD-L", "CD-R", "ZC"}:
+        return 1
+    if a in ATA:
+        return 3
+    return 2
+
+
+def escalacoes_html(cx, j):
+    """Texto das escalações (para o Google e para quem não tem JavaScript); o desenho do campo é feito pelo p.js."""
+    es = cx.escs.get(j.get("eid", ""))
+    ini = j["_t"]
+    agora = cx.agora
+    dados = ""
+    if es:
+        lados = []
+        for lado, nome_ in (("casa", j["casa"]), ("fora", j["fora"])):
+            x = es[lado]
+            tit = ", ".join(f'{p["nome"]}' for p in sorted(x["titulares"], key=lambda p: (linha_pos(p["pos"]), p.get("fp", 99))))
+            res = ", ".join(p["nome"] for p in x["reservas"])
+            lados.append(f'<div class="esq"><h3>{e(nome_)}{(" · " + e(x["esquema"])) if x.get("esquema") else ""}</h3>'
+                         f'<p><b>Titulares:</b> {e(tit)}.</p>' + (f'<p class="rs"><b>Reservas:</b> {e(res)}.</p>' if res else "") + "</div>")
+        dados = ('<script type="application/json" class="escdata">' + json.dumps(es, ensure_ascii=False).replace("</", "<\\/") + "</script>")
+        return (f'<section id="escalacoes" class="escal"><h2>Escalações</h2><div class="campo" data-pronto="1"></div>'
+                f'<div class="esqs esqs-txt">{"".join(lados)}</div>{dados}</section>')
+    if j.get("placar") or ini - agora > timedelta(days=3):
+        return ""
+    return (f'<section id="escalacoes" class="escal"><h2>Escalações</h2>'
+            f'<div class="campo" data-lg="{e(j.get("lg", ""))}" data-eid="{e(j.get("eid", ""))}" data-ini="{ini.isoformat()}" '
+            f'data-casa="{e(j["casa"])}" data-fora="{e(j["fora"])}"></div>'
+            f'<p class="escnota">As escalações oficiais saem cerca de 1 hora antes do jogo e aparecem aqui sozinhas.</p></section>')
+
+
+def como_chegam(cx, j):
+    blocos = []
+    for time_ in (j["casa"], j["fora"]):
+        l, g = X.posicao(cx.tabs, j["comp"], time_)
+        pos = (f'<p class="cpos"><b>{l["pos"]}º</b> {e(no_(cx.comp_nome(j["comp"])))}{(" (" + e(g["nome"]) + ")") if g and g.get("nome") else ""} · {l["pts"]} pts em {l["pj"]} jogos</p>' if l else "")
+        ult = X.ultimos(cx.hist, time_, 5, j["inicio"])
+        if not (pos or ult):
+            continue
+        blocos.append(f'<div class="cc"><h3><a href="/time/{slug(time_)}/">{escudo(cx, time_, 28)}{e(time_)}</a></h3>{pos}'
+                      + (f'<p class="cfm">Últimos jogos: {forma(cx, time_, 5, j["inicio"])}</p>' + resultados_html(cx, ult, time_, mostrar_comp=False) if ult else "")
+                      + "</div>")
+    h2h = X.confrontos(cx.hist, j["casa"], j["fora"])
+    h2h = [x for x in h2h if x["inicio"] < j["inicio"]]
+    if not blocos and not h2h:
+        return ""
+    return ('<section class="chegam"><h2>Como chegam</h2><div class="ccs">' + "".join(blocos) + "</div>"
+            + (f"<h3>Últimos confrontos</h3>{resultados_html(cx, h2h)}" if h2h else "") + "</section>")
+
+
 # ---------------------------------------------------------------- página do jogo
 def pagina_jogo(cx, j):
     t = j["_t"]
@@ -233,7 +386,7 @@ def pagina_jogo(cx, j):
             + (" Tem transmissão grátis." if gratis else ""))
     quando = f"{data_longa(t)}, às {hora(t)} (horário de Brasília)"
     texto = (f"{e(nl(casa))} e {e(nl(fora))} se enfrentam {e(quando)}"
-             + (f", pela {e(rodada)}" if rodada else "") + f" do {e(comp)}"
+             + (f", pela {e(rodada)}" if rodada else "") + f" {e(do_(comp))}"
              + (f", no {e(local)}" if local else "") + ". ")
     if nomes:
         texto += f"Transmissão: {e(lista_nomes)}."
@@ -250,7 +403,7 @@ def pagina_jogo(cx, j):
     prox_f = [x for x in cx.jogos if fora in (x["casa"], x["fora"]) and x is not j and x["_t"] > t][:4]
     rel = ""
     if mesmos:
-        rel += f"<h2>Outros jogos do {e(comp)} no mesmo dia</h2>" + lista(cx, mesmos, mostrar_data=False, mostrar_comp=False)
+        rel += f"<h2>Outros jogos {e(do_(comp))} no mesmo dia</h2>" + lista(cx, mesmos, mostrar_data=False, mostrar_comp=False)
     for time, xs in ((casa, prox_c), (fora, prox_f)):
         if xs and time != "A definir":
             rel += f'<h2>Próximos jogos do {e(nl(time))}</h2>' + lista(cx, xs)
@@ -289,6 +442,10 @@ def pagina_jogo(cx, j):
     elif "cancel" in (j.get("nota") or "").lower():
         ld["eventStatus"] = "https://schema.org/EventCancelled"
 
+    def rk(time_):
+        l, _ = X.posicao(cx.tabs, j["comp"], time_)
+        return f'<small class="rk">{l["pos"]}º · {l["pts"]} pts</small>' if l else ""
+
     # canais: grátis primeiro, cada um vira um botão para a transmissão oficial
     botoes = ""
     for nome, tipo, link, gr in sorted(canais, key=lambda c: not c[3]):
@@ -319,23 +476,25 @@ def pagina_jogo(cx, j):
 <h1>Onde assistir {e(casa)} x {e(fora)} ao vivo</h1>
 <div class="placa">
  {f'<p class="nota">{e(j["nota"])}</p>' if j.get("nota") else ''}
- <a class="tm" href="/time/{slug(casa)}/">{escudo(cx, casa, 56)}<span>{e(casa)}</span></a>
+ <a class="tm" href="/time/{slug(casa)}/">{escudo(cx, casa, 56)}<span>{e(casa)}</span>{rk(casa)}</a>
  <div class="hr">{(f'<b class="pl">{placar["casa"]} x {placar["fora"]}</b><small>Encerrado · {e(data_curta(t))}</small>' if encerrado else f'<b>{hora(t)}</b><small>{e(data_curta(t))}</small>')}
   {f'<span class="est" title="{e(local)}">{pino}{e(estadio)}</span>' if estadio else ''}
  </div>
- <a class="tm" href="/time/{slug(fora)}/">{escudo(cx, fora, 56)}<span>{e(fora)}</span></a>
+ <a class="tm" href="/time/{slug(fora)}/">{escudo(cx, fora, 56)}<span>{e(fora)}</span>{rk(fora)}</a>
 </div>
 {status}
 <h2>{'Onde passou' if encerrado else 'Onde assistir'}</h2>
 {bloco_canais}
 <p class="cta2"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">★ Seguir {e(nl(casa))} ou {e(nl(fora))} e receber aviso no dia do jogo</a></p>
+{escalacoes_html(cx, j)}
+{como_chegam(cx, j)}
 {rel}
 <section class="sobre">
 <h2>Sobre o jogo</h2>
 <p>{texto}</p>
 {faq}
 </section>
-<p class="mais"><a href="/jogos-de-hoje/">Ver todos os jogos de hoje</a> · <a href="/campeonato/{slug(j['comp'])}/">Jogos do {e(comp)}</a></p>
+<p class="mais"><a href="/jogos-de-hoje/">Ver todos os jogos de hoje</a> · <a href="/campeonato/{slug(j['comp'])}/">Jogos {e(do_(comp))}</a></p>
 </article>"""
     mig = [("Início", "/"), (comp, f"/campeonato/{slug(j['comp'])}/"), (f"{casa} x {fora}", j["_pg"])]
     return pagina(cx, j["_pg"], titulo, desc, corpo, [ld], mig)
@@ -346,22 +505,46 @@ def pagina_time(cx, time, jogos):
     nome = nl(time)
     cam = f"/time/{slug(time)}/"
     futuros = [j for j in jogos if not j.get("placar")]
-    passados = [j for j in jogos if j.get("placar")][-3:]
+    ult = X.ultimos(cx.hist, time, 10)
     prox = futuros[0] if futuros else None
+    # posição: campeonato em que o time aparece (os principais e de grupo único primeiro)
+    pos_l = pos_k = pos_g = None
+    for k in sorted(cx.tabs, key=lambda k: (not cx.comps.get(k, {}).get("principal"), len(cx.tabs[k]["grupos"]))):
+        l, g = X.posicao(cx.tabs, k, time)
+        if l:
+            pos_l, pos_k, pos_g = l, k, g
+            break
     if prox:
         can = ", ".join(cx.canal_info(prox, c)[0] for c in prox.get("canais", [])) or "canal a confirmar"
         intro = (f'<p class="dest">Próximo jogo: <a href="{e(prox["_pg"])}"><b>{e(prox["casa"])} x {e(prox["fora"])}</b></a>, '
                  f'{e(data_curta(prox["_t"]))} às {hora(prox["_t"])} · {e(can)}</p>')
         desc = (f"Próximo jogo do {nome}: {prox['casa']} x {prox['fora']}, {data_curta(prox['_t'])} às {hora(prox['_t'])}"
-                f" ({can}). Veja todos os jogos, horários e onde assistir.")
+                f" ({can}). Últimos resultados, posição na tabela e onde assistir.")
     else:
-        intro, desc = "<p>Sem jogos marcados nos próximos dias.</p>", f"Jogos do {nome}: horários e onde assistir ao vivo."
-    corpo = (f'<h1>{escudo(cx, time, 44)} Jogos do {e(nome)}: onde assistir ao vivo</h1>{intro}'
+        intro, desc = "<p>Sem jogos marcados nos próximos dias.</p>", f"Jogos do {nome}: últimos resultados, tabela e onde assistir ao vivo."
+    resumo = ""
+    if pos_l or ult:
+        resumo = ('<div class="tresumo">'
+                  + (f'<div><small>{e(cx.comp_nome(pos_k))}</small><b>{pos_l["pos"]}º lugar</b><span>{pos_l["pts"]} pts · {pos_l["pj"]} jogos</span></div>' if pos_l else "")
+                  + (f'<div><small>Últimos 5 jogos</small>{forma(cx, time)}</div>' if ult else "") + "</div>")
+    mini = ""
+    if pos_l:
+        n = len(pos_g["linhas"])
+        if n > 6:
+            a = max(1, pos_l["pos"] - 2)
+            b = min(n, a + 4)
+            a = max(1, b - 4)
+            mini = (f'<h2>Posição {e(no_(cx.comp_nome(pos_k)))}</h2>' + tabela_html(cx, pos_k, {time}, (a, b), com_forma=False)
+                    + f'<p class="mais"><a href="/campeonato/{slug(pos_k)}/#tabela">Ver a tabela completa</a></p>')
+        else:
+            mini = f'<h2>Posição {e(no_(cx.comp_nome(pos_k)))}</h2>' + tabela_html(cx, pos_k, {time}, com_forma=False)
+    corpo = (f'<h1>{escudo(cx, time, 44)} Jogos do {e(nome)}: onde assistir ao vivo</h1>{intro}{resumo}'
              + (f"<h2>Próximos jogos</h2>{lista(cx, futuros)}" if futuros else "")
-             + (f"<h2>Últimos resultados</h2>{lista(cx, passados)}" if passados else "")
-             + f'<p>Todos os horários são de Brasília. Os canais de cada jogo são conferidos todos os dias nas grades oficiais das emissoras.</p>'
-             + '<p class="cta"><a href="/?utm_source=pagina_time&utm_medium=link#seguindo">Seguir o time e receber aviso no dia do jogo</a></p>')
-    titulo = f"Próximo jogo do {nome}: horário e onde assistir ao vivo"
+             + (f"<h2>Últimos resultados</h2>{resultados_html(cx, ult, time)}" if ult else "")
+             + mini
+             + '<p class="cta"><a href="/?utm_source=pagina_time&utm_medium=link#seguindo">Seguir o time e receber aviso no dia do jogo</a></p>'
+             + '<p class="leg2">Horários de Brasília. Canais conferidos todos os dias nas grades oficiais das emissoras.</p>')
+    titulo = f"Próximo jogo do {nome}: horário, onde assistir e últimos resultados"
     ld = {"@context": "https://schema.org", "@type": "SportsTeam", "name": time, "sport": "Futebol", "url": URL + cam}
     if cx.esc.get(time):
         ld["logo"] = cx.esc[time]
@@ -372,12 +555,44 @@ def pagina_comp(cx, k, jogos):
     nome = cx.comp_nome(k)
     cam = f"/campeonato/{slug(k)}/"
     futuros = [j for j in jogos if not j.get("placar")]
-    titulo = f"{nome}: jogos, horários e onde assistir ao vivo"
-    desc = (f"Agenda do {nome} com horário de Brasília e onde assistir cada jogo"
-            + (f": {len(futuros)} jogos nos próximos dias." if futuros else "."))
-    corpo = (f"<h1>{e(nome)}: jogos e onde assistir</h1>"
-             + (por_dia(cx, futuros, mostrar_comp=False) if futuros else "<p>Sem jogos marcados nos próximos dias.</p>"))
+    res = sorted([x for x in cx.hist["jogos"].values() if x["comp"] == k], key=lambda x: x["inicio"], reverse=True)[:30]
+    tem_tab = k in cx.tabs
+    temporada = (cx.tabs.get(k) or {}).get("temporada", "")
+    abas = [("tabela", "Tabela", tabela_html(cx, k)) if tem_tab else None,
+            ("jogos", "Próximos jogos", por_dia(cx, futuros, mostrar_comp=False) if futuros else "<p>Sem jogos marcados nos próximos dias.</p>"),
+            ("resultados", "Resultados", resultados_html(cx, res, mostrar_comp=False) if res else "<p>Sem resultados recentes.</p>")]
+    abas = [a for a in abas if a]
+    botoes = "".join(f'<a class="aba{" on" if i == 0 else ""}" href="#{a[0]}" role="tab" data-aba="{a[0]}">{e(a[1])}</a>' for i, a in enumerate(abas))
+    secoes = "".join(f'<section id="{a[0]}" class="painel" role="tabpanel"><h2 class="ph">{e(a[1])}</h2>{a[2]}</section>' for a in abas)
+    if tem_tab:
+        g0 = cx.tabs[k]["grupos"]
+        lider = g0[0]["linhas"][0]
+        ano = temporada if temporada and len(temporada) <= 9 else ""
+        titulo = f"Tabela {do_(nome)}{(' ' + ano) if ano else ''} atualizada, jogos e onde assistir"
+        desc = (f"Classificação {do_(nome)} atualizada a cada rodada"
+                + (f" (líder: {lider['time']}, {lider['pts']} pts)" if len(g0) == 1 else "")
+                + ", próximos jogos com horário de Brasília e onde assistir, e os últimos resultados.")
+        h1 = f"{e(nome)}: tabela, jogos e onde assistir"
+    else:
+        titulo = f"{nome}: jogos, resultados e onde assistir ao vivo"
+        desc = (f"Agenda {do_(nome)} com horário de Brasília e onde assistir cada jogo"
+                + (f": {len(futuros)} jogos nos próximos dias." if futuros else ".") + " Últimos resultados.")
+        h1 = f"{e(nome)}: jogos e onde assistir"
+    corpo = f'<h1>{h1}</h1><nav class="abas" role="tablist">{botoes}</nav>{secoes}'
     return pagina(cx, cam, titulo, desc, corpo, None, [("Início", "/"), (nome, cam)])
+
+
+def pagina_tabelas(cx):
+    itens = []
+    for k in sorted(cx.tabs, key=lambda k: (not cx.comps.get(k, {}).get("principal"), cx.comp_nome(k))):
+        g = cx.tabs[k]["grupos"]
+        top = " · ".join(f'{l["pos"]}º {l["time"]}' for l in g[0]["linhas"][:3]) if len(g) == 1 else f"{len(g)} grupos"
+        itens.append(f'<li><a class="lj" href="/campeonato/{slug(k)}/#tabela"><span class="lt">{e(cx.comp_nome(k))}</span><span class="ls">{e(top)}</span></a></li>')
+    corpo = ("<h1>Tabelas dos campeonatos</h1><p>Classificação atualizada a cada rodada. Toque no campeonato para ver a tabela completa, os próximos jogos e onde assistir.</p>"
+             + '<ul class="lista tabs1">' + "".join(itens) + "</ul>")
+    return pagina(cx, "/tabelas/", "Tabelas dos campeonatos de futebol atualizadas: Brasileirão, Premier League e mais",
+                  "Tabela atualizada do Brasileirão, Série B, Libertadores, Premier League, La Liga, Champions e outros campeonatos, com jogos e onde assistir.",
+                  corpo, None, [("Início", "/"), ("Tabelas", "/tabelas/")])
 
 
 def pagina_dia(cx, cam, rotulo, dia, jogos):
@@ -402,7 +617,7 @@ def pagina_dia(cx, cam, rotulo, dia, jogos):
 
 # ---------------------------------------------------------------- geração, sitemap e IndexNow
 def gerar(dados, head_extra, favicon, pin, extras=None):
-    cx = Ctx(dados, head_extra, favicon, pin)
+    cx = Ctx(dados, head_extra, favicon, pin, extras)
     estado = json.loads(ESTADO.read_text(encoding="utf-8")) if ESTADO.exists() else {"paginas": {}}
     pags = estado.setdefault("paginas", {})
     novas = {}
@@ -426,6 +641,8 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
         comps.setdefault(j["comp"], []).append(j)
     for k in cx.comps:
         novas[f"/campeonato/{slug(k)}/"] = (pagina_comp(cx, k, comps.get(k, [])), "")
+    if cx.tabs:
+        novas["/tabelas/"] = (pagina_tabelas(cx), "")
     for cam, rot, dia in (("/jogos-de-hoje/", "hoje", cx.hoje), ("/jogos-de-amanha/", "amanhã", cx.hoje + timedelta(days=1))):
         js = [j for j in cx.jogos if j["_t"].date() == dia]
         novas[cam] = (pagina_dia(cx, cam, rot, dia, js), "")
@@ -466,7 +683,7 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
         if cam in ("/jogos-de-hoje/", "/jogos-de-amanha/"):
             continue
         pri = "0.8" if cam.startswith("/jogo/") and info.get("dia", "") >= cx.hoje.isoformat() else (
-            "0.7" if cam.startswith(("/time/", "/campeonato/")) else "0.4")
+            "0.7" if cam.startswith(("/time/", "/campeonato/", "/tabelas/")) else "0.4")
         urls.append((cam, info["mod"], "daily", pri))
     urls.append(("/privacidade.html", "2026-11-17", "yearly", "0.1"))
     xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

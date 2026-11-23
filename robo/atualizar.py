@@ -478,13 +478,16 @@ def main():
         jogos = ler(anterior)["jogos"]
 
     import extras
+    hist = extras.historico(cfg, nome, get_json, jogos, OFFLINE)
     if OFFLINE:
         tabs = extras.ler(extras.TABELAS, {})
     else:
-        tabs = extras.tabelas(cfg, nome, get_json, espn_logo)
-    hist = extras.historico(cfg, nome, get_json, jogos, OFFLINE)
+        conhecidos = {t for j in jogos for t in (j["casa"], j["fora"])} | {t for x in hist["jogos"].values() for t in (x["casa"], x["fora"])}
+        tabs = extras.tabelas(cfg, nome, get_json, espn_logo, conhecidos)
     esc_ = extras.escalacoes(cfg, get_json, jogos, OFFLINE)
-    EXTRAS.update({"tabelas": tabs, "historico": hist, "escalacoes": esc_})
+    ativos = extras.ativos(jogos, hist)
+    tabs_ativas = {k: v for k, v in tabs.items() if k in ativos}
+    EXTRAS.update({"tabelas": tabs_ativas, "historico": hist, "escalacoes": esc_})
 
     import paginas
     for j in jogos:
@@ -506,7 +509,7 @@ def main():
         "logos_ligas": logos_ligas(cfg),
         "anuncios": {k: v for k, v in cfg.get("anuncios", {}).items() if k != "comentario"},
     }
-    dados["abas"] = extras.arquivos_site(list(cfg["competicoes"]), tabs, hist)
+    dados["abas"] = extras.arquivos_site(list(cfg["competicoes"]), tabs_ativas, hist)
     nt = cfg.get("notificacoes") or {}
     if (nt.get("firebase") or {}).get("apiKey"):
         dados["push"] = {"cfg": nt["firebase"], "vapid": nt.get("vapid", "")}
