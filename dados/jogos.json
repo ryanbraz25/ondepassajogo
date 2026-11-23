@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-23T14:33:23-03:00",
+ "atualizado": "2026-11-23T14:40:47-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -6934,14 +6934,16 @@
   "conference": "tr",
   "copa-do-brasil": "r",
   "copa-do-rei": "r",
+  "coppa-italia": "r",
   "eredivisie": "tr",
   "europa": "tr",
   "fa-cup": "r",
   "laliga": "tr",
-  "libertadores": "t",
+  "libertadores": "tr",
   "ligamx": "tr",
   "ligue1": "tr",
   "mls": "tr",
+  "mundial": "r",
   "nations": "tr",
   "portugal": "tr",
   "premier": "tr",
