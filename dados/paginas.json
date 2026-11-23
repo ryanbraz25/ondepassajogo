@@ -122,8 +122,8 @@
 },
 "/campeonato/mls/": {
 "dia": "",
-"h": "b2f4cebbf42db702",
-"mod": "2026-11-22T21:07-03:00"
+"h": "1d4b7934f47c262a",
+"mod": "2026-11-22T23:33-03:00"
 },
 "/campeonato/mundial/": {
 "dia": "",
@@ -797,8 +797,8 @@
 },
 "/jogo/chicago-fire-fc-x-charlotte-fc-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "2303425f95c417b3",
-"mod": "2026-11-22T21:07-03:00"
+"h": "2325608ba62dd6c5",
+"mod": "2026-11-22T23:33-03:00"
 },
 "/jogo/chile-x-colombia-17-11-2026/": {
 "dia": "2026-11-17",
@@ -1662,8 +1662,8 @@
 },
 "/jogo/nashville-sc-x-fc-cincinnati-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "138997b8f5fcfc68",
-"mod": "2026-11-22T21:07-03:00"
+"h": "33b2c644bd3c0799",
+"mod": "2026-11-22T23:33-03:00"
 },
 "/jogo/nec-nijmegen-x-fc-twente-29-11-2026/": {
 "dia": "2026-11-29",
@@ -2422,8 +2422,8 @@
 },
 "/jogo/vancouver-whitecaps-x-real-salt-lake-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "fb02abd1d9e245e0",
-"mod": "2026-11-22T21:07-03:00"
+"h": "200c40f17a7ba1f9",
+"mod": "2026-11-22T23:33-03:00"
 },
 "/jogo/vasco-x-internacional-19-11-2026/": {
 "dia": "2026-11-19",
@@ -2572,8 +2572,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "a7fe6799badd3ef7",
-"mod": "2026-11-22T22:36-03:00"
+"h": "8d5c9aef8aef2eba",
+"mod": "2026-11-22T23:33-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -3159,8 +3159,8 @@
 },
 "/time/charlotte-fc/": {
 "dia": "",
-"h": "3c89abc59378fc10",
-"mod": "2026-11-18T00:54-03:00",
+"h": "4a9bd44f13617c50",
+"mod": "2026-11-22T23:33-03:00",
 "nome": "Charlotte FC"
 },
 "/time/charlton-athletic/": {
@@ -3189,8 +3189,8 @@
 },
 "/time/chicago-fire-fc/": {
 "dia": "",
-"h": "7eb42bfa056a74e6",
-"mod": "2026-11-18T00:54-03:00",
+"h": "71bbebda88e48b1c",
+"mod": "2026-11-22T23:33-03:00",
 "nome": "Chicago Fire FC"
 },
 "/time/chile/": {

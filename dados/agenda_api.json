@@ -8138,6 +8138,10 @@
   "inicio": "2026-11-22T20:30:00-03:00",
   "lg": "usa.1",
   "local": "SeatGeek Stadium, Bridgeview, Illinois",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401933731": {
