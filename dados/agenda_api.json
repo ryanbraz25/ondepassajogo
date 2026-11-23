@@ -6659,25 +6659,6 @@
   "local": "Wembley Stadium, London",
   "status": "a_confirmar"
  },
- "espn:401932611": {
-  "_d": "20261128",
-  "_liga": "bra.2",
-  "_logos": {
-   "A definir": ""
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "A definir",
-  "comp": "brasileirao-b",
-  "ed": "20261128",
-  "eid": "401932611",
-  "fora": "A definir",
-  "inicio": "2026-11-28T17:00:00-03:00",
-  "lg": "bra.2",
-  "local": "",
-  "status": "a_confirmar"
- },
  "espn:401933715": {
   "_d": "20261202",
   "_liga": "usa.1",
