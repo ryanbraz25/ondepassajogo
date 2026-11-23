@@ -1,11 +1,12 @@
 {
  "argentina": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2975.png&h=80&w=80",
@@ -16,9 +17,11 @@
       "pts": 34,
       "sg": 11,
       "time": "Instituto (Córdoba)",
-      "v": 10
+      "v": 10,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 6,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5.png&h=80&w=80",
@@ -29,9 +32,11 @@
       "pts": 33,
       "sg": 10,
       "time": "Boca Juniors",
-      "v": 9
+      "v": 9,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 7,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21.png&h=80&w=80",
@@ -42,9 +47,11 @@
       "pts": 28,
       "sg": 8,
       "time": "Vélez Sarsfield",
-      "v": 7
+      "v": 7,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 4,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8950.png&h=80&w=80",
@@ -55,9 +62,11 @@
       "pts": 28,
       "sg": 6,
       "time": "Defensa y Justicia",
-      "v": 8
+      "v": 8,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 4,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12.png&h=80&w=80",
@@ -68,9 +77,11 @@
       "pts": 26,
       "sg": 7,
       "time": "Lanús",
-      "v": 7
+      "v": 7,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 3,
       "e": 8,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/14.png&h=80&w=80",
@@ -81,9 +92,11 @@
       "pts": 23,
       "sg": 3,
       "time": "Newell's Old Boys",
-      "v": 5
+      "v": 5,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 5,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11.png&h=80&w=80",
@@ -94,9 +107,11 @@
       "pts": 23,
       "sg": -1,
       "time": "Independiente",
-      "v": 6
+      "v": 6,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 6,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11972.png&h=80&w=80",
@@ -107,7 +122,8 @@
       "pts": 22,
       "sg": 1,
       "time": "Gimnasia (Mendoza)",
-      "v": 6
+      "v": 6,
+      "zona": "Mata-mata (oitavas)"
      },
      {
       "d": 7,
@@ -206,6 +222,7 @@
    {
     "linhas": [
      {
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17.png&h=80&w=80",
@@ -216,9 +233,11 @@
       "pts": 34,
       "sg": 14,
       "time": "Rosario Central",
-      "v": 10
+      "v": 10,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 3,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3.png&h=80&w=80",
@@ -229,9 +248,11 @@
       "pts": 31,
       "sg": 6,
       "time": "Argentinos Juniors",
-      "v": 9
+      "v": 9,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 3,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9.png&h=80&w=80",
@@ -242,9 +263,11 @@
       "pts": 31,
       "sg": 5,
       "time": "Gimnasia La Plata",
-      "v": 9
+      "v": 9,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 6,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/16.png&h=80&w=80",
@@ -255,9 +278,11 @@
       "pts": 26,
       "sg": 7,
       "time": "River Plate",
-      "v": 8
+      "v": 8,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 4,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10060.png&h=80&w=80",
@@ -268,9 +293,11 @@
       "pts": 26,
       "sg": 4,
       "time": "Barracas Central",
-      "v": 7
+      "v": 7,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 5,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4.png&h=80&w=80",
@@ -281,9 +308,11 @@
       "pts": 23,
       "sg": 2,
       "time": "Belgrano (Córdoba)",
-      "v": 6
+      "v": 6,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 5,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9744.png&h=80&w=80",
@@ -294,9 +323,11 @@
       "pts": 23,
       "sg": -3,
       "time": "Independiente Rivadavia",
-      "v": 6
+      "v": 6,
+      "zona": "Mata-mata (oitavas)"
      },
      {
+      "cor": "#1d5fd1",
       "d": 6,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10.png&h=80&w=80",
@@ -307,7 +338,8 @@
       "pts": 22,
       "sg": -2,
       "time": "Huracán",
-      "v": 6
+      "v": 6,
+      "zona": "Mata-mata (oitavas)"
      },
      {
       "d": 7,
@@ -409,11 +441,12 @@
  },
  "brasileirao-a": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
+      "cor": "#1d5fd1",
       "d": 4,
       "e": 8,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/819.png&h=80&w=80",
@@ -424,9 +457,11 @@
       "pts": 80,
       "sg": 43,
       "time": "Flamengo",
-      "v": 24
+      "v": 24,
+      "zona": "Libertadores"
      },
      {
+      "cor": "#1d5fd1",
       "d": 4,
       "e": 11,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2029.png&h=80&w=80",
@@ -437,9 +472,11 @@
       "pts": 74,
       "sg": 38,
       "time": "Palmeiras",
-      "v": 21
+      "v": 21,
+      "zona": "Libertadores"
      },
      {
+      "cor": "#1d5fd1",
       "d": 10,
       "e": 6,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2022.png&h=80&w=80",
@@ -450,9 +487,11 @@
       "pts": 66,
       "sg": 9,
       "time": "Cruzeiro",
-      "v": 20
+      "v": 20,
+      "zona": "Libertadores"
      },
      {
+      "cor": "#1d5fd1",
       "d": 9,
       "e": 9,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3445.png&h=80&w=80",
@@ -463,9 +502,11 @@
       "pts": 63,
       "sg": 15,
       "time": "Fluminense",
-      "v": 18
+      "v": 18,
+      "zona": "Libertadores"
      },
      {
+      "cor": "#6aa5f0",
       "d": 11,
       "e": 9,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3458.png&h=80&w=80",
@@ -476,9 +517,11 @@
       "pts": 57,
       "sg": 9,
       "time": "Athletico-PR",
-      "v": 16
+      "v": 16,
+      "zona": "Pré-Libertadores"
      },
      {
+      "cor": "#f08a1c",
       "d": 10,
       "e": 12,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9967.png&h=80&w=80",
@@ -489,9 +532,11 @@
       "pts": 54,
       "sg": 4,
       "time": "Bahia",
-      "v": 14
+      "v": 14,
+      "zona": "Sul-Americana"
      },
      {
+      "cor": "#f08a1c",
       "d": 12,
       "e": 9,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7632.png&h=80&w=80",
@@ -502,9 +547,11 @@
       "pts": 51,
       "sg": 4,
       "time": "Atlético-MG",
-      "v": 14
+      "v": 14,
+      "zona": "Sul-Americana"
      },
      {
+      "cor": "#f08a1c",
       "d": 14,
       "e": 8,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6079.png&h=80&w=80",
@@ -515,9 +562,11 @@
       "pts": 50,
       "sg": 5,
       "time": "Red Bull Bragantino",
-      "v": 14
+      "v": 14,
+      "zona": "Sul-Americana"
      },
      {
+      "cor": "#f08a1c",
       "d": 11,
       "e": 11,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2674.png&h=80&w=80",
@@ -528,9 +577,11 @@
       "pts": 50,
       "sg": 2,
       "time": "Santos",
-      "v": 13
+      "v": 13,
+      "zona": "Sul-Americana"
      },
      {
+      "cor": "#f08a1c",
       "d": 15,
       "e": 8,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3454.png&h=80&w=80",
@@ -541,9 +592,11 @@
       "pts": 47,
       "sg": -5,
       "time": "Vasco",
-      "v": 13
+      "v": 13,
+      "zona": "Sul-Americana"
      },
      {
+      "cor": "#f08a1c",
       "d": 15,
       "e": 9,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3456.png&h=80&w=80",
@@ -554,7 +607,8 @@
       "pts": 45,
       "sg": -11,
       "time": "Coritiba",
-      "v": 12
+      "v": 12,
+      "zona": "Sul-Americana"
      },
      {
       "d": 15,
@@ -686,16 +740,17 @@
    }
   ],
   "liga": "bra.1",
+  "obs": "Faixas pelo regulamento de 2026. As vagas podem aumentar conforme os campeões da Copa do Brasil, da Libertadores e da Sul-Americana.",
   "temporada": "2026 Futebol Brasileiro"
  },
  "brasileirao-b": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#0a7a3a",
+      "cor": "#12924f",
       "d": 7,
       "e": 10,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18127.png&h=80&w=80",
@@ -710,7 +765,7 @@
       "zona": "Acesso à Série A"
      },
      {
-      "cor": "#0a7a3a",
+      "cor": "#12924f",
       "d": 7,
       "e": 11,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6270.png&h=80&w=80",
@@ -725,7 +780,7 @@
       "zona": "Acesso à Série A"
      },
      {
-      "cor": "#0a7a3a",
+      "cor": "#6cc795",
       "d": 10,
       "e": 9,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9973.png&h=80&w=80",
@@ -737,10 +792,10 @@
       "sg": 14,
       "time": "Vila Nova",
       "v": 19,
-      "zona": "Acesso à Série A"
+      "zona": "Playoff de acesso"
      },
      {
-      "cor": "#0a7a3a",
+      "cor": "#6cc795",
       "d": 7,
       "e": 14,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6272.png&h=80&w=80",
@@ -752,9 +807,10 @@
       "sg": 12,
       "time": "Fortaleza",
       "v": 17,
-      "zona": "Acesso à Série A"
+      "zona": "Playoff de acesso"
      },
      {
+      "cor": "#6cc795",
       "d": 12,
       "e": 8,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9971.png&h=80&w=80",
@@ -765,9 +821,11 @@
       "pts": 62,
       "sg": 6,
       "time": "Criciúma",
-      "v": 18
+      "v": 18,
+      "zona": "Playoff de acesso"
      },
      {
+      "cor": "#6cc795",
       "d": 9,
       "e": 13,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10357.png&h=80&w=80",
@@ -778,7 +836,8 @@
       "pts": 61,
       "sg": 11,
       "time": "Atlético-GO",
-      "v": 16
+      "v": 16,
+      "zona": "Playoff de acesso"
      },
      {
       "d": 13,
@@ -979,12 +1038,12 @@
  },
  "bundesliga": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/124.png&h=80&w=80",
@@ -999,7 +1058,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/132.png&h=80&w=80",
@@ -1014,7 +1073,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/126.png&h=80&w=80",
@@ -1029,7 +1088,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11420.png&h=80&w=80",
@@ -1044,7 +1103,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#f08a1c",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/131.png&h=80&w=80",
@@ -1059,7 +1118,7 @@
       "zona": "Europa League"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#f08a1c",
       "d": 2,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/137.png&h=80&w=80",
@@ -1074,7 +1133,7 @@
       "zona": "Europa League"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#6cc795",
       "d": 3,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/125.png&h=80&w=80",
@@ -1086,7 +1145,7 @@
       "sg": -4,
       "time": "Eintracht Frankfurt",
       "v": 4,
-      "zona": "Conference League qualifying"
+      "zona": "Pré-Conference League"
      },
      {
       "d": 5,
@@ -1193,7 +1252,7 @@
       "v": 2
      },
      {
-      "cor": "#FEB4B5",
+      "cor": "#f39aa2",
       "d": 5,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/133.png&h=80&w=80",
@@ -1205,10 +1264,10 @@
       "sg": -6,
       "time": "Schalke 04",
       "v": 1,
-      "zona": "Relegation playoff"
+      "zona": "Playoff de rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 5,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/598.png&h=80&w=80",
@@ -1220,10 +1279,10 @@
       "sg": -18,
       "time": "1. FC Union Berlin",
       "v": 1,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 8,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/268.png&h=80&w=80",
@@ -1235,7 +1294,7 @@
       "sg": -14,
       "time": "Borussia Mönchengladbach",
       "v": 1,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": ""
@@ -1246,7 +1305,7 @@
  },
  "carioca": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
@@ -1418,12 +1477,12 @@
  },
  "champions": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png&h=80&w=80",
@@ -1435,10 +1494,10 @@
       "sg": 15,
       "time": "Paris Saint-Germain",
       "v": 4,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/86.png&h=80&w=80",
@@ -1450,10 +1509,10 @@
       "sg": 6,
       "time": "Real Madrid",
       "v": 4,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&h=80&w=80",
@@ -1465,10 +1524,10 @@
       "sg": 5,
       "time": "Arsenal",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2572.png&h=80&w=80",
@@ -1480,10 +1539,10 @@
       "sg": 13,
       "time": "Como",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/83.png&h=80&w=80",
@@ -1495,10 +1554,10 @@
       "sg": 8,
       "time": "Barcelona",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/362.png&h=80&w=80",
@@ -1510,10 +1569,10 @@
       "sg": 6,
       "time": "Aston Villa",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&h=80&w=80",
@@ -1525,10 +1584,10 @@
       "sg": 5,
       "time": "Manchester City",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/364.png&h=80&w=80",
@@ -1540,10 +1599,10 @@
       "sg": 4,
       "time": "Liverpool",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/570.png&h=80&w=80",
@@ -1555,10 +1614,10 @@
       "sg": 4,
       "time": "Club Brugge",
       "v": 3,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2250.png&h=80&w=80",
@@ -1570,10 +1629,10 @@
       "sg": 4,
       "time": "Sporting CP",
       "v": 3,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/244.png&h=80&w=80",
@@ -1585,10 +1644,10 @@
       "sg": 2,
       "time": "Real Betis",
       "v": 3,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/124.png&h=80&w=80",
@@ -1600,10 +1659,10 @@
       "sg": 2,
       "time": "Borussia Dortmund",
       "v": 3,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 0,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/132.png&h=80&w=80",
@@ -1615,10 +1674,10 @@
       "sg": 7,
       "time": "Bayern de Munique",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/134.png&h=80&w=80",
@@ -1630,10 +1689,10 @@
       "sg": 3,
       "time": "VfB Stuttgart",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/110.png&h=80&w=80",
@@ -1645,10 +1704,10 @@
       "sg": 2,
       "time": "Inter de Milão",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4411.png&h=80&w=80",
@@ -1660,10 +1719,10 @@
       "sg": 1,
       "time": "LASK Linz",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/360.png&h=80&w=80",
@@ -1675,10 +1734,10 @@
       "sg": 0,
       "time": "Manchester United",
       "v": 2,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/432.png&h=80&w=80",
@@ -1690,10 +1749,10 @@
       "sg": -1,
       "time": "Galatasaray",
       "v": 2,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/436.png&h=80&w=80",
@@ -1705,10 +1764,10 @@
       "sg": -5,
       "time": "Fenerbahce",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/104.png&h=80&w=80",
@@ -1720,10 +1779,10 @@
       "sg": 2,
       "time": "Roma",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/493.png&h=80&w=80",
@@ -1735,10 +1794,10 @@
       "sg": 0,
       "time": "Shakhtar Donetsk",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/510.png&h=80&w=80",
@@ -1750,10 +1809,10 @@
       "sg": -1,
       "time": "Viking FK",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1068.png&h=80&w=80",
@@ -1765,10 +1824,10 @@
       "sg": -1,
       "time": "Atlético de Madrid",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/148.png&h=80&w=80",
@@ -1780,10 +1839,10 @@
       "sg": -1,
       "time": "PSV Eindhoven",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2980.png&h=80&w=80",
@@ -1795,10 +1854,10 @@
       "sg": -5,
       "time": "Bodo/Glimt",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/437.png&h=80&w=80",
@@ -1810,10 +1869,10 @@
       "sg": -1,
       "time": "FC Porto",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/114.png&h=80&w=80",
@@ -1825,10 +1884,10 @@
       "sg": -5,
       "time": "Napoli",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/102.png&h=80&w=80",
@@ -1840,10 +1899,10 @@
       "sg": -6,
       "time": "Villarreal",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/887.png&h=80&w=80",
@@ -1855,10 +1914,10 @@
       "sg": -6,
       "time": "AEK Athens",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11420.png&h=80&w=80",
@@ -1870,10 +1929,10 @@
       "sg": -6,
       "time": "RB Leipzig",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21922.png&h=80&w=80",
@@ -1885,10 +1944,10 @@
       "sg": -6,
       "time": "Sabah FK",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/142.png&h=80&w=80",
@@ -1900,10 +1959,10 @@
       "sg": -7,
       "time": "Feyenoord Rotterdam",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/175.png&h=80&w=80",
@@ -1915,10 +1974,10 @@
       "sg": -12,
       "time": "Lens",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/494.png&h=80&w=80",
@@ -1930,10 +1989,10 @@
       "sg": -4,
       "time": "Slavia Prague",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/166.png&h=80&w=80",
@@ -1945,10 +2004,10 @@
       "sg": -6,
       "time": "Lille",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 4,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/521.png&h=80&w=80",
@@ -1960,7 +2019,7 @@
       "sg": -16,
       "time": "Slovan Bratislava",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      }
     ],
     "nome": ""
@@ -1971,12 +2030,12 @@
  },
  "championship": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#12924f",
       "d": 2,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/369.png&h=80&w=80",
@@ -1988,10 +2047,10 @@
       "sg": 13,
       "time": "Middlesbrough",
       "v": 9,
-      "zona": "Promotion"
+      "zona": "Acesso"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#12924f",
       "d": 4,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/336.png&h=80&w=80",
@@ -2003,10 +2062,10 @@
       "sg": 7,
       "time": "Stoke City",
       "v": 10,
-      "zona": "Promotion"
+      "zona": "Acesso"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6cc795",
       "d": 3,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/380.png&h=80&w=80",
@@ -2018,10 +2077,10 @@
       "sg": 9,
       "time": "Wolverhampton Wanderers",
       "v": 9,
-      "zona": "Promotion playoffs"
+      "zona": "Playoff de acesso"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6cc795",
       "d": 3,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/392.png&h=80&w=80",
@@ -2033,10 +2092,10 @@
       "sg": 13,
       "time": "Birmingham City",
       "v": 8,
-      "zona": "Promotion playoffs"
+      "zona": "Playoff de acesso"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6cc795",
       "d": 3,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/383.png&h=80&w=80",
@@ -2048,10 +2107,10 @@
       "sg": 8,
       "time": "West Bromwich Albion",
       "v": 8,
-      "zona": "Promotion playoffs"
+      "zona": "Playoff de acesso"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6cc795",
       "d": 3,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/376.png&h=80&w=80",
@@ -2063,10 +2122,10 @@
       "sg": 16,
       "time": "Southampton",
       "v": 9,
-      "zona": "Promotion playoffs"
+      "zona": "Playoff de acesso"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6cc795",
       "d": 3,
       "e": 6,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/334.png&h=80&w=80",
@@ -2078,10 +2137,10 @@
       "sg": 7,
       "time": "Queens Park Rangers",
       "v": 7,
-      "zona": "Promotion Playoffs"
+      "zona": "Playoff de acesso"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6cc795",
       "d": 5,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/318.png&h=80&w=80",
@@ -2093,7 +2152,7 @@
       "sg": 4,
       "time": "Swansea City",
       "v": 8,
-      "zona": "Promotion Playoffs"
+      "zona": "Playoff de acesso"
      },
      {
       "d": 5,
@@ -2265,7 +2324,7 @@
       "v": 4
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 7,
       "e": 8,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/379.png&h=80&w=80",
@@ -2277,10 +2336,10 @@
       "sg": -9,
       "time": "Burnley",
       "v": 1,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 10,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/374.png&h=80&w=80",
@@ -2292,10 +2351,10 @@
       "sg": -18,
       "time": "Derby County",
       "v": 2,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 11,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/394.png&h=80&w=80",
@@ -2307,7 +2366,7 @@
       "sg": -17,
       "time": "Preston North End",
       "v": 2,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": ""
@@ -2318,12 +2377,12 @@
  },
  "conference": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7672.png&h=80&w=80",
@@ -2335,10 +2394,10 @@
       "sg": 7,
       "time": "FC Lugano",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/443.png&h=80&w=80",
@@ -2350,10 +2409,10 @@
       "sg": 6,
       "time": "Panathinaikos",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/152.png&h=80&w=80",
@@ -2365,10 +2424,10 @@
       "sg": 6,
       "time": "FC Twente",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/174.png&h=80&w=80",
@@ -2380,10 +2439,10 @@
       "sg": 6,
       "time": "AS Monaco",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/331.png&h=80&w=80",
@@ -2395,10 +2454,10 @@
       "sg": 5,
       "time": "Brighton",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/620.png&h=80&w=80",
@@ -2410,10 +2469,10 @@
       "sg": 4,
       "time": "SK Brann",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/909.png&h=80&w=80",
@@ -2425,10 +2484,10 @@
       "sg": 4,
       "time": "F.C. København",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8089.png&h=80&w=80",
@@ -2440,10 +2499,10 @@
       "sg": 4,
       "time": "CSU Craiova",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20301.png&h=80&w=80",
@@ -2455,10 +2514,10 @@
       "sg": 4,
       "time": "Mjällby AIF",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/936.png&h=80&w=80",
@@ -2470,10 +2529,10 @@
       "sg": 3,
       "time": "Sint-Truidense",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/139.png&h=80&w=80",
@@ -2485,10 +2544,10 @@
       "sg": 6,
       "time": "Ajax Amsterdam",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/997.png&h=80&w=80",
@@ -2500,10 +2559,10 @@
       "sg": 3,
       "time": "Trabzonspor",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/489.png&h=80&w=80",
@@ -2515,10 +2574,10 @@
       "sg": 1,
       "time": "Hajduk Split",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/126.png&h=80&w=80",
@@ -2530,10 +2589,10 @@
       "sg": -1,
       "time": "SC Freiburg",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2290.png&h=80&w=80",
@@ -2545,10 +2604,10 @@
       "sg": 0,
       "time": "Red Star Belgrade",
       "v": 1,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/105.png&h=80&w=80",
@@ -2560,10 +2619,10 @@
       "sg": 0,
       "time": "Atalanta",
       "v": 1,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2994.png&h=80&w=80",
@@ -2575,10 +2634,10 @@
       "sg": -1,
       "time": "Braga",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3611.png&h=80&w=80",
@@ -2590,10 +2649,10 @@
       "sg": -1,
       "time": "KAA Gent",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 0,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/19246.png&h=80&w=80",
@@ -2605,10 +2664,10 @@
       "sg": 0,
       "time": "Riga FC",
       "v": 0,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3024.png&h=80&w=80",
@@ -2620,10 +2679,10 @@
       "sg": 0,
       "time": "FC Thun",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20710.png&h=80&w=80",
@@ -2635,10 +2694,10 @@
       "sg": -1,
       "time": "Borac Banja Luka",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17856.png&h=80&w=80",
@@ -2650,10 +2709,10 @@
       "sg": -3,
       "time": "Lincoln Red Imps",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7922.png&h=80&w=80",
@@ -2665,10 +2724,10 @@
       "sg": -1,
       "time": "Jablonec",
       "v": 0,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7853.png&h=80&w=80",
@@ -2680,10 +2739,10 @@
       "sg": -1,
       "time": "AGF",
       "v": 0,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3101.png&h=80&w=80",
@@ -2695,10 +2754,10 @@
       "sg": -2,
       "time": "FC Nordsjælland",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21943.png&h=80&w=80",
@@ -2710,10 +2769,10 @@
       "sg": -2,
       "time": "Egnatia",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2528.png&h=80&w=80",
@@ -2725,10 +2784,10 @@
       "sg": -4,
       "time": "Kairat Almaty",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10834.png&h=80&w=80",
@@ -2740,10 +2799,10 @@
       "sg": -2,
       "time": "CSKA Sofia",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20025.png&h=80&w=80",
@@ -2755,10 +2814,10 @@
       "sg": -3,
       "time": "Iberia 1999",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/22281.png&h=80&w=80",
@@ -2770,10 +2829,10 @@
       "sg": -4,
       "time": "Pafos",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2922.png&h=80&w=80",
@@ -2785,10 +2844,10 @@
       "sg": -4,
       "time": "Getafe",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/262.png&h=80&w=80",
@@ -2800,10 +2859,10 @@
       "sg": -4,
       "time": "Heart of Midlothian",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8169.png&h=80&w=80",
@@ -2815,10 +2874,10 @@
       "sg": -4,
       "time": "KuPS Kuopio",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/572.png&h=80&w=80",
@@ -2830,10 +2889,10 @@
       "sg": -6,
       "time": "FC Midtjylland",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20703.png&h=80&w=80",
@@ -2845,10 +2904,10 @@
       "sg": -5,
       "time": "Inter D'Escaldes",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20028.png&h=80&w=80",
@@ -2860,7 +2919,7 @@
       "sg": -10,
       "time": "Kauno Zalgiris",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      }
     ],
     "nome": ""
@@ -2871,12 +2930,12 @@
  },
  "eredivisie": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/148.png&h=80&w=80",
@@ -2891,7 +2950,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/139.png&h=80&w=80",
@@ -2906,7 +2965,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 2,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/152.png&h=80&w=80",
@@ -2918,10 +2977,10 @@
       "sg": 19,
       "time": "FC Twente",
       "v": 8,
-      "zona": "Champions League qualifying"
+      "zona": "Pré-Champions"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#f08a1c",
       "d": 3,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/140.png&h=80&w=80",
@@ -2933,10 +2992,10 @@
       "sg": 12,
       "time": "AZ Alkmaar",
       "v": 8,
-      "zona": "Europa League qualifying"
+      "zona": "Pré-Europa League"
      },
      {
-      "cor": "#cfdbe7",
+      "cor": "#6cc795",
       "d": 2,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/142.png&h=80&w=80",
@@ -2948,7 +3007,7 @@
       "sg": 18,
       "time": "Feyenoord Rotterdam",
       "v": 7,
-      "zona": "Conference League qualifying"
+      "zona": "Pré-Conference League"
      },
      {
       "d": 3,
@@ -2964,7 +3023,7 @@
       "v": 7
      },
      {
-      "cor": "#cfdbe7",
+      "cor": "#f08a1c",
       "d": 2,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/143.png&h=80&w=80",
@@ -3083,7 +3142,7 @@
       "v": 3
      },
      {
-      "cor": "#FEB4B5",
+      "cor": "#f39aa2",
       "d": 7,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3735.png&h=80&w=80",
@@ -3095,10 +3154,10 @@
       "sg": -9,
       "time": "Telstar",
       "v": 2,
-      "zona": "Relegation playoffs"
+      "zona": "Playoff de rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 8,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2726.png&h=80&w=80",
@@ -3110,10 +3169,10 @@
       "sg": -12,
       "time": "ADO Den Haag",
       "v": 2,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 10,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/156.png&h=80&w=80",
@@ -3125,7 +3184,7 @@
       "sg": -30,
       "time": "Willem II",
       "v": 0,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": ""
@@ -3136,7 +3195,7 @@
  },
  "eurocopa": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
@@ -6850,6 +6909,1123 @@
       "time": "Geórgia",
       "v": 1,
       "zona": "Four best 3rd placed nations qualify for round of 16"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cze.png&h=80&w=80",
+      "gc": 5,
+      "gp": 3,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -2,
+      "time": "República Tcheca",
+      "v": 0
+     }
+    ],
+    "nome": "Group F"
+   },
+   {
+    "linhas": [
+     {
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/esp.png&h=80&w=80",
+      "gc": 5,
+      "gp": 25,
+      "pj": 8,
+      "pos": 1,
+      "pts": 21,
+      "sg": 20,
+      "time": "Espanha",
+      "v": 7
+     },
+     {
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sco.png&h=80&w=80",
+      "gc": 8,
+      "gp": 17,
+      "pj": 8,
+      "pos": 2,
+      "pts": 17,
+      "sg": 9,
+      "time": "Escócia",
+      "v": 5
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/nor.png&h=80&w=80",
+      "gc": 12,
+      "gp": 14,
+      "pj": 8,
+      "pos": 3,
+      "pts": 11,
+      "sg": 2,
+      "time": "Noruega",
+      "v": 3
+     },
+     {
+      "d": 4,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/geo.png&h=80&w=80",
+      "gc": 18,
+      "gp": 12,
+      "pj": 8,
+      "pos": 4,
+      "pts": 8,
+      "sg": -6,
+      "time": "Geórgia",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cyp.png&h=80&w=80",
+      "gc": 28,
+      "gp": 3,
+      "pj": 8,
+      "pos": 5,
+      "pts": 0,
+      "sg": -25,
+      "time": "Cyprus",
+      "v": 0
+     }
+    ],
+    "nome": "Group A"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fra.png&h=80&w=80",
+      "gc": 3,
+      "gp": 29,
+      "pj": 8,
+      "pos": 1,
+      "pts": 22,
+      "sg": 26,
+      "time": "França",
+      "v": 7
+     },
+     {
+      "d": 2,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ned.png&h=80&w=80",
+      "gc": 7,
+      "gp": 17,
+      "pj": 8,
+      "pos": 2,
+      "pts": 18,
+      "sg": 10,
+      "time": "Holanda",
+      "v": 6
+     },
+     {
+      "d": 3,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/gre.png&h=80&w=80",
+      "gc": 8,
+      "gp": 14,
+      "pj": 8,
+      "pos": 3,
+      "pts": 13,
+      "sg": 6,
+      "time": "Grécia",
+      "v": 4
+     },
+     {
+      "d": 6,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/irl.png&h=80&w=80",
+      "gc": 10,
+      "gp": 9,
+      "pj": 8,
+      "pos": 4,
+      "pts": 6,
+      "sg": -1,
+      "time": "Irlanda",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/gib.png&h=80&w=80",
+      "gc": 41,
+      "gp": 0,
+      "pj": 8,
+      "pos": 5,
+      "pts": 0,
+      "sg": -41,
+      "time": "Gibraltar",
+      "v": 0
+     }
+    ],
+    "nome": "Group B"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/eng.png&h=80&w=80",
+      "gc": 4,
+      "gp": 22,
+      "pj": 8,
+      "pos": 1,
+      "pts": 20,
+      "sg": 18,
+      "time": "Inglaterra",
+      "v": 6
+     },
+     {
+      "d": 2,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ita.png&h=80&w=80",
+      "gc": 9,
+      "gp": 16,
+      "pj": 8,
+      "pos": 2,
+      "pts": 14,
+      "sg": 7,
+      "time": "Itália",
+      "v": 4
+     },
+     {
+      "d": 2,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ukr.png&h=80&w=80",
+      "gc": 8,
+      "gp": 11,
+      "pj": 8,
+      "pos": 3,
+      "pts": 14,
+      "sg": 3,
+      "time": "Ucrânia",
+      "v": 4
+     },
+     {
+      "d": 4,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mkd.png&h=80&w=80",
+      "gc": 20,
+      "gp": 10,
+      "pj": 8,
+      "pos": 4,
+      "pts": 8,
+      "sg": -10,
+      "time": "North Macedonia",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mlt.png&h=80&w=80",
+      "gc": 20,
+      "gp": 2,
+      "pj": 8,
+      "pos": 5,
+      "pts": 0,
+      "sg": -18,
+      "time": "Malta",
+      "v": 0
+     }
+    ],
+    "nome": "Group C"
+   },
+   {
+    "linhas": [
+     {
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/tur.png&h=80&w=80",
+      "gc": 7,
+      "gp": 14,
+      "pj": 8,
+      "pos": 1,
+      "pts": 17,
+      "sg": 7,
+      "time": "Turquia",
+      "v": 5
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cro.png&h=80&w=80",
+      "gc": 4,
+      "gp": 13,
+      "pj": 8,
+      "pos": 2,
+      "pts": 16,
+      "sg": 9,
+      "time": "Croácia",
+      "v": 5
+     },
+     {
+      "d": 2,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/wal.png&h=80&w=80",
+      "gc": 10,
+      "gp": 10,
+      "pj": 8,
+      "pos": 3,
+      "pts": 12,
+      "sg": 0,
+      "time": "País de Gales",
+      "v": 3
+     },
+     {
+      "d": 4,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fifa.armenia.png&h=80&w=80",
+      "gc": 11,
+      "gp": 9,
+      "pj": 8,
+      "pos": 4,
+      "pts": 8,
+      "sg": -2,
+      "time": "Armenia",
+      "v": 2
+     },
+     {
+      "d": 7,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/lva.png&h=80&w=80",
+      "gc": 19,
+      "gp": 5,
+      "pj": 8,
+      "pos": 5,
+      "pts": 3,
+      "sg": -14,
+      "time": "Latvia",
+      "v": 1
+     }
+    ],
+    "nome": "Group D"
+   },
+   {
+    "linhas": [
+     {
+      "d": 1,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/alb.png&h=80&w=80",
+      "gc": 4,
+      "gp": 12,
+      "pj": 8,
+      "pos": 1,
+      "pts": 15,
+      "sg": 8,
+      "time": "Albânia",
+      "v": 4
+     },
+     {
+      "d": 1,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cze.png&h=80&w=80",
+      "gc": 6,
+      "gp": 12,
+      "pj": 8,
+      "pos": 2,
+      "pts": 15,
+      "sg": 6,
+      "time": "República Tcheca",
+      "v": 4
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/pol.png&h=80&w=80",
+      "gc": 10,
+      "gp": 10,
+      "pj": 8,
+      "pos": 3,
+      "pts": 11,
+      "sg": 0,
+      "time": "Polônia",
+      "v": 3
+     },
+     {
+      "d": 2,
+      "e": 4,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mda.png&h=80&w=80",
+      "gc": 10,
+      "gp": 7,
+      "pj": 8,
+      "pos": 4,
+      "pts": 10,
+      "sg": -3,
+      "time": "Moldova",
+      "v": 2
+     },
+     {
+      "d": 6,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fro.png&h=80&w=80",
+      "gc": 13,
+      "gp": 2,
+      "pj": 8,
+      "pos": 5,
+      "pts": 2,
+      "sg": -11,
+      "time": "Faroe Islands",
+      "v": 0
+     }
+    ],
+    "nome": "Group E"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bel.png&h=80&w=80",
+      "gc": 4,
+      "gp": 22,
+      "pj": 8,
+      "pos": 1,
+      "pts": 20,
+      "sg": 18,
+      "time": "Bélgica",
+      "v": 6
+     },
+     {
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/aut.png&h=80&w=80",
+      "gc": 7,
+      "gp": 17,
+      "pj": 8,
+      "pos": 2,
+      "pts": 19,
+      "sg": 10,
+      "time": "Áustria",
+      "v": 6
+     },
+     {
+      "d": 4,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/swe.png&h=80&w=80",
+      "gc": 12,
+      "gp": 14,
+      "pj": 8,
+      "pos": 3,
+      "pts": 10,
+      "sg": 2,
+      "time": "Suécia",
+      "v": 3
+     },
+     {
+      "d": 5,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/aze.png&h=80&w=80",
+      "gc": 17,
+      "gp": 7,
+      "pj": 8,
+      "pos": 4,
+      "pts": 7,
+      "sg": -10,
+      "time": "Azerbaijan",
+      "v": 2
+     },
+     {
+      "d": 7,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/est.png&h=80&w=80",
+      "gc": 22,
+      "gp": 2,
+      "pj": 8,
+      "pos": 5,
+      "pts": 1,
+      "sg": -20,
+      "time": "Estonia",
+      "v": 0
+     }
+    ],
+    "nome": "Group F"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/hun.png&h=80&w=80",
+      "gc": 7,
+      "gp": 16,
+      "pj": 8,
+      "pos": 1,
+      "pts": 18,
+      "sg": 9,
+      "time": "Hungria",
+      "v": 5
+     },
+     {
+      "d": 2,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sba.png&h=80&w=80",
+      "gc": 9,
+      "gp": 15,
+      "pj": 8,
+      "pos": 2,
+      "pts": 14,
+      "sg": 6,
+      "time": "Sérvia",
+      "v": 4
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mtg.png&h=80&w=80",
+      "gc": 11,
+      "gp": 9,
+      "pj": 8,
+      "pos": 3,
+      "pts": 11,
+      "sg": -2,
+      "time": "Montenegro",
+      "v": 3
+     },
+     {
+      "d": 4,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ltu.png&h=80&w=80",
+      "gc": 14,
+      "gp": 8,
+      "pj": 8,
+      "pos": 4,
+      "pts": 6,
+      "sg": -6,
+      "time": "Lithuania",
+      "v": 1
+     },
+     {
+      "d": 4,
+      "e": 4,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bul.png&h=80&w=80",
+      "gc": 14,
+      "gp": 7,
+      "pj": 8,
+      "pos": 5,
+      "pts": 4,
+      "sg": -7,
+      "time": "Bulgaria",
+      "v": 0
+     }
+    ],
+    "nome": "Group G"
+   },
+   {
+    "linhas": [
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/den.png&h=80&w=80",
+      "gc": 10,
+      "gp": 19,
+      "pj": 10,
+      "pos": 1,
+      "pts": 22,
+      "sg": 9,
+      "time": "Dinamarca",
+      "v": 7
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svn.png&h=80&w=80",
+      "gc": 9,
+      "gp": 20,
+      "pj": 10,
+      "pos": 2,
+      "pts": 22,
+      "sg": 11,
+      "time": "Eslovênia",
+      "v": 7
+     },
+     {
+      "d": 4,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fin.png&h=80&w=80",
+      "gc": 10,
+      "gp": 18,
+      "pj": 10,
+      "pos": 3,
+      "pts": 18,
+      "sg": 8,
+      "time": "Finlândia",
+      "v": 6
+     },
+     {
+      "d": 4,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/kaz.png&h=80&w=80",
+      "gc": 12,
+      "gp": 16,
+      "pj": 10,
+      "pos": 4,
+      "pts": 18,
+      "sg": 4,
+      "time": "Kazakhstan",
+      "v": 6
+     },
+     {
+      "d": 7,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/nir.png&h=80&w=80",
+      "gc": 13,
+      "gp": 9,
+      "pj": 10,
+      "pos": 5,
+      "pts": 9,
+      "sg": -4,
+      "time": "Irlanda do Norte",
+      "v": 3
+     },
+     {
+      "d": 10,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/smr.png&h=80&w=80",
+      "gc": 31,
+      "gp": 3,
+      "pj": 10,
+      "pos": 6,
+      "pts": 0,
+      "sg": -28,
+      "time": "San Marino",
+      "v": 0
+     }
+    ],
+    "nome": "Group H"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 4,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/rom.png&h=80&w=80",
+      "gc": 5,
+      "gp": 16,
+      "pj": 10,
+      "pos": 1,
+      "pts": 22,
+      "sg": 11,
+      "time": "Romênia",
+      "v": 6
+     },
+     {
+      "d": 1,
+      "e": 5,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sui.png&h=80&w=80",
+      "gc": 11,
+      "gp": 22,
+      "pj": 10,
+      "pos": 2,
+      "pts": 17,
+      "sg": 11,
+      "time": "Suíça",
+      "v": 4
+     },
+     {
+      "d": 3,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/isr.png&h=80&w=80",
+      "gc": 11,
+      "gp": 11,
+      "pj": 10,
+      "pos": 3,
+      "pts": 15,
+      "sg": 0,
+      "time": "Israel",
+      "v": 4
+     },
+     {
+      "d": 4,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/blr.png&h=80&w=80",
+      "gc": 14,
+      "gp": 9,
+      "pj": 10,
+      "pos": 4,
+      "pts": 12,
+      "sg": -5,
+      "time": "Belarus",
+      "v": 3
+     },
+     {
+      "d": 3,
+      "e": 5,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/kosovo.png&h=80&w=80",
+      "gc": 10,
+      "gp": 10,
+      "pj": 10,
+      "pos": 5,
+      "pts": 11,
+      "sg": 0,
+      "time": "Kosovo",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/and.png&h=80&w=80",
+      "gc": 20,
+      "gp": 3,
+      "pj": 10,
+      "pos": 6,
+      "pts": 2,
+      "sg": -17,
+      "time": "Andorra",
+      "v": 0
+     }
+    ],
+    "nome": "Group I"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/por.png&h=80&w=80",
+      "gc": 2,
+      "gp": 36,
+      "pj": 10,
+      "pos": 1,
+      "pts": 30,
+      "sg": 34,
+      "time": "Portugal",
+      "v": 10
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svk.png&h=80&w=80",
+      "gc": 8,
+      "gp": 17,
+      "pj": 10,
+      "pos": 2,
+      "pts": 22,
+      "sg": 9,
+      "time": "Eslováquia",
+      "v": 7
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/lux.png&h=80&w=80",
+      "gc": 19,
+      "gp": 13,
+      "pj": 10,
+      "pos": 3,
+      "pts": 17,
+      "sg": -6,
+      "time": "Luxembourg",
+      "v": 5
+     },
+     {
+      "d": 6,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/isl.png&h=80&w=80",
+      "gc": 16,
+      "gp": 17,
+      "pj": 10,
+      "pos": 4,
+      "pts": 10,
+      "sg": 1,
+      "time": "Islândia",
+      "v": 3
+     },
+     {
+      "d": 7,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bih.png&h=80&w=80",
+      "gc": 20,
+      "gp": 9,
+      "pj": 10,
+      "pos": 5,
+      "pts": 9,
+      "sg": -11,
+      "time": "Bósnia",
+      "v": 3
+     },
+     {
+      "d": 10,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/lie.png&h=80&w=80",
+      "gc": 28,
+      "gp": 1,
+      "pj": 10,
+      "pos": 6,
+      "pts": 0,
+      "sg": -27,
+      "time": "Liechtenstein",
+      "v": 0
+     }
+    ],
+    "nome": "Group J"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ger.png&h=80&w=80",
+      "gc": 2,
+      "gp": 8,
+      "pj": 3,
+      "pos": 1,
+      "pts": 7,
+      "sg": 6,
+      "time": "Alemanha",
+      "v": 2,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sui.png&h=80&w=80",
+      "gc": 3,
+      "gp": 5,
+      "pj": 3,
+      "pos": 2,
+      "pts": 5,
+      "sg": 2,
+      "time": "Suíça",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 2,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/hun.png&h=80&w=80",
+      "gc": 5,
+      "gp": 2,
+      "pj": 3,
+      "pos": 3,
+      "pts": 3,
+      "sg": -3,
+      "time": "Hungria",
+      "v": 1,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sco.png&h=80&w=80",
+      "gc": 7,
+      "gp": 2,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -5,
+      "time": "Escócia",
+      "v": 0
+     }
+    ],
+    "nome": "Group A"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/esp.png&h=80&w=80",
+      "gc": 0,
+      "gp": 5,
+      "pj": 3,
+      "pos": 1,
+      "pts": 9,
+      "sg": 5,
+      "time": "Espanha",
+      "v": 3,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ita.png&h=80&w=80",
+      "gc": 3,
+      "gp": 3,
+      "pj": 3,
+      "pos": 2,
+      "pts": 4,
+      "sg": 0,
+      "time": "Itália",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cro.png&h=80&w=80",
+      "gc": 6,
+      "gp": 3,
+      "pj": 3,
+      "pos": 3,
+      "pts": 2,
+      "sg": -3,
+      "time": "Croácia",
+      "v": 0,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/alb.png&h=80&w=80",
+      "gc": 5,
+      "gp": 3,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -2,
+      "time": "Albânia",
+      "v": 0
+     }
+    ],
+    "nome": "Group B"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/eng.png&h=80&w=80",
+      "gc": 1,
+      "gp": 2,
+      "pj": 3,
+      "pos": 1,
+      "pts": 5,
+      "sg": 1,
+      "time": "Inglaterra",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/den.png&h=80&w=80",
+      "gc": 2,
+      "gp": 2,
+      "pj": 3,
+      "pos": 2,
+      "pts": 3,
+      "sg": 0,
+      "time": "Dinamarca",
+      "v": 0,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 0,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svn.png&h=80&w=80",
+      "gc": 2,
+      "gp": 2,
+      "pj": 3,
+      "pos": 3,
+      "pts": 3,
+      "sg": 0,
+      "time": "Eslovênia",
+      "v": 0,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sba.png&h=80&w=80",
+      "gc": 2,
+      "gp": 1,
+      "pj": 3,
+      "pos": 4,
+      "pts": 2,
+      "sg": -1,
+      "time": "Sérvia",
+      "v": 0
+     }
+    ],
+    "nome": "Group C"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/aut.png&h=80&w=80",
+      "gc": 4,
+      "gp": 6,
+      "pj": 3,
+      "pos": 1,
+      "pts": 6,
+      "sg": 2,
+      "time": "Áustria",
+      "v": 2,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fra.png&h=80&w=80",
+      "gc": 1,
+      "gp": 2,
+      "pj": 3,
+      "pos": 2,
+      "pts": 5,
+      "sg": 1,
+      "time": "França",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ned.png&h=80&w=80",
+      "gc": 4,
+      "gp": 4,
+      "pj": 3,
+      "pos": 3,
+      "pts": 4,
+      "sg": 0,
+      "time": "Holanda",
+      "v": 1,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/pol.png&h=80&w=80",
+      "gc": 6,
+      "gp": 3,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -3,
+      "time": "Polônia",
+      "v": 0
+     }
+    ],
+    "nome": "Group D"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/rom.png&h=80&w=80",
+      "gc": 3,
+      "gp": 4,
+      "pj": 3,
+      "pos": 1,
+      "pts": 4,
+      "sg": 1,
+      "time": "Romênia",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bel.png&h=80&w=80",
+      "gc": 1,
+      "gp": 2,
+      "pj": 3,
+      "pos": 2,
+      "pts": 4,
+      "sg": 1,
+      "time": "Bélgica",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svk.png&h=80&w=80",
+      "gc": 3,
+      "gp": 3,
+      "pj": 3,
+      "pos": 3,
+      "pts": 4,
+      "sg": 0,
+      "time": "Eslováquia",
+      "v": 1,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ukr.png&h=80&w=80",
+      "gc": 4,
+      "gp": 2,
+      "pj": 3,
+      "pos": 4,
+      "pts": 4,
+      "sg": -2,
+      "time": "Ucrânia",
+      "v": 1
+     }
+    ],
+    "nome": "Group E"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/por.png&h=80&w=80",
+      "gc": 3,
+      "gp": 5,
+      "pj": 3,
+      "pos": 1,
+      "pts": 6,
+      "sg": 2,
+      "time": "Portugal",
+      "v": 2,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/tur.png&h=80&w=80",
+      "gc": 5,
+      "gp": 5,
+      "pj": 3,
+      "pos": 2,
+      "pts": 6,
+      "sg": 0,
+      "time": "Turquia",
+      "v": 2,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/geo.png&h=80&w=80",
+      "gc": 4,
+      "gp": 4,
+      "pj": 3,
+      "pos": 3,
+      "pts": 4,
+      "sg": 0,
+      "time": "Geórgia",
+      "v": 1,
+      "zona": "Melhores 3ºs avançam"
      },
      {
       "d": 2,
@@ -7612,12 +8788,12 @@
  },
  "europa": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1929.png&h=80&w=80",
@@ -7629,10 +8805,10 @@
       "sg": 10,
       "time": "Benfica",
       "v": 4,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/349.png&h=80&w=80",
@@ -7644,10 +8820,10 @@
       "sg": 9,
       "time": "Bournemouth",
       "v": 4,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/622.png&h=80&w=80",
@@ -7659,10 +8835,10 @@
       "sg": 8,
       "time": "Ferencvaros",
       "v": 4,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5807.png&h=80&w=80",
@@ -7674,10 +8850,10 @@
       "sg": 8,
       "time": "Union St.-Gilloise",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/111.png&h=80&w=80",
@@ -7689,10 +8865,10 @@
       "sg": 7,
       "time": "Juventus",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/435.png&h=80&w=80",
@@ -7704,10 +8880,10 @@
       "sg": 3,
       "time": "Olympiacos",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/131.png&h=80&w=80",
@@ -7719,10 +8895,10 @@
       "sg": 7,
       "time": "Bayer Leverkusen",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1895.png&h=80&w=80",
@@ -7734,10 +8910,10 @@
       "sg": 3,
       "time": "Besiktas",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/597.png&h=80&w=80",
@@ -7749,10 +8925,10 @@
       "sg": 1,
       "time": "Dinamo Zagreb",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/490.png&h=80&w=80",
@@ -7764,10 +8940,10 @@
       "sg": 1,
       "time": "Levski Sofia",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/366.png&h=80&w=80",
@@ -7779,10 +8955,10 @@
       "sg": 0,
       "time": "Sunderland",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/147.png&h=80&w=80",
@@ -7794,10 +8970,10 @@
       "sg": -1,
       "time": "NEC Nijmegen",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/167.png&h=80&w=80",
@@ -7809,10 +8985,10 @@
       "sg": -1,
       "time": "Lyon",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/140.png&h=80&w=80",
@@ -7824,10 +9000,10 @@
       "sg": 3,
       "time": "AZ Alkmaar",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/441.png&h=80&w=80",
@@ -7839,10 +9015,10 @@
       "sg": 3,
       "time": "Anderlecht",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1010.png&h=80&w=80",
@@ -7854,10 +9030,10 @@
       "sg": 1,
       "time": "OFI Crete",
       "v": 2,
-      "zona": "Knockout phase playoffs - seeded"
+      "zona": "Playoff das oitavas (cabeça de chave)"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 0,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/169.png&h=80&w=80",
@@ -7869,10 +9045,10 @@
       "sg": 1,
       "time": "Stade Rennais",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/617.png&h=80&w=80",
@@ -7884,10 +9060,10 @@
       "sg": -1,
       "time": "Omonia Nicosia",
       "v": 2,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21615.png&h=80&w=80",
@@ -7899,10 +9075,10 @@
       "sg": -2,
       "time": "Torreense",
       "v": 2,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/89.png&h=80&w=80",
@@ -7914,10 +9090,10 @@
       "sg": 5,
       "time": "Real Sociedad",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/384.png&h=80&w=80",
@@ -7929,10 +9105,10 @@
       "sg": 3,
       "time": "Crystal Palace",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/433.png&h=80&w=80",
@@ -7944,10 +9120,10 @@
       "sg": 0,
       "time": "Sparta Prague",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7911.png&h=80&w=80",
@@ -7959,10 +9135,10 @@
       "sg": 0,
       "time": "TSG Hoffenheim",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#9cc3f5",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3746.png&h=80&w=80",
@@ -7974,10 +9150,10 @@
       "sg": -3,
       "time": "SK Sturm Graz",
       "v": 1,
-      "zona": "Knockout phase playoffs - unseeded"
+      "zona": "Playoff das oitavas"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3362.png&h=80&w=80",
@@ -7989,10 +9165,10 @@
       "sg": -4,
       "time": "NK Celje",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2790.png&h=80&w=80",
@@ -8004,10 +9180,10 @@
       "sg": -5,
       "time": "RB Salzburg",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/85.png&h=80&w=80",
@@ -8019,10 +9195,10 @@
       "sg": -2,
       "time": "Celta Vigo",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/103.png&h=80&w=80",
@@ -8034,10 +9210,10 @@
       "sg": -3,
       "time": "Milan",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11505.png&h=80&w=80",
@@ -8049,10 +9225,10 @@
       "sg": -3,
       "time": "Jagiellonia Bialystok",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11706.png&h=80&w=80",
@@ -8064,10 +9240,10 @@
       "sg": -4,
       "time": "Viktoria Plzen",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/176.png&h=80&w=80",
@@ -8079,10 +9255,10 @@
       "sg": -4,
       "time": "Marseille",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/256.png&h=80&w=80",
@@ -8094,10 +9270,10 @@
       "sg": -5,
       "time": "Celtic",
       "v": 1,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13083.png&h=80&w=80",
@@ -8109,10 +9285,10 @@
       "sg": -7,
       "time": "Hapoel Be'er",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/987.png&h=80&w=80",
@@ -8124,10 +9300,10 @@
       "sg": -8,
       "time": "Lillestrom",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2990.png&h=80&w=80",
@@ -8139,10 +9315,10 @@
       "sg": -10,
       "time": "Lech Poznan",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#a7b0bb",
       "d": 4,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20024.png&h=80&w=80",
@@ -8154,7 +9330,7 @@
       "sg": -10,
       "time": "Ararat-Armenia",
       "v": 0,
-      "zona": "Eliminated"
+      "zona": "Eliminado"
      }
     ],
     "nome": ""
@@ -8165,12 +9341,12 @@
  },
  "laliga": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/83.png&h=80&w=80",
@@ -8185,7 +9361,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/86.png&h=80&w=80",
@@ -8200,7 +9376,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1068.png&h=80&w=80",
@@ -8215,7 +9391,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/244.png&h=80&w=80",
@@ -8230,7 +9406,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 5,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/89.png&h=80&w=80",
@@ -8245,7 +9421,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#c6d1e0",
+      "cor": "#f08a1c",
       "d": 4,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/243.png&h=80&w=80",
@@ -8260,7 +9436,7 @@
       "zona": "Europa League"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#6cc795",
       "d": 6,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/87.png&h=80&w=80",
@@ -8272,7 +9448,7 @@
       "sg": -12,
       "time": "Racing Santander",
       "v": 5,
-      "zona": "Conference League qualifying"
+      "zona": "Pré-Conference League"
      },
      {
       "d": 4,
@@ -8301,7 +9477,7 @@
       "v": 4
      },
      {
-      "cor": "##c6d1e0",
+      "cor": "#f08a1c",
       "d": 6,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/102.png&h=80&w=80",
@@ -8407,7 +9583,7 @@
       "v": 3
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 5,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1538.png&h=80&w=80",
@@ -8419,10 +9595,10 @@
       "sg": -5,
       "time": "Levante",
       "v": 2,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 6,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3751.png&h=80&w=80",
@@ -8434,10 +9610,10 @@
       "sg": -6,
       "time": "Elche",
       "v": 2,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 8,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/99.png&h=80&w=80",
@@ -8449,7 +9625,7 @@
       "sg": -15,
       "time": "Málaga",
       "v": 0,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": ""
@@ -8460,12 +9636,12 @@
  },
  "libertadores": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/819.png&h=80&w=80",
@@ -8477,10 +9653,10 @@
       "sg": 12,
       "time": "Flamengo",
       "v": 5,
-      "zona": "Qualifies for Round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/8.png&h=80&w=80",
@@ -8492,10 +9668,10 @@
       "sg": 1,
       "time": "Estudiantes",
       "v": 2,
-      "zona": "Qualifies for Round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#f08a1c",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2690.png&h=80&w=80",
@@ -8507,7 +9683,7 @@
       "sg": -5,
       "time": "Independiente Medellín",
       "v": 2,
-      "zona": "Qualifies for Sudamericana KO Playoffs"
+      "zona": "Playoff da Sul-Americana"
      },
      {
       "d": 5,
@@ -8930,12 +10106,12 @@
  },
  "ligamx": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 6,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/219.png&h=80&w=80",
@@ -8947,10 +10123,10 @@
       "sg": 12,
       "time": "Guadalajara",
       "v": 9,
-      "zona": "Qualifies for playoffs"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 5,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/218.png&h=80&w=80",
@@ -8962,10 +10138,10 @@
       "sg": 10,
       "time": "Cruz Azul",
       "v": 10,
-      "zona": "Qualifies for playoffs"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 3,
       "e": 6,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/227.png&h=80&w=80",
@@ -8977,10 +10153,10 @@
       "sg": 14,
       "time": "América",
       "v": 8,
-      "zona": "Qualifies for playoffs"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 5,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/216.png&h=80&w=80",
@@ -8992,10 +10168,10 @@
       "sg": -3,
       "time": "Atlas",
       "v": 8,
-      "zona": "Qualifies for playoffs"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 4,
       "e": 6,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/223.png&h=80&w=80",
@@ -9007,10 +10183,10 @@
       "sg": 12,
       "time": "Toluca",
       "v": 7,
-      "zona": "Qualifies for playoffs"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 6,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/220.png&h=80&w=80",
@@ -9022,10 +10198,10 @@
       "sg": 4,
       "time": "Monterrey",
       "v": 8,
-      "zona": "Qualifies for playoffs"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 5,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/228.png&h=80&w=80",
@@ -9037,10 +10213,10 @@
       "sg": 3,
       "time": "León",
       "v": 7,
-      "zona": "Qualifies for playoffs"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 6,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/234.png&h=80&w=80",
@@ -9052,7 +10228,7 @@
       "sg": 11,
       "time": "Pachuca",
       "v": 7,
-      "zona": "Qualifies for playoffs"
+      "zona": "Playoffs"
      },
      {
       "d": 4,
@@ -9193,12 +10369,12 @@
  },
  "ligue1": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png&h=80&w=80",
@@ -9213,7 +10389,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6851.png&h=80&w=80",
@@ -9228,7 +10404,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/166.png&h=80&w=80",
@@ -9243,7 +10419,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 3,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/167.png&h=80&w=80",
@@ -9255,10 +10431,10 @@
       "sg": 7,
       "time": "Lyon",
       "v": 6,
-      "zona": "Champions League qualifying"
+      "zona": "Pré-Champions"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#f08a1c",
       "d": 5,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/176.png&h=80&w=80",
@@ -9273,7 +10449,7 @@
       "zona": "Europa League"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#f08a1c",
       "d": 3,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6997.png&h=80&w=80",
@@ -9288,7 +10464,7 @@
       "zona": "Europa League"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#6cc795",
       "d": 4,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2502.png&h=80&w=80",
@@ -9300,7 +10476,7 @@
       "sg": 2,
       "time": "Nice",
       "v": 5,
-      "zona": "Conference League qualifying"
+      "zona": "Pré-Conference League"
      },
      {
       "d": 2,
@@ -9407,7 +10583,7 @@
       "v": 3
      },
      {
-      "cor": "#FEB4B5",
+      "cor": "#f39aa2",
       "d": 7,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/180.png&h=80&w=80",
@@ -9419,10 +10595,10 @@
       "sg": -5,
       "time": "Strasbourg",
       "v": 3,
-      "zona": "Relegation playoff"
+      "zona": "Playoff de rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 7,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7868.png&h=80&w=80",
@@ -9434,10 +10610,10 @@
       "sg": -14,
       "time": "Angers",
       "v": 2,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 9,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3236.png&h=80&w=80",
@@ -9449,7 +10625,7 @@
       "sg": -15,
       "time": "Le Havre AC",
       "v": 0,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": ""
@@ -9460,7 +10636,7 @@
  },
  "mineiro": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
@@ -9635,12 +10811,12 @@
  },
  "mls": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 3,
       "e": 8,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18986.png&h=80&w=80",
@@ -9652,10 +10828,10 @@
       "sg": 46,
       "time": "Nashville SC",
       "v": 23,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 6,
       "e": 12,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20232.png&h=80&w=80",
@@ -9667,10 +10843,10 @@
       "sg": 21,
       "time": "Inter Miami CF",
       "v": 16,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 12,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/189.png&h=80&w=80",
@@ -9682,10 +10858,10 @@
       "sg": 8,
       "time": "New England Revolution",
       "v": 18,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 11,
       "e": 7,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/182.png&h=80&w=80",
@@ -9697,10 +10873,10 @@
       "sg": 10,
       "time": "Chicago Fire FC",
       "v": 16,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 10,
       "e": 9,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21300.png&h=80&w=80",
@@ -9712,10 +10888,10 @@
       "sg": 15,
       "time": "Charlotte FC",
       "v": 15,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 12,
       "e": 8,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/10739.png&h=80&w=80",
@@ -9727,10 +10903,10 @@
       "sg": 14,
       "time": "Philadelphia Union",
       "v": 14,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 15,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/183.png&h=80&w=80",
@@ -9742,10 +10918,10 @@
       "sg": 7,
       "time": "Columbus Crew",
       "v": 14,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#6aa5f0",
       "d": 14,
       "e": 7,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12011.png&h=80&w=80",
@@ -9757,10 +10933,10 @@
       "sg": -15,
       "time": "Orlando City SC",
       "v": 13,
-      "zona": "Qualifies for MLS Cup Playoffs - Wild Card Matches"
+      "zona": "Playoffs (repescagem)"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#6aa5f0",
       "d": 12,
       "e": 10,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18267.png&h=80&w=80",
@@ -9772,7 +10948,7 @@
       "sg": -8,
       "time": "FC Cincinnati",
       "v": 12,
-      "zona": "Qualifies for MLS Cup Playoffs - Wild Card Matches"
+      "zona": "Playoffs (repescagem)"
      },
      {
       "d": 16,
@@ -9858,7 +11034,7 @@
    {
     "linhas": [
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 8,
       "e": 7,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9727.png&h=80&w=80",
@@ -9870,10 +11046,10 @@
       "sg": 40,
       "time": "Vancouver Whitecaps",
       "v": 19,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 8,
       "e": 10,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/185.png&h=80&w=80",
@@ -9885,10 +11061,10 @@
       "sg": 11,
       "time": "FC Dallas",
       "v": 16,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 10,
       "e": 9,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21812.png&h=80&w=80",
@@ -9900,10 +11076,10 @@
       "sg": 11,
       "time": "St. Louis CITY SC",
       "v": 15,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 10,
       "e": 10,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/191.png&h=80&w=80",
@@ -9915,10 +11091,10 @@
       "sg": 6,
       "time": "San Jose Earthquakes",
       "v": 14,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 11,
       "e": 9,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6077.png&h=80&w=80",
@@ -9930,10 +11106,10 @@
       "sg": 0,
       "time": "Houston Dynamo FC",
       "v": 14,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 11,
       "e": 11,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18966.png&h=80&w=80",
@@ -9945,10 +11121,10 @@
       "sg": 12,
       "time": "LAFC",
       "v": 12,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#1d5fd1",
       "d": 14,
       "e": 7,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9723.png&h=80&w=80",
@@ -9960,10 +11136,10 @@
       "sg": 1,
       "time": "Portland Timbers",
       "v": 13,
-      "zona": "Qualifies for MLS Cup Playoffs - Round One Best-of-3 series"
+      "zona": "Playoffs"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#6aa5f0",
       "d": 12,
       "e": 10,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9726.png&h=80&w=80",
@@ -9975,10 +11151,10 @@
       "sg": -2,
       "time": "Seattle Sounders FC",
       "v": 12,
-      "zona": "Qualifies for MLS Cup Playoffs - Wild Card Matches"
+      "zona": "Playoffs (repescagem)"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#6aa5f0",
       "d": 15,
       "e": 6,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4771.png&h=80&w=80",
@@ -9990,7 +11166,7 @@
       "sg": 1,
       "time": "Real Salt Lake",
       "v": 13,
-      "zona": "Qualifies for MLS Cup Playoffs - Wild Card Matches"
+      "zona": "Playoffs (repescagem)"
      },
      {
       "d": 12,
@@ -10079,12 +11255,12 @@
  },
  "mundial": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2029.png&h=80&w=80",
@@ -10096,10 +11272,10 @@
       "sg": 2,
       "time": "Palmeiras",
       "v": 1,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20232.png&h=80&w=80",
@@ -10111,7 +11287,7 @@
       "sg": 1,
       "time": "Inter Miami CF",
       "v": 1,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
       "d": 1,
@@ -10145,7 +11321,7 @@
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/160.png&h=80&w=80",
@@ -10157,10 +11333,10 @@
       "sg": 5,
       "time": "Paris Saint-Germain",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6086.png&h=80&w=80",
@@ -10172,7 +11348,7 @@
       "sg": 1,
       "time": "Botafogo",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
       "d": 1,
@@ -10206,7 +11382,7 @@
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1929.png&h=80&w=80",
@@ -10218,10 +11394,10 @@
       "sg": 7,
       "time": "Benfica",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/132.png&h=80&w=80",
@@ -10233,7 +11409,7 @@
       "sg": 10,
       "time": "Bayern de Munique",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
       "d": 1,
@@ -10267,7 +11443,7 @@
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/819.png&h=80&w=80",
@@ -10279,10 +11455,10 @@
       "sg": 4,
       "time": "Flamengo",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&h=80&w=80",
@@ -10294,7 +11470,7 @@
       "sg": 3,
       "time": "Chelsea",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
       "d": 2,
@@ -10328,7 +11504,7 @@
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/110.png&h=80&w=80",
@@ -10340,10 +11516,10 @@
       "sg": 3,
       "time": "Inter de Milão",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/220.png&h=80&w=80",
@@ -10355,7 +11531,7 @@
       "sg": 4,
       "time": "Monterrey",
       "v": 1,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
       "d": 1,
@@ -10389,7 +11565,7 @@
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/124.png&h=80&w=80",
@@ -10401,10 +11577,10 @@
       "sg": 2,
       "time": "Borussia Dortmund",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3445.png&h=80&w=80",
@@ -10416,7 +11592,7 @@
       "sg": 2,
       "time": "Fluminense",
       "v": 1,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
       "d": 1,
@@ -10450,7 +11626,7 @@
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&h=80&w=80",
@@ -10462,10 +11638,10 @@
       "sg": 11,
       "time": "Manchester City",
       "v": 3,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/111.png&h=80&w=80",
@@ -10477,7 +11653,7 @@
       "sg": 5,
       "time": "Juventus",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
       "d": 2,
@@ -10511,7 +11687,7 @@
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/86.png&h=80&w=80",
@@ -10523,10 +11699,10 @@
       "sg": 5,
       "time": "Real Madrid",
       "v": 2,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/929.png&h=80&w=80",
@@ -10538,7 +11714,7 @@
       "sg": 2,
       "time": "Al Hilal",
       "v": 1,
-      "zona": "Qualifies for round of 16"
+      "zona": "Oitavas de final"
      },
      {
       "d": 1,
@@ -10575,12 +11751,12 @@
  },
  "nations": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#12924f",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fra.png&h=80&w=80",
@@ -10592,10 +11768,10 @@
       "sg": 4,
       "time": "França",
       "v": 4,
-      "zona": "A: Qualifies for QFs; B-D: Promotion"
+      "zona": "Acesso"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 2,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bel.png&h=80&w=80",
@@ -10607,10 +11783,10 @@
       "sg": 5,
       "time": "Bélgica",
       "v": 4,
-      "zona": "A: Qualifies for QFs; B-D: Promotion playoffs"
+      "zona": "Quartas (Liga A) / playoff de acesso"
      },
      {
-      "cor": "#FEB4B5",
+      "cor": "#f39aa2",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ita.png&h=80&w=80",
@@ -10622,10 +11798,10 @@
       "sg": 2,
       "time": "Itália",
       "v": 3,
-      "zona": "A, B: Relegation playoffs"
+      "zona": "Playoff de rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 6,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/tur.png&h=80&w=80",
@@ -10637,7 +11813,7 @@
       "sg": -11,
       "time": "Turquia",
       "v": 0,
-      "zona": "A, B: Relegation; C: Relegation or playoffs"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": "Group A1"
@@ -11363,7 +12539,7 @@
  },
  "paulista": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
@@ -11580,12 +12756,12 @@
  },
  "portugal": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/437.png&h=80&w=80",
@@ -11600,7 +12776,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1929.png&h=80&w=80",
@@ -11612,10 +12788,10 @@
       "sg": 20,
       "time": "Benfica",
       "v": 9,
-      "zona": "Champions League qualifying"
+      "zona": "Pré-Champions"
      },
      {
-      "cor": "#cfdbe7",
+      "cor": "#f08a1c",
       "d": 1,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2250.png&h=80&w=80",
@@ -11627,10 +12803,10 @@
       "sg": 13,
       "time": "Sporting CP",
       "v": 7,
-      "zona": "Europa League qualifying"
+      "zona": "Pré-Europa League"
      },
      {
-      "cor": "#c6d1e0",
+      "cor": "#6cc795",
       "d": 2,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12215.png&h=80&w=80",
@@ -11642,7 +12818,7 @@
       "sg": 8,
       "time": "Santa Clara",
       "v": 6,
-      "zona": "Conference League qualifying"
+      "zona": "Pré-Conference League"
      },
      {
       "d": 3,
@@ -11788,7 +12964,7 @@
       "v": 2
      },
      {
-      "cor": "#FEB4B5",
+      "cor": "#f39aa2",
       "d": 7,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21581.png&h=80&w=80",
@@ -11800,10 +12976,10 @@
       "sg": -14,
       "time": "Casa Pia",
       "v": 2,
-      "zona": "Relegation playoff"
+      "zona": "Playoff de rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 8,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3822.png&h=80&w=80",
@@ -11815,10 +12991,10 @@
       "sg": -15,
       "time": "Rio Ave",
       "v": 2,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 8,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/12216.png&h=80&w=80",
@@ -11830,7 +13006,7 @@
       "sg": -14,
       "time": "Estoril",
       "v": 0,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": ""
@@ -11841,12 +13017,12 @@
  },
  "premier": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&h=80&w=80",
@@ -11861,7 +13037,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/331.png&h=80&w=80",
@@ -11876,7 +13052,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&h=80&w=80",
@@ -11891,7 +13067,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 2,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/364.png&h=80&w=80",
@@ -11906,7 +13082,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "##B5E7CE",
+      "cor": "#f08a1c",
       "d": 3,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/349.png&h=80&w=80",
@@ -12077,7 +13253,7 @@
       "v": 2
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 6,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/366.png&h=80&w=80",
@@ -12089,10 +13265,10 @@
       "sg": -9,
       "time": "Sunderland",
       "v": 2,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 5,
       "e": 5,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/360.png&h=80&w=80",
@@ -12104,10 +13280,10 @@
       "sg": -9,
       "time": "Manchester United",
       "v": 1,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 8,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/384.png&h=80&w=80",
@@ -12119,7 +13295,7 @@
       "sg": -15,
       "time": "Crystal Palace",
       "v": 2,
-      "zona": "Relegation"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": ""
@@ -12130,7 +13306,7 @@
  },
  "saudita": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
@@ -12377,12 +13553,12 @@
  },
  "serie-a-ita": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/112.png&h=80&w=80",
@@ -12397,7 +13573,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/104.png&h=80&w=80",
@@ -12412,7 +13588,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/110.png&h=80&w=80",
@@ -12427,7 +13603,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/103.png&h=80&w=80",
@@ -12442,7 +13618,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#f08a1c",
       "d": 2,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2572.png&h=80&w=80",
@@ -12457,7 +13633,7 @@
       "zona": "Europa League"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#f08a1c",
       "d": 3,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/111.png&h=80&w=80",
@@ -12472,7 +13648,7 @@
       "zona": "Europa League"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#6cc795",
       "d": 4,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4057.png&h=80&w=80",
@@ -12484,7 +13660,7 @@
       "sg": 5,
       "time": "Frosinone",
       "v": 6,
-      "zona": "Conference League qualifying"
+      "zona": "Pré-Conference League"
      },
      {
       "d": 4,
@@ -12617,7 +13793,7 @@
       "v": 2
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 8,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/4007.png&h=80&w=80",
@@ -12629,10 +13805,10 @@
       "sg": -8,
       "time": "Monza",
       "v": 2,
-      "zona": "Relegated"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 8,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/118.png&h=80&w=80",
@@ -12644,10 +13820,10 @@
       "sg": -13,
       "time": "Udinese",
       "v": 1,
-      "zona": "Relegated"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 10,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17530.png&h=80&w=80",
@@ -12659,7 +13835,7 @@
       "sg": -17,
       "time": "Venezia",
       "v": 2,
-      "zona": "Relegated"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": ""
@@ -12670,12 +13846,12 @@
  },
  "sul-americana": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 0,
       "e": 4,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/18439.png&h=80&w=80",
@@ -12687,10 +13863,10 @@
       "sg": 3,
       "time": "Macará",
       "v": 2,
-      "zona": "Qualifies for Round of 16"
+      "zona": "Oitavas de final"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 1,
       "e": 3,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/7767.png&h=80&w=80",
@@ -12702,7 +13878,7 @@
       "sg": 3,
       "time": "Tigre",
       "v": 2,
-      "zona": "Qualifies for KO Playoffs"
+      "zona": "Playoff das oitavas"
      },
      {
       "d": 1,
@@ -13138,12 +14314,12 @@
  },
  "turquia": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:40-03:00",
+  "atualizado": "2026-11-23T14:52-03:00",
   "grupos": [
    {
     "linhas": [
      {
-      "cor": "#81D6AC",
+      "cor": "#1d5fd1",
       "d": 1,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/432.png&h=80&w=80",
@@ -13158,7 +14334,7 @@
       "zona": "Champions League"
      },
      {
-      "cor": "#B5E7CE",
+      "cor": "#6aa5f0",
       "d": 2,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/997.png&h=80&w=80",
@@ -13170,10 +14346,10 @@
       "sg": 19,
       "time": "Trabzonspor",
       "v": 9,
-      "zona": "Champions League qualifying"
+      "zona": "Pré-Champions"
      },
      {
-      "cor": "#B2BFD0",
+      "cor": "#f08a1c",
       "d": 3,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1895.png&h=80&w=80",
@@ -13185,10 +14361,10 @@
       "sg": 13,
       "time": "Besiktas",
       "v": 8,
-      "zona": "Europa League qualifying"
+      "zona": "Pré-Europa League"
      },
      {
-      "cor": "#c6d1e0",
+      "cor": "#6cc795",
       "d": 3,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/132335.png&h=80&w=80",
@@ -13200,7 +14376,7 @@
       "sg": 11,
       "time": "Amed SFK",
       "v": 7,
-      "zona": "Conference League qualifying"
+      "zona": "Pré-Conference League"
      },
      {
       "d": 1,
@@ -13346,7 +14522,7 @@
       "v": 2
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 8,
       "e": 2,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20070.png&h=80&w=80",
@@ -13358,10 +14534,10 @@
       "sg": -11,
       "time": "Gaziantep FK",
       "v": 2,
-      "zona": "Relegated"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 9,
       "e": 1,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/11429.png&h=80&w=80",
@@ -13373,10 +14549,10 @@
       "sg": -16,
       "time": "Samsunspor",
       "v": 2,
-      "zona": "Relegated"
+      "zona": "Rebaixamento"
      },
      {
-      "cor": "#FF7F84",
+      "cor": "#d7263d",
       "d": 11,
       "e": 0,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/20729.png&h=80&w=80",
@@ -13388,7 +14564,7 @@
       "sg": -28,
       "time": "Eyupspor",
       "v": 1,
-      "zona": "Relegated"
+      "zona": "Rebaixamento"
      }
     ],
     "nome": ""
