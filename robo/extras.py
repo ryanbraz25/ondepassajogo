@@ -22,7 +22,7 @@ SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/{}/scoreboard
 SUMMARY = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/{}/summary?event={}&region=br&lang=pt"
 DIAS_HIST = 75          # quanto do passado buscar (preenchido aos poucos)
 GUARDA_HIST = 200       # quanto guardar
-CONSULTAS_POR_RODADA = 160
+CONSULTAS_POR_RODADA = 400
 
 
 def log(*a):

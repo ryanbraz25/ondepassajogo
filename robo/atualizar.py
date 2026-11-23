@@ -362,6 +362,8 @@ def escudos(cfg, jogos, logos=None):
                 log(f"Escudo de {t}: {salvos[t] or 'não achado'}")
             except Exception as e:
                 log(f"Escudo de {t}: falhou ({e})")
+                if "404" in str(e):  # time que a TheSportsDB não tem: não tenta de novo a cada hora
+                    salvos[t] = ""
             time.sleep(7)
         arq.write_text(json.dumps(salvos, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
     out = {}
