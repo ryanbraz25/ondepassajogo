@@ -25,6 +25,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
+EXTRAS = {}  # tabelas, histórico e escalações (não vão para a página inicial; só para as páginas e as abas)
 BRT = timezone(timedelta(hours=-3))  # Brasília não tem horário de verão desde 2019
 OFFLINE = "--offline" in sys.argv
 
@@ -439,7 +440,7 @@ def gerar_site(dados):
             pin.group(0).replace('<svg aria-hidden="true" class="pin" width="64" height="84"',
                                  '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="84"'), encoding="utf-8")
     mudou = paginas.gerar(dados, head, '<link rel="icon" type="image/svg+xml" href="/favicon.svg">\n<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">\n<link rel="icon" href="/favicon.ico" sizes="any">',
-                          '<img class="pin" src="/logo.svg" width="34" height="45" alt="">')
+                          '<img class="pin" src="/logo.svg" width="34" height="45" alt="">', EXTRAS)
     paginas.guardar_para_avisar(mudou)
     tpl = tpl.replace("__LINKS_SEO__", links_seo(dados))
     bloco = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
@@ -476,6 +477,15 @@ def main():
         log("Nenhum jogo obtido; mantendo a agenda anterior para não apagar o site.")
         jogos = ler(anterior)["jogos"]
 
+    import extras
+    if OFFLINE:
+        tabs = extras.ler(extras.TABELAS, {})
+    else:
+        tabs = extras.tabelas(cfg, nome, get_json, espn_logo)
+    hist = extras.historico(cfg, nome, get_json, jogos, OFFLINE)
+    esc_ = extras.escalacoes(cfg, get_json, jogos, OFFLINE)
+    EXTRAS.update({"tabelas": tabs, "historico": hist, "escalacoes": esc_})
+
     import paginas
     for j in jogos:
         if j.get("local"):
@@ -496,6 +506,7 @@ def main():
         "logos_ligas": logos_ligas(cfg),
         "anuncios": {k: v for k, v in cfg.get("anuncios", {}).items() if k != "comentario"},
     }
+    dados["abas"] = extras.arquivos_site(list(cfg["competicoes"]), tabs, hist)
     nt = cfg.get("notificacoes") or {}
     if (nt.get("firebase") or {}).get("apiKey"):
         dados["push"] = {"cfg": nt["firebase"], "vapid": nt.get("vapid", "")}

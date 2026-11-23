@@ -401,7 +401,7 @@ def pagina_dia(cx, cam, rotulo, dia, jogos):
 
 
 # ---------------------------------------------------------------- geração, sitemap e IndexNow
-def gerar(dados, head_extra, favicon, pin):
+def gerar(dados, head_extra, favicon, pin, extras=None):
     cx = Ctx(dados, head_extra, favicon, pin)
     estado = json.loads(ESTADO.read_text(encoding="utf-8")) if ESTADO.exists() else {"paginas": {}}
     pags = estado.setdefault("paginas", {})
