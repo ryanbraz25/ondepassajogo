@@ -1,7 +1,7 @@
 {
  "argentina": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -184,7 +184,7 @@
       "pos": 14,
       "pts": 12,
       "sg": -8,
-      "time": "Deportivo",
+      "time": "Deportivo Riestra",
       "v": 2
      },
      {
@@ -371,7 +371,7 @@
       "pos": 13,
       "pts": 15,
       "sg": -8,
-      "time": "Racing Santander",
+      "time": "Racing Club",
       "v": 4
      },
      {
@@ -397,7 +397,7 @@
       "pos": 15,
       "pts": 9,
       "sg": -13,
-      "time": "Estudiantes",
+      "time": "Estudiantes de Río Cuarto",
       "v": 2
      }
     ],
@@ -409,7 +409,7 @@
  },
  "brasileirao-a": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -690,7 +690,7 @@
  },
  "brasileirao-b": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -868,7 +868,7 @@
       "pos": 13,
       "pts": 48,
       "sg": 0,
-      "time": "Athletic Club",
+      "time": "Athletic",
       "v": 11
      },
      {
@@ -979,7 +979,7 @@
  },
  "bundesliga": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -1246,7 +1246,7 @@
  },
  "carioca": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -1418,7 +1418,7 @@
  },
  "champions": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -1971,7 +1971,7 @@
  },
  "championship": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -2318,7 +2318,7 @@
  },
  "conference": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -2871,7 +2871,7 @@
  },
  "eredivisie": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -3136,8 +3136,1125 @@
  },
  "eurocopa": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
+   {
+    "linhas": [
+     {
+      "cor": "#81D6AC",
+      "d": 0,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ger.png&h=80&w=80",
+      "gc": 2,
+      "gp": 8,
+      "pj": 3,
+      "pos": 1,
+      "pts": 7,
+      "sg": 6,
+      "time": "Alemanha",
+      "v": 2,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#81D6AC",
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sui.png&h=80&w=80",
+      "gc": 3,
+      "gp": 5,
+      "pj": 3,
+      "pos": 2,
+      "pts": 5,
+      "sg": 2,
+      "time": "Suíça",
+      "v": 1,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#B5E7CE",
+      "d": 2,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/hun.png&h=80&w=80",
+      "gc": 5,
+      "gp": 2,
+      "pj": 3,
+      "pos": 3,
+      "pts": 3,
+      "sg": -3,
+      "time": "Hungria",
+      "v": 1,
+      "zona": "Four best 3rd placed nations qualify for round of 16"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sco.png&h=80&w=80",
+      "gc": 7,
+      "gp": 2,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -5,
+      "time": "Escócia",
+      "v": 0
+     }
+    ],
+    "nome": "Group A"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#81D6AC",
+      "d": 0,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/esp.png&h=80&w=80",
+      "gc": 0,
+      "gp": 5,
+      "pj": 3,
+      "pos": 1,
+      "pts": 9,
+      "sg": 5,
+      "time": "Espanha",
+      "v": 3,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#81D6AC",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ita.png&h=80&w=80",
+      "gc": 3,
+      "gp": 3,
+      "pj": 3,
+      "pos": 2,
+      "pts": 4,
+      "sg": 0,
+      "time": "Itália",
+      "v": 1,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#B5E7CE",
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cro.png&h=80&w=80",
+      "gc": 6,
+      "gp": 3,
+      "pj": 3,
+      "pos": 3,
+      "pts": 2,
+      "sg": -3,
+      "time": "Croácia",
+      "v": 0,
+      "zona": "Four best 3rd placed nations qualify for round of 16"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/alb.png&h=80&w=80",
+      "gc": 5,
+      "gp": 3,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -2,
+      "time": "Albânia",
+      "v": 0
+     }
+    ],
+    "nome": "Group B"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#81D6AC",
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/eng.png&h=80&w=80",
+      "gc": 1,
+      "gp": 2,
+      "pj": 3,
+      "pos": 1,
+      "pts": 5,
+      "sg": 1,
+      "time": "Inglaterra",
+      "v": 1,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#81D6AC",
+      "d": 0,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/den.png&h=80&w=80",
+      "gc": 2,
+      "gp": 2,
+      "pj": 3,
+      "pos": 2,
+      "pts": 3,
+      "sg": 0,
+      "time": "Dinamarca",
+      "v": 0,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#B5E7CE",
+      "d": 0,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svn.png&h=80&w=80",
+      "gc": 2,
+      "gp": 2,
+      "pj": 3,
+      "pos": 3,
+      "pts": 3,
+      "sg": 0,
+      "time": "Eslovênia",
+      "v": 0,
+      "zona": "Four best 3rd placed nations qualify for round of 16"
+     },
+     {
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sba.png&h=80&w=80",
+      "gc": 2,
+      "gp": 1,
+      "pj": 3,
+      "pos": 4,
+      "pts": 2,
+      "sg": -1,
+      "time": "Sérvia",
+      "v": 0
+     }
+    ],
+    "nome": "Group C"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#81D6AC",
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/aut.png&h=80&w=80",
+      "gc": 4,
+      "gp": 6,
+      "pj": 3,
+      "pos": 1,
+      "pts": 6,
+      "sg": 2,
+      "time": "Áustria",
+      "v": 2,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#81D6AC",
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fra.png&h=80&w=80",
+      "gc": 1,
+      "gp": 2,
+      "pj": 3,
+      "pos": 2,
+      "pts": 5,
+      "sg": 1,
+      "time": "França",
+      "v": 1,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#B5E7CE",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ned.png&h=80&w=80",
+      "gc": 4,
+      "gp": 4,
+      "pj": 3,
+      "pos": 3,
+      "pts": 4,
+      "sg": 0,
+      "time": "Holanda",
+      "v": 1,
+      "zona": "Four best 3rd placed nations qualify for round of 16"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/pol.png&h=80&w=80",
+      "gc": 6,
+      "gp": 3,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -3,
+      "time": "Polônia",
+      "v": 0
+     }
+    ],
+    "nome": "Group D"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#81D6AC",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/rom.png&h=80&w=80",
+      "gc": 3,
+      "gp": 4,
+      "pj": 3,
+      "pos": 1,
+      "pts": 4,
+      "sg": 1,
+      "time": "Romênia",
+      "v": 1,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#81D6AC",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bel.png&h=80&w=80",
+      "gc": 1,
+      "gp": 2,
+      "pj": 3,
+      "pos": 2,
+      "pts": 4,
+      "sg": 1,
+      "time": "Bélgica",
+      "v": 1,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#B5E7CE",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svk.png&h=80&w=80",
+      "gc": 3,
+      "gp": 3,
+      "pj": 3,
+      "pos": 3,
+      "pts": 4,
+      "sg": 0,
+      "time": "Eslováquia",
+      "v": 1,
+      "zona": "Four best 3rd placed nations qualify for round of 16"
+     },
+     {
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ukr.png&h=80&w=80",
+      "gc": 4,
+      "gp": 2,
+      "pj": 3,
+      "pos": 4,
+      "pts": 4,
+      "sg": -2,
+      "time": "Ucrânia",
+      "v": 1
+     }
+    ],
+    "nome": "Group E"
+   },
+   {
+    "linhas": [
+     {
+      "cor": "#81D6AC",
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/por.png&h=80&w=80",
+      "gc": 3,
+      "gp": 5,
+      "pj": 3,
+      "pos": 1,
+      "pts": 6,
+      "sg": 2,
+      "time": "Portugal",
+      "v": 2,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#81D6AC",
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/tur.png&h=80&w=80",
+      "gc": 5,
+      "gp": 5,
+      "pj": 3,
+      "pos": 2,
+      "pts": 6,
+      "sg": 0,
+      "time": "Turquia",
+      "v": 2,
+      "zona": "Qualifies for round of 16"
+     },
+     {
+      "cor": "#B5E7CE",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/geo.png&h=80&w=80",
+      "gc": 4,
+      "gp": 4,
+      "pj": 3,
+      "pos": 3,
+      "pts": 4,
+      "sg": 0,
+      "time": "Geórgia",
+      "v": 1,
+      "zona": "Four best 3rd placed nations qualify for round of 16"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cze.png&h=80&w=80",
+      "gc": 5,
+      "gp": 3,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -2,
+      "time": "República Tcheca",
+      "v": 0
+     }
+    ],
+    "nome": "Group F"
+   },
+   {
+    "linhas": [
+     {
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/esp.png&h=80&w=80",
+      "gc": 5,
+      "gp": 25,
+      "pj": 8,
+      "pos": 1,
+      "pts": 21,
+      "sg": 20,
+      "time": "Espanha",
+      "v": 7
+     },
+     {
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sco.png&h=80&w=80",
+      "gc": 8,
+      "gp": 17,
+      "pj": 8,
+      "pos": 2,
+      "pts": 17,
+      "sg": 9,
+      "time": "Escócia",
+      "v": 5
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/nor.png&h=80&w=80",
+      "gc": 12,
+      "gp": 14,
+      "pj": 8,
+      "pos": 3,
+      "pts": 11,
+      "sg": 2,
+      "time": "Noruega",
+      "v": 3
+     },
+     {
+      "d": 4,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/geo.png&h=80&w=80",
+      "gc": 18,
+      "gp": 12,
+      "pj": 8,
+      "pos": 4,
+      "pts": 8,
+      "sg": -6,
+      "time": "Geórgia",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cyp.png&h=80&w=80",
+      "gc": 28,
+      "gp": 3,
+      "pj": 8,
+      "pos": 5,
+      "pts": 0,
+      "sg": -25,
+      "time": "Cyprus",
+      "v": 0
+     }
+    ],
+    "nome": "Group A"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fra.png&h=80&w=80",
+      "gc": 3,
+      "gp": 29,
+      "pj": 8,
+      "pos": 1,
+      "pts": 22,
+      "sg": 26,
+      "time": "França",
+      "v": 7
+     },
+     {
+      "d": 2,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ned.png&h=80&w=80",
+      "gc": 7,
+      "gp": 17,
+      "pj": 8,
+      "pos": 2,
+      "pts": 18,
+      "sg": 10,
+      "time": "Holanda",
+      "v": 6
+     },
+     {
+      "d": 3,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/gre.png&h=80&w=80",
+      "gc": 8,
+      "gp": 14,
+      "pj": 8,
+      "pos": 3,
+      "pts": 13,
+      "sg": 6,
+      "time": "Grécia",
+      "v": 4
+     },
+     {
+      "d": 6,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/irl.png&h=80&w=80",
+      "gc": 10,
+      "gp": 9,
+      "pj": 8,
+      "pos": 4,
+      "pts": 6,
+      "sg": -1,
+      "time": "Irlanda",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/gib.png&h=80&w=80",
+      "gc": 41,
+      "gp": 0,
+      "pj": 8,
+      "pos": 5,
+      "pts": 0,
+      "sg": -41,
+      "time": "Gibraltar",
+      "v": 0
+     }
+    ],
+    "nome": "Group B"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/eng.png&h=80&w=80",
+      "gc": 4,
+      "gp": 22,
+      "pj": 8,
+      "pos": 1,
+      "pts": 20,
+      "sg": 18,
+      "time": "Inglaterra",
+      "v": 6
+     },
+     {
+      "d": 2,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ita.png&h=80&w=80",
+      "gc": 9,
+      "gp": 16,
+      "pj": 8,
+      "pos": 2,
+      "pts": 14,
+      "sg": 7,
+      "time": "Itália",
+      "v": 4
+     },
+     {
+      "d": 2,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ukr.png&h=80&w=80",
+      "gc": 8,
+      "gp": 11,
+      "pj": 8,
+      "pos": 3,
+      "pts": 14,
+      "sg": 3,
+      "time": "Ucrânia",
+      "v": 4
+     },
+     {
+      "d": 4,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mkd.png&h=80&w=80",
+      "gc": 20,
+      "gp": 10,
+      "pj": 8,
+      "pos": 4,
+      "pts": 8,
+      "sg": -10,
+      "time": "North Macedonia",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mlt.png&h=80&w=80",
+      "gc": 20,
+      "gp": 2,
+      "pj": 8,
+      "pos": 5,
+      "pts": 0,
+      "sg": -18,
+      "time": "Malta",
+      "v": 0
+     }
+    ],
+    "nome": "Group C"
+   },
+   {
+    "linhas": [
+     {
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/tur.png&h=80&w=80",
+      "gc": 7,
+      "gp": 14,
+      "pj": 8,
+      "pos": 1,
+      "pts": 17,
+      "sg": 7,
+      "time": "Turquia",
+      "v": 5
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cro.png&h=80&w=80",
+      "gc": 4,
+      "gp": 13,
+      "pj": 8,
+      "pos": 2,
+      "pts": 16,
+      "sg": 9,
+      "time": "Croácia",
+      "v": 5
+     },
+     {
+      "d": 2,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/wal.png&h=80&w=80",
+      "gc": 10,
+      "gp": 10,
+      "pj": 8,
+      "pos": 3,
+      "pts": 12,
+      "sg": 0,
+      "time": "País de Gales",
+      "v": 3
+     },
+     {
+      "d": 4,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fifa.armenia.png&h=80&w=80",
+      "gc": 11,
+      "gp": 9,
+      "pj": 8,
+      "pos": 4,
+      "pts": 8,
+      "sg": -2,
+      "time": "Armenia",
+      "v": 2
+     },
+     {
+      "d": 7,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/lva.png&h=80&w=80",
+      "gc": 19,
+      "gp": 5,
+      "pj": 8,
+      "pos": 5,
+      "pts": 3,
+      "sg": -14,
+      "time": "Latvia",
+      "v": 1
+     }
+    ],
+    "nome": "Group D"
+   },
+   {
+    "linhas": [
+     {
+      "d": 1,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/alb.png&h=80&w=80",
+      "gc": 4,
+      "gp": 12,
+      "pj": 8,
+      "pos": 1,
+      "pts": 15,
+      "sg": 8,
+      "time": "Albânia",
+      "v": 4
+     },
+     {
+      "d": 1,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cze.png&h=80&w=80",
+      "gc": 6,
+      "gp": 12,
+      "pj": 8,
+      "pos": 2,
+      "pts": 15,
+      "sg": 6,
+      "time": "República Tcheca",
+      "v": 4
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/pol.png&h=80&w=80",
+      "gc": 10,
+      "gp": 10,
+      "pj": 8,
+      "pos": 3,
+      "pts": 11,
+      "sg": 0,
+      "time": "Polônia",
+      "v": 3
+     },
+     {
+      "d": 2,
+      "e": 4,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mda.png&h=80&w=80",
+      "gc": 10,
+      "gp": 7,
+      "pj": 8,
+      "pos": 4,
+      "pts": 10,
+      "sg": -3,
+      "time": "Moldova",
+      "v": 2
+     },
+     {
+      "d": 6,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fro.png&h=80&w=80",
+      "gc": 13,
+      "gp": 2,
+      "pj": 8,
+      "pos": 5,
+      "pts": 2,
+      "sg": -11,
+      "time": "Faroe Islands",
+      "v": 0
+     }
+    ],
+    "nome": "Group E"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bel.png&h=80&w=80",
+      "gc": 4,
+      "gp": 22,
+      "pj": 8,
+      "pos": 1,
+      "pts": 20,
+      "sg": 18,
+      "time": "Bélgica",
+      "v": 6
+     },
+     {
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/aut.png&h=80&w=80",
+      "gc": 7,
+      "gp": 17,
+      "pj": 8,
+      "pos": 2,
+      "pts": 19,
+      "sg": 10,
+      "time": "Áustria",
+      "v": 6
+     },
+     {
+      "d": 4,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/swe.png&h=80&w=80",
+      "gc": 12,
+      "gp": 14,
+      "pj": 8,
+      "pos": 3,
+      "pts": 10,
+      "sg": 2,
+      "time": "Suécia",
+      "v": 3
+     },
+     {
+      "d": 5,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/aze.png&h=80&w=80",
+      "gc": 17,
+      "gp": 7,
+      "pj": 8,
+      "pos": 4,
+      "pts": 7,
+      "sg": -10,
+      "time": "Azerbaijan",
+      "v": 2
+     },
+     {
+      "d": 7,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/est.png&h=80&w=80",
+      "gc": 22,
+      "gp": 2,
+      "pj": 8,
+      "pos": 5,
+      "pts": 1,
+      "sg": -20,
+      "time": "Estonia",
+      "v": 0
+     }
+    ],
+    "nome": "Group F"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/hun.png&h=80&w=80",
+      "gc": 7,
+      "gp": 16,
+      "pj": 8,
+      "pos": 1,
+      "pts": 18,
+      "sg": 9,
+      "time": "Hungria",
+      "v": 5
+     },
+     {
+      "d": 2,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sba.png&h=80&w=80",
+      "gc": 9,
+      "gp": 15,
+      "pj": 8,
+      "pos": 2,
+      "pts": 14,
+      "sg": 6,
+      "time": "Sérvia",
+      "v": 4
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mtg.png&h=80&w=80",
+      "gc": 11,
+      "gp": 9,
+      "pj": 8,
+      "pos": 3,
+      "pts": 11,
+      "sg": -2,
+      "time": "Montenegro",
+      "v": 3
+     },
+     {
+      "d": 4,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ltu.png&h=80&w=80",
+      "gc": 14,
+      "gp": 8,
+      "pj": 8,
+      "pos": 4,
+      "pts": 6,
+      "sg": -6,
+      "time": "Lithuania",
+      "v": 1
+     },
+     {
+      "d": 4,
+      "e": 4,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bul.png&h=80&w=80",
+      "gc": 14,
+      "gp": 7,
+      "pj": 8,
+      "pos": 5,
+      "pts": 4,
+      "sg": -7,
+      "time": "Bulgaria",
+      "v": 0
+     }
+    ],
+    "nome": "Group G"
+   },
+   {
+    "linhas": [
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/den.png&h=80&w=80",
+      "gc": 10,
+      "gp": 19,
+      "pj": 10,
+      "pos": 1,
+      "pts": 22,
+      "sg": 9,
+      "time": "Dinamarca",
+      "v": 7
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svn.png&h=80&w=80",
+      "gc": 9,
+      "gp": 20,
+      "pj": 10,
+      "pos": 2,
+      "pts": 22,
+      "sg": 11,
+      "time": "Eslovênia",
+      "v": 7
+     },
+     {
+      "d": 4,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fin.png&h=80&w=80",
+      "gc": 10,
+      "gp": 18,
+      "pj": 10,
+      "pos": 3,
+      "pts": 18,
+      "sg": 8,
+      "time": "Finlândia",
+      "v": 6
+     },
+     {
+      "d": 4,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/kaz.png&h=80&w=80",
+      "gc": 12,
+      "gp": 16,
+      "pj": 10,
+      "pos": 4,
+      "pts": 18,
+      "sg": 4,
+      "time": "Kazakhstan",
+      "v": 6
+     },
+     {
+      "d": 7,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/nir.png&h=80&w=80",
+      "gc": 13,
+      "gp": 9,
+      "pj": 10,
+      "pos": 5,
+      "pts": 9,
+      "sg": -4,
+      "time": "Irlanda do Norte",
+      "v": 3
+     },
+     {
+      "d": 10,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/smr.png&h=80&w=80",
+      "gc": 31,
+      "gp": 3,
+      "pj": 10,
+      "pos": 6,
+      "pts": 0,
+      "sg": -28,
+      "time": "San Marino",
+      "v": 0
+     }
+    ],
+    "nome": "Group H"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 4,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/rom.png&h=80&w=80",
+      "gc": 5,
+      "gp": 16,
+      "pj": 10,
+      "pos": 1,
+      "pts": 22,
+      "sg": 11,
+      "time": "Romênia",
+      "v": 6
+     },
+     {
+      "d": 1,
+      "e": 5,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sui.png&h=80&w=80",
+      "gc": 11,
+      "gp": 22,
+      "pj": 10,
+      "pos": 2,
+      "pts": 17,
+      "sg": 11,
+      "time": "Suíça",
+      "v": 4
+     },
+     {
+      "d": 3,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/isr.png&h=80&w=80",
+      "gc": 11,
+      "gp": 11,
+      "pj": 10,
+      "pos": 3,
+      "pts": 15,
+      "sg": 0,
+      "time": "Israel",
+      "v": 4
+     },
+     {
+      "d": 4,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/blr.png&h=80&w=80",
+      "gc": 14,
+      "gp": 9,
+      "pj": 10,
+      "pos": 4,
+      "pts": 12,
+      "sg": -5,
+      "time": "Belarus",
+      "v": 3
+     },
+     {
+      "d": 3,
+      "e": 5,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/kosovo.png&h=80&w=80",
+      "gc": 10,
+      "gp": 10,
+      "pj": 10,
+      "pos": 5,
+      "pts": 11,
+      "sg": 0,
+      "time": "Kosovo",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/and.png&h=80&w=80",
+      "gc": 20,
+      "gp": 3,
+      "pj": 10,
+      "pos": 6,
+      "pts": 2,
+      "sg": -17,
+      "time": "Andorra",
+      "v": 0
+     }
+    ],
+    "nome": "Group I"
+   },
+   {
+    "linhas": [
+     {
+      "d": 0,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/por.png&h=80&w=80",
+      "gc": 2,
+      "gp": 36,
+      "pj": 10,
+      "pos": 1,
+      "pts": 30,
+      "sg": 34,
+      "time": "Portugal",
+      "v": 10
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svk.png&h=80&w=80",
+      "gc": 8,
+      "gp": 17,
+      "pj": 10,
+      "pos": 2,
+      "pts": 22,
+      "sg": 9,
+      "time": "Eslováquia",
+      "v": 7
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/lux.png&h=80&w=80",
+      "gc": 19,
+      "gp": 13,
+      "pj": 10,
+      "pos": 3,
+      "pts": 17,
+      "sg": -6,
+      "time": "Luxembourg",
+      "v": 5
+     },
+     {
+      "d": 6,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/isl.png&h=80&w=80",
+      "gc": 16,
+      "gp": 17,
+      "pj": 10,
+      "pos": 4,
+      "pts": 10,
+      "sg": 1,
+      "time": "Islândia",
+      "v": 3
+     },
+     {
+      "d": 7,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bih.png&h=80&w=80",
+      "gc": 20,
+      "gp": 9,
+      "pj": 10,
+      "pos": 5,
+      "pts": 9,
+      "sg": -11,
+      "time": "Bósnia",
+      "v": 3
+     },
+     {
+      "d": 10,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/lie.png&h=80&w=80",
+      "gc": 28,
+      "gp": 1,
+      "pj": 10,
+      "pos": 6,
+      "pts": 0,
+      "sg": -27,
+      "time": "Liechtenstein",
+      "v": 0
+     }
+    ],
+    "nome": "Group J"
+   },
    {
     "linhas": [
      {
@@ -5378,7 +6495,7 @@
  },
  "europa": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -5931,7 +7048,7 @@
  },
  "laliga": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -6226,7 +7343,7 @@
  },
  "libertadores": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -6399,7 +7516,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -7,
-      "time": "Deportivo",
+      "time": "Deportivo La Guaira",
       "v": 0
      }
     ],
@@ -6696,7 +7813,7 @@
  },
  "ligamx": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -6959,7 +8076,7 @@
  },
  "ligue1": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -7226,7 +8343,7 @@
  },
  "mineiro": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -7389,7 +8506,7 @@
       "pos": 4,
       "pts": 7,
       "sg": -6,
-      "time": "Athletic Club",
+      "time": "Athletic",
       "v": 1
      }
     ],
@@ -7401,7 +8518,7 @@
  },
  "mls": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -7845,7 +8962,7 @@
  },
  "mundial": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -8341,7 +9458,7 @@
  },
  "nations": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -9129,7 +10246,7 @@
  },
  "paulista": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -9346,7 +10463,7 @@
  },
  "portugal": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -9607,7 +10724,7 @@
  },
  "premier": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -9896,7 +11013,7 @@
  },
  "saudita": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -10143,7 +11260,7 @@
  },
  "serie-a-ita": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -10436,7 +11553,7 @@
  },
  "sul-americana": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [
@@ -10625,7 +11742,7 @@
       "pos": 1,
       "pts": 8,
       "sg": 1,
-      "time": "Deportivo",
+      "time": "Deportivo Recoleta",
       "v": 1
      },
      {
@@ -10664,7 +11781,7 @@
       "pos": 4,
       "pts": 6,
       "sg": -4,
-      "time": "Deportivo",
+      "time": "Deportivo Cuenca",
       "v": 1
      }
     ],
@@ -10708,7 +11825,7 @@
       "pos": 3,
       "pts": 8,
       "sg": 2,
-      "time": "Racing Santander",
+      "time": "Racing Club",
       "v": 2
      },
      {
@@ -10765,7 +11882,7 @@
       "pos": 3,
       "pts": 5,
       "sg": -6,
-      "time": "Deportivo",
+      "time": "Deportivo Riestra",
       "v": 1
      },
      {
@@ -10904,7 +12021,7 @@
  },
  "turquia": {
   "_rodada": "2026112314",
-  "atualizado": "2026-11-23T14:25-03:00",
+  "atualizado": "2026-11-23T14:33-03:00",
   "grupos": [
    {
     "linhas": [

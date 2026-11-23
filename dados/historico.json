@@ -1,5 +1,16 @@
 {
  "feitos": [
+  "arg.1:20261102",
+  "arg.1:20261103",
+  "arg.1:20261104",
+  "arg.1:20261105",
+  "arg.1:20261106",
+  "arg.1:20261107",
+  "arg.1:20261108",
+  "arg.1:20261109",
+  "arg.1:20261110",
+  "arg.1:20261111",
+  "arg.1:20261112",
   "arg.1:20261113",
   "arg.1:20261114",
   "arg.1:20261115",
@@ -9,6 +20,17 @@
   "arg.1:20261119",
   "arg.1:20261120",
   "arg.1:20261121",
+  "bra.1:20261102",
+  "bra.1:20261103",
+  "bra.1:20261104",
+  "bra.1:20261105",
+  "bra.1:20261106",
+  "bra.1:20261107",
+  "bra.1:20261108",
+  "bra.1:20261109",
+  "bra.1:20261110",
+  "bra.1:20261111",
+  "bra.1:20261112",
   "bra.1:20261113",
   "bra.1:20261114",
   "bra.1:20261115",
@@ -18,6 +40,17 @@
   "bra.1:20261119",
   "bra.1:20261120",
   "bra.1:20261121",
+  "bra.2:20261102",
+  "bra.2:20261103",
+  "bra.2:20261104",
+  "bra.2:20261105",
+  "bra.2:20261106",
+  "bra.2:20261107",
+  "bra.2:20261108",
+  "bra.2:20261109",
+  "bra.2:20261110",
+  "bra.2:20261111",
+  "bra.2:20261112",
   "bra.2:20261113",
   "bra.2:20261114",
   "bra.2:20261115",
@@ -27,6 +60,17 @@
   "bra.2:20261119",
   "bra.2:20261120",
   "bra.2:20261121",
+  "bra.camp.carioca:20261102",
+  "bra.camp.carioca:20261103",
+  "bra.camp.carioca:20261104",
+  "bra.camp.carioca:20261105",
+  "bra.camp.carioca:20261106",
+  "bra.camp.carioca:20261107",
+  "bra.camp.carioca:20261108",
+  "bra.camp.carioca:20261109",
+  "bra.camp.carioca:20261110",
+  "bra.camp.carioca:20261111",
+  "bra.camp.carioca:20261112",
   "bra.camp.carioca:20261113",
   "bra.camp.carioca:20261114",
   "bra.camp.carioca:20261115",
@@ -36,6 +80,17 @@
   "bra.camp.carioca:20261119",
   "bra.camp.carioca:20261120",
   "bra.camp.carioca:20261121",
+  "bra.camp.gaucho:20261102",
+  "bra.camp.gaucho:20261103",
+  "bra.camp.gaucho:20261104",
+  "bra.camp.gaucho:20261105",
+  "bra.camp.gaucho:20261106",
+  "bra.camp.gaucho:20261107",
+  "bra.camp.gaucho:20261108",
+  "bra.camp.gaucho:20261109",
+  "bra.camp.gaucho:20261110",
+  "bra.camp.gaucho:20261111",
+  "bra.camp.gaucho:20261112",
   "bra.camp.gaucho:20261113",
   "bra.camp.gaucho:20261114",
   "bra.camp.gaucho:20261115",
@@ -45,6 +100,17 @@
   "bra.camp.gaucho:20261119",
   "bra.camp.gaucho:20261120",
   "bra.camp.gaucho:20261121",
+  "bra.camp.mineiro:20261102",
+  "bra.camp.mineiro:20261103",
+  "bra.camp.mineiro:20261104",
+  "bra.camp.mineiro:20261105",
+  "bra.camp.mineiro:20261106",
+  "bra.camp.mineiro:20261107",
+  "bra.camp.mineiro:20261108",
+  "bra.camp.mineiro:20261109",
+  "bra.camp.mineiro:20261110",
+  "bra.camp.mineiro:20261111",
+  "bra.camp.mineiro:20261112",
   "bra.camp.mineiro:20261113",
   "bra.camp.mineiro:20261114",
   "bra.camp.mineiro:20261115",
@@ -54,6 +120,17 @@
   "bra.camp.mineiro:20261119",
   "bra.camp.mineiro:20261120",
   "bra.camp.mineiro:20261121",
+  "bra.camp.paulista:20261102",
+  "bra.camp.paulista:20261103",
+  "bra.camp.paulista:20261104",
+  "bra.camp.paulista:20261105",
+  "bra.camp.paulista:20261106",
+  "bra.camp.paulista:20261107",
+  "bra.camp.paulista:20261108",
+  "bra.camp.paulista:20261109",
+  "bra.camp.paulista:20261110",
+  "bra.camp.paulista:20261111",
+  "bra.camp.paulista:20261112",
   "bra.camp.paulista:20261113",
   "bra.camp.paulista:20261114",
   "bra.camp.paulista:20261115",
@@ -63,6 +140,17 @@
   "bra.camp.paulista:20261119",
   "bra.camp.paulista:20261120",
   "bra.camp.paulista:20261121",
+  "bra.copa_do_brazil:20261102",
+  "bra.copa_do_brazil:20261103",
+  "bra.copa_do_brazil:20261104",
+  "bra.copa_do_brazil:20261105",
+  "bra.copa_do_brazil:20261106",
+  "bra.copa_do_brazil:20261107",
+  "bra.copa_do_brazil:20261108",
+  "bra.copa_do_brazil:20261109",
+  "bra.copa_do_brazil:20261110",
+  "bra.copa_do_brazil:20261111",
+  "bra.copa_do_brazil:20261112",
   "bra.copa_do_brazil:20261113",
   "bra.copa_do_brazil:20261114",
   "bra.copa_do_brazil:20261115",
@@ -72,6 +160,17 @@
   "bra.copa_do_brazil:20261119",
   "bra.copa_do_brazil:20261120",
   "bra.copa_do_brazil:20261121",
+  "bra.supercopa_do_brazil:20261102",
+  "bra.supercopa_do_brazil:20261103",
+  "bra.supercopa_do_brazil:20261104",
+  "bra.supercopa_do_brazil:20261105",
+  "bra.supercopa_do_brazil:20261106",
+  "bra.supercopa_do_brazil:20261107",
+  "bra.supercopa_do_brazil:20261108",
+  "bra.supercopa_do_brazil:20261109",
+  "bra.supercopa_do_brazil:20261110",
+  "bra.supercopa_do_brazil:20261111",
+  "bra.supercopa_do_brazil:20261112",
   "bra.supercopa_do_brazil:20261113",
   "bra.supercopa_do_brazil:20261114",
   "bra.supercopa_do_brazil:20261115",
@@ -81,6 +180,17 @@
   "bra.supercopa_do_brazil:20261119",
   "bra.supercopa_do_brazil:20261120",
   "bra.supercopa_do_brazil:20261121",
+  "conmebol.libertadores:20261102",
+  "conmebol.libertadores:20261103",
+  "conmebol.libertadores:20261104",
+  "conmebol.libertadores:20261105",
+  "conmebol.libertadores:20261106",
+  "conmebol.libertadores:20261107",
+  "conmebol.libertadores:20261108",
+  "conmebol.libertadores:20261109",
+  "conmebol.libertadores:20261110",
+  "conmebol.libertadores:20261111",
+  "conmebol.libertadores:20261112",
   "conmebol.libertadores:20261113",
   "conmebol.libertadores:20261114",
   "conmebol.libertadores:20261115",
@@ -90,6 +200,17 @@
   "conmebol.libertadores:20261119",
   "conmebol.libertadores:20261120",
   "conmebol.libertadores:20261121",
+  "conmebol.recopa:20261102",
+  "conmebol.recopa:20261103",
+  "conmebol.recopa:20261104",
+  "conmebol.recopa:20261105",
+  "conmebol.recopa:20261106",
+  "conmebol.recopa:20261107",
+  "conmebol.recopa:20261108",
+  "conmebol.recopa:20261109",
+  "conmebol.recopa:20261110",
+  "conmebol.recopa:20261111",
+  "conmebol.recopa:20261112",
   "conmebol.recopa:20261113",
   "conmebol.recopa:20261114",
   "conmebol.recopa:20261115",
@@ -99,6 +220,17 @@
   "conmebol.recopa:20261119",
   "conmebol.recopa:20261120",
   "conmebol.recopa:20261121",
+  "conmebol.sudamericana:20261102",
+  "conmebol.sudamericana:20261103",
+  "conmebol.sudamericana:20261104",
+  "conmebol.sudamericana:20261105",
+  "conmebol.sudamericana:20261106",
+  "conmebol.sudamericana:20261107",
+  "conmebol.sudamericana:20261108",
+  "conmebol.sudamericana:20261109",
+  "conmebol.sudamericana:20261110",
+  "conmebol.sudamericana:20261111",
+  "conmebol.sudamericana:20261112",
   "conmebol.sudamericana:20261113",
   "conmebol.sudamericana:20261114",
   "conmebol.sudamericana:20261115",
@@ -108,6 +240,17 @@
   "conmebol.sudamericana:20261119",
   "conmebol.sudamericana:20261120",
   "conmebol.sudamericana:20261121",
+  "eng.1:20261102",
+  "eng.1:20261103",
+  "eng.1:20261104",
+  "eng.1:20261105",
+  "eng.1:20261106",
+  "eng.1:20261107",
+  "eng.1:20261108",
+  "eng.1:20261109",
+  "eng.1:20261110",
+  "eng.1:20261111",
+  "eng.1:20261112",
   "eng.1:20261113",
   "eng.1:20261114",
   "eng.1:20261115",
@@ -117,6 +260,18 @@
   "eng.1:20261119",
   "eng.1:20261120",
   "eng.1:20261121",
+  "eng.2:20261102",
+  "eng.2:20261103",
+  "eng.2:20261104",
+  "eng.2:20261105",
+  "eng.2:20261106",
+  "eng.2:20261107",
+  "eng.2:20261108",
+  "eng.2:20261109",
+  "eng.2:20261110",
+  "eng.2:20261111",
+  "eng.2:20261112",
+  "eng.2:20261113",
   "eng.2:20261114",
   "eng.2:20261115",
   "eng.2:20261116",
@@ -125,6 +280,17 @@
   "eng.2:20261119",
   "eng.2:20261120",
   "eng.2:20261121",
+  "eng.fa:20261102",
+  "eng.fa:20261103",
+  "eng.fa:20261104",
+  "eng.fa:20261105",
+  "eng.fa:20261106",
+  "eng.fa:20261107",
+  "eng.fa:20261108",
+  "eng.fa:20261109",
+  "eng.fa:20261110",
+  "eng.fa:20261111",
+  "eng.fa:20261112",
   "eng.fa:20261113",
   "eng.fa:20261114",
   "eng.fa:20261115",
@@ -134,6 +300,17 @@
   "eng.fa:20261119",
   "eng.fa:20261120",
   "eng.fa:20261121",
+  "esp.1:20261102",
+  "esp.1:20261103",
+  "esp.1:20261104",
+  "esp.1:20261105",
+  "esp.1:20261106",
+  "esp.1:20261107",
+  "esp.1:20261108",
+  "esp.1:20261109",
+  "esp.1:20261110",
+  "esp.1:20261111",
+  "esp.1:20261112",
   "esp.1:20261113",
   "esp.1:20261114",
   "esp.1:20261115",
@@ -143,6 +320,17 @@
   "esp.1:20261119",
   "esp.1:20261120",
   "esp.1:20261121",
+  "esp.copa_del_rey:20261102",
+  "esp.copa_del_rey:20261103",
+  "esp.copa_del_rey:20261104",
+  "esp.copa_del_rey:20261105",
+  "esp.copa_del_rey:20261106",
+  "esp.copa_del_rey:20261107",
+  "esp.copa_del_rey:20261108",
+  "esp.copa_del_rey:20261109",
+  "esp.copa_del_rey:20261110",
+  "esp.copa_del_rey:20261111",
+  "esp.copa_del_rey:20261112",
   "esp.copa_del_rey:20261113",
   "esp.copa_del_rey:20261114",
   "esp.copa_del_rey:20261115",
@@ -152,6 +340,17 @@
   "esp.copa_del_rey:20261119",
   "esp.copa_del_rey:20261120",
   "esp.copa_del_rey:20261121",
+  "fifa.cwc:20261102",
+  "fifa.cwc:20261103",
+  "fifa.cwc:20261104",
+  "fifa.cwc:20261105",
+  "fifa.cwc:20261106",
+  "fifa.cwc:20261107",
+  "fifa.cwc:20261108",
+  "fifa.cwc:20261109",
+  "fifa.cwc:20261110",
+  "fifa.cwc:20261111",
+  "fifa.cwc:20261112",
   "fifa.cwc:20261113",
   "fifa.cwc:20261114",
   "fifa.cwc:20261115",
@@ -161,6 +360,17 @@
   "fifa.cwc:20261119",
   "fifa.cwc:20261120",
   "fifa.cwc:20261121",
+  "fifa.friendly:20261102",
+  "fifa.friendly:20261103",
+  "fifa.friendly:20261104",
+  "fifa.friendly:20261105",
+  "fifa.friendly:20261106",
+  "fifa.friendly:20261107",
+  "fifa.friendly:20261108",
+  "fifa.friendly:20261109",
+  "fifa.friendly:20261110",
+  "fifa.friendly:20261111",
+  "fifa.friendly:20261112",
   "fifa.friendly:20261113",
   "fifa.friendly:20261114",
   "fifa.friendly:20261115",
@@ -170,6 +380,17 @@
   "fifa.friendly:20261119",
   "fifa.friendly:20261120",
   "fifa.friendly:20261121",
+  "fifa.intercontinental_cup:20261102",
+  "fifa.intercontinental_cup:20261103",
+  "fifa.intercontinental_cup:20261104",
+  "fifa.intercontinental_cup:20261105",
+  "fifa.intercontinental_cup:20261106",
+  "fifa.intercontinental_cup:20261107",
+  "fifa.intercontinental_cup:20261108",
+  "fifa.intercontinental_cup:20261109",
+  "fifa.intercontinental_cup:20261110",
+  "fifa.intercontinental_cup:20261111",
+  "fifa.intercontinental_cup:20261112",
   "fifa.intercontinental_cup:20261113",
   "fifa.intercontinental_cup:20261114",
   "fifa.intercontinental_cup:20261115",
@@ -179,6 +400,17 @@
   "fifa.intercontinental_cup:20261119",
   "fifa.intercontinental_cup:20261120",
   "fifa.intercontinental_cup:20261121",
+  "fra.1:20261102",
+  "fra.1:20261103",
+  "fra.1:20261104",
+  "fra.1:20261105",
+  "fra.1:20261106",
+  "fra.1:20261107",
+  "fra.1:20261108",
+  "fra.1:20261109",
+  "fra.1:20261110",
+  "fra.1:20261111",
+  "fra.1:20261112",
   "fra.1:20261113",
   "fra.1:20261114",
   "fra.1:20261115",
@@ -188,6 +420,17 @@
   "fra.1:20261119",
   "fra.1:20261120",
   "fra.1:20261121",
+  "ger.1:20261102",
+  "ger.1:20261103",
+  "ger.1:20261104",
+  "ger.1:20261105",
+  "ger.1:20261106",
+  "ger.1:20261107",
+  "ger.1:20261108",
+  "ger.1:20261109",
+  "ger.1:20261110",
+  "ger.1:20261111",
+  "ger.1:20261112",
   "ger.1:20261113",
   "ger.1:20261114",
   "ger.1:20261115",
@@ -197,6 +440,17 @@
   "ger.1:20261119",
   "ger.1:20261120",
   "ger.1:20261121",
+  "ita.1:20261102",
+  "ita.1:20261103",
+  "ita.1:20261104",
+  "ita.1:20261105",
+  "ita.1:20261106",
+  "ita.1:20261107",
+  "ita.1:20261108",
+  "ita.1:20261109",
+  "ita.1:20261110",
+  "ita.1:20261111",
+  "ita.1:20261112",
   "ita.1:20261113",
   "ita.1:20261114",
   "ita.1:20261115",
@@ -206,6 +460,18 @@
   "ita.1:20261119",
   "ita.1:20261120",
   "ita.1:20261121",
+  "ita.coppa_italia:20261102",
+  "ita.coppa_italia:20261103",
+  "ita.coppa_italia:20261104",
+  "ita.coppa_italia:20261105",
+  "ita.coppa_italia:20261106",
+  "ita.coppa_italia:20261107",
+  "ita.coppa_italia:20261108",
+  "ita.coppa_italia:20261109",
+  "ita.coppa_italia:20261110",
+  "ita.coppa_italia:20261111",
+  "ita.coppa_italia:20261112",
+  "ita.coppa_italia:20261113",
   "ita.coppa_italia:20261114",
   "ita.coppa_italia:20261115",
   "ita.coppa_italia:20261116",
@@ -214,6 +480,17 @@
   "ita.coppa_italia:20261119",
   "ita.coppa_italia:20261120",
   "ita.coppa_italia:20261121",
+  "ksa.1:20261102",
+  "ksa.1:20261103",
+  "ksa.1:20261104",
+  "ksa.1:20261105",
+  "ksa.1:20261106",
+  "ksa.1:20261107",
+  "ksa.1:20261108",
+  "ksa.1:20261109",
+  "ksa.1:20261110",
+  "ksa.1:20261111",
+  "ksa.1:20261112",
   "ksa.1:20261113",
   "ksa.1:20261114",
   "ksa.1:20261115",
@@ -223,6 +500,17 @@
   "ksa.1:20261119",
   "ksa.1:20261120",
   "ksa.1:20261121",
+  "mex.1:20261102",
+  "mex.1:20261103",
+  "mex.1:20261104",
+  "mex.1:20261105",
+  "mex.1:20261106",
+  "mex.1:20261107",
+  "mex.1:20261108",
+  "mex.1:20261109",
+  "mex.1:20261110",
+  "mex.1:20261111",
+  "mex.1:20261112",
   "mex.1:20261113",
   "mex.1:20261114",
   "mex.1:20261115",
@@ -232,6 +520,18 @@
   "mex.1:20261119",
   "mex.1:20261120",
   "mex.1:20261121",
+  "ned.1:20261102",
+  "ned.1:20261103",
+  "ned.1:20261104",
+  "ned.1:20261105",
+  "ned.1:20261106",
+  "ned.1:20261107",
+  "ned.1:20261108",
+  "ned.1:20261109",
+  "ned.1:20261110",
+  "ned.1:20261111",
+  "ned.1:20261112",
+  "ned.1:20261113",
   "ned.1:20261114",
   "ned.1:20261115",
   "ned.1:20261116",
@@ -240,6 +540,17 @@
   "ned.1:20261119",
   "ned.1:20261120",
   "ned.1:20261121",
+  "por.1:20261102",
+  "por.1:20261103",
+  "por.1:20261104",
+  "por.1:20261105",
+  "por.1:20261106",
+  "por.1:20261107",
+  "por.1:20261108",
+  "por.1:20261109",
+  "por.1:20261110",
+  "por.1:20261111",
+  "por.1:20261112",
   "por.1:20261113",
   "por.1:20261114",
   "por.1:20261115",
@@ -249,6 +560,18 @@
   "por.1:20261119",
   "por.1:20261120",
   "por.1:20261121",
+  "tur.1:20261102",
+  "tur.1:20261103",
+  "tur.1:20261104",
+  "tur.1:20261105",
+  "tur.1:20261106",
+  "tur.1:20261107",
+  "tur.1:20261108",
+  "tur.1:20261109",
+  "tur.1:20261110",
+  "tur.1:20261111",
+  "tur.1:20261112",
+  "tur.1:20261113",
   "tur.1:20261114",
   "tur.1:20261115",
   "tur.1:20261116",
@@ -257,6 +580,17 @@
   "tur.1:20261119",
   "tur.1:20261120",
   "tur.1:20261121",
+  "uefa.champions:20261102",
+  "uefa.champions:20261103",
+  "uefa.champions:20261104",
+  "uefa.champions:20261105",
+  "uefa.champions:20261106",
+  "uefa.champions:20261107",
+  "uefa.champions:20261108",
+  "uefa.champions:20261109",
+  "uefa.champions:20261110",
+  "uefa.champions:20261111",
+  "uefa.champions:20261112",
   "uefa.champions:20261113",
   "uefa.champions:20261114",
   "uefa.champions:20261115",
@@ -266,6 +600,17 @@
   "uefa.champions:20261119",
   "uefa.champions:20261120",
   "uefa.champions:20261121",
+  "uefa.euro:20261102",
+  "uefa.euro:20261103",
+  "uefa.euro:20261104",
+  "uefa.euro:20261105",
+  "uefa.euro:20261106",
+  "uefa.euro:20261107",
+  "uefa.euro:20261108",
+  "uefa.euro:20261109",
+  "uefa.euro:20261110",
+  "uefa.euro:20261111",
+  "uefa.euro:20261112",
   "uefa.euro:20261113",
   "uefa.euro:20261114",
   "uefa.euro:20261115",
@@ -275,6 +620,17 @@
   "uefa.euro:20261119",
   "uefa.euro:20261120",
   "uefa.euro:20261121",
+  "uefa.europa.conf:20261102",
+  "uefa.europa.conf:20261103",
+  "uefa.europa.conf:20261104",
+  "uefa.europa.conf:20261105",
+  "uefa.europa.conf:20261106",
+  "uefa.europa.conf:20261107",
+  "uefa.europa.conf:20261108",
+  "uefa.europa.conf:20261109",
+  "uefa.europa.conf:20261110",
+  "uefa.europa.conf:20261111",
+  "uefa.europa.conf:20261112",
   "uefa.europa.conf:20261113",
   "uefa.europa.conf:20261114",
   "uefa.europa.conf:20261115",
@@ -284,6 +640,17 @@
   "uefa.europa.conf:20261119",
   "uefa.europa.conf:20261120",
   "uefa.europa.conf:20261121",
+  "uefa.europa:20261102",
+  "uefa.europa:20261103",
+  "uefa.europa:20261104",
+  "uefa.europa:20261105",
+  "uefa.europa:20261106",
+  "uefa.europa:20261107",
+  "uefa.europa:20261108",
+  "uefa.europa:20261109",
+  "uefa.europa:20261110",
+  "uefa.europa:20261111",
+  "uefa.europa:20261112",
   "uefa.europa:20261113",
   "uefa.europa:20261114",
   "uefa.europa:20261115",
@@ -293,6 +660,17 @@
   "uefa.europa:20261119",
   "uefa.europa:20261120",
   "uefa.europa:20261121",
+  "uefa.euroq:20261102",
+  "uefa.euroq:20261103",
+  "uefa.euroq:20261104",
+  "uefa.euroq:20261105",
+  "uefa.euroq:20261106",
+  "uefa.euroq:20261107",
+  "uefa.euroq:20261108",
+  "uefa.euroq:20261109",
+  "uefa.euroq:20261110",
+  "uefa.euroq:20261111",
+  "uefa.euroq:20261112",
   "uefa.euroq:20261113",
   "uefa.euroq:20261114",
   "uefa.euroq:20261115",
@@ -302,6 +680,17 @@
   "uefa.euroq:20261119",
   "uefa.euroq:20261120",
   "uefa.euroq:20261121",
+  "uefa.nations:20261102",
+  "uefa.nations:20261103",
+  "uefa.nations:20261104",
+  "uefa.nations:20261105",
+  "uefa.nations:20261106",
+  "uefa.nations:20261107",
+  "uefa.nations:20261108",
+  "uefa.nations:20261109",
+  "uefa.nations:20261110",
+  "uefa.nations:20261111",
+  "uefa.nations:20261112",
   "uefa.nations:20261113",
   "uefa.nations:20261114",
   "uefa.nations:20261115",
@@ -311,6 +700,17 @@
   "uefa.nations:20261119",
   "uefa.nations:20261120",
   "uefa.nations:20261121",
+  "usa.1:20261102",
+  "usa.1:20261103",
+  "usa.1:20261104",
+  "usa.1:20261105",
+  "usa.1:20261106",
+  "usa.1:20261107",
+  "usa.1:20261108",
+  "usa.1:20261109",
+  "usa.1:20261110",
+  "usa.1:20261111",
+  "usa.1:20261112",
   "usa.1:20261113",
   "usa.1:20261114",
   "usa.1:20261115",
@@ -331,6 +731,116 @@
    "placar": {
     "casa": 0,
     "fora": 2
+   }
+  },
+  "401841298": {
+   "casa": "São Paulo",
+   "comp": "brasileirao-a",
+   "fora": "Corinthians",
+   "inicio": "2026-11-04T21:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401841299": {
+   "casa": "Red Bull Bragantino",
+   "comp": "brasileirao-a",
+   "fora": "Santos",
+   "inicio": "2026-11-02T20:00:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401841300": {
+   "casa": "Palmeiras",
+   "comp": "brasileirao-a",
+   "fora": "Remo",
+   "inicio": "2026-11-05T19:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 6,
+    "fora": 1
+   }
+  },
+  "401841301": {
+   "casa": "Internacional",
+   "comp": "brasileirao-a",
+   "fora": "Coritiba",
+   "inicio": "2026-11-03T21:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401841302": {
+   "casa": "Vitória",
+   "comp": "brasileirao-a",
+   "fora": "Fluminense",
+   "inicio": "2026-11-06T20:00:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401841303": {
+   "casa": "Cruzeiro",
+   "comp": "brasileirao-a",
+   "fora": "Bahia",
+   "inicio": "2026-11-05T21:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401841304": {
+   "casa": "Chapecoense",
+   "comp": "brasileirao-a",
+   "fora": "Mirassol",
+   "inicio": "2026-11-03T19:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401841305": {
+   "casa": "Botafogo",
+   "comp": "brasileirao-a",
+   "fora": "Atlético-MG",
+   "inicio": "2026-11-04T21:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401841306": {
+   "casa": "Athletico-PR",
+   "comp": "brasileirao-a",
+   "fora": "Vasco",
+   "inicio": "2026-11-04T19:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   }
+  },
+  "401841307": {
+   "casa": "Flamengo",
+   "comp": "brasileirao-a",
+   "fora": "Grêmio",
+   "inicio": "2026-11-04T19:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
    }
   },
   "401841308": {
@@ -509,6 +1019,358 @@
     "fora": 1
    }
   },
+  "401841644": {
+   "casa": "Atlético Tucumán",
+   "comp": "argentina",
+   "fora": "Argentinos Juniors",
+   "inicio": "2026-11-02T21:15:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401841649": {
+   "casa": "Platense",
+   "comp": "argentina",
+   "fora": "Central Córdoba (Santiago del Estero)",
+   "inicio": "2026-11-02T19:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401841652": {
+   "casa": "Independiente Rivadavia",
+   "comp": "argentina",
+   "fora": "Banfield",
+   "inicio": "2026-11-02T21:15:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401841657": {
+   "casa": "Defensa y Justicia",
+   "comp": "argentina",
+   "fora": "Independiente",
+   "inicio": "2026-11-02T19:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401841659": {
+   "casa": "Aldosivi",
+   "comp": "argentina",
+   "fora": "River Plate",
+   "inicio": "2026-11-05T15:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401841660": {
+   "casa": "Unión (Santa Fe)",
+   "comp": "argentina",
+   "fora": "Vélez Sarsfield",
+   "inicio": "2026-11-06T19:15:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401841661": {
+   "casa": "Talleres (Córdoba)",
+   "comp": "argentina",
+   "fora": "Estudiantes",
+   "inicio": "2026-11-07T15:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401841662": {
+   "casa": "San Lorenzo",
+   "comp": "argentina",
+   "fora": "Platense",
+   "inicio": "2026-11-06T19:15:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401841663": {
+   "casa": "Rosario Central",
+   "comp": "argentina",
+   "fora": "Estudiantes de Río Cuarto",
+   "inicio": "2026-11-07T17:30:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401841664": {
+   "casa": "Instituto (Córdoba)",
+   "comp": "argentina",
+   "fora": "Newell's Old Boys",
+   "inicio": "2026-11-07T22:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401841665": {
+   "casa": "Independiente",
+   "comp": "argentina",
+   "fora": "Deportivo Riestra",
+   "inicio": "2026-11-06T19:15:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401841666": {
+   "casa": "Gimnasia (Mendoza)",
+   "comp": "argentina",
+   "fora": "Independiente Rivadavia",
+   "inicio": "2026-11-07T15:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401841667": {
+   "casa": "Gimnasia La Plata",
+   "comp": "argentina",
+   "fora": "Belgrano (Córdoba)",
+   "inicio": "2026-11-05T19:15:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401841668": {
+   "casa": "Central Córdoba (Santiago del Estero)",
+   "comp": "argentina",
+   "fora": "Lanús",
+   "inicio": "2026-11-08T19:30:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401841669": {
+   "casa": "Boca Juniors",
+   "comp": "argentina",
+   "fora": "Defensa y Justicia",
+   "inicio": "2026-11-07T17:30:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401841670": {
+   "casa": "Barracas Central",
+   "comp": "argentina",
+   "fora": "Racing Club",
+   "inicio": "2026-11-06T15:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401841671": {
+   "casa": "Banfield",
+   "comp": "argentina",
+   "fora": "Atlético Tucumán",
+   "inicio": "2026-11-06T22:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401841672": {
+   "casa": "Argentinos Juniors",
+   "comp": "argentina",
+   "fora": "Huracán",
+   "inicio": "2026-11-07T17:30:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401841673": {
+   "casa": "Tigre",
+   "comp": "argentina",
+   "fora": "Sarmiento (Junín)",
+   "inicio": "2026-11-06T22:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401860412": {
+   "casa": "Athletic",
+   "comp": "brasileirao-b",
+   "fora": "Ceará",
+   "inicio": "2026-11-02T18:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401860419": {
+   "casa": "Goiás",
+   "comp": "brasileirao-b",
+   "fora": "CRB",
+   "inicio": "2026-11-02T20:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401860420": {
+   "casa": "Fortaleza",
+   "comp": "brasileirao-b",
+   "fora": "Atlético-GO",
+   "inicio": "2026-11-02T16:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401860422": {
+   "casa": "Athletic",
+   "comp": "brasileirao-b",
+   "fora": "Atlético-GO",
+   "inicio": "2026-11-08T16:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401860423": {
+   "casa": "Avaí",
+   "comp": "brasileirao-b",
+   "fora": "São Bernardo",
+   "inicio": "2026-11-07T16:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401860424": {
+   "casa": "Vila Nova",
+   "comp": "brasileirao-b",
+   "fora": "Criciúma",
+   "inicio": "2026-11-07T20:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401860425": {
+   "casa": "Operário PR",
+   "comp": "brasileirao-b",
+   "fora": "Sport",
+   "inicio": "2026-11-06T19:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401860426": {
+   "casa": "Náutico",
+   "comp": "brasileirao-b",
+   "fora": "CRB",
+   "inicio": "2026-11-07T21:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401860427": {
+   "casa": "Novorizontino",
+   "comp": "brasileirao-b",
+   "fora": "Fortaleza",
+   "inicio": "2026-11-07T16:10:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401860428": {
+   "casa": "Goiás",
+   "comp": "brasileirao-b",
+   "fora": "Ponte Preta",
+   "inicio": "2026-11-08T19:15:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401860429": {
+   "casa": "Cuiabá",
+   "comp": "brasileirao-b",
+   "fora": "Juventude",
+   "inicio": "2026-11-07T20:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401860430": {
+   "casa": "Ceará",
+   "comp": "brasileirao-b",
+   "fora": "América-MG",
+   "inicio": "2026-11-08T19:15:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401860431": {
+   "casa": "Botafogo-SP",
+   "comp": "brasileirao-b",
+   "fora": "Londrina",
+   "inicio": "2026-11-05T19:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
   "401860432": {
    "casa": "América-MG",
    "comp": "brasileirao-b",
@@ -529,6 +1391,39 @@
    "placar": {
     "casa": 3,
     "fora": 0
+   }
+  },
+  "401860434": {
+   "casa": "Ponte Preta",
+   "comp": "brasileirao-b",
+   "fora": "Operário PR",
+   "inicio": "2026-11-12T19:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401860435": {
+   "casa": "Londrina",
+   "comp": "brasileirao-b",
+   "fora": "Náutico",
+   "inicio": "2026-11-11T19:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401860436": {
+   "casa": "São Bernardo",
+   "comp": "brasileirao-b",
+   "fora": "Athletic",
+   "inicio": "2026-11-12T20:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 2,
+    "fora": 2
    }
   },
   "401860437": {
@@ -584,6 +1479,94 @@
    "placar": {
     "casa": 2,
     "fora": 0
+   }
+  },
+  "401861145": {
+   "casa": "Turquia",
+   "comp": "nations",
+   "fora": "Bélgica",
+   "inicio": "2026-11-12T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401861146": {
+   "casa": "Armenia",
+   "comp": "nations",
+   "fora": "Cyprus",
+   "inicio": "2026-11-12T14:00:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401861147": {
+   "casa": "Albânia",
+   "comp": "nations",
+   "fora": "Finlândia",
+   "inicio": "2026-11-12T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401861148": {
+   "casa": "República Tcheca",
+   "comp": "nations",
+   "fora": "Espanha",
+   "inicio": "2026-11-12T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401861149": {
+   "casa": "San Marino",
+   "comp": "nations",
+   "fora": "Belarus",
+   "inicio": "2026-11-12T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401861150": {
+   "casa": "Inglaterra",
+   "comp": "nations",
+   "fora": "Croácia",
+   "inicio": "2026-11-12T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401861151": {
+   "casa": "Itália",
+   "comp": "nations",
+   "fora": "França",
+   "inicio": "2026-11-12T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401861152": {
+   "casa": "Montenegro",
+   "comp": "nations",
+   "fora": "Latvia",
+   "inicio": "2026-11-12T16:45:00-03:00",
+   "lg": "uefa.nations",
+   "placar": {
+    "casa": 2,
+    "fora": 1
    }
   },
   "401861153": {
@@ -1070,6 +2053,83 @@
     "fora": 1
    }
   },
+  "401874791": {
+   "casa": "Cagliari",
+   "comp": "serie-a-ita",
+   "fora": "Frosinone",
+   "inicio": "2026-11-07T11:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401874800": {
+   "casa": "Monza",
+   "comp": "serie-a-ita",
+   "fora": "Atalanta",
+   "inicio": "2026-11-08T11:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401874803": {
+   "casa": "Roma",
+   "comp": "serie-a-ita",
+   "fora": "Sassuolo",
+   "inicio": "2026-11-07T16:45:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401874808": {
+   "casa": "Inter de Milão",
+   "comp": "serie-a-ita",
+   "fora": "Como",
+   "inicio": "2026-11-08T14:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401874810": {
+   "casa": "Napoli",
+   "comp": "serie-a-ita",
+   "fora": "Lazio",
+   "inicio": "2026-11-08T08:30:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401874811": {
+   "casa": "Torino",
+   "comp": "serie-a-ita",
+   "fora": "Lecce",
+   "inicio": "2026-11-07T11:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401874815": {
+   "casa": "Venezia",
+   "comp": "serie-a-ita",
+   "fora": "Udinese",
+   "inicio": "2026-11-06T16:45:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
   "401874960": {
    "casa": "Sassuolo",
    "comp": "serie-a-ita",
@@ -1081,6 +2141,17 @@
     "fora": 2
    }
   },
+  "401874963": {
+   "casa": "Sassuolo",
+   "comp": "serie-a-ita",
+   "fora": "Fiorentina",
+   "inicio": "2026-11-02T14:30:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 2,
+    "fora": 4
+   }
+  },
   "401874967": {
    "casa": "Parma",
    "comp": "serie-a-ita",
@@ -1090,6 +2161,28 @@
    "placar": {
     "casa": 1,
     "fora": 5
+   }
+  },
+  "401874971": {
+   "casa": "Atalanta",
+   "comp": "serie-a-ita",
+   "fora": "Parma",
+   "inicio": "2026-11-02T16:45:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401874974": {
+   "casa": "Parma",
+   "comp": "serie-a-ita",
+   "fora": "Bologna",
+   "inicio": "2026-11-07T14:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
    }
   },
   "401874981": {
@@ -1125,6 +2218,17 @@
     "fora": 4
    }
   },
+  "401875003": {
+   "casa": "Fiorentina",
+   "comp": "serie-a-ita",
+   "fora": "Juventus",
+   "inicio": "2026-11-08T16:45:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
   "401875008": {
    "casa": "Juventus",
    "comp": "serie-a-ita",
@@ -1134,6 +2238,17 @@
    "placar": {
     "casa": 4,
     "fora": 0
+   }
+  },
+  "401875018": {
+   "casa": "Genoa",
+   "comp": "serie-a-ita",
+   "fora": "Milan",
+   "inicio": "2026-11-08T11:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
    }
   },
   "401875047": {
@@ -1268,6 +2383,105 @@
     "fora": 0
    }
   },
+  "401875548": {
+   "casa": "AZ Alkmaar",
+   "comp": "eredivisie",
+   "fora": "FC Groningen",
+   "inicio": "2026-11-08T12:45:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 4,
+    "fora": 3
+   }
+  },
+  "401875549": {
+   "casa": "FC Utrecht",
+   "comp": "eredivisie",
+   "fora": "NEC Nijmegen",
+   "inicio": "2026-11-08T16:00:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401875550": {
+   "casa": "FC Twente",
+   "comp": "eredivisie",
+   "fora": "Ajax Amsterdam",
+   "inicio": "2026-11-08T10:30:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401875551": {
+   "casa": "Heerenveen",
+   "comp": "eredivisie",
+   "fora": "Feyenoord Rotterdam",
+   "inicio": "2026-11-08T08:15:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 5,
+    "fora": 3
+   }
+  },
+  "401875552": {
+   "casa": "ADO Den Haag",
+   "comp": "eredivisie",
+   "fora": "Sparta Rotterdam",
+   "inicio": "2026-11-07T14:45:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401875553": {
+   "casa": "SC Cambuur",
+   "comp": "eredivisie",
+   "fora": "PSV Eindhoven",
+   "inicio": "2026-11-08T12:45:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 2,
+    "fora": 5
+   }
+  },
+  "401875554": {
+   "casa": "Excelsior",
+   "comp": "eredivisie",
+   "fora": "Go Ahead Eagles",
+   "inicio": "2026-11-07T17:00:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401875555": {
+   "casa": "Fortuna Sittard",
+   "comp": "eredivisie",
+   "fora": "Telstar",
+   "inicio": "2026-11-07T12:30:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401875556": {
+   "casa": "Willem II",
+   "comp": "eredivisie",
+   "fora": "PEC Zwolle",
+   "inicio": "2026-11-06T16:00:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
   "401876395": {
    "casa": "Troyes",
    "comp": "ligue1",
@@ -1364,6 +2578,215 @@
    "lg": "fra.1",
    "placar": {
     "casa": 1,
+    "fora": 1
+   }
+  },
+  "401876404": {
+   "casa": "Lens",
+   "comp": "ligue1",
+   "fora": "Marseille",
+   "inicio": "2026-11-08T16:45:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401876405": {
+   "casa": "Toulouse",
+   "comp": "ligue1",
+   "fora": "Strasbourg",
+   "inicio": "2026-11-06T16:45:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401876406": {
+   "casa": "Stade Rennais",
+   "comp": "ligue1",
+   "fora": "Lille",
+   "inicio": "2026-11-08T11:00:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401876407": {
+   "casa": "Paris Saint-Germain",
+   "comp": "ligue1",
+   "fora": "Troyes",
+   "inicio": "2026-11-07T17:05:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401876408": {
+   "casa": "Le Mans",
+   "comp": "ligue1",
+   "fora": "AS Monaco",
+   "inicio": "2026-11-08T13:15:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401876409": {
+   "casa": "Le Havre AC",
+   "comp": "ligue1",
+   "fora": "Lorient",
+   "inicio": "2026-11-08T13:15:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401876410": {
+   "casa": "Brest",
+   "comp": "ligue1",
+   "fora": "Lyon",
+   "inicio": "2026-11-08T13:15:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401876411": {
+   "casa": "AJ Auxerre",
+   "comp": "ligue1",
+   "fora": "Paris FC",
+   "inicio": "2026-11-07T15:00:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401876412": {
+   "casa": "Angers",
+   "comp": "ligue1",
+   "fora": "Nice",
+   "inicio": "2026-11-08T13:15:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401876419": {
+   "casa": "Lorient",
+   "comp": "ligue1",
+   "fora": "Brest",
+   "inicio": "2026-11-02T16:45:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401876902": {
+   "casa": "León",
+   "comp": "ligamx",
+   "fora": "Guadalajara",
+   "inicio": "2026-11-08T23:10:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401876903": {
+   "casa": "Querétaro",
+   "comp": "ligamx",
+   "fora": "Puebla",
+   "inicio": "2026-11-08T21:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401876904": {
+   "casa": "Pumas UNAM",
+   "comp": "ligamx",
+   "fora": "América",
+   "inicio": "2026-11-08T00:10:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401876905": {
+   "casa": "Toluca",
+   "comp": "ligamx",
+   "fora": "Monterrey",
+   "inicio": "2026-11-07T22:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401876906": {
+   "casa": "Tigres UANL",
+   "comp": "ligamx",
+   "fora": "Cruz Azul",
+   "inicio": "2026-11-07T22:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401876907": {
+   "casa": "Atlas",
+   "comp": "ligamx",
+   "fora": "Pachuca",
+   "inicio": "2026-11-07T20:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   }
+  },
+  "401876908": {
+   "casa": "Atlante",
+   "comp": "ligamx",
+   "fora": "Santos Laguna",
+   "inicio": "2026-11-07T00:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401876909": {
+   "casa": "Necaxa",
+   "comp": "ligamx",
+   "fora": "Tijuana",
+   "inicio": "2026-11-06T22:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401876910": {
+   "casa": "Atlético de San Luis",
+   "comp": "ligamx",
+   "fora": "FC Juárez",
+   "inicio": "2026-11-06T22:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 0,
     "fora": 1
    }
   },
@@ -1510,6 +2933,61 @@
     "fora": 0
    }
   },
+  "401878757": {
+   "casa": "Nottingham Forest",
+   "comp": "premier",
+   "fora": "Manchester City",
+   "inicio": "2026-11-07T14:30:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401878758": {
+   "casa": "Leeds",
+   "comp": "premier",
+   "fora": "Tottenham",
+   "inicio": "2026-11-07T09:30:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401878759": {
+   "casa": "Ipswich Town",
+   "comp": "premier",
+   "fora": "Bournemouth",
+   "inicio": "2026-11-08T11:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401878760": {
+   "casa": "Arsenal",
+   "comp": "premier",
+   "fora": "Hull City",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401878762": {
+   "casa": "Newcastle",
+   "comp": "premier",
+   "fora": "Everton",
+   "inicio": "2026-11-02T17:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
   "401879232": {
    "casa": "Newcastle",
    "comp": "premier",
@@ -1570,6 +3048,72 @@
    "comp": "premier",
    "fora": "Nottingham Forest",
    "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401879239": {
+   "casa": "Sunderland",
+   "comp": "premier",
+   "fora": "Chelsea",
+   "inicio": "2026-11-08T11:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401879240": {
+   "casa": "Manchester United",
+   "comp": "premier",
+   "fora": "Aston Villa",
+   "inicio": "2026-11-08T13:30:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 4,
+    "fora": 4
+   }
+  },
+  "401879241": {
+   "casa": "Fulham",
+   "comp": "premier",
+   "fora": "Newcastle",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401879242": {
+   "casa": "Everton",
+   "comp": "premier",
+   "fora": "Coventry City",
+   "inicio": "2026-11-06T17:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401879243": {
+   "casa": "Crystal Palace",
+   "comp": "premier",
+   "fora": "Liverpool",
+   "inicio": "2026-11-08T11:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   }
+  },
+  "401879244": {
+   "casa": "Brighton",
+   "comp": "premier",
+   "fora": "Brentford",
+   "inicio": "2026-11-08T11:00:00-03:00",
    "lg": "eng.1",
    "placar": {
     "casa": 2,
@@ -1708,6 +3252,270 @@
     "fora": 1
    }
   },
+  "401880161": {
+   "casa": "Wrexham",
+   "comp": "championship",
+   "fora": "Wolverhampton Wanderers",
+   "inicio": "2026-11-07T09:30:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401880162": {
+   "casa": "West Bromwich Albion",
+   "comp": "championship",
+   "fora": "Millwall",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401880163": {
+   "casa": "Watford",
+   "comp": "championship",
+   "fora": "Middlesbrough",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401880164": {
+   "casa": "Queens Park Rangers",
+   "comp": "championship",
+   "fora": "Lincoln City",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401880165": {
+   "casa": "Preston North End",
+   "comp": "championship",
+   "fora": "Southampton",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401880166": {
+   "casa": "Portsmouth",
+   "comp": "championship",
+   "fora": "Stoke City",
+   "inicio": "2026-11-07T09:30:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401880167": {
+   "casa": "Derby County",
+   "comp": "championship",
+   "fora": "Bolton Wanderers",
+   "inicio": "2026-11-06T17:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401880168": {
+   "casa": "Charlton Athletic",
+   "comp": "championship",
+   "fora": "Sheffield United",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401880169": {
+   "casa": "Cardiff City",
+   "comp": "championship",
+   "fora": "Burnley",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 5,
+    "fora": 4
+   }
+  },
+  "401880170": {
+   "casa": "Bristol City",
+   "comp": "championship",
+   "fora": "Norwich City",
+   "inicio": "2026-11-07T09:30:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 0,
+    "fora": 5
+   }
+  },
+  "401880171": {
+   "casa": "Blackburn Rovers",
+   "comp": "championship",
+   "fora": "West Ham United",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401880172": {
+   "casa": "Birmingham City",
+   "comp": "championship",
+   "fora": "Swansea City",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401880173": {
+   "casa": "Wrexham",
+   "comp": "championship",
+   "fora": "Middlesbrough",
+   "inicio": "2026-11-04T16:45:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401880174": {
+   "casa": "Charlton Athletic",
+   "comp": "championship",
+   "fora": "Bolton Wanderers",
+   "inicio": "2026-11-03T16:45:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401880175": {
+   "casa": "Cardiff City",
+   "comp": "championship",
+   "fora": "West Ham United",
+   "inicio": "2026-11-04T16:45:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 3,
+    "fora": 3
+   }
+  },
+  "401880176": {
+   "casa": "Bristol City",
+   "comp": "championship",
+   "fora": "Wolverhampton Wanderers",
+   "inicio": "2026-11-04T17:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401880177": {
+   "casa": "West Bromwich Albion",
+   "comp": "championship",
+   "fora": "Southampton",
+   "inicio": "2026-11-03T17:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401880178": {
+   "casa": "Watford",
+   "comp": "championship",
+   "fora": "Lincoln City",
+   "inicio": "2026-11-03T16:45:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401880179": {
+   "casa": "Queens Park Rangers",
+   "comp": "championship",
+   "fora": "Burnley",
+   "inicio": "2026-11-03T16:45:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401880180": {
+   "casa": "Preston North End",
+   "comp": "championship",
+   "fora": "Sheffield United",
+   "inicio": "2026-11-03T16:45:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401880181": {
+   "casa": "Portsmouth",
+   "comp": "championship",
+   "fora": "Swansea City",
+   "inicio": "2026-11-03T16:45:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401880182": {
+   "casa": "Derby County",
+   "comp": "championship",
+   "fora": "Norwich City",
+   "inicio": "2026-11-03T16:45:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 0,
+    "fora": 4
+   }
+  },
+  "401880183": {
+   "casa": "Blackburn Rovers",
+   "comp": "championship",
+   "fora": "Stoke City",
+   "inicio": "2026-11-03T16:45:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401880184": {
+   "casa": "Birmingham City",
+   "comp": "championship",
+   "fora": "Millwall",
+   "inicio": "2026-11-03T17:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
   "401882797": {
    "casa": "Sevilla",
    "comp": "laliga",
@@ -1804,6 +3612,127 @@
    "lg": "esp.1",
    "placar": {
     "casa": 3,
+    "fora": 1
+   }
+  },
+  "401882807": {
+   "casa": "Villarreal",
+   "comp": "laliga",
+   "fora": "Getafe",
+   "inicio": "2026-11-08T14:30:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401882808": {
+   "casa": "Valencia",
+   "comp": "laliga",
+   "fora": "Real Madrid",
+   "inicio": "2026-11-07T17:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401882809": {
+   "casa": "Sevilla",
+   "comp": "laliga",
+   "fora": "Alavés",
+   "inicio": "2026-11-06T17:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401882810": {
+   "casa": "Real Sociedad",
+   "comp": "laliga",
+   "fora": "Rayo Vallecano",
+   "inicio": "2026-11-08T12:15:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401882811": {
+   "casa": "Osasuna",
+   "comp": "laliga",
+   "fora": "Athletic Club",
+   "inicio": "2026-11-07T14:30:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401882812": {
+   "casa": "Málaga",
+   "comp": "laliga",
+   "fora": "Racing Santander",
+   "inicio": "2026-11-07T10:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401882813": {
+   "casa": "Espanyol",
+   "comp": "laliga",
+   "fora": "Deportivo",
+   "inicio": "2026-11-07T12:15:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401882814": {
+   "casa": "Elche",
+   "comp": "laliga",
+   "fora": "Real Betis",
+   "inicio": "2026-11-08T10:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401882815": {
+   "casa": "Celta Vigo",
+   "comp": "laliga",
+   "fora": "Levante",
+   "inicio": "2026-11-08T14:30:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401882816": {
+   "casa": "Atlético de Madrid",
+   "comp": "laliga",
+   "fora": "Barcelona",
+   "inicio": "2026-11-08T17:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401882824": {
+   "casa": "Deportivo",
+   "comp": "laliga",
+   "fora": "Osasuna",
+   "inicio": "2026-11-02T17:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 2,
     "fora": 1
    }
   },
@@ -1906,6 +3835,215 @@
     "fora": 1
    }
   },
+  "401884737": {
+   "casa": "SC Paderborn 07",
+   "comp": "bundesliga",
+   "fora": "Eintracht Frankfurt",
+   "inicio": "2026-11-07T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401884738": {
+   "casa": "FC Cologne",
+   "comp": "bundesliga",
+   "fora": "Bayer Leverkusen",
+   "inicio": "2026-11-08T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401884739": {
+   "casa": "Hamburg SV",
+   "comp": "bundesliga",
+   "fora": "Borussia Mönchengladbach",
+   "inicio": "2026-11-06T16:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401884740": {
+   "casa": "Mainz",
+   "comp": "bundesliga",
+   "fora": "Bayern de Munique",
+   "inicio": "2026-11-07T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401884741": {
+   "casa": "SC Freiburg",
+   "comp": "bundesliga",
+   "fora": "1. FC Union Berlin",
+   "inicio": "2026-11-08T13:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401884742": {
+   "casa": "TSG Hoffenheim",
+   "comp": "bundesliga",
+   "fora": "Schalke 04",
+   "inicio": "2026-11-08T15:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401884743": {
+   "casa": "VfB Stuttgart",
+   "comp": "bundesliga",
+   "fora": "Werder Bremen",
+   "inicio": "2026-11-07T14:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401884744": {
+   "casa": "RB Leipzig",
+   "comp": "bundesliga",
+   "fora": "FC Augsburg",
+   "inicio": "2026-11-07T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 5,
+    "fora": 2
+   }
+  },
+  "401884745": {
+   "casa": "Borussia Dortmund",
+   "comp": "bundesliga",
+   "fora": "SV Elversberg",
+   "inicio": "2026-11-07T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401885394": {
+   "casa": "Vitória de Guimaraes",
+   "comp": "portugal",
+   "fora": "FC Porto",
+   "inicio": "2026-11-08T15:00:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401885395": {
+   "casa": "Sporting CP",
+   "comp": "portugal",
+   "fora": "Moreirense",
+   "inicio": "2026-11-07T17:30:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401885396": {
+   "casa": "Santa Clara",
+   "comp": "portugal",
+   "fora": "Gil Vicente",
+   "inicio": "2026-11-08T12:30:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401885397": {
+   "casa": "Rio Ave",
+   "comp": "portugal",
+   "fora": "Braga",
+   "inicio": "2026-11-08T17:30:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401885398": {
+   "casa": "C.D. Nacional",
+   "comp": "portugal",
+   "fora": "Académico de Viseu",
+   "inicio": "2026-11-08T12:30:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401885399": {
+   "casa": "FC Famalicao",
+   "comp": "portugal",
+   "fora": "Arouca",
+   "inicio": "2026-11-06T17:45:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401885401": {
+   "casa": "Estrela",
+   "comp": "portugal",
+   "fora": "Benfica",
+   "inicio": "2026-11-08T17:30:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401885402": {
+   "casa": "Alverca",
+   "comp": "portugal",
+   "fora": "Casa Pia",
+   "inicio": "2026-11-07T15:00:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401885403": {
+   "casa": "Benfica",
+   "comp": "portugal",
+   "fora": "Alverca",
+   "inicio": "2026-11-02T17:15:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401885407": {
+   "casa": "Gil Vicente",
+   "comp": "portugal",
+   "fora": "Vitória de Guimaraes",
+   "inicio": "2026-11-02T17:15:00-03:00",
+   "lg": "por.1",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
   "401888243": {
    "casa": "Erzurum BB",
    "comp": "turquia",
@@ -1983,6 +4121,94 @@
     "fora": 0
    }
   },
+  "401888250": {
+   "casa": "Samsunspor",
+   "comp": "turquia",
+   "fora": "Konyaspor",
+   "inicio": "2026-11-07T10:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401888251": {
+   "casa": "Besiktas",
+   "comp": "turquia",
+   "fora": "Genclerbirligi",
+   "inicio": "2026-11-08T15:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401888252": {
+   "casa": "Goztepe",
+   "comp": "turquia",
+   "fora": "Istanbul Basaksehir",
+   "inicio": "2026-11-07T13:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401888253": {
+   "casa": "Caykur Rizespor",
+   "comp": "turquia",
+   "fora": "Erzurum BB",
+   "inicio": "2026-11-08T07:30:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401888254": {
+   "casa": "Alanyaspor",
+   "comp": "turquia",
+   "fora": "Trabzonspor",
+   "inicio": "2026-11-08T12:30:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401888255": {
+   "casa": "Eyupspor",
+   "comp": "turquia",
+   "fora": "Kocaelispor",
+   "inicio": "2026-11-07T07:30:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401888256": {
+   "casa": "Gaziantep FK",
+   "comp": "turquia",
+   "fora": "Kasimpasa",
+   "inicio": "2026-11-06T14:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401888260": {
+   "casa": "Genclerbirligi",
+   "comp": "turquia",
+   "fora": "Alanyaspor",
+   "inicio": "2026-11-02T14:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 5,
+    "fora": 0
+   }
+  },
   "401888369": {
    "casa": "Amed SFK",
    "comp": "turquia",
@@ -1994,6 +4220,28 @@
     "fora": 2
    }
   },
+  "401888371": {
+   "casa": "Galatasaray",
+   "comp": "turquia",
+   "fora": "Amed SFK",
+   "inicio": "2026-11-07T13:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 4,
+    "fora": 3
+   }
+  },
+  "401888372": {
+   "casa": "Çorum FK",
+   "comp": "turquia",
+   "fora": "Fenerbahce",
+   "inicio": "2026-11-08T10:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 0,
+    "fora": 5
+   }
+  },
   "401900905": {
    "casa": "Al Ahli",
    "comp": "saudita",
@@ -2003,6 +4251,17 @@
    "placar": {
     "casa": 3,
     "fora": 1
+   }
+  },
+  "401906458": {
+   "casa": "Nova Zelândia",
+   "comp": "amistoso",
+   "fora": "Índia",
+   "inicio": "2026-11-12T03:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 5,
+    "fora": 0
    }
   },
   "401906463": {
@@ -2038,6 +4297,32 @@
     "fora": 1
    }
   },
+  "401913107": {
+   "casa": "Vasco",
+   "comp": "copa-do-brasil",
+   "fora": "Palmeiras",
+   "inicio": "2026-11-08T17:00:00-03:00",
+   "lg": "bra.copa_do_brazil",
+   "pen": [
+    4,
+    5
+   ],
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401913108": {
+   "casa": "Atlético-MG",
+   "comp": "copa-do-brasil",
+   "fora": "Grêmio",
+   "inicio": "2026-11-07T18:00:00-03:00",
+   "lg": "bra.copa_do_brazil",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
   "401913961": {
    "casa": "Atlético-MG",
    "comp": "sul-americana",
@@ -2058,6 +4343,600 @@
    "placar": {
     "casa": 1,
     "fora": 3
+   }
+  },
+  "401915301": {
+   "casa": "FC Porto",
+   "comp": "champions",
+   "fora": "Napoli",
+   "inicio": "2026-11-04T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 4,
+    "fora": 1
+   }
+  },
+  "401915302": {
+   "casa": "Viking FK",
+   "comp": "champions",
+   "fora": "Sabah FK",
+   "inicio": "2026-11-04T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 4,
+    "fora": 1
+   }
+  },
+  "401915303": {
+   "casa": "PSV Eindhoven",
+   "comp": "champions",
+   "fora": "Club Brugge",
+   "inicio": "2026-11-04T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401915304": {
+   "casa": "Borussia Dortmund",
+   "comp": "champions",
+   "fora": "Real Betis",
+   "inicio": "2026-11-04T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401915305": {
+   "casa": "Lens",
+   "comp": "champions",
+   "fora": "Como",
+   "inicio": "2026-11-04T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 1,
+    "fora": 9
+   }
+  },
+  "401915306": {
+   "casa": "RB Leipzig",
+   "comp": "champions",
+   "fora": "Manchester City",
+   "inicio": "2026-11-04T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401915307": {
+   "casa": "Feyenoord Rotterdam",
+   "comp": "champions",
+   "fora": "Inter de Milão",
+   "inicio": "2026-11-03T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401915308": {
+   "casa": "Manchester United",
+   "comp": "champions",
+   "fora": "Roma",
+   "inicio": "2026-11-03T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401915309": {
+   "casa": "Villarreal",
+   "comp": "champions",
+   "fora": "Paris Saint-Germain",
+   "inicio": "2026-11-03T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 0,
+    "fora": 6
+   }
+  },
+  "401915310": {
+   "casa": "Shakhtar Donetsk",
+   "comp": "champions",
+   "fora": "Sporting CP",
+   "inicio": "2026-11-03T14:45:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401915311": {
+   "casa": "Galatasaray",
+   "comp": "champions",
+   "fora": "VfB Stuttgart",
+   "inicio": "2026-11-03T14:45:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401915381": {
+   "casa": "Slavia Prague",
+   "comp": "champions",
+   "fora": "Arsenal",
+   "inicio": "2026-11-04T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401915382": {
+   "casa": "Fenerbahce",
+   "comp": "champions",
+   "fora": "Liverpool",
+   "inicio": "2026-11-04T14:45:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401915383": {
+   "casa": "AEK Athens",
+   "comp": "champions",
+   "fora": "Real Madrid",
+   "inicio": "2026-11-04T14:45:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401915384": {
+   "casa": "Bodo/Glimt",
+   "comp": "champions",
+   "fora": "Lille",
+   "inicio": "2026-11-03T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401915385": {
+   "casa": "LASK Linz",
+   "comp": "champions",
+   "fora": "Slovan Bratislava",
+   "inicio": "2026-11-03T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401915386": {
+   "casa": "Atlético de Madrid",
+   "comp": "champions",
+   "fora": "Bayern de Munique",
+   "inicio": "2026-11-03T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401915387": {
+   "casa": "Barcelona",
+   "comp": "champions",
+   "fora": "Aston Villa",
+   "inicio": "2026-11-03T17:00:00-03:00",
+   "lg": "uefa.champions",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401915522": {
+   "casa": "Celtic",
+   "comp": "europa",
+   "fora": "Besiktas",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401915523": {
+   "casa": "Sunderland",
+   "comp": "europa",
+   "fora": "Dinamo Zagreb",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401915524": {
+   "casa": "SK Sturm Graz",
+   "comp": "europa",
+   "fora": "NK Celje",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401915525": {
+   "casa": "Benfica",
+   "comp": "europa",
+   "fora": "Lech Poznan",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401915526": {
+   "casa": "Crystal Palace",
+   "comp": "europa",
+   "fora": "TSG Hoffenheim",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401915527": {
+   "casa": "Lillestrom",
+   "comp": "europa",
+   "fora": "Viktoria Plzen",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401915528": {
+   "casa": "Sparta Prague",
+   "comp": "europa",
+   "fora": "Bournemouth",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   }
+  },
+  "401915529": {
+   "casa": "AZ Alkmaar",
+   "comp": "europa",
+   "fora": "Juventus",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401915530": {
+   "casa": "Torreense",
+   "comp": "europa",
+   "fora": "Ararat-Armenia",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401915531": {
+   "casa": "Celta Vigo",
+   "comp": "europa",
+   "fora": "Union St.-Gilloise",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401915532": {
+   "casa": "Hapoel Be'er",
+   "comp": "europa",
+   "fora": "OFI Crete",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401915533": {
+   "casa": "Bayer Leverkusen",
+   "comp": "europa",
+   "fora": "Marseille",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401915534": {
+   "casa": "Milan",
+   "comp": "europa",
+   "fora": "Ferencvaros",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401915535": {
+   "casa": "NEC Nijmegen",
+   "comp": "europa",
+   "fora": "Omonia Nicosia",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401915536": {
+   "casa": "Levski Sofia",
+   "comp": "europa",
+   "fora": "Jagiellonia Bialystok",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401915537": {
+   "casa": "Real Sociedad",
+   "comp": "europa",
+   "fora": "Lyon",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401915538": {
+   "casa": "Anderlecht",
+   "comp": "europa",
+   "fora": "RB Salzburg",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401915551": {
+   "casa": "Stade Rennais",
+   "comp": "europa",
+   "fora": "Olympiacos",
+   "inicio": "2026-11-04T12:30:00-03:00",
+   "lg": "uefa.europa",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401915740": {
+   "casa": "F.C. København",
+   "comp": "conference",
+   "fora": "Iberia 1999",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401915741": {
+   "casa": "Mjällby AIF",
+   "comp": "conference",
+   "fora": "Borac Banja Luka",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401915742": {
+   "casa": "Lincoln Red Imps",
+   "comp": "conference",
+   "fora": "Hajduk Split",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401915817": {
+   "casa": "CSU Craiova",
+   "comp": "conference",
+   "fora": "Egnatia",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401915818": {
+   "casa": "Riga FC",
+   "comp": "conference",
+   "fora": "Jablonec",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401915819": {
+   "casa": "Panathinaikos",
+   "comp": "conference",
+   "fora": "CSKA Sofia",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401915820": {
+   "casa": "Sint-Truidense",
+   "comp": "conference",
+   "fora": "SK Brann",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401915821": {
+   "casa": "Getafe",
+   "comp": "conference",
+   "fora": "Brighton",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401915822": {
+   "casa": "FC Twente",
+   "comp": "conference",
+   "fora": "Pafos",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401915823": {
+   "casa": "FC Lugano",
+   "comp": "conference",
+   "fora": "Kauno Zalgiris",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401915824": {
+   "casa": "AS Monaco",
+   "comp": "conference",
+   "fora": "FC Nordsjælland",
+   "inicio": "2026-11-05T17:00:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401915825": {
+   "casa": "Trabzonspor",
+   "comp": "conference",
+   "fora": "SC Freiburg",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401915826": {
+   "casa": "KuPS Kuopio",
+   "comp": "conference",
+   "fora": "KAA Gent",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401915827": {
+   "casa": "Red Star Belgrade",
+   "comp": "conference",
+   "fora": "Inter D'Escaldes",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401915828": {
+   "casa": "FC Thun",
+   "comp": "conference",
+   "fora": "Heart of Midlothian",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401915829": {
+   "casa": "FC Midtjylland",
+   "comp": "conference",
+   "fora": "Ajax Amsterdam",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 1,
+    "fora": 6
+   }
+  },
+  "401915830": {
+   "casa": "Atalanta",
+   "comp": "conference",
+   "fora": "Kairat Almaty",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401915831": {
+   "casa": "AGF",
+   "comp": "conference",
+   "fora": "Braga",
+   "inicio": "2026-11-05T14:45:00-03:00",
+   "lg": "uefa.europa.conf",
+   "placar": {
+    "casa": 0,
+    "fora": 0
    }
   },
   "401916335": {
@@ -2185,6 +5064,17 @@
     "fora": 1
    }
   },
+  "401928504": {
+   "casa": "Tavernes de la Valldigna",
+   "comp": "copa-do-rei",
+   "fora": "Valencia",
+   "inicio": "2026-11-10T17:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 0,
+    "fora": 6
+   }
+  },
   "401928505": {
    "casa": "Alcoyano",
    "comp": "copa-do-rei",
@@ -2193,6 +5083,39 @@
    "lg": "esp.copa_del_rey",
    "placar": {
     "casa": 1,
+    "fora": 3
+   }
+  },
+  "401928506": {
+   "casa": "CS Puertollano",
+   "comp": "copa-do-rei",
+   "fora": "Albacete",
+   "inicio": "2026-11-12T14:30:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401928514": {
+   "casa": "Anaitasuna",
+   "comp": "copa-do-rei",
+   "fora": "Alavés",
+   "inicio": "2026-11-10T15:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 1,
+    "fora": 6
+   }
+  },
+  "401928516": {
+   "casa": "CD Pamplona",
+   "comp": "copa-do-rei",
+   "fora": "Eibar",
+   "inicio": "2026-11-10T15:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 0,
     "fora": 3
    }
   },
@@ -2211,11 +5134,44 @@
     "fora": 0
    }
   },
+  "401928519": {
+   "casa": "Amorebieta",
+   "comp": "copa-do-rei",
+   "fora": "UD Logroñés",
+   "inicio": "2026-11-10T16:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
   "401928524": {
    "casa": "CD Minera",
    "comp": "copa-do-rei",
    "fora": "FC Cartagena",
    "inicio": "2026-11-18T16:30:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401928527": {
+   "casa": "CD Tarancon",
+   "comp": "copa-do-rei",
+   "fora": "Levante",
+   "inicio": "2026-11-12T15:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401928528": {
+   "casa": "Mijas Las Lagunas",
+   "comp": "copa-do-rei",
+   "fora": "Real Jaen CF",
+   "inicio": "2026-11-10T16:00:00-03:00",
    "lg": "esp.copa_del_rey",
    "placar": {
     "casa": 1,
@@ -2231,6 +5187,28 @@
    "placar": {
     "casa": 2,
     "fora": 5
+   }
+  },
+  "401928550": {
+   "casa": "Trival Valderas",
+   "comp": "copa-do-rei",
+   "fora": "Leganés",
+   "inicio": "2026-11-10T16:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401928551": {
+   "casa": "CD Artistico Navalcarnero",
+   "comp": "copa-do-rei",
+   "fora": "Real Betis",
+   "inicio": "2026-11-12T15:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 2,
+    "fora": 3
    }
   },
   "401930236": {
@@ -2275,6 +5253,17 @@
    "placar": {
     "casa": 0,
     "fora": 3
+   }
+  },
+  "401930244": {
+   "casa": "Vietnam",
+   "comp": "amistoso",
+   "fora": "Chinese Taipei",
+   "inicio": "2026-11-11T09:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 0
    }
   },
   "401930876": {
@@ -2354,6 +5343,17 @@
     "fora": 0
    }
   },
+  "401930962": {
+   "casa": "Uzbequistão",
+   "comp": "amistoso",
+   "fora": "Russia",
+   "inicio": "2026-11-12T12:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
   "401930978": {
    "casa": "Russia",
    "comp": "amistoso",
@@ -2363,6 +5363,465 @@
    "placar": {
     "casa": 2,
     "fora": 0
+   }
+  },
+  "401931079": {
+   "casa": "Stafford Rangers",
+   "comp": "fa-cup",
+   "fora": "Grimsby Town",
+   "inicio": "2026-11-08T09:00:00-03:00",
+   "lg": "eng.fa",
+   "pen": [
+    2,
+    3
+   ],
+   "placar": {
+    "casa": 3,
+    "fora": 3
+   }
+  },
+  "401931080": {
+   "casa": "Cray Wanderers",
+   "comp": "fa-cup",
+   "fora": "Stockport County",
+   "inicio": "2026-11-08T11:15:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401931081": {
+   "casa": "Chesterfield",
+   "comp": "fa-cup",
+   "fora": "Yeovil Town",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 4,
+    "fora": 3
+   }
+  },
+  "401931082": {
+   "casa": "Burton Albion",
+   "comp": "fa-cup",
+   "fora": "AFC Rushden & Diamonds",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401931083": {
+   "casa": "Boreham Wood",
+   "comp": "fa-cup",
+   "fora": "Wigan Athletic",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401931084": {
+   "casa": "York City",
+   "comp": "fa-cup",
+   "fora": "Northampton Town",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401931085": {
+   "casa": "Bristol Rovers",
+   "comp": "fa-cup",
+   "fora": "Cambridge United",
+   "inicio": "2026-11-06T16:30:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401931086": {
+   "casa": "Port Vale",
+   "comp": "fa-cup",
+   "fora": "Scunthorpe United",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 4,
+    "fora": 2
+   }
+  },
+  "401931087": {
+   "casa": "Salisbury FC",
+   "comp": "fa-cup",
+   "fora": "Sholing",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 6,
+    "fora": 0
+   }
+  },
+  "401931088": {
+   "casa": "Cheltenham Town",
+   "comp": "fa-cup",
+   "fora": "FC Halifax Town",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401931089": {
+   "casa": "Barnsley",
+   "comp": "fa-cup",
+   "fora": "Aldershot Town",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 7,
+    "fora": 2
+   }
+  },
+  "401931090": {
+   "casa": "Carlisle United",
+   "comp": "fa-cup",
+   "fora": "Salford City",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401931091": {
+   "casa": "Bromley",
+   "comp": "fa-cup",
+   "fora": "Rotherham United",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401931092": {
+   "casa": "Guiseley",
+   "comp": "fa-cup",
+   "fora": "Sutton United",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401931093": {
+   "casa": "Wimborne Town",
+   "comp": "fa-cup",
+   "fora": "Crawley Town",
+   "inicio": "2026-11-08T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401931094": {
+   "casa": "Huddersfield Town",
+   "comp": "fa-cup",
+   "fora": "Exeter City",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401931095": {
+   "casa": "Mansfield Town",
+   "comp": "fa-cup",
+   "fora": "Macclesfield FC",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401931096": {
+   "casa": "Harrogate Town",
+   "comp": "fa-cup",
+   "fora": "AFC Fylde",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   }
+  },
+  "401931097": {
+   "casa": "Altrincham",
+   "comp": "fa-cup",
+   "fora": "Notts County",
+   "inicio": "2026-11-07T14:30:00-03:00",
+   "lg": "eng.fa",
+   "pen": [
+    2,
+    3
+   ],
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401931098": {
+   "casa": "Plymouth Parkway",
+   "comp": "fa-cup",
+   "fora": "Berkhamsted",
+   "inicio": "2026-11-09T16:30:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401931099": {
+   "casa": "Eastleigh",
+   "comp": "fa-cup",
+   "fora": "Shrewsbury Town",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401931100": {
+   "casa": "Luton Town",
+   "comp": "fa-cup",
+   "fora": "Forest Green Rovers",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401931101": {
+   "casa": "Gillingham",
+   "comp": "fa-cup",
+   "fora": "Barrow",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401931102": {
+   "casa": "Colchester United",
+   "comp": "fa-cup",
+   "fora": "Worcester City",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401931103": {
+   "casa": "Barnet",
+   "comp": "fa-cup",
+   "fora": "Tranmere Rovers",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401931104": {
+   "casa": "Peterborough United",
+   "comp": "fa-cup",
+   "fora": "Reading",
+   "inicio": "2026-11-07T17:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 0,
+    "fora": 5
+   }
+  },
+  "401931105": {
+   "casa": "Fleetwood Town",
+   "comp": "fa-cup",
+   "fora": "Rochdale",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401931106": {
+   "casa": "Kidderminster Harriers",
+   "comp": "fa-cup",
+   "fora": "Doncaster Rovers",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401931107": {
+   "casa": "Dover Athletic",
+   "comp": "fa-cup",
+   "fora": "Wealdstone",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401931108": {
+   "casa": "Oldham Athletic",
+   "comp": "fa-cup",
+   "fora": "Sheffield Wednesday",
+   "inicio": "2026-11-08T14:15:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401931109": {
+   "casa": "Oxford City",
+   "comp": "fa-cup",
+   "fora": "Leicester City",
+   "inicio": "2026-11-06T16:45:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 4
+   }
+  },
+  "401931110": {
+   "casa": "Leyton Orient",
+   "comp": "fa-cup",
+   "fora": "Harborough Town",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 5,
+    "fora": 1
+   }
+  },
+  "401931116": {
+   "casa": "AFC Hornchurch",
+   "comp": "fa-cup",
+   "fora": "Blackpool",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401931117": {
+   "casa": "Newport County",
+   "comp": "fa-cup",
+   "fora": "Walsall",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401931118": {
+   "casa": "Bradford City",
+   "comp": "fa-cup",
+   "fora": "Marine",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 7,
+    "fora": 0
+   }
+  },
+  "401931119": {
+   "casa": "Accrington Stanley",
+   "comp": "fa-cup",
+   "fora": "Wycombe Wanderers",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401931120": {
+   "casa": "Crewe Alexandra",
+   "comp": "fa-cup",
+   "fora": "AFC Wimbledon",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401931121": {
+   "casa": "Oxford United",
+   "comp": "fa-cup",
+   "fora": "Stevenage",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401931122": {
+   "casa": "Milton Keynes Dons",
+   "comp": "fa-cup",
+   "fora": "Swindon Town",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401931275": {
+   "casa": "Plymouth Argyle",
+   "comp": "fa-cup",
+   "fora": "Alvechurch",
+   "inicio": "2026-11-07T12:00:00-03:00",
+   "lg": "eng.fa",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401931296": {
+   "casa": "Malta",
+   "comp": "amistoso",
+   "fora": "Eswatini",
+   "inicio": "2026-11-12T14:30:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 1,
+    "fora": 1
    }
   },
   "401931476": {
@@ -2462,6 +5921,17 @@
    "placar": {
     "casa": 4,
     "fora": 2
+   }
+  },
+  "401933115": {
+   "casa": "Lithuania",
+   "comp": "amistoso",
+   "fora": "Suriname",
+   "inicio": "2026-11-12T14:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 0
    }
   },
   "401933535": {
@@ -2690,6 +6160,171 @@
    "placar": {
     "casa": 3,
     "fora": 3
+   }
+  },
+  "761934": {
+   "casa": "CF Montréal",
+   "comp": "mls",
+   "fora": "Vancouver Whitecaps",
+   "inicio": "2026-11-07T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "761935": {
+   "casa": "Chicago Fire FC",
+   "comp": "mls",
+   "fora": "Columbus Crew",
+   "inicio": "2026-11-07T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 3,
+    "fora": 4
+   }
+  },
+  "761936": {
+   "casa": "D.C. United",
+   "comp": "mls",
+   "fora": "New York City FC",
+   "inicio": "2026-11-07T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "761937": {
+   "casa": "FC Cincinnati",
+   "comp": "mls",
+   "fora": "Nashville SC",
+   "inicio": "2026-11-07T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "761938": {
+   "casa": "Inter Miami CF",
+   "comp": "mls",
+   "fora": "Charlotte FC",
+   "inicio": "2026-11-07T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 3,
+    "fora": 3
+   }
+  },
+  "761939": {
+   "casa": "Red Bull New York",
+   "comp": "mls",
+   "fora": "Atlanta United FC",
+   "inicio": "2026-11-07T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "761940": {
+   "casa": "Orlando City SC",
+   "comp": "mls",
+   "fora": "New England Revolution",
+   "inicio": "2026-11-07T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "761941": {
+   "casa": "Philadelphia Union",
+   "comp": "mls",
+   "fora": "Toronto FC",
+   "inicio": "2026-11-07T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 4,
+    "fora": 1
+   }
+  },
+  "761942": {
+   "casa": "Austin FC",
+   "comp": "mls",
+   "fora": "Portland Timbers",
+   "inicio": "2026-11-07T21:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "761943": {
+   "casa": "FC Dallas",
+   "comp": "mls",
+   "fora": "Colorado Rapids",
+   "inicio": "2026-11-07T21:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "761944": {
+   "casa": "Houston Dynamo FC",
+   "comp": "mls",
+   "fora": "St. Louis CITY SC",
+   "inicio": "2026-11-07T21:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "761945": {
+   "casa": "Minnesota United FC",
+   "comp": "mls",
+   "fora": "San Jose Earthquakes",
+   "inicio": "2026-11-07T21:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "761946": {
+   "casa": "Real Salt Lake",
+   "comp": "mls",
+   "fora": "LA Galaxy",
+   "inicio": "2026-11-07T21:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "761947": {
+   "casa": "San Diego FC",
+   "comp": "mls",
+   "fora": "Sporting Kansas City",
+   "inicio": "2026-11-07T21:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "761948": {
+   "casa": "Seattle Sounders FC",
+   "comp": "mls",
+   "fora": "LAFC",
+   "inicio": "2026-11-07T21:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
    }
   }
  }
