@@ -12,8 +12,8 @@
 },
 "/campeonato/brasileirao-a/": {
 "dia": "",
-"h": "d204c2ffa9d7c703",
-"mod": "2026-11-22T21:07-03:00"
+"h": "8db67653de1ffda8",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/campeonato/brasileirao-b/": {
 "dia": "",
@@ -107,8 +107,8 @@
 },
 "/campeonato/ligamx/": {
 "dia": "",
-"h": "0b9600fc734bd8fc",
-"mod": "2026-11-22T02:58-03:00"
+"h": "2d7d3ba259930d41",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/campeonato/ligue1/": {
 "dia": "",
@@ -432,8 +432,8 @@
 },
 "/jogo/athletico-pr-x-remo-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "a95e3ba48f00ca05",
-"mod": "2026-11-22T21:07-03:00"
+"h": "34a604c09ea3f0c4",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/jogo/athletico-pr-x-sao-paulo-02-12-2026/": {
 "dia": "2026-12-02",
@@ -1127,8 +1127,8 @@
 },
 "/jogo/fluminense-x-mirassol-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "7271950c7bf24b67",
-"mod": "2026-11-22T21:07-03:00"
+"h": "86c6f47d1ae407c8",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/jogo/fortaleza-x-criciuma-28-11-2026/": {
 "dia": "2026-11-28",
@@ -1252,8 +1252,8 @@
 },
 "/jogo/guadalajara-x-cruz-azul-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "d9ce6cd86d242a64",
-"mod": "2026-11-22T02:58-03:00"
+"h": "7d7f610e55bb6e53",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/jogo/hajduk-split-x-sint-truidense-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1897,8 +1897,8 @@
 },
 "/jogo/queretaro-x-necaxa-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "d2f74456d93b91e3",
-"mod": "2026-11-22T02:58-03:00"
+"h": "3d315d71aa508390",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/jogo/racing-santander-x-deportivo-05-12-2026/": {
 "dia": "2026-12-05",
@@ -1982,8 +1982,8 @@
 },
 "/jogo/red-bull-bragantino-x-vasco-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "f433bd89df45b574",
-"mod": "2026-11-22T21:07-03:00"
+"h": "80cb5b3460687116",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/jogo/remo-x-chapecoense-18-11-2026/": {
 "dia": "2026-11-18",
@@ -2312,8 +2312,8 @@
 },
 "/jogo/tigres-uanl-x-america-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "971043b844f81f3e",
-"mod": "2026-11-22T02:58-03:00"
+"h": "5bb1e7a8f532a64f",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/jogo/tijuana-x-atlante-21-11-2026/": {
 "dia": "2026-11-21",
@@ -2442,8 +2442,8 @@
 },
 "/jogo/velez-sarsfield-x-independiente-29-11-2026/": {
 "dia": "2026-11-29",
-"h": "83c265b2f899c7ae",
-"mod": "2026-11-22T16:30-03:00"
+"h": "e0fe25f58dce02d7",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/jogo/venezia-x-bologna-27-11-2026/": {
 "dia": "2026-11-27",
@@ -2572,8 +2572,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "e43662ab0e6064a9",
-"mod": "2026-11-22T21:07-03:00"
+"h": "a7fe6799badd3ef7",
+"mod": "2026-11-22T22:36-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -3279,8 +3279,8 @@
 },
 "/time/cruz-azul/": {
 "dia": "",
-"h": "eb54098adca031d0",
-"mod": "2026-11-17T17:37-03:00",
+"h": "8050660ad60a48a2",
+"mod": "2026-11-22T22:36-03:00",
 "nome": "Cruz Azul"
 },
 "/time/cruzeiro/": {
@@ -3663,8 +3663,8 @@
 },
 "/time/guadalajara/": {
 "dia": "",
-"h": "c93908bed5c05620",
-"mod": "2026-11-17T17:37-03:00",
+"h": "bf0f6dd59518f0fd",
+"mod": "2026-11-22T22:36-03:00",
 "nome": "Guadalajara"
 },
 "/time/hajduk-split/": {
@@ -4431,8 +4431,8 @@
 },
 "/time/red-bull-bragantino/": {
 "dia": "",
-"h": "efbdaf9c191f4a81",
-"mod": "2026-11-21T00:09-03:00",
+"h": "bab1cb62baa6227a",
+"mod": "2026-11-22T22:36-03:00",
 "nome": "Red Bull Bragantino"
 },
 "/time/red-star-belgrade/": {
@@ -4851,8 +4851,8 @@
 },
 "/time/vasco/": {
 "dia": "",
-"h": "878fcb31e22687dc",
-"mod": "2026-11-21T00:09-03:00",
+"h": "d4d9bbc087497376",
+"mod": "2026-11-22T22:36-03:00",
 "nome": "Vasco"
 },
 "/time/velez-sarsfield/": {
