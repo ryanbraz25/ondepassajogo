@@ -1,0 +1,1722 @@
+{
+ "feitos": [
+  "arg.1:20261118",
+  "arg.1:20261119",
+  "arg.1:20261120",
+  "arg.1:20261121",
+  "bra.1:20261117",
+  "bra.1:20261118",
+  "bra.1:20261119",
+  "bra.1:20261120",
+  "bra.1:20261121",
+  "bra.2:20261117",
+  "bra.2:20261118",
+  "bra.2:20261119",
+  "bra.2:20261120",
+  "bra.2:20261121",
+  "bra.camp.carioca:20261117",
+  "bra.camp.carioca:20261118",
+  "bra.camp.carioca:20261119",
+  "bra.camp.carioca:20261120",
+  "bra.camp.carioca:20261121",
+  "bra.camp.gaucho:20261117",
+  "bra.camp.gaucho:20261118",
+  "bra.camp.gaucho:20261119",
+  "bra.camp.gaucho:20261120",
+  "bra.camp.gaucho:20261121",
+  "bra.camp.mineiro:20261117",
+  "bra.camp.mineiro:20261118",
+  "bra.camp.mineiro:20261119",
+  "bra.camp.mineiro:20261120",
+  "bra.camp.mineiro:20261121",
+  "bra.camp.paulista:20261117",
+  "bra.camp.paulista:20261118",
+  "bra.camp.paulista:20261119",
+  "bra.camp.paulista:20261120",
+  "bra.camp.paulista:20261121",
+  "bra.copa_do_brazil:20261117",
+  "bra.copa_do_brazil:20261118",
+  "bra.copa_do_brazil:20261119",
+  "bra.copa_do_brazil:20261120",
+  "bra.copa_do_brazil:20261121",
+  "bra.supercopa_do_brazil:20261118",
+  "bra.supercopa_do_brazil:20261119",
+  "bra.supercopa_do_brazil:20261120",
+  "bra.supercopa_do_brazil:20261121",
+  "conmebol.libertadores:20261117",
+  "conmebol.libertadores:20261118",
+  "conmebol.libertadores:20261119",
+  "conmebol.libertadores:20261120",
+  "conmebol.libertadores:20261121",
+  "conmebol.recopa:20261118",
+  "conmebol.recopa:20261119",
+  "conmebol.recopa:20261120",
+  "conmebol.recopa:20261121",
+  "conmebol.sudamericana:20261117",
+  "conmebol.sudamericana:20261118",
+  "conmebol.sudamericana:20261119",
+  "conmebol.sudamericana:20261120",
+  "conmebol.sudamericana:20261121",
+  "eng.1:20261117",
+  "eng.1:20261118",
+  "eng.1:20261119",
+  "eng.1:20261120",
+  "eng.1:20261121",
+  "eng.2:20261118",
+  "eng.2:20261119",
+  "eng.2:20261120",
+  "eng.2:20261121",
+  "eng.fa:20261118",
+  "eng.fa:20261119",
+  "eng.fa:20261120",
+  "eng.fa:20261121",
+  "esp.1:20261117",
+  "esp.1:20261118",
+  "esp.1:20261119",
+  "esp.1:20261120",
+  "esp.1:20261121",
+  "esp.copa_del_rey:20261118",
+  "esp.copa_del_rey:20261119",
+  "esp.copa_del_rey:20261120",
+  "esp.copa_del_rey:20261121",
+  "fifa.cwc:20261118",
+  "fifa.cwc:20261119",
+  "fifa.cwc:20261120",
+  "fifa.cwc:20261121",
+  "fifa.friendly:20261117",
+  "fifa.friendly:20261118",
+  "fifa.friendly:20261119",
+  "fifa.friendly:20261120",
+  "fifa.friendly:20261121",
+  "fifa.intercontinental_cup:20261118",
+  "fifa.intercontinental_cup:20261119",
+  "fifa.intercontinental_cup:20261120",
+  "fifa.intercontinental_cup:20261121",
+  "fra.1:20261117",
+  "fra.1:20261118",
+  "fra.1:20261119",
+  "fra.1:20261120",
+  "fra.1:20261121",
+  "ger.1:20261117",
+  "ger.1:20261118",
+  "ger.1:20261119",
+  "ger.1:20261120",
+  "ger.1:20261121",
+  "ita.1:20261117",
+  "ita.1:20261118",
+  "ita.1:20261119",
+  "ita.1:20261120",
+  "ita.1:20261121",
+  "ita.coppa_italia:20261118",
+  "ita.coppa_italia:20261119",
+  "ita.coppa_italia:20261120",
+  "ita.coppa_italia:20261121",
+  "ksa.1:20261118",
+  "ksa.1:20261119",
+  "ksa.1:20261120",
+  "ksa.1:20261121",
+  "mex.1:20261118",
+  "mex.1:20261119",
+  "mex.1:20261120",
+  "mex.1:20261121",
+  "ned.1:20261118",
+  "ned.1:20261119",
+  "ned.1:20261120",
+  "ned.1:20261121",
+  "por.1:20261118",
+  "por.1:20261119",
+  "por.1:20261120",
+  "por.1:20261121",
+  "tur.1:20261118",
+  "tur.1:20261119",
+  "tur.1:20261120",
+  "tur.1:20261121",
+  "uefa.champions:20261117",
+  "uefa.champions:20261118",
+  "uefa.champions:20261119",
+  "uefa.champions:20261120",
+  "uefa.champions:20261121",
+  "uefa.euro:20261118",
+  "uefa.euro:20261119",
+  "uefa.euro:20261120",
+  "uefa.euro:20261121",
+  "uefa.europa.conf:20261118",
+  "uefa.europa.conf:20261119",
+  "uefa.europa.conf:20261120",
+  "uefa.europa.conf:20261121",
+  "uefa.europa:20261118",
+  "uefa.europa:20261119",
+  "uefa.europa:20261120",
+  "uefa.europa:20261121",
+  "uefa.euroq:20261118",
+  "uefa.euroq:20261119",
+  "uefa.euroq:20261120",
+  "uefa.euroq:20261121",
+  "uefa.nations:20261118",
+  "uefa.nations:20261119",
+  "uefa.nations:20261120",
+  "uefa.nations:20261121",
+  "usa.1:20261118",
+  "usa.1:20261119",
+  "usa.1:20261120",
+  "usa.1:20261121"
+ ],
+ "jogos": {
+  "401841308": {
+   "casa": "Vasco",
+   "comp": "brasileirao-a",
+   "fora": "Internacional",
+   "inicio": "2026-11-19T19:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401841309": {
+   "casa": "São Paulo",
+   "comp": "brasileirao-a",
+   "fora": "Fluminense",
+   "inicio": "2026-11-19T21:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401841310": {
+   "casa": "Remo",
+   "comp": "brasileirao-a",
+   "fora": "Chapecoense",
+   "inicio": "2026-11-18T20:00:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401841312": {
+   "casa": "Grêmio",
+   "comp": "brasileirao-a",
+   "fora": "Bahia",
+   "inicio": "2026-11-18T21:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401841313": {
+   "casa": "Flamengo",
+   "comp": "brasileirao-a",
+   "fora": "Athletico-PR",
+   "inicio": "2026-11-18T20:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401841314": {
+   "casa": "Cruzeiro",
+   "comp": "brasileirao-a",
+   "fora": "Palmeiras",
+   "inicio": "2026-11-18T20:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401841315": {
+   "casa": "Coritiba",
+   "comp": "brasileirao-a",
+   "fora": "Santos",
+   "inicio": "2026-11-18T19:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401841316": {
+   "casa": "Corinthians",
+   "comp": "brasileirao-a",
+   "fora": "Botafogo",
+   "inicio": "2026-11-18T21:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401841317": {
+   "casa": "Vitória",
+   "comp": "brasileirao-a",
+   "fora": "Red Bull Bragantino",
+   "inicio": "2026-11-19T19:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401841318": {
+   "casa": "Athletico-PR",
+   "comp": "brasileirao-a",
+   "fora": "Remo",
+   "inicio": "2026-11-22T16:00:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 4,
+    "fora": 2
+   }
+  },
+  "401841321": {
+   "casa": "Red Bull Bragantino",
+   "comp": "brasileirao-a",
+   "fora": "Vasco",
+   "inicio": "2026-11-22T19:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401841322": {
+   "casa": "Palmeiras",
+   "comp": "brasileirao-a",
+   "fora": "Flamengo",
+   "inicio": "2026-11-21T16:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401841324": {
+   "casa": "Fluminense",
+   "comp": "brasileirao-a",
+   "fora": "Mirassol",
+   "inicio": "2026-11-22T18:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401841325": {
+   "casa": "Chapecoense",
+   "comp": "brasileirao-a",
+   "fora": "Cruzeiro",
+   "inicio": "2026-11-21T21:00:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401841327": {
+   "casa": "Bahia",
+   "comp": "brasileirao-a",
+   "fora": "Coritiba",
+   "inicio": "2026-11-21T17:30:00-03:00",
+   "lg": "bra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401874960": {
+   "casa": "Sassuolo",
+   "comp": "serie-a-ita",
+   "fora": "Genoa",
+   "inicio": "2026-11-22T11:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401874967": {
+   "casa": "Parma",
+   "comp": "serie-a-ita",
+   "fora": "Roma",
+   "inicio": "2026-11-21T14:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 1,
+    "fora": 5
+   }
+  },
+  "401874981": {
+   "casa": "Lazio",
+   "comp": "serie-a-ita",
+   "fora": "Lecce",
+   "inicio": "2026-11-21T11:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401874989": {
+   "casa": "Milan",
+   "comp": "serie-a-ita",
+   "fora": "Frosinone",
+   "inicio": "2026-11-22T14:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 5,
+    "fora": 1
+   }
+  },
+  "401875001": {
+   "casa": "Atalanta",
+   "comp": "serie-a-ita",
+   "fora": "Inter de Milão",
+   "inicio": "2026-11-22T16:45:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 4,
+    "fora": 4
+   }
+  },
+  "401875008": {
+   "casa": "Juventus",
+   "comp": "serie-a-ita",
+   "fora": "Venezia",
+   "inicio": "2026-11-22T08:30:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401875047": {
+   "casa": "Bologna",
+   "comp": "serie-a-ita",
+   "fora": "Udinese",
+   "inicio": "2026-11-22T11:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401875056": {
+   "casa": "Como",
+   "comp": "serie-a-ita",
+   "fora": "Cagliari",
+   "inicio": "2026-11-21T11:00:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401875067": {
+   "casa": "Napoli",
+   "comp": "serie-a-ita",
+   "fora": "Torino",
+   "inicio": "2026-11-21T16:45:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401875539": {
+   "casa": "Telstar",
+   "comp": "eredivisie",
+   "fora": "PEC Zwolle",
+   "inicio": "2026-11-21T17:00:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   }
+  },
+  "401875540": {
+   "casa": "Sparta Rotterdam",
+   "comp": "eredivisie",
+   "fora": "AZ Alkmaar",
+   "inicio": "2026-11-22T10:30:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 1,
+    "fora": 5
+   }
+  },
+  "401875541": {
+   "casa": "NEC Nijmegen",
+   "comp": "eredivisie",
+   "fora": "PSV Eindhoven",
+   "inicio": "2026-11-21T12:30:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   }
+  },
+  "401875542": {
+   "casa": "Go Ahead Eagles",
+   "comp": "eredivisie",
+   "fora": "Fortuna Sittard",
+   "inicio": "2026-11-22T12:45:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401875543": {
+   "casa": "Feyenoord Rotterdam",
+   "comp": "eredivisie",
+   "fora": "Excelsior",
+   "inicio": "2026-11-21T14:45:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401875544": {
+   "casa": "FC Utrecht",
+   "comp": "eredivisie",
+   "fora": "SC Cambuur",
+   "inicio": "2026-11-21T14:45:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401875545": {
+   "casa": "FC Twente",
+   "comp": "eredivisie",
+   "fora": "Willem II",
+   "inicio": "2026-11-22T08:15:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401875546": {
+   "casa": "FC Groningen",
+   "comp": "eredivisie",
+   "fora": "Heerenveen",
+   "inicio": "2026-11-21T17:00:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   }
+  },
+  "401875547": {
+   "casa": "Ajax Amsterdam",
+   "comp": "eredivisie",
+   "fora": "ADO Den Haag",
+   "inicio": "2026-11-22T10:30:00-03:00",
+   "lg": "ned.1",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401876395": {
+   "casa": "Troyes",
+   "comp": "ligue1",
+   "fora": "Le Havre AC",
+   "inicio": "2026-11-20T16:45:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401876396": {
+   "casa": "Strasbourg",
+   "comp": "ligue1",
+   "fora": "Brest",
+   "inicio": "2026-11-21T16:45:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401876397": {
+   "casa": "Paris FC",
+   "comp": "ligue1",
+   "fora": "Angers",
+   "inicio": "2026-11-22T11:00:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401876398": {
+   "casa": "Nice",
+   "comp": "ligue1",
+   "fora": "Paris Saint-Germain",
+   "inicio": "2026-11-21T13:15:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401876399": {
+   "casa": "AS Monaco",
+   "comp": "ligue1",
+   "fora": "AJ Auxerre",
+   "inicio": "2026-11-21T16:45:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401876400": {
+   "casa": "Marseille",
+   "comp": "ligue1",
+   "fora": "Le Mans",
+   "inicio": "2026-11-22T16:45:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401876401": {
+   "casa": "Lorient",
+   "comp": "ligue1",
+   "fora": "Stade Rennais",
+   "inicio": "2026-11-22T13:15:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401876402": {
+   "casa": "Lille",
+   "comp": "ligue1",
+   "fora": "Lyon",
+   "inicio": "2026-11-21T16:45:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401876403": {
+   "casa": "Lens",
+   "comp": "ligue1",
+   "fora": "Toulouse",
+   "inicio": "2026-11-21T16:45:00-03:00",
+   "lg": "fra.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401877046": {
+   "casa": "Querétaro",
+   "comp": "ligamx",
+   "fora": "Necaxa",
+   "inicio": "2026-11-22T22:10:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401877047": {
+   "casa": "Guadalajara",
+   "comp": "ligamx",
+   "fora": "Cruz Azul",
+   "inicio": "2026-11-22T20:07:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401877048": {
+   "casa": "Tigres UANL",
+   "comp": "ligamx",
+   "fora": "América",
+   "inicio": "2026-11-22T00:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401877049": {
+   "casa": "Pumas UNAM",
+   "comp": "ligamx",
+   "fora": "Monterrey",
+   "inicio": "2026-11-21T22:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401877050": {
+   "casa": "Pachuca",
+   "comp": "ligamx",
+   "fora": "Toluca",
+   "inicio": "2026-11-21T19:50:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401877051": {
+   "casa": "Santos Laguna",
+   "comp": "ligamx",
+   "fora": "León",
+   "inicio": "2026-11-21T20:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401877052": {
+   "casa": "Tijuana",
+   "comp": "ligamx",
+   "fora": "Atlante",
+   "inicio": "2026-11-21T00:10:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401877053": {
+   "casa": "FC Juárez",
+   "comp": "ligamx",
+   "fora": "Atlas",
+   "inicio": "2026-11-21T00:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 3,
+    "fora": 3
+   }
+  },
+  "401877054": {
+   "casa": "Puebla",
+   "comp": "ligamx",
+   "fora": "Atlético de San Luis",
+   "inicio": "2026-11-20T22:00:00-03:00",
+   "lg": "mex.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401878754": {
+   "casa": "Tottenham",
+   "comp": "premier",
+   "fora": "Ipswich Town",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401878755": {
+   "casa": "Liverpool",
+   "comp": "premier",
+   "fora": "Manchester United",
+   "inicio": "2026-11-22T13:30:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401878756": {
+   "casa": "Aston Villa",
+   "comp": "premier",
+   "fora": "Sunderland",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401879232": {
+   "casa": "Newcastle",
+   "comp": "premier",
+   "fora": "Arsenal",
+   "inicio": "2026-11-21T14:30:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401879233": {
+   "casa": "Manchester City",
+   "comp": "premier",
+   "fora": "Fulham",
+   "inicio": "2026-11-21T09:30:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401879234": {
+   "casa": "Hull City",
+   "comp": "premier",
+   "fora": "Brighton",
+   "inicio": "2026-11-22T11:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401879235": {
+   "casa": "Coventry City",
+   "comp": "premier",
+   "fora": "Crystal Palace",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401879236": {
+   "casa": "Chelsea",
+   "comp": "premier",
+   "fora": "Leeds",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   }
+  },
+  "401879238": {
+   "casa": "Bournemouth",
+   "comp": "premier",
+   "fora": "Nottingham Forest",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401880149": {
+   "casa": "Wolverhampton Wanderers",
+   "comp": "championship",
+   "fora": "Charlton Athletic",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401880150": {
+   "casa": "West Ham United",
+   "comp": "championship",
+   "fora": "Preston North End",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401880151": {
+   "casa": "Swansea City",
+   "comp": "championship",
+   "fora": "West Bromwich Albion",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401880152": {
+   "casa": "Stoke City",
+   "comp": "championship",
+   "fora": "Birmingham City",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401880153": {
+   "casa": "Southampton",
+   "comp": "championship",
+   "fora": "Derby County",
+   "inicio": "2026-11-21T09:30:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401880154": {
+   "casa": "Sheffield United",
+   "comp": "championship",
+   "fora": "Watford",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401880155": {
+   "casa": "Norwich City",
+   "comp": "championship",
+   "fora": "Cardiff City",
+   "inicio": "2026-11-21T09:30:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401880156": {
+   "casa": "Millwall",
+   "comp": "championship",
+   "fora": "Queens Park Rangers",
+   "inicio": "2026-11-21T09:30:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401880157": {
+   "casa": "Middlesbrough",
+   "comp": "championship",
+   "fora": "Bristol City",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401880158": {
+   "casa": "Lincoln City",
+   "comp": "championship",
+   "fora": "Wrexham",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401880159": {
+   "casa": "Burnley",
+   "comp": "championship",
+   "fora": "Blackburn Rovers",
+   "inicio": "2026-11-22T09:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401880160": {
+   "casa": "Bolton Wanderers",
+   "comp": "championship",
+   "fora": "Portsmouth",
+   "inicio": "2026-11-21T12:00:00-03:00",
+   "lg": "eng.2",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401882797": {
+   "casa": "Sevilla",
+   "comp": "laliga",
+   "fora": "Real Betis",
+   "inicio": "2026-11-21T14:30:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401882798": {
+   "casa": "Real Madrid",
+   "comp": "laliga",
+   "fora": "Celta Vigo",
+   "inicio": "2026-11-21T17:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401882799": {
+   "casa": "Rayo Vallecano",
+   "comp": "laliga",
+   "fora": "Valencia",
+   "inicio": "2026-11-21T12:15:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401882800": {
+   "casa": "Racing Santander",
+   "comp": "laliga",
+   "fora": "Real Sociedad",
+   "inicio": "2026-11-22T12:15:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401882801": {
+   "casa": "Osasuna",
+   "comp": "laliga",
+   "fora": "Málaga",
+   "inicio": "2026-11-22T14:30:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401882803": {
+   "casa": "Getafe",
+   "comp": "laliga",
+   "fora": "Atlético de Madrid",
+   "inicio": "2026-11-22T17:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401882804": {
+   "casa": "Barcelona",
+   "comp": "laliga",
+   "fora": "Villarreal",
+   "inicio": "2026-11-22T10:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401882805": {
+   "casa": "Athletic Club",
+   "comp": "laliga",
+   "fora": "Espanyol",
+   "inicio": "2026-11-20T17:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401882806": {
+   "casa": "Alavés",
+   "comp": "laliga",
+   "fora": "Deportivo",
+   "inicio": "2026-11-21T10:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401884728": {
+   "casa": "SV Elversberg",
+   "comp": "bundesliga",
+   "fora": "SC Freiburg",
+   "inicio": "2026-11-21T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401884729": {
+   "casa": "Schalke 04",
+   "comp": "bundesliga",
+   "fora": "VfB Stuttgart",
+   "inicio": "2026-11-21T14:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401884730": {
+   "casa": "Werder Bremen",
+   "comp": "bundesliga",
+   "fora": "Hamburg SV",
+   "inicio": "2026-11-22T13:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401884731": {
+   "casa": "Borussia Mönchengladbach",
+   "comp": "bundesliga",
+   "fora": "Borussia Dortmund",
+   "inicio": "2026-11-21T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401884732": {
+   "casa": "1. FC Union Berlin",
+   "comp": "bundesliga",
+   "fora": "RB Leipzig",
+   "inicio": "2026-11-21T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 1,
+    "fora": 5
+   }
+  },
+  "401884733": {
+   "casa": "FC Augsburg",
+   "comp": "bundesliga",
+   "fora": "Mainz",
+   "inicio": "2026-11-22T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401884734": {
+   "casa": "Eintracht Frankfurt",
+   "comp": "bundesliga",
+   "fora": "TSG Hoffenheim",
+   "inicio": "2026-11-21T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401884735": {
+   "casa": "Bayer Leverkusen",
+   "comp": "bundesliga",
+   "fora": "SC Paderborn 07",
+   "inicio": "2026-11-21T11:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401884736": {
+   "casa": "Bayern de Munique",
+   "comp": "bundesliga",
+   "fora": "FC Cologne",
+   "inicio": "2026-11-20T16:30:00-03:00",
+   "lg": "ger.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401888243": {
+   "casa": "Erzurum BB",
+   "comp": "turquia",
+   "fora": "Goztepe",
+   "inicio": "2026-11-22T07:30:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401888244": {
+   "casa": "Kocaelispor",
+   "comp": "turquia",
+   "fora": "Fenerbahce",
+   "inicio": "2026-11-21T13:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401888245": {
+   "casa": "Galatasaray",
+   "comp": "turquia",
+   "fora": "Samsunspor",
+   "inicio": "2026-11-21T10:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401888246": {
+   "casa": "Konyaspor",
+   "comp": "turquia",
+   "fora": "Besiktas",
+   "inicio": "2026-11-22T10:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 2,
+    "fora": 4
+   }
+  },
+  "401888247": {
+   "casa": "Genclerbirligi",
+   "comp": "turquia",
+   "fora": "Gaziantep FK",
+   "inicio": "2026-11-21T07:30:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401888248": {
+   "casa": "Kasimpasa",
+   "comp": "turquia",
+   "fora": "Alanyaspor",
+   "inicio": "2026-11-22T10:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401888249": {
+   "casa": "Trabzonspor",
+   "comp": "turquia",
+   "fora": "Eyupspor",
+   "inicio": "2026-11-22T13:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401888369": {
+   "casa": "Amed SFK",
+   "comp": "turquia",
+   "fora": "Caykur Rizespor",
+   "inicio": "2026-11-21T10:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401900905": {
+   "casa": "Al Ahli",
+   "comp": "saudita",
+   "fora": "Al Nassr",
+   "inicio": "2026-11-20T14:30:00-03:00",
+   "lg": "ksa.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401912682": {
+   "casa": "Criciúma",
+   "comp": "brasileirao-b",
+   "fora": "Fortaleza",
+   "inicio": "2026-11-22T16:00:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401912708": {
+   "casa": "Atlético-GO",
+   "comp": "brasileirao-b",
+   "fora": "Vila Nova",
+   "inicio": "2026-11-22T18:30:00-03:00",
+   "lg": "bra.2",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401913961": {
+   "casa": "Atlético-MG",
+   "comp": "sul-americana",
+   "fora": "Boca Juniors",
+   "inicio": "2026-11-21T19:30:00-03:00",
+   "lg": "conmebol.sudamericana",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401916335": {
+   "casa": "Singapura",
+   "comp": "amistoso",
+   "fora": "Brasil",
+   "inicio": "2026-11-17T07:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 7
+   }
+  },
+  "401916336": {
+   "casa": "Japão",
+   "comp": "amistoso",
+   "fora": "Paraguai",
+   "inicio": "2026-11-17T10:10:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401919974": {
+   "casa": "Jordânia",
+   "comp": "amistoso",
+   "fora": "Austrália",
+   "inicio": "2026-11-17T13:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401921304": {
+   "casa": "Chile",
+   "comp": "amistoso",
+   "fora": "Colômbia",
+   "inicio": "2026-11-17T20:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401928497": {
+   "casa": "Utebo",
+   "comp": "copa-do-rei",
+   "fora": "CD Sabadell",
+   "inicio": "2026-11-18T15:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401928500": {
+   "casa": "Reus FC Reddis",
+   "comp": "copa-do-rei",
+   "fora": "Barakaldo",
+   "inicio": "2026-11-18T16:30:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "pen": [
+    4,
+    3
+   ],
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401928505": {
+   "casa": "Alcoyano",
+   "comp": "copa-do-rei",
+   "fora": "Mallorca",
+   "inicio": "2026-11-18T16:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   }
+  },
+  "401928518": {
+   "casa": "Portugalete",
+   "comp": "copa-do-rei",
+   "fora": "Real Unión Irun",
+   "inicio": "2026-11-18T15:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "pen": [
+    4,
+    1
+   ],
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401928524": {
+   "casa": "CD Minera",
+   "comp": "copa-do-rei",
+   "fora": "FC Cartagena",
+   "inicio": "2026-11-18T16:30:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401928532": {
+   "casa": "Badajoz",
+   "comp": "copa-do-rei",
+   "fora": "Tenerife",
+   "inicio": "2026-11-18T16:00:00-03:00",
+   "lg": "esp.copa_del_rey",
+   "placar": {
+    "casa": 2,
+    "fora": 5
+   }
+  },
+  "401930237": {
+   "casa": "Malaysia",
+   "comp": "amistoso",
+   "fora": "Yemen",
+   "inicio": "2026-11-17T03:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401930242": {
+   "casa": "Kyrgyz Republic",
+   "comp": "amistoso",
+   "fora": "Vietnam",
+   "inicio": "2026-11-17T09:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401930880": {
+   "casa": "China",
+   "comp": "amistoso",
+   "fora": "Bahrain",
+   "inicio": "2026-11-17T09:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401930895": {
+   "casa": "Argentina",
+   "comp": "amistoso",
+   "fora": "Costa Rica",
+   "inicio": "2026-11-17T20:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 7,
+    "fora": 0
+   }
+  },
+  "401930899": {
+   "casa": "Equador",
+   "comp": "amistoso",
+   "fora": "Bolívia",
+   "inicio": "2026-11-17T20:30:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401930978": {
+   "casa": "Russia",
+   "comp": "amistoso",
+   "fora": "Venezuela",
+   "inicio": "2026-11-17T13:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401931477": {
+   "casa": "Catar",
+   "comp": "amistoso",
+   "fora": "Coreia do Sul",
+   "inicio": "2026-11-17T11:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401931495": {
+   "casa": "Arábia Saudita",
+   "comp": "amistoso",
+   "fora": "Uzbequistão",
+   "inicio": "2026-11-17T12:30:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401931956": {
+   "casa": "Kuwait",
+   "comp": "amistoso",
+   "fora": "Honduras",
+   "inicio": "2026-11-17T13:30:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401932215": {
+   "casa": "Uruguai",
+   "comp": "amistoso",
+   "fora": "República Dominicana",
+   "inicio": "2026-11-17T20:30:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 5,
+    "fora": 0
+   }
+  },
+  "401932718": {
+   "casa": "Emirados Árabes",
+   "comp": "amistoso",
+   "fora": "Syria",
+   "inicio": "2026-11-17T11:10:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 4,
+    "fora": 2
+   }
+  },
+  "401933535": {
+   "casa": "Orlando City SC",
+   "comp": "mls",
+   "fora": "FC Cincinnati",
+   "inicio": "2026-11-19T21:30:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 1,
+    "fora": 3
+   }
+  },
+  "401933555": {
+   "casa": "Seattle Sounders FC",
+   "comp": "mls",
+   "fora": "Real Salt Lake",
+   "inicio": "2026-11-20T00:00:00-03:00",
+   "lg": "usa.1",
+   "pen": [
+    2,
+    4
+   ],
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401933615": {
+   "casa": "Iraque",
+   "comp": "amistoso",
+   "fora": "Irã",
+   "inicio": "2026-11-17T13:15:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
+  "401933635": {
+   "casa": "Lebanon",
+   "comp": "amistoso",
+   "fora": "Palestine",
+   "inicio": "2026-11-17T10:00:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
+  "401933729": {
+   "casa": "Vancouver Whitecaps",
+   "comp": "mls",
+   "fora": "Real Salt Lake",
+   "inicio": "2026-11-22T22:30:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401933730": {
+   "casa": "Chicago Fire FC",
+   "comp": "mls",
+   "fora": "Charlotte FC",
+   "inicio": "2026-11-22T20:30:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401933731": {
+   "casa": "Nashville SC",
+   "comp": "mls",
+   "fora": "FC Cincinnati",
+   "inicio": "2026-11-22T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401933732": {
+   "casa": "FC Dallas",
+   "comp": "mls",
+   "fora": "Portland Timbers",
+   "inicio": "2026-11-21T18:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
+  "401933733": {
+   "casa": "New England Revolution",
+   "comp": "mls",
+   "fora": "Philadelphia Union",
+   "inicio": "2026-11-21T16:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401933739": {
+   "casa": "Inter Miami CF",
+   "comp": "mls",
+   "fora": "Columbus Crew",
+   "inicio": "2026-11-21T20:00:00-03:00",
+   "lg": "usa.1",
+   "placar": {
+    "casa": 0,
+    "fora": 3
+   }
+  },
+  "401933755": {
+   "casa": "Argentinos Juniors",
+   "comp": "argentina",
+   "fora": "Independiente",
+   "inicio": "2026-11-21T17:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401933758": {
+   "casa": "Defensa y Justicia",
+   "comp": "argentina",
+   "fora": "Barracas Central",
+   "inicio": "2026-11-21T15:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
+  "401933759": {
+   "casa": "Rosario Central",
+   "comp": "argentina",
+   "fora": "Gimnasia (Mendoza)",
+   "inicio": "2026-11-22T16:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401933760": {
+   "casa": "Vélez Sarsfield",
+   "comp": "argentina",
+   "fora": "Belgrano (Córdoba)",
+   "inicio": "2026-11-20T20:00:00-03:00",
+   "lg": "arg.1",
+   "pen": [
+    3,
+    1
+   ],
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401933761": {
+   "casa": "River Plate",
+   "comp": "argentina",
+   "fora": "Lanús",
+   "inicio": "2026-11-22T19:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
+  "401933762": {
+   "casa": "Instituto (Córdoba)",
+   "comp": "argentina",
+   "fora": "Huracán",
+   "inicio": "2026-11-22T22:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401933879": {
+   "casa": "Tahiti",
+   "comp": "amistoso",
+   "fora": "Cook Islands",
+   "inicio": "2026-11-17T02:30:00-03:00",
+   "lg": "fifa.friendly",
+   "placar": {
+    "casa": 3,
+    "fora": 3
+   }
+  }
+ }
+}

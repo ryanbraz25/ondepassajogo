@@ -7582,5 +7582,509 @@
   "lg": "arg.1",
   "local": "José Amalfitani, Buenos Aires",
   "status": "a_confirmar"
+ },
+ "espn:401936397": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Alavés": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+   "Gimnástica Torrelavega": ""
+  },
+  "canais": [],
+  "casa": "Gimnástica Torrelavega",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936397",
+  "fora": "Alavés",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "El Malecon, Torrelavega",
+  "status": "a_confirmar"
+ },
+ "espn:401936398": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Sestao": "",
+   "Villarreal": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
+  },
+  "canais": [],
+  "casa": "Sestao",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936398",
+  "fora": "Villarreal",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Las Llanas, Sestao",
+  "status": "a_confirmar"
+ },
+ "espn:401936399": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Athletic Club": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "Numancia": "https://a.espncdn.com/i/teamlogos/soccer/500/100.png"
+  },
+  "canais": [],
+  "casa": "Numancia",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936399",
+  "fora": "Athletic Club",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Los Pajaritos, Soria",
+  "status": "a_confirmar"
+ },
+ "espn:401936400": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "CE Europa": "",
+   "Rayo Vallecano": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png"
+  },
+  "canais": [],
+  "casa": "CE Europa",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936400",
+  "fora": "Rayo Vallecano",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Camp Municipal de Futbol Nou Sardenya, Barcelona",
+  "status": "a_confirmar"
+ },
+ "espn:401936401": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Racing Santander": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+   "Reus FC Reddis": ""
+  },
+  "canais": [],
+  "casa": "Reus FC Reddis",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936401",
+  "fora": "Racing Santander",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Camp Nou Municipal, Reus",
+  "status": "a_confirmar"
+ },
+ "espn:401936402": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "CD Sabadell": "https://a.espncdn.com/i/teamlogos/soccer/500/11487.png",
+   "Sporting Gijón": "https://a.espncdn.com/i/teamlogos/soccer/500/3788.png"
+  },
+  "canais": [],
+  "casa": "CD Sabadell",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936402",
+  "fora": "Sporting Gijón",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Estadi Municipal de la Nova Creu Alta, Sabadell",
+  "status": "a_confirmar"
+ },
+ "espn:401936403": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Leganés": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
+   "Mirandés": "https://a.espncdn.com/i/teamlogos/soccer/500/4515.png"
+  },
+  "canais": [],
+  "casa": "Mirandés",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936403",
+  "fora": "Leganés",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Estadio Municipal de Anduva, Miranda de Ebro",
+  "status": "a_confirmar"
+ },
+ "espn:401936404": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Real Valladolid": "https://a.espncdn.com/i/teamlogos/soccer/500/95.png",
+   "Zamora CF": ""
+  },
+  "canais": [],
+  "casa": "Zamora CF",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936404",
+  "fora": "Real Valladolid",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "",
+  "status": "a_confirmar"
+ },
+ "espn:401936405": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Castellón": "https://a.espncdn.com/i/teamlogos/soccer/500/4438.png",
+   "Cultural Leonesa": "https://a.espncdn.com/i/teamlogos/soccer/500/10629.png"
+  },
+  "canais": [],
+  "casa": "Cultural Leonesa",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936405",
+  "fora": "Castellón",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Estadio Reino de León, León",
+  "status": "a_confirmar"
+ },
+ "espn:401936406": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "CD Extremadura": "",
+   "Real Betis": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
+  },
+  "canais": [],
+  "casa": "CD Extremadura",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936406",
+  "fora": "Real Betis",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Francisco de la Hera, Almendralejo",
+  "status": "a_confirmar"
+ },
+ "espn:401936407": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Coria": "",
+   "Málaga": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
+  },
+  "canais": [],
+  "casa": "Coria",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936407",
+  "fora": "Málaga",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "",
+  "status": "a_confirmar"
+ },
+ "espn:401936408": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Elche": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+   "FC Cartagena": "https://a.espncdn.com/i/teamlogos/soccer/500/5419.png"
+  },
+  "canais": [],
+  "casa": "FC Cartagena",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936408",
+  "fora": "Elche",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Estadio Cartagonova, Cartagena",
+  "status": "a_confirmar"
+ },
+ "espn:401936409": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Atlético Paso": "",
+   "Sevilla": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+  },
+  "canais": [],
+  "casa": "Atlético Paso",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936409",
+  "fora": "Sevilla",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Campo Municipal de El Paso, El Paso",
+  "status": "a_confirmar"
+ },
+ "espn:401936410": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Real Jaen CF": "",
+   "Valencia": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
+  },
+  "canais": [],
+  "casa": "Real Jaen CF",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936410",
+  "fora": "Valencia",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Nuevo Estadio Municipal de La Victoria, Jaén",
+  "status": "a_confirmar"
+ },
+ "espn:401936411": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Antequera CF": "",
+   "Levante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
+  },
+  "canais": [],
+  "casa": "Antequera CF",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936411",
+  "fora": "Levante",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Estadio El Maulí, Antequera",
+  "status": "a_confirmar"
+ },
+ "espn:401936412": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Ceuta": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png",
+   "Cádiz": "https://a.espncdn.com/i/teamlogos/soccer/500/3842.png"
+  },
+  "canais": [],
+  "casa": "Ceuta",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936412",
+  "fora": "Cádiz",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Estadio Alfonso Murube, Ceuta",
+  "status": "a_confirmar"
+ },
+ "espn:401936415": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Deportivo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+   "Portugalete": ""
+  },
+  "canais": [],
+  "casa": "Portugalete",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936415",
+  "fora": "Deportivo",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "La Florida, Portugalete",
+  "status": "a_confirmar"
+ },
+ "espn:401936416": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Arosa": "",
+   "Celta Vigo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+  },
+  "canais": [],
+  "casa": "Arosa",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936416",
+  "fora": "Celta Vigo",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Estadio de A Lomba, Villagarcía de Arosa",
+  "status": "a_confirmar"
+ },
+ "espn:401936417": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Girona": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
+   "Huesca": "https://a.espncdn.com/i/teamlogos/soccer/500/5413.png"
+  },
+  "canais": [],
+  "casa": "Huesca",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936417",
+  "fora": "Girona",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Estadio El Alcoraz, Huesca",
+  "status": "a_confirmar"
+ },
+ "espn:401936418": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Amorebieta": "https://a.espncdn.com/i/teamlogos/soccer/500/12587.png",
+   "Osasuna": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
+  },
+  "canais": [],
+  "casa": "Amorebieta",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936418",
+  "fora": "Osasuna",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Urritxe, Amorebieta",
+  "status": "a_confirmar"
+ },
+ "espn:401936419": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Burgos": "https://a.espncdn.com/i/teamlogos/soccer/500/12597.png",
+   "Real Zaragoza": "https://a.espncdn.com/i/teamlogos/soccer/500/91.png"
+  },
+  "canais": [],
+  "casa": "Real Zaragoza",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936419",
+  "fora": "Burgos",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Ibercaja Estadio, Zaragoza",
+  "status": "a_confirmar"
+ },
+ "espn:401936420": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Getafe": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+   "Real Ávila": ""
+  },
+  "canais": [],
+  "casa": "Real Ávila",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936420",
+  "fora": "Getafe",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Municipal Adolfo Suárez, Ávila",
+  "status": "a_confirmar"
+ },
+ "espn:401936421": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Mallorca": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
+   "Rayo Majadahonda": "https://a.espncdn.com/i/teamlogos/soccer/500/9028.png"
+  },
+  "canais": [],
+  "casa": "Rayo Majadahonda",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936421",
+  "fora": "Mallorca",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Cerro del Espino, Madrid",
+  "status": "a_confirmar"
+ },
+ "espn:401936422": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "FC Andorra": "https://a.espncdn.com/i/teamlogos/soccer/500/20179.png",
+   "Ponferradina": "https://a.espncdn.com/i/teamlogos/soccer/500/5463.png"
+  },
+  "canais": [],
+  "casa": "Ponferradina",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936422",
+  "fora": "FC Andorra",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "El Toralín, Ponferrada",
+  "status": "a_confirmar"
+ },
+ "espn:401936423": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Eibar": "https://a.espncdn.com/i/teamlogos/soccer/500/3752.png",
+   "Sant Andreu": ""
+  },
+  "canais": [],
+  "casa": "Sant Andreu",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936423",
+  "fora": "Eibar",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Narcís Sala, Barcelona",
+  "status": "a_confirmar"
+ },
+ "espn:401936424": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Albacete": "https://a.espncdn.com/i/teamlogos/soccer/500/2737.png",
+   "Las Palmas": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png"
+  },
+  "canais": [],
+  "casa": "Albacete",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936424",
+  "fora": "Las Palmas",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Carlos Belmonte, Albacete",
+  "status": "a_confirmar"
+ },
+ "espn:401936425": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Almería": "https://a.espncdn.com/i/teamlogos/soccer/500/6832.png",
+   "Granada": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png"
+  },
+  "canais": [],
+  "casa": "Almería",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936425",
+  "fora": "Granada",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Power Horse Stadium, Almería",
+  "status": "a_confirmar"
+ },
+ "espn:401936433": {
+  "_d": "20261202",
+  "_liga": "esp.copa_del_rey",
+  "_logos": {
+   "Eldense": "https://a.espncdn.com/i/teamlogos/soccer/500/7320.png",
+   "Tenerife": "https://a.espncdn.com/i/teamlogos/soccer/500/245.png"
+  },
+  "canais": [],
+  "casa": "Eldense",
+  "comp": "copa-do-rei",
+  "ed": "20261202",
+  "eid": "401936433",
+  "fora": "Tenerife",
+  "inicio": "2026-12-02T17:00:00-03:00",
+  "lg": "esp.copa_del_rey",
+  "local": "Estadio Municipal Nuevo Pepico Amat, Elda",
+  "status": "a_confirmar"
  }
 }

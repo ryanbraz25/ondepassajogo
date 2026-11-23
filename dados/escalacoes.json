@@ -1,0 +1,277 @@
+{
+ "401888370": {
+  "achada": "2026-11-23T14:10-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "10",
+     "nome": "E. Visca",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "4",
+     "nome": "O. Ergün",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "O. Bulut",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "91",
+     "nome": "B. Yildirim",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "U. Günes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "U. Bozok",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "42",
+     "nome": "O. Sahiner",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "25",
+     "nome": "Ö. Doğan",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "98",
+     "nome": "D. Dilmen",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "B. Özcan",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "16",
+     "nome": "M. Sengezer",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "33",
+     "nome": "M. Karbownik",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "38",
+     "nome": "S. Kharebashvili",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "18",
+     "nome": "J. Kaluzinski",
+     "pos": "ME"
+    },
+    {
+     "fp": 5,
+     "n": "23",
+     "nome": "E. Bayram",
+     "pos": "ZCD"
+    },
+    {
+     "fp": 6,
+     "n": "3",
+     "nome": "J. Opoku",
+     "pos": "ZE"
+    },
+    {
+     "fp": 7,
+     "n": "70",
+     "nome": "A. Skov Olsen",
+     "pos": "MD"
+    },
+    {
+     "fp": 8,
+     "n": "8",
+     "nome": "O. Kemen",
+     "pos": "MD"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "D. Selke",
+     "pos": "A"
+    },
+    {
+     "fp": 10,
+     "n": "14",
+     "nome": "E. Shomurodov",
+     "pos": "MA"
+    },
+    {
+     "fp": 11,
+     "n": "77",
+     "nome": "I. Brnic",
+     "pos": "ME"
+    }
+   ]
+  },
+  "comp": "turquia",
+  "completa": false,
+  "fora": {
+   "esquema": "4-1-4-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "E. Gürlük",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "88",
+     "nome": "C. Sertel",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "A. Ildiz",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "28",
+     "nome": "A. Akkaynak",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "Marcos Felipe",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "Fredy",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "26",
+     "nome": "E. Mahmic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "H. Bulut",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "4",
+     "nome": "S. Saatci",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "Y. Moukoko",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "18",
+     "nome": "E. Erentürk",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "5",
+     "nome": "A. Penetra",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "24",
+     "nome": "A. Borza",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "20",
+     "nome": "Y. Ramadani",
+     "pos": "MD"
+    },
+    {
+     "fp": 5,
+     "n": "2",
+     "nome": "Ç. Söyüncü",
+     "pos": "ZCD"
+    },
+    {
+     "fp": 6,
+     "n": "6",
+     "nome": "H. Smolcic",
+     "pos": "ZE"
+    },
+    {
+     "fp": 7,
+     "n": "21",
+     "nome": "G. Gurpuz",
+     "pos": "MD"
+    },
+    {
+     "fp": 8,
+     "n": "8",
+     "nome": "M. Karlsbakk",
+     "pos": "MC"
+    },
+    {
+     "fp": 9,
+     "n": "19",
+     "nome": "J. Ramírez",
+     "pos": "A"
+    },
+    {
+     "fp": 10,
+     "n": "10",
+     "nome": "M. Diomande",
+     "pos": "MCE"
+    },
+    {
+     "fp": 11,
+     "n": "89",
+     "nome": "A. Kyziridis",
+     "pos": "ME"
+    }
+   ]
+  },
+  "inicio": "2026-11-23T14:00:00-03:00",
+  "pg": "",
+  "time_casa": "Istanbul Basaksehir",
+  "time_fora": "Çorum FK"
+ }
+}
