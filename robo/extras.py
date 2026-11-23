@@ -22,7 +22,7 @@ SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/{}/scoreboard
 SUMMARY = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/{}/summary?event={}&region=br&lang=pt"
 DIAS_HIST = 75          # quanto do passado buscar (preenchido aos poucos)
 GUARDA_HIST = 200       # quanto guardar
-CONSULTAS_POR_RODADA = 400
+CONSULTAS_POR_RODADA = 4000
 
 
 def log(*a):
@@ -174,20 +174,28 @@ def historico(cfg, nome, get_json, jogos, offline=False):
             for comp, c, liga in ligas(cfg):
                 if f"{liga}:{d}" not in feitos:
                     pend.append((comp, liga, d))
-        n = 0
-        for comp, liga, d in pend[:CONSULTAS_POR_RODADA]:
+        # busca em paralelo (8 de cada vez): o histórico inteiro sai numa rodada só
+        from concurrent.futures import ThreadPoolExecutor
+
+        def busca(item):
+            comp, liga, d = item
             try:
-                r = get_json(SCOREBOARD.format(liga, d))
+                return item, get_json(SCOREBOARD.format(liga, d))
             except Exception as e:
                 log("histórico falhou:", liga, d, e)
-                continue
-            for ev in r.get("events") or []:
-                x = _resultado(cfg, nome, comp, liga, ev)
-                if x:
-                    h["jogos"][str(ev.get("id"))] = x
-            feitos.add(f"{liga}:{d}")
-            n += 1
-            time.sleep(0.15)
+                return item, None
+
+        n = 0
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            for (comp, liga, d), r in ex.map(busca, pend[:CONSULTAS_POR_RODADA]):
+                if r is None:
+                    continue  # tenta de novo na próxima rodada
+                for ev in r.get("events") or []:
+                    x = _resultado(cfg, nome, comp, liga, ev)
+                    if x:
+                        h["jogos"][str(ev.get("id"))] = x
+                feitos.add(f"{liga}:{d}")
+                n += 1
         log(f"histórico: {n} dias consultados, faltam {max(0, len(pend) - n)}")
     corte = (datetime.now(BRT) - timedelta(days=GUARDA_HIST)).isoformat()
     h["jogos"] = {k: v for k, v in h["jogos"].items() if v["inicio"] >= corte}
