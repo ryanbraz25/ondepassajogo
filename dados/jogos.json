@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T20:09:55-03:00",
+ "atualizado": "2026-11-22T21:06:31-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1998,6 +1998,10 @@
    "eid": "401933731",
    "lg": "usa.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "pg": "/jogo/nashville-sc-x-fc-cincinnati-22-11-2026/"
   },
   {
@@ -2013,6 +2017,10 @@
    "eid": "401912708",
    "lg": "bra.2",
    "ed": "20261122",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "pg": "/jogo/atletico-go-x-vila-nova-22-11-2026/"
   },
   {
@@ -2030,6 +2038,10 @@
    "eid": "401841324",
    "lg": "bra.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "rodada": "36ª rodada",
    "pg": "/jogo/fluminense-x-mirassol-22-11-2026/"
   },
@@ -2046,6 +2058,10 @@
    "eid": "401933761",
    "lg": "arg.1",
    "ed": "20261122",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   },
    "pg": "/jogo/river-plate-x-lanus-22-11-2026/"
   },
   {

@@ -7,18 +7,18 @@
 },
 "/campeonato/argentina/": {
 "dia": "",
-"h": "b11c6937e215093c",
-"mod": "2026-11-22T19:13-03:00"
+"h": "caa830b9589e697c",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/campeonato/brasileirao-a/": {
 "dia": "",
-"h": "5273dff7e1442a8a",
-"mod": "2026-11-22T19:13-03:00"
+"h": "d204c2ffa9d7c703",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/campeonato/brasileirao-b/": {
 "dia": "",
-"h": "a41c55e252069914",
-"mod": "2026-11-22T19:13-03:00"
+"h": "ed9baea364ef80f3",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/campeonato/bundesliga/": {
 "dia": "",
@@ -122,8 +122,8 @@
 },
 "/campeonato/mls/": {
 "dia": "",
-"h": "5d7b6cb382a34ce7",
-"mod": "2026-11-21T22:12-03:00"
+"h": "b2f4cebbf42db702",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/campeonato/mundial/": {
 "dia": "",
@@ -432,8 +432,8 @@
 },
 "/jogo/athletico-pr-x-remo-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "5f3d141e6cae3c07",
-"mod": "2026-11-22T19:13-03:00"
+"h": "a95e3ba48f00ca05",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/athletico-pr-x-sao-paulo-02-12-2026/": {
 "dia": "2026-12-02",
@@ -452,8 +452,8 @@
 },
 "/jogo/atletico-go-x-vila-nova-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "993efde09f64e170",
-"mod": "2026-11-22T19:13-03:00"
+"h": "4d0582cb96da97c1",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/atletico-mg-x-boca-juniors-21-11-2026/": {
 "dia": "2026-11-21",
@@ -797,8 +797,8 @@
 },
 "/jogo/chicago-fire-fc-x-charlotte-fc-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "0363899dd73d42f8",
-"mod": "2026-11-20T08:23-03:00"
+"h": "2303425f95c417b3",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/chile-x-colombia-17-11-2026/": {
 "dia": "2026-11-17",
@@ -882,8 +882,8 @@
 },
 "/jogo/criciuma-x-fortaleza-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "133134e625bdb7da",
-"mod": "2026-11-22T19:13-03:00"
+"h": "9886f6aedf936b21",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/cruzeiro-x-internacional-02-12-2026/": {
 "dia": "2026-12-02",
@@ -1127,8 +1127,8 @@
 },
 "/jogo/fluminense-x-mirassol-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "e3c7b14b92b5ce59",
-"mod": "2026-11-22T19:13-03:00"
+"h": "7271950c7bf24b67",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/fortaleza-x-criciuma-28-11-2026/": {
 "dia": "2026-11-28",
@@ -1302,8 +1302,8 @@
 },
 "/jogo/instituto-cordoba-x-huracan-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "d76dd7d0e2a6d0b9",
-"mod": "2026-11-22T19:13-03:00"
+"h": "b06e298af88d796e",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/inter-d-escaldes-x-f-c-kbenhavn-26-11-2026/": {
 "dia": "2026-11-26",
@@ -1662,8 +1662,8 @@
 },
 "/jogo/nashville-sc-x-fc-cincinnati-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "65ba6f4260250b1f",
-"mod": "2026-11-20T08:23-03:00"
+"h": "138997b8f5fcfc68",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/nec-nijmegen-x-fc-twente-29-11-2026/": {
 "dia": "2026-11-29",
@@ -1982,8 +1982,8 @@
 },
 "/jogo/red-bull-bragantino-x-vasco-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "090d6ebea7c14f9f",
-"mod": "2026-11-22T19:13-03:00"
+"h": "f433bd89df45b574",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/remo-x-chapecoense-18-11-2026/": {
 "dia": "2026-11-18",
@@ -2007,8 +2007,8 @@
 },
 "/jogo/river-plate-x-lanus-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "101c8ddaf24b78b2",
-"mod": "2026-11-22T19:13-03:00"
+"h": "fb27dd9f17fa4e42",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/rochdale-x-newport-county-05-12-2026/": {
 "dia": "2026-12-05",
@@ -2022,8 +2022,8 @@
 },
 "/jogo/rosario-central-x-gimnasia-mendoza-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "d3ca21ffb33e9c93",
-"mod": "2026-11-22T19:13-03:00"
+"h": "0386da0a5b14178b",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/rotherham-united-x-bristol-rovers-05-12-2026/": {
 "dia": "2026-12-05",
@@ -2422,8 +2422,8 @@
 },
 "/jogo/vancouver-whitecaps-x-real-salt-lake-22-11-2026/": {
 "dia": "2026-11-22",
-"h": "3393390e6c989f53",
-"mod": "2026-11-20T08:23-03:00"
+"h": "fb02abd1d9e245e0",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/jogo/vasco-x-internacional-19-11-2026/": {
 "dia": "2026-11-19",
@@ -2572,8 +2572,8 @@
 },
 "/jogos-de-hoje/": {
 "dia": "",
-"h": "3159a1cd0421721c",
-"mod": "2026-11-22T19:13-03:00"
+"h": "e43662ab0e6064a9",
+"mod": "2026-11-22T21:07-03:00"
 },
 "/time/1-fc-union-berlin/": {
 "dia": "",
@@ -2865,8 +2865,8 @@
 },
 "/time/atletico-go/": {
 "dia": "",
-"h": "1d5e8bc58c289f2e",
-"mod": "2026-11-17T17:37-03:00",
+"h": "7a610c1f0eb52603",
+"mod": "2026-11-22T21:07-03:00",
 "nome": "Atlético-GO"
 },
 "/time/atletico-mg/": {
@@ -3447,8 +3447,8 @@
 },
 "/time/fc-cincinnati/": {
 "dia": "",
-"h": "2ce8b26709ac7225",
-"mod": "2026-11-21T00:09-03:00",
+"h": "2ff04885d731f17e",
+"mod": "2026-11-22T21:07-03:00",
 "nome": "FC Cincinnati"
 },
 "/time/fc-cologne/": {
@@ -3555,8 +3555,8 @@
 },
 "/time/fluminense/": {
 "dia": "",
-"h": "6ee1178db307eb59",
-"mod": "2026-11-21T00:09-03:00",
+"h": "71973d51ab38310e",
+"mod": "2026-11-22T21:07-03:00",
 "nome": "Fluminense"
 },
 "/time/fortaleza/": {
@@ -3867,8 +3867,8 @@
 },
 "/time/lanus/": {
 "dia": "",
-"h": "7bcdfd18ab069c22",
-"mod": "2026-11-17T17:37-03:00",
+"h": "833745d5182a5642",
+"mod": "2026-11-22T21:07-03:00",
 "nome": "Lanús"
 },
 "/time/lask-linz/": {
@@ -4071,8 +4071,8 @@
 },
 "/time/mirassol/": {
 "dia": "",
-"h": "87f597ec60fad031",
-"mod": "2026-11-18T00:54-03:00",
+"h": "0c039df13d9f2a84",
+"mod": "2026-11-22T21:07-03:00",
 "nome": "Mirassol"
 },
 "/time/mjallby-aif/": {
@@ -4107,8 +4107,8 @@
 },
 "/time/nashville-sc/": {
 "dia": "",
-"h": "068178006db349eb",
-"mod": "2026-11-20T00:17-03:00",
+"h": "f8ce083e98b24fea",
+"mod": "2026-11-22T21:07-03:00",
 "nome": "Nashville SC"
 },
 "/time/nec-nijmegen/": {
@@ -4473,8 +4473,8 @@
 },
 "/time/river-plate/": {
 "dia": "",
-"h": "ed0d1fc955abc348",
-"mod": "2026-11-17T17:37-03:00",
+"h": "8a889e33a6c717a8",
+"mod": "2026-11-22T21:07-03:00",
 "nome": "River Plate"
 },
 "/time/rochdale/": {
@@ -4887,8 +4887,8 @@
 },
 "/time/vila-nova/": {
 "dia": "",
-"h": "30d7cba56a106907",
-"mod": "2026-11-17T17:37-03:00",
+"h": "8ef2995cf75af43a",
+"mod": "2026-11-22T21:07-03:00",
 "nome": "Vila Nova"
 },
 "/time/villarreal/": {

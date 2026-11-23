@@ -131,6 +131,10 @@
   "inicio": "2026-11-22T18:30:00-03:00",
   "lg": "bra.1",
   "local": "Estadio do Maracana, Rio de Janeiro",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401841325": {
@@ -6625,6 +6629,10 @@
   "inicio": "2026-11-22T18:30:00-03:00",
   "lg": "bra.2",
   "local": "Estádio Antônio Accioly, Goiãnia",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401912709": {
@@ -8142,6 +8150,10 @@
   "inicio": "2026-11-22T18:00:00-03:00",
   "lg": "usa.1",
   "local": "GEODIS Park, Nashville, Tennessee",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401933732": {
@@ -8426,6 +8438,10 @@
   "inicio": "2026-11-22T19:00:00-03:00",
   "lg": "arg.1",
   "local": "Estadio Más Monumental, Buenos Aires",
+  "placar": {
+   "casa": 3,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401933762": {
