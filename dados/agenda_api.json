@@ -6976,6 +6976,10 @@
   "inicio": "2026-11-22T22:30:00-03:00",
   "lg": "usa.1",
   "local": "BC Place, Vancouver",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401933730": {
