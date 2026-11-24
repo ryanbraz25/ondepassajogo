@@ -1,6 +1,6 @@
 {
  "comentario": "Gravado pela pesquisa noturna do Claude: canais (e rodada/nota) de cada jogo. O robô junta isso aos jogos da ESPN. Pode editar à mão.",
- "atualizado": "2026-11-24T14:40:00-03:00",
+ "atualizado": "2026-11-24T14:12:00-03:00",
  "jogos": [
   {
    "data": "2026-11-23",
@@ -483,6 +483,18 @@
    ],
    "status": "confirmado",
    "rodada": "37ª rodada"
+  },
+  {
+   "data": "2026-12-02",
+   "casa": "Vasco",
+   "fora": "Vitória",
+   "inicio": "2026-12-02T21:30:00-03:00",
+   "comp": "brasileirao-a",
+   "canais": [
+    "prime"
+   ],
+   "status": "a_confirmar",
+   "rodada": "38ª rodada"
   },
   {
    "data": "2026-12-06",
