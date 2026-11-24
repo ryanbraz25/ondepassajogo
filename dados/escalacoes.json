@@ -1,6 +1,6 @@
 {
  "401841320": {
-  "achada": "2026-11-23T21:17-03:00",
+  "achada": "2026-11-23T22:07-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -94,7 +94,7 @@
      "fp": 3,
      "n": "14",
      "nome": "L. Peres",
-     "pos": "CD-L"
+     "pos": "LB"
     },
     {
      "fp": 4,
@@ -106,25 +106,25 @@
      "fp": 5,
      "n": "42",
      "nome": "João Alencar",
-     "pos": "LB"
+     "pos": "CD-R"
     },
     {
      "fp": 6,
      "n": "15",
      "nome": "W. Arão",
-     "pos": "CD-R"
+     "pos": "CD-L"
     },
     {
      "fp": 7,
      "n": "11",
      "nome": "P. Coutinho",
-     "pos": "RM"
+     "pos": "AM-R"
     },
     {
      "fp": 8,
-     "n": "10",
-     "nome": "Neymar",
-     "pos": "AM"
+     "n": "8",
+     "nome": "G. Bontempo",
+     "pos": "RM"
     },
     {
      "fp": 9,
@@ -134,9 +134,9 @@
     },
     {
      "fp": 10,
-     "n": "8",
-     "nome": "G. Bontempo",
-     "pos": "AM-R"
+     "n": "10",
+     "nome": "Neymar",
+     "pos": "AM"
     },
     {
      "fp": 11,
@@ -147,7 +147,7 @@
    ]
   },
   "comp": "brasileirao-a",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-1-4-1",
    "reservas": [

@@ -1,7 +1,7 @@
 {
  "argentina": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -440,8 +440,8 @@
   "temporada": "2026 Argentine Liga Profesional de Fútbol"
  },
  "brasileirao-a": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -599,54 +599,54 @@
       "cor": "#f08a1c",
       "d": 15,
       "e": 9,
-      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3456.png&h=80&w=80",
-      "gc": 52,
-      "gp": 41,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2026.png&h=80&w=80",
+      "gc": 41,
+      "gp": 40,
       "pj": 36,
       "pos": 11,
       "pts": 45,
-      "sg": -11,
-      "time": "Coritiba",
+      "sg": -1,
+      "time": "São Paulo",
       "v": 12,
       "zona": "Sul-Americana"
      },
      {
       "d": 15,
-      "e": 8,
-      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2026.png&h=80&w=80",
-      "gc": 40,
-      "gp": 39,
-      "pj": 35,
-      "pos": 12,
-      "pts": 44,
-      "sg": -1,
-      "time": "São Paulo",
-      "v": 12
-     },
-     {
-      "d": 15,
       "e": 9,
-      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6086.png&h=80&w=80",
-      "gc": 57,
-      "gp": 46,
-      "pj": 35,
-      "pos": 13,
-      "pts": 42,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3456.png&h=80&w=80",
+      "gc": 52,
+      "gp": 41,
+      "pj": 36,
+      "pos": 12,
+      "pts": 45,
       "sg": -11,
-      "time": "Botafogo",
-      "v": 11
+      "time": "Coritiba",
+      "v": 12
      },
      {
       "d": 16,
       "e": 8,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/3457.png&h=80&w=80",
-      "gc": 52,
-      "gp": 37,
-      "pj": 35,
-      "pos": 14,
-      "pts": 41,
-      "sg": -15,
+      "gc": 54,
+      "gp": 42,
+      "pj": 36,
+      "pos": 13,
+      "pts": 44,
+      "sg": -12,
       "time": "Vitória",
+      "v": 12
+     },
+     {
+      "d": 15,
+      "e": 10,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6086.png&h=80&w=80",
+      "gc": 58,
+      "gp": 47,
+      "pj": 36,
+      "pos": 14,
+      "pts": 43,
+      "sg": -11,
+      "time": "Botafogo",
       "v": 11
      },
      {
@@ -677,15 +677,15 @@
      },
      {
       "cor": "#d7263d",
-      "d": 15,
+      "d": 16,
       "e": 11,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/1936.png&h=80&w=80",
-      "gc": 44,
-      "gp": 39,
-      "pj": 35,
+      "gc": 49,
+      "gp": 41,
+      "pj": 36,
       "pos": 17,
       "pts": 38,
-      "sg": -5,
+      "sg": -8,
       "time": "Internacional",
       "v": 9,
       "zona": "Rebaixamento"
@@ -744,8 +744,8 @@
   "temporada": "2026 Futebol Brasileiro"
  },
  "brasileirao-b": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -1037,8 +1037,8 @@
   "temporada": "2026 Brasileiro Serie B"
  },
  "bundesliga": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -1304,8 +1304,8 @@
   "temporada": "2026-27 German Bundesliga"
  },
  "carioca": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -1476,8 +1476,8 @@
   "temporada": "2026 Campeonato Carioca"
  },
  "champions": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -2029,8 +2029,8 @@
   "temporada": "2026-27 UEFA Champions League"
  },
  "championship": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:17-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -2376,8 +2376,8 @@
   "temporada": "2026-27 English League Championship"
  },
  "conference": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -2929,8 +2929,8 @@
   "temporada": "2026-27 UEFA Conference League"
  },
  "eredivisie": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:17-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -3194,8 +3194,8 @@
   "temporada": "2026-27 Dutch Eredivisie"
  },
  "eurocopa": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -4319,8 +4319,8 @@
   "temporada": "2024 European Championship Qualifying"
  },
  "europa": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -4872,8 +4872,8 @@
   "temporada": "2026-27 UEFA Europa League"
  },
  "laliga": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -5167,8 +5167,8 @@
   "temporada": "2026-27 Spanish LALIGA"
  },
  "libertadores": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -5637,8 +5637,8 @@
   "temporada": "2026 CONMEBOL Libertadores"
  },
  "ligamx": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -5900,8 +5900,8 @@
   "temporada": "2026-27 Liga BBVA MX"
  },
  "ligue1": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -6167,8 +6167,8 @@
   "temporada": "2026-27 French Ligue 1"
  },
  "mineiro": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -6342,8 +6342,8 @@
   "temporada": "2027 Brazilian Campeonato Mineiro"
  },
  "mls": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -6786,8 +6786,8 @@
   "temporada": "2027 MLS"
  },
  "mundial": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -7282,8 +7282,8 @@
   "temporada": "2025 FIFA Club World Cup"
  },
  "nations": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -8070,8 +8070,8 @@
   "temporada": "2026-27 UEFA Nations League"
  },
  "paulista": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -8287,8 +8287,8 @@
   "temporada": "2026 Campeonato Paulista"
  },
  "portugal": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -8548,8 +8548,8 @@
   "temporada": "2026-27 Portuguese Primeira Liga"
  },
  "premier": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -8837,8 +8837,8 @@
   "temporada": "2026-27 English Premier League"
  },
  "saudita": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -9084,8 +9084,8 @@
   "temporada": "2026-27 Saudi Pro League"
  },
  "serie-a-ita": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -9377,8 +9377,8 @@
   "temporada": "2026-27 Italian Serie A"
  },
  "sul-americana": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:16-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
@@ -9845,8 +9845,8 @@
   "temporada": "2026 CONMEBOL Sudamericana"
  },
  "turquia": {
-  "_rodada": "2026112321",
-  "atualizado": "2026-11-23T21:17-03:00",
+  "_rodada": "2026112322",
+  "atualizado": "2026-11-23T22:07-03:00",
   "grupos": [
    {
     "linhas": [
