@@ -19,9 +19,9 @@ BRT = timezone(timedelta(hours=-3))
 UTC = timezone.utc
 
 TSDB = "https://www.thesportsdb.com/api/v1/json/{}/{}"
-ORCAMENTO = 45        # consultas à TheSportsDB por execução
-ORCAMENTO_COMPLETO = 120
-ESPACO = 2.5          # segundos entre consultas (limite grátis ~30 por minuto)
+ORCAMENTO = 30        # consultas à TheSportsDB por execução (a chave grátis também tem limite por hora)
+ORCAMENTO_COMPLETO = 60
+ESPACO = 3            # segundos entre consultas (limite grátis ~30 por minuto)
 
 FIM = {"FT", "AET", "PEN", "AP", "MATCH FINISHED", "FINISHED", "AWARDED"}
 ADIADO = {"PST", "POSTPONED", "MATCH POSTPONED", "CANC", "CANCELLED", "ABD", "ABANDONED", "SUSP", "SUSPENDED"}
