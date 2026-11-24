@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-23T22:29:44-03:00",
+ "atualizado": "2026-11-23T22:36:29-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1187,6 +1187,10 @@
    "eid": "401841326",
    "lg": "bra.1",
    "ed": "20261123",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "rodada": "36ª rodada",
    "pg": "/jogo/botafogo-x-sao-paulo-23-11-2026/"
   },

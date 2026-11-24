@@ -1173,5 +1173,269 @@
   "pg": "",
   "time_casa": "Istanbul Basaksehir",
   "time_fora": "Çorum FK"
+ },
+ "401933728": {
+  "achada": "2026-11-23T22:34-03:00",
+  "casa": {
+   "esquema": "3-4-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "F. Fall",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "T. Ostrak",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "18",
+     "nome": "C. Brunet",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "39",
+     "nome": "B. Lundt",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "S. Becher",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "42",
+     "nome": "D. Downs",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "91",
+     "nome": "Z. Zengue",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "99",
+     "nome": "J. Orozco",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "4",
+     "nome": "M. Fall",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "R. Bürki",
+     "pos": "SUB"
+    },
+    {
+     "fp": 2,
+     "n": "6",
+     "nome": "C. Wallem",
+     "pos": "SUB"
+    },
+    {
+     "fp": 3,
+     "n": "14",
+     "nome": "T. Totland",
+     "pos": "SUB"
+    },
+    {
+     "fp": 4,
+     "n": "21",
+     "nome": "D. Polvara",
+     "pos": "SUB"
+    },
+    {
+     "fp": 5,
+     "n": "32",
+     "nome": "T. Baumgartl",
+     "pos": "SUB"
+    },
+    {
+     "fp": 6,
+     "n": "5",
+     "nome": "L. MacNaughton",
+     "pos": "SUB"
+    },
+    {
+     "fp": 7,
+     "n": "8",
+     "nome": "C. Durkin",
+     "pos": "SUB"
+    },
+    {
+     "fp": 8,
+     "n": "24",
+     "nome": "D. Edelman",
+     "pos": "SUB"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "R. Navarro",
+     "pos": "SUB"
+    },
+    {
+     "fp": 10,
+     "n": "77",
+     "nome": "J. Sang-Bin",
+     "pos": "SUB"
+    },
+    {
+     "fp": 11,
+     "n": "23",
+     "nome": "A. Matan",
+     "pos": "SUB"
+    }
+   ]
+  },
+  "comp": "mls",
+  "completa": false,
+  "fora": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "Igor Jesus",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "A. Long",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "90",
+     "nome": "T. Mihalic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "R. Raposo",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "31",
+     "nome": "C. Carter",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "91",
+     "nome": "N. Tafari",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "J. Ebobisse",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "24",
+     "nome": "R. Hollingshead",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "S. Vásquez",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "H. Lloris",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "14",
+     "nome": "S. Palencia",
+     "pos": "D"
+    },
+    {
+     "fp": 3,
+     "n": "23",
+     "nome": "Y. Cheberko",
+     "pos": "D"
+    },
+    {
+     "fp": 4,
+     "n": "8",
+     "nome": "M. Delgado",
+     "pos": "M"
+    },
+    {
+     "fp": 5,
+     "n": "5",
+     "nome": "R. Porteous",
+     "pos": "D"
+    },
+    {
+     "fp": 6,
+     "n": "4",
+     "nome": "E. Segura",
+     "pos": "D"
+    },
+    {
+     "fp": 7,
+     "n": "81",
+     "nome": "L. Walta",
+     "pos": "M"
+    },
+    {
+     "fp": 8,
+     "n": "66",
+     "nome": "M. Choinière",
+     "pos": "M"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "A. Sieb",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "7",
+     "nome": "S. Heung-Min",
+     "pos": "M"
+    },
+    {
+     "fp": 11,
+     "n": "99",
+     "nome": "D. Bouanga",
+     "pos": "M"
+    }
+   ]
+  },
+  "inicio": "2026-11-23T22:15:00-03:00",
+  "pg": "",
+  "time_casa": "St. Louis CITY SC",
+  "time_fora": "LAFC",
+  "v": 2
  }
 }

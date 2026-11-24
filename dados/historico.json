@@ -3966,6 +3966,19 @@
     "fora": 2
    }
   },
+  "401841326": {
+   "casa": "Botafogo",
+   "comp": "brasileirao-a",
+   "fase": "2026-brasileiro-serie-a",
+   "fora": "São Paulo",
+   "inicio": "2026-11-23T20:00:00-03:00",
+   "lg": "bra.1",
+   "local": "Joao Havelange Stadium, Rio de Janeiro",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
   "401841327": {
    "casa": "Bahia",
    "comp": "brasileirao-a",
@@ -13303,7 +13316,6 @@
   "401877048": {
    "casa": "Tigres UANL",
    "comp": "ligamx",
-   "fase": "torneo-apertura",
    "fora": "América",
    "inicio": "2026-11-22T00:00:00-03:00",
    "lg": "mex.1",

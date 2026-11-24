@@ -146,6 +146,10 @@
   "inicio": "2026-11-23T20:00:00-03:00",
   "lg": "bra.1",
   "local": "Joao Havelange Stadium, Rio de Janeiro",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841328": {
