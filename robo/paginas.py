@@ -164,9 +164,11 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/p.css?v=5">
 <link rel="stylesheet" href="/menu.css?v=2">
-<link rel="stylesheet" href="/rodadas.css?v=1">
+<link rel="stylesheet" href="/rodadas.css?v=2">
+<link rel="stylesheet" href="/aovivo.css?v=1">
 <script src="/p.js?v=5" defer></script>
-<script src="/rodadas.js?v=1" defer></script>
+<script src="/rodadas.js?v=2" defer></script>
+<script src="/aovivo.js?v=1" defer></script>
 <script src="/menu.js?v=2" defer></script>
 {cx.head_extra}
 {ld}</head>
@@ -342,13 +344,17 @@ def tabela_html(cx, k, destaque=(), recorte=None, com_forma=True):
                 zonas[l["zona"]] = l.get("cor") or "#0a6d35"
             cor = f' style="--z:{e(l["cor"])};--zt:{texto_sobre(l["cor"])}"' if l.get("zona") and l.get("cor") else ""
             dst = " eu" if l["time"] in destaque else ""
-            rows.append(f'<tr class="{("zn" if l.get("zona") else "") + dst}"{cor}><td class="c-pos"><span title="{e(l.get("zona", ""))}">{l["pos"]}</span></td>'
+            tid = f' data-tid="{e(l["tid"])}"' if l.get("tid") else ""
+            rows.append(f'<tr class="{("zn" if l.get("zona") else "") + dst}"{cor}{tid}><td class="c-pos"><span title="{e(l.get("zona", ""))}">{l["pos"]}</span></td>'
                         f'<td class="c-time"><a href="/time/{slug(l["time"])}/">{esc_tab(cx, l)}<span>{e(l["time"])}</span></a></td>'
-                        f'<td class="c-p"><b>{l["pts"]}</b></td><td>{l["pj"]}</td><td class="c-x">{l["v"]}</td><td class="c-x">{l["e"]}</td><td class="c-x">{l["d"]}</td>'
-                        f'<td class="c-x">{l["gp"]}</td><td class="c-x">{l["gc"]}</td><td>{"+" if l["sg"] > 0 else ""}{l["sg"]}</td>'
+                        f'<td class="c-p" data-s="pts"><b>{l["pts"]}</b></td><td data-s="pj">{l["pj"]}</td><td class="c-x" data-s="v">{l["v"]}</td><td class="c-x" data-s="e">{l["e"]}</td><td class="c-x" data-s="d">{l["d"]}</td>'
+                        f'<td class="c-x" data-s="gp">{l["gp"]}</td><td class="c-x" data-s="gc">{l["gc"]}</td><td data-s="sg">{"+" if l["sg"] > 0 else ""}{l["sg"]}</td>'
                         f'<td class="c-f">{forma(cx, l["time"]) if com_forma else ""}</td></tr>')
         cab = f'<h3 class="grp">{e(g["nome"])}</h3>' if g.get("nome") else ""
-        out.append(f'{cab}<div class="tabwrap"><table class="tab"><thead>{COLS}</thead><tbody>{"".join(rows)}</tbody></table></div>')
+        # tabela inteira (não o recorte) ganha placar ao vivo: o aovivo.js reordena enquanto há jogo rolando
+        viva = (f' data-lg="{e(g.get("lg") or t.get("liga", ""))}" data-em="{e(t.get("atualizado", ""))}"'
+                if not recorte and (g.get("lg") or t.get("liga")) else "")
+        out.append(f'{cab}<div class="tabwrap"><table class="tab"{viva}><thead>{COLS}</thead><tbody>{"".join(rows)}</tbody></table></div>')
     leg = ""
     if zonas and not recorte:
         leg = '<ul class="leg" aria-label="Legenda da tabela">' + "".join(
@@ -436,6 +442,23 @@ def como_chegam(cx, j):
 
 
 # ---------------------------------------------------------------- página do jogo
+BOLA = '<svg class="lb" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#fff" stroke="currentColor" stroke-width="1.5"/><path d="M12 7l3.8 2.8-1.45 4.45h-4.7L8.2 9.8Z" fill="currentColor"/><path d="M12 2v5M15.8 9.8l5.2-1.7M14.35 14.25l3.1 4.3M9.65 14.25l-3.1 4.3M8.2 9.8 3 8.1" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>'
+CARTAO = '<svg class="lb" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="3" width="12" height="18" rx="2" fill="#e3242b"/></svg>'
+
+
+def lances_html(j):
+    """Gols e expulsões, como no placar do ge: os do mandante à esquerda, os do visitante à direita."""
+    itens = []
+    for x in j.get("lances") or []:
+        extra = {"p": " (pênalti)", "c": " (contra)"}.get(x["k"], "")
+        ico = CARTAO if x["k"] == "v" else BOLA
+        rot = "expulso" if x["k"] == "v" else "gol"
+        itens.append(f'<li class="l{x["l"]}{" lv" if x["k"] == "v" else ""}"><span class="lm">{e(x["m"])}</span>{ico}'
+                     f'<span class="ln">{e(x["n"])}{e(extra)}</span><span class="so-leitor"> ({rot} do {e(j["casa"] if x["l"] == "c" else j["fora"])})</span></li>')
+    return (f'<section class="lances" aria-label="Gols e expulsões"{"" if itens else " hidden"}>'
+            f'<ul>{"".join(itens)}</ul></section>')
+
+
 def pagina_jogo(cx, j):
     t = j["_t"]
     casa, fora = j["casa"], j["fora"]
@@ -540,10 +563,12 @@ def pagina_jogo(cx, j):
         "if(n>=i&&n<i+1.3e7){e.textContent='Ao vivo agora';e.className='status live';e.hidden=false}"
         "else if(m>0&&m<=360){e.textContent=m<60?'Começa em '+m+' min':'Começa em '+Math.floor(m/60)+'h'+(m%60?String(m%60).padStart(2,'0'):'');e.className='status breve';e.hidden=false}})()</script>")
 
+    # placar ao vivo e gols (aovivo.js): só para jogo de hoje com o id da ESPN
+    vivo_attrs = "".join(f' data-{a}="{e(j[a])}"' for a in ("eid", "lg", "ed") if j.get(a)) + f' data-ini="{t.isoformat()}"' if j.get("eid") and j.get("lg") else ""
     corpo = f"""<article class="jogo">
 <p class="comp"><a href="/campeonato/{slug(j['comp'])}/">{e(comp)}</a>{(' · ' + e(rodada)) if rodada else ''}</p>
 <h1>Onde assistir {e(casa)} x {e(fora)} ao vivo</h1>
-<div class="placa">
+<div class="placa"{vivo_attrs}>
  {f'<p class="nota">{e(j["nota"])}</p>' if j.get("nota") else ''}
  <a class="tm" href="/time/{slug(casa)}/">{escudo(cx, casa, 56)}<span>{e(casa)}</span>{rk(casa)}</a>
  <div class="hr">{(f'<b class="pl">{placar["casa"]} x {placar["fora"]}</b><small>Encerrado · {e(data_curta(t))}</small>' if encerrado else f'<b>{hora(t)}</b><small>{e(data_curta(t))}</small>')}
@@ -552,6 +577,7 @@ def pagina_jogo(cx, j):
  <a class="tm" href="/time/{slug(fora)}/">{escudo(cx, fora, 56)}<span>{e(fora)}</span>{rk(fora)}</a>
 </div>
 {status}
+{lances_html(j)}
 <h2>{'Onde passou' if encerrado else 'Onde assistir'}</h2>
 {bloco_canais}
 <p class="cta2"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">★ Seguir {e(nl(casa))} ou {e(nl(fora))} e receber aviso no dia do jogo</a></p>
@@ -713,7 +739,7 @@ def _rodada_jogo(cx, j):
     else:
         rodape = ""
     dados = "".join(f' data-{a}="{e(j[b])}"' for a, b in (("eid", "eid"), ("lg", "lg"), ("ed", "ed")) if j.get(b))
-    return f'<li class="rj{cls}"{dados}><p class="rj-i">{" · ".join(info)}</p>{miolo}{rodape}</li>'
+    return f'<li class="rjx{cls}"{dados}><p class="rj-i">{" · ".join(info)}</p>{miolo}{rodape}</li>'
 
 
 def rodada_html(cx, g):
@@ -725,7 +751,7 @@ def rodadas_caixa(cx, k, rd):
     i = rd["atual"]
     g = rd["rodadas"][i]
     opcoes = "".join(f'<option value="{n}"{" selected" if n == i else ""}>{e(x["nome"])}</option>' for n, x in enumerate(rd["rodadas"]))
-    return (f'<div class="rd" data-rod="{e(slug(k))}" data-i="{i}" data-total="{len(rd["rodadas"])}">'
+    return (f'<div class="rdx" data-rod="{e(slug(k))}" data-i="{i}" data-total="{len(rd["rodadas"])}">'
             f'<div class="rd-nav"><button class="rd-b rd-ant" type="button" aria-label="Rodada anterior"{" disabled" if i == 0 else ""}>'
             '<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>'
             f'<div class="rd-t"><b>{e(g["nome"])}</b><small>{e(_periodo(g["de"], g["ate"]))}</small>'

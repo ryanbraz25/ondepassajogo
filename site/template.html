@@ -409,8 +409,10 @@ header .wrap{position:relative}
 @media(max-width:640px){.ob{place-items:end center;padding:0}.obc{border-radius:18px 18px 0 0;max-height:86vh}.obgrid{grid-template-columns:1fr 1fr}}
 </style>
 <link rel="stylesheet" href="/menu.css?v=2">
-<link rel="stylesheet" href="/rodadas.css?v=1">
-<script src="/rodadas.js?v=1" defer></script>
+<link rel="stylesheet" href="/rodadas.css?v=2">
+<script src="/rodadas.js?v=2" defer></script>
+<link rel="stylesheet" href="/aovivo.css?v=1">
+<script src="/aovivo.js?v=1" defer></script>
 <script src="/menu.js?v=2" defer></script>
 __ADSENSE_HEAD__
 </head>
@@ -757,7 +759,7 @@ function txtSobre(c){const h=String(c).replace('#','');if(h.length!==6)return '#
 function tabelaHtml(d){
  if(!d.tabela||!d.tabela.length)return '<p class="empty">Tabela indisponível.</p>';
  const zonas={};
- const g=d.tabela.map(gr=>`${gr.nome?`<h3 class="grp">${esc(gr.nome)}</h3>`:''}<div class="tbw"><table class="tb"><thead><tr><th>#</th><th class="tt">Time</th><th>P</th><th>J</th><th class="tx">V</th><th class="tx">E</th><th class="tx">D</th><th class="tx">GP</th><th class="tx">GC</th><th>SG</th></tr></thead><tbody>${gr.linhas.map(l=>{if(l.zona)zonas[l.zona]=l.cor||'#0a6d35';const eu=S.favs.has(l.time);return `<tr class="${l.zona?'zn':''}${eu?' eu':''}"${l.zona&&l.cor?` style="--z:${esc(l.cor)};--zt:${txtSobre(l.cor)}"`:''}><td class="tp"><span${l.zona?` title="${esc(l.zona)}"`:''}>${l.pos}</span></td><td class="tt"><a href="/time/${slugJS(l.time)}/">${crestTb(l.time,l.esc)}<span>${esc(l.time)}</span></a></td><td><b>${l.pts}</b></td><td>${l.pj}</td><td class="tx">${l.v}</td><td class="tx">${l.e}</td><td class="tx">${l.d}</td><td class="tx">${l.gp}</td><td class="tx">${l.gc}</td><td>${l.sg>0?'+':''}${l.sg}</td></tr>`}).join('')}</tbody></table></div>`).join('');
+ const g=d.tabela.map(gr=>`${gr.nome?`<h3 class="grp">${esc(gr.nome)}</h3>`:''}<div class="tbw"><table class="tb"${gr.lg?` data-lg="${esc(gr.lg)}" data-em="${esc(d.atualizado||'')}"`:''}><thead><tr><th>#</th><th class="tt">Time</th><th>P</th><th>J</th><th class="tx">V</th><th class="tx">E</th><th class="tx">D</th><th class="tx">GP</th><th class="tx">GC</th><th>SG</th></tr></thead><tbody>${gr.linhas.map(l=>{if(l.zona)zonas[l.zona]=l.cor||'#0a6d35';const eu=S.favs.has(l.time);return `<tr class="${l.zona?'zn':''}${eu?' eu':''}"${l.zona&&l.cor?` style="--z:${esc(l.cor)};--zt:${txtSobre(l.cor)}"`:''}${l.tid?` data-tid="${esc(l.tid)}"`:''}><td class="tp"><span${l.zona?` title="${esc(l.zona)}"`:''}>${l.pos}</span></td><td class="tt"><a href="/time/${slugJS(l.time)}/">${crestTb(l.time,l.esc)}<span>${esc(l.time)}</span></a></td><td data-s="pts"><b>${l.pts}</b></td><td data-s="pj">${l.pj}</td><td class="tx" data-s="v">${l.v}</td><td class="tx" data-s="e">${l.e}</td><td class="tx" data-s="d">${l.d}</td><td class="tx" data-s="gp">${l.gp}</td><td class="tx" data-s="gc">${l.gc}</td><td data-s="sg">${l.sg>0?'+':''}${l.sg}</td></tr>`}).join('')}</tbody></table></div>`).join('');
  const leg=(Object.keys(zonas).length?`<ul class="tleg" aria-label="Legenda da tabela">${Object.entries(zonas).map(([z,c])=>`<li><i style="background:${esc(c)}"></i>${esc(z)}</li>`).join('')}</ul>`:'')+(d.obs?`<p class="tleg2">${esc(d.obs)}</p>`:'');
  return g+leg+`<p class="tleg2">${d.temporada?'Temporada '+esc(d.temporada)+' · ':''}P = pontos · J = jogos · SG = saldo de gols. Toque no time para ver os jogos dele.</p>`;
 }
@@ -780,6 +782,7 @@ function renderList(){
   const c=C(ak);
   setList(`<div class="lghead"><h2><span class="pill big">${lgIcon(ak)}</span>${esc(c.nome)}</h2>${S.view==='liga'?'<span class="lgbtns"><button class="clr" type="button" data-clr>× Ver todos os jogos</button></span>':''}</div>`+bar+painelHtml(ak));
   const rh=document.querySelector('[data-rodhome]');if(rh&&window.OPJRodadas)OPJRodadas.montar(rh,rh.dataset.rodhome);
+  if(S.aba==='tabela'&&window.OPJAoVivo)OPJAoVivo.tabelas(); // tabela ao vivo enquanto há jogo rolando
   return;
  }
  if(S.view==='liga'&&S.liga){

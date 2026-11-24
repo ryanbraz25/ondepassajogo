@@ -1,5 +1,5 @@
 /* Jogos por rodada (página do campeonato e aba da página inicial) */
-.rd{--rd-link:var(--link,light-dark(#0a6d35,#58c98a));--rd-red:var(--red,#e3242b);--rd-free:var(--free,light-dark(#0a7a3a,#58c98a));--rd-chip:var(--chip,light-dark(#f1f5f2,#12281b));
+.rdx{--rd-link:var(--link,light-dark(#0a6d35,#58c98a));--rd-red:var(--red,#e3242b);--rd-free:var(--free,light-dark(#0a7a3a,#58c98a));--rd-chip:var(--chip,light-dark(#f1f5f2,#12281b));
  border:1px solid var(--line);border-radius:14px;background:var(--card,transparent);overflow:hidden}
 .rd-nav{display:grid;grid-template-columns:44px 1fr 44px;align-items:center;gap:6px;padding:8px;border-bottom:1px solid var(--line)}
 .rd-b{width:44px;height:44px;display:grid;place-items:center;border:0;border-radius:50%;background:transparent;color:var(--rd-link);cursor:pointer}
@@ -13,10 +13,10 @@
 .rd-sel:focus-visible{opacity:0}
 .rd-t:has(.rd-sel:focus-visible){outline:3px solid var(--gold,#ffd400);outline-offset:2px;border-radius:8px}
 .rd-l{list-style:none;margin:0;padding:0}
-.rd.carregando .rd-l{opacity:.45;transition:opacity .15s}
+.rdx.carregando .rd-l{opacity:.45;transition:opacity .15s}
 
-.rj{padding:12px 14px 12px;border-bottom:1px solid var(--line)}
-.rj:last-child{border-bottom:0}
+.rjx{padding:12px 14px 12px;border-bottom:1px solid var(--line)}
+.rjx:last-child{border-bottom:0}
 .rj-i{margin:0 0 6px;text-align:center;font-size:13px;color:var(--mute);line-height:1.35}
 .rj-i time{font-weight:700;color:var(--ink);text-transform:capitalize}
 .rj-m{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:10px;color:inherit;text-decoration:none;border-radius:10px;padding:4px 2px}
@@ -30,13 +30,13 @@ a.rj-m:focus-visible{outline:3px solid var(--gold,#ffd400);outline-offset:2px}
 .rj-p{display:inline-flex;align-items:center;gap:6px;font:800 26px/1 "Barlow Condensed",sans-serif;min-width:72px;justify-content:center}
 .rj-p i{font:600 15px Barlow,sans-serif;color:var(--mute);font-style:normal}
 .rj-x i{font-size:17px}
-.rj.vivo .rj-p b{color:var(--rd-red)}
+.rjx.vivo .rj-p b{color:var(--rd-red)}
 .rj-tv{margin:6px 0 0;display:flex;flex-wrap:wrap;justify-content:center;gap:4px 10px;font-size:13px;color:var(--mute)}
 .rj-tv span{font-weight:600}
 .rj-tv span+span::before{content:"·";margin-right:10px;color:var(--line)}
 .rj-tv .gr{color:var(--rd-free)}
 .rj-s{font-weight:600}
-.rj.adiado .rj-s{color:var(--rd-red)}
+.rjx.adiado .rj-s{color:var(--rd-red)}
 .rj-vivo{display:inline-flex;align-items:center;gap:5px;color:var(--rd-red);font-weight:700}
 .rj-vivo::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor;animation:rjPisca 1.4s infinite}
 @keyframes rjPisca{50%{opacity:.25}}
@@ -44,7 +44,7 @@ a.rj-m:focus-visible{outline:3px solid var(--gold,#ffd400);outline-offset:2px}
 .rj-vazio{padding:22px;text-align:center;color:var(--mute)}
 
 @media(max-width:420px){
- .rj{padding:11px 8px}
+ .rjx{padding:11px 8px}
  .rj-t{font-size:15px;gap:6px}
  .rj-t .cr,.rj-t .cr.ini{width:24px;height:24px}
  .rj-p{min-width:58px;font-size:23px}
@@ -59,4 +59,4 @@ a.rj-m:focus-visible{outline:3px solid var(--gold,#ffd400);outline-offset:2px}
  .camp2>.painel,.camp2>.painel[hidden]{display:block}
  .com-abas .camp2 .ph{position:static;width:auto;height:auto;overflow:visible;clip:auto;margin:0 0 10px;font:800 22px/1.1 "Barlow Condensed",sans-serif}
 }
-.rd .so-leitor{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.rdx .so-leitor{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}

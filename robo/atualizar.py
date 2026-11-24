@@ -135,6 +135,11 @@ def nome(cfg, t, comp=None):
 LOGO_LIGA = {}
 
 
+def extras_lances(cp, times):
+    import extras
+    return extras.lances(cp, times)
+
+
 def espn(cfg, completo):
     """Busca os jogos de cada campeonato na ESPN, um dia por vez.
 
@@ -189,6 +194,9 @@ def espn(cfg, completo):
                      "fase": (ev.get("season") or {}).get("slug") or "",
                      "_logos": {casa: times["home"]["team"].get("logo", ""), fora: times["away"]["team"].get("logo", "")}}
                 nm = st.get("name", "")
+                lances = extras_lances(cp, times)
+                if lances:
+                    j["lances"] = lances
                 if st.get("completed") and "CANCEL" not in nm and "POSTPON" not in nm:
                     try:
                         j["placar"] = {"casa": int(times["home"]["score"]), "fora": int(times["away"]["score"])}
@@ -449,7 +457,9 @@ def gerar_site(dados):
     tpl = (tpl.replace("__BOTAO_MENU__", paginas.botao_menu(rotulo=False))
               .replace("__BOTAO_MENU_MINI__", paginas.botao_menu("ms", rotulo=False).replace("<button ", '<button tabindex="-1" ', 1))
               .replace("__MENU__", paginas.menu_html(dados["competicoes"], EXTRAS.get("tabelas") or {})))
-    bloco = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    # a página inicial não usa os lances (gols e expulsões): ficam só nas páginas dos jogos
+    leve = {**dados, "jogos": [{k: v for k, v in j.items() if k != "lances"} for j in dados["jogos"]]}
+    bloco = json.dumps(leve, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     (RAIZ / "site" / "index.html").write_text(tpl.replace("__DADOS__", bloco), encoding="utf-8")
 
 

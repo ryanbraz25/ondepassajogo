@@ -1,0 +1,30 @@
+/* Ao vivo: placar e gols na página do jogo; tabela provisória com os jogos em andamento */
+.placa.aovivo .hr .pl{color:#d7263d}
+.placa.aovivo .hr small{color:#d7263d;font-weight:700}
+.status.fim{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+
+.lances{margin:14px 0 0;border:1px solid var(--line);border-radius:14px;padding:4px 14px;background:var(--card)}
+.lances ul{list-style:none;margin:0;padding:0}
+.lances li{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:16px;line-height:1.25}
+.lances li:last-child{border-bottom:0}
+.lances li.lf{flex-direction:row-reverse;text-align:right}
+.lances .lm{flex:0 0 auto;min-width:44px;font:700 15px Barlow,sans-serif;color:var(--mute);font-variant-numeric:tabular-nums}
+.lances li.lf .lm{text-align:right}
+.lances .lb{flex:0 0 auto;color:var(--ink)}
+.lances .ln{font-weight:700;min-width:0;overflow-wrap:anywhere}
+.lances li.lv .ln{font-weight:600;color:var(--mute)}
+.lances .so-leitor{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media(min-width:600px){.lances li{width:50%}.lances li.lf{margin-left:auto}}
+
+.tvivo-aviso{display:flex;align-items:center;gap:8px;margin:0 0 8px;font:700 14px Barlow,sans-serif;color:#d7263d}
+.tvivo-aviso span{width:8px;height:8px;border-radius:50%;background:currentColor;animation:tvPisca 1.4s infinite}
+@keyframes tvPisca{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.tvivo-aviso span{animation:none}}
+.tvivo{display:inline-block;margin-left:7px;padding:1px 7px;border-radius:999px;font:700 12px/1.5 Barlow,sans-serif;color:#fff;white-space:nowrap;vertical-align:1px}
+.tvivo.ganha{background:#12924f}
+.tvivo.empata{background:#7b8690}
+.tvivo.perde{background:#d7263d}
+.tseta{display:inline-block;margin-left:5px;font:700 11px Barlow,sans-serif;white-space:nowrap}
+.tseta.sobe{color:#12924f}
+.tseta.desce{color:#d7263d}
+tr.tjogando td{background:color-mix(in srgb,#d7263d 6%,transparent)}

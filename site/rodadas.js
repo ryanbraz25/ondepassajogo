@@ -14,7 +14,7 @@
   // caixa completa, para quando não veio desenhada do robô (aba "Rodadas" da página inicial)
   function caixa(s, d, i) {
     const r = d.rodadas[i], id = 'rd-sel-' + s;
-    return `<div class="rd" data-rod="${esc(s)}" data-i="${i}" data-total="${d.rodadas.length}">
+    return `<div class="rdx" data-rod="${esc(s)}" data-i="${i}" data-total="${d.rodadas.length}">
       <div class="rd-nav"><button class="rd-b rd-ant" type="button" aria-label="Rodada anterior"${i === 0 ? ' disabled' : ''}>${SETA('M15 5l-7 7 7 7')}</button>
       <div class="rd-t"><b>${esc(r.nome)}</b><small>${esc(r.periodo)}</small><label class="so-leitor" for="${id}">Escolher a rodada</label>
       <select class="rd-sel" id="${id}">${d.rodadas.map((x, n) => `<option value="${n}"${n === i ? ' selected' : ''}>${esc(x.nome)}</option>`).join('')}</select></div>
@@ -72,7 +72,7 @@
     clearTimeout(timers.get(box));
     if (!box.isConnected) return;
     const agora = Date.now();
-    const vivos = [...box.querySelectorAll('.rj[data-eid][data-lg][data-ed]')].filter(li => {
+    const vivos = [...box.querySelectorAll('.rjx[data-eid][data-lg][data-ed]')].filter(li => {
       const t = Date.parse((li.querySelector('time') || {}).dateTime || '');
       return t && !li.classList.contains('fim') && agora > t - 10 * 60e3 && agora < t + 165 * 60e3;
     });
@@ -110,17 +110,17 @@
     }
   }
 
-  document.querySelectorAll('.rd[data-rod]').forEach(ligar);
+  document.querySelectorAll('.rdx[data-rod]').forEach(ligar);
   window.OPJRodadas = {
     montar(el, s) {
       el.innerHTML = '<p class="rj-vazio">Carregando os jogos…</p>';
       return carregar(s).then(d => {
         const i = Math.min(escolhida[s] ?? d.atual, d.rodadas.length - 1);
-        el.innerHTML = caixa(s, d, i); ligar(el.querySelector('.rd'));
+        el.innerHTML = caixa(s, d, i); ligar(el.querySelector('.rdx'));
       })
         .catch(() => { el.innerHTML = '<p class="rj-vazio">Não foi possível carregar os jogos agora.</p>'; });
     }
   };
   // a página inicial pode ter pedido a caixa antes deste arquivo carregar
-  document.querySelectorAll('[data-rodhome]').forEach(el => { if (!el.querySelector('.rd')) window.OPJRodadas.montar(el, el.dataset.rodhome); });
+  document.querySelectorAll('[data-rodhome]').forEach(el => { if (!el.querySelector('.rdx')) window.OPJRodadas.montar(el, el.dataset.rodhome); });
 })();

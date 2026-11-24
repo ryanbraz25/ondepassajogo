@@ -149,10 +149,11 @@ def tabelas(cfg, nome, get_json, logo=lambda u: u, conhecidos=()):
                     "gp": v("pointsFor"), "gc": v("pointsAgainst"), "sg": v("pointDifferential"), "pts": v("points"),
                     **(dict(zip(("zona", "cor"), faixa_espn(nota["description"], nota.get("color")))) if nota.get("description") else {}),
                     **({"esc": logo(lg_)} if lg_ else {}),
+                    **({"tid": str(t["id"])} if t.get("id") else {}),  # id da ESPN: liga a linha ao placar ao vivo
                 })
             if linhas:
                 linhas.sort(key=lambda x: x["pos"])
-                grupos.append({"nome": ch.get("name") or ch.get("abbreviation") or "", "linhas": linhas})
+                grupos.append({"nome": ch.get("name") or ch.get("abbreviation") or "", "linhas": linhas, "lg": liga})
         if grupos:
             if len(grupos) == 1:
                 grupos[0]["nome"] = ""
@@ -200,6 +201,9 @@ def _resultado(cfg, nome, comp, liga, ev):
         pen = [tm[x].get("shootoutScore") for x in ("home", "away")]
         if all(p is not None for p in pen):
             r["pen"] = [int(pen[0]), int(pen[1])]
+        ls = lances(cp, tm)
+        if ls:
+            r["lances"] = ls
         return r
     except (KeyError, ValueError, TypeError, IndexError):
         return None
@@ -213,7 +217,7 @@ def historico(cfg, nome, get_json, jogos, offline=False):
     # 1) o que já está na agenda e terminou
     for j in jogos:
         if j.get("placar") and j.get("eid"):
-            h["jogos"][j["eid"]] = {k: j[k] for k in ("inicio", "comp", "casa", "fora", "placar", "fase", "local") if j.get(k)} | \
+            h["jogos"][j["eid"]] = {k: j[k] for k in ("inicio", "comp", "casa", "fora", "placar", "fase", "local", "lances") if j.get(k)} | \
                 ({"lg": j["lg"]} if j.get("lg") else {})
     # 2) busca o passado aos poucos (mais recente primeiro)
     if not offline:
@@ -331,7 +335,7 @@ def arquivos_site(comps, tabs, hist, ativos_=None, rodadas=None):
         res = sorted(por_comp.get(comp, []), key=lambda x: x["inicio"], reverse=True)[:40]
         if not t and not res:
             continue
-        grava(SAIDA / f"camp-{comp}.json", {"tabela": t, "temporada": (tabs.get(comp) or {}).get("temporada", ""), **({"obs": tabs[comp]["obs"]} if (tabs.get(comp) or {}).get("obs") else {}), "resultados": [{k: r[k] for k in ("inicio", "casa", "fora", "placar") if k in r} |
+        grava(SAIDA / f"camp-{comp}.json", {"tabela": t, "temporada": (tabs.get(comp) or {}).get("temporada", ""), "atualizado": (tabs.get(comp) or {}).get("atualizado", ""), **({"obs": tabs[comp]["obs"]} if (tabs.get(comp) or {}).get("obs") else {}), "resultados": [{k: r[k] for k in ("inicio", "casa", "fora", "placar") if k in r} |
                                                                          ({"pen": r["pen"]} if r.get("pen") else {}) for r in res]}, compacto=True)
         feitos.add(f"camp-{comp}.json")
     out = _limpa(feitos, tabs, por_comp)
