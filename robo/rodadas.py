@@ -20,7 +20,7 @@ UTC = timezone.utc
 
 TSDB = "https://www.thesportsdb.com/api/v1/json/{}/{}"
 ORCAMENTO = 45        # consultas à TheSportsDB por execução
-ORCAMENTO_COMPLETO = 160
+ORCAMENTO_COMPLETO = 120
 ESPACO = 2.5          # segundos entre consultas (limite grátis ~30 por minuto)
 
 FIM = {"FT", "AET", "PEN", "AP", "MATCH FINISHED", "FINISHED", "AWARDED"}
@@ -83,31 +83,35 @@ def mata_mata(slug):
 
 # ---------------------------------------------------------------- TheSportsDB
 class Tsdb:
+    """Consultas à TheSportsDB com intervalo entre elas, uma nova tentativa e parada cedo quando o
+    servidor está recusando (para não gastar a execução inteira esperando)."""
+
     def __init__(self, get_json, key, orcamento):
         self.get_json, self.key, self.resta = get_json, key, orcamento
-        self.feitas = self.falhas = 0
+        self.feitas = self.falhas = self.seguidas = 0
+        self.motivos = {}
 
     def __call__(self, rota):
-        if self.resta <= 0:
+        if self.resta <= 0 or self.seguidas >= 4:
             return None
         self.resta -= 1
         for tentativa in range(2):
             if self.feitas:
-                time.sleep(ESPACO)
+                time.sleep(ESPACO if tentativa == 0 else 15)
             self.feitas += 1
             try:
-                return self.get_json(TSDB.format(self.key, rota))
+                r = self.get_json(TSDB.format(self.key, rota))
+                self.seguidas = 0
+                return r
             except urllib.error.HTTPError as e:
-                if e.code in (429, 500, 502, 503) and tentativa == 0:
-                    time.sleep(20)
-                    continue
-                break
-            except Exception:
-                if tentativa == 0:
-                    time.sleep(10)
-                    continue
-                break
+                motivo = f"HTTP {e.code}"
+                if e.code not in (429, 500, 502, 503):
+                    break
+            except Exception as e:
+                motivo = type(e).__name__
         self.falhas += 1
+        self.seguidas += 1
+        self.motivos[motivo] = self.motivos.get(motivo, 0) + 1
         return None
 
 
@@ -139,11 +143,16 @@ def _agora_da(c, agora):
     return melhor[0] if melhor else None
 
 
-def buscar(cfg, get_json, completo=False, offline=False):
+def buscar(cfg, get_json, jogos, completo=False, offline=False):
     """Atualiza dados/rodadas.json com o que falta ou pode ter mudado, dentro do orçamento de consultas."""
     cache = ler()
     if offline:
         return cache
+    hoje = datetime.now(BRT).date().isoformat()
+    proximos = {}  # campeonato -> dia (UTC) do próximo jogo que a ESPN já deu
+    for j in sorted(jogos, key=lambda j: j["inicio"]):
+        if j["inicio"][:10] >= hoje and not j.get("placar"):
+            proximos.setdefault(j["comp"], _quando(j["inicio"]).astimezone(UTC).date().isoformat())
     import os
     api = Tsdb(get_json, os.environ.get("THESPORTSDB_KEY") or "123", ORCAMENTO_COMPLETO if completo else ORCAMENTO)
     agora = datetime.now(UTC)
@@ -177,12 +186,21 @@ def buscar(cfg, get_json, completo=False, offline=False):
             continue
         rods = c["rodadas"]
         atual = _agora_da(c, agora)
-        if atual is None and not rods:
-            r = api(f"eventsnextleague.php?id={c['id']}")
-            ns = [int(e["intRound"]) for e in (r or {}).get("events") or [] if str(e.get("intRound") or "").isdigit()]
-            ns = [n for n in ns if 0 < n < 100]
-            atual = min(ns) if ns else 1
-        atual = atual or max([int(n) for n in rods] or [1])
+        if atual is None:
+            # o que está guardado não diz qual é a rodada de agora: pergunta à TheSportsDB pelo próximo jogo
+            # (pelo dia do próximo jogo que a ESPN já deu, ou pela lista de próximos jogos da liga)
+            perguntou = _quando(c.get("perguntou_em", "")) or datetime(2000, 1, 1, tzinfo=UTC)
+            if agora - perguntou < timedelta(hours=12) and c.get("atual"):
+                atual = c["atual"]
+            else:
+                dia = proximos.get(k)
+                r = api(f"eventsday.php?d={dia}&l={c['id']}" if dia else f"eventsnextleague.php?id={c['id']}")
+                if r is None:
+                    continue  # a consulta falhou: tenta na próxima execução, sem chutar a rodada
+                ns = [int(e["intRound"]) for e in r.get("events") or [] if str(e.get("intRound") or "").isdigit()]
+                ns = [n for n in ns if 0 < n < 100]
+                atual = min(ns) if ns else max([int(n) for n in rods] or [1])
+                c["perguntou_em"] = _iso(agora)
         c["atual"] = atual
         ultima = c.get("ultima")  # última rodada da temporada, quando já se sabe
         for n in range(1, (ultima or max([atual + 1] + [int(x) for x in rods])) + 1):
@@ -227,8 +245,8 @@ def buscar(cfg, get_json, completo=False, offline=False):
             continue
         c["rodadas"][str(n)] = {"em": _iso(agora), "jogos": [_evento(e) for e in evs]}
         novas += 1
-    log(f"TheSportsDB: {api.feitas} consultas, {novas} rodadas atualizadas, {api.falhas} falhas, "
-        f"{len([p for p in pedidos if p[0] <= 2])} pendentes")
+    log(f"TheSportsDB: {api.feitas} consultas, {novas} rodadas atualizadas, {api.falhas} falhas {api.motivos or ''}, "
+        f"{len(pedidos) - novas} pedidos para as próximas execuções")
     return cache
 
 

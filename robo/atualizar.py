@@ -505,7 +505,7 @@ def main():
         else:
             j.pop("pg", None)
     import rodadas
-    rcache = rodadas.buscar(cfg, get_json, completo, OFFLINE)
+    rcache = rodadas.buscar(cfg, get_json, jogos, completo, OFFLINE)
     EXTRAS["rodadas"] = rodadas.montar(cfg, rcache, jogos, hist, tabs, norm, lambda t: acentua(cfg, t))
     rodadas.gravar(rcache)
     for j in jogos:
