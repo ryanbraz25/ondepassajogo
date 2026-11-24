@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-24T02:05:15-03:00",
+ "atualizado": "2026-11-24T03:03:29-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1270,6 +1270,32 @@
    "lg": "arg.1",
    "ed": "20261125",
    "pg": "/jogo/boca-juniors-x-independiente-rivadavia-25-11-2026/"
+  },
+  {
+   "inicio": "2026-11-25T22:00:00-03:00",
+   "comp": "ligamx",
+   "casa": "Toluca",
+   "fora": "Atlas",
+   "local": "Estádio Nemesio Díez Riega, Toluca",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401931986",
+   "lg": "mex.1",
+   "ed": "20261125",
+   "pg": "/jogo/toluca-x-atlas-25-11-2026/"
+  },
+  {
+   "inicio": "2026-11-26T00:10:00-03:00",
+   "comp": "ligamx",
+   "casa": "Monterrey",
+   "fora": "América",
+   "local": "Estádio BBVA, Guadalupe",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401931998",
+   "lg": "mex.1",
+   "ed": "20261125",
+   "pg": "/jogo/monterrey-x-america-26-11-2026/"
   },
   {
    "canais": [],
@@ -6414,6 +6440,10 @@
   "Corinthians": "https://r2.thesportsdb.com/images/media/team/badge/vvuvps1473538042.png",
   "Boca Juniors": "https://r2.thesportsdb.com/images/media/team/badge/bm7krb1775741582.png",
   "Independiente Rivadavia": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/9744.png&h=80&w=80",
+  "Toluca": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/223.png&h=80&w=80",
+  "Atlas": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/216.png&h=80&w=80",
+  "Monterrey": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/220.png&h=80&w=80",
+  "América": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/227.png&h=80&w=80",
   "Al Fateh": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/13033.png&h=80&w=80",
   "Al Riyadh": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21965.png&h=80&w=80",
   "Abha": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/21833.png&h=80&w=80",

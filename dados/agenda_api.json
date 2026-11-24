@@ -6761,6 +6761,44 @@
   "local": "Wembley Stadium, London",
   "status": "a_confirmar"
  },
+ "espn:401931986": {
+  "_d": "20261125",
+  "_liga": "mex.1",
+  "_logos": {
+   "Atlas": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
+   "Toluca": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png"
+  },
+  "canais": [],
+  "casa": "Toluca",
+  "comp": "ligamx",
+  "ed": "20261125",
+  "eid": "401931986",
+  "fase": "apertura---quarterfinals",
+  "fora": "Atlas",
+  "inicio": "2026-11-25T22:00:00-03:00",
+  "lg": "mex.1",
+  "local": "Estadio Nemesio Díez Riega, Toluca",
+  "status": "a_confirmar"
+ },
+ "espn:401931998": {
+  "_d": "20261125",
+  "_liga": "mex.1",
+  "_logos": {
+   "América": "https://a.espncdn.com/i/teamlogos/soccer/500/227.png",
+   "Monterrey": "https://a.espncdn.com/i/teamlogos/soccer/500/220.png"
+  },
+  "canais": [],
+  "casa": "Monterrey",
+  "comp": "ligamx",
+  "ed": "20261125",
+  "eid": "401931998",
+  "fase": "apertura---quarterfinals",
+  "fora": "América",
+  "inicio": "2026-11-26T00:10:00-03:00",
+  "lg": "mex.1",
+  "local": "Estadio BBVA, Guadalupe",
+  "status": "a_confirmar"
+ },
  "espn:401933715": {
   "_d": "20261202",
   "_liga": "usa.1",
