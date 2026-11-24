@@ -831,6 +831,10 @@
   "inicio": "2026-11-23T16:45:00-03:00",
   "lg": "ita.1",
   "local": "U-Power Stadium, Monza",
+  "placar": {
+   "casa": 3,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401875011": {
@@ -2613,6 +2617,10 @@
   "inicio": "2026-11-23T17:00:00-03:00",
   "lg": "eng.1",
   "local": "Gtech Community Stadium, Brentford",
+  "placar": {
+   "casa": 4,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880113": {
@@ -3791,6 +3799,10 @@
   "inicio": "2026-11-23T17:00:00-03:00",
   "lg": "esp.1",
   "local": "Estadi Ciutat de València, Manises",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401882803": {
@@ -5037,6 +5049,10 @@
   "inicio": "2026-11-23T14:00:00-03:00",
   "lg": "tur.1",
   "local": "Basaksehir Fatih Terim Stadium, Istanbul",
+  "placar": {
+   "casa": 4,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401900440": {
@@ -7109,6 +7125,10 @@
   "inicio": "2026-11-23T17:00:00-03:00",
   "lg": "arg.1",
   "local": "Juan Carmelo Zerillo (El Bosque), La Plata",
+  "placar": {
+   "casa": 4,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401933757": {

@@ -9013,6 +9013,17 @@
     "fora": 0
    }
   },
+  "401875009": {
+   "casa": "Monza",
+   "comp": "serie-a-ita",
+   "fora": "Fiorentina",
+   "inicio": "2026-11-23T16:45:00-03:00",
+   "lg": "ita.1",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   }
+  },
   "401875018": {
    "casa": "Genoa",
    "comp": "serie-a-ita",
@@ -12060,6 +12071,17 @@
     "fora": 4
    }
   },
+  "401879237": {
+   "casa": "Brentford",
+   "comp": "premier",
+   "fora": "Everton",
+   "inicio": "2026-11-23T17:00:00-03:00",
+   "lg": "eng.1",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
   "401879238": {
    "casa": "Bournemouth",
    "comp": "premier",
@@ -14049,6 +14071,17 @@
    "placar": {
     "casa": 1,
     "fora": 0
+   }
+  },
+  "401882802": {
+   "casa": "Levante",
+   "comp": "laliga",
+   "fora": "Elche",
+   "inicio": "2026-11-23T17:00:00-03:00",
+   "lg": "esp.1",
+   "placar": {
+    "casa": 1,
+    "fora": 1
    }
   },
   "401882803": {
@@ -16985,6 +17018,17 @@
    "lg": "tur.1",
    "placar": {
     "casa": 0,
+    "fora": 2
+   }
+  },
+  "401888370": {
+   "casa": "Istanbul Basaksehir",
+   "comp": "turquia",
+   "fora": "Çorum FK",
+   "inicio": "2026-11-23T14:00:00-03:00",
+   "lg": "tur.1",
+   "placar": {
+    "casa": 4,
     "fora": 2
    }
   },
@@ -22842,6 +22886,17 @@
    "lg": "arg.1",
    "placar": {
     "casa": 1,
+    "fora": 2
+   }
+  },
+  "401933756": {
+   "casa": "Gimnasia La Plata",
+   "comp": "argentina",
+   "fora": "Newell's Old Boys",
+   "inicio": "2026-11-23T17:00:00-03:00",
+   "lg": "arg.1",
+   "placar": {
+    "casa": 4,
     "fora": 2
    }
   },

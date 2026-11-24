@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-23T14:52:49-03:00",
+ "atualizado": "2026-11-23T21:17:03-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1072,6 +1072,10 @@
    "eid": "401888370",
    "lg": "tur.1",
    "ed": "20261123",
+   "placar": {
+    "casa": 4,
+    "fora": 2
+   },
    "pg": "/jogo/istanbul-basaksehir-x-corum-fk-23-11-2026/"
   },
   {
@@ -1087,6 +1091,10 @@
    "eid": "401875009",
    "lg": "ita.1",
    "ed": "20261123",
+   "placar": {
+    "casa": 3,
+    "fora": 0
+   },
    "pg": "/jogo/monza-x-fiorentina-23-11-2026/"
   },
   {
@@ -1102,6 +1110,10 @@
    "eid": "401879237",
    "lg": "eng.1",
    "ed": "20261123",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "pg": "/jogo/brentford-x-everton-23-11-2026/"
   },
   {
@@ -1117,6 +1129,10 @@
    "eid": "401933756",
    "lg": "arg.1",
    "ed": "20261123",
+   "placar": {
+    "casa": 4,
+    "fora": 2
+   },
    "pg": "/jogo/gimnasia-la-plata-x-newell-s-old-boys-23-11-2026/"
   },
   {
@@ -1132,6 +1148,10 @@
    "eid": "401882802",
    "lg": "esp.1",
    "ed": "20261123",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "pg": "/jogo/levante-x-elche-23-11-2026/"
   },
   {
