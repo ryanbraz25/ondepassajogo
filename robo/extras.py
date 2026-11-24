@@ -191,7 +191,10 @@ def _resultado(cfg, nome, comp, liga, ev):
             return None
         tm = {x["homeAway"]: x for x in cp["competitors"]}
         ini = datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(BRT)
-        r = {"inicio": ini.isoformat(), "comp": comp, "lg": liga,
+        v = cp.get("venue") or ev.get("venue") or {}
+        fase = (ev.get("season") or {}).get("slug") or ""
+        r = {"inicio": ini.isoformat(), "comp": comp, "lg": liga, **({"fase": fase} if fase else {}),
+             **({"local": ", ".join(x for x in (v.get("fullName"), (v.get("address") or {}).get("city")) if x)} if v.get("fullName") else {}),
              "casa": nome(cfg, tm["home"]["team"]["displayName"], comp), "fora": nome(cfg, tm["away"]["team"]["displayName"], comp),
              "placar": {"casa": int(tm["home"]["score"]), "fora": int(tm["away"]["score"])}}
         pen = [tm[x].get("shootoutScore") for x in ("home", "away")]
@@ -204,11 +207,13 @@ def _resultado(cfg, nome, comp, liga, ev):
 
 def historico(cfg, nome, get_json, jogos, offline=False):
     h = ler(HIST, {"jogos": {}, "feitos": []})
+    if h.get("v") != 2:  # versão 2 guarda a fase (oitavas, quartas...): busca o passado de novo uma vez
+        h["feitos"], h["v"] = [], 2
     feitos = set(h.get("feitos", []))
     # 1) o que já está na agenda e terminou
     for j in jogos:
         if j.get("placar") and j.get("eid"):
-            h["jogos"][j["eid"]] = {k: j[k] for k in ("inicio", "comp", "casa", "fora", "placar") if k in j} | \
+            h["jogos"][j["eid"]] = {k: j[k] for k in ("inicio", "comp", "casa", "fora", "placar", "fase", "local") if j.get(k)} | \
                 ({"lg": j["lg"]} if j.get("lg") else {})
     # 2) busca o passado aos poucos (mais recente primeiro)
     if not offline:
@@ -313,7 +318,7 @@ def ativos(jogos, hist, dias=45):
     return a
 
 
-def arquivos_site(comps, tabs, hist, ativos_=None):
+def arquivos_site(comps, tabs, hist, ativos_=None, rodadas=None):
     SAIDA.mkdir(parents=True, exist_ok=True)
     if ativos_ is not None:
         tabs = {k: v for k, v in tabs.items() if k in ativos_}
@@ -329,7 +334,10 @@ def arquivos_site(comps, tabs, hist, ativos_=None):
         grava(SAIDA / f"camp-{comp}.json", {"tabela": t, "temporada": (tabs.get(comp) or {}).get("temporada", ""), **({"obs": tabs[comp]["obs"]} if (tabs.get(comp) or {}).get("obs") else {}), "resultados": [{k: r[k] for k in ("inicio", "casa", "fora", "placar") if k in r} |
                                                                          ({"pen": r["pen"]} if r.get("pen") else {}) for r in res]}, compacto=True)
         feitos.add(f"camp-{comp}.json")
-    return _limpa(feitos, tabs, por_comp)
+    out = _limpa(feitos, tabs, por_comp)
+    for c in rodadas or {}:  # "d" = jogos por rodada (arquivo rod-<comp>.json, feito em paginas.py)
+        out[c] = out.get(c, "") + "d"
+    return out
 
 
 def _limpa(feitos, tabs, por_comp):

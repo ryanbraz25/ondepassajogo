@@ -168,7 +168,8 @@
    "cor": "#0f8a46",
    "curto": "Brasileirão",
    "principal": true,
-   "espn": "bra.1"
+   "espn": "bra.1",
+   "tsdb_id": 4351
   },
   "libertadores": {
    "nome": "Libertadores",
@@ -179,7 +180,9 @@
    "espn": "conmebol.libertadores",
    "canais_padrao": [
     "disney"
-   ]
+   ],
+   "tsdb_id": 4501,
+   "rotulo_rodada": "Fase de grupos"
   },
   "sul-americana": {
    "nome": "Sul-Americana",
@@ -187,7 +190,9 @@
    "cor": "#1f5fa8",
    "curto": "Sul-Americana",
    "principal": true,
-   "espn": "conmebol.sudamericana"
+   "espn": "conmebol.sudamericana",
+   "tsdb_id": 4724,
+   "rotulo_rodada": "Fase de grupos"
   },
   "copa-do-brasil": {
    "nome": "Copa do Brasil",
@@ -215,7 +220,9 @@
    "espn": "uefa.champions",
    "canais_padrao": [
     "hbomax"
-   ]
+   ],
+   "tsdb_id": 4480,
+   "rotulo_rodada": "Fase de liga"
   },
   "premier": {
    "nome": "Premier League",
@@ -226,7 +233,8 @@
    "espn": "eng.1",
    "canais_padrao": [
     "disney"
-   ]
+   ],
+   "tsdb_id": 4328
   },
   "laliga": {
    "nome": "La Liga",
@@ -237,7 +245,8 @@
    "espn": "esp.1",
    "canais_padrao": [
     "cazetv"
-   ]
+   ],
+   "tsdb_id": 4335
   },
   "serie-a-ita": {
    "nome": "Serie A (Itália)",
@@ -248,7 +257,8 @@
    "espn": "ita.1",
    "canais_padrao": [
     "disney"
-   ]
+   ],
+   "tsdb_id": 4332
   },
   "bundesliga": {
    "nome": "Bundesliga",
@@ -259,7 +269,8 @@
    "espn": "ger.1",
    "canais_padrao": [
     "onefootball"
-   ]
+   ],
+   "tsdb_id": 4331
   },
   "ligue1": {
    "nome": "Ligue 1",
@@ -270,7 +281,8 @@
    "espn": "fra.1",
    "canais_padrao": [
     "cazetv"
-   ]
+   ],
+   "tsdb_id": 4334
   },
   "brasileirao-b": {
    "nome": "Brasileirão Série B",
@@ -281,7 +293,8 @@
    "espn": "bra.2",
    "canais_padrao": [
     "disney"
-   ]
+   ],
+   "tsdb_id": 4404
   },
   "paulista": {
    "nome": "Paulistão",
@@ -360,7 +373,9 @@
    "espn": "uefa.europa",
    "canais_padrao": [
     "cazetv"
-   ]
+   ],
+   "tsdb_id": 4481,
+   "rotulo_rodada": "Fase de liga"
   },
   "conference": {
    "nome": "Conference League",
@@ -371,7 +386,9 @@
    "espn": "uefa.europa.conf",
    "canais_padrao": [
     "cazetv"
-   ]
+   ],
+   "tsdb_id": 5071,
+   "rotulo_rodada": "Fase de liga"
   },
   "nations": {
    "nome": "Liga das Nações",
@@ -394,7 +411,8 @@
    "espn": "por.1",
    "canais_padrao": [
     "disney"
-   ]
+   ],
+   "tsdb_id": 4344
   },
   "argentina": {
    "nome": "Argentino",
@@ -405,7 +423,8 @@
    "espn": "arg.1",
    "canais_padrao": [
     "disney"
-   ]
+   ],
+   "tsdb_id": 4406
   },
   "mls": {
    "nome": "MLS",
@@ -416,7 +435,8 @@
    "espn": "usa.1",
    "canais_padrao": [
     "appletv"
-   ]
+   ],
+   "tsdb_id": 4346
   },
   "saudita": {
    "nome": "Saudita",
@@ -424,14 +444,16 @@
    "cor": "#0c7a43",
    "curto": "Saudita",
    "principal": false,
-   "espn": "ksa.1"
+   "espn": "ksa.1",
+   "tsdb_id": 4668
   },
   "ligamx": {
    "nome": "Liga MX (México)",
    "cor": "#1d4f2b",
    "curto": "Liga MX",
    "espn": "mex.1",
-   "principal": false
+   "principal": false,
+   "tsdb_id": 4350
   },
   "fa-cup": {
    "nome": "FA Cup",
@@ -459,21 +481,24 @@
    "cor": "#5a2d82",
    "curto": "Championship",
    "espn": "eng.2",
-   "principal": false
+   "principal": false,
+   "tsdb_id": 4329
   },
   "eredivisie": {
    "nome": "Eredivisie (Holanda)",
    "cor": "#ff6200",
    "curto": "Holandês",
    "espn": "ned.1",
-   "principal": false
+   "principal": false,
+   "tsdb_id": 4337
   },
   "turquia": {
    "nome": "Liga da Turquia",
    "cor": "#e30a17",
    "curto": "Turco",
    "espn": "tur.1",
-   "principal": false
+   "principal": false,
+   "tsdb_id": 4339
   },
   "feminino": {
    "nome": "Brasileirão Feminino",

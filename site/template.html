@@ -409,6 +409,8 @@ header .wrap{position:relative}
 @media(max-width:640px){.ob{place-items:end center;padding:0}.obc{border-radius:18px 18px 0 0;max-height:86vh}.obgrid{grid-template-columns:1fr 1fr}}
 </style>
 <link rel="stylesheet" href="/menu.css?v=2">
+<link rel="stylesheet" href="/rodadas.css?v=1">
+<script src="/rodadas.js?v=1" defer></script>
 <script src="/menu.js?v=2" defer></script>
 __ADSENSE_HEAD__
 </head>
@@ -747,7 +749,7 @@ function abaComp(){if(S.view==='liga'&&S.liga)return S.liga;if(S.view==='todos'&
 function abasBar(k){
  const a=(D.abas||{})[k]||'';if(!a)return '';
  if(S.abaK!==k){S.abaK=k;S.aba='jogos'}
- const b=[['jogos','Jogos']].concat(a.includes('t')?[['tabela','Tabela']]:[],a.includes('r')?[['resultados','Resultados']]:[]);
+ const b=[['jogos','Jogos']].concat(a.includes('t')?[['tabela','Tabela']]:[],a.includes('d')?[['rodadas','Rodadas']]:a.includes('r')?[['resultados','Resultados']]:[]);
  return `<nav class="abas" role="tablist" aria-label="${esc(C(k).nome)}">${b.map(([i,n])=>`<button type="button" role="tab" class="aba${S.aba===i?' on':''}" data-aba="${i}" aria-selected="${S.aba===i}">${n}</button>`).join('')}<a class="abapg" href="/campeonato/${slugJS(k)}/">Página do campeonato ›</a></nav>`;
 }
 function crestTb(t,u){const x=ESC[t]||u;return x?`<img class="cr" src="${esc(/thesportsdb/.test(x)?x+'/tiny':x)}" alt="" width="20" height="20" loading="lazy" onerror="this.style.visibility='hidden'">`:'<span class="cr ini"></span>'}
@@ -766,6 +768,7 @@ function resultadosHtml(d){
   return h+`<li><span class="${a>b?'vc':''}">${crest(x.casa)}${esc(x.casa)}</span><b>${a} x ${b}</b><span class="${b>a?'vc':''}">${esc(x.fora)}${crest(x.fora)}</span>${x.pen?`<small>pên. ${x.pen[0]} x ${x.pen[1]}</small>`:''}</li>`}).join('')+'</ul>';
 }
 function painelHtml(k){
+ if(S.aba==='rodadas')return `<div class="rdhome" data-rodhome="${slugJS(k)}"></div>`; // rodadas.js monta a caixa
  const d=CAMP[k];
  if(d===undefined){CAMP[k]=false;fetch(`/dados/camp-${k}.json`,{cache:'no-cache'}).then(r=>r.json()).then(x=>{CAMP[k]=x;renderList()}).catch(()=>{CAMP[k]=null;renderList()})}
  if(!d)return d===null?'<p class="empty">Não deu para carregar agora. Tente de novo em instantes.</p>':'<p class="empty">Carregando…</p>';
@@ -776,6 +779,7 @@ function renderList(){
  if(ak&&bar&&S.aba!=='jogos'){
   const c=C(ak);
   setList(`<div class="lghead"><h2><span class="pill big">${lgIcon(ak)}</span>${esc(c.nome)}</h2>${S.view==='liga'?'<span class="lgbtns"><button class="clr" type="button" data-clr>× Ver todos os jogos</button></span>':''}</div>`+bar+painelHtml(ak));
+  const rh=document.querySelector('[data-rodhome]');if(rh&&window.OPJRodadas)OPJRodadas.montar(rh,rh.dataset.rodhome);
   return;
  }
  if(S.view==='liga'&&S.liga){

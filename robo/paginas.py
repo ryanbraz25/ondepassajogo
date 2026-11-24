@@ -88,6 +88,7 @@ class Ctx:
         self.tabs = ex.get("tabelas") or {}
         self.hist = ex.get("historico") or {"jogos": {}}
         self.escs = ex.get("escalacoes") or {}
+        self.rods = ex.get("rodadas") or {}
         self.d = dados
         self.head_extra = head_extra
         self.favicon = favicon
@@ -125,7 +126,7 @@ class Ctx:
 
 
 # ---------------------------------------------------------------- moldura comum
-def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, noindex=False):
+def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, noindex=False, largo=False):
     url = URL + caminho
     ld = ""
     blocos = list(jsonld or [])
@@ -163,11 +164,13 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/p.css?v=5">
 <link rel="stylesheet" href="/menu.css?v=2">
+<link rel="stylesheet" href="/rodadas.css?v=1">
 <script src="/p.js?v=5" defer></script>
+<script src="/rodadas.js?v=1" defer></script>
 <script src="/menu.js?v=2" defer></script>
 {cx.head_extra}
 {ld}</head>
-<body>
+<body{' class="largo"' if largo else ''}>
 <header class="topo"><div class="wrap"><div class="hesq">{botao_menu(rotulo=False)}<a class="marca" href="/" aria-label="Onde Passa Jogo: página inicial">{cx.pin}<span>ONDE PASSA <b>JOGO</b></span></a></div><div class="hdir"><a class="todos" href="/">Ver agenda<span class="dk"> completa</span></a></div></div></header>
 {menu_html(cx.comps, cx.tabs)}
 <main class="wrap">
@@ -624,12 +627,17 @@ def pagina_comp(cx, k, jogos):
     res = sorted([x for x in cx.hist["jogos"].values() if x["comp"] == k], key=lambda x: x["inicio"], reverse=True)[:30]
     tem_tab = k in cx.tabs
     temporada = (cx.tabs.get(k) or {}).get("temporada", "")
-    abas = [("tabela", "Tabela", tabela_html(cx, k)) if tem_tab else None,
-            ("jogos", "Próximos jogos", por_dia(cx, futuros, mostrar_comp=False) if futuros else "<p>Sem jogos marcados nos próximos dias.</p>"),
-            ("resultados", "Resultados", resultados_html(cx, res, mostrar_comp=False) if res else "<p>Sem resultados recentes.</p>")]
+    rd = cx.rods.get(k)
+    if rd:  # jogos por rodada: no computador fica ao lado da tabela; no celular, numa aba
+        abas = [("tabela", "Tabela", tabela_html(cx, k)) if tem_tab else None, ("jogos", "Jogos", rodadas_caixa(cx, k, rd))]
+    else:
+        abas = [("tabela", "Tabela", tabela_html(cx, k)) if tem_tab else None,
+                ("jogos", "Próximos jogos", por_dia(cx, futuros, mostrar_comp=False) if futuros else "<p>Sem jogos marcados nos próximos dias.</p>"),
+                ("resultados", "Resultados", resultados_html(cx, res, mostrar_comp=False) if res else "<p>Sem resultados recentes.</p>")]
     abas = [a for a in abas if a]
     botoes = "".join(f'<a class="aba{" on" if i == 0 else ""}" href="#{a[0]}" role="tab" data-aba="{a[0]}">{e(a[1])}</a>' for i, a in enumerate(abas))
     secoes = "".join(f'<section id="{a[0]}" class="painel" role="tabpanel"><h2 class="ph">{e(a[1])}</h2>{a[2]}</section>' for a in abas)
+    lado_a_lado = bool(rd) and len(abas) == 2
     if tem_tab:
         g0 = cx.tabs[k]["grupos"]
         lider = g0[0]["linhas"][0]
@@ -644,8 +652,104 @@ def pagina_comp(cx, k, jogos):
         desc = (f"Agenda {do_(nome)} com horário de Brasília e onde assistir cada jogo"
                 + (f": {len(futuros)} jogos nos próximos dias." if futuros else ".") + " Últimos resultados.")
         h1 = f"{e(nome)}: jogos e onde assistir"
-    corpo = f'<h1>{h1}</h1><nav class="abas" role="tablist">{botoes}</nav>{secoes}'
-    return pagina(cx, cam, titulo, desc, corpo, None, [("Início", "/"), (nome, cam)])
+    if rd:
+        g = rd["rodadas"][rd["atual"]]
+        desc = desc.replace("próximos jogos", f"jogos da {g['nome'].split(' · ')[-1]}", 1) if "próximos jogos" in desc else desc
+    nav = f'<nav class="abas" role="tablist">{botoes}</nav>' if len(abas) > 1 else ""
+    corpo = f'<h1>{h1}</h1>' + (f'<div class="camp2">{nav}{secoes}</div>' if lado_a_lado else nav + secoes)
+    return pagina(cx, cam, titulo, desc, corpo, None, [("Início", "/"), (nome, cam)], largo=lado_a_lado)
+
+
+# ---------------------------------------------------------------- jogos por rodada (como no ge)
+# O HTML de cada rodada sai só daqui: vai na página do campeonato (a rodada de agora) e no arquivo
+# /dados/rod-<campeonato>.json, que o rodadas.js usa para trocar de rodada sem recarregar.
+def _periodo(de, ate):
+    if not de:
+        return ""
+    a, b = datetime.fromisoformat(de), datetime.fromisoformat(ate or de)
+    if a == b:
+        return f"{SEMANA[a.weekday()].split('-')[0]}, {a.day} de {MESES[a.month - 1]}"
+    if a.month == b.month:
+        return f"{a.day} a {b.day} de {MESES[b.month - 1]}"
+    return f"{a.day} de {MESES[a.month - 1][:3]}. a {b.day} de {MESES[b.month - 1][:3]}."
+
+
+def _rodada_jogo(cx, j):
+    t = datetime.fromisoformat(j["inicio"]).astimezone(BRT) if j.get("inicio") else None
+    st = j.get("st", "")
+    cls = {"fim": " fim", "adiado": " adiado"}.get(st, "")
+    info = []
+    if t:
+        quando = f"{SEMANA[t.weekday()][:3]} {t:%d/%m}" + (f" · {hora(t)}" if j.get("hora", True) else " · horário a definir")
+        info.append(f'<time datetime="{e(t.isoformat())}">{e(quando)}</time>')
+    else:
+        info.append("<span>Data a definir</span>")
+    if j.get("local"):
+        info.append(f'<span class="rj-loc">{e(j["local"])}</span>')
+    if j.get("placar"):
+        a, b = j["placar"]
+        meio = f'<span class="rj-p"><b>{a}</b><i>x</i><b>{b}</b></span>'
+    else:
+        meio = '<span class="rj-p rj-x"><i>x</i></span>'
+    times = (f'<span class="rj-t rj-c"><span class="rj-n">{e(j["casa"])}</span>{escudo(cx, j["casa"], 30)}</span>{meio}'
+             f'<span class="rj-t rj-f">{escudo(cx, j["fora"], 30)}<span class="rj-n">{e(j["fora"])}</span></span>')
+    pg = j.get("pg")
+    rot = f'{j["casa"]} x {j["fora"]}' + (f', {j["placar"][0]} a {j["placar"][1]}' if j.get("placar") else "")
+    miolo = (f'<a class="rj-m" href="{e(pg)}" aria-label="{e(rot)}: ver detalhes">{times}</a>' if pg
+             else f'<div class="rj-m" aria-label="{e(rot)}">{times}</div>')
+    if st == "fim":
+        rodape = "Pênaltis: " + " x ".join(map(str, j["pen"])) if j.get("pen") else "Encerrado"
+        rodape = f'<p class="rj-tv rj-s">{e(rodape)}</p>'
+    elif st == "adiado":
+        rodape = '<p class="rj-tv rj-s">Adiado</p>'
+    elif j.get("canais"):
+        cs = []
+        for c in j["canais"]:
+            nome_c, _, _, gratis = cx.canal_info(j, c)
+            cs.append(f'<span class="{"gr" if gratis else ""}">{e(nome_c)}</span>')
+        rodape = f'<p class="rj-tv">{"".join(cs)}</p>'
+    elif t and t > cx.agora - timedelta(hours=3):
+        rodape = '<p class="rj-tv rj-s">Canais a confirmar</p>'
+    else:
+        rodape = ""
+    dados = "".join(f' data-{a}="{e(j[b])}"' for a, b in (("eid", "eid"), ("lg", "lg"), ("ed", "ed")) if j.get(b))
+    return f'<li class="rj{cls}"{dados}><p class="rj-i">{" · ".join(info)}</p>{miolo}{rodape}</li>'
+
+
+def rodada_html(cx, g):
+    return "".join(_rodada_jogo(cx, j) for j in g["jogos"]) or '<li class="rj-vazio">Sem jogos nesta rodada.</li>'
+
+
+def rodadas_caixa(cx, k, rd):
+    """A caixa com as setas e a rodada de agora já desenhada (o resto chega pelo JSON)."""
+    i = rd["atual"]
+    g = rd["rodadas"][i]
+    opcoes = "".join(f'<option value="{n}"{" selected" if n == i else ""}>{e(x["nome"])}</option>' for n, x in enumerate(rd["rodadas"]))
+    return (f'<div class="rd" data-rod="{e(slug(k))}" data-i="{i}" data-total="{len(rd["rodadas"])}">'
+            f'<div class="rd-nav"><button class="rd-b rd-ant" type="button" aria-label="Rodada anterior"{" disabled" if i == 0 else ""}>'
+            '<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>'
+            f'<div class="rd-t"><b>{e(g["nome"])}</b><small>{e(_periodo(g["de"], g["ate"]))}</small>'
+            f'<label class="so-leitor" for="rd-sel-{e(slug(k))}">Escolher a rodada</label><select class="rd-sel" id="rd-sel-{e(slug(k))}">{opcoes}</select></div>'
+            f'<button class="rd-b rd-prox" type="button" aria-label="Próxima rodada"{" disabled" if i == len(rd["rodadas"]) - 1 else ""}>'
+            '<svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>'
+            f'<ul class="rd-l" aria-live="polite">{rodada_html(cx, g)}</ul></div>')
+
+
+def rodadas_arquivo(cx, rd):
+    """Conteúdo do /dados/rod-<campeonato>.json: cada rodada com o HTML pronto."""
+    return {"atual": rd["atual"], "rodadas": [{"nome": g["nome"], "periodo": _periodo(g["de"], g["ate"]), "html": rodada_html(cx, g)}
+                                             for g in rd["rodadas"]]}
+
+
+def preparar_rodadas(cx, existentes):
+    """Liga cada jogo da rodada à página dele (quando ela existe no site)."""
+    for rd in cx.rods.values():
+        for g in rd["rodadas"]:
+            for j in g["jogos"]:
+                if j.get("inicio") and "A definir" not in (j["casa"], j["fora"]):
+                    cam = caminho_jogo(j)
+                    if cam in existentes:
+                        j["pg"] = cam
 
 
 def pagina_tabelas(cx):
@@ -702,6 +806,21 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
         if cam.startswith("/time/") and cam not in novas and info.get("nome"):
             novas[cam] = (pagina_time(cx, info["nome"], []), "")
     nomes_time = {f"/time/{slug(t)}/": t for t in times}
+    guarda = (cx.hoje - timedelta(days=GUARDAR_DIAS)).isoformat()
+    preparar_rodadas(cx, set(novas) | {c for c, i in pags.items() if c.startswith("/jogo/") and i.get("dia", "") >= guarda})
+    pasta = SITE / "dados"
+    pasta.mkdir(parents=True, exist_ok=True)
+    feitos = set()
+    for k, rd in cx.rods.items():
+        nome_arq = f"rod-{slug(k)}.json"
+        conteudo = json.dumps(rodadas_arquivo(cx, rd), ensure_ascii=False, separators=(",", ":"))
+        arq = pasta / nome_arq
+        if not arq.exists() or arq.read_text(encoding="utf-8") != conteudo:
+            arq.write_text(conteudo, encoding="utf-8")
+        feitos.add(nome_arq)
+    for f in pasta.glob("rod-*.json"):
+        if f.name not in feitos:
+            f.unlink()
     comps = {}
     for j in cx.jogos:
         comps.setdefault(j["comp"], []).append(j)

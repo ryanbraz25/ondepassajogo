@@ -186,6 +186,7 @@ def espn(cfg, completo):
                 j = {"inicio": ini.isoformat(), "comp": comp, "casa": casa, "fora": fora, "local": local,
                      "canais": list(c.get("canais_padrao", [])), "status": "a_confirmar",
                      "_liga": liga, "_d": d, "eid": str(ev.get("id", "")), "lg": liga, "ed": d,
+                     "fase": (ev.get("season") or {}).get("slug") or "",
                      "_logos": {casa: times["home"]["team"].get("logo", ""), fora: times["away"]["team"].get("logo", "")}}
                 nm = st.get("name", "")
                 if st.get("completed") and "CANCEL" not in nm and "POSTPON" not in nm:
@@ -459,6 +460,7 @@ def main():
     dias = [(hoje + timedelta(days=i)).isoformat() for i in range(cfg["site"]["dias_a_frente"])]
 
     agora = datetime.now(BRT)
+    completo = False
     if OFFLINE:
         api = [dict(v) for v in ler(CACHE).values()] if CACHE.exists() else []
     else:
@@ -502,6 +504,12 @@ def main():
             j["pg"] = paginas.caminho_jogo(j)
         else:
             j.pop("pg", None)
+    import rodadas
+    rcache = rodadas.buscar(cfg, get_json, completo, OFFLINE)
+    EXTRAS["rodadas"] = rodadas.montar(cfg, rcache, jogos, hist, tabs, norm, lambda t: acentua(cfg, t))
+    rodadas.gravar(rcache)
+    for j in jogos:
+        j.pop("fase", None)  # só serve para montar as rodadas; não vai para a página inicial
     aplicar_afiliado(cfg)
     dados = {
         "atualizado": datetime.now(BRT).isoformat(timespec="seconds"),
@@ -514,7 +522,7 @@ def main():
         "logos_ligas": logos_ligas(cfg),
         "anuncios": {k: v for k, v in cfg.get("anuncios", {}).items() if k != "comentario"},
     }
-    dados["abas"] = extras.arquivos_site(list(cfg["competicoes"]), tabs_ativas, hist)
+    dados["abas"] = extras.arquivos_site(list(cfg["competicoes"]), tabs_ativas, hist, rodadas=EXTRAS["rodadas"])
     nt = cfg.get("notificacoes") or {}
     if (nt.get("firebase") or {}).get("apiKey"):
         dados["push"] = {"cfg": nt["firebase"], "vapid": nt.get("vapid", "")}
