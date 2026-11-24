@@ -7,23 +7,23 @@
 },
 "/campeonato/argentina/": {
 "dia": "",
-"h": "d701d1be05087d2f",
-"mod": "2026-11-23T23:01-03:00"
+"h": "8ce55e00ac52f826",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/brasileirao-a/": {
 "dia": "",
-"h": "bae7b1fe38d86fec",
-"mod": "2026-11-23T23:01-03:00"
+"h": "5b5bce3a66d0bc0b",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/brasileirao-b/": {
 "dia": "",
-"h": "f97eb42cfeec9221",
-"mod": "2026-11-23T23:01-03:00"
+"h": "d0917ccf94bc4a96",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/bundesliga/": {
 "dia": "",
-"h": "ccdbbe8926e8ecc1",
-"mod": "2026-11-23T23:01-03:00"
+"h": "c3d8fb21129c0314",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/carioca/": {
 "dia": "",
@@ -32,18 +32,18 @@
 },
 "/campeonato/champions/": {
 "dia": "",
-"h": "ee4acde4121cf73a",
-"mod": "2026-11-23T23:01-03:00"
+"h": "3acf7cdbd1a8947a",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/championship/": {
 "dia": "",
-"h": "17ed6249f5ef21a4",
-"mod": "2026-11-23T23:01-03:00"
+"h": "aa599176fc4acdc8",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/conference/": {
 "dia": "",
-"h": "ae97e5d8a1a0dc33",
-"mod": "2026-11-23T22:48-03:00"
+"h": "ff1e03cd1becbc34",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/copa-do-brasil/": {
 "dia": "",
@@ -62,8 +62,8 @@
 },
 "/campeonato/eredivisie/": {
 "dia": "",
-"h": "1429101fbeec2ed4",
-"mod": "2026-11-23T22:48-03:00"
+"h": "c5013dbe53103b98",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/eurocopa/": {
 "dia": "",
@@ -72,8 +72,8 @@
 },
 "/campeonato/europa/": {
 "dia": "",
-"h": "50798b0dcf6507cc",
-"mod": "2026-11-23T22:48-03:00"
+"h": "2bb5f75a68ef8151",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/fa-cup/": {
 "dia": "",
@@ -92,8 +92,8 @@
 },
 "/campeonato/laliga/": {
 "dia": "",
-"h": "c0ec4e7063a76707",
-"mod": "2026-11-23T22:29-03:00"
+"h": "d90517cc65eed7ba",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/libertadores-fem/": {
 "dia": "",
@@ -102,18 +102,18 @@
 },
 "/campeonato/libertadores/": {
 "dia": "",
-"h": "2f101ce6c45e4037",
-"mod": "2026-11-23T22:48-03:00"
+"h": "1325b54eb44b27d6",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/ligamx/": {
 "dia": "",
-"h": "6fdda4963d87aef5",
-"mod": "2026-11-23T22:48-03:00"
+"h": "04362e294a580773",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/ligue1/": {
 "dia": "",
-"h": "dad5fcbf0fb7dcc3",
-"mod": "2026-11-23T22:29-03:00"
+"h": "013465cecb0b7f9e",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/mineiro/": {
 "dia": "",
@@ -147,13 +147,13 @@
 },
 "/campeonato/portugal/": {
 "dia": "",
-"h": "d299cbf8ae01a48c",
-"mod": "2026-11-23T22:48-03:00"
+"h": "de87a78b1f607a9c",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/premier/": {
 "dia": "",
-"h": "e1a33710fb1a3165",
-"mod": "2026-11-23T22:29-03:00"
+"h": "f1927159d64f6b4f",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/recopa/": {
 "dia": "",
@@ -162,18 +162,18 @@
 },
 "/campeonato/saudita/": {
 "dia": "",
-"h": "1f7050393bd6c87b",
-"mod": "2026-11-23T22:48-03:00"
+"h": "586bc7823404a25d",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/serie-a-ita/": {
 "dia": "",
-"h": "e0c6b6c296b3493d",
-"mod": "2026-11-23T23:01-03:00"
+"h": "aed7f7c960ef8e31",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/sul-americana/": {
 "dia": "",
-"h": "20ac71e4000903a2",
-"mod": "2026-11-23T23:01-03:00"
+"h": "653c819772ea5f4b",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/campeonato/supercopa/": {
 "dia": "",
@@ -182,8 +182,8 @@
 },
 "/campeonato/turquia/": {
 "dia": "",
-"h": "0a7f6174b1193719",
-"mod": "2026-11-23T23:01-03:00"
+"h": "d0069c8a37ae391f",
+"mod": "2026-11-23T23:10-03:00"
 },
 "/jogo/1-fc-union-berlin-x-hamburg-sv-05-12-2026/": {
 "dia": "2026-12-05",
