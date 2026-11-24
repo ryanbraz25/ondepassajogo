@@ -1,9 +1,10 @@
 {
  "argentina": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "arg.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -16,6 +17,7 @@
       "pos": 1,
       "pts": 34,
       "sg": 11,
+      "tid": "2975",
       "time": "Instituto (Córdoba)",
       "v": 10,
       "zona": "Mata-mata (oitavas)"
@@ -31,6 +33,7 @@
       "pos": 2,
       "pts": 33,
       "sg": 10,
+      "tid": "5",
       "time": "Boca Juniors",
       "v": 9,
       "zona": "Mata-mata (oitavas)"
@@ -46,6 +49,7 @@
       "pos": 3,
       "pts": 28,
       "sg": 8,
+      "tid": "21",
       "time": "Vélez Sarsfield",
       "v": 7,
       "zona": "Mata-mata (oitavas)"
@@ -61,6 +65,7 @@
       "pos": 4,
       "pts": 28,
       "sg": 6,
+      "tid": "8950",
       "time": "Defensa y Justicia",
       "v": 8,
       "zona": "Mata-mata (oitavas)"
@@ -76,6 +81,7 @@
       "pos": 5,
       "pts": 26,
       "sg": 7,
+      "tid": "12",
       "time": "Lanús",
       "v": 7,
       "zona": "Mata-mata (oitavas)"
@@ -91,6 +97,7 @@
       "pos": 6,
       "pts": 23,
       "sg": 3,
+      "tid": "14",
       "time": "Newell's Old Boys",
       "v": 5,
       "zona": "Mata-mata (oitavas)"
@@ -106,6 +113,7 @@
       "pos": 7,
       "pts": 23,
       "sg": -1,
+      "tid": "11",
       "time": "Independiente",
       "v": 6,
       "zona": "Mata-mata (oitavas)"
@@ -121,6 +129,7 @@
       "pos": 8,
       "pts": 22,
       "sg": 1,
+      "tid": "11972",
       "time": "Gimnasia (Mendoza)",
       "v": 6,
       "zona": "Mata-mata (oitavas)"
@@ -135,6 +144,7 @@
       "pos": 9,
       "pts": 21,
       "sg": 0,
+      "tid": "20",
       "time": "Unión (Santa Fe)",
       "v": 6
      },
@@ -148,6 +158,7 @@
       "pos": 10,
       "pts": 20,
       "sg": -2,
+      "tid": "7764",
       "time": "Platense",
       "v": 5
      },
@@ -161,6 +172,7 @@
       "pos": 11,
       "pts": 19,
       "sg": -7,
+      "tid": "18",
       "time": "San Lorenzo",
       "v": 5
      },
@@ -174,6 +186,7 @@
       "pos": 12,
       "pts": 16,
       "sg": -1,
+      "tid": "8",
       "time": "Estudiantes",
       "v": 4
      },
@@ -187,6 +200,7 @@
       "pos": 13,
       "pts": 13,
       "sg": -6,
+      "tid": "19",
       "time": "Talleres (Córdoba)",
       "v": 3
      },
@@ -200,6 +214,7 @@
       "pos": 14,
       "pts": 12,
       "sg": -8,
+      "tid": "17702",
       "time": "Deportivo Riestra",
       "v": 2
      },
@@ -213,6 +228,7 @@
       "pos": 15,
       "pts": 11,
       "sg": -14,
+      "tid": "11989",
       "time": "Central Córdoba (Santiago del Estero)",
       "v": 2
      }
@@ -220,6 +236,7 @@
     "nome": "Group A"
    },
    {
+    "lg": "arg.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -232,6 +249,7 @@
       "pos": 1,
       "pts": 34,
       "sg": 14,
+      "tid": "17",
       "time": "Rosario Central",
       "v": 10,
       "zona": "Mata-mata (oitavas)"
@@ -247,6 +265,7 @@
       "pos": 2,
       "pts": 31,
       "sg": 6,
+      "tid": "3",
       "time": "Argentinos Juniors",
       "v": 9,
       "zona": "Mata-mata (oitavas)"
@@ -262,6 +281,7 @@
       "pos": 3,
       "pts": 31,
       "sg": 5,
+      "tid": "9",
       "time": "Gimnasia La Plata",
       "v": 9,
       "zona": "Mata-mata (oitavas)"
@@ -277,6 +297,7 @@
       "pos": 4,
       "pts": 26,
       "sg": 7,
+      "tid": "16",
       "time": "River Plate",
       "v": 8,
       "zona": "Mata-mata (oitavas)"
@@ -292,6 +313,7 @@
       "pos": 5,
       "pts": 26,
       "sg": 4,
+      "tid": "10060",
       "time": "Barracas Central",
       "v": 7,
       "zona": "Mata-mata (oitavas)"
@@ -307,6 +329,7 @@
       "pos": 6,
       "pts": 23,
       "sg": 2,
+      "tid": "4",
       "time": "Belgrano (Córdoba)",
       "v": 6,
       "zona": "Mata-mata (oitavas)"
@@ -322,6 +345,7 @@
       "pos": 7,
       "pts": 23,
       "sg": -3,
+      "tid": "9744",
       "time": "Independiente Rivadavia",
       "v": 6,
       "zona": "Mata-mata (oitavas)"
@@ -337,6 +361,7 @@
       "pos": 8,
       "pts": 22,
       "sg": -2,
+      "tid": "10",
       "time": "Huracán",
       "v": 6,
       "zona": "Mata-mata (oitavas)"
@@ -351,6 +376,7 @@
       "pos": 9,
       "pts": 21,
       "sg": -1,
+      "tid": "10158",
       "time": "Sarmiento (Junín)",
       "v": 6
      },
@@ -364,6 +390,7 @@
       "pos": 10,
       "pts": 19,
       "sg": 0,
+      "tid": "7767",
       "time": "Tigre",
       "v": 5
      },
@@ -377,6 +404,7 @@
       "pos": 11,
       "pts": 18,
       "sg": -1,
+      "tid": "9785",
       "time": "Atlético Tucumán",
       "v": 4
      },
@@ -390,6 +418,7 @@
       "pos": 12,
       "pts": 15,
       "sg": -7,
+      "tid": "235",
       "time": "Banfield",
       "v": 3
      },
@@ -403,6 +432,7 @@
       "pos": 13,
       "pts": 15,
       "sg": -8,
+      "tid": "15",
       "time": "Racing Club",
       "v": 4
      },
@@ -416,6 +446,7 @@
       "pos": 14,
       "pts": 11,
       "sg": -10,
+      "tid": "9739",
       "time": "Aldosivi",
       "v": 3
      },
@@ -429,6 +460,7 @@
       "pos": 15,
       "pts": 9,
       "sg": -13,
+      "tid": "19685",
       "time": "Estudiantes de Río Cuarto",
       "v": 2
      }
@@ -441,9 +473,10 @@
  },
  "brasileirao-a": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "bra.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -456,6 +489,7 @@
       "pos": 1,
       "pts": 80,
       "sg": 43,
+      "tid": "819",
       "time": "Flamengo",
       "v": 24,
       "zona": "Libertadores"
@@ -471,6 +505,7 @@
       "pos": 2,
       "pts": 74,
       "sg": 38,
+      "tid": "2029",
       "time": "Palmeiras",
       "v": 21,
       "zona": "Libertadores"
@@ -486,6 +521,7 @@
       "pos": 3,
       "pts": 66,
       "sg": 9,
+      "tid": "2022",
       "time": "Cruzeiro",
       "v": 20,
       "zona": "Libertadores"
@@ -501,6 +537,7 @@
       "pos": 4,
       "pts": 63,
       "sg": 15,
+      "tid": "3445",
       "time": "Fluminense",
       "v": 18,
       "zona": "Libertadores"
@@ -516,6 +553,7 @@
       "pos": 5,
       "pts": 57,
       "sg": 9,
+      "tid": "3458",
       "time": "Athletico-PR",
       "v": 16,
       "zona": "Pré-Libertadores"
@@ -531,6 +569,7 @@
       "pos": 6,
       "pts": 54,
       "sg": 4,
+      "tid": "9967",
       "time": "Bahia",
       "v": 14,
       "zona": "Sul-Americana"
@@ -546,6 +585,7 @@
       "pos": 7,
       "pts": 51,
       "sg": 4,
+      "tid": "7632",
       "time": "Atlético-MG",
       "v": 14,
       "zona": "Sul-Americana"
@@ -561,21 +601,23 @@
       "pos": 8,
       "pts": 50,
       "sg": 5,
+      "tid": "6079",
       "time": "Red Bull Bragantino",
       "v": 14,
       "zona": "Sul-Americana"
      },
      {
       "cor": "#f08a1c",
-      "d": 11,
+      "d": 12,
       "e": 11,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2674.png&h=80&w=80",
-      "gc": 49,
+      "gc": 51,
       "gp": 51,
-      "pj": 35,
+      "pj": 36,
       "pos": 9,
       "pts": 50,
-      "sg": 2,
+      "sg": 0,
+      "tid": "2674",
       "time": "Santos",
       "v": 13,
       "zona": "Sul-Americana"
@@ -591,6 +633,7 @@
       "pos": 10,
       "pts": 47,
       "sg": -5,
+      "tid": "3454",
       "time": "Vasco",
       "v": 13,
       "zona": "Sul-Americana"
@@ -606,6 +649,7 @@
       "pos": 11,
       "pts": 45,
       "sg": -1,
+      "tid": "2026",
       "time": "São Paulo",
       "v": 12,
       "zona": "Sul-Americana"
@@ -620,6 +664,7 @@
       "pos": 12,
       "pts": 45,
       "sg": -11,
+      "tid": "3456",
       "time": "Coritiba",
       "v": 12
      },
@@ -633,6 +678,7 @@
       "pos": 13,
       "pts": 44,
       "sg": -12,
+      "tid": "3457",
       "time": "Vitória",
       "v": 12
      },
@@ -646,8 +692,23 @@
       "pos": 14,
       "pts": 43,
       "sg": -11,
+      "tid": "6086",
       "time": "Botafogo",
       "v": 11
+     },
+     {
+      "d": 15,
+      "e": 11,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6273.png&h=80&w=80",
+      "gc": 47,
+      "gp": 40,
+      "pj": 36,
+      "pos": 15,
+      "pts": 41,
+      "sg": -7,
+      "tid": "6273",
+      "time": "Grêmio",
+      "v": 10
      },
      {
       "d": 15,
@@ -656,24 +717,28 @@
       "gc": 49,
       "gp": 39,
       "pj": 36,
-      "pos": 15,
+      "pos": 16,
       "pts": 41,
       "sg": -10,
+      "tid": "9169",
       "time": "Mirassol",
       "v": 10
      },
      {
+      "cor": "#d7263d",
       "d": 15,
       "e": 10,
       "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png&h=80&w=80",
       "gc": 42,
       "gp": 40,
       "pj": 35,
-      "pos": 16,
+      "pos": 17,
       "pts": 40,
       "sg": -2,
+      "tid": "874",
       "time": "Corinthians",
-      "v": 10
+      "v": 10,
+      "zona": "Rebaixamento"
      },
      {
       "cor": "#d7263d",
@@ -683,25 +748,11 @@
       "gc": 49,
       "gp": 41,
       "pj": 36,
-      "pos": 17,
-      "pts": 38,
-      "sg": -8,
-      "time": "Internacional",
-      "v": 9,
-      "zona": "Rebaixamento"
-     },
-     {
-      "cor": "#d7263d",
-      "d": 15,
-      "e": 11,
-      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/6273.png&h=80&w=80",
-      "gc": 47,
-      "gp": 38,
-      "pj": 35,
       "pos": 18,
       "pts": 38,
-      "sg": -9,
-      "time": "Grêmio",
+      "sg": -8,
+      "tid": "1936",
+      "time": "Internacional",
       "v": 9,
       "zona": "Rebaixamento"
      },
@@ -716,6 +767,7 @@
       "pos": 19,
       "pts": 32,
       "sg": -20,
+      "tid": "4936",
       "time": "Remo",
       "v": 7,
       "zona": "Rebaixamento"
@@ -731,6 +783,7 @@
       "pos": 20,
       "pts": 21,
       "sg": -40,
+      "tid": "9318",
       "time": "Chapecoense",
       "v": 4,
       "zona": "Rebaixamento"
@@ -745,9 +798,10 @@
  },
  "brasileirao-b": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "bra.2",
     "linhas": [
      {
       "cor": "#12924f",
@@ -760,6 +814,7 @@
       "pos": 1,
       "pts": 73,
       "sg": 35,
+      "tid": "18127",
       "time": "Novorizontino",
       "v": 21,
       "zona": "Acesso à Série A"
@@ -775,6 +830,7 @@
       "pos": 2,
       "pts": 71,
       "sg": 25,
+      "tid": "6270",
       "time": "Juventude",
       "v": 20,
       "zona": "Acesso à Série A"
@@ -790,6 +846,7 @@
       "pos": 3,
       "pts": 66,
       "sg": 14,
+      "tid": "9973",
       "time": "Vila Nova",
       "v": 19,
       "zona": "Playoff de acesso"
@@ -805,6 +862,7 @@
       "pos": 4,
       "pts": 65,
       "sg": 12,
+      "tid": "6272",
       "time": "Fortaleza",
       "v": 17,
       "zona": "Playoff de acesso"
@@ -820,6 +878,7 @@
       "pos": 5,
       "pts": 62,
       "sg": 6,
+      "tid": "9971",
       "time": "Criciúma",
       "v": 18,
       "zona": "Playoff de acesso"
@@ -835,6 +894,7 @@
       "pos": 6,
       "pts": 61,
       "sg": 11,
+      "tid": "10357",
       "time": "Atlético-GO",
       "v": 16,
       "zona": "Playoff de acesso"
@@ -849,6 +909,7 @@
       "pos": 7,
       "pts": 59,
       "sg": 6,
+      "tid": "9970",
       "time": "CRB",
       "v": 17
      },
@@ -862,6 +923,7 @@
       "pos": 8,
       "pts": 58,
       "sg": -5,
+      "tid": "3395",
       "time": "Goiás",
       "v": 17
      },
@@ -875,6 +937,7 @@
       "pos": 9,
       "pts": 58,
       "sg": 11,
+      "tid": "7635",
       "time": "Sport",
       "v": 15
      },
@@ -888,6 +951,7 @@
       "pos": 10,
       "pts": 57,
       "sg": 1,
+      "tid": "18187",
       "time": "Operário PR",
       "v": 16
      },
@@ -901,6 +965,7 @@
       "pos": 11,
       "pts": 53,
       "sg": 10,
+      "tid": "11268",
       "time": "São Bernardo",
       "v": 14
      },
@@ -914,6 +979,7 @@
       "pos": 12,
       "pts": 51,
       "sg": 4,
+      "tid": "10281",
       "time": "Botafogo-SP",
       "v": 14
      },
@@ -927,6 +993,7 @@
       "pos": 13,
       "pts": 48,
       "sg": 0,
+      "tid": "20851",
       "time": "Athletic",
       "v": 11
      },
@@ -940,6 +1007,7 @@
       "pos": 14,
       "pts": 47,
       "sg": 1,
+      "tid": "17313",
       "time": "Cuiabá",
       "v": 11
      },
@@ -953,6 +1021,7 @@
       "pos": 15,
       "pts": 46,
       "sg": -10,
+      "tid": "7633",
       "time": "Náutico",
       "v": 12
      },
@@ -966,6 +1035,7 @@
       "pos": 16,
       "pts": 44,
       "sg": -9,
+      "tid": "9969",
       "time": "Ceará",
       "v": 11
      },
@@ -980,6 +1050,7 @@
       "pos": 17,
       "pts": 43,
       "sg": -10,
+      "tid": "9966",
       "time": "Avaí",
       "v": 12,
       "zona": "Rebaixamento"
@@ -995,6 +1066,7 @@
       "pos": 18,
       "pts": 35,
       "sg": -12,
+      "tid": "17333",
       "time": "Londrina",
       "v": 9,
       "zona": "Rebaixamento"
@@ -1010,6 +1082,7 @@
       "pos": 19,
       "pts": 29,
       "sg": -30,
+      "tid": "6154",
       "time": "América-MG",
       "v": 8,
       "zona": "Rebaixamento"
@@ -1025,6 +1098,7 @@
       "pos": 20,
       "pts": 15,
       "sg": -60,
+      "tid": "3459",
       "time": "Ponte Preta",
       "v": 3,
       "zona": "Rebaixamento"
@@ -1038,9 +1112,10 @@
  },
  "bundesliga": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "ger.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -1053,6 +1128,7 @@
       "pos": 1,
       "pts": 24,
       "sg": 10,
+      "tid": "124",
       "time": "Borussia Dortmund",
       "v": 7,
       "zona": "Champions League"
@@ -1068,6 +1144,7 @@
       "pos": 2,
       "pts": 22,
       "sg": 20,
+      "tid": "132",
       "time": "Bayern de Munique",
       "v": 6,
       "zona": "Champions League"
@@ -1083,6 +1160,7 @@
       "pos": 3,
       "pts": 22,
       "sg": 11,
+      "tid": "126",
       "time": "SC Freiburg",
       "v": 7,
       "zona": "Champions League"
@@ -1098,6 +1176,7 @@
       "pos": 4,
       "pts": 21,
       "sg": 18,
+      "tid": "11420",
       "time": "RB Leipzig",
       "v": 7,
       "zona": "Champions League"
@@ -1113,6 +1192,7 @@
       "pos": 5,
       "pts": 19,
       "sg": 7,
+      "tid": "131",
       "time": "Bayer Leverkusen",
       "v": 6,
       "zona": "Europa League"
@@ -1128,6 +1208,7 @@
       "pos": 6,
       "pts": 18,
       "sg": 6,
+      "tid": "137",
       "time": "Werder Bremen",
       "v": 5,
       "zona": "Europa League"
@@ -1143,6 +1224,7 @@
       "pos": 7,
       "pts": 15,
       "sg": -4,
+      "tid": "125",
       "time": "Eintracht Frankfurt",
       "v": 4,
       "zona": "Pré-Conference League"
@@ -1157,6 +1239,7 @@
       "pos": 8,
       "pts": 13,
       "sg": 0,
+      "tid": "134",
       "time": "VfB Stuttgart",
       "v": 4
      },
@@ -1170,6 +1253,7 @@
       "pos": 9,
       "pts": 13,
       "sg": -2,
+      "tid": "10388",
       "time": "SV Elversberg",
       "v": 4
      },
@@ -1183,6 +1267,7 @@
       "pos": 10,
       "pts": 12,
       "sg": 2,
+      "tid": "3841",
       "time": "FC Augsburg",
       "v": 3
      },
@@ -1196,6 +1281,7 @@
       "pos": 11,
       "pts": 12,
       "sg": -2,
+      "tid": "7911",
       "time": "TSG Hoffenheim",
       "v": 4
      },
@@ -1209,6 +1295,7 @@
       "pos": 12,
       "pts": 12,
       "sg": -14,
+      "tid": "127",
       "time": "Hamburg SV",
       "v": 4
      },
@@ -1222,6 +1309,7 @@
       "pos": 13,
       "pts": 10,
       "sg": -3,
+      "tid": "2950",
       "time": "Mainz",
       "v": 3
      },
@@ -1235,6 +1323,7 @@
       "pos": 14,
       "pts": 10,
       "sg": -4,
+      "tid": "122",
       "time": "FC Cologne",
       "v": 2
      },
@@ -1248,6 +1337,7 @@
       "pos": 15,
       "pts": 10,
       "sg": -7,
+      "tid": "3307",
       "time": "SC Paderborn 07",
       "v": 2
      },
@@ -1262,6 +1352,7 @@
       "pos": 16,
       "pts": 7,
       "sg": -6,
+      "tid": "133",
       "time": "Schalke 04",
       "v": 1,
       "zona": "Playoff de rebaixamento"
@@ -1277,6 +1368,7 @@
       "pos": 17,
       "pts": 7,
       "sg": -18,
+      "tid": "598",
       "time": "1. FC Union Berlin",
       "v": 1,
       "zona": "Rebaixamento"
@@ -1292,6 +1384,7 @@
       "pos": 18,
       "pts": 4,
       "sg": -14,
+      "tid": "268",
       "time": "Borussia Mönchengladbach",
       "v": 1,
       "zona": "Rebaixamento"
@@ -1305,9 +1398,10 @@
  },
  "carioca": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "bra.camp.carioca",
     "linhas": [
      {
       "d": 1,
@@ -1319,6 +1413,7 @@
       "pos": 1,
       "pts": 15,
       "sg": 4,
+      "tid": "3445",
       "time": "Fluminense",
       "v": 5
      },
@@ -1332,6 +1427,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 6,
+      "tid": "3454",
       "time": "Vasco",
       "v": 3
      },
@@ -1345,6 +1441,7 @@
       "pos": 3,
       "pts": 11,
       "sg": 4,
+      "tid": "4806",
       "time": "Volta Redonda",
       "v": 3
      },
@@ -1358,6 +1455,7 @@
       "pos": 4,
       "pts": 10,
       "sg": 0,
+      "tid": "10265",
       "time": "Bangu",
       "v": 3
      },
@@ -1371,6 +1469,7 @@
       "pos": 5,
       "pts": 7,
       "sg": -1,
+      "tid": "18134",
       "time": "Portuguesa-RJ",
       "v": 2
      },
@@ -1383,6 +1482,7 @@
       "pos": 6,
       "pts": 7,
       "sg": -7,
+      "tid": "20855",
       "time": "Sampaio Correa RJ",
       "v": 2
      }
@@ -1390,6 +1490,7 @@
     "nome": "Group A"
    },
    {
+    "lg": "bra.camp.carioca",
     "linhas": [
      {
       "d": 3,
@@ -1401,6 +1502,7 @@
       "pos": 1,
       "pts": 9,
       "sg": 1,
+      "tid": "6086",
       "time": "Botafogo",
       "v": 3
      },
@@ -1414,6 +1516,7 @@
       "pos": 2,
       "pts": 8,
       "sg": -1,
+      "tid": "4786",
       "time": "Madureira",
       "v": 2
      },
@@ -1427,6 +1530,7 @@
       "pos": 3,
       "pts": 8,
       "sg": -2,
+      "tid": "900",
       "time": "Boavista",
       "v": 2
      },
@@ -1440,6 +1544,7 @@
       "pos": 4,
       "pts": 7,
       "sg": 2,
+      "tid": "819",
       "time": "Flamengo",
       "v": 2
      },
@@ -1453,6 +1558,7 @@
       "pos": 5,
       "pts": 5,
       "sg": -1,
+      "tid": "6087",
       "time": "Nova Iguaçu",
       "v": 1
      },
@@ -1465,6 +1571,7 @@
       "pos": 6,
       "pts": 3,
       "sg": -5,
+      "tid": "21387",
       "time": "Maricá",
       "v": 1
      }
@@ -1477,9 +1584,10 @@
  },
  "champions": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "uefa.champions",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -1492,6 +1600,7 @@
       "pos": 1,
       "pts": 12,
       "sg": 15,
+      "tid": "160",
       "time": "Paris Saint-Germain",
       "v": 4,
       "zona": "Oitavas de final"
@@ -1507,6 +1616,7 @@
       "pos": 2,
       "pts": 12,
       "sg": 6,
+      "tid": "86",
       "time": "Real Madrid",
       "v": 4,
       "zona": "Oitavas de final"
@@ -1522,6 +1632,7 @@
       "pos": 3,
       "pts": 10,
       "sg": 5,
+      "tid": "359",
       "time": "Arsenal",
       "v": 3,
       "zona": "Oitavas de final"
@@ -1537,6 +1648,7 @@
       "pos": 4,
       "pts": 9,
       "sg": 13,
+      "tid": "2572",
       "time": "Como",
       "v": 3,
       "zona": "Oitavas de final"
@@ -1552,6 +1664,7 @@
       "pos": 5,
       "pts": 9,
       "sg": 8,
+      "tid": "83",
       "time": "Barcelona",
       "v": 3,
       "zona": "Oitavas de final"
@@ -1567,6 +1680,7 @@
       "pos": 6,
       "pts": 9,
       "sg": 6,
+      "tid": "362",
       "time": "Aston Villa",
       "v": 3,
       "zona": "Oitavas de final"
@@ -1582,6 +1696,7 @@
       "pos": 7,
       "pts": 9,
       "sg": 5,
+      "tid": "382",
       "time": "Manchester City",
       "v": 3,
       "zona": "Oitavas de final"
@@ -1597,6 +1712,7 @@
       "pos": 8,
       "pts": 9,
       "sg": 4,
+      "tid": "364",
       "time": "Liverpool",
       "v": 3,
       "zona": "Oitavas de final"
@@ -1612,6 +1728,7 @@
       "pos": 9,
       "pts": 9,
       "sg": 4,
+      "tid": "570",
       "time": "Club Brugge",
       "v": 3,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -1627,6 +1744,7 @@
       "pos": 10,
       "pts": 9,
       "sg": 4,
+      "tid": "2250",
       "time": "Sporting CP",
       "v": 3,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -1642,6 +1760,7 @@
       "pos": 11,
       "pts": 9,
       "sg": 2,
+      "tid": "244",
       "time": "Real Betis",
       "v": 3,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -1657,6 +1776,7 @@
       "pos": 12,
       "pts": 9,
       "sg": 2,
+      "tid": "124",
       "time": "Borussia Dortmund",
       "v": 3,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -1672,6 +1792,7 @@
       "pos": 13,
       "pts": 8,
       "sg": 7,
+      "tid": "132",
       "time": "Bayern de Munique",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -1687,6 +1808,7 @@
       "pos": 14,
       "pts": 7,
       "sg": 3,
+      "tid": "134",
       "time": "VfB Stuttgart",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -1702,6 +1824,7 @@
       "pos": 15,
       "pts": 6,
       "sg": 2,
+      "tid": "110",
       "time": "Inter de Milão",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -1717,6 +1840,7 @@
       "pos": 16,
       "pts": 6,
       "sg": 1,
+      "tid": "4411",
       "time": "LASK Linz",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -1732,6 +1856,7 @@
       "pos": 17,
       "pts": 6,
       "sg": 0,
+      "tid": "360",
       "time": "Manchester United",
       "v": 2,
       "zona": "Playoff das oitavas"
@@ -1747,6 +1872,7 @@
       "pos": 18,
       "pts": 6,
       "sg": -1,
+      "tid": "432",
       "time": "Galatasaray",
       "v": 2,
       "zona": "Playoff das oitavas"
@@ -1762,6 +1888,7 @@
       "pos": 19,
       "pts": 5,
       "sg": -5,
+      "tid": "436",
       "time": "Fenerbahce",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -1777,6 +1904,7 @@
       "pos": 20,
       "pts": 4,
       "sg": 2,
+      "tid": "104",
       "time": "Roma",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -1792,6 +1920,7 @@
       "pos": 21,
       "pts": 4,
       "sg": 0,
+      "tid": "493",
       "time": "Shakhtar Donetsk",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -1807,6 +1936,7 @@
       "pos": 22,
       "pts": 4,
       "sg": -1,
+      "tid": "510",
       "time": "Viking FK",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -1822,6 +1952,7 @@
       "pos": 23,
       "pts": 4,
       "sg": -1,
+      "tid": "1068",
       "time": "Atlético de Madrid",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -1837,6 +1968,7 @@
       "pos": 24,
       "pts": 4,
       "sg": -1,
+      "tid": "148",
       "time": "PSV Eindhoven",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -1852,6 +1984,7 @@
       "pos": 25,
       "pts": 4,
       "sg": -5,
+      "tid": "2980",
       "time": "Bodo/Glimt",
       "v": 1,
       "zona": "Eliminado"
@@ -1867,6 +2000,7 @@
       "pos": 26,
       "pts": 3,
       "sg": -1,
+      "tid": "437",
       "time": "FC Porto",
       "v": 1,
       "zona": "Eliminado"
@@ -1882,6 +2016,7 @@
       "pos": 27,
       "pts": 3,
       "sg": -5,
+      "tid": "114",
       "time": "Napoli",
       "v": 1,
       "zona": "Eliminado"
@@ -1897,6 +2032,7 @@
       "pos": 28,
       "pts": 3,
       "sg": -6,
+      "tid": "102",
       "time": "Villarreal",
       "v": 1,
       "zona": "Eliminado"
@@ -1912,6 +2048,7 @@
       "pos": 29,
       "pts": 3,
       "sg": -6,
+      "tid": "887",
       "time": "AEK Athens",
       "v": 1,
       "zona": "Eliminado"
@@ -1927,6 +2064,7 @@
       "pos": 30,
       "pts": 3,
       "sg": -6,
+      "tid": "11420",
       "time": "RB Leipzig",
       "v": 1,
       "zona": "Eliminado"
@@ -1942,6 +2080,7 @@
       "pos": 31,
       "pts": 3,
       "sg": -6,
+      "tid": "21922",
       "time": "Sabah FK",
       "v": 1,
       "zona": "Eliminado"
@@ -1957,6 +2096,7 @@
       "pos": 32,
       "pts": 3,
       "sg": -7,
+      "tid": "142",
       "time": "Feyenoord Rotterdam",
       "v": 1,
       "zona": "Eliminado"
@@ -1972,6 +2112,7 @@
       "pos": 33,
       "pts": 3,
       "sg": -12,
+      "tid": "175",
       "time": "Lens",
       "v": 1,
       "zona": "Eliminado"
@@ -1987,6 +2128,7 @@
       "pos": 34,
       "pts": 1,
       "sg": -4,
+      "tid": "494",
       "time": "Slavia Prague",
       "v": 0,
       "zona": "Eliminado"
@@ -2002,6 +2144,7 @@
       "pos": 35,
       "pts": 1,
       "sg": -6,
+      "tid": "166",
       "time": "Lille",
       "v": 0,
       "zona": "Eliminado"
@@ -2017,6 +2160,7 @@
       "pos": 36,
       "pts": 0,
       "sg": -16,
+      "tid": "521",
       "time": "Slovan Bratislava",
       "v": 0,
       "zona": "Eliminado"
@@ -2030,9 +2174,10 @@
  },
  "championship": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "eng.2",
     "linhas": [
      {
       "cor": "#12924f",
@@ -2045,6 +2190,7 @@
       "pos": 1,
       "pts": 32,
       "sg": 13,
+      "tid": "369",
       "time": "Middlesbrough",
       "v": 9,
       "zona": "Acesso"
@@ -2060,6 +2206,7 @@
       "pos": 2,
       "pts": 32,
       "sg": 7,
+      "tid": "336",
       "time": "Stoke City",
       "v": 10,
       "zona": "Acesso"
@@ -2075,6 +2222,7 @@
       "pos": 3,
       "pts": 31,
       "sg": 9,
+      "tid": "380",
       "time": "Wolverhampton Wanderers",
       "v": 9,
       "zona": "Playoff de acesso"
@@ -2090,6 +2238,7 @@
       "pos": 4,
       "pts": 29,
       "sg": 13,
+      "tid": "392",
       "time": "Birmingham City",
       "v": 8,
       "zona": "Playoff de acesso"
@@ -2105,6 +2254,7 @@
       "pos": 5,
       "pts": 29,
       "sg": 8,
+      "tid": "383",
       "time": "West Bromwich Albion",
       "v": 8,
       "zona": "Playoff de acesso"
@@ -2120,6 +2270,7 @@
       "pos": 6,
       "pts": 27,
       "sg": 16,
+      "tid": "376",
       "time": "Southampton",
       "v": 9,
       "zona": "Playoff de acesso"
@@ -2135,6 +2286,7 @@
       "pos": 7,
       "pts": 27,
       "sg": 7,
+      "tid": "334",
       "time": "Queens Park Rangers",
       "v": 7,
       "zona": "Playoff de acesso"
@@ -2150,6 +2302,7 @@
       "pos": 8,
       "pts": 27,
       "sg": 4,
+      "tid": "318",
       "time": "Swansea City",
       "v": 8,
       "zona": "Playoff de acesso"
@@ -2164,6 +2317,7 @@
       "pos": 9,
       "pts": 25,
       "sg": 6,
+      "tid": "398",
       "time": "Sheffield United",
       "v": 7
      },
@@ -2177,6 +2331,7 @@
       "pos": 10,
       "pts": 24,
       "sg": 14,
+      "tid": "371",
       "time": "West Ham United",
       "v": 6
      },
@@ -2190,6 +2345,7 @@
       "pos": 11,
       "pts": 24,
       "sg": 9,
+      "tid": "381",
       "time": "Norwich City",
       "v": 8
      },
@@ -2203,6 +2359,7 @@
       "pos": 12,
       "pts": 23,
       "sg": 2,
+      "tid": "385",
       "time": "Portsmouth",
       "v": 6
      },
@@ -2216,6 +2373,7 @@
       "pos": 13,
       "pts": 22,
       "sg": -1,
+      "tid": "365",
       "time": "Blackburn Rovers",
       "v": 6
      },
@@ -2229,6 +2387,7 @@
       "pos": 14,
       "pts": 21,
       "sg": -1,
+      "tid": "352",
       "time": "Wrexham",
       "v": 5
      },
@@ -2242,6 +2401,7 @@
       "pos": 15,
       "pts": 18,
       "sg": -1,
+      "tid": "347",
       "time": "Cardiff City",
       "v": 4
      },
@@ -2255,6 +2415,7 @@
       "pos": 16,
       "pts": 18,
       "sg": -5,
+      "tid": "391",
       "time": "Millwall",
       "v": 5
      },
@@ -2268,6 +2429,7 @@
       "pos": 17,
       "pts": 18,
       "sg": -9,
+      "tid": "358",
       "time": "Bolton Wanderers",
       "v": 5
      },
@@ -2281,6 +2443,7 @@
       "pos": 18,
       "pts": 18,
       "sg": -10,
+      "tid": "333",
       "time": "Bristol City",
       "v": 5
      },
@@ -2294,6 +2457,7 @@
       "pos": 19,
       "pts": 17,
       "sg": -11,
+      "tid": "372",
       "time": "Charlton Athletic",
       "v": 4
      },
@@ -2307,6 +2471,7 @@
       "pos": 20,
       "pts": 15,
       "sg": -12,
+      "tid": "314",
       "time": "Lincoln City",
       "v": 4
      },
@@ -2320,6 +2485,7 @@
       "pos": 21,
       "pts": 15,
       "sg": -14,
+      "tid": "395",
       "time": "Watford",
       "v": 4
      },
@@ -2334,6 +2500,7 @@
       "pos": 22,
       "pts": 11,
       "sg": -9,
+      "tid": "379",
       "time": "Burnley",
       "v": 1,
       "zona": "Rebaixamento"
@@ -2349,6 +2516,7 @@
       "pos": 23,
       "pts": 10,
       "sg": -18,
+      "tid": "374",
       "time": "Derby County",
       "v": 2,
       "zona": "Rebaixamento"
@@ -2364,6 +2532,7 @@
       "pos": 24,
       "pts": 9,
       "sg": -17,
+      "tid": "394",
       "time": "Preston North End",
       "v": 2,
       "zona": "Rebaixamento"
@@ -2377,9 +2546,10 @@
  },
  "conference": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "uefa.europa.conf",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -2392,6 +2562,7 @@
       "pos": 1,
       "pts": 9,
       "sg": 7,
+      "tid": "7672",
       "time": "FC Lugano",
       "v": 3,
       "zona": "Oitavas de final"
@@ -2407,6 +2578,7 @@
       "pos": 2,
       "pts": 9,
       "sg": 6,
+      "tid": "443",
       "time": "Panathinaikos",
       "v": 3,
       "zona": "Oitavas de final"
@@ -2422,6 +2594,7 @@
       "pos": 3,
       "pts": 9,
       "sg": 6,
+      "tid": "152",
       "time": "FC Twente",
       "v": 3,
       "zona": "Oitavas de final"
@@ -2437,6 +2610,7 @@
       "pos": 4,
       "pts": 9,
       "sg": 6,
+      "tid": "174",
       "time": "AS Monaco",
       "v": 3,
       "zona": "Oitavas de final"
@@ -2452,6 +2626,7 @@
       "pos": 5,
       "pts": 7,
       "sg": 5,
+      "tid": "331",
       "time": "Brighton",
       "v": 2,
       "zona": "Oitavas de final"
@@ -2467,6 +2642,7 @@
       "pos": 6,
       "pts": 7,
       "sg": 4,
+      "tid": "620",
       "time": "SK Brann",
       "v": 2,
       "zona": "Oitavas de final"
@@ -2482,6 +2658,7 @@
       "pos": 7,
       "pts": 7,
       "sg": 4,
+      "tid": "909",
       "time": "F.C. København",
       "v": 2,
       "zona": "Oitavas de final"
@@ -2497,6 +2674,7 @@
       "pos": 8,
       "pts": 7,
       "sg": 4,
+      "tid": "8089",
       "time": "CSU Craiova",
       "v": 2,
       "zona": "Oitavas de final"
@@ -2512,6 +2690,7 @@
       "pos": 9,
       "pts": 7,
       "sg": 4,
+      "tid": "20301",
       "time": "Mjällby AIF",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -2527,6 +2706,7 @@
       "pos": 10,
       "pts": 7,
       "sg": 3,
+      "tid": "936",
       "time": "Sint-Truidense",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -2542,6 +2722,7 @@
       "pos": 11,
       "pts": 6,
       "sg": 6,
+      "tid": "139",
       "time": "Ajax Amsterdam",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -2557,6 +2738,7 @@
       "pos": 12,
       "pts": 6,
       "sg": 3,
+      "tid": "997",
       "time": "Trabzonspor",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -2572,6 +2754,7 @@
       "pos": 13,
       "pts": 6,
       "sg": 1,
+      "tid": "489",
       "time": "Hajduk Split",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -2587,6 +2770,7 @@
       "pos": 14,
       "pts": 6,
       "sg": -1,
+      "tid": "126",
       "time": "SC Freiburg",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -2602,6 +2786,7 @@
       "pos": 15,
       "pts": 4,
       "sg": 0,
+      "tid": "2290",
       "time": "Red Star Belgrade",
       "v": 1,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -2617,6 +2802,7 @@
       "pos": 16,
       "pts": 4,
       "sg": 0,
+      "tid": "105",
       "time": "Atalanta",
       "v": 1,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -2632,6 +2818,7 @@
       "pos": 17,
       "pts": 4,
       "sg": -1,
+      "tid": "2994",
       "time": "Braga",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -2647,6 +2834,7 @@
       "pos": 18,
       "pts": 4,
       "sg": -1,
+      "tid": "3611",
       "time": "KAA Gent",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -2662,6 +2850,7 @@
       "pos": 19,
       "pts": 3,
       "sg": 0,
+      "tid": "19246",
       "time": "Riga FC",
       "v": 0,
       "zona": "Playoff das oitavas"
@@ -2677,6 +2866,7 @@
       "pos": 20,
       "pts": 3,
       "sg": 0,
+      "tid": "3024",
       "time": "FC Thun",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -2692,6 +2882,7 @@
       "pos": 21,
       "pts": 3,
       "sg": -1,
+      "tid": "20710",
       "time": "Borac Banja Luka",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -2707,6 +2898,7 @@
       "pos": 22,
       "pts": 3,
       "sg": -3,
+      "tid": "17856",
       "time": "Lincoln Red Imps",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -2722,6 +2914,7 @@
       "pos": 23,
       "pts": 2,
       "sg": -1,
+      "tid": "7922",
       "time": "Jablonec",
       "v": 0,
       "zona": "Playoff das oitavas"
@@ -2737,6 +2930,7 @@
       "pos": 24,
       "pts": 2,
       "sg": -1,
+      "tid": "7853",
       "time": "AGF",
       "v": 0,
       "zona": "Playoff das oitavas"
@@ -2752,6 +2946,7 @@
       "pos": 25,
       "pts": 2,
       "sg": -2,
+      "tid": "3101",
       "time": "FC Nordsjælland",
       "v": 0,
       "zona": "Eliminado"
@@ -2767,6 +2962,7 @@
       "pos": 26,
       "pts": 2,
       "sg": -2,
+      "tid": "21943",
       "time": "Egnatia",
       "v": 0,
       "zona": "Eliminado"
@@ -2782,6 +2978,7 @@
       "pos": 27,
       "pts": 2,
       "sg": -4,
+      "tid": "2528",
       "time": "Kairat Almaty",
       "v": 0,
       "zona": "Eliminado"
@@ -2797,6 +2994,7 @@
       "pos": 28,
       "pts": 1,
       "sg": -2,
+      "tid": "10834",
       "time": "CSKA Sofia",
       "v": 0,
       "zona": "Eliminado"
@@ -2812,6 +3010,7 @@
       "pos": 29,
       "pts": 1,
       "sg": -3,
+      "tid": "20025",
       "time": "Iberia 1999",
       "v": 0,
       "zona": "Eliminado"
@@ -2827,6 +3026,7 @@
       "pos": 30,
       "pts": 1,
       "sg": -4,
+      "tid": "22281",
       "time": "Pafos",
       "v": 0,
       "zona": "Eliminado"
@@ -2842,6 +3042,7 @@
       "pos": 31,
       "pts": 1,
       "sg": -4,
+      "tid": "2922",
       "time": "Getafe",
       "v": 0,
       "zona": "Eliminado"
@@ -2857,6 +3058,7 @@
       "pos": 32,
       "pts": 1,
       "sg": -4,
+      "tid": "262",
       "time": "Heart of Midlothian",
       "v": 0,
       "zona": "Eliminado"
@@ -2872,6 +3074,7 @@
       "pos": 33,
       "pts": 1,
       "sg": -4,
+      "tid": "8169",
       "time": "KuPS Kuopio",
       "v": 0,
       "zona": "Eliminado"
@@ -2887,6 +3090,7 @@
       "pos": 34,
       "pts": 1,
       "sg": -6,
+      "tid": "572",
       "time": "FC Midtjylland",
       "v": 0,
       "zona": "Eliminado"
@@ -2902,6 +3106,7 @@
       "pos": 35,
       "pts": 0,
       "sg": -5,
+      "tid": "20703",
       "time": "Inter D'Escaldes",
       "v": 0,
       "zona": "Eliminado"
@@ -2917,6 +3122,7 @@
       "pos": 36,
       "pts": 0,
       "sg": -10,
+      "tid": "20028",
       "time": "Kauno Zalgiris",
       "v": 0,
       "zona": "Eliminado"
@@ -2930,9 +3136,10 @@
  },
  "eredivisie": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "ned.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -2945,6 +3152,7 @@
       "pos": 1,
       "pts": 29,
       "sg": 28,
+      "tid": "148",
       "time": "PSV Eindhoven",
       "v": 9,
       "zona": "Champions League"
@@ -2960,6 +3168,7 @@
       "pos": 2,
       "pts": 28,
       "sg": 20,
+      "tid": "139",
       "time": "Ajax Amsterdam",
       "v": 8,
       "zona": "Champions League"
@@ -2975,6 +3184,7 @@
       "pos": 3,
       "pts": 27,
       "sg": 19,
+      "tid": "152",
       "time": "FC Twente",
       "v": 8,
       "zona": "Pré-Champions"
@@ -2990,6 +3200,7 @@
       "pos": 4,
       "pts": 26,
       "sg": 12,
+      "tid": "140",
       "time": "AZ Alkmaar",
       "v": 8,
       "zona": "Pré-Europa League"
@@ -3005,6 +3216,7 @@
       "pos": 5,
       "pts": 25,
       "sg": 18,
+      "tid": "142",
       "time": "Feyenoord Rotterdam",
       "v": 7,
       "zona": "Pré-Conference League"
@@ -3019,6 +3231,7 @@
       "pos": 6,
       "pts": 24,
       "sg": 10,
+      "tid": "146",
       "time": "Heerenveen",
       "v": 7
      },
@@ -3033,6 +3246,7 @@
       "pos": 7,
       "pts": 23,
       "sg": 1,
+      "tid": "143",
       "time": "Fortuna Sittard",
       "v": 6,
       "zona": "Europa League"
@@ -3047,6 +3261,7 @@
       "pos": 8,
       "pts": 18,
       "sg": -1,
+      "tid": "3736",
       "time": "SC Cambuur",
       "v": 5
      },
@@ -3060,6 +3275,7 @@
       "pos": 9,
       "pts": 17,
       "sg": -4,
+      "tid": "3706",
       "time": "Go Ahead Eagles",
       "v": 4
      },
@@ -3073,6 +3289,7 @@
       "pos": 10,
       "pts": 15,
       "sg": -1,
+      "tid": "145",
       "time": "FC Groningen",
       "v": 4
      },
@@ -3086,6 +3303,7 @@
       "pos": 11,
       "pts": 15,
       "sg": -9,
+      "tid": "2565",
       "time": "PEC Zwolle",
       "v": 4
      },
@@ -3099,6 +3317,7 @@
       "pos": 12,
       "pts": 14,
       "sg": -4,
+      "tid": "147",
       "time": "NEC Nijmegen",
       "v": 3
      },
@@ -3112,6 +3331,7 @@
       "pos": 13,
       "pts": 14,
       "sg": -12,
+      "tid": "2566",
       "time": "Excelsior",
       "v": 4
      },
@@ -3125,6 +3345,7 @@
       "pos": 14,
       "pts": 12,
       "sg": -12,
+      "tid": "151",
       "time": "Sparta Rotterdam",
       "v": 3
      },
@@ -3138,6 +3359,7 @@
       "pos": 15,
       "pts": 12,
       "sg": -14,
+      "tid": "153",
       "time": "FC Utrecht",
       "v": 3
      },
@@ -3152,6 +3374,7 @@
       "pos": 16,
       "pts": 10,
       "sg": -9,
+      "tid": "3735",
       "time": "Telstar",
       "v": 2,
       "zona": "Playoff de rebaixamento"
@@ -3167,6 +3390,7 @@
       "pos": 17,
       "pts": 9,
       "sg": -12,
+      "tid": "2726",
       "time": "ADO Den Haag",
       "v": 2,
       "zona": "Rebaixamento"
@@ -3182,6 +3406,7 @@
       "pos": 18,
       "pts": 3,
       "sg": -30,
+      "tid": "156",
       "time": "Willem II",
       "v": 0,
       "zona": "Rebaixamento"
@@ -3195,7 +3420,7 @@
  },
  "eurocopa": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
     "linhas": [
@@ -4313,6 +4538,1216 @@
      }
     ],
     "nome": "Group J"
+   },
+   {
+    "lg": "uefa.euro",
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ger.png&h=80&w=80",
+      "gc": 2,
+      "gp": 8,
+      "pj": 3,
+      "pos": 1,
+      "pts": 7,
+      "sg": 6,
+      "tid": "481",
+      "time": "Alemanha",
+      "v": 2,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sui.png&h=80&w=80",
+      "gc": 3,
+      "gp": 5,
+      "pj": 3,
+      "pos": 2,
+      "pts": 5,
+      "sg": 2,
+      "tid": "475",
+      "time": "Suíça",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 2,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/hun.png&h=80&w=80",
+      "gc": 5,
+      "gp": 2,
+      "pj": 3,
+      "pos": 3,
+      "pts": 3,
+      "sg": -3,
+      "tid": "480",
+      "time": "Hungria",
+      "v": 1,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sco.png&h=80&w=80",
+      "gc": 7,
+      "gp": 2,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -5,
+      "tid": "580",
+      "time": "Escócia",
+      "v": 0
+     }
+    ],
+    "nome": "Group A"
+   },
+   {
+    "lg": "uefa.euro",
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/esp.png&h=80&w=80",
+      "gc": 0,
+      "gp": 5,
+      "pj": 3,
+      "pos": 1,
+      "pts": 9,
+      "sg": 5,
+      "tid": "164",
+      "time": "Espanha",
+      "v": 3,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ita.png&h=80&w=80",
+      "gc": 3,
+      "gp": 3,
+      "pj": 3,
+      "pos": 2,
+      "pts": 4,
+      "sg": 0,
+      "tid": "162",
+      "time": "Itália",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cro.png&h=80&w=80",
+      "gc": 6,
+      "gp": 3,
+      "pj": 3,
+      "pos": 3,
+      "pts": 2,
+      "sg": -3,
+      "tid": "477",
+      "time": "Croácia",
+      "v": 0,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/alb.png&h=80&w=80",
+      "gc": 5,
+      "gp": 3,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -2,
+      "tid": "585",
+      "time": "Albânia",
+      "v": 0
+     }
+    ],
+    "nome": "Group B"
+   },
+   {
+    "lg": "uefa.euro",
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/eng.png&h=80&w=80",
+      "gc": 1,
+      "gp": 2,
+      "pj": 3,
+      "pos": 1,
+      "pts": 5,
+      "sg": 1,
+      "tid": "448",
+      "time": "Inglaterra",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/den.png&h=80&w=80",
+      "gc": 2,
+      "gp": 2,
+      "pj": 3,
+      "pos": 2,
+      "pts": 3,
+      "sg": 0,
+      "tid": "479",
+      "time": "Dinamarca",
+      "v": 0,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 0,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svn.png&h=80&w=80",
+      "gc": 2,
+      "gp": 2,
+      "pj": 3,
+      "pos": 3,
+      "pts": 3,
+      "sg": 0,
+      "tid": "472",
+      "time": "Eslovênia",
+      "v": 0,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sba.png&h=80&w=80",
+      "gc": 2,
+      "gp": 1,
+      "pj": 3,
+      "pos": 4,
+      "pts": 2,
+      "sg": -1,
+      "tid": "6757",
+      "time": "Sérvia",
+      "v": 0
+     }
+    ],
+    "nome": "Group C"
+   },
+   {
+    "lg": "uefa.euro",
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/aut.png&h=80&w=80",
+      "gc": 4,
+      "gp": 6,
+      "pj": 3,
+      "pos": 1,
+      "pts": 6,
+      "sg": 2,
+      "tid": "474",
+      "time": "Áustria",
+      "v": 2,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fra.png&h=80&w=80",
+      "gc": 1,
+      "gp": 2,
+      "pj": 3,
+      "pos": 2,
+      "pts": 5,
+      "sg": 1,
+      "tid": "478",
+      "time": "França",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ned.png&h=80&w=80",
+      "gc": 4,
+      "gp": 4,
+      "pj": 3,
+      "pos": 3,
+      "pts": 4,
+      "sg": 0,
+      "tid": "449",
+      "time": "Holanda",
+      "v": 1,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/pol.png&h=80&w=80",
+      "gc": 6,
+      "gp": 3,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -3,
+      "tid": "471",
+      "time": "Polônia",
+      "v": 0
+     }
+    ],
+    "nome": "Group D"
+   },
+   {
+    "lg": "uefa.euro",
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/rom.png&h=80&w=80",
+      "gc": 3,
+      "gp": 4,
+      "pj": 3,
+      "pos": 1,
+      "pts": 4,
+      "sg": 1,
+      "tid": "473",
+      "time": "Romênia",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bel.png&h=80&w=80",
+      "gc": 1,
+      "gp": 2,
+      "pj": 3,
+      "pos": 2,
+      "pts": 4,
+      "sg": 1,
+      "tid": "459",
+      "time": "Bélgica",
+      "v": 1,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svk.png&h=80&w=80",
+      "gc": 3,
+      "gp": 3,
+      "pj": 3,
+      "pos": 3,
+      "pts": 4,
+      "sg": 0,
+      "tid": "468",
+      "time": "Eslováquia",
+      "v": 1,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ukr.png&h=80&w=80",
+      "gc": 4,
+      "gp": 2,
+      "pj": 3,
+      "pos": 4,
+      "pts": 4,
+      "sg": -2,
+      "tid": "457",
+      "time": "Ucrânia",
+      "v": 1
+     }
+    ],
+    "nome": "Group E"
+   },
+   {
+    "lg": "uefa.euro",
+    "linhas": [
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/por.png&h=80&w=80",
+      "gc": 3,
+      "gp": 5,
+      "pj": 3,
+      "pos": 1,
+      "pts": 6,
+      "sg": 2,
+      "tid": "482",
+      "time": "Portugal",
+      "v": 2,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#1d5fd1",
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/tur.png&h=80&w=80",
+      "gc": 5,
+      "gp": 5,
+      "pj": 3,
+      "pos": 2,
+      "pts": 6,
+      "sg": 0,
+      "tid": "465",
+      "time": "Turquia",
+      "v": 2,
+      "zona": "Oitavas de final"
+     },
+     {
+      "cor": "#6aa5f0",
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/geo.png&h=80&w=80",
+      "gc": 4,
+      "gp": 4,
+      "pj": 3,
+      "pos": 3,
+      "pts": 4,
+      "sg": 0,
+      "tid": "584",
+      "time": "Geórgia",
+      "v": 1,
+      "zona": "Melhores 3ºs avançam"
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cze.png&h=80&w=80",
+      "gc": 5,
+      "gp": 3,
+      "pj": 3,
+      "pos": 4,
+      "pts": 1,
+      "sg": -2,
+      "tid": "450",
+      "time": "República Tcheca",
+      "v": 0
+     }
+    ],
+    "nome": "Group F"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 1,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/esp.png&h=80&w=80",
+      "gc": 5,
+      "gp": 25,
+      "pj": 8,
+      "pos": 1,
+      "pts": 21,
+      "sg": 20,
+      "tid": "164",
+      "time": "Espanha",
+      "v": 7
+     },
+     {
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sco.png&h=80&w=80",
+      "gc": 8,
+      "gp": 17,
+      "pj": 8,
+      "pos": 2,
+      "pts": 17,
+      "sg": 9,
+      "tid": "580",
+      "time": "Escócia",
+      "v": 5
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/nor.png&h=80&w=80",
+      "gc": 12,
+      "gp": 14,
+      "pj": 8,
+      "pos": 3,
+      "pts": 11,
+      "sg": 2,
+      "tid": "464",
+      "time": "Noruega",
+      "v": 3
+     },
+     {
+      "d": 4,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/geo.png&h=80&w=80",
+      "gc": 18,
+      "gp": 12,
+      "pj": 8,
+      "pos": 4,
+      "pts": 8,
+      "sg": -6,
+      "tid": "584",
+      "time": "Geórgia",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cyp.png&h=80&w=80",
+      "gc": 28,
+      "gp": 3,
+      "pj": 8,
+      "pos": 5,
+      "pts": 0,
+      "sg": -25,
+      "tid": "445",
+      "time": "Cyprus",
+      "v": 0
+     }
+    ],
+    "nome": "Group A"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 0,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fra.png&h=80&w=80",
+      "gc": 3,
+      "gp": 29,
+      "pj": 8,
+      "pos": 1,
+      "pts": 22,
+      "sg": 26,
+      "tid": "478",
+      "time": "França",
+      "v": 7
+     },
+     {
+      "d": 2,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ned.png&h=80&w=80",
+      "gc": 7,
+      "gp": 17,
+      "pj": 8,
+      "pos": 2,
+      "pts": 18,
+      "sg": 10,
+      "tid": "449",
+      "time": "Holanda",
+      "v": 6
+     },
+     {
+      "d": 3,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/gre.png&h=80&w=80",
+      "gc": 8,
+      "gp": 14,
+      "pj": 8,
+      "pos": 3,
+      "pts": 13,
+      "sg": 6,
+      "tid": "455",
+      "time": "Grécia",
+      "v": 4
+     },
+     {
+      "d": 6,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/irl.png&h=80&w=80",
+      "gc": 10,
+      "gp": 9,
+      "pj": 8,
+      "pos": 4,
+      "pts": 6,
+      "sg": -1,
+      "tid": "476",
+      "time": "Irlanda",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/gib.png&h=80&w=80",
+      "gc": 41,
+      "gp": 0,
+      "pj": 8,
+      "pos": 5,
+      "pts": 0,
+      "sg": -41,
+      "tid": "16721",
+      "time": "Gibraltar",
+      "v": 0
+     }
+    ],
+    "nome": "Group B"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/eng.png&h=80&w=80",
+      "gc": 4,
+      "gp": 22,
+      "pj": 8,
+      "pos": 1,
+      "pts": 20,
+      "sg": 18,
+      "tid": "448",
+      "time": "Inglaterra",
+      "v": 6
+     },
+     {
+      "d": 2,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ita.png&h=80&w=80",
+      "gc": 9,
+      "gp": 16,
+      "pj": 8,
+      "pos": 2,
+      "pts": 14,
+      "sg": 7,
+      "tid": "162",
+      "time": "Itália",
+      "v": 4
+     },
+     {
+      "d": 2,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ukr.png&h=80&w=80",
+      "gc": 8,
+      "gp": 11,
+      "pj": 8,
+      "pos": 3,
+      "pts": 14,
+      "sg": 3,
+      "tid": "457",
+      "time": "Ucrânia",
+      "v": 4
+     },
+     {
+      "d": 4,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mkd.png&h=80&w=80",
+      "gc": 20,
+      "gp": 10,
+      "pj": 8,
+      "pos": 4,
+      "pts": 8,
+      "sg": -10,
+      "tid": "463",
+      "time": "North Macedonia",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mlt.png&h=80&w=80",
+      "gc": 20,
+      "gp": 2,
+      "pj": 8,
+      "pos": 5,
+      "pts": 0,
+      "sg": -18,
+      "tid": "453",
+      "time": "Malta",
+      "v": 0
+     }
+    ],
+    "nome": "Group C"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 1,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/tur.png&h=80&w=80",
+      "gc": 7,
+      "gp": 14,
+      "pj": 8,
+      "pos": 1,
+      "pts": 17,
+      "sg": 7,
+      "tid": "465",
+      "time": "Turquia",
+      "v": 5
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cro.png&h=80&w=80",
+      "gc": 4,
+      "gp": 13,
+      "pj": 8,
+      "pos": 2,
+      "pts": 16,
+      "sg": 9,
+      "tid": "477",
+      "time": "Croácia",
+      "v": 5
+     },
+     {
+      "d": 2,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/wal.png&h=80&w=80",
+      "gc": 10,
+      "gp": 10,
+      "pj": 8,
+      "pos": 3,
+      "pts": 12,
+      "sg": 0,
+      "tid": "578",
+      "time": "País de Gales",
+      "v": 3
+     },
+     {
+      "d": 4,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fifa.armenia.png&h=80&w=80",
+      "gc": 11,
+      "gp": 9,
+      "pj": 8,
+      "pos": 4,
+      "pts": 8,
+      "sg": -2,
+      "tid": "579",
+      "time": "Armenia",
+      "v": 2
+     },
+     {
+      "d": 7,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/lva.png&h=80&w=80",
+      "gc": 19,
+      "gp": 5,
+      "pj": 8,
+      "pos": 5,
+      "pts": 3,
+      "sg": -14,
+      "tid": "456",
+      "time": "Latvia",
+      "v": 1
+     }
+    ],
+    "nome": "Group D"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 1,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/alb.png&h=80&w=80",
+      "gc": 4,
+      "gp": 12,
+      "pj": 8,
+      "pos": 1,
+      "pts": 15,
+      "sg": 8,
+      "tid": "585",
+      "time": "Albânia",
+      "v": 4
+     },
+     {
+      "d": 1,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/cze.png&h=80&w=80",
+      "gc": 6,
+      "gp": 12,
+      "pj": 8,
+      "pos": 2,
+      "pts": 15,
+      "sg": 6,
+      "tid": "450",
+      "time": "República Tcheca",
+      "v": 4
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/pol.png&h=80&w=80",
+      "gc": 10,
+      "gp": 10,
+      "pj": 8,
+      "pos": 3,
+      "pts": 11,
+      "sg": 0,
+      "tid": "471",
+      "time": "Polônia",
+      "v": 3
+     },
+     {
+      "d": 2,
+      "e": 4,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mda.png&h=80&w=80",
+      "gc": 10,
+      "gp": 7,
+      "pj": 8,
+      "pos": 4,
+      "pts": 10,
+      "sg": -3,
+      "tid": "483",
+      "time": "Moldova",
+      "v": 2
+     },
+     {
+      "d": 6,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fro.png&h=80&w=80",
+      "gc": 13,
+      "gp": 2,
+      "pj": 8,
+      "pos": 5,
+      "pts": 2,
+      "sg": -11,
+      "tid": "447",
+      "time": "Faroe Islands",
+      "v": 0
+     }
+    ],
+    "nome": "Group E"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 0,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bel.png&h=80&w=80",
+      "gc": 4,
+      "gp": 22,
+      "pj": 8,
+      "pos": 1,
+      "pts": 20,
+      "sg": 18,
+      "tid": "459",
+      "time": "Bélgica",
+      "v": 6
+     },
+     {
+      "d": 1,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/aut.png&h=80&w=80",
+      "gc": 7,
+      "gp": 17,
+      "pj": 8,
+      "pos": 2,
+      "pts": 19,
+      "sg": 10,
+      "tid": "474",
+      "time": "Áustria",
+      "v": 6
+     },
+     {
+      "d": 4,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/swe.png&h=80&w=80",
+      "gc": 12,
+      "gp": 14,
+      "pj": 8,
+      "pos": 3,
+      "pts": 10,
+      "sg": 2,
+      "tid": "466",
+      "time": "Suécia",
+      "v": 3
+     },
+     {
+      "d": 5,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/aze.png&h=80&w=80",
+      "gc": 17,
+      "gp": 7,
+      "pj": 8,
+      "pos": 4,
+      "pts": 7,
+      "sg": -10,
+      "tid": "581",
+      "time": "Azerbaijan",
+      "v": 2
+     },
+     {
+      "d": 7,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/est.png&h=80&w=80",
+      "gc": 22,
+      "gp": 2,
+      "pj": 8,
+      "pos": 5,
+      "pts": 1,
+      "sg": -20,
+      "tid": "444",
+      "time": "Estonia",
+      "v": 0
+     }
+    ],
+    "nome": "Group F"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 0,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/hun.png&h=80&w=80",
+      "gc": 7,
+      "gp": 16,
+      "pj": 8,
+      "pos": 1,
+      "pts": 18,
+      "sg": 9,
+      "tid": "480",
+      "time": "Hungria",
+      "v": 5
+     },
+     {
+      "d": 2,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sba.png&h=80&w=80",
+      "gc": 9,
+      "gp": 15,
+      "pj": 8,
+      "pos": 2,
+      "pts": 14,
+      "sg": 6,
+      "tid": "6757",
+      "time": "Sérvia",
+      "v": 4
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/mtg.png&h=80&w=80",
+      "gc": 11,
+      "gp": 9,
+      "pj": 8,
+      "pos": 3,
+      "pts": 11,
+      "sg": -2,
+      "tid": "6775",
+      "time": "Montenegro",
+      "v": 3
+     },
+     {
+      "d": 4,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/ltu.png&h=80&w=80",
+      "gc": 14,
+      "gp": 8,
+      "pj": 8,
+      "pos": 4,
+      "pts": 6,
+      "sg": -6,
+      "tid": "460",
+      "time": "Lithuania",
+      "v": 1
+     },
+     {
+      "d": 4,
+      "e": 4,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bul.png&h=80&w=80",
+      "gc": 14,
+      "gp": 7,
+      "pj": 8,
+      "pos": 5,
+      "pts": 4,
+      "sg": -7,
+      "tid": "462",
+      "time": "Bulgaria",
+      "v": 0
+     }
+    ],
+    "nome": "Group G"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/den.png&h=80&w=80",
+      "gc": 10,
+      "gp": 19,
+      "pj": 10,
+      "pos": 1,
+      "pts": 22,
+      "sg": 9,
+      "tid": "479",
+      "time": "Dinamarca",
+      "v": 7
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svn.png&h=80&w=80",
+      "gc": 9,
+      "gp": 20,
+      "pj": 10,
+      "pos": 2,
+      "pts": 22,
+      "sg": 11,
+      "tid": "472",
+      "time": "Eslovênia",
+      "v": 7
+     },
+     {
+      "d": 4,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/fin.png&h=80&w=80",
+      "gc": 10,
+      "gp": 18,
+      "pj": 10,
+      "pos": 3,
+      "pts": 18,
+      "sg": 8,
+      "tid": "458",
+      "time": "Finlândia",
+      "v": 6
+     },
+     {
+      "d": 4,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/kaz.png&h=80&w=80",
+      "gc": 12,
+      "gp": 16,
+      "pj": 10,
+      "pos": 4,
+      "pts": 18,
+      "sg": 4,
+      "tid": "2619",
+      "time": "Kazakhstan",
+      "v": 6
+     },
+     {
+      "d": 7,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/nir.png&h=80&w=80",
+      "gc": 13,
+      "gp": 9,
+      "pj": 10,
+      "pos": 5,
+      "pts": 9,
+      "sg": -4,
+      "tid": "586",
+      "time": "Irlanda do Norte",
+      "v": 3
+     },
+     {
+      "d": 10,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/smr.png&h=80&w=80",
+      "gc": 31,
+      "gp": 3,
+      "pj": 10,
+      "pos": 6,
+      "pts": 0,
+      "sg": -28,
+      "tid": "588",
+      "time": "San Marino",
+      "v": 0
+     }
+    ],
+    "nome": "Group H"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 0,
+      "e": 4,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/rom.png&h=80&w=80",
+      "gc": 5,
+      "gp": 16,
+      "pj": 10,
+      "pos": 1,
+      "pts": 22,
+      "sg": 11,
+      "tid": "473",
+      "time": "Romênia",
+      "v": 6
+     },
+     {
+      "d": 1,
+      "e": 5,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/sui.png&h=80&w=80",
+      "gc": 11,
+      "gp": 22,
+      "pj": 10,
+      "pos": 2,
+      "pts": 17,
+      "sg": 11,
+      "tid": "475",
+      "time": "Suíça",
+      "v": 4
+     },
+     {
+      "d": 3,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/isr.png&h=80&w=80",
+      "gc": 11,
+      "gp": 11,
+      "pj": 10,
+      "pos": 3,
+      "pts": 15,
+      "sg": 0,
+      "tid": "461",
+      "time": "Israel",
+      "v": 4
+     },
+     {
+      "d": 4,
+      "e": 3,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/blr.png&h=80&w=80",
+      "gc": 14,
+      "gp": 9,
+      "pj": 10,
+      "pos": 4,
+      "pts": 12,
+      "sg": -5,
+      "tid": "583",
+      "time": "Belarus",
+      "v": 3
+     },
+     {
+      "d": 3,
+      "e": 5,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/kosovo.png&h=80&w=80",
+      "gc": 10,
+      "gp": 10,
+      "pj": 10,
+      "pos": 5,
+      "pts": 11,
+      "sg": 0,
+      "tid": "18272",
+      "time": "Kosovo",
+      "v": 2
+     },
+     {
+      "d": 8,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/and.png&h=80&w=80",
+      "gc": 20,
+      "gp": 3,
+      "pj": 10,
+      "pos": 6,
+      "pts": 2,
+      "sg": -17,
+      "tid": "587",
+      "time": "Andorra",
+      "v": 0
+     }
+    ],
+    "nome": "Group I"
+   },
+   {
+    "lg": "uefa.euroq",
+    "linhas": [
+     {
+      "d": 0,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/por.png&h=80&w=80",
+      "gc": 2,
+      "gp": 36,
+      "pj": 10,
+      "pos": 1,
+      "pts": 30,
+      "sg": 34,
+      "tid": "482",
+      "time": "Portugal",
+      "v": 10
+     },
+     {
+      "d": 2,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/svk.png&h=80&w=80",
+      "gc": 8,
+      "gp": 17,
+      "pj": 10,
+      "pos": 2,
+      "pts": 22,
+      "sg": 9,
+      "tid": "468",
+      "time": "Eslováquia",
+      "v": 7
+     },
+     {
+      "d": 3,
+      "e": 2,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/lux.png&h=80&w=80",
+      "gc": 19,
+      "gp": 13,
+      "pj": 10,
+      "pos": 3,
+      "pts": 17,
+      "sg": -6,
+      "tid": "582",
+      "time": "Luxembourg",
+      "v": 5
+     },
+     {
+      "d": 6,
+      "e": 1,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/isl.png&h=80&w=80",
+      "gc": 16,
+      "gp": 17,
+      "pj": 10,
+      "pos": 4,
+      "pts": 10,
+      "sg": 1,
+      "tid": "470",
+      "time": "Islândia",
+      "v": 3
+     },
+     {
+      "d": 7,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/bih.png&h=80&w=80",
+      "gc": 20,
+      "gp": 9,
+      "pj": 10,
+      "pos": 5,
+      "pts": 9,
+      "sg": -11,
+      "tid": "452",
+      "time": "Bósnia",
+      "v": 3
+     },
+     {
+      "d": 10,
+      "e": 0,
+      "esc": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/countries/500/lie.png&h=80&w=80",
+      "gc": 28,
+      "gp": 1,
+      "pj": 10,
+      "pos": 6,
+      "pts": 0,
+      "sg": -27,
+      "tid": "589",
+      "time": "Liechtenstein",
+      "v": 0
+     }
+    ],
+    "nome": "Group J"
    }
   ],
   "liga": "uefa.euroq",
@@ -4320,9 +5755,10 @@
  },
  "europa": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "uefa.europa",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -4335,6 +5771,7 @@
       "pos": 1,
       "pts": 12,
       "sg": 10,
+      "tid": "1929",
       "time": "Benfica",
       "v": 4,
       "zona": "Oitavas de final"
@@ -4350,6 +5787,7 @@
       "pos": 2,
       "pts": 12,
       "sg": 9,
+      "tid": "349",
       "time": "Bournemouth",
       "v": 4,
       "zona": "Oitavas de final"
@@ -4365,6 +5803,7 @@
       "pos": 3,
       "pts": 12,
       "sg": 8,
+      "tid": "622",
       "time": "Ferencvaros",
       "v": 4,
       "zona": "Oitavas de final"
@@ -4380,6 +5819,7 @@
       "pos": 4,
       "pts": 10,
       "sg": 8,
+      "tid": "5807",
       "time": "Union St.-Gilloise",
       "v": 3,
       "zona": "Oitavas de final"
@@ -4395,6 +5835,7 @@
       "pos": 5,
       "pts": 10,
       "sg": 7,
+      "tid": "111",
       "time": "Juventus",
       "v": 3,
       "zona": "Oitavas de final"
@@ -4410,6 +5851,7 @@
       "pos": 6,
       "pts": 10,
       "sg": 3,
+      "tid": "435",
       "time": "Olympiacos",
       "v": 3,
       "zona": "Oitavas de final"
@@ -4425,6 +5867,7 @@
       "pos": 7,
       "pts": 9,
       "sg": 7,
+      "tid": "131",
       "time": "Bayer Leverkusen",
       "v": 3,
       "zona": "Oitavas de final"
@@ -4440,6 +5883,7 @@
       "pos": 8,
       "pts": 7,
       "sg": 3,
+      "tid": "1895",
       "time": "Besiktas",
       "v": 2,
       "zona": "Oitavas de final"
@@ -4455,6 +5899,7 @@
       "pos": 9,
       "pts": 7,
       "sg": 1,
+      "tid": "597",
       "time": "Dinamo Zagreb",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -4470,6 +5915,7 @@
       "pos": 10,
       "pts": 7,
       "sg": 1,
+      "tid": "490",
       "time": "Levski Sofia",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -4485,6 +5931,7 @@
       "pos": 11,
       "pts": 7,
       "sg": 0,
+      "tid": "366",
       "time": "Sunderland",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -4500,6 +5947,7 @@
       "pos": 12,
       "pts": 7,
       "sg": -1,
+      "tid": "147",
       "time": "NEC Nijmegen",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -4515,6 +5963,7 @@
       "pos": 13,
       "pts": 7,
       "sg": -1,
+      "tid": "167",
       "time": "Lyon",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -4530,6 +5979,7 @@
       "pos": 14,
       "pts": 6,
       "sg": 3,
+      "tid": "140",
       "time": "AZ Alkmaar",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -4545,6 +5995,7 @@
       "pos": 15,
       "pts": 6,
       "sg": 3,
+      "tid": "441",
       "time": "Anderlecht",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -4560,6 +6011,7 @@
       "pos": 16,
       "pts": 6,
       "sg": 1,
+      "tid": "1010",
       "time": "OFI Crete",
       "v": 2,
       "zona": "Playoff das oitavas (cabeça de chave)"
@@ -4575,6 +6027,7 @@
       "pos": 17,
       "pts": 6,
       "sg": 1,
+      "tid": "169",
       "time": "Stade Rennais",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -4590,6 +6043,7 @@
       "pos": 18,
       "pts": 6,
       "sg": -1,
+      "tid": "617",
       "time": "Omonia Nicosia",
       "v": 2,
       "zona": "Playoff das oitavas"
@@ -4605,6 +6059,7 @@
       "pos": 19,
       "pts": 6,
       "sg": -2,
+      "tid": "21615",
       "time": "Torreense",
       "v": 2,
       "zona": "Playoff das oitavas"
@@ -4620,6 +6075,7 @@
       "pos": 20,
       "pts": 5,
       "sg": 5,
+      "tid": "89",
       "time": "Real Sociedad",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -4635,6 +6091,7 @@
       "pos": 21,
       "pts": 5,
       "sg": 3,
+      "tid": "384",
       "time": "Crystal Palace",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -4650,6 +6107,7 @@
       "pos": 22,
       "pts": 4,
       "sg": 0,
+      "tid": "433",
       "time": "Sparta Prague",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -4665,6 +6123,7 @@
       "pos": 23,
       "pts": 4,
       "sg": 0,
+      "tid": "7911",
       "time": "TSG Hoffenheim",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -4680,6 +6139,7 @@
       "pos": 24,
       "pts": 4,
       "sg": -3,
+      "tid": "3746",
       "time": "SK Sturm Graz",
       "v": 1,
       "zona": "Playoff das oitavas"
@@ -4695,6 +6155,7 @@
       "pos": 25,
       "pts": 4,
       "sg": -4,
+      "tid": "3362",
       "time": "NK Celje",
       "v": 1,
       "zona": "Eliminado"
@@ -4710,6 +6171,7 @@
       "pos": 26,
       "pts": 4,
       "sg": -5,
+      "tid": "2790",
       "time": "RB Salzburg",
       "v": 1,
       "zona": "Eliminado"
@@ -4725,6 +6187,7 @@
       "pos": 27,
       "pts": 3,
       "sg": -2,
+      "tid": "85",
       "time": "Celta Vigo",
       "v": 1,
       "zona": "Eliminado"
@@ -4740,6 +6203,7 @@
       "pos": 28,
       "pts": 3,
       "sg": -3,
+      "tid": "103",
       "time": "Milan",
       "v": 1,
       "zona": "Eliminado"
@@ -4755,6 +6219,7 @@
       "pos": 29,
       "pts": 3,
       "sg": -3,
+      "tid": "11505",
       "time": "Jagiellonia Bialystok",
       "v": 1,
       "zona": "Eliminado"
@@ -4770,6 +6235,7 @@
       "pos": 30,
       "pts": 3,
       "sg": -4,
+      "tid": "11706",
       "time": "Viktoria Plzen",
       "v": 1,
       "zona": "Eliminado"
@@ -4785,6 +6251,7 @@
       "pos": 31,
       "pts": 3,
       "sg": -4,
+      "tid": "176",
       "time": "Marseille",
       "v": 1,
       "zona": "Eliminado"
@@ -4800,6 +6267,7 @@
       "pos": 32,
       "pts": 3,
       "sg": -5,
+      "tid": "256",
       "time": "Celtic",
       "v": 1,
       "zona": "Eliminado"
@@ -4815,6 +6283,7 @@
       "pos": 33,
       "pts": 1,
       "sg": -7,
+      "tid": "13083",
       "time": "Hapoel Be'er",
       "v": 0,
       "zona": "Eliminado"
@@ -4830,6 +6299,7 @@
       "pos": 34,
       "pts": 1,
       "sg": -8,
+      "tid": "987",
       "time": "Lillestrom",
       "v": 0,
       "zona": "Eliminado"
@@ -4845,6 +6315,7 @@
       "pos": 35,
       "pts": 1,
       "sg": -10,
+      "tid": "2990",
       "time": "Lech Poznan",
       "v": 0,
       "zona": "Eliminado"
@@ -4860,6 +6331,7 @@
       "pos": 36,
       "pts": 0,
       "sg": -10,
+      "tid": "20024",
       "time": "Ararat-Armenia",
       "v": 0,
       "zona": "Eliminado"
@@ -4873,9 +6345,10 @@
  },
  "laliga": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "esp.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -4888,6 +6361,7 @@
       "pos": 1,
       "pts": 36,
       "sg": 36,
+      "tid": "83",
       "time": "Barcelona",
       "v": 12,
       "zona": "Champions League"
@@ -4903,6 +6377,7 @@
       "pos": 2,
       "pts": 33,
       "sg": 22,
+      "tid": "86",
       "time": "Real Madrid",
       "v": 11,
       "zona": "Champions League"
@@ -4918,6 +6393,7 @@
       "pos": 3,
       "pts": 31,
       "sg": 16,
+      "tid": "1068",
       "time": "Atlético de Madrid",
       "v": 10,
       "zona": "Champions League"
@@ -4933,6 +6409,7 @@
       "pos": 4,
       "pts": 27,
       "sg": 5,
+      "tid": "244",
       "time": "Real Betis",
       "v": 8,
       "zona": "Champions League"
@@ -4948,6 +6425,7 @@
       "pos": 5,
       "pts": 22,
       "sg": 0,
+      "tid": "89",
       "time": "Real Sociedad",
       "v": 7,
       "zona": "Champions League"
@@ -4963,6 +6441,7 @@
       "pos": 6,
       "pts": 19,
       "sg": -2,
+      "tid": "243",
       "time": "Sevilla",
       "v": 5,
       "zona": "Europa League"
@@ -4978,6 +6457,7 @@
       "pos": 7,
       "pts": 17,
       "sg": -12,
+      "tid": "87",
       "time": "Racing Santander",
       "v": 5,
       "zona": "Pré-Conference League"
@@ -4992,6 +6472,7 @@
       "pos": 8,
       "pts": 16,
       "sg": 3,
+      "tid": "93",
       "time": "Athletic Club",
       "v": 4
      },
@@ -5005,6 +6486,7 @@
       "pos": 9,
       "pts": 16,
       "sg": 0,
+      "tid": "96",
       "time": "Alavés",
       "v": 4
      },
@@ -5019,6 +6501,7 @@
       "pos": 10,
       "pts": 15,
       "sg": 1,
+      "tid": "102",
       "time": "Villarreal",
       "v": 4,
       "zona": "Europa League"
@@ -5033,6 +6516,7 @@
       "pos": 11,
       "pts": 15,
       "sg": 0,
+      "tid": "88",
       "time": "Espanyol",
       "v": 4
      },
@@ -5046,6 +6530,7 @@
       "pos": 12,
       "pts": 15,
       "sg": -1,
+      "tid": "90",
       "time": "Deportivo",
       "v": 3
      },
@@ -5059,6 +6544,7 @@
       "pos": 13,
       "pts": 15,
       "sg": -10,
+      "tid": "97",
       "time": "Osasuna",
       "v": 4
      },
@@ -5072,6 +6558,7 @@
       "pos": 14,
       "pts": 13,
       "sg": -1,
+      "tid": "85",
       "time": "Celta Vigo",
       "v": 2
      },
@@ -5085,6 +6572,7 @@
       "pos": 15,
       "pts": 12,
       "sg": -5,
+      "tid": "1538",
       "time": "Levante",
       "v": 2
      },
@@ -5098,6 +6586,7 @@
       "pos": 16,
       "pts": 12,
       "sg": -7,
+      "tid": "101",
       "time": "Rayo Vallecano",
       "v": 3
      },
@@ -5111,6 +6600,7 @@
       "pos": 17,
       "pts": 12,
       "sg": -11,
+      "tid": "94",
       "time": "Valencia",
       "v": 3
      },
@@ -5125,6 +6615,7 @@
       "pos": 18,
       "pts": 12,
       "sg": -13,
+      "tid": "2922",
       "time": "Getafe",
       "v": 3,
       "zona": "Rebaixamento"
@@ -5140,6 +6631,7 @@
       "pos": 19,
       "pts": 11,
       "sg": -6,
+      "tid": "3751",
       "time": "Elche",
       "v": 2,
       "zona": "Rebaixamento"
@@ -5155,6 +6647,7 @@
       "pos": 20,
       "pts": 5,
       "sg": -15,
+      "tid": "99",
       "time": "Málaga",
       "v": 0,
       "zona": "Rebaixamento"
@@ -5168,9 +6661,10 @@
  },
  "libertadores": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "conmebol.libertadores",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -5183,6 +6677,7 @@
       "pos": 1,
       "pts": 16,
       "sg": 12,
+      "tid": "819",
       "time": "Flamengo",
       "v": 5,
       "zona": "Oitavas de final"
@@ -5198,6 +6693,7 @@
       "pos": 2,
       "pts": 9,
       "sg": 1,
+      "tid": "8",
       "time": "Estudiantes",
       "v": 2,
       "zona": "Oitavas de final"
@@ -5213,6 +6709,7 @@
       "pos": 3,
       "pts": 7,
       "sg": -5,
+      "tid": "2690",
       "time": "Independiente Medellín",
       "v": 2,
       "zona": "Playoff da Sul-Americana"
@@ -5227,6 +6724,7 @@
       "pos": 4,
       "pts": 1,
       "sg": -8,
+      "tid": "11995",
       "time": "Cusco FC",
       "v": 0
      }
@@ -5234,6 +6732,7 @@
     "nome": "Group A"
    },
    {
+    "lg": "conmebol.libertadores",
     "linhas": [
      {
       "d": 2,
@@ -5245,6 +6744,7 @@
       "pos": 1,
       "pts": 10,
       "sg": 2,
+      "tid": "8186",
       "time": "Coquimbo Unido",
       "v": 3
      },
@@ -5258,6 +6758,7 @@
       "pos": 2,
       "pts": 8,
       "sg": 1,
+      "tid": "5489",
       "time": "Deportes Tolima",
       "v": 2
      },
@@ -5271,6 +6772,7 @@
       "pos": 3,
       "pts": 8,
       "sg": -2,
+      "tid": "2684",
       "time": "Nacional",
       "v": 2
      },
@@ -5284,6 +6786,7 @@
       "pos": 4,
       "pts": 6,
       "sg": -1,
+      "tid": "2685",
       "time": "Universitario",
       "v": 1
      }
@@ -5291,6 +6794,7 @@
     "nome": "Group B"
    },
    {
+    "lg": "conmebol.libertadores",
     "linhas": [
      {
       "d": 0,
@@ -5302,6 +6806,7 @@
       "pos": 1,
       "pts": 16,
       "sg": 9,
+      "tid": "9744",
       "time": "Independiente Rivadavia",
       "v": 5
      },
@@ -5315,6 +6820,7 @@
       "pos": 2,
       "pts": 8,
       "sg": 0,
+      "tid": "3445",
       "time": "Fluminense",
       "v": 2
      },
@@ -5328,6 +6834,7 @@
       "pos": 3,
       "pts": 5,
       "sg": -2,
+      "tid": "2681",
       "time": "Bolívar",
       "v": 1
      },
@@ -5341,6 +6848,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -7,
+      "tid": "17090",
       "time": "Deportivo La Guaira",
       "v": 0
      }
@@ -5348,6 +6856,7 @@
     "nome": "Group C"
    },
    {
+    "lg": "conmebol.libertadores",
     "linhas": [
      {
       "d": 1,
@@ -5359,6 +6868,7 @@
       "pos": 1,
       "pts": 13,
       "sg": 4,
+      "tid": "885",
       "time": "Universidad Católica",
       "v": 4
      },
@@ -5372,6 +6882,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 5,
+      "tid": "2022",
       "time": "Cruzeiro",
       "v": 3
      },
@@ -5385,6 +6896,7 @@
       "pos": 3,
       "pts": 7,
       "sg": 1,
+      "tid": "5",
       "time": "Boca Juniors",
       "v": 2
      },
@@ -5398,6 +6910,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -10,
+      "tid": "2686",
       "time": "Barcelona",
       "v": 1
      }
@@ -5405,6 +6918,7 @@
     "nome": "Group D"
    },
    {
+    "lg": "conmebol.libertadores",
     "linhas": [
      {
       "d": 1,
@@ -5416,6 +6930,7 @@
       "pos": 1,
       "pts": 11,
       "sg": 4,
+      "tid": "874",
       "time": "Corinthians",
       "v": 3
      },
@@ -5429,6 +6944,7 @@
       "pos": 2,
       "pts": 10,
       "sg": 1,
+      "tid": "7764",
       "time": "Platense",
       "v": 3
      },
@@ -5442,6 +6958,7 @@
       "pos": 3,
       "pts": 8,
       "sg": -1,
+      "tid": "5488",
       "time": "Independiente Santa Fe",
       "v": 2
      },
@@ -5455,6 +6972,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -4,
+      "tid": "2683",
       "time": "Peñarol",
       "v": 0
      }
@@ -5462,6 +6980,7 @@
     "nome": "Group E"
    },
    {
+    "lg": "conmebol.libertadores",
     "linhas": [
      {
       "d": 1,
@@ -5473,6 +6992,7 @@
       "pos": 1,
       "pts": 13,
       "sg": 4,
+      "tid": "2671",
       "time": "Cerro Porteño",
       "v": 4
      },
@@ -5486,6 +7006,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 5,
+      "tid": "2029",
       "time": "Palmeiras",
       "v": 3
      },
@@ -5499,6 +7020,7 @@
       "pos": 3,
       "pts": 6,
       "sg": -3,
+      "tid": "2673",
       "time": "Sporting Cristal",
       "v": 2
      },
@@ -5512,6 +7034,7 @@
       "pos": 4,
       "pts": 4,
       "sg": -6,
+      "tid": "4815",
       "time": "Atlético Junior",
       "v": 1
      }
@@ -5519,6 +7042,7 @@
     "nome": "Group F"
    },
    {
+    "lg": "conmebol.libertadores",
     "linhas": [
      {
       "d": 2,
@@ -5530,6 +7054,7 @@
       "pos": 1,
       "pts": 12,
       "sg": 3,
+      "tid": "4816",
       "time": "Liga de Quito",
       "v": 4
      },
@@ -5543,6 +7068,7 @@
       "pos": 2,
       "pts": 12,
       "sg": 3,
+      "tid": "9169",
       "time": "Mirassol",
       "v": 4
      },
@@ -5556,6 +7082,7 @@
       "pos": 3,
       "pts": 9,
       "sg": -4,
+      "tid": "12",
       "time": "Lanús",
       "v": 3
      },
@@ -5569,6 +7096,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -2,
+      "tid": "19425",
       "time": "Always Ready",
       "v": 1
      }
@@ -5576,6 +7104,7 @@
     "nome": "Group G"
    },
    {
+    "lg": "conmebol.libertadores",
     "linhas": [
      {
       "d": 1,
@@ -5587,6 +7116,7 @@
       "pos": 1,
       "pts": 13,
       "sg": 5,
+      "tid": "17086",
       "time": "Independiente del Valle",
       "v": 4
      },
@@ -5600,6 +7130,7 @@
       "pos": 2,
       "pts": 13,
       "sg": 8,
+      "tid": "17",
       "time": "Rosario Central",
       "v": 4
      },
@@ -5613,6 +7144,7 @@
       "pos": 3,
       "pts": 9,
       "sg": -4,
+      "tid": "10094",
       "time": "UCV FC",
       "v": 3
      },
@@ -5626,6 +7158,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -9,
+      "tid": "2670",
       "time": "Libertad",
       "v": 0
      }
@@ -5638,9 +7171,10 @@
  },
  "ligamx": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "mex.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -5653,6 +7187,7 @@
       "pos": 1,
       "pts": 33,
       "sg": 12,
+      "tid": "219",
       "time": "Guadalajara",
       "v": 9,
       "zona": "Playoffs"
@@ -5668,6 +7203,7 @@
       "pos": 2,
       "pts": 32,
       "sg": 10,
+      "tid": "218",
       "time": "Cruz Azul",
       "v": 10,
       "zona": "Playoffs"
@@ -5683,6 +7219,7 @@
       "pos": 3,
       "pts": 30,
       "sg": 14,
+      "tid": "227",
       "time": "América",
       "v": 8,
       "zona": "Playoffs"
@@ -5698,6 +7235,7 @@
       "pos": 4,
       "pts": 28,
       "sg": -3,
+      "tid": "216",
       "time": "Atlas",
       "v": 8,
       "zona": "Playoffs"
@@ -5713,6 +7251,7 @@
       "pos": 5,
       "pts": 27,
       "sg": 12,
+      "tid": "223",
       "time": "Toluca",
       "v": 7,
       "zona": "Playoffs"
@@ -5728,6 +7267,7 @@
       "pos": 6,
       "pts": 27,
       "sg": 4,
+      "tid": "220",
       "time": "Monterrey",
       "v": 8,
       "zona": "Playoffs"
@@ -5743,6 +7283,7 @@
       "pos": 7,
       "pts": 26,
       "sg": 3,
+      "tid": "228",
       "time": "León",
       "v": 7,
       "zona": "Playoffs"
@@ -5758,6 +7299,7 @@
       "pos": 8,
       "pts": 25,
       "sg": 11,
+      "tid": "234",
       "time": "Pachuca",
       "v": 7,
       "zona": "Playoffs"
@@ -5772,6 +7314,7 @@
       "pos": 9,
       "pts": 25,
       "sg": 4,
+      "tid": "10125",
       "time": "Tijuana",
       "v": 6
      },
@@ -5785,6 +7328,7 @@
       "pos": 10,
       "pts": 25,
       "sg": 2,
+      "tid": "225",
       "time": "Santos Laguna",
       "v": 8
      },
@@ -5798,6 +7342,7 @@
       "pos": 11,
       "pts": 21,
       "sg": -4,
+      "tid": "233",
       "time": "Pumas UNAM",
       "v": 5
      },
@@ -5811,6 +7356,7 @@
       "pos": 12,
       "pts": 21,
       "sg": -6,
+      "tid": "222",
       "time": "Querétaro",
       "v": 6
      },
@@ -5824,6 +7370,7 @@
       "pos": 13,
       "pts": 20,
       "sg": -4,
+      "tid": "231",
       "time": "Puebla",
       "v": 5
      },
@@ -5837,6 +7384,7 @@
       "pos": 14,
       "pts": 20,
       "sg": -5,
+      "tid": "15720",
       "time": "Atlético de San Luis",
       "v": 5
      },
@@ -5850,6 +7398,7 @@
       "pos": 15,
       "pts": 18,
       "sg": -7,
+      "tid": "232",
       "time": "Tigres UANL",
       "v": 4
      },
@@ -5863,6 +7412,7 @@
       "pos": 16,
       "pts": 14,
       "sg": -11,
+      "tid": "229",
       "time": "Necaxa",
       "v": 3
      },
@@ -5876,6 +7426,7 @@
       "pos": 17,
       "pts": 14,
       "sg": -11,
+      "tid": "226",
       "time": "Atlante",
       "v": 3
      },
@@ -5889,6 +7440,7 @@
       "pos": 18,
       "pts": 12,
       "sg": -21,
+      "tid": "17851",
       "time": "FC Juárez",
       "v": 3
      }
@@ -5901,9 +7453,10 @@
  },
  "ligue1": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "fra.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -5916,6 +7469,7 @@
       "pos": 1,
       "pts": 26,
       "sg": 13,
+      "tid": "160",
       "time": "Paris Saint-Germain",
       "v": 8,
       "zona": "Champions League"
@@ -5931,6 +7485,7 @@
       "pos": 2,
       "pts": 23,
       "sg": 11,
+      "tid": "6851",
       "time": "Paris FC",
       "v": 7,
       "zona": "Champions League"
@@ -5946,6 +7501,7 @@
       "pos": 3,
       "pts": 21,
       "sg": 6,
+      "tid": "166",
       "time": "Lille",
       "v": 6,
       "zona": "Champions League"
@@ -5961,6 +7517,7 @@
       "pos": 4,
       "pts": 20,
       "sg": 7,
+      "tid": "167",
       "time": "Lyon",
       "v": 6,
       "zona": "Pré-Champions"
@@ -5976,6 +7533,7 @@
       "pos": 5,
       "pts": 18,
       "sg": 7,
+      "tid": "176",
       "time": "Marseille",
       "v": 6,
       "zona": "Europa League"
@@ -5991,6 +7549,7 @@
       "pos": 6,
       "pts": 18,
       "sg": 7,
+      "tid": "6997",
       "time": "Brest",
       "v": 5,
       "zona": "Europa League"
@@ -6006,6 +7565,7 @@
       "pos": 7,
       "pts": 17,
       "sg": 2,
+      "tid": "2502",
       "time": "Nice",
       "v": 5,
       "zona": "Pré-Conference League"
@@ -6020,6 +7580,7 @@
       "pos": 8,
       "pts": 17,
       "sg": 2,
+      "tid": "174",
       "time": "AS Monaco",
       "v": 4
      },
@@ -6033,6 +7594,7 @@
       "pos": 9,
       "pts": 17,
       "sg": 0,
+      "tid": "169",
       "time": "Stade Rennais",
       "v": 5
      },
@@ -6046,6 +7608,7 @@
       "pos": 10,
       "pts": 16,
       "sg": 1,
+      "tid": "273",
       "time": "Lorient",
       "v": 4
      },
@@ -6059,6 +7622,7 @@
       "pos": 11,
       "pts": 14,
       "sg": 2,
+      "tid": "175",
       "time": "Lens",
       "v": 4
      },
@@ -6072,6 +7636,7 @@
       "pos": 12,
       "pts": 14,
       "sg": 1,
+      "tid": "179",
       "time": "Toulouse",
       "v": 3
      },
@@ -6085,6 +7650,7 @@
       "pos": 13,
       "pts": 11,
       "sg": -6,
+      "tid": "2697",
       "time": "Le Mans",
       "v": 2
      },
@@ -6098,6 +7664,7 @@
       "pos": 14,
       "pts": 11,
       "sg": -8,
+      "tid": "170",
       "time": "Troyes",
       "v": 3
      },
@@ -6111,6 +7678,7 @@
       "pos": 15,
       "pts": 11,
       "sg": -11,
+      "tid": "172",
       "time": "AJ Auxerre",
       "v": 3
      },
@@ -6125,6 +7693,7 @@
       "pos": 16,
       "pts": 10,
       "sg": -5,
+      "tid": "180",
       "time": "Strasbourg",
       "v": 3,
       "zona": "Playoff de rebaixamento"
@@ -6140,6 +7709,7 @@
       "pos": 17,
       "pts": 8,
       "sg": -14,
+      "tid": "7868",
       "time": "Angers",
       "v": 2,
       "zona": "Rebaixamento"
@@ -6155,6 +7725,7 @@
       "pos": 18,
       "pts": 2,
       "sg": -15,
+      "tid": "3236",
       "time": "Le Havre AC",
       "v": 0,
       "zona": "Rebaixamento"
@@ -6168,9 +7739,10 @@
  },
  "mineiro": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "bra.camp.mineiro",
     "linhas": [
      {
       "d": 0,
@@ -6182,6 +7754,7 @@
       "pos": 1,
       "pts": 14,
       "sg": 8,
+      "tid": "7632",
       "time": "Atlético-MG",
       "v": 3
      },
@@ -6195,6 +7768,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 0,
+      "tid": "18399",
       "time": "URT",
       "v": 3
      },
@@ -6208,6 +7782,7 @@
       "pos": 3,
       "pts": 9,
       "sg": -4,
+      "tid": "9460",
       "time": "Uberlândia",
       "v": 2
      },
@@ -6221,6 +7796,7 @@
       "pos": 4,
       "pts": 7,
       "sg": -5,
+      "tid": "18396",
       "time": "Democrata GV",
       "v": 2
      }
@@ -6228,6 +7804,7 @@
     "nome": "Group A"
    },
    {
+    "lg": "bra.camp.mineiro",
     "linhas": [
      {
       "d": 1,
@@ -6239,6 +7816,7 @@
       "pos": 1,
       "pts": 15,
       "sg": 4,
+      "tid": "6154",
       "time": "América-MG",
       "v": 4
      },
@@ -6251,6 +7829,7 @@
       "pos": 2,
       "pts": 13,
       "sg": 0,
+      "tid": "20852",
       "time": "Pouso Alegre",
       "v": 4
      },
@@ -6264,6 +7843,7 @@
       "pos": 3,
       "pts": 12,
       "sg": 3,
+      "tid": "17339",
       "time": "Tombense",
       "v": 3
      },
@@ -6276,6 +7856,7 @@
       "pos": 4,
       "pts": 9,
       "sg": -3,
+      "tid": "22489",
       "time": "Betim FC",
       "v": 2
      }
@@ -6283,6 +7864,7 @@
     "nome": "Group B"
    },
    {
+    "lg": "bra.camp.mineiro",
     "linhas": [
      {
       "d": 3,
@@ -6294,6 +7876,7 @@
       "pos": 1,
       "pts": 15,
       "sg": 7,
+      "tid": "2022",
       "time": "Cruzeiro",
       "v": 5
      },
@@ -6306,6 +7889,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 3,
+      "tid": "131565",
       "time": "North EC",
       "v": 3
      },
@@ -6318,6 +7902,7 @@
       "pos": 3,
       "pts": 7,
       "sg": -7,
+      "tid": "22142",
       "time": "Itabirito",
       "v": 2
      },
@@ -6331,6 +7916,7 @@
       "pos": 4,
       "pts": 7,
       "sg": -6,
+      "tid": "20851",
       "time": "Athletic",
       "v": 1
      }
@@ -6343,9 +7929,10 @@
  },
  "mls": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "usa.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -6358,6 +7945,7 @@
       "pos": 1,
       "pts": 77,
       "sg": 46,
+      "tid": "18986",
       "time": "Nashville SC",
       "v": 23,
       "zona": "Playoffs"
@@ -6373,6 +7961,7 @@
       "pos": 2,
       "pts": 60,
       "sg": 21,
+      "tid": "20232",
       "time": "Inter Miami CF",
       "v": 16,
       "zona": "Playoffs"
@@ -6388,6 +7977,7 @@
       "pos": 3,
       "pts": 58,
       "sg": 8,
+      "tid": "189",
       "time": "New England Revolution",
       "v": 18,
       "zona": "Playoffs"
@@ -6403,6 +7993,7 @@
       "pos": 4,
       "pts": 55,
       "sg": 10,
+      "tid": "182",
       "time": "Chicago Fire FC",
       "v": 16,
       "zona": "Playoffs"
@@ -6418,6 +8009,7 @@
       "pos": 5,
       "pts": 54,
       "sg": 15,
+      "tid": "21300",
       "time": "Charlotte FC",
       "v": 15,
       "zona": "Playoffs"
@@ -6433,6 +8025,7 @@
       "pos": 6,
       "pts": 50,
       "sg": 14,
+      "tid": "10739",
       "time": "Philadelphia Union",
       "v": 14,
       "zona": "Playoffs"
@@ -6448,6 +8041,7 @@
       "pos": 7,
       "pts": 47,
       "sg": 7,
+      "tid": "183",
       "time": "Columbus Crew",
       "v": 14,
       "zona": "Playoffs"
@@ -6463,6 +8057,7 @@
       "pos": 8,
       "pts": 46,
       "sg": -15,
+      "tid": "12011",
       "time": "Orlando City SC",
       "v": 13,
       "zona": "Playoffs (repescagem)"
@@ -6478,6 +8073,7 @@
       "pos": 9,
       "pts": 46,
       "sg": -8,
+      "tid": "18267",
       "time": "FC Cincinnati",
       "v": 12,
       "zona": "Playoffs (repescagem)"
@@ -6492,6 +8088,7 @@
       "pos": 10,
       "pts": 42,
       "sg": -14,
+      "tid": "190",
       "time": "Red Bull New York",
       "v": 12
      },
@@ -6505,6 +8102,7 @@
       "pos": 11,
       "pts": 42,
       "sg": 4,
+      "tid": "17606",
       "time": "New York City FC",
       "v": 10
      },
@@ -6518,6 +8116,7 @@
       "pos": 12,
       "pts": 39,
       "sg": -15,
+      "tid": "7318",
       "time": "Toronto FC",
       "v": 9
      },
@@ -6531,6 +8130,7 @@
       "pos": 13,
       "pts": 33,
       "sg": -17,
+      "tid": "18418",
       "time": "Atlanta United FC",
       "v": 9
      },
@@ -6544,6 +8144,7 @@
       "pos": 14,
       "pts": 33,
       "sg": -22,
+      "tid": "193",
       "time": "D.C. United",
       "v": 7
      },
@@ -6557,6 +8158,7 @@
       "pos": 15,
       "pts": 26,
       "sg": -32,
+      "tid": "9720",
       "time": "CF Montréal",
       "v": 6
      }
@@ -6564,6 +8166,7 @@
     "nome": "Eastern Conference"
    },
    {
+    "lg": "usa.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -6576,6 +8179,7 @@
       "pos": 1,
       "pts": 64,
       "sg": 40,
+      "tid": "9727",
       "time": "Vancouver Whitecaps",
       "v": 19,
       "zona": "Playoffs"
@@ -6591,6 +8195,7 @@
       "pos": 2,
       "pts": 58,
       "sg": 11,
+      "tid": "185",
       "time": "FC Dallas",
       "v": 16,
       "zona": "Playoffs"
@@ -6606,6 +8211,7 @@
       "pos": 3,
       "pts": 54,
       "sg": 11,
+      "tid": "21812",
       "time": "St. Louis CITY SC",
       "v": 15,
       "zona": "Playoffs"
@@ -6621,6 +8227,7 @@
       "pos": 4,
       "pts": 52,
       "sg": 6,
+      "tid": "191",
       "time": "San Jose Earthquakes",
       "v": 14,
       "zona": "Playoffs"
@@ -6636,6 +8243,7 @@
       "pos": 5,
       "pts": 51,
       "sg": 0,
+      "tid": "6077",
       "time": "Houston Dynamo FC",
       "v": 14,
       "zona": "Playoffs"
@@ -6651,6 +8259,7 @@
       "pos": 6,
       "pts": 47,
       "sg": 12,
+      "tid": "18966",
       "time": "LAFC",
       "v": 12,
       "zona": "Playoffs"
@@ -6666,6 +8275,7 @@
       "pos": 7,
       "pts": 46,
       "sg": 1,
+      "tid": "9723",
       "time": "Portland Timbers",
       "v": 13,
       "zona": "Playoffs"
@@ -6681,6 +8291,7 @@
       "pos": 8,
       "pts": 46,
       "sg": -2,
+      "tid": "9726",
       "time": "Seattle Sounders FC",
       "v": 12,
       "zona": "Playoffs (repescagem)"
@@ -6696,6 +8307,7 @@
       "pos": 9,
       "pts": 45,
       "sg": 1,
+      "tid": "4771",
       "time": "Real Salt Lake",
       "v": 13,
       "zona": "Playoffs (repescagem)"
@@ -6710,6 +8322,7 @@
       "pos": 10,
       "pts": 44,
       "sg": -2,
+      "tid": "17362",
       "time": "Minnesota United FC",
       "v": 11
      },
@@ -6723,6 +8336,7 @@
       "pos": 11,
       "pts": 44,
       "sg": -7,
+      "tid": "187",
       "time": "LA Galaxy",
       "v": 11
      },
@@ -6736,6 +8350,7 @@
       "pos": 12,
       "pts": 43,
       "sg": -3,
+      "tid": "184",
       "time": "Colorado Rapids",
       "v": 12
      },
@@ -6749,6 +8364,7 @@
       "pos": 13,
       "pts": 38,
       "sg": -6,
+      "tid": "22529",
       "time": "San Diego FC",
       "v": 9
      },
@@ -6762,6 +8378,7 @@
       "pos": 14,
       "pts": 34,
       "sg": -23,
+      "tid": "20906",
       "time": "Austin FC",
       "v": 8
      },
@@ -6775,6 +8392,7 @@
       "pos": 15,
       "pts": 26,
       "sg": -41,
+      "tid": "186",
       "time": "Sporting Kansas City",
       "v": 7
      }
@@ -6787,9 +8405,10 @@
  },
  "mundial": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "fifa.cwc",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -6802,6 +8421,7 @@
       "pos": 1,
       "pts": 5,
       "sg": 2,
+      "tid": "2029",
       "time": "Palmeiras",
       "v": 1,
       "zona": "Oitavas de final"
@@ -6817,6 +8437,7 @@
       "pos": 2,
       "pts": 5,
       "sg": 1,
+      "tid": "20232",
       "time": "Inter Miami CF",
       "v": 1,
       "zona": "Oitavas de final"
@@ -6831,6 +8452,7 @@
       "pos": 3,
       "pts": 2,
       "sg": -1,
+      "tid": "437",
       "time": "FC Porto",
       "v": 0
      },
@@ -6844,6 +8466,7 @@
       "pos": 4,
       "pts": 2,
       "sg": -2,
+      "tid": "10207",
       "time": "Al Ahly",
       "v": 0
      }
@@ -6851,6 +8474,7 @@
     "nome": "Group A"
    },
    {
+    "lg": "fifa.cwc",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -6863,6 +8487,7 @@
       "pos": 1,
       "pts": 6,
       "sg": 5,
+      "tid": "160",
       "time": "Paris Saint-Germain",
       "v": 2,
       "zona": "Oitavas de final"
@@ -6878,6 +8503,7 @@
       "pos": 2,
       "pts": 6,
       "sg": 1,
+      "tid": "6086",
       "time": "Botafogo",
       "v": 2,
       "zona": "Oitavas de final"
@@ -6892,6 +8518,7 @@
       "pos": 3,
       "pts": 6,
       "sg": -1,
+      "tid": "1068",
       "time": "Atlético de Madrid",
       "v": 2
      },
@@ -6905,6 +8532,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -5,
+      "tid": "9726",
       "time": "Seattle Sounders FC",
       "v": 0
      }
@@ -6912,6 +8540,7 @@
     "nome": "Group B"
    },
    {
+    "lg": "fifa.cwc",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -6924,6 +8553,7 @@
       "pos": 1,
       "pts": 7,
       "sg": 7,
+      "tid": "1929",
       "time": "Benfica",
       "v": 2,
       "zona": "Oitavas de final"
@@ -6939,6 +8569,7 @@
       "pos": 2,
       "pts": 6,
       "sg": 10,
+      "tid": "132",
       "time": "Bayern de Munique",
       "v": 2,
       "zona": "Oitavas de final"
@@ -6953,6 +8584,7 @@
       "pos": 3,
       "pts": 2,
       "sg": -1,
+      "tid": "5",
       "time": "Boca Juniors",
       "v": 0
      },
@@ -6966,6 +8598,7 @@
       "pos": 4,
       "pts": 1,
       "sg": -16,
+      "tid": "7279",
       "time": "Auckland City",
       "v": 0
      }
@@ -6973,6 +8606,7 @@
     "nome": "Group C"
    },
    {
+    "lg": "fifa.cwc",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -6985,6 +8619,7 @@
       "pos": 1,
       "pts": 7,
       "sg": 4,
+      "tid": "819",
       "time": "Flamengo",
       "v": 2,
       "zona": "Oitavas de final"
@@ -7000,6 +8635,7 @@
       "pos": 2,
       "pts": 6,
       "sg": 3,
+      "tid": "363",
       "time": "Chelsea",
       "v": 2,
       "zona": "Oitavas de final"
@@ -7014,6 +8650,7 @@
       "pos": 3,
       "pts": 3,
       "sg": -4,
+      "tid": "8377",
       "time": "Esperance Sportive de Tunis",
       "v": 1
      },
@@ -7027,6 +8664,7 @@
       "pos": 4,
       "pts": 1,
       "sg": -3,
+      "tid": "18966",
       "time": "LAFC",
       "v": 0
      }
@@ -7034,6 +8672,7 @@
     "nome": "Group D"
    },
    {
+    "lg": "fifa.cwc",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -7046,6 +8685,7 @@
       "pos": 1,
       "pts": 7,
       "sg": 3,
+      "tid": "110",
       "time": "Inter de Milão",
       "v": 2,
       "zona": "Oitavas de final"
@@ -7061,6 +8701,7 @@
       "pos": 2,
       "pts": 5,
       "sg": 4,
+      "tid": "220",
       "time": "Monterrey",
       "v": 1,
       "zona": "Oitavas de final"
@@ -7075,6 +8716,7 @@
       "pos": 3,
       "pts": 4,
       "sg": 0,
+      "tid": "16",
       "time": "River Plate",
       "v": 1
      },
@@ -7088,6 +8730,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -7,
+      "tid": "3385",
       "time": "Urawa Red Diamonds",
       "v": 0
      }
@@ -7095,6 +8738,7 @@
     "nome": "Group E"
    },
    {
+    "lg": "fifa.cwc",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -7107,6 +8751,7 @@
       "pos": 1,
       "pts": 7,
       "sg": 2,
+      "tid": "124",
       "time": "Borussia Dortmund",
       "v": 2,
       "zona": "Oitavas de final"
@@ -7122,6 +8767,7 @@
       "pos": 2,
       "pts": 5,
       "sg": 2,
+      "tid": "3445",
       "time": "Fluminense",
       "v": 1,
       "zona": "Oitavas de final"
@@ -7136,6 +8782,7 @@
       "pos": 3,
       "pts": 4,
       "sg": 0,
+      "tid": "7084",
       "time": "Mamelodi Sundowns",
       "v": 1
      },
@@ -7149,6 +8796,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -4,
+      "tid": "7120",
       "time": "Ulsan HD",
       "v": 0
      }
@@ -7156,6 +8804,7 @@
     "nome": "Group F"
    },
    {
+    "lg": "fifa.cwc",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -7168,6 +8817,7 @@
       "pos": 1,
       "pts": 9,
       "sg": 11,
+      "tid": "382",
       "time": "Manchester City",
       "v": 3,
       "zona": "Oitavas de final"
@@ -7183,6 +8833,7 @@
       "pos": 2,
       "pts": 6,
       "sg": 5,
+      "tid": "111",
       "time": "Juventus",
       "v": 2,
       "zona": "Oitavas de final"
@@ -7197,6 +8848,7 @@
       "pos": 3,
       "pts": 3,
       "sg": -10,
+      "tid": "7128",
       "time": "Al Ain",
       "v": 1
      },
@@ -7210,6 +8862,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -6,
+      "tid": "8625",
       "time": "Wydad AC",
       "v": 0
      }
@@ -7217,6 +8870,7 @@
     "nome": "Group G"
    },
    {
+    "lg": "fifa.cwc",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -7229,6 +8883,7 @@
       "pos": 1,
       "pts": 7,
       "sg": 5,
+      "tid": "86",
       "time": "Real Madrid",
       "v": 2,
       "zona": "Oitavas de final"
@@ -7244,6 +8899,7 @@
       "pos": 2,
       "pts": 5,
       "sg": 2,
+      "tid": "929",
       "time": "Al Hilal",
       "v": 1,
       "zona": "Oitavas de final"
@@ -7258,6 +8914,7 @@
       "pos": 3,
       "pts": 4,
       "sg": -2,
+      "tid": "2790",
       "time": "RB Salzburg",
       "v": 1
      },
@@ -7271,6 +8928,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -5,
+      "tid": "234",
       "time": "Pachuca",
       "v": 0
      }
@@ -7283,9 +8941,10 @@
  },
  "nations": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "cor": "#12924f",
@@ -7298,6 +8957,7 @@
       "pos": 1,
       "pts": 13,
       "sg": 4,
+      "tid": "478",
       "time": "França",
       "v": 4,
       "zona": "Acesso"
@@ -7313,6 +8973,7 @@
       "pos": 2,
       "pts": 12,
       "sg": 5,
+      "tid": "459",
       "time": "Bélgica",
       "v": 4,
       "zona": "Quartas (Liga A) / playoff de acesso"
@@ -7328,6 +8989,7 @@
       "pos": 3,
       "pts": 10,
       "sg": 2,
+      "tid": "162",
       "time": "Itália",
       "v": 3,
       "zona": "Playoff de rebaixamento"
@@ -7343,6 +9005,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -11,
+      "tid": "465",
       "time": "Turquia",
       "v": 0,
       "zona": "Rebaixamento"
@@ -7351,6 +9014,7 @@
     "nome": "Group A1"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 1,
@@ -7362,6 +9026,7 @@
       "pos": 1,
       "pts": 11,
       "sg": 8,
+      "tid": "481",
       "time": "Alemanha",
       "v": 3
      },
@@ -7375,6 +9040,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 4,
+      "tid": "449",
       "time": "Holanda",
       "v": 3
      },
@@ -7388,6 +9054,7 @@
       "pos": 3,
       "pts": 11,
       "sg": -4,
+      "tid": "455",
       "time": "Grécia",
       "v": 3
      },
@@ -7401,6 +9068,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -8,
+      "tid": "6757",
       "time": "Sérvia",
       "v": 0
      }
@@ -7408,6 +9076,7 @@
     "nome": "Group A2"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 1,
@@ -7419,6 +9088,7 @@
       "pos": 1,
       "pts": 15,
       "sg": 13,
+      "tid": "448",
       "time": "Inglaterra",
       "v": 5
      },
@@ -7432,6 +9102,7 @@
       "pos": 2,
       "pts": 15,
       "sg": 8,
+      "tid": "164",
       "time": "Espanha",
       "v": 5
      },
@@ -7445,6 +9116,7 @@
       "pos": 3,
       "pts": 6,
       "sg": -10,
+      "tid": "477",
       "time": "Croácia",
       "v": 2
      },
@@ -7458,6 +9130,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -11,
+      "tid": "450",
       "time": "República Tcheca",
       "v": 0
      }
@@ -7465,6 +9138,7 @@
     "nome": "Group A3"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 1,
@@ -7476,6 +9150,7 @@
       "pos": 1,
       "pts": 15,
       "sg": 3,
+      "tid": "482",
       "time": "Portugal",
       "v": 5
      },
@@ -7489,6 +9164,7 @@
       "pos": 2,
       "pts": 9,
       "sg": 1,
+      "tid": "464",
       "time": "Noruega",
       "v": 3
      },
@@ -7502,6 +9178,7 @@
       "pos": 3,
       "pts": 9,
       "sg": 2,
+      "tid": "479",
       "time": "Dinamarca",
       "v": 3
      },
@@ -7515,6 +9192,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -6,
+      "tid": "578",
       "time": "País de Gales",
       "v": 1
      }
@@ -7522,6 +9200,7 @@
     "nome": "Group A4"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 0,
@@ -7533,6 +9212,7 @@
       "pos": 1,
       "pts": 16,
       "sg": 14,
+      "tid": "475",
       "time": "Suíça",
       "v": 5
      },
@@ -7546,6 +9226,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 5,
+      "tid": "472",
       "time": "Eslovênia",
       "v": 3
      },
@@ -7559,6 +9240,7 @@
       "pos": 3,
       "pts": 7,
       "sg": -5,
+      "tid": "580",
       "time": "Escócia",
       "v": 2
      },
@@ -7572,6 +9254,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -14,
+      "tid": "463",
       "time": "North Macedonia",
       "v": 0
      }
@@ -7579,6 +9262,7 @@
     "nome": "Group B1"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 0,
@@ -7590,6 +9274,7 @@
       "pos": 1,
       "pts": 12,
       "sg": 5,
+      "tid": "586",
       "time": "Irlanda do Norte",
       "v": 3
      },
@@ -7603,6 +9288,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 3,
+      "tid": "480",
       "time": "Hungria",
       "v": 3
      },
@@ -7616,6 +9302,7 @@
       "pos": 3,
       "pts": 7,
       "sg": -3,
+      "tid": "457",
       "time": "Ucrânia",
       "v": 2
      },
@@ -7629,6 +9316,7 @@
       "pos": 4,
       "pts": 2,
       "sg": -5,
+      "tid": "584",
       "time": "Geórgia",
       "v": 0
      }
@@ -7636,6 +9324,7 @@
     "nome": "Group B2"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 0,
@@ -7647,6 +9336,7 @@
       "pos": 1,
       "pts": 12,
       "sg": 5,
+      "tid": "474",
       "time": "Áustria",
       "v": 3
      },
@@ -7660,6 +9350,7 @@
       "pos": 2,
       "pts": 8,
       "sg": 4,
+      "tid": "476",
       "time": "Irlanda",
       "v": 2
      },
@@ -7673,6 +9364,7 @@
       "pos": 3,
       "pts": 6,
       "sg": -4,
+      "tid": "18272",
       "time": "Kosovo",
       "v": 1
      },
@@ -7686,6 +9378,7 @@
       "pos": 4,
       "pts": 4,
       "sg": -5,
+      "tid": "461",
       "time": "Israel",
       "v": 0
      }
@@ -7693,6 +9386,7 @@
     "nome": "Group B3"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 0,
@@ -7704,6 +9398,7 @@
       "pos": 1,
       "pts": 14,
       "sg": 5,
+      "tid": "466",
       "time": "Suécia",
       "v": 4
      },
@@ -7717,6 +9412,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 3,
+      "tid": "452",
       "time": "Bósnia",
       "v": 3
      },
@@ -7730,6 +9426,7 @@
       "pos": 3,
       "pts": 5,
       "sg": 2,
+      "tid": "471",
       "time": "Polônia",
       "v": 1
      },
@@ -7743,6 +9440,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -10,
+      "tid": "473",
       "time": "Romênia",
       "v": 1
      }
@@ -7750,6 +9448,7 @@
     "nome": "Group B4"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 1,
@@ -7761,6 +9460,7 @@
       "pos": 1,
       "pts": 15,
       "sg": 9,
+      "tid": "585",
       "time": "Albânia",
       "v": 5
      },
@@ -7774,6 +9474,7 @@
       "pos": 2,
       "pts": 10,
       "sg": 3,
+      "tid": "583",
       "time": "Belarus",
       "v": 3
      },
@@ -7787,6 +9488,7 @@
       "pos": 3,
       "pts": 10,
       "sg": 10,
+      "tid": "458",
       "time": "Finlândia",
       "v": 3
      },
@@ -7800,6 +9502,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -22,
+      "tid": "588",
       "time": "San Marino",
       "v": 0
      }
@@ -7807,6 +9510,7 @@
     "nome": "Group C1"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 0,
@@ -7818,6 +9522,7 @@
       "pos": 1,
       "pts": 16,
       "sg": 7,
+      "tid": "6775",
       "time": "Montenegro",
       "v": 5
      },
@@ -7831,6 +9536,7 @@
       "pos": 2,
       "pts": 8,
       "sg": -1,
+      "tid": "445",
       "time": "Cyprus",
       "v": 2
      },
@@ -7844,6 +9550,7 @@
       "pos": 3,
       "pts": 6,
       "sg": -1,
+      "tid": "579",
       "time": "Armenia",
       "v": 1
      },
@@ -7857,6 +9564,7 @@
       "pos": 4,
       "pts": 2,
       "sg": -5,
+      "tid": "456",
       "time": "Latvia",
       "v": 0
      }
@@ -7864,6 +9572,7 @@
     "nome": "Group C2"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 0,
@@ -7875,6 +9584,7 @@
       "pos": 1,
       "pts": 12,
       "sg": 7,
+      "tid": "468",
       "time": "Eslováquia",
       "v": 3
      },
@@ -7888,6 +9598,7 @@
       "pos": 2,
       "pts": 8,
       "sg": 1,
+      "tid": "447",
       "time": "Faroe Islands",
       "v": 1
      },
@@ -7901,6 +9612,7 @@
       "pos": 3,
       "pts": 7,
       "sg": -5,
+      "tid": "483",
       "time": "Moldova",
       "v": 2
      },
@@ -7914,6 +9626,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -3,
+      "tid": "2619",
       "time": "Kazakhstan",
       "v": 0
      }
@@ -7921,6 +9634,7 @@
     "nome": "Group C3"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 0,
@@ -7932,6 +9646,7 @@
       "pos": 1,
       "pts": 14,
       "sg": 14,
+      "tid": "470",
       "time": "Islândia",
       "v": 4
      },
@@ -7945,6 +9660,7 @@
       "pos": 2,
       "pts": 12,
       "sg": 3,
+      "tid": "444",
       "time": "Estonia",
       "v": 3
      },
@@ -7958,6 +9674,7 @@
       "pos": 3,
       "pts": 4,
       "sg": -8,
+      "tid": "462",
       "time": "Bulgaria",
       "v": 1
      },
@@ -7971,6 +9688,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -9,
+      "tid": "582",
       "time": "Luxembourg",
       "v": 1
      }
@@ -7978,6 +9696,7 @@
     "nome": "Group C4"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 0,
@@ -7989,6 +9708,7 @@
       "pos": 1,
       "pts": 8,
       "sg": 2,
+      "tid": "453",
       "time": "Malta",
       "v": 2
      },
@@ -8002,6 +9722,7 @@
       "pos": 2,
       "pts": 4,
       "sg": 0,
+      "tid": "587",
       "time": "Andorra",
       "v": 1
      },
@@ -8015,6 +9736,7 @@
       "pos": 3,
       "pts": 3,
       "sg": -2,
+      "tid": "16721",
       "time": "Gibraltar",
       "v": 0
      }
@@ -8022,6 +9744,7 @@
     "nome": "Group D1"
    },
    {
+    "lg": "uefa.nations",
     "linhas": [
      {
       "d": 0,
@@ -8033,6 +9756,7 @@
       "pos": 1,
       "pts": 8,
       "sg": 2,
+      "tid": "581",
       "time": "Azerbaijan",
       "v": 2
      },
@@ -8046,6 +9770,7 @@
       "pos": 2,
       "pts": 7,
       "sg": 2,
+      "tid": "460",
       "time": "Lithuania",
       "v": 2
      },
@@ -8059,6 +9784,7 @@
       "pos": 3,
       "pts": 1,
       "sg": -4,
+      "tid": "589",
       "time": "Liechtenstein",
       "v": 0
      }
@@ -8071,9 +9797,10 @@
  },
  "paulista": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "bra.camp.paulista",
     "linhas": [
      {
       "d": 2,
@@ -8085,6 +9812,7 @@
       "pos": 1,
       "pts": 16,
       "sg": 6,
+      "tid": "18127",
       "time": "Novorizontino",
       "v": 5
      },
@@ -8098,6 +9826,7 @@
       "pos": 2,
       "pts": 16,
       "sg": 1,
+      "tid": "2029",
       "time": "Palmeiras",
       "v": 5
      },
@@ -8111,6 +9840,7 @@
       "pos": 3,
       "pts": 16,
       "sg": 12,
+      "tid": "6079",
       "time": "Red Bull Bragantino",
       "v": 4
      },
@@ -8124,6 +9854,7 @@
       "pos": 4,
       "pts": 15,
       "sg": 4,
+      "tid": "4773",
       "time": "Portuguesa",
       "v": 5
      },
@@ -8137,6 +9868,7 @@
       "pos": 5,
       "pts": 14,
       "sg": 4,
+      "tid": "874",
       "time": "Corinthians",
       "v": 4
      },
@@ -8150,6 +9882,7 @@
       "pos": 6,
       "pts": 13,
       "sg": -1,
+      "tid": "2026",
       "time": "São Paulo",
       "v": 4
      },
@@ -8162,6 +9895,7 @@
       "pos": 7,
       "pts": 13,
       "sg": -3,
+      "tid": "17635",
       "time": "Capivariano",
       "v": 4
      },
@@ -8175,6 +9909,7 @@
       "pos": 8,
       "pts": 12,
       "sg": 5,
+      "tid": "2674",
       "time": "Santos",
       "v": 3
      },
@@ -8188,6 +9923,7 @@
       "pos": 9,
       "pts": 12,
       "sg": -1,
+      "tid": "3448",
       "time": "Guarani",
       "v": 3
      },
@@ -8201,6 +9937,7 @@
       "pos": 10,
       "pts": 11,
       "sg": -4,
+      "tid": "10281",
       "time": "Botafogo-SP",
       "v": 3
      },
@@ -8214,6 +9951,7 @@
       "pos": 11,
       "pts": 8,
       "sg": 2,
+      "tid": "9169",
       "time": "Mirassol",
       "v": 2
      },
@@ -8226,6 +9964,7 @@
       "pos": 12,
       "pts": 8,
       "sg": -1,
+      "tid": "131564",
       "time": "Primavera SP",
       "v": 2
      },
@@ -8239,6 +9978,7 @@
       "pos": 13,
       "pts": 8,
       "sg": -2,
+      "tid": "11268",
       "time": "São Bernardo",
       "v": 2
      },
@@ -8251,6 +9991,7 @@
       "pos": 14,
       "pts": 8,
       "sg": 0,
+      "tid": "22486",
       "time": "EC Noroeste",
       "v": 1
      },
@@ -8263,6 +10004,7 @@
       "pos": 15,
       "pts": 5,
       "sg": -11,
+      "tid": "22487",
       "time": "AE Velo Clube",
       "v": 1
      },
@@ -8276,6 +10018,7 @@
       "pos": 16,
       "pts": 1,
       "sg": -11,
+      "tid": "3459",
       "time": "Ponte Preta",
       "v": 0
      }
@@ -8288,9 +10031,10 @@
  },
  "portugal": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "por.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -8303,6 +10047,7 @@
       "pos": 1,
       "pts": 33,
       "sg": 22,
+      "tid": "437",
       "time": "FC Porto",
       "v": 11,
       "zona": "Champions League"
@@ -8318,6 +10063,7 @@
       "pos": 2,
       "pts": 28,
       "sg": 20,
+      "tid": "1929",
       "time": "Benfica",
       "v": 9,
       "zona": "Pré-Champions"
@@ -8333,6 +10079,7 @@
       "pos": 3,
       "pts": 24,
       "sg": 13,
+      "tid": "2250",
       "time": "Sporting CP",
       "v": 7,
       "zona": "Pré-Europa League"
@@ -8348,6 +10095,7 @@
       "pos": 4,
       "pts": 21,
       "sg": 8,
+      "tid": "12215",
       "time": "Santa Clara",
       "v": 6,
       "zona": "Pré-Conference League"
@@ -8362,6 +10110,7 @@
       "pos": 5,
       "pts": 20,
       "sg": 5,
+      "tid": "15784",
       "time": "Arouca",
       "v": 6
      },
@@ -8375,6 +10124,7 @@
       "pos": 6,
       "pts": 20,
       "sg": 2,
+      "tid": "21607",
       "time": "Académico de Viseu",
       "v": 6
      },
@@ -8388,6 +10138,7 @@
       "pos": 7,
       "pts": 18,
       "sg": 2,
+      "tid": "3699",
       "time": "Gil Vicente",
       "v": 5
      },
@@ -8401,6 +10152,7 @@
       "pos": 8,
       "pts": 17,
       "sg": 2,
+      "tid": "2994",
       "time": "Braga",
       "v": 5
      },
@@ -8414,6 +10166,7 @@
       "pos": 9,
       "pts": 14,
       "sg": -5,
+      "tid": "3696",
       "time": "Moreirense",
       "v": 4
      },
@@ -8427,6 +10180,7 @@
       "pos": 10,
       "pts": 13,
       "sg": 1,
+      "tid": "12698",
       "time": "FC Famalicao",
       "v": 3
      },
@@ -8440,6 +10194,7 @@
       "pos": 11,
       "pts": 12,
       "sg": -1,
+      "tid": "21613",
       "time": "Alverca",
       "v": 3
      },
@@ -8453,6 +10208,7 @@
       "pos": 12,
       "pts": 10,
       "sg": -5,
+      "tid": "21610",
       "time": "Estrela",
       "v": 2
      },
@@ -8466,6 +10222,7 @@
       "pos": 13,
       "pts": 10,
       "sg": -8,
+      "tid": "3472",
       "time": "C.D. Nacional",
       "v": 3
      },
@@ -8479,6 +10236,7 @@
       "pos": 14,
       "pts": 9,
       "sg": -1,
+      "tid": "5309",
       "time": "Vitória de Guimaraes",
       "v": 2
      },
@@ -8492,6 +10250,7 @@
       "pos": 15,
       "pts": 8,
       "sg": -12,
+      "tid": "552",
       "time": "Maritimo",
       "v": 2
      },
@@ -8506,6 +10265,7 @@
       "pos": 16,
       "pts": 8,
       "sg": -14,
+      "tid": "21581",
       "time": "Casa Pia",
       "v": 2,
       "zona": "Playoff de rebaixamento"
@@ -8521,6 +10281,7 @@
       "pos": 17,
       "pts": 7,
       "sg": -15,
+      "tid": "3822",
       "time": "Rio Ave",
       "v": 2,
       "zona": "Rebaixamento"
@@ -8536,6 +10297,7 @@
       "pos": 18,
       "pts": 2,
       "sg": -14,
+      "tid": "12216",
       "time": "Estoril",
       "v": 0,
       "zona": "Rebaixamento"
@@ -8549,9 +10311,10 @@
  },
  "premier": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "eng.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -8564,6 +10327,7 @@
       "pos": 1,
       "pts": 28,
       "sg": 10,
+      "tid": "359",
       "time": "Arsenal",
       "v": 9,
       "zona": "Champions League"
@@ -8579,6 +10343,7 @@
       "pos": 2,
       "pts": 22,
       "sg": 17,
+      "tid": "331",
       "time": "Brighton",
       "v": 7,
       "zona": "Champions League"
@@ -8594,6 +10359,7 @@
       "pos": 3,
       "pts": 22,
       "sg": 8,
+      "tid": "382",
       "time": "Manchester City",
       "v": 7,
       "zona": "Champions League"
@@ -8609,6 +10375,7 @@
       "pos": 4,
       "pts": 21,
       "sg": 8,
+      "tid": "364",
       "time": "Liverpool",
       "v": 6,
       "zona": "Champions League"
@@ -8624,6 +10391,7 @@
       "pos": 5,
       "pts": 18,
       "sg": 4,
+      "tid": "349",
       "time": "Bournemouth",
       "v": 5,
       "zona": "Europa League"
@@ -8638,6 +10406,7 @@
       "pos": 6,
       "pts": 17,
       "sg": 9,
+      "tid": "337",
       "time": "Brentford",
       "v": 4
      },
@@ -8651,6 +10420,7 @@
       "pos": 7,
       "pts": 17,
       "sg": 5,
+      "tid": "357",
       "time": "Leeds",
       "v": 4
      },
@@ -8664,6 +10434,7 @@
       "pos": 8,
       "pts": 16,
       "sg": 0,
+      "tid": "363",
       "time": "Chelsea",
       "v": 5
      },
@@ -8677,6 +10448,7 @@
       "pos": 9,
       "pts": 16,
       "sg": -2,
+      "tid": "368",
       "time": "Everton",
       "v": 4
      },
@@ -8690,6 +10462,7 @@
       "pos": 10,
       "pts": 15,
       "sg": 1,
+      "tid": "367",
       "time": "Tottenham",
       "v": 4
      },
@@ -8703,6 +10476,7 @@
       "pos": 11,
       "pts": 14,
       "sg": 2,
+      "tid": "306",
       "time": "Hull City",
       "v": 3
      },
@@ -8716,6 +10490,7 @@
       "pos": 12,
       "pts": 14,
       "sg": -3,
+      "tid": "362",
       "time": "Aston Villa",
       "v": 3
      },
@@ -8729,6 +10504,7 @@
       "pos": 13,
       "pts": 13,
       "sg": -3,
+      "tid": "361",
       "time": "Newcastle",
       "v": 3
      },
@@ -8742,6 +10518,7 @@
       "pos": 14,
       "pts": 12,
       "sg": -8,
+      "tid": "388",
       "time": "Coventry City",
       "v": 4
      },
@@ -8755,6 +10532,7 @@
       "pos": 15,
       "pts": 11,
       "sg": -2,
+      "tid": "370",
       "time": "Fulham",
       "v": 2
      },
@@ -8768,6 +10546,7 @@
       "pos": 16,
       "pts": 11,
       "sg": -7,
+      "tid": "373",
       "time": "Ipswich Town",
       "v": 3
      },
@@ -8781,6 +10560,7 @@
       "pos": 17,
       "pts": 9,
       "sg": -6,
+      "tid": "393",
       "time": "Nottingham Forest",
       "v": 2
      },
@@ -8795,6 +10575,7 @@
       "pos": 18,
       "pts": 9,
       "sg": -9,
+      "tid": "366",
       "time": "Sunderland",
       "v": 2,
       "zona": "Rebaixamento"
@@ -8810,6 +10591,7 @@
       "pos": 19,
       "pts": 8,
       "sg": -9,
+      "tid": "360",
       "time": "Manchester United",
       "v": 1,
       "zona": "Rebaixamento"
@@ -8825,6 +10607,7 @@
       "pos": 20,
       "pts": 7,
       "sg": -15,
+      "tid": "384",
       "time": "Crystal Palace",
       "v": 2,
       "zona": "Rebaixamento"
@@ -8838,9 +10621,10 @@
  },
  "saudita": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "ksa.1",
     "linhas": [
      {
       "d": 1,
@@ -8852,6 +10636,7 @@
       "pos": 1,
       "pts": 30,
       "sg": 23,
+      "tid": "929",
       "time": "Al Hilal",
       "v": 10
      },
@@ -8865,6 +10650,7 @@
       "pos": 2,
       "pts": 28,
       "sg": 20,
+      "tid": "22022",
       "time": "Al Qadsiah",
       "v": 9
      },
@@ -8878,6 +10664,7 @@
       "pos": 3,
       "pts": 28,
       "sg": 15,
+      "tid": "817",
       "time": "Al Nassr",
       "v": 9
      },
@@ -8891,6 +10678,7 @@
       "pos": 4,
       "pts": 24,
       "sg": 11,
+      "tid": "8346",
       "time": "Al Ahli",
       "v": 8
      },
@@ -8904,6 +10692,7 @@
       "pos": 5,
       "pts": 24,
       "sg": 10,
+      "tid": "2276",
       "time": "Al Ittihad",
       "v": 7
      },
@@ -8917,6 +10706,7 @@
       "pos": 6,
       "pts": 22,
       "sg": 8,
+      "tid": "130899",
       "time": "Neom SC",
       "v": 7
      },
@@ -8930,6 +10720,7 @@
       "pos": 7,
       "pts": 19,
       "sg": 1,
+      "tid": "8363",
       "time": "Al Ettifaq",
       "v": 5
      },
@@ -8943,6 +10734,7 @@
       "pos": 8,
       "pts": 15,
       "sg": -3,
+      "tid": "131746",
       "time": "Al Diriyah",
       "v": 4
      },
@@ -8956,6 +10748,7 @@
       "pos": 9,
       "pts": 15,
       "sg": -5,
+      "tid": "21829",
       "time": "Al Khaleej",
       "v": 3
      },
@@ -8969,6 +10762,7 @@
       "pos": 10,
       "pts": 14,
       "sg": 5,
+      "tid": "793",
       "time": "Al Shabab",
       "v": 3
      },
@@ -8982,6 +10776,7 @@
       "pos": 11,
       "pts": 12,
       "sg": -9,
+      "tid": "22028",
       "time": "Al Kholood",
       "v": 3
      },
@@ -8995,6 +10790,7 @@
       "pos": 12,
       "pts": 12,
       "sg": -14,
+      "tid": "21965",
       "time": "Al Riyadh",
       "v": 3
      },
@@ -9008,6 +10804,7 @@
       "pos": 13,
       "pts": 11,
       "sg": -4,
+      "tid": "21827",
       "time": "Al Fayha",
       "v": 2
      },
@@ -9021,6 +10818,7 @@
       "pos": 14,
       "pts": 10,
       "sg": -6,
+      "tid": "21964",
       "time": "Al Hazem",
       "v": 2
      },
@@ -9034,6 +10832,7 @@
       "pos": 15,
       "pts": 10,
       "sg": -11,
+      "tid": "21446",
       "time": "Al Faisaly",
       "v": 2
      },
@@ -9047,6 +10846,7 @@
       "pos": 16,
       "pts": 6,
       "sg": -15,
+      "tid": "13033",
       "time": "Al Fateh",
       "v": 1
      },
@@ -9060,6 +10860,7 @@
       "pos": 17,
       "pts": 5,
       "sg": -14,
+      "tid": "18459",
       "time": "Al Taawoun",
       "v": 0
      },
@@ -9073,6 +10874,7 @@
       "pos": 18,
       "pts": 3,
       "sg": -12,
+      "tid": "21833",
       "time": "Abha",
       "v": 0
      }
@@ -9085,9 +10887,10 @@
  },
  "serie-a-ita": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "ita.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -9100,6 +10903,7 @@
       "pos": 1,
       "pts": 32,
       "sg": 19,
+      "tid": "112",
       "time": "Lazio",
       "v": 10,
       "zona": "Champions League"
@@ -9115,6 +10919,7 @@
       "pos": 2,
       "pts": 30,
       "sg": 25,
+      "tid": "104",
       "time": "Roma",
       "v": 9,
       "zona": "Champions League"
@@ -9130,6 +10935,7 @@
       "pos": 3,
       "pts": 29,
       "sg": 15,
+      "tid": "110",
       "time": "Inter de Milão",
       "v": 9,
       "zona": "Champions League"
@@ -9145,6 +10951,7 @@
       "pos": 4,
       "pts": 27,
       "sg": 14,
+      "tid": "103",
       "time": "Milan",
       "v": 8,
       "zona": "Champions League"
@@ -9160,6 +10967,7 @@
       "pos": 5,
       "pts": 26,
       "sg": 10,
+      "tid": "2572",
       "time": "Como",
       "v": 8,
       "zona": "Europa League"
@@ -9175,6 +10983,7 @@
       "pos": 6,
       "pts": 21,
       "sg": 7,
+      "tid": "111",
       "time": "Juventus",
       "v": 6,
       "zona": "Europa League"
@@ -9190,6 +10999,7 @@
       "pos": 7,
       "pts": 20,
       "sg": 5,
+      "tid": "4057",
       "time": "Frosinone",
       "v": 6,
       "zona": "Pré-Conference League"
@@ -9204,6 +11014,7 @@
       "pos": 8,
       "pts": 18,
       "sg": 5,
+      "tid": "114",
       "time": "Napoli",
       "v": 5
      },
@@ -9217,6 +11028,7 @@
       "pos": 9,
       "pts": 18,
       "sg": 2,
+      "tid": "107",
       "time": "Bologna",
       "v": 5
      },
@@ -9230,6 +11042,7 @@
       "pos": 10,
       "pts": 16,
       "sg": -3,
+      "tid": "3263",
       "time": "Genoa",
       "v": 5
      },
@@ -9243,6 +11056,7 @@
       "pos": 11,
       "pts": 16,
       "sg": -7,
+      "tid": "2925",
       "time": "Cagliari",
       "v": 5
      },
@@ -9256,6 +11070,7 @@
       "pos": 12,
       "pts": 15,
       "sg": -3,
+      "tid": "105",
       "time": "Atalanta",
       "v": 4
      },
@@ -9269,6 +11084,7 @@
       "pos": 13,
       "pts": 14,
       "sg": -3,
+      "tid": "239",
       "time": "Torino",
       "v": 4
      },
@@ -9282,6 +11098,7 @@
       "pos": 14,
       "pts": 10,
       "sg": -5,
+      "tid": "4007",
       "time": "Monza",
       "v": 3
      },
@@ -9295,6 +11112,7 @@
       "pos": 15,
       "pts": 10,
       "sg": -13,
+      "tid": "113",
       "time": "Lecce",
       "v": 3
      },
@@ -9308,6 +11126,7 @@
       "pos": 16,
       "pts": 9,
       "sg": -11,
+      "tid": "109",
       "time": "Fiorentina",
       "v": 2
      },
@@ -9321,6 +11140,7 @@
       "pos": 17,
       "pts": 8,
       "sg": -12,
+      "tid": "115",
       "time": "Parma",
       "v": 2
      },
@@ -9335,6 +11155,7 @@
       "pos": 18,
       "pts": 8,
       "sg": -15,
+      "tid": "3997",
       "time": "Sassuolo",
       "v": 2,
       "zona": "Rebaixamento"
@@ -9350,6 +11171,7 @@
       "pos": 19,
       "pts": 6,
       "sg": -13,
+      "tid": "118",
       "time": "Udinese",
       "v": 1,
       "zona": "Rebaixamento"
@@ -9365,6 +11187,7 @@
       "pos": 20,
       "pts": 6,
       "sg": -17,
+      "tid": "17530",
       "time": "Venezia",
       "v": 2,
       "zona": "Rebaixamento"
@@ -9378,9 +11201,10 @@
  },
  "sul-americana": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "conmebol.sudamericana",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -9393,6 +11217,7 @@
       "pos": 1,
       "pts": 10,
       "sg": 3,
+      "tid": "18439",
       "time": "Macará",
       "v": 2,
       "zona": "Oitavas de final"
@@ -9408,6 +11233,7 @@
       "pos": 2,
       "pts": 9,
       "sg": 3,
+      "tid": "7767",
       "time": "Tigre",
       "v": 2,
       "zona": "Playoff das oitavas"
@@ -9422,6 +11248,7 @@
       "pos": 3,
       "pts": 9,
       "sg": 1,
+      "tid": "8109",
       "time": "América de Cali",
       "v": 2
      },
@@ -9435,6 +11262,7 @@
       "pos": 4,
       "pts": 2,
       "sg": -7,
+      "tid": "5267",
       "time": "Alianza Atlético",
       "v": 0
      }
@@ -9442,6 +11270,7 @@
     "nome": "Group A"
    },
    {
+    "lg": "conmebol.sudamericana",
     "linhas": [
      {
       "d": 2,
@@ -9453,6 +11282,7 @@
       "pos": 1,
       "pts": 10,
       "sg": 2,
+      "tid": "7632",
       "time": "Atlético-MG",
       "v": 3
      },
@@ -9466,6 +11296,7 @@
       "pos": 2,
       "pts": 8,
       "sg": -2,
+      "tid": "3372",
       "time": "Cienciano del Cusco",
       "v": 2
      },
@@ -9479,6 +11310,7 @@
       "pos": 3,
       "pts": 7,
       "sg": 3,
+      "tid": "8416",
       "time": "Juventud",
       "v": 1
      },
@@ -9492,6 +11324,7 @@
       "pos": 4,
       "pts": 7,
       "sg": -3,
+      "tid": "18995",
       "time": "Academia Puerto Cabello",
       "v": 2
      }
@@ -9499,6 +11332,7 @@
     "nome": "Group B"
    },
    {
+    "lg": "conmebol.sudamericana",
     "linhas": [
      {
       "d": 0,
@@ -9510,6 +11344,7 @@
       "pos": 1,
       "pts": 12,
       "sg": 5,
+      "tid": "2026",
       "time": "São Paulo",
       "v": 3
      },
@@ -9523,6 +11358,7 @@
       "pos": 2,
       "pts": 10,
       "sg": 2,
+      "tid": "6072",
       "time": "O'Higgins",
       "v": 3
      },
@@ -9536,6 +11372,7 @@
       "pos": 3,
       "pts": 8,
       "sg": 0,
+      "tid": "5484",
       "time": "Millonarios",
       "v": 2
      },
@@ -9549,6 +11386,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -7,
+      "tid": "9999",
       "time": "Boston River",
       "v": 1
      }
@@ -9556,6 +11394,7 @@
     "nome": "Group C"
    },
    {
+    "lg": "conmebol.sudamericana",
     "linhas": [
      {
       "d": 0,
@@ -9567,6 +11406,7 @@
       "pos": 1,
       "pts": 8,
       "sg": 1,
+      "tid": "22517",
       "time": "Deportivo Recoleta",
       "v": 1
      },
@@ -9580,6 +11420,7 @@
       "pos": 2,
       "pts": 7,
       "sg": 2,
+      "tid": "2674",
       "time": "Santos",
       "v": 1
      },
@@ -9593,6 +11434,7 @@
       "pos": 3,
       "pts": 7,
       "sg": 1,
+      "tid": "18",
       "time": "San Lorenzo",
       "v": 1
      },
@@ -9606,6 +11448,7 @@
       "pos": 4,
       "pts": 6,
       "sg": -4,
+      "tid": "4812",
       "time": "Deportivo Cuenca",
       "v": 1
      }
@@ -9613,6 +11456,7 @@
     "nome": "Group D"
    },
    {
+    "lg": "conmebol.sudamericana",
     "linhas": [
      {
       "d": 0,
@@ -9624,6 +11468,7 @@
       "pos": 1,
       "pts": 16,
       "sg": 10,
+      "tid": "6086",
       "time": "Botafogo",
       "v": 5
      },
@@ -9637,6 +11482,7 @@
       "pos": 2,
       "pts": 9,
       "sg": 0,
+      "tid": "4811",
       "time": "Caracas FC",
       "v": 2
      },
@@ -9650,6 +11496,7 @@
       "pos": 3,
       "pts": 8,
       "sg": 2,
+      "tid": "15",
       "time": "Racing Club",
       "v": 2
      },
@@ -9663,6 +11510,7 @@
       "pos": 4,
       "pts": 0,
       "sg": -12,
+      "tid": "20889",
       "time": "Independiente Petrolero",
       "v": 0
      }
@@ -9670,6 +11518,7 @@
     "nome": "Group E"
    },
    {
+    "lg": "conmebol.sudamericana",
     "linhas": [
      {
       "d": 1,
@@ -9681,6 +11530,7 @@
       "pos": 1,
       "pts": 13,
       "sg": 6,
+      "tid": "19002",
       "time": "Montevideo City Torque",
       "v": 4
      },
@@ -9694,6 +11544,7 @@
       "pos": 2,
       "pts": 11,
       "sg": 5,
+      "tid": "6273",
       "time": "Grêmio",
       "v": 3
      },
@@ -9707,6 +11558,7 @@
       "pos": 3,
       "pts": 5,
       "sg": -6,
+      "tid": "17702",
       "time": "Deportivo Riestra",
       "v": 1
      },
@@ -9720,6 +11572,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -5,
+      "tid": "4422",
       "time": "Palestino",
       "v": 0
      }
@@ -9727,6 +11580,7 @@
     "nome": "Group F"
    },
    {
+    "lg": "conmebol.sudamericana",
     "linhas": [
      {
       "d": 1,
@@ -9738,6 +11592,7 @@
       "pos": 1,
       "pts": 13,
       "sg": 4,
+      "tid": "2675",
       "time": "Club Olimpia",
       "v": 4
      },
@@ -9751,6 +11606,7 @@
       "pos": 2,
       "pts": 10,
       "sg": 4,
+      "tid": "3454",
       "time": "Vasco",
       "v": 3
      },
@@ -9764,6 +11620,7 @@
       "pos": 3,
       "pts": 7,
       "sg": -2,
+      "tid": "4138",
       "time": "Audax Italiano",
       "v": 2
      },
@@ -9777,6 +11634,7 @@
       "pos": 4,
       "pts": 3,
       "sg": -6,
+      "tid": "10060",
       "time": "Barracas Central",
       "v": 0
      }
@@ -9784,6 +11642,7 @@
     "nome": "Group G"
    },
    {
+    "lg": "conmebol.sudamericana",
     "linhas": [
      {
       "d": 0,
@@ -9795,6 +11654,7 @@
       "pos": 1,
       "pts": 14,
       "sg": 6,
+      "tid": "16",
       "time": "River Plate",
       "v": 4
      },
@@ -9808,6 +11668,7 @@
       "pos": 2,
       "pts": 10,
       "sg": 7,
+      "tid": "6079",
       "time": "Red Bull Bragantino",
       "v": 3
      },
@@ -9821,6 +11682,7 @@
       "pos": 3,
       "pts": 9,
       "sg": 1,
+      "tid": "6037",
       "time": "Carabobo",
       "v": 3
      },
@@ -9834,6 +11696,7 @@
       "pos": 4,
       "pts": 1,
       "sg": -14,
+      "tid": "6047",
       "time": "Blooming",
       "v": 0
      }
@@ -9846,9 +11709,10 @@
  },
  "turquia": {
   "_rodada": "2026112323",
-  "atualizado": "2026-11-23T23:05-03:00",
+  "atualizado": "2026-11-23T23:15-03:00",
   "grupos": [
    {
+    "lg": "tur.1",
     "linhas": [
      {
       "cor": "#1d5fd1",
@@ -9861,6 +11725,7 @@
       "pos": 1,
       "pts": 31,
       "sg": 13,
+      "tid": "432",
       "time": "Galatasaray",
       "v": 10,
       "zona": "Champions League"
@@ -9876,6 +11741,7 @@
       "pos": 2,
       "pts": 28,
       "sg": 19,
+      "tid": "997",
       "time": "Trabzonspor",
       "v": 9,
       "zona": "Pré-Champions"
@@ -9891,6 +11757,7 @@
       "pos": 3,
       "pts": 25,
       "sg": 13,
+      "tid": "1895",
       "time": "Besiktas",
       "v": 8,
       "zona": "Pré-Europa League"
@@ -9906,6 +11773,7 @@
       "pos": 4,
       "pts": 23,
       "sg": 11,
+      "tid": "132335",
       "time": "Amed SFK",
       "v": 7,
       "zona": "Pré-Conference League"
@@ -9920,6 +11788,7 @@
       "pos": 5,
       "pts": 23,
       "sg": 7,
+      "tid": "6870",
       "time": "Kasimpasa",
       "v": 6
      },
@@ -9933,6 +11802,7 @@
       "pos": 6,
       "pts": 20,
       "sg": 19,
+      "tid": "436",
       "time": "Fenerbahce",
       "v": 6
      },
@@ -9946,6 +11816,7 @@
       "pos": 7,
       "pts": 20,
       "sg": 4,
+      "tid": "7914",
       "time": "Istanbul Basaksehir",
       "v": 6
      },
@@ -9959,6 +11830,7 @@
       "pos": 8,
       "pts": 20,
       "sg": 4,
+      "tid": "995",
       "time": "Kocaelispor",
       "v": 6
      },
@@ -9972,6 +11844,7 @@
       "pos": 9,
       "pts": 18,
       "sg": 4,
+      "tid": "789",
       "time": "Goztepe",
       "v": 5
      },
@@ -9985,6 +11858,7 @@
       "pos": 10,
       "pts": 17,
       "sg": -1,
+      "tid": "7656",
       "time": "Caykur Rizespor",
       "v": 5
      },
@@ -9998,6 +11872,7 @@
       "pos": 11,
       "pts": 16,
       "sg": -2,
+      "tid": "132334",
       "time": "Çorum FK",
       "v": 5
      },
@@ -10011,6 +11886,7 @@
       "pos": 12,
       "pts": 14,
       "sg": -8,
+      "tid": "996",
       "time": "Genclerbirligi",
       "v": 4
      },
@@ -10024,6 +11900,7 @@
       "pos": 13,
       "pts": 14,
       "sg": -8,
+      "tid": "19267",
       "time": "Erzurum BB",
       "v": 4
      },
@@ -10037,6 +11914,7 @@
       "pos": 14,
       "pts": 12,
       "sg": -10,
+      "tid": "9078",
       "time": "Alanyaspor",
       "v": 3
      },
@@ -10050,6 +11928,7 @@
       "pos": 15,
       "pts": 8,
       "sg": -10,
+      "tid": "7648",
       "time": "Konyaspor",
       "v": 2
      },
@@ -10064,6 +11943,7 @@
       "pos": 16,
       "pts": 8,
       "sg": -11,
+      "tid": "20070",
       "time": "Gaziantep FK",
       "v": 2,
       "zona": "Rebaixamento"
@@ -10079,6 +11959,7 @@
       "pos": 17,
       "pts": 7,
       "sg": -16,
+      "tid": "11429",
       "time": "Samsunspor",
       "v": 2,
       "zona": "Rebaixamento"
@@ -10094,6 +11975,7 @@
       "pos": 18,
       "pts": 3,
       "sg": -28,
+      "tid": "20729",
       "time": "Eyupspor",
       "v": 1,
       "zona": "Rebaixamento"

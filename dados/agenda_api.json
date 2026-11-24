@@ -14,6 +14,44 @@
   "fase": "2026-brasileiro-serie-a",
   "fora": "Remo",
   "inicio": "2026-11-22T16:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "9'",
+    "n": "S. Mendoza"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "32'",
+    "n": "K. Vargas"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "62'",
+    "n": "David Francisco"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "68'",
+    "n": "Leozinho"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "84'",
+    "n": "J. Rivaldo"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90'",
+    "n": "A. Galeano"
+   }
+  ],
   "lg": "bra.1",
   "local": "Arena da Baixada, Curitiba",
   "placar": {
@@ -56,8 +94,26 @@
   "fase": "2026-brasileiro-serie-a",
   "fora": "Grêmio",
   "inicio": "2026-11-23T21:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "14'",
+    "n": "F. Amuzu"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "77'",
+    "n": "M. Braithwaite"
+   }
+  ],
   "lg": "bra.1",
   "local": "Estádio Cícero Pompeu de Toledo, Sao Paulo",
+  "placar": {
+   "casa": 0,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401841321": {
@@ -75,6 +131,20 @@
   "fase": "2026-brasileiro-serie-a",
   "fora": "Vasco",
   "inicio": "2026-11-22T19:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "66'",
+    "n": "Eduardo Sasha"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "89'",
+    "n": "Robert"
+   }
+  ],
   "lg": "bra.1",
   "local": "Estádio Municipal Cicero de Souza Marques, Bragança Paulista",
   "placar": {
@@ -98,6 +168,50 @@
   "fase": "2026-brasileiro-serie-a",
   "fora": "Vitória",
   "inicio": "2026-11-23T19:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "1'",
+    "n": "Renê"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "19'",
+    "n": "D. Tarzia"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "41'",
+    "n": "Vitinho"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "57'",
+    "n": "Ramon"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "70'",
+    "n": "Alerrando"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "87'",
+    "n": "G. Baralhas"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+2'",
+    "n": "R. Kayzer"
+   }
+  ],
   "lg": "bra.1",
   "local": "Estadio Beira-Rio, Porto Alegre",
   "placar": {
@@ -121,6 +235,14 @@
   "fase": "2026-brasileiro-serie-a",
   "fora": "Mirassol",
   "inicio": "2026-11-22T18:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+1'",
+    "n": "Riquelme"
+   }
+  ],
   "lg": "bra.1",
   "local": "Estadio do Maracana, Rio de Janeiro",
   "placar": {
@@ -144,6 +266,32 @@
   "fase": "2026-brasileiro-serie-a",
   "fora": "São Paulo",
   "inicio": "2026-11-23T20:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "28'",
+    "n": "Pedro Lima"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "81'",
+    "n": "T. Soares"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "90+2'",
+    "n": "F. Marçal"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "90+7'",
+    "n": "Wendell"
+   }
+  ],
   "lg": "bra.1",
   "local": "Joao Havelange Stadium, Rio de Janeiro",
   "placar": {
@@ -612,6 +760,20 @@
   "fase": "2026-27-italian-serie-a",
   "fora": "Genoa",
   "inicio": "2026-11-22T11:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "26'",
+    "n": "M. Osmajic"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "38'",
+    "n": "M. Osmajic"
+   }
+  ],
   "lg": "ita.1",
   "local": "Mapei Stadium, Reggio Emilia",
   "placar": {
@@ -700,6 +862,44 @@
   "fase": "2026-27-italian-serie-a",
   "fora": "Frosinone",
   "inicio": "2026-11-22T14:00:00-03:00",
+  "lances": [
+   {
+    "k": "c",
+    "l": "c",
+    "m": "4'",
+    "n": "G. Calvani"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "19'",
+    "n": "G. Ramos"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "25'",
+    "n": "P. Masini"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "48'",
+    "n": "A. Jashari"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "60'",
+    "n": "A. Cissè"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "68'",
+    "n": "C. Pulisic"
+   }
+  ],
   "lg": "ita.1",
   "local": "San Siro, Milano",
   "placar": {
@@ -788,6 +988,56 @@
   "fase": "2026-27-italian-serie-a",
   "fora": "Inter de Milão",
   "inicio": "2026-11-22T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "16'",
+    "n": "P. Esposito"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "32'",
+    "n": "P. Esposito"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "35'",
+    "n": "E. Elmas"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "52'",
+    "n": "P. Esposito"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "72'",
+    "n": "C. De Ketelaere"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "76'",
+    "n": "P. Sucic"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "80'",
+    "n": "C. De Ketelaere"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "90+1'",
+    "n": "F. Kessié"
+   }
+  ],
   "lg": "ita.1",
   "local": "New Balance Arena, Bergamo",
   "placar": {
@@ -855,6 +1105,32 @@
   "fase": "2026-27-italian-serie-a",
   "fora": "Venezia",
   "inicio": "2026-11-22T08:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "53'",
+    "n": "N. Woltemade"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "59'",
+    "n": "T. Koopmeiners"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "65'",
+    "n": "J. Cabal"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "71'",
+    "n": "R. Kolo Muani"
+   }
+  ],
   "lg": "ita.1",
   "local": "Allianz Stadium, Torino",
   "placar": {
@@ -880,6 +1156,26 @@
   "fase": "2026-27-italian-serie-a",
   "fora": "Fiorentina",
   "inicio": "2026-11-23T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "c",
+    "m": "45'",
+    "n": "G. Varela"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "51'",
+    "n": "G. Varela"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "59'",
+    "n": "J. Robinson"
+   }
+  ],
   "lg": "ita.1",
   "local": "U-Power Stadium, Monza",
   "placar": {
@@ -1031,6 +1327,20 @@
   "fase": "2026-27-italian-serie-a",
   "fora": "Udinese",
   "inicio": "2026-11-22T11:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "43'",
+    "n": "N. Zortea"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "67'",
+    "n": "N. Zaniolo"
+   }
+  ],
   "lg": "ita.1",
   "local": "Renato Dall'Ara, Bologna",
   "placar": {
@@ -1459,6 +1769,50 @@
   "fase": "regular-season",
   "fora": "AZ Alkmaar",
   "inicio": "2026-11-22T10:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "15'",
+    "n": "I. Babadi"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "17'",
+    "n": "M. Chávez"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "50'",
+    "n": "C. Stengs"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "54'",
+    "n": "D. Kwakman"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "75'",
+    "n": "R. Daal"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "78'",
+    "n": "B. Martins Indi"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "88'",
+    "n": "S. Maikuma"
+   }
+  ],
   "lg": "ned.1",
   "local": "Sparta-Stadion Het Kasteel, Rotterdam",
   "placar": {
@@ -1482,6 +1836,14 @@
   "fase": "regular-season",
   "fora": "Fortuna Sittard",
   "inicio": "2026-11-22T12:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "50'",
+    "n": "A. Descotte"
+   }
+  ],
   "lg": "ned.1",
   "local": "De Adelaarshorst, Deventer",
   "placar": {
@@ -1505,6 +1867,32 @@
   "fase": "regular-season",
   "fora": "Willem II",
   "inicio": "2026-11-22T08:15:00-03:00",
+  "lances": [
+   {
+    "k": "v",
+    "l": "f",
+    "m": "43'",
+    "n": "N. Tjoe-A-On"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "53'",
+    "n": "D. Haen"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "59'",
+    "n": "R. Zerrouki"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "82'",
+    "n": "M. Pjaca"
+   }
+  ],
   "lg": "ned.1",
   "local": "De Grolsch Veste, Enschede",
   "placar": {
@@ -1528,6 +1916,32 @@
   "fase": "regular-season",
   "fora": "ADO Den Haag",
   "inicio": "2026-11-22T10:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "3'",
+    "n": "D. Klaassen"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "15'",
+    "n": "J. Mokio"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "37'",
+    "n": "M. Waem"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "43'",
+    "n": "D. Klaassen"
+   }
+  ],
   "lg": "ned.1",
   "local": "Johan Cruijff Arena, Amsterdam",
   "placar": {
@@ -1931,6 +2345,32 @@
   "fase": "2026-27-ligue-1",
   "fora": "Angers",
   "inicio": "2026-11-22T11:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "47'",
+    "n": "Z. Gueu"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "55'",
+    "n": "L. Koleosho"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "65'",
+    "n": "M. López"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "72'",
+    "n": "D. Coppola"
+   }
+  ],
   "lg": "fra.1",
   "local": "Stade Jean Bouin, Paris",
   "placar": {
@@ -1956,6 +2396,38 @@
   "fase": "2026-27-ligue-1",
   "fora": "Le Mans",
   "inicio": "2026-11-22T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "33'",
+    "n": "A. Gouiri"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "40'",
+    "n": "Igor Paixão"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "70'",
+    "n": "L. Mafouta"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "84'",
+    "n": "E. Colas"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+5'",
+    "n": "J. Vercruysse"
+   }
+  ],
   "lg": "fra.1",
   "local": "Stade Vélodrome, Marseille",
   "placar": {
@@ -1981,6 +2453,26 @@
   "fase": "2026-27-ligue-1",
   "fora": "Stade Rennais",
   "inicio": "2026-11-22T13:15:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "27'",
+    "n": "B. Dia"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "45'",
+    "n": "M. Talbi"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "90+2'",
+    "n": "A. Thomasson"
+   }
+  ],
   "lg": "fra.1",
   "local": "Stade du Moustoir - Yves Allainmat, Lorient",
   "placar": {
@@ -2004,6 +2496,32 @@
   "fase": "torneo-apertura",
   "fora": "Necaxa",
   "inicio": "2026-11-22T22:10:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "13'",
+    "n": "A. Avila"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "15'",
+    "n": "M. Rodríguez"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "75'",
+    "n": "E. Giménez"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "89'",
+    "n": "J. Carranza"
+   }
+  ],
   "lg": "mex.1",
   "local": "Estadio Corregidora, Santiago de Querétaro",
   "placar": {
@@ -2027,6 +2545,14 @@
   "fase": "torneo-apertura",
   "fora": "Cruz Azul",
   "inicio": "2026-11-22T20:07:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "21'",
+    "n": "E. Álvarez"
+   }
+  ],
   "lg": "mex.1",
   "local": "Estadio Akron, Guadalajara",
   "placar": {
@@ -2221,6 +2747,38 @@
   "fase": "2026-27-english-premier-league",
   "fora": "Manchester United",
   "inicio": "2026-11-22T13:30:00-03:00",
+  "lances": [
+   {
+    "k": "v",
+    "l": "f",
+    "m": "8'",
+    "n": "L. Yoro"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "10'",
+    "n": "D. Szoboszlai"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "13'",
+    "n": "F. Wirtz"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "66'",
+    "n": "R. Ngumoha"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "82'",
+    "n": "V. Muñoz"
+   }
+  ],
   "lg": "eng.1",
   "local": "Anfield, Liverpool",
   "placar": {
@@ -2729,6 +3287,26 @@
   "fase": "2026-27-english-premier-league",
   "fora": "Brighton",
   "inicio": "2026-11-22T11:00:00-03:00",
+  "lances": [
+   {
+    "k": "v",
+    "l": "f",
+    "m": "89'",
+    "n": "Costinha"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+2'",
+    "n": "O. McBurnie"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+5'",
+    "n": "O. McBurnie"
+   }
+  ],
   "lg": "eng.1",
   "local": "The MKM Stadium, Hull",
   "placar": {
@@ -2754,6 +3332,38 @@
   "fase": "2026-27-english-premier-league",
   "fora": "Everton",
   "inicio": "2026-11-23T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "23'",
+    "n": "K. Lewis-Potter"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "25'",
+    "n": "K. Lewis-Potter"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "40'",
+    "n": "J. Tarkowski"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "67'",
+    "n": "V. Janelt"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90'",
+    "n": "F. Carvalho"
+   }
+  ],
   "lg": "eng.1",
   "local": "Gtech Community Stadium, Brentford",
   "placar": {
@@ -3461,6 +4071,32 @@
   "fase": "regular-season",
   "fora": "Blackburn Rovers",
   "inicio": "2026-11-22T09:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "27'",
+    "n": "L. Ramazani"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "31'",
+    "n": "A. Gudjohnsen"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "51'",
+    "n": "J. Banel"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "74'",
+    "n": "T. Cantwell"
+   }
+  ],
   "lg": "eng.2",
   "local": "Turf Moor, Burnley",
   "placar": {
@@ -3948,6 +4584,38 @@
   "fase": "2026-27-laliga",
   "fora": "Real Sociedad",
   "inicio": "2026-11-22T12:15:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "6'",
+    "n": "Y. Zabiri"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "8'",
+    "n": "Y. Zabiri"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "45+1'",
+    "n": "M. Oyarzabal"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "60'",
+    "n": "G. Guedes"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "68'",
+    "n": "S. Canales"
+   }
+  ],
   "lg": "esp.1",
   "local": "El Sardineros, Santander",
   "placar": {
@@ -3973,6 +4641,20 @@
   "fase": "2026-27-laliga",
   "fora": "Málaga",
   "inicio": "2026-11-22T14:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "20'",
+    "n": "A. Budimir"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "90+2'",
+    "n": "A. Catena"
+   }
+  ],
   "lg": "esp.1",
   "local": "El Sadar, Pamplona",
   "placar": {
@@ -3998,6 +4680,20 @@
   "fase": "2026-27-laliga",
   "fora": "Elche",
   "inicio": "2026-11-23T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "62'",
+    "n": "R. Revivo"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "88'",
+    "n": "D. Requena"
+   }
+  ],
   "lg": "esp.1",
   "local": "Estadi Ciutat de València, Manises",
   "placar": {
@@ -4023,6 +4719,32 @@
   "fase": "2026-27-laliga",
   "fora": "Atlético de Madrid",
   "inicio": "2026-11-22T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "10'",
+    "n": "Á. Baena"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "30'",
+    "n": "J. Cardoso"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "90'",
+    "n": "Djené"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "90+2'",
+    "n": "A. Grimaldo"
+   }
+  ],
   "lg": "esp.1",
   "local": "Estadio Coliseum, Getafe",
   "placar": {
@@ -4048,6 +4770,50 @@
   "fase": "2026-27-laliga",
   "fora": "Villarreal",
   "inicio": "2026-11-22T10:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "5'",
+    "n": "T. Buchanan"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "7'",
+    "n": "T. Oluwaseyi"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "57'",
+    "n": "G. Martín"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "61'",
+    "n": "F. López"
+   },
+   {
+    "k": "c",
+    "l": "c",
+    "m": "67'",
+    "n": "P. Navarro"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "75'",
+    "n": "F. López"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "90+3'",
+    "n": "P. Navarro"
+   }
+  ],
   "lg": "esp.1",
   "local": "Spotify Camp Nou, Barcelona",
   "placar": {
@@ -4451,6 +5217,32 @@
   "fase": "2026-27-german-bundesliga",
   "fora": "Hamburg SV",
   "inicio": "2026-11-22T13:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "55'",
+    "n": "M. Friedl"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "66'",
+    "n": "J. Njinmah"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "70'",
+    "n": "J. Njinmah"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+2'",
+    "n": "N. Füllkrug"
+   }
+  ],
   "lg": "ger.1",
   "local": "Weserstadion, Bremen",
   "placar": {
@@ -4476,6 +5268,38 @@
   "fase": "2026-27-german-bundesliga",
   "fora": "Mainz",
   "inicio": "2026-11-22T11:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "19'",
+    "n": "M. Gregoritsch"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "36'",
+    "n": "J. Bah"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "43'",
+    "n": ""
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "48'",
+    "n": "M. Gregoritsch"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "51'",
+    "n": "R. Königsdörffer"
+   }
+  ],
   "lg": "ger.1",
   "local": "WWK Arena, Augsburg",
   "placar": {
@@ -5143,6 +5967,14 @@
   "fase": "2026-27-turkish-super-lig",
   "fora": "Goztepe",
   "inicio": "2026-11-22T07:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "70'",
+    "n": "E. Bekiroglu"
+   }
+  ],
   "lg": "tur.1",
   "local": "Erzurum Kazim Karabekir, Erzurum",
   "placar": {
@@ -5166,6 +5998,44 @@
   "fase": "2026-27-turkish-super-lig",
   "fora": "Besiktas",
   "inicio": "2026-11-22T10:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "10'",
+    "n": "D. Vlahovic"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "34'",
+    "n": "D. Vlahovic"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "42'",
+    "n": "J. Dompé"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "63'",
+    "n": "E. Destan"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "79'",
+    "n": "L. Trossard"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+2'",
+    "n": "V. Cerný"
+   }
+  ],
   "lg": "tur.1",
   "local": "Medas Konya Büyüksehir Stadyumu, Konya",
   "placar": {
@@ -5189,6 +6059,26 @@
   "fase": "2026-27-turkish-super-lig",
   "fora": "Alanyaspor",
   "inicio": "2026-11-22T10:00:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "c",
+    "m": "29'",
+    "n": "A. Benedyczak"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "45+4'",
+    "n": "F. Hadergjonaj"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+1'",
+    "n": "A. Benedyczak"
+   }
+  ],
   "lg": "tur.1",
   "local": "Recep Tayyip Erdogan Stadium, Istanbul",
   "placar": {
@@ -5212,6 +6102,14 @@
   "fase": "2026-27-turkish-super-lig",
   "fora": "Eyupspor",
   "inicio": "2026-11-22T13:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "5'",
+    "n": "O. Tufan"
+   }
+  ],
   "lg": "tur.1",
   "local": "Papara Park, Trabzon",
   "placar": {
@@ -5311,6 +6209,44 @@
   "fase": "2026-27-turkish-super-lig",
   "fora": "Çorum FK",
   "inicio": "2026-11-23T14:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "29'",
+    "n": "J. Ramírez"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "68'",
+    "n": "E. Mahmic"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "77'",
+    "n": "E. Shomurodov"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "82'",
+    "n": "B. Yildirim"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "86'",
+    "n": "B. Yildirim"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+1'",
+    "n": "B. Yildirim"
+   }
+  ],
   "lg": "tur.1",
   "local": "Basaksehir Fatih Terim Stadium, Istanbul",
   "placar": {
@@ -5775,6 +6711,14 @@
   "fase": "2026-brasileiro-serie-b",
   "fora": "Fortaleza",
   "inicio": "2026-11-22T16:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "55'",
+    "n": "M. Hermes"
+   }
+  ],
   "lg": "bra.2",
   "local": "Heriberto Hülse, Criciúma",
   "placar": {
@@ -7312,6 +8256,14 @@
   "fase": "western-conference-playoffs---round-one",
   "fora": "LAFC",
   "inicio": "2026-11-23T22:15:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "34'",
+    "n": "D. Edelman"
+   }
+  ],
   "lg": "usa.1",
   "local": "Energizer Park, St. Louis, Missouri",
   "status": "a_confirmar"
@@ -7333,6 +8285,20 @@
   "fase": "western-conference-playoffs---round-one",
   "fora": "Real Salt Lake",
   "inicio": "2026-11-22T22:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "44'",
+    "n": "É. Ocampo"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "55'",
+    "n": "B. Caicedo"
+   }
+  ],
   "lg": "usa.1",
   "local": "BC Place, Vancouver",
   "placar": {
@@ -7358,6 +8324,26 @@
   "fase": "eastern-conference-playoffs---round-one",
   "fora": "Charlotte FC",
   "inicio": "2026-11-22T20:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "48'",
+    "n": "L. Abada"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "68'",
+    "n": "R. Lewandowski"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+12'",
+    "n": "P. Biel"
+   }
+  ],
   "lg": "usa.1",
   "local": "SeatGeek Stadium, Bridgeview, Illinois",
   "placar": {
@@ -7383,6 +8369,14 @@
   "fase": "eastern-conference-playoffs---round-one",
   "fora": "FC Cincinnati",
   "inicio": "2026-11-22T18:00:00-03:00",
+  "lances": [
+   {
+    "k": "c",
+    "l": "f",
+    "m": "7'",
+    "n": "P. Yazbek"
+   }
+  ],
   "lg": "usa.1",
   "local": "GEODIS Park, Nashville, Tennessee",
   "placar": {
@@ -7492,6 +8486,56 @@
   "fase": "clausura---round-of-16",
   "fora": "Newell's Old Boys",
   "inicio": "2026-11-23T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "18'",
+    "n": "I. Fernández"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "55'",
+    "n": "W. Mazzantti"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "73'",
+    "n": "I. Miramon"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "80'",
+    "n": "W. Mazzantti"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "97'",
+    "n": "J. Russo"
+   },
+   {
+    "k": "c",
+    "l": "c",
+    "m": "99'",
+    "n": "F. Escobar"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "103'",
+    "n": "M. Ortega"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "113'",
+    "n": "M. Melluso"
+   }
+  ],
   "lg": "arg.1",
   "local": "Juan Carmelo Zerillo (El Bosque), La Plata",
   "placar": {
@@ -7538,6 +8582,32 @@
   "fase": "clausura---round-of-16",
   "fora": "Gimnasia (Mendoza)",
   "inicio": "2026-11-22T16:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "6'",
+    "n": "J. Campaz"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "8'",
+    "n": "E. Copetti"
+   },
+   {
+    "k": "c",
+    "l": "c",
+    "m": "40'",
+    "n": "L. Carrera"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+1'",
+    "n": "F. Lencioni"
+   }
+  ],
   "lg": "arg.1",
   "local": "Gigante de Arroyito, Rosario",
   "placar": {
@@ -7563,6 +8633,32 @@
   "fase": "clausura---round-of-16",
   "fora": "Lanús",
   "inicio": "2026-11-22T19:00:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "c",
+    "m": "15'",
+    "n": "T. Almada"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "32'",
+    "n": "R. Carrera"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "69'",
+    "n": "T. Andrada"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "89'",
+    "n": "T. Almada"
+   }
+  ],
   "lg": "arg.1",
   "local": "Estadio Más Monumental, Buenos Aires",
   "placar": {
@@ -7588,6 +8684,32 @@
   "fase": "clausura---round-of-16",
   "fora": "Huracán",
   "inicio": "2026-11-22T22:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "1'",
+    "n": "A. Luna"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "20'",
+    "n": "F. Suárez"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "65'",
+    "n": "J. Caicedo"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "78'",
+    "n": "G. Cerato"
+   }
+  ],
   "lg": "arg.1",
   "local": "Mario Alberto Kempes, Córdoba",
   "placar": {
