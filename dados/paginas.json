@@ -37,13 +37,13 @@
 },
 "/campeonato/championship/": {
 "dia": "",
-"h": "be2dd22d2af5c498",
-"mod": "2026-11-23T22:29-03:00"
+"h": "3b91a9e1ee81b6b7",
+"mod": "2026-11-23T22:48-03:00"
 },
 "/campeonato/conference/": {
 "dia": "",
-"h": "5b31da182edcdfdd",
-"mod": "2026-11-23T22:29-03:00"
+"h": "ae97e5d8a1a0dc33",
+"mod": "2026-11-23T22:48-03:00"
 },
 "/campeonato/copa-do-brasil/": {
 "dia": "",
@@ -62,8 +62,8 @@
 },
 "/campeonato/eredivisie/": {
 "dia": "",
-"h": "4174874c751e4b75",
-"mod": "2026-11-23T22:42-03:00"
+"h": "1429101fbeec2ed4",
+"mod": "2026-11-23T22:48-03:00"
 },
 "/campeonato/eurocopa/": {
 "dia": "",
@@ -72,8 +72,8 @@
 },
 "/campeonato/europa/": {
 "dia": "",
-"h": "070b36d4a39b7e8a",
-"mod": "2026-11-23T22:29-03:00"
+"h": "50798b0dcf6507cc",
+"mod": "2026-11-23T22:48-03:00"
 },
 "/campeonato/fa-cup/": {
 "dia": "",
@@ -102,13 +102,13 @@
 },
 "/campeonato/libertadores/": {
 "dia": "",
-"h": "84bef4fc4faa1e33",
-"mod": "2026-11-23T22:29-03:00"
+"h": "2f101ce6c45e4037",
+"mod": "2026-11-23T22:48-03:00"
 },
 "/campeonato/ligamx/": {
 "dia": "",
-"h": "5d074e8957b57af8",
-"mod": "2026-11-23T22:42-03:00"
+"h": "6fdda4963d87aef5",
+"mod": "2026-11-23T22:48-03:00"
 },
 "/campeonato/ligue1/": {
 "dia": "",
@@ -147,8 +147,8 @@
 },
 "/campeonato/portugal/": {
 "dia": "",
-"h": "5bafd8c0fe60b8ed",
-"mod": "2026-11-23T22:42-03:00"
+"h": "d299cbf8ae01a48c",
+"mod": "2026-11-23T22:48-03:00"
 },
 "/campeonato/premier/": {
 "dia": "",
@@ -162,8 +162,8 @@
 },
 "/campeonato/saudita/": {
 "dia": "",
-"h": "1859c94b27a3506d",
-"mod": "2026-11-23T22:42-03:00"
+"h": "1f7050393bd6c87b",
+"mod": "2026-11-23T22:48-03:00"
 },
 "/campeonato/serie-a-ita/": {
 "dia": "",
@@ -2397,8 +2397,8 @@
 },
 "/jogo/st-louis-city-sc-x-lafc-23-11-2026/": {
 "dia": "2026-11-23",
-"h": "424e8721b050e252",
-"mod": "2026-11-23T22:42-03:00"
+"h": "555640b6a5e7e087",
+"mod": "2026-11-23T22:48-03:00"
 },
 "/jogo/stade-rennais-x-brest-06-12-2026/": {
 "dia": "2026-12-06",
