@@ -1175,7 +1175,7 @@
   "time_fora": "Çorum FK"
  },
  "401915300": {
-  "achada": "2026-11-24T14:18-03:00",
+  "achada": "2026-11-24T15:31-03:00",
   "casa": {
    "esquema": "4-3-3",
    "reservas": [
@@ -1310,7 +1310,7 @@
    ]
   },
   "comp": "champions",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -1457,7 +1457,7 @@
   "v": 2
  },
  "401915380": {
-  "achada": "2026-11-24T14:18-03:00",
+  "achada": "2026-11-24T15:31-03:00",
   "casa": {
    "esquema": "4-3-3",
    "reservas": [
@@ -1592,7 +1592,7 @@
    ]
   },
   "comp": "champions",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "3-4-3",
    "reservas": [
