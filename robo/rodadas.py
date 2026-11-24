@@ -203,6 +203,9 @@ def buscar(cfg, get_json, jogos, completo=False, offline=False):
                 c["perguntou_em"] = _iso(agora)
         c["atual"] = atual
         ultima = c.get("ultima")  # última rodada da temporada, quando já se sabe
+        if ultima and atual > ultima:  # o fim guardado estava errado (veio de um palpite antigo)
+            c.pop("ultima")
+            ultima = None
         for n in range(1, (ultima or max([atual + 1] + [int(x) for x in rods])) + 1):
             r = rods.get(str(n))
             if not r:
@@ -239,10 +242,11 @@ def buscar(cfg, get_json, jogos, completo=False, offline=False):
         if r is None:
             continue
         evs = r.get("events") or []
-        if not evs:
-            if n > c.get("atual", 1):  # rodada vazia depois da atual: a temporada acaba na anterior
-                c["ultima"] = n - 1 if not c.get("ultima") else min(c["ultima"], n - 1)
+        if not evs and n > c.get("atual", 1):  # rodada vazia depois da atual: a temporada acaba na anterior
+            c["ultima"] = n - 1 if not c.get("ultima") else min(c["ultima"], n - 1)
+            c["rodadas"].pop(str(n), None)
             continue
+        # rodada vazia antes da atual fica guardada assim (e só é conferida de novo dias depois)
         c["rodadas"][str(n)] = {"em": _iso(agora), "jogos": [_evento(e) for e in evs]}
         novas += 1
     log(f"TheSportsDB: {api.feitas} consultas, {novas} rodadas atualizadas, {api.falhas} falhas {api.motivos or ''}, "
@@ -390,6 +394,8 @@ def montar(cfg, cache, jogos, hist, tabs, norm, acentua):
                         elif ev["st"] in ADIADO:
                             o["st"] = "adiado"
                     lista.append(o)
+                if not lista:
+                    continue
                 nome_r = f"{int(n)}ª rodada"
                 grupos.append({"tipo": "r", "n": int(n), "nome": f"{rotulo} · {nome_r}" if rotulo else nome_r, "jogos": lista})
         # mata-mata: fases que a ESPN informa
