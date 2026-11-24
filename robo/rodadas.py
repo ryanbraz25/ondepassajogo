@@ -345,7 +345,10 @@ def montar(cfg, cache, jogos, hist, tabs, norm, acentua):
     aprendidos = cache.setdefault("nomes", {})
     site = {}  # comp -> jogos do site (agenda vale mais que o histórico)
     for eid, x in (hist.get("jogos") or {}).items():
-        site.setdefault(x["comp"], {})[(x["inicio"][:10], x["casa"], x["fora"])] = _jogo_site({"eid": eid, **x})
+        o = _jogo_site({"eid": eid, **x})
+        if o.get("local"):
+            o["local"] = acentua(o["local"])  # a ESPN manda os estádios sem acento
+        site.setdefault(x["comp"], {})[(x["inicio"][:10], x["casa"], x["fora"])] = o
     for j in jogos:
         if "A definir" in (j["casa"], j["fora"]):
             continue
