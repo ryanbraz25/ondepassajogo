@@ -7075,10 +7075,20 @@
     "l": "c",
     "m": "78'",
     "n": "S. Becher"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "85'",
+    "n": "D. Bouanga"
    }
   ],
   "lg": "usa.1",
   "local": "Energizer Park, St. Louis, Missouri",
+  "placar": {
+   "casa": 3,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401933735": {

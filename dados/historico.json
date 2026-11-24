@@ -27471,6 +27471,51 @@
     "fora": 0
    }
   },
+  "401933728": {
+   "casa": "St. Louis CITY SC",
+   "comp": "mls",
+   "fase": "western-conference-playoffs---round-one",
+   "fora": "LAFC",
+   "inicio": "2026-11-23T22:15:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "34'",
+     "n": "D. Edelman"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "51'",
+     "n": "J. Sang-Bin"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "62'",
+     "n": "S. Palencia"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "78'",
+     "n": "S. Becher"
+    },
+    {
+     "k": "p",
+     "l": "f",
+     "m": "85'",
+     "n": "D. Bouanga"
+    }
+   ],
+   "lg": "usa.1",
+   "local": "Energizer Park, St. Louis, Missouri",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
   "401933729": {
    "casa": "Vancouver Whitecaps",
    "comp": "mls",
