@@ -1175,7 +1175,7 @@
   "time_fora": "Çorum FK"
  },
  "401933728": {
-  "achada": "2026-11-23T22:34-03:00",
+  "achada": "2026-11-23T22:40-03:00",
   "casa": {
    "esquema": "3-4-3",
    "reservas": [
@@ -1239,72 +1239,72 @@
      "fp": 1,
      "n": "1",
      "nome": "R. Bürki",
-     "pos": "SUB"
+     "pos": "G"
     },
     {
      "fp": 2,
      "n": "6",
      "nome": "C. Wallem",
-     "pos": "SUB"
+     "pos": "RM"
     },
     {
      "fp": 3,
      "n": "14",
      "nome": "T. Totland",
-     "pos": "SUB"
+     "pos": "LM"
     },
     {
      "fp": 4,
      "n": "21",
      "nome": "D. Polvara",
-     "pos": "SUB"
+     "pos": "CD-L"
     },
     {
      "fp": 5,
      "n": "32",
      "nome": "T. Baumgartl",
-     "pos": "SUB"
+     "pos": "CD"
     },
     {
      "fp": 6,
      "n": "5",
      "nome": "L. MacNaughton",
-     "pos": "SUB"
+     "pos": "CD-R"
     },
     {
      "fp": 7,
      "n": "8",
      "nome": "C. Durkin",
-     "pos": "SUB"
+     "pos": "CM-R"
     },
     {
      "fp": 8,
      "n": "24",
      "nome": "D. Edelman",
-     "pos": "SUB"
+     "pos": "CM-L"
     },
     {
      "fp": 9,
      "n": "9",
      "nome": "R. Navarro",
-     "pos": "SUB"
+     "pos": "F"
     },
     {
      "fp": 10,
      "n": "77",
      "nome": "J. Sang-Bin",
-     "pos": "SUB"
+     "pos": "CF-R"
     },
     {
      "fp": 11,
      "n": "23",
      "nome": "A. Matan",
-     "pos": "SUB"
+     "pos": "CF-L"
     }
    ]
   },
   "comp": "mls",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -1374,43 +1374,43 @@
      "fp": 2,
      "n": "14",
      "nome": "S. Palencia",
-     "pos": "D"
+     "pos": "RB"
     },
     {
      "fp": 3,
      "n": "23",
      "nome": "Y. Cheberko",
-     "pos": "D"
+     "pos": "LB"
     },
     {
      "fp": 4,
      "n": "8",
      "nome": "M. Delgado",
-     "pos": "M"
+     "pos": "LM"
     },
     {
      "fp": 5,
      "n": "5",
      "nome": "R. Porteous",
-     "pos": "D"
+     "pos": "CD-R"
     },
     {
      "fp": 6,
      "n": "4",
      "nome": "E. Segura",
-     "pos": "D"
+     "pos": "CD-L"
     },
     {
      "fp": 7,
      "n": "81",
      "nome": "L. Walta",
-     "pos": "M"
+     "pos": "AM-R"
     },
     {
      "fp": 8,
      "n": "66",
      "nome": "M. Choinière",
-     "pos": "M"
+     "pos": "RM"
     },
     {
      "fp": 9,
@@ -1422,13 +1422,13 @@
      "fp": 10,
      "n": "7",
      "nome": "S. Heung-Min",
-     "pos": "M"
+     "pos": "AM"
     },
     {
      "fp": 11,
      "n": "99",
      "nome": "D. Bouanga",
-     "pos": "M"
+     "pos": "AM-L"
     }
    ]
   },

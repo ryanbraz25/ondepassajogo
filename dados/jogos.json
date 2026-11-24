@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-23T22:36:29-03:00",
+ "atualizado": "2026-11-23T22:42:40-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -6963,12 +6963,12 @@
   "copa-do-brasil": "rd",
   "copa-do-rei": "rd",
   "coppa-italia": "rd",
-  "eredivisie": "tr",
+  "eredivisie": "trd",
   "europa": "trd",
   "fa-cup": "rd",
   "laliga": "trd",
   "libertadores": "trd",
-  "ligamx": "tr",
+  "ligamx": "trd",
   "ligue1": "trd",
   "mls": "trd",
   "mundial": "rd",
@@ -6978,7 +6978,7 @@
   "saudita": "trd",
   "serie-a-ita": "trd",
   "sul-americana": "trd",
-  "turquia": "tr"
+  "turquia": "trd"
  },
  "push": {
   "cfg": {
