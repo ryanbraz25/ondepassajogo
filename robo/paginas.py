@@ -567,7 +567,7 @@ def pagina_jogo(cx, j):
     vivo_attrs = "".join(f' data-{a}="{e(j[a])}"' for a in ("eid", "lg", "ed") if j.get(a)) + f' data-ini="{t.isoformat()}"' if j.get("eid") and j.get("lg") else ""
     corpo = f"""<article class="jogo">
 <p class="comp"><a href="/campeonato/{slug(j['comp'])}/">{e(comp)}</a>{(' · ' + e(rodada)) if rodada else ''}</p>
-<h1>Onde assistir {e(casa)} x {e(fora)} ao vivo</h1>
+<h1>{(f"{e(casa)} {placar['casa']} x {placar['fora']} {e(fora)}: resultado e onde passou" if encerrado else f"Onde assistir {e(casa)} x {e(fora)} ao vivo")}</h1>
 <div class="placa"{vivo_attrs}>
  {f'<p class="nota">{e(j["nota"])}</p>' if j.get("nota") else ''}
  <a class="tm" href="/time/{slug(casa)}/">{escudo(cx, casa, 56)}<span>{e(casa)}</span>{rk(casa)}</a>
