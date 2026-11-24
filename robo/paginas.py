@@ -161,14 +161,14 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/p.css?v=4">
-<link rel="stylesheet" href="/menu.css?v=1">
-<script src="/p.js?v=4" defer></script>
-<script src="/menu.js?v=1" defer></script>
+<link rel="stylesheet" href="/p.css?v=5">
+<link rel="stylesheet" href="/menu.css?v=2">
+<script src="/p.js?v=5" defer></script>
+<script src="/menu.js?v=2" defer></script>
 {cx.head_extra}
 {ld}</head>
 <body>
-<header class="topo"><div class="wrap"><a class="marca" href="/" aria-label="Onde Passa Jogo: página inicial">{cx.pin}<span>ONDE PASSA <b>JOGO</b></span></a><div class="hdir"><a class="todos" href="/">Ver agenda<span class="dk"> completa</span></a>{botao_menu()}</div></div></header>
+<header class="topo"><div class="wrap"><div class="hesq">{botao_menu(rotulo=False)}<a class="marca" href="/" aria-label="Onde Passa Jogo: página inicial">{cx.pin}<span>ONDE PASSA <b>JOGO</b></span></a></div><div class="hdir"><a class="todos" href="/">Ver agenda<span class="dk"> completa</span></a></div></div></header>
 {menu_html(cx.comps, cx.tabs)}
 <main class="wrap">
 {mig}
@@ -375,14 +375,17 @@ ATA = {"A", "AC", "AE", "AD", "CA", "PE", "PD", "F", "CF", "ST", "LW", "RW", "SS
 
 
 def linha_pos(p):
+    """Quão adiantado o jogador joga, pela sigla da ESPN (0 = goleiro ... 5 = centroavante). Igual ao prof() do p.js."""
     a = (p or "").upper()
     if a in GOL:
         return 0
-    if a.startswith("Z") or a in {"LD", "LE", "LB", "RB", "CB", "D", "DF", "RWB", "LWB", "SW", "DC", "CD-L", "CD-R", "ZC"}:
-        return 1
-    if a in ATA:
-        return 3
-    return 2
+    tabela = [(r"^(CD|CB|SW|D|DF)(-[LR])?$|^Z", 1), (r"^(RB|LB|LD|LE)$", 1.1), (r"^(RWB|LWB)$", 1.3), (r"^DM|^VOL", 2),
+              (r"^CM|^MC", 3), (r"^(RM|LM|M|MD|ME)$", 3.2), (r"^AM|^MA|^MEI", 4), (r"^(RCF|LCF)$", 4.2), (r"^(RW|LW|RF|LF|PD|PE|AD|AE)$", 4.4),
+              (r"^CF-|^SS$|^ATC|^ACI", 4.6), (r"^(F|CF|ST|FW|A|CA)$", 5)]
+    for padrao, v in tabela:
+        if re.search(padrao, a):
+            return v
+    return 3
 
 
 def escalacoes_html(cx, j):

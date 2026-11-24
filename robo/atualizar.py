@@ -445,7 +445,7 @@ def gerar_site(dados):
                           '<img class="pin" src="/logo.svg" width="34" height="45" alt="">', EXTRAS)
     paginas.guardar_para_avisar(mudou)
     tpl = tpl.replace("__LINKS_SEO__", links_seo(dados))
-    tpl = (tpl.replace("__BOTAO_MENU__", paginas.botao_menu())
+    tpl = (tpl.replace("__BOTAO_MENU__", paginas.botao_menu(rotulo=False))
               .replace("__BOTAO_MENU_MINI__", paginas.botao_menu("ms", rotulo=False).replace("<button ", '<button tabindex="-1" ', 1))
               .replace("__MENU__", paginas.menu_html(dados["competicoes"], EXTRAS.get("tabelas") or {})))
     bloco = json.dumps(dados, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")

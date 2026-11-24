@@ -19,7 +19,7 @@ ESCAL = RAIZ / "dados" / "escalacoes.json"
 SAIDA = RAIZ / "site" / "dados"
 STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/{}/standings"
 SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/{}/scoreboard?dates={}"
-SUMMARY = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/{}/summary?event={}&region=br&lang=pt"
+SUMMARY = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/{}/summary?event={}&region=br&lang=en"  # siglas em inglês (CD-R, DM, AM-L...): dizem a linha e o lado de cada jogador
 DIAS_HIST = 75          # quanto do passado buscar (preenchido aos poucos)
 GUARDA_HIST = 200       # quanto guardar
 CONSULTAS_POR_RODADA = 4000
@@ -276,7 +276,7 @@ def escalacoes(cfg, get_json, jogos, offline=False):
     if not offline:
         alvo = []
         for j in jogos:
-            if not (j.get("eid") and j.get("lg")) or j["eid"] in e and e[j["eid"]].get("completa"):
+            if not (j.get("eid") and j.get("lg")) or j["eid"] in e and e[j["eid"]].get("completa") and e[j["eid"]].get("v") == 2:
                 continue
             ini = datetime.fromisoformat(j["inicio"]).astimezone(BRT)
             if -timedelta(hours=2, minutes=30) <= ini - agora <= timedelta(hours=2, minutes=30):
@@ -295,7 +295,7 @@ def escalacoes(cfg, get_json, jogos, offline=False):
                 ini = datetime.fromisoformat(j["inicio"]).astimezone(BRT)
                 e[j["eid"]] = {"casa": casa, "fora": fora, "inicio": j["inicio"], "time_casa": j["casa"], "time_fora": j["fora"],
                                "comp": j["comp"], "pg": j.get("pg", ""), "achada": agora.isoformat(timespec="minutes"),
-                               "completa": agora > ini + timedelta(minutes=20)}
+                               "completa": agora > ini + timedelta(minutes=20), "v": 2}
             time.sleep(0.3)
     corte = (agora - timedelta(days=4)).isoformat()
     e = {k: v for k, v in e.items() if v["inicio"] >= corte}

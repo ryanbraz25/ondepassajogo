@@ -20,24 +20,42 @@
   }
 
   // ---------- escalações
+  // Monta as linhas pelo esquema que a ESPN informa (ex.: 3-4-3): ordena os jogadores do mais recuado
+  // ao mais adiantado pela sigla da posição e preenche as linhas com a quantidade de cada uma.
   const GOL = new Set(['G', 'GK', 'GOL']);
-  const ATA = new Set(['A', 'AC', 'AE', 'AD', 'CA', 'PE', 'PD', 'F', 'CF', 'ST', 'LW', 'RW', 'SS', 'FW', 'LF', 'RF']);
-  const DEF = new Set(['LD', 'LE', 'LB', 'RB', 'CB', 'D', 'DF', 'RWB', 'LWB', 'SW', 'DC', 'CD-L', 'CD-R', 'ZC']);
-  const linha = p => { const a = (p || '').toUpperCase(); if (GOL.has(a)) return 0; if (a[0] === 'Z' || DEF.has(a)) return 1; if (ATA.has(a)) return 3; return 2; };
+  const PROF = [[/^(CD|CB|SW|D|DF)(-[LR])?$|^Z/, 1], [/^(RB|LB|LD|LE)$/, 1.1], [/^(RWB|LWB)$/, 1.3], [/^DM|^VOL/, 2],
+    [/^CM|^MC/, 3], [/^(RM|LM|M|MD|ME)$/, 3.2], [/^AM|^MA|^MEI/, 4], [/^(RCF|LCF)$/, 4.2], [/^(RW|LW|RF|LF|PD|PE|AD|AE)$/, 4.4],
+    [/^CF-|^SS$|^ATC|^ACI/, 4.6], [/^(F|CF|ST|FW|A|CA)$/, 5]];
+  const prof = p => { const a = (p || '').toUpperCase(); if (GOL.has(a)) return 0; for (const [r, v] of PROF) if (r.test(a)) return v; return 3; };
+  // posição na largura do campo, do ponto de vista do time: -2 ponta/lateral esquerdo, -1 centro-esquerda,
+  // 0 centro, 1 centro-direita, 2 ponta/lateral direito (siglas em inglês)
+  const ladoDe = p => { const a = (p || '').toUpperCase();
+    if (/^R(B|WB|M|W|F)$/.test(a)) return 2; if (/^L(B|WB|M|W|F)$/.test(a)) return -2;
+    if (/-R$/.test(a)) return 1; if (/-L$/.test(a)) return -1; return 0; };
   const sobrenome = n => { const p = String(n || '').split(' '); return p.length > 1 && p[0].length <= 3 ? p.slice(1).join(' ') : n; };
 
+  // devolve as linhas do goleiro para o ataque; cada linha vai da esquerda para a direita do time
   function linhas(lado) {
-    const l = [[], [], [], []];
-    (lado.titulares || []).forEach(p => l[linha(p.pos)].push(p));
-    l.forEach(x => x.sort((a, b) => (a.fp || 99) - (b.fp || 99)));
-    return l.filter(x => x.length);
+    const tit = (lado.titulares || []).slice().sort((a, b) => (a.fp || 99) - (b.fp || 99));
+    let gol = tit.filter(p => prof(p.pos) === 0), resto = tit.filter(p => prof(p.pos) !== 0);
+    if (!gol.length && resto.length) gol = [resto.shift()];
+    resto.sort((a, b) => prof(a.pos) - prof(b.pos) || (a.fp || 99) - (b.fp || 99));
+    const qtd = String(lado.esquema || '').split('-').map(Number).filter(n => n > 0);
+    let ls = [];
+    if (qtd.length >= 2 && qtd.reduce((s, n) => s + n, 0) === resto.length) {
+      let i = 0; qtd.forEach(n => { ls.push(resto.slice(i, i + n)); i += n; });
+    } else { // sem esquema: defesa, meio e ataque pela posição
+      const f = [[], [], []]; resto.forEach(p => { const v = prof(p.pos); f[v < 1.5 ? 0 : v < 4.3 ? 1 : 2].push(p); }); ls = f;
+    }
+    ls = ls.filter(x => x.length).map(x => x.sort((a, b) => ladoDe(a.pos) - ladoDe(b.pos)));
+    return [gol, ...ls].filter(x => x.length);
   }
   function campo(es, casa, fora) {
     const fila = (ps, cls) => `<div class="fila">${ps.map(p => `<div class="jg ${cls}"><b>${esc(p.n)}</b><span>${esc(sobrenome(p.nome))}</span></div>`).join('')}</div>`;
     const lc = linhas(es.casa), lf = linhas(es.fora);
     return `<div class="cp-tit"><span class="tf">${esc(fora)}${es.fora.esquema ? ' · ' + esc(es.fora.esquema) : ''}</span></div>
       <div class="gramado"><div class="meio"></div><div class="area a1"></div><div class="area a2"></div>
-        <div class="metade m-fora">${lf.map(x => fila(x, 'fo')).join('')}</div>
+        <div class="metade m-fora">${lf.map(x => fila(x.slice().reverse(), 'fo')).join('')}</div>
         <div class="metade m-casa">${lc.slice().reverse().map(x => fila(x, 'ca')).join('')}</div></div>
       <div class="cp-tit"><span class="tc">${esc(casa)}${es.casa.esquema ? ' · ' + esc(es.casa.esquema) : ''}</span></div>`;
   }
@@ -60,7 +78,7 @@
     } else if (box.dataset.eid && box.dataset.lg) {
       // ainda não saiu: a partir de 90 min antes, consulta a ESPN direto do navegador a cada 2 minutos
       const ini = Date.parse(box.dataset.ini);
-      const url = `https://site.web.api.espn.com/apis/site/v2/sports/soccer/${box.dataset.lg}/summary?event=${box.dataset.eid}&region=br&lang=pt`;
+      const url = `https://site.web.api.espn.com/apis/site/v2/sports/soccer/${box.dataset.lg}/summary?event=${box.dataset.eid}&region=br&lang=en`;
       const lado = r => {
         const o = { titulares: [], reservas: [] };
         (r.roster || []).forEach(p => {
