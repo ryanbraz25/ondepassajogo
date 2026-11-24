@@ -319,8 +319,32 @@
   "fase": "2026-brasileiro-serie-a",
   "fora": "Palmeiras",
   "inicio": "2026-11-24T18:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "5'",
+    "n": "Camilo"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "32'",
+    "n": "Max"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90'",
+    "n": "M. Carvalho"
+   }
+  ],
   "lg": "bra.1",
   "local": "Arena Condá, Chapecó",
+  "placar": {
+   "casa": 3,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401841336": {
@@ -3122,8 +3146,32 @@
   "fase": "regular-season",
   "fora": "Derby County",
   "inicio": "2026-11-24T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "29'",
+    "n": "A. Armstrong"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "74'",
+    "n": "M. Mané"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "76'",
+    "n": "A. Armstrong"
+   }
+  ],
   "lg": "eng.2",
   "local": "Molineux Stadium, Wolverhampton",
+  "placar": {
+   "casa": 3,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880142": {
@@ -3141,8 +3189,26 @@
   "fase": "regular-season",
   "fora": "Southampton",
   "inicio": "2026-11-24T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "10'",
+    "n": "L. Dobbin"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90'",
+    "n": "S. Peck"
+   }
+  ],
   "lg": "eng.2",
   "local": "Bramall Lane, Sheffield",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880143": {
@@ -3160,8 +3226,20 @@
   "fase": "regular-season",
   "fora": "West Ham United",
   "inicio": "2026-11-24T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "31'",
+    "n": "O. Bailey"
+   }
+  ],
   "lg": "eng.2",
   "local": "Fratton Park, Portsmouth",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880144": {
@@ -3179,8 +3257,26 @@
   "fase": "regular-season",
   "fora": "Queens Park Rangers",
   "inicio": "2026-11-24T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "41'",
+    "n": "H. Vale"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "48'",
+    "n": "A. Musaba"
+   }
+  ],
   "lg": "eng.2",
   "local": "Carrow Road, Norwich",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880145": {
@@ -3198,8 +3294,32 @@
   "fase": "regular-season",
   "fora": "Swansea City",
   "inicio": "2026-11-24T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "9'",
+    "n": "M. Peart-Harris"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "22'",
+    "n": "J. Opoku"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "54'",
+    "n": "W. Lankshear"
+   }
+  ],
   "lg": "eng.2",
   "local": "Riverside Stadium, Middlesbrough",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880146": {
@@ -3217,8 +3337,38 @@
   "fase": "regular-season",
   "fora": "Lincoln City",
   "inicio": "2026-11-24T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "8'",
+    "n": "J. Rankin-Costello"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "13'",
+    "n": "I. Mesik"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "48'",
+    "n": "T. Campbell"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+4'",
+    "n": "M. Leaburn"
+   }
+  ],
   "lg": "eng.2",
   "local": "The Valley, London",
+  "placar": {
+   "casa": 4,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880147": {
@@ -3236,8 +3386,38 @@
   "fase": "regular-season",
   "fora": "Preston North End",
   "inicio": "2026-11-24T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "27'",
+    "n": "T. Small"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "32'",
+    "n": "A. Devine"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "63'",
+    "n": "A. Moran"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "69'",
+    "n": "A. Hughes"
+   }
+  ],
   "lg": "eng.2",
   "local": "Cardiff City Stadium, Cardiff",
+  "placar": {
+   "casa": 0,
+   "fora": 4
+  },
   "status": "a_confirmar"
  },
  "espn:401880148": {
@@ -3255,8 +3435,26 @@
   "fase": "regular-season",
   "fora": "Wrexham",
   "inicio": "2026-11-24T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "7'",
+    "n": "J. Worrall"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "51'",
+    "n": "C. Pring"
+   }
+  ],
   "lg": "eng.2",
   "local": "Ashton Gate, Bristol",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401882698": {
@@ -5646,8 +5844,20 @@
   "fase": "league-phase",
   "fora": "FC Porto",
   "inicio": "2026-11-24T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "c",
+    "l": "f",
+    "m": "2'",
+    "n": "O. Targhaline"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "De Kuip, Rotterdam",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915295": {
@@ -5667,8 +5877,26 @@
   "fase": "league-phase",
   "fora": "Borussia Dortmund",
   "inicio": "2026-11-24T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "10'",
+    "n": "V. Gyökeres"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "55'",
+    "n": "M. Beier"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Emirates Stadium, London",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915296": {
@@ -5688,8 +5916,20 @@
   "fase": "league-phase",
   "fora": "AEK Athens",
   "inicio": "2026-11-24T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "57'",
+    "n": "L. Milla"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Giuseppe Sinigaglia, Como",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401915297": {
@@ -5709,8 +5949,26 @@
   "fase": "league-phase",
   "fora": "Real Betis",
   "inicio": "2026-11-24T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "43'",
+    "n": "C. Hernández"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "57'",
+    "n": "C. Hernández"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Národny Futbalovy Stadión, Bratislava",
+  "placar": {
+   "casa": 0,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401915298": {
@@ -5730,8 +5988,50 @@
   "fase": "league-phase",
   "fora": "PSV Eindhoven",
   "inicio": "2026-11-24T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "f",
+    "m": "32'",
+    "n": "I. Perisic"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "50'",
+    "n": "F. Valverde"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "60'",
+    "n": "J. Bellingham"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "64'",
+    "n": "K. Mbappé"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "84'",
+    "n": "K. Mbappé"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "87'",
+    "n": "Vinícius Júnior"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Santiago Bernabéu, Madrid",
+  "placar": {
+   "casa": 5,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915299": {
@@ -5751,8 +6051,38 @@
   "fase": "league-phase",
   "fora": "Lens",
   "inicio": "2026-11-24T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "6'",
+    "n": "D. Raum"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "9'",
+    "n": "A. Nusa"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "58'",
+    "n": "M. Udol"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+4'",
+    "n": "A. Nusa"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Red Bull Arena, Leipzig",
+  "placar": {
+   "casa": 3,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915300": {
@@ -5772,8 +6102,20 @@
   "fase": "league-phase",
   "fora": "Aston Villa",
   "inicio": "2026-11-24T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "77'",
+    "n": "D. Gül"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "RAMS Park, Istanbul",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401915371": {
@@ -5961,8 +6303,38 @@
   "fase": "league-phase",
   "fora": "Napoli",
   "inicio": "2026-11-24T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "55'",
+    "n": "R. Højlund"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "67'",
+    "n": "A. Bouaddi"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "76'",
+    "n": "N. Lang"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "86'",
+    "n": "R. Cherki"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Etihad Stadium, Manchester",
+  "placar": {
+   "casa": 2,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401915380": {
@@ -5982,8 +6354,20 @@
   "fase": "league-phase",
   "fora": "LASK Linz",
   "inicio": "2026-11-24T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "c",
+    "l": "c",
+    "m": "90+2'",
+    "n": "M. Bogarde"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Aspmyra Stadion, Bodø/Glimt",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401915501": {
