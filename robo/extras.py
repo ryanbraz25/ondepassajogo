@@ -184,6 +184,31 @@ RODADA = datetime.now(BRT).strftime("%Y%m%d%H")
 
 
 # ---------------------------------------------------------------- histórico de resultados
+def lances(cp, tm):
+    """Gols e expulsões do jogo, na ordem: [{"l": "c"/"f", "m": "28'", "n": "Pedro Lima", "k": "g"/"p"/"c"/"v"}].
+    k: g = gol, p = gol de pênalti, c = gol contra, v = cartão vermelho. A ESPN manda isso no placar, de graça."""
+    lado = {str(x["team"]["id"]): ("c" if h == "home" else "f") for h, x in tm.items() if (x.get("team") or {}).get("id")}
+    out = []
+    for d in cp.get("details") or []:
+        tipo = ((d.get("type") or {}).get("text") or "").lower()
+        if "shootout" in tipo:  # cobranças da disputa de pênaltis não são gols do jogo
+            continue
+        if d.get("scoringPlay"):
+            k = "c" if d.get("ownGoal") else "p" if d.get("penaltyKick") else "g"
+        elif "red" in tipo:
+            k = "v"
+        else:
+            continue
+        l = lado.get(str((d.get("team") or {}).get("id")))
+        if not l:
+            continue
+        ats = d.get("athletesInvolved") or []
+        n = (ats[0].get("shortName") or ats[0].get("displayName") or "") if ats else ""
+        m = ((d.get("clock") or {}).get("displayValue") or "").replace("'+", "+").rstrip("'")
+        out.append({"l": l, "m": m + "'" if m else "", "n": n, "k": k})
+    return out
+
+
 def _resultado(cfg, nome, comp, liga, ev):
     try:
         cp = ev["competitions"][0]
