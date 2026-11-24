@@ -1174,6 +1174,558 @@
   "time_casa": "Istanbul Basaksehir",
   "time_fora": "Çorum FK"
  },
+ "401915300": {
+  "achada": "2026-11-24T14:18-03:00",
+  "casa": {
+   "esquema": "4-3-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "10",
+     "nome": "L. Sané",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "73",
+     "nome": "B. Lus",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "I. Gündogan",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "18",
+     "nome": "L. Ugochukwu",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "74",
+     "nome": "R. Nhaga",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "D. Gül",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "E. Bitshiabu",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "G. Güvenc",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "8",
+     "nome": "G. Sara",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "24",
+     "nome": "J. Yilmaz",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "U. Çakir",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "90",
+     "nome": "W. Singo",
+     "pos": "D"
+    },
+    {
+     "fp": 3,
+     "n": "4",
+     "nome": "I. Jakobs",
+     "pos": "D"
+    },
+    {
+     "fp": 4,
+     "n": "99",
+     "nome": "M. Lemina",
+     "pos": "M"
+    },
+    {
+     "fp": 5,
+     "n": "6",
+     "nome": "D. Sánchez",
+     "pos": "D"
+    },
+    {
+     "fp": 6,
+     "n": "42",
+     "nome": "A. Bardakçi",
+     "pos": "D"
+    },
+    {
+     "fp": 7,
+     "n": "34",
+     "nome": "L. Torreira",
+     "pos": "M"
+    },
+    {
+     "fp": 8,
+     "n": "17",
+     "nome": "E. Elmali",
+     "pos": "M"
+    },
+    {
+     "fp": 9,
+     "n": "83",
+     "nome": "A. Batrakov",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "11",
+     "nome": "Y. Akgün",
+     "pos": "F"
+    },
+    {
+     "fp": 11,
+     "n": "53",
+     "nome": "B. Yilmaz",
+     "pos": "F"
+    }
+   ]
+  },
+  "comp": "champions",
+  "completa": false,
+  "fora": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "P. Torres",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "42",
+     "nome": "J. Wright",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "18",
+     "nome": "T. Abraham",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "10",
+     "nome": "E. Buendía",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "L. Goretzka",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "R. Barkley",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "29",
+     "nome": "A. Wan-Bissaka",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "53",
+     "nome": "G. Hemmings",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "26",
+     "nome": "L. Bogarde",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "40",
+     "nome": "M. Bizot",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "I. Mbaye",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "Z. Suzuki",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "4",
+     "nome": "T. Harwood-Bellis",
+     "pos": "D"
+    },
+    {
+     "fp": 3,
+     "n": "22",
+     "nome": "I. Maatsen",
+     "pos": "D"
+    },
+    {
+     "fp": 4,
+     "n": "35",
+     "nome": "J. Gomes",
+     "pos": "M"
+    },
+    {
+     "fp": 5,
+     "n": "3",
+     "nome": "V. Lindelöf",
+     "pos": "D"
+    },
+    {
+     "fp": 6,
+     "n": "5",
+     "nome": "T. Mings",
+     "pos": "D"
+    },
+    {
+     "fp": 7,
+     "n": "47",
+     "nome": "Alysson",
+     "pos": "M"
+    },
+    {
+     "fp": 8,
+     "n": "8",
+     "nome": "B. Kamara",
+     "pos": "M"
+    },
+    {
+     "fp": 9,
+     "n": "11",
+     "nome": "N. Jackson",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "44",
+     "nome": "J. Manzambi",
+     "pos": "M"
+    },
+    {
+     "fp": 11,
+     "n": "7",
+     "nome": "J. McGinn",
+     "pos": "M"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T14:45:00-03:00",
+  "pg": "",
+  "time_casa": "Galatasaray",
+  "time_fora": "Aston Villa",
+  "v": 2
+ },
+ "401915380": {
+  "achada": "2026-11-24T14:18-03:00",
+  "casa": {
+   "esquema": "4-3-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "U. Saltnes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "J. Mvuka",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "H. Aleesami",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "9",
+     "nome": "A. Helmersen",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "J. Kitolano",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "2",
+     "nome": "V. Nielsen",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "M. Riisnaes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "25",
+     "nome": "I. Määttä",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "J. Lund",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "45",
+     "nome": "I. Sjong",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "12",
+     "nome": "N. Haykin",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "20",
+     "nome": "F. Sjøvold",
+     "pos": "D"
+    },
+    {
+     "fp": 3,
+     "n": "15",
+     "nome": "F. Bjørkan",
+     "pos": "D"
+    },
+    {
+     "fp": 4,
+     "n": "7",
+     "nome": "P. Berg",
+     "pos": "M"
+    },
+    {
+     "fp": 5,
+     "n": "4",
+     "nome": "O. Bjørtuft",
+     "pos": "D"
+    },
+    {
+     "fp": 6,
+     "n": "6",
+     "nome": "J. Gundersen",
+     "pos": "D"
+    },
+    {
+     "fp": 7,
+     "n": "8",
+     "nome": "S. Auklend",
+     "pos": "M"
+    },
+    {
+     "fp": 8,
+     "n": "19",
+     "nome": "S. Brunstad Fet",
+     "pos": "M"
+    },
+    {
+     "fp": 9,
+     "n": "17",
+     "nome": "O. Brynhildsen",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "11",
+     "nome": "O. Blomberg",
+     "pos": "F"
+    },
+    {
+     "fp": 11,
+     "n": "10",
+     "nome": "J. Hauge",
+     "pos": "F"
+    }
+   ]
+  },
+  "comp": "champions",
+  "completa": false,
+  "fora": {
+   "esquema": "3-4-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "45",
+     "nome": "N. Kane",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "S. Kalajdzic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "M. Bogarde",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "50",
+     "nome": "F. Schillinger",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "8",
+     "nome": "M. Usor",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "M. Verhaeghe",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "S. Horvath",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "D. Elfadli",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "T. Schützenauer",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "L. Jungwirth",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "20",
+     "nome": "K. Jørgensen",
+     "pos": "M"
+    },
+    {
+     "fp": 3,
+     "n": "25",
+     "nome": "Y. Dibango",
+     "pos": "M"
+    },
+    {
+     "fp": 4,
+     "n": "3",
+     "nome": "M. Freckleton",
+     "pos": "D"
+    },
+    {
+     "fp": 5,
+     "n": "43",
+     "nome": "Alemão",
+     "pos": "D"
+    },
+    {
+     "fp": 6,
+     "n": "4",
+     "nome": "X. Mbuyamba",
+     "pos": "D"
+    },
+    {
+     "fp": 7,
+     "n": "10",
+     "nome": "R. Ljubicic",
+     "pos": "M"
+    },
+    {
+     "fp": 8,
+     "n": "18",
+     "nome": "A. Schöpf",
+     "pos": "M"
+    },
+    {
+     "fp": 9,
+     "n": "7",
+     "nome": "S. Adeniran",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "9",
+     "nome": "K. Danek",
+     "pos": "F"
+    },
+    {
+     "fp": 11,
+     "n": "27",
+     "nome": "C. Lang",
+     "pos": "F"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T14:45:00-03:00",
+  "pg": "",
+  "time_casa": "Bodo/Glimt",
+  "time_fora": "LASK Linz",
+  "v": 2
+ },
  "401933728": {
   "achada": "2026-11-23T22:40-03:00",
   "casa": {

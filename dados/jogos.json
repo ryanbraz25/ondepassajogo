@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-24T14:14:20-03:00",
+ "atualizado": "2026-11-24T14:20:00-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -4305,11 +4305,14 @@
    "casa": "Vasco",
    "fora": "Vitória",
    "local": "Estádio São Januário, Rio de Janeiro",
-   "canais": [],
+   "canais": [
+    "prime"
+   ],
    "status": "a_confirmar",
    "eid": "401841342",
    "lg": "bra.1",
    "ed": "20261202",
+   "rodada": "38ª rodada",
    "pg": "/jogo/vasco-x-vitoria-02-12-2026/"
   },
   {
