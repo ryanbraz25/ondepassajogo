@@ -352,7 +352,8 @@ def montar(cfg, cache, jogos, hist, tabs, norm, acentua):
         grupos = []
         # pontos corridos / fase de liga: rodadas da TheSportsDB
         tc = ((cache.get("comps") or {}).get(k) or {})
-        if tc.get("rodadas"):
+        # só mostra as rodadas quando a de agora já chegou (antes disso a página continua por data)
+        if tc.get("rodadas") and str(tc.get("atual")) in tc["rodadas"]:
             conhecidos = {j["casa"] for j in meus} | {j["fora"] for j in meus}
             for g in (tabs.get(k) or {}).get("grupos", []):
                 conhecidos |= {l["time"] for l in g["linhas"]}
