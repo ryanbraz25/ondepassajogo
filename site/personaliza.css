@@ -1,0 +1,75 @@
+/* Personalização: janela "Meu estado e meus canais", canal regional, "você assiste" e WhatsApp */
+:root{--pz-acc:light-dark(#0a6d35,#58c98a);--pz-zap:#1fa855;--pz-red:#c62828}
+
+/* janela */
+.pz{padding:0;border:0;border-radius:18px;width:min(520px,94vw);max-height:88vh;color:var(--ink,light-dark(#0d1a12,#eaf3ec));background:light-dark(#fff,#0d1f15);font-family:Barlow,sans-serif;box-shadow:0 20px 50px rgba(0,0,0,.3);overflow:hidden}
+.pz[open]{display:flex;flex-direction:column}
+.pz::backdrop{background:rgba(6,20,12,.55);backdrop-filter:blur(2px)}
+.pz-f{display:flex;flex-direction:column;min-height:0;max-height:88vh}
+.pz-hd{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 14px 12px 20px;background:#0a6d35;color:#fff}
+.pz-hd b{font:italic 900 22px/1.05 "Barlow Condensed",sans-serif}
+.pz-x{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;border:1px solid rgba(255,255,255,.45);background:transparent;color:#fff;cursor:pointer;flex:0 0 auto}
+.pz-bd{overflow-y:auto;overscroll-behavior:contain;padding:6px 20px 8px}
+.pz h3{margin:16px 0 4px;font:800 18px "Barlow Condensed",sans-serif;letter-spacing:.02em;text-transform:uppercase}
+.pz-aj{margin:0 0 10px;font-size:14px;color:var(--mute,light-dark(#5b6b61,#9db3a5));line-height:1.35}
+.pz select{width:100%;min-height:46px;padding:0 12px;border-radius:10px;border:1px solid light-dark(#cfd8d2,#2a3d31);background:inherit;color:inherit;font:600 16px Barlow,sans-serif}
+.pz fieldset{border:0;margin:0 0 10px;padding:0}
+.pz legend{padding:0;margin:0 0 6px;font:700 12px Barlow,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--mute,light-dark(#5b6b61,#9db3a5))}
+.pz-ops{display:flex;flex-wrap:wrap;gap:8px}
+.pz-op{position:relative;cursor:pointer}
+.pz-op input{position:absolute;opacity:0;width:1px;height:1px}
+.pz-op span{display:inline-flex;align-items:center;min-height:42px;padding:6px 14px;border-radius:999px;border:1px solid light-dark(#cfd8d2,#2a3d31);font:600 15px Barlow,sans-serif}
+.pz-op input:checked+span{background:var(--pz-acc);border-color:var(--pz-acc);color:light-dark(#fff,#06140c)}
+.pz-op input:checked+span::before{content:"✓";margin-right:6px;font-weight:800}
+.pz-op input:focus-visible+span{outline:3px solid #ffd400;outline-offset:2px}
+.pz-priv{margin:12px 0 4px;font-size:13px;color:var(--mute,light-dark(#5b6b61,#9db3a5))}
+.pz-ft{padding:12px 20px calc(14px + env(safe-area-inset-bottom));border-top:1px solid light-dark(#e2e8e4,#1d3326)}
+.pz-ok{width:100%;min-height:48px;border:0;border-radius:12px;background:#0a6d35;color:#fff;font:700 17px Barlow,sans-serif;cursor:pointer}
+.pz-ok:hover{background:#0b7a3c}
+html.pz-aberto{overflow:hidden}
+@media(max-width:640px){
+ .pz{width:100%;max-width:100%;margin:auto 0 0;border-radius:20px 20px 0 0;max-height:90vh}
+ .pz-f{max-height:90vh}
+}
+
+/* botão de texto (escolher estado etc.) */
+.lnk{background:none;border:0;padding:0;color:var(--pz-acc);font:inherit;font-weight:700;text-decoration:underline;cursor:pointer}
+
+/* página inicial: canal regional, canal que a pessoa tem, "você assiste", sem transmissão */
+.ch .rg{display:block;font-weight:600;font-size:12px;color:var(--mute)}
+.ch .rg.ok{color:var(--pz-acc)}
+.ch .rg.fora{color:var(--pz-red)}
+.ch.pz-fora{opacity:.55;border-style:dashed}
+.ch.pz-meu{border-color:var(--pz-acc);box-shadow:inset 0 0 0 1px var(--pz-acc)}
+.tag.vc{background:color-mix(in srgb,var(--pz-acc) 18%,transparent);color:var(--pz-acc)}
+.tbc.semtx,.semcanal.semtx{color:var(--pz-red);font-weight:600}
+.meta .lnk{font-size:13px;margin-left:4px}
+
+/* WhatsApp */
+.zapb{display:inline-flex;align-items:center;gap:6px;min-height:32px;padding:6px 0;background:none;border:0;color:var(--pz-zap);font:600 14px Barlow,sans-serif;cursor:pointer}
+.zapb svg,.zap svg{flex:0 0 auto}
+.zap{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 16px;margin:6px 0 4px;border-radius:999px;border:1px solid var(--pz-zap);background:transparent;color:var(--pz-zap);font:700 15px Barlow,sans-serif;cursor:pointer}
+.zap:hover,.zapb:hover{background:color-mix(in srgb,var(--pz-zap) 10%,transparent)}
+.zapj{width:100%;max-width:420px}
+.zap:focus-visible,.zapb:focus-visible,.lnk:focus-visible{outline:3px solid #ffd400;outline-offset:2px}
+h2 .zap{min-height:36px;padding:4px 12px;font-size:14px}
+@media(max-width:640px){h2 .zap span{display:none}h2 .zap{padding:4px 10px}}
+
+/* páginas estáticas: botões de canal da página do jogo */
+.botoes .rg{display:block;font-size:12px;font-weight:600;color:var(--mute,#5b6b61)}
+.botoes .rg.ok{color:var(--pz-acc)}
+.botoes .rg.fora{color:var(--pz-red)}
+.botoes .pz-fora{opacity:.65;border-style:dashed}
+.botoes .pz-meu{outline:2px solid var(--pz-acc);outline-offset:-2px}
+.pz-selo{display:inline-block;margin-top:3px;padding:1px 8px;border-radius:999px;background:var(--pz-acc);color:light-dark(#fff,#06140c);font:700 11px/1.6 Barlow,sans-serif;text-transform:uppercase;letter-spacing:.04em}
+.pz-uf{font-size:14px;color:var(--mute,#5b6b61);margin:6px 0}
+
+/* filtro "Só o que eu assisto" na barra da página inicial */
+.tgmeus{display:inline-flex;align-items:center;gap:2px}
+.toggle .short{display:none}
+.pzedit{width:36px;height:36px;display:grid;place-items:center;border:0;border-radius:50%;background:none;color:var(--mute);cursor:pointer}
+.pzedit:hover{background:color-mix(in srgb,var(--pz-acc) 10%,transparent);color:var(--pz-acc)}
+.pzedit:focus-visible{outline:3px solid #ffd400}
+h2 small:has(.zap){display:inline-flex;align-items:center;gap:10px}
+h2 small .zap{margin:0}
+@media(max-width:640px){.toggle .short{display:inline}.pzedit{width:32px;height:32px}}

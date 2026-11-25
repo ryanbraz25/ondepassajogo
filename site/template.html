@@ -409,6 +409,7 @@ header .wrap{position:relative}
 @media(max-width:640px){.ob{place-items:end center;padding:0}.obc{border-radius:18px 18px 0 0;max-height:86vh}.obgrid{grid-template-columns:1fr 1fr}}
 </style>
 <link rel="stylesheet" href="/menu.css?v=2">
+<link rel="stylesheet" href="/personaliza.css?v=1">
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <script src="/rodadas.js?v=2" defer></script>
 <link rel="stylesheet" href="/aovivo.css?v=1">
@@ -474,6 +475,7 @@ __MENU__
  <div class="wrap filters">
   <label class="search" for="q"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Buscar time ou campeonato (ex.: Flamengo, Libertadores, Galo)" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="sugs" aria-autocomplete="list"><div class="sugs" id="sugs" role="listbox" aria-label="Times" hidden></div></label>
   <label class="toggle" for="free"><input id="free" type="checkbox"> <span><span class="long">Só canais </span>grátis</span></label>
+  <span class="tgmeus"><label class="toggle" for="meus"><input id="meus" type="checkbox"> <span><span class="long">Só o que eu assisto</span><span class="short">Meus canais</span></span></label><button class="pzedit" type="button" data-prefs="canais" aria-label="Escolher meus canais e meu estado" title="Escolher meus canais e meu estado"><svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16v4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></button></span>
   <div class="chiprow"><button class="arr" id="cprev" aria-label="Ver ligas anteriores">‹</button><div class="chips" id="chips" role="group" aria-label="Campeonatos (toque para escolher um ou mais)"></div><button class="arr" id="cnext" aria-label="Ver mais ligas">›</button></div>
  </div>
 </div>
@@ -510,6 +512,7 @@ __MENU__
 <div class="toast" id="toast" role="status"></div>
 <button class="totop" id="totop" aria-label="Voltar ao topo" hidden>↑</button>
 
+<script src="/personaliza.js?v=1"></script>
 <script id="dados" type="application/json">__DADOS__</script>
 <script>
 {
@@ -559,13 +562,16 @@ const formOk=()=>!!(FORM.form_url&&FORM.campos&&FORM.campos.jogo&&FORM.campos.ca
 function formLink(doc){const u=new URL(FORM.form_url.replace(/\/formResponse.*$/,'/viewform'));u.searchParams.set('usp','pp_url');Object.entries(FORM.campos).forEach(([k,id])=>{if(id&&doc[k])u.searchParams.set(id,doc[k])});return u.toString()}
 const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const plural = n => n+' jogo'+(n===1?'':'s');
+// personalização (personaliza.js): estado da pessoa, canais que ela tem e WhatsApp
+const P = window.OPJP || {uf:()=>'',ufsTxt:l=>l.join(', '),alcanca:()=>true,regiao:()=>null,temMeus:()=>false,meu:()=>false,assiste:()=>true,compartilhar(){},abrir(){},aoMudar(){}};
+window.OPJ_CANAIS = D.canais;
 const games = D.jogos.map((g,i)=>({...g,i,t:new Date(g.inicio),k:dayKey(new Date(g.inicio))})).sort((a,b)=>a.t-b.t||a.casa.localeCompare(b.casa));
 const $ = id => document.getElementById(id);
 
 let saved=[]; try{saved=JSON.parse(localStorage.getItem('ligas')||'[]')}catch(_){}
 let favs=[]; try{favs=JSON.parse(localStorage.getItem('favs')||'[]')}catch(_){}
 let lfavs=[]; try{lfavs=JSON.parse(localStorage.getItem('ligasFav')||'[]')}catch(_){}
-const S = {day:null, comps:new Set(saved.filter(k=>D.competicoes[k])), free:false, q:'', more:false, open:null, favs:new Set(favs), lfav:new Set(lfavs.filter(k=>D.competicoes[k])), view:'todos', fav:null};
+const S = {day:null, comps:new Set(saved.filter(k=>D.competicoes[k])), free:false, meus:false, q:'', more:false, open:null, favs:new Set(favs), lfav:new Set(lfavs.filter(k=>D.competicoes[k])), view:'todos', fav:null};
 const saveFavs = () => {try{localStorage.setItem('favs',JSON.stringify([...S.favs]))}catch(_){}};
 const saveLfav = () => {try{localStorage.setItem('ligasFav',JSON.stringify([...S.lfav]))}catch(_){}};
 const isFavG = g => S.favs.has(g.casa)||S.favs.has(g.fora)||S.lfav.has(g.comp);
@@ -603,10 +609,11 @@ async function pollLive(){
 }
 async function tickLive(){if(await pollLive()){renderNext();if(S.open===null&&$('sugs').hidden)renderList()}}
 const ytLink = (c,g) => !!(g&&g.links&&g.links[c]&&/(^|\.)(youtube\.com|youtu\.be)\//i.test(String(g.links[c]).replace(/^https?:\/\//,'')));
-const chFree = (c,g) => !!D.canais[c]&&(FREE.has(D.canais[c].tipo)||ytLink(c,g));
+const chFree = (c,g) => !!D.canais[c]&&(FREE.has(D.canais[c].tipo)||ytLink(c,g))&&P.alcanca(c,g);
 const isFreeCh = (c,g) => chFree(c,g)?1:0;
 const isFree = g => g.canais.some(c=>chFree(c,g));
-const okFree = g => !S.free||isFree(g);
+const okFree = g => (!S.free||isFree(g))&&(!S.meus||P.assiste(g,chFree)); // filtros de canal: só grátis e só o que eu assisto
+const vcAssiste = g => P.temMeus()&&g.canais.length>0&&P.assiste(g,chFree);
 const okComp = g => S.comps.size===0||S.comps.has(g.comp);
 const match = g => okFree(g)&&okComp(g);
 
@@ -614,8 +621,31 @@ function chanLink(c,g){
  const x=D.canais[c]; if(!x) return '';
  const yt=ytLink(c,g)&&x.tipo!=='YouTube';
  const free=chFree(c,g), url=(g.links&&g.links[c])||x.url, tipo=yt?'no YouTube':x.tipo;
- return `<a class="ch${free?' free':''}" href="${esc(url)}" target="_blank" rel="noopener"${yt?` title="${esc(x.nome)} transmite de graça no YouTube"`:''}>${esc(x.nome)}<small>${free?'<span class="gr">Grátis</span><span class="tp"> · '+esc(tipo)+'</span>':'<span class="tp">'+esc(tipo)+'</span>'}</small></a>`;
+ const rg=P.regiao(c,g), fora=!P.alcanca(c,g), meu=P.temMeus()&&!fora&&(P.meu(c)||free);
+ const cls='ch'+(free?' free':'')+(fora?' pz-fora':'')+(meu?' pz-meu':'');
+ const tit=yt?`${x.nome} transmite de graça no YouTube`:rg&&fora?`${x.nome}: este jogo não passa no seu estado`:'';
+ return `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener"${tit?` title="${esc(tit)}"`:''}>${esc(x.nome)}<small>${free?'<span class="gr">Grátis</span><span class="tp"> · '+esc(tipo)+'</span>':'<span class="tp">'+esc(tipo)+'</span>'}</small>${rg?`<small class="rg ${rg.cls}">${esc(rg.txt)}</small>`:''}</a>`;
 }
+/* WhatsApp: texto pronto (o *negrito* é do próprio WhatsApp), com horário de Brasília, canais e link */
+const SITE=location.origin, UTM='utm_source=whatsapp&utm_medium=compartilhar';
+const zapCanais=g=>g.status==='sem_transmissao'?'sem transmissão no Brasil':g.canais.map(c=>{const x=D.canais[c];if(!x)return '';const r=g.reg&&g.reg[c];return x.nome+(r?' ('+P.ufsTxt(r)+')':'')+(chFree(c,g)&&!r?' (grátis)':'')}).filter(Boolean).join(', ')||'canais a confirmar';
+const cap=t=>t.charAt(0).toUpperCase()+t.slice(1);
+function zapJogo(g){
+ const c=C(g.comp), pl=g.placar&&state(g)!=='up';
+ return [pl?`⚽ *${g.casa} ${g.placar.casa} x ${g.placar.fora} ${g.fora}*`:`⚽ *${g.casa} x ${g.fora}*`,`🏆 ${c.nome}${g.rodada?' · '+g.rodada:''}`,
+  `🕘 ${cap(longDay(g.t))}, às ${hhmm(g.t)} (Brasília)`,`📺 ${zapCanais(g)}`,'',`Veja onde assistir: ${SITE}${g.pg||'/'}?${UTM}`].join('\n');
+}
+function zapLista(list,titulo){
+ const L=[`⚽ *${titulo}* (horário de Brasília)`], por=new Map(), lim=25;
+ list.slice(0,lim).forEach(g=>{if(!por.has(g.comp))por.set(g.comp,[]);por.get(g.comp).push(g)});
+ por.forEach((gs,k)=>{L.push('',`*${C(k).nome}*`);gs.forEach(g=>L.push(`${hhmm(g.t)} · ${g.casa} x ${g.fora} · ${zapCanais(g)}`))});
+ if(list.length>lim)L.push('',`…e mais ${list.length-lim} jogos`);
+ L.push('',`Veja todos e onde assistir: ${SITE}/?${UTM}`);
+ return L.join('\n');
+}
+const ZAPI='<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.6 1.1 2.8.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>';
+let ZL=[]; // listas que os botões "Mandar no WhatsApp" do topo de cada lista compartilham
+const zapListaBtn=(list,titulo)=>{ZL.push([list,titulo]);return `<button class="zap" type="button" data-zapl="${ZL.length-1}">${ZAPI}<span>Mandar no WhatsApp</span></button>`};
 
 const ESC=D.escudos||{}, LG=D.logos_ligas||{};
 const lgIcon=(k,cls)=>{const c=C(k),u=LG[k];return u?`<img class="lgi${cls?' '+cls:''}" src="${esc(u)}" alt="" width="18" height="18" loading="lazy" decoding="async" onerror="this.replaceWith(Object.assign(document.createElement('i'),{style:'background:${esc(c.cor)}'}))">`:`<i style="background:${esc(c.cor)}"></i>`};
@@ -639,15 +669,15 @@ function board(g){
 }
 function row(g){
  const c=C(g.comp), st=state(g);
- const chans = g.canais.length? g.canais.slice().sort((a,b)=>isFreeCh(b,g)-isFreeCh(a,g)).map(x=>chanLink(x,g)).join('') : '<div class="tbc">Transmissão a confirmar</div>';
+ const chans = g.canais.length? g.canais.slice().sort((a,b)=>isFreeCh(b,g)-isFreeCh(a,g)).map(x=>chanLink(x,g)).join('') : g.status==='sem_transmissao'?'<div class="tbc semtx">Sem transmissão no Brasil</div>':'<div class="tbc">Transmissão a confirmar</div>';
  const info=[g.rodada,g.local].filter(Boolean).join(' · ');
  return `<article class="g ${st}${isFavG(g)?' isfav':''}">
   <div>
    ${g.placar&&st!=='up'?board(g):`<div class="teams"><span class="tn">${tl(g.casa)}${fst(g.casa)}</span> <span>x</span> <span class="tn">${tl(g.fora)}${fst(g.fora)}</span></div>`}
-   <div class="meta">${st==='live'?`<b class="lmin"><span class="dot"></span>${g.ao&&g.ao.d?esc(g.ao.d):'Ao vivo'}</b> `:''}<span class="pill"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</span>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
+   <div class="meta">${st==='live'?`<b class="lmin"><span class="dot"></span>${g.ao&&g.ao.d?esc(g.ao.d):'Ao vivo'}</b> `:''}<span class="pill"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</span>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}${vcAssiste(g)?' <span class="tag vc">Você assiste</span>':''}${g.reg&&!P.uf()?' <button class="lnk" type="button" data-prefs="uf">Seu estado?</button>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
   </div>
   <div class="chans">${chans}</div>
-  ${S.open===g.i?sform(g):`<span class="gacts">${g.pg?`<a class="gpage" href="${g.pg}">Detalhes do jogo</a>`:''}<button class="sug" data-i="${g.i}">Sugerir onde está passando</button></span>`}
+  ${S.open===g.i?sform(g):`<span class="gacts">${g.pg?`<a class="gpage" href="${g.pg}">Detalhes do jogo</a>`:''}<button class="zapb" type="button" data-zapg="${g.i}" aria-label="Mandar ${esc(g.casa)} x ${esc(g.fora)} no WhatsApp">${ZAPI}<span>Mandar</span></button><button class="sug" data-i="${g.i}">Sugerir onde está passando</button></span>`}
  </article>`;
 }
 
@@ -703,7 +733,7 @@ function renderNext(){
  const live=up.filter(g=>state(g)==='live').sort((a,b)=>favFirst(a,b)||byAud(a,b));
  const g=live[0]||up[0];
  if(!g){$('next').innerHTML='<span>Sem jogos na agenda</span>';return}
- const c=g.canais.map(x=>D.canais[x]?.nome).filter(Boolean).join(', ')||'canal a confirmar';
+ const c=g.canais.map(x=>D.canais[x]?.nome).filter(Boolean).join(', ')||(g.status==='sem_transmissao'?'sem transmissão':'canal a confirmar');
  $('next').innerHTML=`<span>${live.length?'<span class="dot"></span>Agora':'Próximo jogo · '+esc(g.k===dayKey(new Date())?'hoje':wk(g.t))+' '+hhmm(g.t)}</span><b>${esc(g.casa)} x ${esc(g.fora)}</b><span>${esc(C(g.comp).curto||'')} · ${esc(c)}</span>`;
 }
 
@@ -777,6 +807,7 @@ function painelHtml(k){
  return S.aba==='tabela'?tabelaHtml(d):resultadosHtml(d);
 }
 function renderList(){
+ ZL=[];
  const ak=abaComp(), bar=ak?abasBar(ak):'';
  if(ak&&bar&&S.aba!=='jogos'){
   const c=C(ak);
@@ -787,7 +818,7 @@ function renderList(){
  }
  if(S.view==='liga'&&S.liga){
   const c=C(S.liga), list=lgGames(S.liga).filter(okFree);
-  const head=`<div class="lghead"><h2><span class="pill big">${lgIcon(S.liga)}</span>${esc(c.nome)}<small>${list.length?'próximos jogos':''}</small></h2><span class="lgbtns">${(()=>{const on=S.lfav.has(S.liga);return `<button class="lgfollow${on?' on':''}" type="button" data-l="${S.liga}" aria-pressed="${on}">${on?'★ Seguindo':'☆ Seguir liga'}</button>`})()}<button class="clr" type="button" data-clr>× Ver todos os jogos</button></span></div>`;
+  const head=`<div class="lghead"><h2><span class="pill big">${lgIcon(S.liga)}</span>${esc(c.nome)}<small>${list.length?'próximos jogos '+zapListaBtn(list.filter(g=>state(g)!=='done'),'Próximos jogos · '+c.nome):''}</small></h2><span class="lgbtns">${(()=>{const on=S.lfav.has(S.liga);return `<button class="lgfollow${on?' on':''}" type="button" data-l="${S.liga}" aria-pressed="${on}">${on?'★ Seguindo':'☆ Seguir liga'}</button>`})()}<button class="clr" type="button" data-clr>× Ver todos os jogos</button></span></div>`;
   if(!list.length){setList(head+bar+`<p class="empty">Nenhum jogo de ${esc(c.nome)} nos próximos dias.</p>`);return}
   setList(head+bar+byDay(list,true));
   return;
@@ -796,7 +827,7 @@ function renderList(){
   const today=dayKey(new Date());
   const list=games.filter(g=>isFavG(g)&&okFree(g)&&(state(g)!=='done'||g.k===today));
   const nt=S.favs.size, nl=S.lfav.size, partes=[nt?nt+(nt===1?' time':' times'):'',nl?nl+(nl===1?' liga':' ligas'):''].filter(Boolean).join(' e ');
-  let head=`<h2>Seguindo<small>${partes}</small></h2>`+(nSeg()?`<div class="mytm">${[...S.favs].map(t=>`<span class="tmchip">${crest(t)}${esc(t)}<button class="star" type="button" data-t="${esc(t)}" aria-pressed="true" aria-label="Deixar de seguir ${esc(t)}">★</button></span>`).join('')}${[...S.lfav].map(k=>`<span class="tmchip lgchip">${lgIcon(k)}${esc(C(k).curto||C(k).nome)}<button class="star" type="button" data-l="${k}" aria-pressed="true" aria-label="Deixar de seguir ${esc(C(k).nome)}">★</button></span>`).join('')}</div>`:'');
+  let head=`<h2>Seguindo<small>${partes}${list.length?' '+zapListaBtn(list.filter(g=>state(g)!=='done'),'Jogos dos meus times'):''}</small></h2>`+(nSeg()?`<div class="mytm">${[...S.favs].map(t=>`<span class="tmchip">${crest(t)}${esc(t)}<button class="star" type="button" data-t="${esc(t)}" aria-pressed="true" aria-label="Deixar de seguir ${esc(t)}">★</button></span>`).join('')}${[...S.lfav].map(k=>`<span class="tmchip lgchip">${lgIcon(k)}${esc(C(k).curto||C(k).nome)}<button class="star" type="button" data-l="${k}" aria-pressed="true" aria-label="Deixar de seguir ${esc(C(k).nome)}">★</button></span>`).join('')}</div>`:'');
   const avc=avDisponivel()?(AV?`<div class="avcard on"><p>🔔 Avisos ligados: às 9h você recebe os jogos de quem segue.</p><button type="button" data-avopen>Mudar</button></div>`:`<div class="avcard"><p>🔔 <b>Quer ser avisado no celular?</b> Às 9h, nos dias de jogo de quem você segue.</p><button type="button" data-avopen>Ativar avisos</button></div>`):'';
   head+=avc;
   if(!nSeg()){setList(head+'<p class="empty">Você ainda não segue nenhum time nem liga. Digite o nome do seu time ou campeonato na busca e toque na <b>☆</b> ao lado: os jogos aparecem aqui e ficam sempre em primeiro na lista.</p>');return}
@@ -819,7 +850,8 @@ function renderList(){
   return;
  }
  const list=games.filter(g=>g.k===S.day&&match(g));
- const title=bar+`<h2>${esc(longDay(noon(S.day)))}<small>${plural(list.length)}</small></h2>`;
+ const hoje=S.day===dayKey(new Date());
+ const title=bar+`<h2>${esc(longDay(noon(S.day)))}<small>${plural(list.length)}${list.length?' '+zapListaBtn(list,(hoje?'Jogos de hoje, ':'Jogos de ')+longDay(noon(S.day))+(S.comps.size?' · '+[...S.comps].map(k=>C(k).curto||C(k).nome).join(', '):'')):''}</small></h2>`;
  if(!list.length){
   const nxt=games.find(g=>g.k>S.day&&match(g));
   const which=S.comps.size?[...S.comps].map(k=>C(k).curto||C(k).nome).join(', '):'';
@@ -867,6 +899,9 @@ $('chips').addEventListener('click',pick);
 $('side').addEventListener('click',pick);
 $('side').addEventListener('keydown',e=>{const ls=e.target.closest('[data-l]');if(ls&&(e.key==='Enter'||e.key===' ')){e.preventDefault();e.stopPropagation();toggleLiga(ls.dataset.l)}});
 $('free').addEventListener('change',e=>{S.free=e.target.checked;render()});
+// "Só o que eu assisto": sem canais escolhidos ainda, abre a janela para escolher primeiro
+$('meus').addEventListener('change',e=>{if(e.target.checked&&!P.temMeus()){e.target.checked=false;S.querMeus=true;P.abrir('canais');return}S.meus=e.target.checked;render()});
+P.aoMudar(()=>{if(S.querMeus&&P.temMeus()){S.meus=true;$('meus').checked=true}S.querMeus=false;if(!P.temMeus()){S.meus=false;$('meus').checked=false}render()});
 function toggleLiga(k){
  const nm=C(k).nome;
  S.lfav.has(k)?S.lfav.delete(k):S.lfav.add(k);saveLfav();avSync();
@@ -963,6 +998,8 @@ const tt=$('totop');addEventListener('scroll',()=>{tt.hidden=scrollY<700},{passi
 $('cprev').addEventListener('click',()=>$('chips').scrollBy({left:-320}));
 $('cnext').addEventListener('click',()=>$('chips').scrollBy({left:320}));
 $('lista').addEventListener('click',async e=>{
+ const zg=e.target.closest('[data-zapg]');if(zg){const g=games.find(x=>x.i===+zg.dataset.zapg);if(g)P.compartilhar(zapJogo(g),'jogo');return}
+ const zl=e.target.closest('[data-zapl]');if(zl){const x=ZL[+zl.dataset.zapl];if(x)P.compartilhar(zapLista(x[0],x[1]),'lista');return}
  if(e.target.closest('[data-clr]')){S.view='todos';S.liga=null;renderChips();renderList();return}
  const ab=e.target.closest('[data-aba]');if(ab){S.aba=ab.dataset.aba;renderList();return}
  const st=e.target.closest('.star[data-t],.fst[data-t]');
