@@ -2199,7 +2199,9 @@
    "Burnley": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
    "Southampton": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Southampton",
   "comp": "championship",
   "ed": "20261209",
@@ -2218,7 +2220,9 @@
    "Portsmouth": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
    "Preston North End": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Preston North End",
   "comp": "championship",
   "ed": "20261209",
@@ -2237,7 +2241,9 @@
    "Lincoln City": "https://a.espncdn.com/i/teamlogos/soccer/500/314.png",
    "Stoke City": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Lincoln City",
   "comp": "championship",
   "ed": "20261209",
@@ -2256,7 +2262,9 @@
    "Bristol City": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
    "Derby County": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Derby County",
   "comp": "championship",
   "ed": "20261209",
@@ -2275,7 +2283,9 @@
    "Charlton Athletic": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png",
    "Wrexham": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Wrexham",
   "comp": "championship",
   "ed": "20261208",
@@ -2294,7 +2304,9 @@
    "Middlesbrough": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
    "West Ham United": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "West Ham United",
   "comp": "championship",
   "ed": "20261208",
@@ -2313,7 +2325,9 @@
    "Cardiff City": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
    "West Bromwich Albion": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "West Bromwich Albion",
   "comp": "championship",
   "ed": "20261208",
@@ -2332,7 +2346,9 @@
    "Bolton Wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
    "Swansea City": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Swansea City",
   "comp": "championship",
   "ed": "20261208",
@@ -2351,7 +2367,9 @@
    "Queens Park Rangers": "https://a.espncdn.com/i/teamlogos/soccer/500/334.png",
    "Wolverhampton Wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Queens Park Rangers",
   "comp": "championship",
   "ed": "20261208",
@@ -2370,7 +2388,9 @@
    "Millwall": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
    "Sheffield United": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Millwall",
   "comp": "championship",
   "ed": "20261208",
@@ -2389,7 +2409,9 @@
    "Blackburn Rovers": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
    "Norwich City": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Blackburn Rovers",
   "comp": "championship",
   "ed": "20261208",
@@ -2408,7 +2430,9 @@
    "Birmingham City": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
    "Watford": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Birmingham City",
   "comp": "championship",
   "ed": "20261208",
@@ -2427,7 +2451,9 @@
    "Southampton": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png",
    "Wolverhampton Wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Wolverhampton Wanderers",
   "comp": "championship",
   "ed": "20261205",
@@ -2446,7 +2472,9 @@
    "Millwall": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
    "Watford": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Watford",
   "comp": "championship",
   "ed": "20261205",
@@ -2465,7 +2493,9 @@
    "Queens Park Rangers": "https://a.espncdn.com/i/teamlogos/soccer/500/334.png",
    "Stoke City": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Stoke City",
   "comp": "championship",
   "ed": "20261205",
@@ -2484,7 +2514,9 @@
    "Sheffield United": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png",
    "West Ham United": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Sheffield United",
   "comp": "championship",
   "ed": "20261204",
@@ -2503,7 +2535,9 @@
    "Portsmouth": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
    "West Bromwich Albion": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Portsmouth",
   "comp": "championship",
   "ed": "20261205",
@@ -2522,7 +2556,9 @@
    "Norwich City": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
    "Wrexham": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Norwich City",
   "comp": "championship",
   "ed": "20261205",
@@ -2541,7 +2577,9 @@
    "Derby County": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png",
    "Middlesbrough": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Middlesbrough",
   "comp": "championship",
   "ed": "20261205",
@@ -2560,7 +2598,9 @@
    "Birmingham City": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
    "Charlton Athletic": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Charlton Athletic",
   "comp": "championship",
   "ed": "20261205",
@@ -2579,7 +2619,9 @@
    "Cardiff City": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
    "Lincoln City": "https://a.espncdn.com/i/teamlogos/soccer/500/314.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Cardiff City",
   "comp": "championship",
   "ed": "20261205",
@@ -2598,7 +2640,9 @@
    "Burnley": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
    "Preston North End": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Burnley",
   "comp": "championship",
   "ed": "20261206",
@@ -2617,7 +2661,9 @@
    "Bristol City": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
    "Swansea City": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Bristol City",
   "comp": "championship",
   "ed": "20261205",
@@ -2636,7 +2682,9 @@
    "Blackburn Rovers": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
    "Bolton Wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Bolton Wanderers",
   "comp": "championship",
   "ed": "20261205",
@@ -2655,7 +2703,9 @@
    "Portsmouth": "https://a.espncdn.com/i/teamlogos/soccer/500/385.png",
    "Wrexham": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Wrexham",
   "comp": "championship",
   "ed": "20261128",
@@ -2674,7 +2724,9 @@
    "Stoke City": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png",
    "West Ham United": "https://a.espncdn.com/i/teamlogos/soccer/500/371.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "West Ham United",
   "comp": "championship",
   "ed": "20261128",
@@ -2693,7 +2745,9 @@
    "Bristol City": "https://a.espncdn.com/i/teamlogos/soccer/500/333.png",
    "West Bromwich Albion": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "West Bromwich Albion",
   "comp": "championship",
   "ed": "20261128",
@@ -2712,7 +2766,9 @@
    "Cardiff City": "https://a.espncdn.com/i/teamlogos/soccer/500/347.png",
    "Swansea City": "https://a.espncdn.com/i/teamlogos/soccer/500/318.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Swansea City",
   "comp": "championship",
   "ed": "20261129",
@@ -2731,7 +2787,9 @@
    "Middlesbrough": "https://a.espncdn.com/i/teamlogos/soccer/500/369.png",
    "Southampton": "https://a.espncdn.com/i/teamlogos/soccer/500/376.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Southampton",
   "comp": "championship",
   "ed": "20261127",
@@ -2750,7 +2808,9 @@
    "Queens Park Rangers": "https://a.espncdn.com/i/teamlogos/soccer/500/334.png",
    "Sheffield United": "https://a.espncdn.com/i/teamlogos/soccer/500/398.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Queens Park Rangers",
   "comp": "championship",
   "ed": "20261128",
@@ -2769,7 +2829,9 @@
    "Norwich City": "https://a.espncdn.com/i/teamlogos/soccer/500/381.png",
    "Preston North End": "https://a.espncdn.com/i/teamlogos/soccer/500/394.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Preston North End",
   "comp": "championship",
   "ed": "20261128",
@@ -2788,7 +2850,9 @@
    "Burnley": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png",
    "Millwall": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Millwall",
   "comp": "championship",
   "ed": "20261128",
@@ -2807,7 +2871,9 @@
    "Lincoln City": "https://a.espncdn.com/i/teamlogos/soccer/500/314.png",
    "Wolverhampton Wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/380.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Lincoln City",
   "comp": "championship",
   "ed": "20261128",
@@ -2826,7 +2892,9 @@
    "Derby County": "https://a.espncdn.com/i/teamlogos/soccer/500/374.png",
    "Watford": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Derby County",
   "comp": "championship",
   "ed": "20261128",
@@ -2845,7 +2913,9 @@
    "Blackburn Rovers": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
    "Charlton Athletic": "https://a.espncdn.com/i/teamlogos/soccer/500/372.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Blackburn Rovers",
   "comp": "championship",
   "ed": "20261128",
@@ -2864,7 +2934,9 @@
    "Birmingham City": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
    "Bolton Wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Birmingham City",
   "comp": "championship",
   "ed": "20261128",
@@ -4548,7 +4620,9 @@
    "Erzurum BB": "https://a.espncdn.com/i/teamlogos/soccer/500/19267.png",
    "Kocaelispor": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Erzurum BB",
   "comp": "turquia",
   "ed": "20261206",
@@ -4567,7 +4641,9 @@
    "Besiktas": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
    "Samsunspor": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Besiktas",
   "comp": "turquia",
   "ed": "20261206",
@@ -4586,7 +4662,9 @@
    "Caykur Rizespor": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
    "Galatasaray": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Galatasaray",
   "comp": "turquia",
   "ed": "20261204",
@@ -4605,7 +4683,9 @@
    "Gaziantep FK": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png",
    "Konyaspor": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Konyaspor",
   "comp": "turquia",
   "ed": "20261205",
@@ -4624,7 +4704,9 @@
    "Eyupspor": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
    "Genclerbirligi": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Genclerbirligi",
   "comp": "turquia",
   "ed": "20261206",
@@ -4643,7 +4725,9 @@
    "Fenerbahce": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
    "Istanbul Basaksehir": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Istanbul Basaksehir",
   "comp": "turquia",
   "ed": "20261205",
@@ -4662,7 +4746,9 @@
    "Goztepe": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
    "Kasimpasa": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Kasimpasa",
   "comp": "turquia",
   "ed": "20261207",
@@ -4681,7 +4767,9 @@
    "Genclerbirligi": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
    "Samsunspor": "https://a.espncdn.com/i/teamlogos/soccer/500/11429.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Samsunspor",
   "comp": "turquia",
   "ed": "20261128",
@@ -4700,7 +4788,9 @@
    "Besiktas": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
    "Galatasaray": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Besiktas",
   "comp": "turquia",
   "ed": "20261130",
@@ -4719,7 +4809,9 @@
    "Erzurum BB": "https://a.espncdn.com/i/teamlogos/soccer/500/19267.png",
    "Fenerbahce": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Fenerbahce",
   "comp": "turquia",
   "ed": "20261129",
@@ -4738,7 +4830,9 @@
    "Goztepe": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
    "Trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Goztepe",
   "comp": "turquia",
   "ed": "20261130",
@@ -4757,7 +4851,9 @@
    "Caykur Rizespor": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
    "Kasimpasa": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Caykur Rizespor",
   "comp": "turquia",
   "ed": "20261127",
@@ -4776,7 +4872,9 @@
    "Alanyaspor": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
    "Konyaspor": "https://a.espncdn.com/i/teamlogos/soccer/500/7648.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Alanyaspor",
   "comp": "turquia",
   "ed": "20261127",
@@ -4795,7 +4893,9 @@
    "Eyupspor": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
    "Istanbul Basaksehir": "https://a.espncdn.com/i/teamlogos/soccer/500/7914.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Eyupspor",
   "comp": "turquia",
   "ed": "20261129",
@@ -4814,7 +4914,9 @@
    "Alanyaspor": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
    "Amed SFK": "https://a.espncdn.com/i/teamlogos/soccer/500/132335.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Amed SFK",
   "comp": "turquia",
   "ed": "20261205",
@@ -4833,7 +4935,9 @@
    "Trabzonspor": "https://a.espncdn.com/i/teamlogos/soccer/500/997.png",
    "Çorum FK": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Trabzonspor",
   "comp": "turquia",
   "ed": "20261206",
@@ -4852,7 +4956,9 @@
    "Kocaelispor": "https://a.espncdn.com/i/teamlogos/soccer/500/995.png",
    "Çorum FK": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Çorum FK",
   "comp": "turquia",
   "ed": "20261129",
@@ -4871,7 +4977,9 @@
    "Amed SFK": "https://a.espncdn.com/i/teamlogos/soccer/500/132335.png",
    "Gaziantep FK": "https://a.espncdn.com/i/teamlogos/soccer/500/20070.png"
   },
-  "canais": [],
+  "canais": [
+   "disney"
+  ],
   "casa": "Gaziantep FK",
   "comp": "turquia",
   "ed": "20261128",
