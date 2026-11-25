@@ -244,6 +244,7 @@ def por_dia(cx, jogos, **kw):
 
 # ---------------------------------------------------------------- tabela, forma, resultados, escalações
 import extras as X  # noqa: E402
+import palpites as PALP  # noqa: E402
 
 COLS = '<tr><th class="c-pos">#</th><th class="c-time">Time</th><th>P</th><th>J</th><th class="c-x">V</th><th class="c-x">E</th><th class="c-x">D</th><th class="c-x">GP</th><th class="c-x">GC</th><th>SG</th><th class="c-f">Últimos 5</th></tr>'
 
@@ -285,6 +286,7 @@ _ICO = {
     "hoje": '<path d="M5 6h14v13H5zM5 10h14M9 3.5v4M15 3.5v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
     "amanha": '<path d="M5 6h14v13H5zM5 10h14M9 3.5v4M15 3.5v4M10 14.5h4m-1.5-1.5 1.5 1.5-1.5 1.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
     "agenda": '<path d="M5 6h14M5 12h14M5 18h9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>',
+    "palp": '<path d="M4 20V10M10 20V4M16 20v-8M22 20H2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
     "seg": '<path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
     "tab": '<path d="M4 5h16v14H4zM4 10h16M4 15h16M9 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
     "aviso": '<path d="M6 17V11a6 6 0 0 1 12 0v6l1.6 2H4.4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 21.5h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
@@ -316,6 +318,7 @@ def menu_html(comps, com_tabela):
         + item("/jogos-de-hoje/", "hoje", "Jogos de hoje")
         + item("/jogos-de-amanha/", "amanha", "Jogos de amanhã")
         + item("/", "agenda", "Agenda completa (15 dias)")
+        + item("/palpites-de-hoje/", "palp", "Palpites de hoje")
         + item("/#seguindo", "seg", "Meus times e campeonatos", ' data-menu-seguindo')
         + '</div>'
         + (f'<h3>Tabelas</h3><div class="mn-tb">{tabs}</div>' if tabs else "")
@@ -583,6 +586,7 @@ def pagina_jogo(cx, j):
 <p class="cta2"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">★ Seguir {e(nl(casa))} ou {e(nl(fora))} e receber aviso no dia do jogo</a></p>
 {escalacoes_html(cx, j)}
 {como_chegam(cx, j)}
+{PALP.secao(cx, j)}
 {rel}
 <section class="sobre">
 <h2>Sobre o jogo</h2>
@@ -819,6 +823,7 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
     novas = {}
 
     cx.jogos = [j for j in cx.jogos if "A definir" not in (j["casa"], j["fora"])]
+    PALP.preparar(cx)  # palpites (j["_palp"]) antes das páginas dos jogos
     for j in cx.jogos:
         novas[j["_pg"]] = (pagina_jogo(cx, j), j["_t"].date().isoformat())
     times = {}
@@ -857,6 +862,8 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
     for cam, rot, dia in (("/jogos-de-hoje/", "hoje", cx.hoje), ("/jogos-de-amanha/", "amanhã", cx.hoje + timedelta(days=1))):
         js = [j for j in cx.jogos if j["_t"].date() == dia]
         novas[cam] = (pagina_dia(cx, cam, rot, dia, js), "")
+    for cam, rot, dia in (("/palpites-de-hoje/", "hoje", cx.hoje), ("/palpites-de-amanha/", "amanhã", cx.hoje + timedelta(days=1))):
+        novas[cam] = (PALP.pagina_palpites(cx, cam, rot, dia, pagina, escudo, hora, data_longa, URL), "")
 
     mudou = []
     agora = cx.agora.isoformat(timespec="minutes")
@@ -894,9 +901,9 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
         if cam in ("/jogos-de-hoje/", "/jogos-de-amanha/"):
             continue
         pri = "0.8" if cam.startswith("/jogo/") and info.get("dia", "") >= cx.hoje.isoformat() else (
-            "0.7" if cam.startswith(("/time/", "/campeonato/", "/tabelas/")) else "0.4")
+            "0.7" if cam.startswith(("/time/", "/campeonato/", "/tabelas/", "/palpites-")) else "0.4")
         urls.append((cam, info["mod"], "daily", pri))
-    urls.append(("/privacidade.html", "2026-11-17", "yearly", "0.1"))
+    urls.append(("/privacidade.html", "2026-11-25", "yearly", "0.1"))
     xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for cam, mod, freq, pri in urls:
         xml.append(f" <url><loc>{URL}{e(cam)}</loc><lastmod>{mod}</lastmod><changefreq>{freq}</changefreq><priority>{pri}</priority></url>")

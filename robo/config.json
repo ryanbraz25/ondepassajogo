@@ -990,5 +990,14 @@
  },
  "zonas_obs": {
   "brasileirao-a": "Faixas pelo regulamento de 2026. As vagas podem aumentar conforme os campeões da Copa do Brasil, da Libertadores e da Sul-Americana."
+ },
+ "apostas": {
+  "comentario": "Espaço publicitário de apostas nas páginas de palpites. Desligado (ativo: false). Para ligar: use SÓ operadora autorizada pela Secretaria de Prêmios e Apostas (lista oficial em gov.br, domínio .bet.br) e preencha nome, link_afiliado (do programa de afiliados da operadora), autorizacao (número da Portaria SPA/MF que autorizou a operadora, obrigatório no anúncio) e, se houver, cupom. O site mostra sozinho o selo 18+, a advertência do Ministério da Fazenda, o aviso de publicidade e os links de jogo responsável e autoexclusão. Se faltar algo ou o link não for .bet.br, o espaço não aparece.",
+  "ativo": false,
+  "operadora": "",
+  "nome": "",
+  "link_afiliado": "",
+  "cupom": "",
+  "autorizacao": ""
  }
 }
