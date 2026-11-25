@@ -899,6 +899,2394 @@
   "time_fora": "São Paulo",
   "v": 2
  },
+ "401841335": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "3-4-2-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "Bruno",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "12",
+     "nome": "Fernando",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "66",
+     "nome": "J. Ferreira Leite",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "70",
+     "nome": "R. Hartmann Ricoldi",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "Mancha",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "35",
+     "nome": "V. De Almeida Gomes Da Silva",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "55",
+     "nome": "R. Macedo Soares",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "39",
+     "nome": "R. Azevedo Tiago",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "26",
+     "nome": "Everton",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "80",
+     "nome": "M. Carvalho",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "G. Werner",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "Marcinho",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "30",
+     "nome": "Matheus",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "5",
+     "nome": "Heitor",
+     "pos": "RM"
+    },
+    {
+     "fp": 3,
+     "n": "91",
+     "nome": "B. Pacheco",
+     "pos": "LM"
+    },
+    {
+     "fp": 4,
+     "n": "21",
+     "nome": "Kauan",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 5,
+     "n": "3",
+     "nome": "Eduardo Doma",
+     "pos": "CD"
+    },
+    {
+     "fp": 6,
+     "n": "25",
+     "nome": "V. Caetano",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 7,
+     "n": "27",
+     "nome": "Camilo",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 8,
+     "n": "19",
+     "nome": "D. David",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "T. Silva De Oliveira",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "22",
+     "nome": "Max",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "10",
+     "nome": "Giovanni Augusto",
+     "pos": "CF-L"
+    }
+   ]
+  },
+  "comp": "brasileirao-a",
+  "completa": true,
+  "fora": {
+   "esquema": "3-4-2-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "29",
+     "nome": "M. Bilong",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "66",
+     "nome": "André Lucas",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "65",
+     "nome": "R. Coutinho",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "72",
+     "nome": "K. Lima",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "63",
+     "nome": "Robson",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "B. Bertinato",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "47",
+     "nome": "V. Gabriel",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "40",
+     "nome": "G. De Souza Soares",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "14",
+     "nome": "Marcelo Lomba",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "7",
+     "nome": "Felipe Anderson",
+     "pos": "RM"
+    },
+    {
+     "fp": 3,
+     "n": "12",
+     "nome": "Khellven",
+     "pos": "LM"
+    },
+    {
+     "fp": 4,
+     "n": "44",
+     "nome": "K. Mohamed",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 5,
+     "n": "43",
+     "nome": "L. Benedetti",
+     "pos": "CD"
+    },
+    {
+     "fp": 6,
+     "n": "32",
+     "nome": "E. Martínez",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 7,
+     "n": "48",
+     "nome": "Larson",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 8,
+     "n": "50",
+     "nome": "Luis Felipe",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "39",
+     "nome": "Heittor",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "45",
+     "nome": "E. Machado",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "37",
+     "nome": "Fabiano",
+     "pos": "CF-L"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T18:00:00-03:00",
+  "pg": "",
+  "time_casa": "Chapecoense",
+  "time_fora": "Palmeiras",
+  "v": 2
+ },
+ "401880141": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "R. Gomes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "13",
+     "nome": "J. Virgínia",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "S. Neave",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "38",
+     "nome": "J. Tchatchoua",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "15",
+     "nome": "Y. Mosquera",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "8",
+     "nome": "J. James",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "24",
+     "nome": "T. Gomes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "B. Traoré",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "M. Munetsi",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "J. Sá",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "2",
+     "nome": "K. Trippier",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "3",
+     "nome": "H. Bueno",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "20",
+     "nome": "T. Doyle",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "34",
+     "nome": "N. Djiga",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "37",
+     "nome": "L. Krejcí",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "36",
+     "nome": "M. Mané",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "7",
+     "nome": "André",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "10",
+     "nome": "A. Armstrong",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "28",
+     "nome": "F. López",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "19",
+     "nome": "R. Said",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "comp": "championship",
+  "completa": true,
+  "fora": {
+   "esquema": "3-5-2",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "J. Robinson",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "44",
+     "nome": "E. Cashin",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "31",
+     "nome": "J. Vickers",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "M. Johnston",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "15",
+     "nome": "L. Salvesen",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "C. Taylor",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "J. Ward",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "8",
+     "nome": "B. Clark",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "29",
+     "nome": "O. Fraulo",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "J. Widell Zetterström",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "24",
+     "nome": "R. Nyambe",
+     "pos": "RM"
+    },
+    {
+     "fp": 3,
+     "n": "10",
+     "nome": "R. Brewster",
+     "pos": "LM"
+    },
+    {
+     "fp": 4,
+     "n": "5",
+     "nome": "M. Clarke",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 5,
+     "n": "25",
+     "nome": "S. Duffy",
+     "pos": "CD"
+    },
+    {
+     "fp": 6,
+     "n": "28",
+     "nome": "D. Sanderson",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 7,
+     "n": "13",
+     "nome": "F. Bilbija",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 8,
+     "n": "4",
+     "nome": "D. Ozoh",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "16",
+     "nome": "M. Fuseini",
+     "pos": "CF-L"
+    },
+    {
+     "fp": 10,
+     "n": "9",
+     "nome": "C. Morris",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "20",
+     "nome": "A. Mowatt",
+     "pos": "AM"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T17:00:00-03:00",
+  "pg": "",
+  "time_casa": "Wolverhampton Wanderers",
+  "time_fora": "Derby County",
+  "v": 2
+ },
+ "401880142": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-4-2",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "S. McCallum",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "J. Baptiste",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "A. Davies",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "T. Campbell",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "44",
+     "nome": "J. Riedewald",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "45",
+     "nome": "P. Bamford",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "R. Norrington-Davies",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "K. Phillips",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "39",
+     "nome": "L. Sidibe",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "M. Cooper",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "8",
+     "nome": "H. Choudhury",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "14",
+     "nome": "H. Burrows",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "42",
+     "nome": "S. Peck",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 5,
+     "n": "25",
+     "nome": "M. McGuinness",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "15",
+     "nome": "L. Kitching",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "19",
+     "nome": "T. Chong",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "4",
+     "nome": "O. Arblaster",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "10",
+     "nome": "J. Ayew",
+     "pos": "CF-L"
+    },
+    {
+     "fp": 10,
+     "n": "9",
+     "nome": "T. Cannon",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "11",
+     "nome": "R. Donovan",
+     "pos": "LM"
+    }
+   ]
+  },
+  "comp": "championship",
+  "completa": true,
+  "fora": {
+   "esquema": "4-3-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "18",
+     "nome": "T. Fellows",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "10",
+     "nome": "F. Azaz",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "25",
+     "nome": "G. Long",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "J. Bree",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "53",
+     "nome": "B. Williams",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "9",
+     "nome": "C. Larin",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "J. Stephens",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "R. Manning",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "S. Edozie",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "D. Peretz",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "2",
+     "nome": "M. Roerslev",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "34",
+     "nome": "Welington",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "26",
+     "nome": "C. Bragg",
+     "pos": "CM"
+    },
+    {
+     "fp": 5,
+     "n": "6",
+     "nome": "Z. Abbott",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "15",
+     "nome": "N. Wood",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "30",
+     "nome": "J. Ward-Prowse",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "4",
+     "nome": "F. Downes",
+     "pos": "LM"
+    },
+    {
+     "fp": 9,
+     "n": "28",
+     "nome": "D. Mubama",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "27",
+     "nome": "K. Matsuki",
+     "pos": "RF"
+    },
+    {
+     "fp": 11,
+     "n": "11",
+     "nome": "L. Dobbin",
+     "pos": "LF"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T16:45:00-03:00",
+  "pg": "",
+  "time_casa": "Sheffield United",
+  "time_fora": "Southampton",
+  "v": 2
+ },
+ "401880143": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "15",
+     "nome": "F. Umeh-Chibueze",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "R. Shein",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "C. Shaughnessy",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "M. Pack",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "32",
+     "nome": "E. Kenny",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "J. Murphy",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "10",
+     "nome": "A. Segecic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "A. Kamara",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "B. Killip",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "N. Schmid",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "24",
+     "nome": "T. Devlin",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "22",
+     "nome": "Z. Swanson",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "38",
+     "nome": "E. Adams",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "5",
+     "nome": "R. Poole",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "55",
+     "nome": "M. Dia",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "17",
+     "nome": "T. Shade",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "37",
+     "nome": "I. Mohamed",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "20",
+     "nome": "T. Waddingham",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "27",
+     "nome": "O. Bailey",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "25",
+     "nome": "R. Kavuma-Mcqueen",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "comp": "championship",
+  "completa": true,
+  "fora": {
+   "esquema": "4-1-4-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "S. Magassa",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "O. Scarles",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "58",
+     "nome": "A. Golambeckis",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "28",
+     "nome": "T. Soucek",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "Morato",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "D. Mukasa",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "35",
+     "nome": "E. Austbø",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "M. Hermansen",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "V. Castellanos",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "49",
+     "nome": "F. Herrick",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "34",
+     "nome": "J. Veltman",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "63",
+     "nome": "E. Mayers",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "4",
+     "nome": "E. Álvarez",
+     "pos": "DM"
+    },
+    {
+     "fp": 5,
+     "n": "15",
+     "nome": "K. Mavropanos",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "3",
+     "nome": "M. Kilman",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "20",
+     "nome": "J. Bowen",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "7",
+     "nome": "A. Engels",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "J. Piroe",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "17",
+     "nome": "M. Kanté",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 11,
+     "n": "10",
+     "nome": "M. Solomon",
+     "pos": "LM"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T16:45:00-03:00",
+  "pg": "",
+  "time_casa": "Portsmouth",
+  "time_fora": "West Ham United",
+  "v": 2
+ },
+ "401880144": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "J. Córdoba",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "35",
+     "nome": "K. Fisher",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "V. Kovacevic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "24",
+     "nome": "J. Makama",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "12",
+     "nome": "L. Mahovo",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "29",
+     "nome": "O. Schwartau",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "K. McLean",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "A. Slimane",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "P. Mattsson",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "32",
+     "nome": "D. Grimshaw",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "3",
+     "nome": "J. Stacey",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "13",
+     "nome": "D. Yongwa",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "16",
+     "nome": "J. Wright",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "15",
+     "nome": "R. McConville",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "6",
+     "nome": "H. Darling",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "11",
+     "nome": "A. Brooks",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "26",
+     "nome": "S. Field",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "30",
+     "nome": "M. Kvistgaarden",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "25",
+     "nome": "P. Maghoma",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "49",
+     "nome": "A. Musaba",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "comp": "championship",
+  "completa": true,
+  "fora": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "12",
+     "nome": "B. Kemper",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "13",
+     "nome": "C. Ward",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "48",
+     "nome": "T. Lamptey",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "10",
+     "nome": "I. Chair",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "I. Alemayehu",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "J. Clark-Salter",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "R. Kone",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "K. Dembele",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "L. Scarlett",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "P. Charles",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "2",
+     "nome": "K. Adamson",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "19",
+     "nome": "D. Cirkin",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "18",
+     "nome": "G. Kamara",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "4",
+     "nome": "L. Morrison",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "5",
+     "nome": "R. Edwards",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "17",
+     "nome": "K. Poku",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "40",
+     "nome": "J. Varane",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "16",
+     "nome": "R. Burrell",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "20",
+     "nome": "H. Vale",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "14",
+     "nome": "K. Saito",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T16:45:00-03:00",
+  "pg": "",
+  "time_casa": "Norwich City",
+  "time_fora": "Queens Park Rangers",
+  "v": 2
+ },
+ "401880145": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-2-2-2",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "L. Castledine",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "S. Byram",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "9",
+     "nome": "T. Conway",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "S. Berhalter",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "J. Sarmiento",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "K. Joseph",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "M. Arfsten",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "31",
+     "nome": "S. Brynn",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "12",
+     "nome": "L. Ayling",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "R. Vítek",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "2",
+     "nome": "C. Brittain",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "30",
+     "nome": "N. Borges",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "14",
+     "nome": "M. Peart-Harris",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 5,
+     "n": "4",
+     "nome": "A. Phillips",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "29",
+     "nome": "A. Malanda",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "11",
+     "nome": "A. Cozier-Duberry",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "10",
+     "nome": "A. Morris",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "7",
+     "nome": "W. Lankshear",
+     "pos": "CF-L"
+    },
+    {
+     "fp": 10,
+     "n": "13",
+     "nome": "D. Strelec",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "8",
+     "nome": "R. McGree",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "comp": "championship",
+  "completa": true,
+  "fora": {
+   "esquema": "4-3-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "12",
+     "nome": "J. Monga",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "9",
+     "nome": "Z. Vipotnik",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "4",
+     "nome": "J. Fulton",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "T. Iorpenda",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "J. Seelt",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "31",
+     "nome": "R. Stewart",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "50",
+     "nome": "C. Heywood",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "44",
+     "nome": "T. Woodward",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "A. Fisher",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "22",
+     "nome": "L. Vigouroux",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "2",
+     "nome": "J. Key",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "26",
+     "nome": "F. Lissah",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "7",
+     "nome": "M. Widell",
+     "pos": "CM"
+    },
+    {
+     "fp": 5,
+     "n": "5",
+     "nome": "B. Cabango",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "23",
+     "nome": "S. Welsh",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "8",
+     "nome": "E. Just",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "46",
+     "nome": "S. Eustáquio",
+     "pos": "LM"
+    },
+    {
+     "fp": 9,
+     "n": "33",
+     "nome": "A. Idah",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "30",
+     "nome": "J. Opoku",
+     "pos": "RF"
+    },
+    {
+     "fp": 11,
+     "n": "10",
+     "nome": "E. Ji-Sung",
+     "pos": "LF"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T16:45:00-03:00",
+  "pg": "",
+  "time_casa": "Middlesbrough",
+  "time_fora": "Swansea City",
+  "v": 2
+ },
+ "401880146": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-1-4-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "M. Alli",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "34",
+     "nome": "O. Skipp",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "L. Jones",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "M. Leaburn",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "C. Kelman",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "T. Brooks",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "J. Edwards",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "A. Bell",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "8",
+     "nome": "H. Knibbs",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "13",
+     "nome": "A. Okonkwo",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "20",
+     "nome": "D. McNamara",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "18",
+     "nome": "I. Mesik",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "6",
+     "nome": "C. Coventry",
+     "pos": "DM"
+    },
+    {
+     "fp": 5,
+     "n": "44",
+     "nome": "T. Bindon",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "12",
+     "nome": "B. Koumetio",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "7",
+     "nome": "T. Campbell",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "26",
+     "nome": "J. Rankin-Costello",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 9,
+     "n": "24",
+     "nome": "M. Godden",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "14",
+     "nome": "S. Carey",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 11,
+     "n": "9",
+     "nome": "K. Grant",
+     "pos": "LM"
+    }
+   ]
+  },
+  "comp": "championship",
+  "completa": true,
+  "fora": {
+   "esquema": "4-4-2",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "15",
+     "nome": "S. Bradley",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "34",
+     "nome": "F. Draper",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "26",
+     "nome": "Y. Konak",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "D. Jefferies",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "R. Hackett-Fairchild",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "46",
+     "nome": "J. Gauci",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "8",
+     "nome": "T. Bayliss",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "C. Ogbene",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "C. Elder",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "G. Wickens",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "4",
+     "nome": "A. Coubis",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "6",
+     "nome": "R. Towler",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "24",
+     "nome": "I. Varfolomeev",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 5,
+     "n": "22",
+     "nome": "T. Hamer",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "25",
+     "nome": "A. Elerewe",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "3",
+     "nome": "A. Reach",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "33",
+     "nome": "D. Oyegoke",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "11",
+     "nome": "M. Ladefoged",
+     "pos": "CF-L"
+    },
+    {
+     "fp": 10,
+     "n": "17",
+     "nome": "R. Street",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "18",
+     "nome": "B. House",
+     "pos": "LM"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T16:45:00-03:00",
+  "pg": "",
+  "time_casa": "Charlton Athletic",
+  "time_fora": "Lincoln City",
+  "v": 2
+ },
+ "401880147": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-1-4-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "J. Colwill",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "C. Willock",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "50",
+     "nome": "C. Holt",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "R. Tankiewicz",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "52",
+     "nome": "T. Perrett",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "H. Tyrer",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "D. Turnbull",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "53",
+     "nome": "J. Davies",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "C. Scanlon",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "N. Trott",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "44",
+     "nome": "R. Kpakio",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "3",
+     "nome": "J. Bagan",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "18",
+     "nome": "A. Robertson",
+     "pos": "DM"
+    },
+    {
+     "fp": 5,
+     "n": "5",
+     "nome": "K. Bielik",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "2",
+     "nome": "W. Fish",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "11",
+     "nome": "O. Tanner",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "10",
+     "nome": "R. Colwill",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "Y. Salech",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "8",
+     "nome": "J. Moylan",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 11,
+     "n": "45",
+     "nome": "C. Ashford",
+     "pos": "LM"
+    }
+   ]
+  },
+  "comp": "championship",
+  "completa": true,
+  "fora": {
+   "esquema": "3-4-2-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "L. Leroy",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "J. Storey",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "12",
+     "nome": "C. Wiley",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "D. Iversen",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "10",
+     "nome": "C. Lang",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "32",
+     "nome": "E. Nolan",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "A. Vukcevic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "44",
+     "nome": "B. Potts",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "35",
+     "nome": "I. Irwin",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "21",
+     "nome": "L. Nicholls",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "17",
+     "nome": "S. Mills",
+     "pos": "RM"
+    },
+    {
+     "fp": 3,
+     "n": "11",
+     "nome": "T. Small",
+     "pos": "LM"
+    },
+    {
+     "fp": 4,
+     "n": "16",
+     "nome": "A. Hughes",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 5,
+     "n": "6",
+     "nome": "L. Lindsay",
+     "pos": "CD"
+    },
+    {
+     "fp": 6,
+     "n": "24",
+     "nome": "O. Offiah",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 7,
+     "n": "5",
+     "nome": "G. Docherty",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 8,
+     "n": "15",
+     "nome": "J. Thompson",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "37",
+     "nome": "D. Burgzorg",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "7",
+     "nome": "A. Devine",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "23",
+     "nome": "A. Moran",
+     "pos": "CF-L"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T16:45:00-03:00",
+  "pg": "",
+  "time_casa": "Cardiff City",
+  "time_fora": "Preston North End",
+  "v": 2
+ },
+ "401880148": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-4-2",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "T. Horvat",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "R. Cardines",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "B. Keersmaecker",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "R. Dickie",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "S. Tickle",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "45",
+     "nome": "E. Adebayo",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "Y. Hirakawa",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "8",
+     "nome": "J. Williams",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "G. Yah",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "40",
+     "nome": "B. Collins",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "19",
+     "nome": "G. Tanner",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "3",
+     "nome": "C. Pring",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "12",
+     "nome": "J. Knight",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 5,
+     "n": "15",
+     "nome": "L. McNally",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "5",
+     "nome": "R. Atkinson",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "17",
+     "nome": "J. Wallace",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "4",
+     "nome": "A. Randell",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "23",
+     "nome": "D. Ballard",
+     "pos": "CF-L"
+    },
+    {
+     "fp": 10,
+     "n": "9",
+     "nome": "L. Tolaj",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "10",
+     "nome": "S. Twine",
+     "pos": "LM"
+    }
+   ]
+  },
+  "comp": "championship",
+  "completa": true,
+  "fora": {
+   "esquema": "3-5-1-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "47",
+     "nome": "R. Longman",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "O. Rathbone",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "18",
+     "nome": "B. Sheaf",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "K. Moore",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "37",
+     "nome": "M. James",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "D. Hyam",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "D. Imray",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "26",
+     "nome": "Z. Vyner",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "D. Ward",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "22",
+     "nome": "A. Patterson",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "12",
+     "nome": "I. Kaboré",
+     "pos": "RM"
+    },
+    {
+     "fp": 3,
+     "n": "3",
+     "nome": "J. Ekomie",
+     "pos": "LM"
+    },
+    {
+     "fp": 4,
+     "n": "2",
+     "nome": "C. Doyle",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 5,
+     "n": "6",
+     "nome": "J. Worrall",
+     "pos": "CD"
+    },
+    {
+     "fp": 6,
+     "n": "4",
+     "nome": "M. Cleworth",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 7,
+     "n": "15",
+     "nome": "G. Dobson",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 8,
+     "n": "14",
+     "nome": "G. Thomason",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "11",
+     "nome": "B. Cadamarteri",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "27",
+     "nome": "L. O'Brien",
+     "pos": "RCF"
+    },
+    {
+     "fp": 11,
+     "n": "8",
+     "nome": "B. Whiteman",
+     "pos": "AM"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T16:45:00-03:00",
+  "pg": "",
+  "time_casa": "Bristol City",
+  "time_fora": "Wrexham",
+  "v": 2
+ },
  "401888370": {
   "achada": "2026-11-23T14:25-03:00",
   "casa": {
@@ -1173,6 +3561,1758 @@
   "pg": "",
   "time_casa": "Istanbul Basaksehir",
   "time_fora": "Çorum FK"
+ },
+ "401915294": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-3-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "G. Smal",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "39",
+     "nome": "L. Bossin",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "Nacho Ferri",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "R. Nelson",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "T. van den Elshout",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "T. Ernst",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "M. Deijl",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "57",
+     "nome": "J. Schaken",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "S. Steijn",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "4",
+     "nome": "T. Watanabe",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "G. Diarra",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "G. Borges",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "33",
+     "nome": "F. Kastenmeier",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "26",
+     "nome": "G. Read",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "16",
+     "nome": "J. López",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "34",
+     "nome": "C. Vanhoutte",
+     "pos": "CM"
+    },
+    {
+     "fp": 5,
+     "n": "24",
+     "nome": "T. Kraaijeveld",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "35",
+     "nome": "M. Mármol",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "8",
+     "nome": "G. Zechiël",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "28",
+     "nome": "O. Targhaline",
+     "pos": "LM"
+    },
+    {
+     "fp": 9,
+     "n": "49",
+     "nome": "S. Van Persie",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "23",
+     "nome": "A. Hadj Moussa",
+     "pos": "RF"
+    },
+    {
+     "fp": 11,
+     "n": "10",
+     "nome": "L. Valente",
+     "pos": "LF"
+    }
+   ]
+  },
+  "comp": "champions",
+  "completa": true,
+  "fora": {
+   "esquema": "4-3-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "9",
+     "nome": "S. Aghehowa",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "B. Sainz",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "18",
+     "nome": "N. Pérez",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "W. Gomes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "42",
+     "nome": "S. Fofana",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "52",
+     "nome": "M. Fernandes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "A. Silva",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "C. Ramos",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "A. Varela",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "H. In-Beom",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "74",
+     "nome": "Moura",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "Souza",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "99",
+     "nome": "D. Costa",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "20",
+     "nome": "A. Costa",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "12",
+     "nome": "Z. Sanusi",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "13",
+     "nome": "P. Rosario",
+     "pos": "CM"
+    },
+    {
+     "fp": 5,
+     "n": "5",
+     "nome": "J. Bednarek",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "4",
+     "nome": "J. Kiwior",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "8",
+     "nome": "V. Froholdt",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "10",
+     "nome": "G. Veiga",
+     "pos": "LM"
+    },
+    {
+     "fp": 9,
+     "n": "29",
+     "nome": "S. Gimenez",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "11",
+     "nome": "Pepê",
+     "pos": "RF"
+    },
+    {
+     "fp": 11,
+     "n": "77",
+     "nome": "O. Pietuszewski",
+     "pos": "LF"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T17:00:00-03:00",
+  "pg": "",
+  "time_casa": "Feyenoord Rotterdam",
+  "time_fora": "FC Porto",
+  "v": 2
+ },
+ "401915295": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "39",
+     "nome": "B. Guimarães",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "55",
+     "nome": "J. Porter",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "R. Calafiori",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "2",
+     "nome": "W. Saliba",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "56",
+     "nome": "M. Dowman",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "I. Meslier",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "10",
+     "nome": "E. Eze",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "29",
+     "nome": "K. Havertz",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "M. Merino",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "C. Mosquera",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "12",
+     "nome": "J. Timber",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "13",
+     "nome": "K. Arrizabalaga",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "4",
+     "nome": "B. White",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "5",
+     "nome": "P. Hincapié",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "49",
+     "nome": "M. Lewis-Skelly",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "15",
+     "nome": "E. Konsa",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "6",
+     "nome": "G. Magalhães",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "20",
+     "nome": "N. Madueke",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "41",
+     "nome": "D. Rice",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "14",
+     "nome": "V. Gyökeres",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "8",
+     "nome": "M. Ødegaard",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "17",
+     "nome": "C. Tzolis",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "comp": "champions",
+  "completa": true,
+  "fora": {
+   "esquema": "3-4-2-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "C. Chukwuemeka",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "9",
+     "nome": "S. Guirassy",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "33",
+     "nome": "A. Meyer",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "P. Drewes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "44",
+     "nome": "E. De Pina Duarte Dos Santos",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "39",
+     "nome": "F. Mané",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "M. Sabitzer",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "49",
+     "nome": "L. Reggiani",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "K. Karetsas",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "R. Bensebaini",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "41",
+     "nome": "M. Albert",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "18",
+     "nome": "E. Nwaneri",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "G. Kobel",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "26",
+     "nome": "J. Ryerson",
+     "pos": "RM"
+    },
+    {
+     "fp": 3,
+     "n": "24",
+     "nome": "D. Svensson",
+     "pos": "LM"
+    },
+    {
+     "fp": 4,
+     "n": "4",
+     "nome": "N. Schlotterbeck",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 5,
+     "n": "3",
+     "nome": "W. Anton",
+     "pos": "CD"
+    },
+    {
+     "fp": 6,
+     "n": "22",
+     "nome": "K. Gadou",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 7,
+     "n": "25",
+     "nome": "J. Veerman",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 8,
+     "n": "8",
+     "nome": "F. Nmecha",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "21",
+     "nome": "F. Silva",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "7",
+     "nome": "J. Bellingham",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "14",
+     "nome": "M. Beier",
+     "pos": "CF-L"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T17:00:00-03:00",
+  "pg": "",
+  "time_casa": "Arsenal",
+  "time_fora": "Borussia Dortmund",
+  "v": 2
+ },
+ "401915296": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "28",
+     "nome": "I. Smolcic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "S. Ricci",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "57",
+     "nome": "C. Mazzara",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "J. Butez",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "13",
+     "nome": "A. Dossena",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "54",
+     "nome": "M. Papaccioli",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "2",
+     "nome": "M. Kempf",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "12",
+     "nome": "L. Ginelli",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "M. Liberali",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "Kaiki",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "97",
+     "nome": "R. Sánchez",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "27",
+     "nome": "Y. Couto",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "3",
+     "nome": "Á. Valle",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "6",
+     "nome": "L. Milla",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "4",
+     "nome": "J. Ramón",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "99",
+     "nome": "T. Chalobah",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "7",
+     "nome": "L. Da Cunha",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "5",
+     "nome": "M. Perrone",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "T. Douvikas",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "10",
+     "nome": "N. Paz",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "20",
+     "nome": "M. Baturina",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "comp": "champions",
+  "completa": true,
+  "fora": {
+   "esquema": "4-1-2-1-2",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "C. Lykogiannis",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "90",
+     "nome": "Zini",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "91",
+     "nome": "A. Brignoli",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "D. Vida",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "João Mário",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "B. Varga",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "K. Kairinen",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "P. Mantalos",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "41",
+     "nome": "M. Balamotis",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "T. Strakosha",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "12",
+     "nome": "L. Rota",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "3",
+     "nome": "S. Pilios",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "18",
+     "nome": "R. Marin",
+     "pos": "DM"
+    },
+    {
+     "fp": 5,
+     "n": "2",
+     "nome": "H. Moukoudi",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "44",
+     "nome": "Filipe Relvas",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "14",
+     "nome": "L. Majer",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "8",
+     "nome": "M. Gacinovic",
+     "pos": "AM"
+    },
+    {
+     "fp": 9,
+     "n": "7",
+     "nome": "D. Kutesa",
+     "pos": "CF-L"
+    },
+    {
+     "fp": 10,
+     "n": "9",
+     "nome": "L. Jovic",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "27",
+     "nome": "M. Vitális",
+     "pos": "LM"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T17:00:00-03:00",
+  "pg": "",
+  "time_casa": "Como",
+  "time_fora": "AEK Athens",
+  "v": 2
+ },
+ "401915297": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-1-4-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "2",
+     "nome": "S. Kozlovsky",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "31",
+     "nome": "D. Gramblička",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "13",
+     "nome": "R. Cerepkai",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "A. Popovic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "M. Marko",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "26",
+     "nome": "R. Tománek",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "29",
+     "nome": "A. Maros",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "49",
+     "nome": "S. Camara",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "L. Hofstädter",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "A. Griger",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "70",
+     "nome": "C. Martínez",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "A. Yirajang",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "71",
+     "nome": "D. Takac",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "28",
+     "nome": "C. Blackman",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "57",
+     "nome": "S. Cruz",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "3",
+     "nome": "P. Pokorny",
+     "pos": "DM"
+    },
+    {
+     "fp": 5,
+     "n": "12",
+     "nome": "K. Bajric",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "15",
+     "nome": "S. Markovic",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "11",
+     "nome": "T. Barseghyan",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "88",
+     "nome": "D. Matsuoka",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 9,
+     "n": "99",
+     "nome": "A. Sporar",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "5",
+     "nome": "R. Ibrahim",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 11,
+     "n": "10",
+     "nome": "N. Marcelli",
+     "pos": "LM"
+    }
+   ]
+  },
+  "comp": "champions",
+  "completa": true,
+  "fora": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "4",
+     "nome": "Natan",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "T. Parrott",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "31",
+     "nome": "M. González",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "13",
+     "nome": "D. Conde",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "M. Bartra",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "R. Riquelme",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "M. Roca",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "2",
+     "nome": "H. Bellerín",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "15",
+     "nome": "Á. Fidalgo",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "J. Firpo",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "24",
+     "nome": "A. Ruibal",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "8",
+     "nome": "P. Fornals",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "Á. Valles",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "12",
+     "nome": "Á. Ortiz",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "11",
+     "nome": "F. García",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "6",
+     "nome": "F. Bernal",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "3",
+     "nome": "D. Llorente",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "16",
+     "nome": "V. Gómez",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "7",
+     "nome": "Antony",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "18",
+     "nome": "N. Deossa",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "C. Hernández",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "22",
+     "nome": "Isco",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "10",
+     "nome": "A. Ezzalzouli",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T17:00:00-03:00",
+  "pg": "",
+  "time_casa": "Slovan Bratislava",
+  "time_fora": "Real Betis",
+  "v": 2
+ },
+ "401915298": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-3-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "4",
+     "nome": "D. Huijsen",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "B. Díaz",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "12",
+     "nome": "T. Alexander-Arnold",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "C. Espí",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "13",
+     "nome": "A. Lunin",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "I. Konaté",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "18",
+     "nome": "Á. Carreras",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "E. Camavinga",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "24",
+     "nome": "D. Dumfries",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "J. Bellingham",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "T. Pitarch",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "26",
+     "nome": "S. Mestre",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "T. Courtois",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "8",
+     "nome": "F. Valverde",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "17",
+     "nome": "M. Cucurella",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "14",
+     "nome": "A. Tchouaméni",
+     "pos": "CM"
+    },
+    {
+     "fp": 5,
+     "n": "3",
+     "nome": "É. Militão",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "22",
+     "nome": "A. Rüdiger",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "20",
+     "nome": "B. Silva",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "15",
+     "nome": "A. Güler",
+     "pos": "LM"
+    },
+    {
+     "fp": 9,
+     "n": "10",
+     "nome": "K. Mbappé",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "25",
+     "nome": "Y. Diomande",
+     "pos": "RF"
+    },
+    {
+     "fp": 11,
+     "n": "7",
+     "nome": "Vinícius Júnior",
+     "pos": "LF"
+    }
+   ]
+  },
+  "comp": "champions",
+  "completa": true,
+  "fora": {
+   "esquema": "4-4-2",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "35",
+     "nome": "A. Santos",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "51",
+     "nome": "T. Smolenaars",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "N. Olij",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "9",
+     "nome": "R. Pepi",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "29",
+     "nome": "S. Lammers",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "Y. Gasiorowski",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "R. Flamingo",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "19",
+     "nome": "E. Bajraktarevic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "27",
+     "nome": "D. Man",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "31",
+     "nome": "N. Fernandez",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "25",
+     "nome": "K. Sildillia",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "32",
+     "nome": "M. Kovár",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "8",
+     "nome": "S. Dest",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "18",
+     "nome": "F. Kostic",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "24",
+     "nome": "K. Sano",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 5,
+     "n": "2",
+     "nome": "L. Geertruida",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "4",
+     "nome": "A. Obispo",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "5",
+     "nome": "I. Perisic",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "10",
+     "nome": "P. Wanner",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "21",
+     "nome": "S. Mijnans",
+     "pos": "CF-L"
+    },
+    {
+     "fp": 10,
+     "n": "20",
+     "nome": "G. Til",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "7",
+     "nome": "R. Van Bommel",
+     "pos": "LM"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T17:00:00-03:00",
+  "pg": "",
+  "time_casa": "Real Madrid",
+  "time_fora": "PSV Eindhoven",
+  "v": 2
+ },
+ "401915299": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "L. Klostermann",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "J. Bakayoko",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "31",
+     "nome": "T. Langsteiner",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "A. Maksimovic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "Ø. Nyland",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "E. Banzuzi",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "28",
+     "nome": "C. Nkunku",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "40",
+     "nome": "Rômulo",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "35",
+     "nome": "M. Finkgrafe",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "13",
+     "nome": "N. Seiwald",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "39",
+     "nome": "B. Henrichs",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "26",
+     "nome": "M. Vandevoordt",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "17",
+     "nome": "R. Baku",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "22",
+     "nome": "D. Raum",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "21",
+     "nome": "N. El Aynaoui",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "4",
+     "nome": "W. Orbán",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "3",
+     "nome": "M. Estève",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "10",
+     "nome": "B. Gruda",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "20",
+     "nome": "R. Reitz",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "27",
+     "nome": "T. Gomis",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "14",
+     "nome": "C. Baumgartner",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "7",
+     "nome": "A. Nusa",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "comp": "champions",
+  "completa": true,
+  "fora": {
+   "esquema": "3-4-3",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "31",
+     "nome": "S. Sagnan",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "32",
+     "nome": "K. Antonio",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "29",
+     "nome": "F. Ivanovic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "24",
+     "nome": "J. Gradit",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "M. Skoras",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "34",
+     "nome": "L. Joursky",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "28",
+     "nome": "J. Kadile",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "R. Gurtner",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "9",
+     "nome": "T. Hazard",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "5",
+     "nome": "A. Bulatovic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "16",
+     "nome": "M. Gorgelin",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "38",
+     "nome": "Mezian Soares",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "40",
+     "nome": "R. Risser",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "23",
+     "nome": "S. Abdulhamid",
+     "pos": "RM"
+    },
+    {
+     "fp": 3,
+     "n": "14",
+     "nome": "M. Udol",
+     "pos": "LM"
+    },
+    {
+     "fp": 4,
+     "n": "20",
+     "nome": "J. Todibo",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 5,
+     "n": "6",
+     "nome": "S. Baidoo",
+     "pos": "CD"
+    },
+    {
+     "fp": 6,
+     "n": "25",
+     "nome": "P. Ganiou",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 7,
+     "n": "8",
+     "nome": "Y. Titraoui",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 8,
+     "n": "21",
+     "nome": "A. Haidara",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "19",
+     "nome": "A. Sima",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "10",
+     "nome": "F. Thauvin",
+     "pos": "CF-R"
+    },
+    {
+     "fp": 11,
+     "n": "7",
+     "nome": "F. Sotoca",
+     "pos": "CF-L"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T17:00:00-03:00",
+  "pg": "",
+  "time_casa": "RB Leipzig",
+  "time_fora": "Lens",
+  "v": 2
  },
  "401915300": {
   "achada": "2026-11-24T15:31-03:00",
@@ -1454,6 +5594,276 @@
   "pg": "",
   "time_casa": "Galatasaray",
   "time_fora": "Aston Villa",
+  "v": 2
+ },
+ "401915379": {
+  "achada": "2026-11-25T00:10-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "47",
+     "nome": "P. Foden",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "45",
+     "nome": "A. Khusanov",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "82",
+     "nome": "R. Lewis",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "J. Doku",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "R. Dias",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "8",
+     "nome": "M. Kovacic",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "75",
+     "nome": "F. Samba",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "21",
+     "nome": "R. Aït-Nouri",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "28",
+     "nome": "G. Rulli",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "56",
+     "nome": "R. McAidoo",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "I. Ndiaye",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "22",
+     "nome": "Vitor Reis",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "1",
+     "nome": "G. Donnarumma",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "27",
+     "nome": "M. Nunes",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "33",
+     "nome": "N. O'Reilly",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "32",
+     "nome": "A. Bouaddi",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "6",
+     "nome": "M. Guéhi",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "24",
+     "nome": "J. Gvardiol",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "10",
+     "nome": "R. Cherki",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "5",
+     "nome": "E. Anderson",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "E. Haaland",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "17",
+     "nome": "E. Fernández",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "37",
+     "nome": "A. Elias",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "comp": "champions",
+  "completa": true,
+  "fora": {
+   "esquema": "4-5-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "14",
+     "nome": "N. Contini",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "Giovane",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "D. Neres",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "41",
+     "nome": "D. Spinelli",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "L. Lucca",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "38",
+     "nome": "A. Chiummariello",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "99",
+     "nome": "F. Anguissa",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "32",
+     "nome": "V. Milinkovic-Savic",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "37",
+     "nome": "L. Spinazzola",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "17",
+     "nome": "M. Olivera",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "11",
+     "nome": "K. De Bruyne",
+     "pos": "CM-R"
+    },
+    {
+     "fp": 5,
+     "n": "31",
+     "nome": "S. Beukema",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "13",
+     "nome": "A. Rrahmani",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "21",
+     "nome": "M. Politano",
+     "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "8",
+     "nome": "S. McTominay",
+     "pos": "CM-L"
+    },
+    {
+     "fp": 9,
+     "n": "19",
+     "nome": "R. Højlund",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "6",
+     "nome": "B. Gilmour",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "70",
+     "nome": "N. Lang",
+     "pos": "LM"
+    }
+   ]
+  },
+  "inicio": "2026-11-24T17:00:00-03:00",
+  "pg": "",
+  "time_casa": "Manchester City",
+  "time_fora": "Napoli",
   "v": 2
  },
  "401915380": {
@@ -1991,7 +6401,7 @@
   "v": 2
  },
  "401933738": {
-  "achada": "2026-11-25T00:03-03:00",
+  "achada": "2026-11-25T00:10-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -2122,7 +6532,7 @@
   "comp": "mls",
   "completa": false,
   "fora": {
-   "esquema": "4-2-3-1",
+   "esquema": "4-1-4-1",
    "reservas": [
     {
      "fp": 0,
@@ -2188,9 +6598,9 @@
     },
     {
      "fp": 2,
-     "n": "6",
-     "nome": "Artur",
-     "pos": "RB"
+     "n": "14",
+     "nome": "D. Holmes",
+     "pos": "CM-L"
     },
     {
      "fp": 3,
@@ -2200,9 +6610,9 @@
     },
     {
      "fp": 4,
-     "n": "16",
-     "nome": "H. Herrera",
-     "pos": "LM"
+     "n": "6",
+     "nome": "Artur",
+     "pos": "DM"
     },
     {
      "fp": 5,
@@ -2218,15 +6628,15 @@
     },
     {
      "fp": 7,
-     "n": "19",
-     "nome": "M. Bogusz",
-     "pos": "AM-R"
-    },
-    {
-     "fp": 8,
      "n": "24",
      "nome": "I. Aliyu",
      "pos": "RM"
+    },
+    {
+     "fp": 8,
+     "n": "16",
+     "nome": "H. Herrera",
+     "pos": "CM-R"
     },
     {
      "fp": 9,
@@ -2236,15 +6646,15 @@
     },
     {
      "fp": 10,
-     "n": "14",
-     "nome": "D. Holmes",
-     "pos": "AM"
+     "n": "19",
+     "nome": "M. Bogusz",
+     "pos": "LM"
     },
     {
      "fp": 11,
      "n": "20",
      "nome": "Guilherme Augusto",
-     "pos": "AM-L"
+     "pos": "RB"
     }
    ]
   },
