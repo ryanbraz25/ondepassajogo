@@ -182,7 +182,7 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/p.css?v=6">
 <link rel="stylesheet" href="/menu.css?v=2">
-<link rel="stylesheet" href="/personaliza.css?v=2">
+<link rel="stylesheet" href="/personaliza.css?v=3">
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <link rel="stylesheet" href="/aovivo.css?v=1">
 <link rel="stylesheet" href="/estatisticas.css?v=1">
@@ -193,7 +193,7 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="stylesheet" href="/lembretes.css?v=2">
 <script src="/lembretes.js?v=2" defer></script>
 <script src="/menu.js?v=2" defer></script>
-<script src="/personaliza.js?v=1" defer></script>
+<script src="/personaliza.js?v=2" defer></script>
 {cx.head_extra}
 {ld}</head>
 <body{' class="largo"' if largo else ''}>
@@ -237,11 +237,11 @@ def sem_canal(j, padrao):
     return "sem transmissão no Brasil" if sem_tx(j) else padrao
 
 
-ZAP_ICO = ('<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.6 1.1 2.8.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>')
+ZAP_ICO = ('<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11A2.99 2.99 0 0 0 21 5a3 3 0 1 0-5.91.7L8.04 9.81A2.99 2.99 0 0 0 3 12a3 3 0 0 0 5.04 2.19l7.12 4.16c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92Z"/></svg>')  # ícone padrão de compartilhar
 
 
 def botao_zap(texto, rotulo, tipo, classe="zap"):
-    """Botão de mandar no WhatsApp; o texto vai pronto (o personaliza.js abre o compartilhamento)."""
+    """Botão de compartilhar; o texto vai pronto (o personaliza.js abre o compartilhamento do aparelho)."""
     return (f'<button class="{classe}" type="button" data-zap="{e(tipo)}" data-texto="{e(texto)}" aria-label="{e(rotulo)}" title="{e(rotulo)}">'
             f'{ZAP_ICO}</button>')
 
@@ -262,7 +262,7 @@ def zap_jogo(cx, j):
     pl = j.get("placar")
     linhas = [f"⚽ *{j['casa']} {pl['casa']} x {pl['fora']} {j['fora']}*" if pl else f"⚽ *{j['casa']} x {j['fora']}*",
               f"🏆 {comp}", f"🕘 {data_longa(t)[0].upper() + data_longa(t)[1:]}, às {hora(t)} (Brasília)",
-              f"📺 {zap_canais(cx, j)}", "", f"Veja onde assistir: {URL}{j['_pg']}?utm_source=whatsapp&utm_medium=compartilhar"]
+              f"📺 {zap_canais(cx, j)}", "", f"Veja onde assistir: {URL}{j['_pg']}?utm_source=compartilhar&utm_medium=social"]
     return "\n".join(linhas)
 
 
@@ -277,7 +277,7 @@ def zap_lista(cx, jogos, titulo, caminho, limite=25):
         linhas += [f"{hora(j['_t'])} · {j['casa']} x {j['fora']} · {zap_canais(cx, j)}" for j in js]
     if len(jogos) > limite:
         linhas += ["", f"…e mais {len(jogos) - limite} jogos"]
-    linhas += ["", f"Veja todos e onde assistir: {URL}{caminho}?utm_source=whatsapp&utm_medium=compartilhar"]
+    linhas += ["", f"Veja todos e onde assistir: {URL}{caminho}?utm_source=compartilhar&utm_medium=social"]
     return "\n".join(linhas)
 
 
@@ -653,7 +653,7 @@ def pagina_jogo(cx, j):
         attrs = f' data-canal="{e(c)}"' + (f' data-reg="{e(",".join(reg))}"' if reg else "") + (' data-gr="1"' if gr else "")
         botoes += (f'<a class="{cls}" href="{e(link)}" target="_blank" rel="{rel_canal(cx, c, link)}"{attrs}>{miolo}</a>' if link
                    else f'<span class="{cls}"{attrs}>{miolo}</span>')
-    zap = botao_zap(zap_jogo(cx, j), "Mandar este jogo no WhatsApp", "jogo")
+    zap = botao_zap(zap_jogo(cx, j), "Compartilhar este jogo", "jogo")
     if botoes:
         bloco_canais = (f'<div class="botoes">{botoes}</div>'
                         + ('<p class="aconf">Transmissão a confirmar: ainda não saiu anúncio oficial.</p>' if j.get("status") == "a_confirmar"
@@ -928,7 +928,7 @@ def pagina_dia(cx, cam, rotulo, dia, jogos):
         blocos.append(f'<h2><a href="/campeonato/{slug(k)}/">{e(cx.comp_nome(k))}</a></h2>' + lista(cx, por_comp[k], mostrar_data=False, mostrar_comp=False))
     intro = (f"<p>{len(jogos)} jogos {rotulo}, {e(data_longa(d))}"
              + (f", {len(gr)} com transmissão grátis" if gr else "") + ". Toque no jogo para ver os canais e os links oficiais.</p>")
-    zap = botao_zap(zap_lista(cx, jogos, f"Jogos de {rotulo}, {data_curta(d)}", cam), f"Mandar os jogos de {rotulo} no WhatsApp", "lista") if jogos else ""
+    zap = botao_zap(zap_lista(cx, jogos, f"Jogos de {rotulo}, {data_curta(d)}", cam), f"Compartilhar os jogos de {rotulo}", "lista") if jogos else ""
     corpo = f"<h1>Jogos de {rotulo} na TV e onde assistir</h1>{intro}{zap}" + ("".join(blocos) if jogos else "<p>Nenhum jogo na agenda.</p>")
     return pagina(cx, cam, titulo, desc, corpo, None, [("Início", "/"), (f"Jogos de {rotulo}", cam)])
 

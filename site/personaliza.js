@@ -1,7 +1,7 @@
 /* Personalização do Onde Passa Jogo, guardada só no aparelho (sem conta, sem servidor):
    - meu estado: canal que só passa em alguns estados (ex.: Globo) mostra se passa para a pessoa;
    - meus canais: o que a pessoa assina, para destacar os jogos que ela consegue ver;
-   - mandar no WhatsApp: texto pronto do jogo ou da lista do dia.
+   - compartilhar: texto pronto do jogo ou da lista do dia (janela do aparelho ou WhatsApp/Telegram/copiar).
    Na página inicial este arquivo carrega antes do script principal, que usa window.OPJP.
    Nas páginas estáticas ele mesmo marca os botões de canal (data-canal, data-reg, data-gr). */
 (() => {
@@ -42,17 +42,54 @@
       livre(c, g) diz se o canal é grátis (a página inicial já sabe, inclusive YouTube grátis de canal pago). */
   const assiste = (g, livre) => (g.canais || []).some(c => alcanca(c, g) && (meus.has(c) || livre(c, g)));
 
-  // ---------------------------------------------------------------- WhatsApp
-  function compartilhar(texto, tipo) {
-    if (window.gtag) { try { window.gtag('event', 'share', { method: 'whatsapp', content_type: tipo || 'jogo' }); } catch (_) {} }
-    const toque = matchMedia('(pointer:coarse)').matches;
-    if (toque && navigator.share) {
-      navigator.share({ text: texto }).catch(e => { if (e && e.name !== 'AbortError') abrirZap(texto); });
+  // ---------------------------------------------------------------- compartilhar
+  // Usa a janela de compartilhar do próprio aparelho (celular e computador). Onde ela não existe,
+  // abre um menu pequeno junto do botão: WhatsApp, Telegram ou copiar o texto.
+  const evento = (metodo, tipo) => { if (window.gtag) { try { window.gtag('event', 'share', { method: metodo, content_type: tipo || 'jogo' }); } catch (_) {} } };
+  function compartilhar(texto, tipo, botao) {
+    if (navigator.share) {
+      navigator.share({ text: texto }).then(() => evento('nativo', tipo))
+        .catch(e => { if (e && e.name !== 'AbortError') menuCompartilhar(texto, tipo, botao); });
       return;
     }
-    abrirZap(texto);
+    menuCompartilhar(texto, tipo, botao);
   }
-  const abrirZap = texto => window.open('https://wa.me/?text=' + encodeURIComponent(texto), '_blank', 'noopener');
+  let menuC = null;
+  function fecharMenuC() { if (menuC) { menuC.remove(); menuC = null; } }
+  function menuCompartilhar(texto, tipo, botao) {
+    fecharMenuC();
+    const t = encodeURIComponent(texto);
+    const url = (texto.match(/https?:\/\/\S+/) || [location.href])[0];
+    menuC = document.createElement('div');
+    menuC.className = 'shm';
+    menuC.setAttribute('role', 'menu');
+    menuC.innerHTML = `<a role="menuitem" href="https://wa.me/?text=${t}" target="_blank" rel="noopener" data-m="whatsapp">WhatsApp</a>`
+      + `<a role="menuitem" href="https://t.me/share/url?url=${encodeURIComponent(url)}&text=${t}" target="_blank" rel="noopener" data-m="telegram">Telegram</a>`
+      + `<button role="menuitem" type="button" data-m="copiar">Copiar texto</button>`;
+    document.body.appendChild(menuC);
+    const r = (botao || document.body).getBoundingClientRect();
+    const w = menuC.offsetWidth, h = menuC.offsetHeight;
+    menuC.style.left = Math.max(8, Math.min(innerWidth - w - 8, r.right - w)) + 'px';
+    menuC.style.top = (r.bottom + h + 8 < innerHeight ? r.bottom + 6 : Math.max(8, r.top - h - 6)) + 'px';
+    menuC.addEventListener('click', async e => {
+      const it = e.target.closest('[data-m]'); if (!it) return;
+      evento(it.dataset.m, tipo);
+      if (it.dataset.m === 'copiar') {
+        try { await navigator.clipboard.writeText(texto); avisoC('Copiado! É só colar onde quiser.'); } catch (_) { avisoC('Não deu para copiar aqui.'); }
+      }
+      fecharMenuC();
+    });
+    menuC.querySelector('[data-m]').focus();
+  }
+  function avisoC(msg) {
+    const d = document.createElement('div');
+    d.className = 'shm-ok'; d.setAttribute('role', 'status'); d.textContent = msg;
+    document.body.appendChild(d);
+    setTimeout(() => d.remove(), 2600);
+  }
+  document.addEventListener('click', e => { if (menuC && !menuC.contains(e.target) && !e.target.closest('[data-zap],[data-zapg]')) fecharMenuC(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') fecharMenuC(); });
+  addEventListener('scroll', fecharMenuC, { passive: true });
 
   // ---------------------------------------------------------------- janela "Meu estado e meus canais"
   let canaisCfg = null;
@@ -135,7 +172,7 @@
     });
   }
 
-  // cliques que valem em qualquer página: abrir a janela e mandar no WhatsApp (texto pronto no botão)
+  // cliques que valem em qualquer página: abrir a janela e compartilhar (texto pronto no botão)
   document.addEventListener('click', e => {
     const pr = e.target.closest('[data-prefs]');
     if (pr) {
@@ -146,7 +183,7 @@
       return;
     }
     const z = e.target.closest('[data-zap][data-texto]');
-    if (z) { e.preventDefault(); compartilhar(z.dataset.texto, z.dataset.zap); }
+    if (z) { e.preventDefault(); compartilhar(z.dataset.texto, z.dataset.zap, z); }
   });
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', aplicarEstaticos); else aplicarEstaticos();
   if (location.hash === '#meus-canais') addEventListener('load', () => abrir('canais'));

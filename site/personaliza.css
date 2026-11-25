@@ -47,10 +47,10 @@ html.pz-aberto{overflow:hidden}
 
 /* WhatsApp */
 .zapb{display:inline-grid;place-items:center;width:32px;height:32px;padding:0;border-radius:50%;background:none;border:0;color:var(--mute,#6b7a71);cursor:pointer;opacity:.8}
-.zapb:hover{color:var(--pz-zap);opacity:1}
+.zapb:hover{color:var(--ink,#0f1a14);opacity:1}
 .zapb svg,.zap svg{flex:0 0 auto}
-.zap{display:inline-grid;place-items:center;width:38px;height:38px;padding:0;margin:0;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--pz-zap);cursor:pointer;vertical-align:middle}
-.zap:hover,.zapb:hover{background:color-mix(in srgb,var(--pz-zap) 10%,transparent)}
+.zap{display:inline-grid;place-items:center;width:38px;height:38px;padding:0;margin:0;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink,#0f1a14);cursor:pointer;vertical-align:middle}
+.zap:hover,.zapb:hover{background:color-mix(in srgb,var(--ink,#0f1a14) 8%,transparent)}
 .zap:focus-visible,.zapb:focus-visible,.lnk:focus-visible{outline:3px solid #ffd400;outline-offset:2px}
 h2 .zap{width:34px;height:34px}
 
@@ -72,3 +72,9 @@ h2 .zap{width:34px;height:34px}
 h2 small:has(.zap){display:inline-flex;align-items:center;gap:10px}
 h2 small .zap{margin:0}
 @media(max-width:640px){.toggle .short{display:inline}.pzedit{width:32px;height:32px}}
+
+/* menu de compartilhar (quando o aparelho não tem a janela própria) */
+.shm{position:fixed;z-index:60;display:flex;flex-direction:column;min-width:170px;padding:6px;border-radius:12px;background:var(--card,#fff);border:1px solid var(--line,#dfe6e1);box-shadow:0 12px 30px rgba(0,0,0,.18)}
+.shm a,.shm button{display:block;padding:10px 12px;border-radius:8px;border:0;background:none;color:var(--ink,#0f1a14);font:600 15px/1.2 Barlow,system-ui,sans-serif;text-align:left;text-decoration:none;cursor:pointer}
+.shm a:hover,.shm button:hover,.shm a:focus-visible,.shm button:focus-visible{background:color-mix(in srgb,var(--ink,#0f1a14) 8%,transparent);outline:none}
+.shm-ok{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:61;padding:10px 16px;border-radius:10px;background:var(--ink,#0f1a14);color:var(--bg,#fff);font:600 14px Barlow,system-ui,sans-serif}
