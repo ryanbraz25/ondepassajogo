@@ -105,7 +105,7 @@
     const todos = [jogoEs.casa, jogoEs.fora].flatMap(t => [...(t.titulares || []), ...(t.reservas || [])]);
     const temNum = todos.some(q => q.st && Object.keys(q.st).length);
     const numeros = temNum ? `<div class="jgs"><div><b>${st.g || 0}</b><span>${(st.g || 0) === 1 ? 'Gol' : 'Gols'}</span></div><div><b>${st.a || 0}</b><span>${(st.a || 0) === 1 ? 'Assistência' : 'Assistências'}</span></div></div>
-      <ul class="jls">${linhas}</ul><p class="jf">Dados da ESPN${box && !box.dataset.final ? ', atualizados durante o jogo' : ''}.</p>`
+      <ul class="jls">${linhas}</ul><p class="jf">Dados da ESPN${box && !box.dataset.final && Date.now() < Date.parse(box.dataset.ini) + 150 * 60e3 ? ', atualizados durante o jogo' : ''}.</p>`
       : '<p class="jf">A ESPN ainda não publicou os números dos jogadores deste jogo.</p>';
     return `<div class="jh"><b class="jn ${lado === 'c' ? 'ca' : 'fo'}">${esc(p.n)}</b><div><h3 id="jan-t">${esc(p.nome)}</h3>
         <p>${[posNome(p.pos), esc(time)].filter(Boolean).join(' · ')}</p></div>
