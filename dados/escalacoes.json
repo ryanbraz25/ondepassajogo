@@ -6401,7 +6401,7 @@
   "v": 2
  },
  "401933738": {
-  "achada": "2026-11-25T00:10-03:00",
+  "achada": "2026-11-25T00:20-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -6530,7 +6530,7 @@
    ]
   },
   "comp": "mls",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-1-4-1",
    "reservas": [
