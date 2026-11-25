@@ -413,6 +413,7 @@ header .wrap{position:relative}
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <script src="/rodadas.js?v=2" defer></script>
 <link rel="stylesheet" href="/aovivo.css?v=1">
+<link rel="stylesheet" href="/estatisticas.css?v=1">
 <script src="/aovivo.js?v=1" defer></script>
 <script src="/menu.js?v=2" defer></script>
 __ADSENSE_HEAD__
@@ -781,7 +782,7 @@ function abaComp(){if(S.view==='liga'&&S.liga)return S.liga;if(S.view==='todos'&
 function abasBar(k){
  const a=(D.abas||{})[k]||'';if(!a)return '';
  if(S.abaK!==k){S.abaK=k;S.aba='jogos'}
- const b=[['jogos','Jogos']].concat(a.includes('t')?[['tabela','Tabela']]:[],a.includes('d')?[['rodadas','Rodadas']]:a.includes('r')?[['resultados','Resultados']]:[]);
+ const b=[['jogos','Jogos']].concat(a.includes('t')?[['tabela','Tabela']]:[],a.includes('d')?[['rodadas','Rodadas']]:a.includes('r')?[['resultados','Resultados']]:[],a.includes('a')?[['artilharia','Artilharia']]:[]);
  return `<nav class="abas" role="tablist" aria-label="${esc(C(k).nome)}">${b.map(([i,n])=>`<button type="button" role="tab" class="aba${S.aba===i?' on':''}" data-aba="${i}" aria-selected="${S.aba===i}">${n}</button>`).join('')}<a class="abapg" href="/campeonato/${slugJS(k)}/">Página do campeonato ›</a></nav>`;
 }
 function crestTb(t,u){const x=ESC[t]||u;return x?`<img class="cr" src="${esc(/thesportsdb/.test(x)?x+'/tiny':x)}" alt="" width="20" height="20" loading="lazy" onerror="this.style.visibility='hidden'">`:'<span class="cr ini"></span>'}
@@ -799,7 +800,19 @@ function resultadosHtml(d){
  return '<ul class="rl">'+r.map(x=>{const t=new Date(x.inicio),k=dayKey(t),h=k!==dia?`<li class="rdia">${esc((s=>s.charAt(0).toUpperCase()+s.slice(1))(longDay(noon(k))))}</li>`:'';dia=k;const a=x.placar.casa,b=x.placar.fora;
   return h+`<li><span class="${a>b?'vc':''}">${crest(x.casa)}${esc(x.casa)}</span><b>${a} x ${b}</b><span class="${b>a?'vc':''}">${esc(x.fora)}${crest(x.fora)}</span>${x.pen?`<small>pên. ${x.pen[0]} x ${x.pen[1]}</small>`:''}</li>`}).join('')+'</ul>';
 }
+const ART={}; // artilharia por campeonato (/dados/art-<comp>.json, feito pelo robo/artilharia.py)
+function artilhariaHtml(d){
+ const tab=(xs,tit,col)=>`<div class="ar-bloco"><h3>${tit}</h3><table class="ar-tab"><thead><tr><th>#</th><th>Jogador</th><th title="${col}">${col[0]}</th><th title="Jogos">J</th></tr></thead><tbody>${xs.map(x=>`<tr><td class="ar-p">${x.pos}</td><td class="ar-j"><b>${esc(x.nome)}</b><span>${x.time?crestTb(x.time,x.esc)+esc(x.time):''}</span></td><td class="ar-n">${x.n}</td><td class="ar-g">${x.jogos||'–'}</td></tr>`).join('')}</tbody></table></div>`;
+ if(!d.gols||!d.gols.length)return '<p class="empty">Artilharia indisponível.</p>';
+ return `<div class="ar">${tab(d.gols,'Artilheiros','Gols')}${d.assist&&d.assist.length?tab(d.assist,'Assistências','Assistências'):''}</div><p class="ar-fonte">Gols e jogos na temporada ${esc(d.temporada||'')}.</p>`;
+}
 function painelHtml(k){
+ if(S.aba==='artilharia'){
+  const d=ART[k];
+  if(d===undefined){ART[k]=false;fetch(`/dados/art-${k}.json`,{cache:'no-cache'}).then(r=>r.json()).then(x=>{ART[k]=x;renderList()}).catch(()=>{ART[k]=null;renderList()})}
+  if(!d)return d===null?'<p class="empty">Não deu para carregar agora. Tente de novo em instantes.</p>':'<p class="empty">Carregando…</p>';
+  return artilhariaHtml(d);
+ }
  if(S.aba==='rodadas')return `<div class="rdhome" data-rodhome="${slugJS(k)}"></div>`; // rodadas.js monta a caixa
  const d=CAMP[k];
  if(d===undefined){CAMP[k]=false;fetch(`/dados/camp-${k}.json`,{cache:'no-cache'}).then(r=>r.json()).then(x=>{CAMP[k]=x;renderList()}).catch(()=>{CAMP[k]=null;renderList()})}

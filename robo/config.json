@@ -999,5 +999,17 @@
   "link_afiliado": "",
   "cupom": "",
   "autorizacao": ""
+ },
+ "guia": {
+  "comentario": "Texto curto e conferido de quem transmite cada campeonato (página /onde-passa/ e fim de cada página de campeonato). Só com fonte oficial ou jornalística; os canais de cada jogo vêm da agenda. Fontes: Lance! (Brasileirão 2026), Meio & Mensagem (Libertadores e Sul-Americana 2026), Trivela (futebol europeu 2026/27).",
+  "brasileirao-a": "Em 2026, o Grupo Globo tem jogos de todos os clubes: TV Globo (aberta), SporTV, Premiere (pay-per-view, com a maior parte dos jogos) e um jogo por rodada de graça no ge tv, no YouTube. Dos clubes da Liga Forte União, a Record e a CazéTV (grátis no YouTube) mostram um jogo por rodada, e o Prime Video tem um jogo exclusivo por rodada.",
+  "libertadores": "Em 2026, a Libertadores passa na TV Globo (aberta), na ESPN e no Disney+ (TV fechada e streaming) e no Paramount+. Na fase de grupos, Globoplay e ge.globo mostraram jogos de graça, por região.",
+  "sul-americana": "Em 2026, a Sul-Americana passa no SBT (aberta), na ESPN e no Disney+ e no Paramount+.",
+  "champions": "Na temporada 2026/27, o HBO Max tem todos os jogos; TNT e Space passam jogos selecionados na TV fechada; a TNT Sports mostra jogos de graça no YouTube na fase de liga; e o SBT passa um jogo de graça às terças.",
+  "premier": "Na temporada 2026/27, a Premier League é da Disney (ESPN e Disney+); a CazéTV mostra um jogo por rodada de graça no YouTube.",
+  "laliga": "Na temporada 2026/27, La Liga passa na CazéTV, de graça no YouTube.",
+  "serie-a-ita": "Na temporada 2026/27, o Campeonato Italiano é da Disney (ESPN e Disney+), e a SportyNet mostra jogos de graça no YouTube.",
+  "bundesliga": "Na temporada 2026/27, a Bundesliga passa na SportyNet (dois jogos por rodada de graça no YouTube e um no canal pago), na Jovem Pan (um jogo por rodada na TV aberta e no YouTube) e na Xsports.",
+  "ligue1": "Na temporada 2026/27, o Campeonato Francês passa na CazéTV, e a Xsports mostra três jogos por rodada na TV aberta."
  }
 }

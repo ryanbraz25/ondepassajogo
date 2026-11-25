@@ -1,0 +1,69 @@
+/* Estatísticas do jogo, artilharia e guia "onde passa" (páginas e página inicial) */
+
+/* ---- estatísticas do jogo (como no ge) */
+.estat{margin:18px 0 0;border:1px solid var(--line);border-radius:14px;padding:14px 16px 10px;background:var(--card)}
+.estat h2{margin:0 0 10px;font:800 22px/1.1 "Barlow Condensed",sans-serif}
+.estat h2 small{font:600 13px Barlow,sans-serif;color:var(--mute);margin-left:6px}
+.st-times{display:flex;justify-content:space-between;gap:12px;font:700 14px Barlow,sans-serif;color:var(--mute);margin-bottom:4px}
+.st-times span:last-child{text-align:right}
+.st-lista{list-style:none;margin:0;padding:0}
+.st-l{padding:8px 0;border-bottom:1px solid var(--line)}
+.st-l:last-child{border-bottom:0}
+.st-n{display:grid;grid-template-columns:56px 1fr 56px;align-items:baseline;gap:8px}
+.st-n span{text-align:center;font-size:14px;color:var(--mute)}
+.st-n b{font:700 18px Barlow,sans-serif;font-variant-numeric:tabular-nums;color:var(--mute)}
+.st-n b:last-child{text-align:right}
+.st-n b.lid{color:var(--ink)}
+.st-b{display:flex;gap:4px;height:6px;margin-top:5px}
+.st-b i{display:block;height:100%;border-radius:3px;min-width:3px;background:color-mix(in srgb,var(--mute) 30%,transparent)}
+.st-b i.st-bc{background:#0a6d35}
+.st-b i.st-bf{background:#f2b705}
+.st-zero .st-b i.st-bc,.st-zero .st-b i.st-bf{background:color-mix(in srgb,var(--mute) 25%,transparent)}
+.st-pct .st-n b{font-size:22px}
+.st-pct .st-b{height:12px}
+.st-pct .st-b i{border-radius:6px}
+
+/* ---- artilharia */
+.ar{display:grid;gap:16px}
+@media(min-width:720px){.ar{grid-template-columns:3fr 2fr;align-items:start}}
+.ar-bloco h3{margin:0 0 8px;font:800 19px "Barlow Condensed",sans-serif}
+.ar-tab{width:100%;border-collapse:collapse;font-size:15px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.ar-tab th{font:700 12px Barlow,sans-serif;text-transform:uppercase;letter-spacing:.04em;color:var(--mute);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+.ar-tab td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+.ar-tab tr:last-child td{border-bottom:0}
+.ar-tab th:nth-child(n+3),.ar-tab td:nth-child(n+3){text-align:center;width:44px}
+.ar-p{width:34px;font-weight:700;color:var(--mute)}
+.ar-j b{display:block;font-weight:700;line-height:1.2}
+.ar-j span{display:flex;align-items:center;gap:6px;margin-top:2px;font-size:13px;color:var(--mute)}
+.ar-j span a{color:inherit;text-decoration:none}
+.ar-j span a:hover{text-decoration:underline}
+.ar-j .cr{width:18px;height:18px;flex:0 0 auto;margin:0}
+.ar-n{font:800 18px "Barlow Condensed",sans-serif}
+.ar-g{color:var(--mute)}
+.ar-fonte{margin:8px 0 0;font-size:13px;color:var(--mute)}
+
+/* ---- guia "onde passa" */
+.guia-c{margin:26px 0 0;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.guia-c h2{margin:0 0 6px;font:800 22px/1.15 "Barlow Condensed",sans-serif}
+.guia-c>p{margin:6px 0;line-height:1.5}
+.gu-sub{color:var(--mute);font-size:14px;margin-top:10px!important}
+.gu-l{list-style:none;margin:6px 0 0;padding:0}
+.gu-l li{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:start;padding:8px 0;border-top:1px solid var(--line)}
+.gu-t{font:700 14px Barlow,sans-serif;color:var(--mute);padding-top:5px}
+.gu-cs{display:flex;flex-wrap:wrap;gap:6px}
+.gu-c{display:inline-flex;align-items:baseline;gap:6px;padding:5px 10px;border-radius:999px;border:1px solid var(--line);font-weight:700;font-size:14px;background:var(--bg)}
+.gu-c small{font-weight:600;font-size:12px;color:var(--mute)}
+.gu-c.gr{border-color:#0a7a3a;color:#0a7a3a}
+.gu-mais{margin:10px 0 0!important}
+.gu-mais a{font-weight:700;color:var(--link,#0a6d35)}
+.gu-idx{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 4px}
+.gu-idx a{padding:6px 12px;border-radius:999px;border:1px solid var(--line);text-decoration:none;color:var(--ink);font-weight:600;font-size:14px;background:var(--card)}
+.gu-idx a:hover{border-color:#0a6d35}
+@media(max-width:600px){.gu-l li{grid-template-columns:1fr;gap:4px}.gu-t{padding-top:0}}
+
+/* página do campeonato no computador: jogos à direita, tabela e artilharia empilhadas à esquerda */
+@media(min-width:1100px){
+ .camp2>#tabela,.camp2>#artilharia{grid-column:1}
+ .camp2>#jogos{grid-column:2;grid-row:1 / span 2}
+ .camp2>#artilharia{margin-top:8px}
+}

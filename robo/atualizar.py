@@ -442,7 +442,8 @@ def links_seo(dados):
                 key=lambda j: -(pop.get(" ".join(paginas.slug(j["casa"]).split("-")), 0) + pop.get(" ".join(paginas.slug(j["fora"]).split("-")), 0)))[:12]
     a = lambda href, txt: f'<a href="{escape(href)}">{escape(txt)}</a>'
     out = ['<nav class="seo" aria-label="Mais páginas">',
-           '<p><b>Agenda:</b> ' + a("/jogos-de-hoje/", "Jogos de hoje") + " · " + a("/jogos-de-amanha/", "Jogos de amanhã") + "</p>"]
+           '<p><b>Agenda:</b> ' + a("/jogos-de-hoje/", "Jogos de hoje") + " · " + a("/jogos-de-amanha/", "Jogos de amanhã")
+           + " · " + a("/onde-passa/", "Onde passa cada campeonato") + "</p>"]
     if jh:
         out.append("<p><b>Hoje:</b> " + " · ".join(a(j["pg"], f"{j['casa']} x {j['fora']}") for j in jh) + "</p>")
     out.append("<p><b>Campeonatos:</b> " + " · ".join(a(f"/campeonato/{paginas.slug(k)}/", dados["competicoes"][k]["nome"]) for k in comps) + "</p>")
@@ -531,6 +532,11 @@ def main():
     ativos = extras.ativos(jogos, hist)
     tabs_ativas = {k: v for k, v in tabs.items() if k in ativos}
     EXTRAS.update({"tabelas": tabs_ativas, "historico": hist, "escalacoes": esc_})
+    import artilharia
+    import estatisticas
+    EXTRAS["estatisticas"] = estatisticas.buscar(get_json, jogos, OFFLINE)
+    EXTRAS["artilharia"] = artilharia.buscar(cfg, get_json, tabs, nome, ativos, OFFLINE)
+    EXTRAS["guia"] = {k: v for k, v in (cfg.get("guia") or {}).items() if k != "comentario"}
 
     import paginas
     for j in jogos:
@@ -559,6 +565,12 @@ def main():
         "anuncios": {k: v for k, v in cfg.get("anuncios", {}).items() if k != "comentario"},
     }
     dados["abas"] = extras.arquivos_site(list(cfg["competicoes"]), tabs_ativas, hist, rodadas=EXTRAS["rodadas"])
+    # "a" = aba Artilharia na página inicial (arquivo art-<comp>.json, com o escudo de cada time)
+    esc_art = {l["time"]: l["esc"] for t in tabs.values() for g in t.get("grupos", []) for l in g["linhas"] if l.get("esc")}
+    esc_art.update(dados["escudos"])
+    artilharia.arquivos_site(EXTRAS["artilharia"], esc_art)
+    for c in EXTRAS["artilharia"]:
+        dados["abas"][c] = dados["abas"].get(c, "") + "a"
     nt = cfg.get("notificacoes") or {}
     if (nt.get("firebase") or {}).get("apiKey"):
         dados["push"] = {"cfg": nt["firebase"], "vapid": nt.get("vapid", "")}
