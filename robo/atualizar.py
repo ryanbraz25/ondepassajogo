@@ -533,6 +533,8 @@ def main():
     for x in hist["jogos"].values():  # a ESPN manda os estádios sem acento
         if x.get("local"):
             x["local"] = acentua(cfg, x["local"])
+        for lado in ("casa", "fora"):  # nome traduzido depois que o jogo entrou no histórico
+            x[lado] = nome(cfg, x[lado], x.get("comp"))
     if OFFLINE:
         tabs = extras.ler(extras.TABELAS, {})
     else:
