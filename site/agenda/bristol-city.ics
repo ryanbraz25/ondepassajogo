@@ -152,4 +152,21 @@ CATEGORIES:Championship (Inglaterra)
 URL:https://ondepassajogo.com.br/jogo/bristol-city-x-swansea-city-05-12-202
  6/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880104@ondepassajogo.com.br
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
+SUMMARY:Derby County x Bristol City
+DTSTART:20261209T194500Z
+DTEND:20261209T214500Z
+LOCATION:Pride Park\, Derby
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/derby-co
+ unty-x-bristol-city-09-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/derby-county-x-bristol-city-09-12-202
+ 6/
+END:VEVENT
 END:VCALENDAR

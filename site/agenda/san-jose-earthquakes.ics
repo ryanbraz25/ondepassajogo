@@ -90,16 +90,16 @@ CATEGORIES:MLS
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933738@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
 SUMMARY:San Jose Earthquakes x Houston Dynamo FC
 DTSTART:20261125T030000Z
 DTEND:20261125T050000Z
 LOCATION:PayPal Park\, San José\, California
-DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
- ir: https://ondepassajogo.com.br/jogo/san-jose-earthquakes-x-houston-dynam
- o-fc-25-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:MLS · Playoffs\nOnde passa: Apple TV\nDetalhes e onde assistir
+ : https://ondepassajogo.com.br/jogo/san-jose-earthquakes-x-houston-dynamo-
+ fc-25-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/san-jose-earthquakes-x-houston-dynamo

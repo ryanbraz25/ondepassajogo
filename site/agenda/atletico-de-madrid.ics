@@ -185,4 +185,21 @@ CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-real-betis-06-12
  -2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915366@ondepassajogo.com.br
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
+SUMMARY:PSV Eindhoven x Atlético de Madrid
+DTSTART:20261209T200000Z
+DTEND:20261209T220000Z
+LOCATION:Philips Stadion\, Eindhoven
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/psv-eindhoven-x-atletico
+ -de-madrid-09-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/psv-eindhoven-x-atletico-de-madrid-09
+ -12-2026/
+END:VEVENT
 END:VCALENDAR

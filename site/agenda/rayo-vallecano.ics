@@ -139,4 +139,21 @@ TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/rayo-vallecano-x-levante-05-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882849@ondepassajogo.com.br
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
+SUMMARY:Rayo Vallecano x Athletic Club
+DTSTART:20261209T190000Z
+DTEND:20261209T210000Z
+LOCATION:Estádio de Vallecas\, Madrid
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/rayo-vallecano-x-athlet
+ ic-club-09-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/rayo-vallecano-x-athletic-club-09-12-
+ 2026/
+END:VEVENT
 END:VCALENDAR

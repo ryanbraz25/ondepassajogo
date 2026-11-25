@@ -162,4 +162,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
 URL:https://ondepassajogo.com.br/jogo/lens-x-le-havre-ac-05-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915370@ondepassajogo.com.br
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
+SUMMARY:Lens x Bodo/Glimt
+DTSTART:20261209T200000Z
+DTEND:20261209T220000Z
+LOCATION:Stade Bollaert-Delelis\, Lens
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/lens-x-bodo-glimt-09-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/lens-x-bodo-glimt-09-12-2026/
+END:VEVENT
 END:VCALENDAR

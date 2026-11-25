@@ -1991,7 +1991,7 @@
   "v": 2
  },
  "401933738": {
-  "achada": "2026-11-24T23:51-03:00",
+  "achada": "2026-11-25T00:03-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -2122,7 +2122,7 @@
   "comp": "mls",
   "completa": false,
   "fora": {
-   "esquema": "4-1-4-1",
+   "esquema": "4-2-3-1",
    "reservas": [
     {
      "fp": 0,
@@ -2188,9 +2188,9 @@
     },
     {
      "fp": 2,
-     "n": "14",
-     "nome": "D. Holmes",
-     "pos": "CM-L"
+     "n": "6",
+     "nome": "Artur",
+     "pos": "RB"
     },
     {
      "fp": 3,
@@ -2200,9 +2200,9 @@
     },
     {
      "fp": 4,
-     "n": "6",
-     "nome": "Artur",
-     "pos": "DM"
+     "n": "16",
+     "nome": "H. Herrera",
+     "pos": "LM"
     },
     {
      "fp": 5,
@@ -2218,15 +2218,15 @@
     },
     {
      "fp": 7,
-     "n": "24",
-     "nome": "I. Aliyu",
-     "pos": "RM"
+     "n": "19",
+     "nome": "M. Bogusz",
+     "pos": "AM-R"
     },
     {
      "fp": 8,
-     "n": "16",
-     "nome": "H. Herrera",
-     "pos": "CM-R"
+     "n": "24",
+     "nome": "I. Aliyu",
+     "pos": "RM"
     },
     {
      "fp": 9,
@@ -2236,15 +2236,15 @@
     },
     {
      "fp": 10,
-     "n": "19",
-     "nome": "M. Bogusz",
-     "pos": "LM"
+     "n": "14",
+     "nome": "D. Holmes",
+     "pos": "AM"
     },
     {
      "fp": 11,
      "n": "20",
      "nome": "Guilherme Augusto",
-     "pos": "RB"
+     "pos": "AM-L"
     }
    ]
   },

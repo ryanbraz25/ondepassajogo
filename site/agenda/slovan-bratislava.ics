@@ -65,4 +65,21 @@ CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/slovan-bratislava-x-real-betis-24-11-
  2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915282@ondepassajogo.com.br
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
+SUMMARY:Slovan Bratislava x Shakhtar Donetsk
+DTSTART:20261209T174500Z
+DTEND:20261209T194500Z
+LOCATION:Národny Futbalovy Stadión\, Bratislava
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/slovan-bratislava-x-shak
+ htar-donetsk-09-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/slovan-bratislava-x-shakhtar-donetsk-
+ 09-12-2026/
+END:VEVENT
 END:VCALENDAR

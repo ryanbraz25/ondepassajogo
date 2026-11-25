@@ -76,15 +76,15 @@ CATEGORIES:Liga da Turquia
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401888370@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
 SUMMARY:Istanbul Basaksehir 4 x 2 Çorum FK
 DTSTART:20261123T170000Z
 DTEND:20261123T190000Z
 LOCATION:Basaksehir Fatih Terim Stadium\, Istanbul
 DESCRIPTION:Liga da Turquia\nDetalhes do jogo: https://ondepassajogo.com.br
  /jogo/istanbul-basaksehir-x-corum-fk-23-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga da Turquia
 URL:https://ondepassajogo.com.br/jogo/istanbul-basaksehir-x-corum-fk-23-11-

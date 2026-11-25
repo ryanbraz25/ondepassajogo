@@ -167,4 +167,20 @@ CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/sv-elversberg-x-vfb-stuttgart-06-12-2
  026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915365@ondepassajogo.com.br
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
+SUMMARY:VfB Stuttgart x Lille
+DTSTART:20261209T200000Z
+DTEND:20261209T220000Z
+LOCATION:MHPArena\, Stuttgart
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/vfb-stuttgart-x-lille-09
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/vfb-stuttgart-x-lille-09-12-2026/
+END:VEVENT
 END:VCALENDAR

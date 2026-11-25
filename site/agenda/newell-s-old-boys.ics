@@ -77,15 +77,15 @@ CATEGORIES:Argentino
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933756@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
 SUMMARY:Gimnasia La Plata 4 x 2 Newell's Old Boys
 DTSTART:20261123T200000Z
 DTEND:20261123T220000Z
 LOCATION:Juan Carmelo Zerillo (El Bosque)\, La Plata
 DESCRIPTION:Argentino\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/
  gimnasia-la-plata-x-newell-s-old-boys-23-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Argentino
 URL:https://ondepassajogo.com.br/jogo/gimnasia-la-plata-x-newell-s-old-boys

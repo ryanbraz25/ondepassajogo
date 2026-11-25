@@ -194,4 +194,21 @@ CATEGORIES:Serie A (Itália)
 URL:https://ondepassajogo.com.br/jogo/frosinone-x-inter-de-milao-05-12-2026
  /
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915368@ondepassajogo.com.br
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
+SUMMARY:Borussia Dortmund x Inter de Milão
+DTSTART:20261209T200000Z
+DTEND:20261209T220000Z
+LOCATION:Signal Iduna Park\, Aue
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/borussia-dortmund-x-inte
+ r-de-milao-09-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-inter-de-milao-09
+ -12-2026/
+END:VEVENT
 END:VCALENDAR

@@ -76,15 +76,15 @@ CATEGORIES:Premier League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879237@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
 SUMMARY:Brentford 4 x 0 Everton
 DTSTART:20261123T200000Z
 DTEND:20261123T220000Z
 LOCATION:Gtech Community Stadium\, Brentford
 DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
  jogo/brentford-x-everton-23-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/brentford-x-everton-23-11-2026/

@@ -148,31 +148,31 @@ URL:https://ondepassajogo.com.br/jogo/getafe-x-atletico-de-madrid-22-11-202
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882802@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
 SUMMARY:Levante 1 x 1 Elche
 DTSTART:20261123T200000Z
 DTEND:20261123T220000Z
 LOCATION:Estadi Ciutat de València\, Manises
 DESCRIPTION:La Liga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/le
  vante-x-elche-23-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/levante-x-elche-23-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882791@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
 SUMMARY:Levante x Racing Santander
 DTSTART:20261127T200000Z
 DTEND:20261127T220000Z
 LOCATION:Estadi Ciutat de València\, Manises
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/levante-x-racing-santan
- der-27-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis)\nDetalhes e onde assisti
+ r: https://ondepassajogo.com.br/jogo/levante-x-racing-santander-27-11-2026
+ /
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/levante-x-racing-santander-27-11-2026
@@ -230,16 +230,15 @@ URL:https://ondepassajogo.com.br/jogo/elche-x-atletico-de-madrid-28-11-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882789@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
 SUMMARY:Real Madrid x Alavés
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
 LOCATION:Santiago Bernabéu\, Madrid
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/real-madrid-x-alaves-28
- -11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis)\nDetalhes e onde assisti
+ r: https://ondepassajogo.com.br/jogo/real-madrid-x-alaves-28-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/real-madrid-x-alaves-28-11-2026/
@@ -521,5 +520,22 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/sevilla-x-malaga-07-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882849@ondepassajogo.com.br
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
+SUMMARY:Rayo Vallecano x Athletic Club
+DTSTART:20261209T190000Z
+DTEND:20261209T210000Z
+LOCATION:Estádio de Vallecas\, Madrid
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/rayo-vallecano-x-athlet
+ ic-club-09-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/rayo-vallecano-x-athletic-club-09-12-
+ 2026/
 END:VEVENT
 END:VCALENDAR

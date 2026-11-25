@@ -193,4 +193,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/chelsea-x-liverpool-05-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915369@ondepassajogo.com.br
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
+SUMMARY:Liverpool x FC Porto
+DTSTART:20261209T200000Z
+DTEND:20261209T220000Z
+LOCATION:Anfield\, Liverpool
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/liverpool-x-fc-porto-09-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/liverpool-x-fc-porto-09-12-2026/
+END:VEVENT
 END:VCALENDAR

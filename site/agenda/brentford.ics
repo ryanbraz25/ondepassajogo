@@ -63,30 +63,30 @@ CATEGORIES:Premier League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879237@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
 SUMMARY:Brentford 4 x 0 Everton
 DTSTART:20261123T200000Z
 DTEND:20261123T220000Z
 LOCATION:Gtech Community Stadium\, Brentford
 DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
  jogo/brentford-x-everton-23-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/brentford-x-everton-23-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879226@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T030534Z
+LAST-MODIFIED:20261125T030534Z
 SUMMARY:Manchester United x Brentford
 DTSTART:20261128T150000Z
 DTEND:20261128T170000Z
 LOCATION:Old Trafford\, Manchester
-DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/manchester-united-x-brentf
- ord-28-11-2026/
+DESCRIPTION:Premier League\nOnde passa: ESPN\, Disney+ (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/manchester-united-x
+ -brentford-28-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Premier League
