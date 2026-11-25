@@ -70,10 +70,8 @@
       const on = !!o[b.dataset.lemb];
       b.classList.toggle('on', on);
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
-      const t = b.querySelector('.lemb-t');
-      const txt = on ? 'Aviso marcado' : (b.dataset.curto ? 'Avisar' : 'Avisar 1 hora antes');
-      if (t && t.textContent !== txt) t.textContent = txt; // só muda se precisar (o observador abaixo vigia a página)
-      b.title = on ? 'Você vai receber um aviso 1 hora antes. Toque para desmarcar.' : 'Receber um aviso no celular 1 hora antes do jogo';
+      const txt = on ? 'Aviso marcado para 1 hora antes do jogo. Toque para desmarcar.' : 'Avisar 1 hora antes do jogo';
+      if (b.title !== txt) { b.title = txt; b.setAttribute('aria-label', txt); } // só muda se precisar (o observador abaixo vigia a página)
     });
   }
 
@@ -88,11 +86,11 @@
     if (!avisos()) {
       if (!ligar) return;
       // sem avisos ligados: o jogo fica marcado aqui e vai junto quando a pessoa ligar os avisos
-      if (window.OPJ && window.OPJ.avisos) { window.OPJ.avisos(); return; }
-      aviso('Jogo marcado. Falta ligar os avisos no celular.', { href: '/?utm_source=lembrete#avisos', texto: 'Ligar avisos' });
+      if (window.OPJ && window.OPJ.avisos) { aviso('Vamos te avisar 1 hora antes do jogo. Só falta ligar os avisos no celular.'); window.OPJ.avisos(); return; }
+      aviso('Vamos te avisar 1 hora antes do jogo. Só falta ligar os avisos no celular.', { href: '/?utm_source=lembrete#avisos', texto: 'Ligar avisos' });
       return;
     }
-    salvarNuvem().then(() => aviso(ligar ? 'Combinado! Você recebe um aviso 1 hora antes do jogo.' : 'Aviso desmarcado.'))
+    salvarNuvem().then(() => aviso(ligar ? 'Pronto! Vamos te avisar 1 hora antes do jogo.' : 'Aviso desmarcado.'))
       .catch(() => {
         const v = ler();
         if (ligar) delete v[pg]; else v[pg] = ini;

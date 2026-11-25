@@ -991,15 +991,6 @@
  "zonas_obs": {
   "brasileirao-a": "Faixas pelo regulamento de 2026. As vagas podem aumentar conforme os campeões da Copa do Brasil, da Libertadores e da Sul-Americana."
  },
- "apostas": {
-  "comentario": "Espaço publicitário de apostas nas páginas de palpites. Desligado (ativo: false). Para ligar: use SÓ operadora autorizada pela Secretaria de Prêmios e Apostas (lista oficial em gov.br, domínio .bet.br) e preencha nome, link_afiliado (do programa de afiliados da operadora), autorizacao (número da Portaria SPA/MF que autorizou a operadora, obrigatório no anúncio) e, se houver, cupom. O site mostra sozinho o selo 18+, a advertência do Ministério da Fazenda, o aviso de publicidade e os links de jogo responsável e autoexclusão. Se faltar algo ou o link não for .bet.br, o espaço não aparece.",
-  "ativo": false,
-  "operadora": "",
-  "nome": "",
-  "link_afiliado": "",
-  "cupom": "",
-  "autorizacao": ""
- },
  "guia": {
   "comentario": "Texto curto e conferido de quem transmite cada campeonato (página /onde-passa/ e fim de cada página de campeonato). Só com fonte oficial ou jornalística; os canais de cada jogo vêm da agenda. Fontes: Lance! (Brasileirão 2026), Meio & Mensagem (Libertadores e Sul-Americana 2026), Trivela (futebol europeu 2026/27).",
   "brasileirao-a": "Em 2026, o Grupo Globo tem jogos de todos os clubes: TV Globo (aberta), SporTV, Premiere (pay-per-view, com a maior parte dos jogos) e um jogo por rodada de graça no ge tv, no YouTube. Dos clubes da Liga Forte União, a Record e a CazéTV (grátis no YouTube) mostram um jogo por rodada, e o Prime Video tem um jogo exclusivo por rodada.",

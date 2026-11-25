@@ -219,4 +219,4 @@ def botao_agenda(caminho, quem):
 def botao_lembrete(caminho_jogo, inicio, grande=False):
     """Sino "Avisar 1 hora antes" (o lembretes.js mostra só onde dá para receber aviso e só antes do jogo)."""
     return (f'<button class="lemb{" grande" if grande else ""}" type="button" data-lemb="{_e(caminho_jogo)}" data-ini="{_e(inicio)}" '
-            f'aria-pressed="false" hidden>{ICO_SINO}<span class="lemb-t">Avisar 1 hora antes</span></button>')
+            f'aria-pressed="false" aria-label="Avisar 1 hora antes do jogo" title="Avisar 1 hora antes do jogo" hidden>{ICO_SINO}</button>')

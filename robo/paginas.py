@@ -178,7 +178,7 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/p.css?v=5">
 <link rel="stylesheet" href="/menu.css?v=2">
-<link rel="stylesheet" href="/personaliza.css?v=1">
+<link rel="stylesheet" href="/personaliza.css?v=2">
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <link rel="stylesheet" href="/aovivo.css?v=1">
 <link rel="stylesheet" href="/estatisticas.css?v=1">
@@ -186,8 +186,8 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <script src="/rodadas.js?v=2" defer></script>
 <script src="/aovivo.js?v=1" defer></script>
 <script src="/estatisticas.js?v=1" defer></script>
-<link rel="stylesheet" href="/lembretes.css?v=1">
-<script src="/lembretes.js?v=1" defer></script>
+<link rel="stylesheet" href="/lembretes.css?v=2">
+<script src="/lembretes.js?v=2" defer></script>
 <script src="/menu.js?v=2" defer></script>
 <script src="/personaliza.js?v=1" defer></script>
 {cx.head_extra}
@@ -238,8 +238,8 @@ ZAP_ICO = ('<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><
 
 def botao_zap(texto, rotulo, tipo, classe="zap"):
     """Botão de mandar no WhatsApp; o texto vai pronto (o personaliza.js abre o compartilhamento)."""
-    return (f'<button class="{classe}" type="button" data-zap="{e(tipo)}" data-texto="{e(texto)}">'
-            f'{ZAP_ICO}<span>{e(rotulo)}</span></button>')
+    return (f'<button class="{classe}" type="button" data-zap="{e(tipo)}" data-texto="{e(texto)}" aria-label="{e(rotulo)}" title="{e(rotulo)}">'
+            f'{ZAP_ICO}</button>')
 
 
 def zap_canais(cx, j):
@@ -328,7 +328,6 @@ def por_dia(cx, jogos, **kw):
 
 # ---------------------------------------------------------------- tabela, forma, resultados, escalações
 import extras as X  # noqa: E402
-import palpites as PALP  # noqa: E402
 import calendario as CAL  # noqa: E402
 
 COLS = '<tr><th class="c-pos">#</th><th class="c-time">Time</th><th>P</th><th>J</th><th class="c-x">V</th><th class="c-x">E</th><th class="c-x">D</th><th class="c-x">GP</th><th class="c-x">GC</th><th>SG</th><th class="c-f">Últimos 5</th></tr>'
@@ -371,7 +370,6 @@ _ICO = {
     "hoje": '<path d="M5 6h14v13H5zM5 10h14M9 3.5v4M15 3.5v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
     "amanha": '<path d="M5 6h14v13H5zM5 10h14M9 3.5v4M15 3.5v4M10 14.5h4m-1.5-1.5 1.5 1.5-1.5 1.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>',
     "agenda": '<path d="M5 6h14M5 12h14M5 18h9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>',
-    "palp": '<path d="M4 20V10M10 20V4M16 20v-8M22 20H2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
     "seg": '<path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
     "tab": '<path d="M4 5h16v14H4zM4 10h16M4 15h16M9 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
     "tv": '<rect x="3" y="5" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
@@ -404,7 +402,6 @@ def menu_html(comps, com_tabela):
         + item("/jogos-de-hoje/", "hoje", "Jogos de hoje")
         + item("/jogos-de-amanha/", "amanha", "Jogos de amanhã")
         + item("/", "agenda", "Agenda completa (15 dias)")
-        + item("/palpites-de-hoje/", "palp", "Palpites de hoje")
         + item("/#seguindo", "seg", "Meus times e campeonatos", ' data-menu-seguindo')
         + '</div>'
         + (f'<h3>Tabelas</h3><div class="mn-tb">{tabs}</div>' if tabs else "")
@@ -645,7 +642,7 @@ def pagina_jogo(cx, j):
         attrs = f' data-canal="{e(c)}"' + (f' data-reg="{e(",".join(reg))}"' if reg else "") + (' data-gr="1"' if gr else "")
         botoes += (f'<a class="{cls}" href="{e(link)}" target="_blank" rel="{rel_canal(cx, c, link)}"{attrs}>{miolo}</a>' if link
                    else f'<span class="{cls}"{attrs}>{miolo}</span>')
-    zap = botao_zap(zap_jogo(cx, j), "Mandar no WhatsApp", "jogo", "zap zapj")
+    zap = botao_zap(zap_jogo(cx, j), "Mandar este jogo no WhatsApp", "jogo")
     if botoes:
         bloco_canais = (f'<div class="botoes">{botoes}</div>'
                         + ('<p class="aconf">Transmissão a confirmar: ainda não saiu anúncio oficial.</p>' if j.get("status") == "a_confirmar"
@@ -679,16 +676,14 @@ def pagina_jogo(cx, j):
  </div>
  <a class="tm" href="/time/{slug(fora)}/">{escudo(cx, fora, 56)}<span>{e(fora)}</span>{rk(fora)}</a>
 </div>
-{status}{'' if encerrado else CAL.botao_lembrete(j['_pg'], t.isoformat(), grande=True)}
+<div class="jacoes">{status}<span class="jicones">{'' if encerrado else CAL.botao_lembrete(j['_pg'], t.isoformat(), grande=True)}{zap}</span></div>
 {lances_html(j)}
 {estatisticas.html(cx.stats.get(j.get("eid", "")), casa, fora)}
 <h2>{'Onde passou' if encerrado else 'Onde assistir'}</h2>
 {bloco_canais}
-{zap}
 <p class="cta2"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">★ Seguir {e(nl(casa))} ou {e(nl(fora))} e receber aviso no dia do jogo</a></p>
 {escalacoes_html(cx, j)}
 {como_chegam(cx, j)}
-{PALP.secao(cx, j)}
 {rel}
 <section class="sobre">
 <h2>Sobre o jogo</h2>
@@ -934,7 +929,6 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
     novas = {}
 
     cx.jogos = [j for j in cx.jogos if "A definir" not in (j["casa"], j["fora"])]
-    PALP.preparar(cx)  # palpites (j["_palp"]) antes das páginas dos jogos
     for j in cx.jogos:
         novas[j["_pg"]] = (pagina_jogo(cx, j), j["_t"].date().isoformat())
     times = {}
@@ -985,8 +979,6 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
     for cam, rot, dia in (("/jogos-de-hoje/", "hoje", cx.hoje), ("/jogos-de-amanha/", "amanhã", cx.hoje + timedelta(days=1))):
         js = [j for j in cx.jogos if j["_t"].date() == dia]
         novas[cam] = (pagina_dia(cx, cam, rot, dia, js), "")
-    for cam, rot, dia in (("/palpites-de-hoje/", "hoje", cx.hoje), ("/palpites-de-amanha/", "amanhã", cx.hoje + timedelta(days=1))):
-        novas[cam] = (PALP.pagina_palpites(cx, cam, rot, dia, pagina, escudo, hora, data_longa, URL), "")
 
     mudou = []
     agora = cx.agora.isoformat(timespec="minutes")
@@ -1024,7 +1016,7 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
         if cam in ("/jogos-de-hoje/", "/jogos-de-amanha/"):
             continue
         pri = "0.8" if cam.startswith("/jogo/") and info.get("dia", "") >= cx.hoje.isoformat() else (
-            "0.7" if cam.startswith(("/time/", "/campeonato/", "/tabelas/", "/palpites-", "/onde-passa/")) else "0.4")
+            "0.7" if cam.startswith(("/time/", "/campeonato/", "/tabelas/", "/onde-passa/")) else "0.4")
         urls.append((cam, info["mod"], "daily", pri))
     urls.append(("/privacidade.html", "2026-11-25", "yearly", "0.1"))
     xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
