@@ -536,6 +536,9 @@ def main():
     nt = cfg.get("notificacoes") or {}
     if (nt.get("firebase") or {}).get("apiKey"):
         dados["push"] = {"cfg": nt["firebase"], "vapid": nt.get("vapid", "")}
+        # as páginas de jogo leem daqui para gravar o lembrete "avisar 1 hora antes" (lembretes.js)
+        (RAIZ / "site" / "dados").mkdir(parents=True, exist_ok=True)
+        (RAIZ / "site" / "dados" / "push.json").write_text(json.dumps(dados["push"], ensure_ascii=False), encoding="utf-8")
     anterior.write_text(json.dumps(dados, ensure_ascii=False, indent=1), encoding="utf-8")
     gerar_site(dados)
     log(f"Pronto: {len(jogos)} jogos, site/index.html gerado.")
