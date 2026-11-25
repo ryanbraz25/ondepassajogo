@@ -14,6 +14,10 @@ from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 
+import artilharia
+import estatisticas
+import guia
+
 RAIZ = Path(__file__).resolve().parent.parent
 SITE = RAIZ / "site"
 URL = "https://ondepassajogo.com.br"
@@ -89,6 +93,9 @@ class Ctx:
         self.hist = ex.get("historico") or {"jogos": {}}
         self.escs = ex.get("escalacoes") or {}
         self.rods = ex.get("rodadas") or {}
+        self.stats = ex.get("estatisticas") or {}  # estatísticas dos jogos (robo/estatisticas.py)
+        self.art = ex.get("artilharia") or {}      # artilheiros por campeonato (robo/artilharia.py)
+        self.guia = ex.get("guia") or {}           # texto conferido de onde passa cada campeonato
         self.d = dados
         self.head_extra = head_extra
         self.favicon = favicon
@@ -166,9 +173,11 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="stylesheet" href="/menu.css?v=2">
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <link rel="stylesheet" href="/aovivo.css?v=1">
+<link rel="stylesheet" href="/estatisticas.css?v=1">
 <script src="/p.js?v=5" defer></script>
 <script src="/rodadas.js?v=2" defer></script>
 <script src="/aovivo.js?v=1" defer></script>
+<script src="/estatisticas.js?v=1" defer></script>
 <script src="/menu.js?v=2" defer></script>
 {cx.head_extra}
 {ld}</head>
@@ -180,7 +189,7 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 {corpo}
 </main>
 <footer class="wrap rodape">
-<p><a href="/jogos-de-hoje/">Jogos de hoje</a> · <a href="/jogos-de-amanha/">Jogos de amanhã</a> · <a href="/">Agenda completa</a> · <a href="https://www.instagram.com/ondepassajogo.com.br/" rel="noopener">Instagram</a> · <a href="/privacidade.html">Privacidade</a></p>
+<p><a href="/jogos-de-hoje/">Jogos de hoje</a> · <a href="/jogos-de-amanha/">Jogos de amanhã</a> · <a href="/">Agenda completa</a> · <a href="/onde-passa/">Onde passa cada campeonato</a> · <a href="https://www.instagram.com/ondepassajogo.com.br/" rel="noopener">Instagram</a> · <a href="/privacidade.html">Privacidade</a></p>
 <p>Horário de Brasília. Os links levam às páginas oficiais de cada emissora. Horários e canais podem mudar; "a confirmar" indica informação ainda não anunciada oficialmente.</p>
 </footer>
 </body>
@@ -288,6 +297,7 @@ _ICO = {
     "seg": '<path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
     "tab": '<path d="M4 5h16v14H4zM4 10h16M4 15h16M9 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
     "aviso": '<path d="M6 17V11a6 6 0 0 1 12 0v6l1.6 2H4.4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 21.5h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
+    "tv": '<rect x="3" y="5" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
     "ig": '<rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/>',
 }
 
@@ -320,6 +330,7 @@ def menu_html(comps, com_tabela):
         + '</div>'
         + (f'<h3>Tabelas</h3><div class="mn-tb">{tabs}</div>' if tabs else "")
         + item("/tabelas/", "tab", "Todas as tabelas", ' class="mn-all"')
+        + item("/onde-passa/", "tv", "Onde passa cada campeonato", ' class="mn-all"')
         + '<h3>Mais</h3><div class="mn-ls">'
         + item("/#avisos", "aviso", "Avisos no celular", ' data-menu-avisos')
         + item("https://www.instagram.com/ondepassajogo.com.br/", "ig", "Siga no Instagram", ' target="_blank" rel="noopener"')
@@ -578,6 +589,7 @@ def pagina_jogo(cx, j):
 </div>
 {status}
 {lances_html(j)}
+{estatisticas.html(cx.stats.get(j.get("eid", "")), casa, fora)}
 <h2>{'Onde passou' if encerrado else 'Onde assistir'}</h2>
 {bloco_canais}
 <p class="cta2"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">★ Seguir {e(nl(casa))} ou {e(nl(fora))} e receber aviso no dia do jogo</a></p>
@@ -660,10 +672,16 @@ def pagina_comp(cx, k, jogos):
         abas = [("tabela", "Tabela", tabela_html(cx, k)) if tem_tab else None,
                 ("jogos", "Próximos jogos", por_dia(cx, futuros, mostrar_comp=False) if futuros else "<p>Sem jogos marcados nos próximos dias.</p>"),
                 ("resultados", "Resultados", resultados_html(cx, res, mostrar_comp=False) if res else "<p>Sem resultados recentes.</p>")]
+    if cx.art.get(k):  # artilharia: no computador fica abaixo da tabela; no celular, numa aba
+        com_pagina = {t for j in cx.jogos for t in (j["casa"], j["fora"])}
+        linha = {l["time"]: l for g in (cx.tabs.get(k) or {}).get("grupos", []) for l in g["linhas"]}
+        abas.append(("artilharia", "Artilharia", artilharia.html(
+            cx.art[k], lambda t: esc_tab(cx, linha.get(t) or {"time": t}),
+            lambda t: f"/time/{slug(t)}/" if t in com_pagina else "")))
     abas = [a for a in abas if a]
     botoes = "".join(f'<a class="aba{" on" if i == 0 else ""}" href="#{a[0]}" role="tab" data-aba="{a[0]}">{e(a[1])}</a>' for i, a in enumerate(abas))
     secoes = "".join(f'<section id="{a[0]}" class="painel" role="tabpanel"><h2 class="ph">{e(a[1])}</h2>{a[2]}</section>' for a in abas)
-    lado_a_lado = bool(rd) and len(abas) == 2
+    lado_a_lado = bool(rd) and tem_tab
     if tem_tab:
         g0 = cx.tabs[k]["grupos"]
         lider = g0[0]["linhas"][0]
@@ -682,7 +700,7 @@ def pagina_comp(cx, k, jogos):
         g = rd["rodadas"][rd["atual"]]
         desc = desc.replace("próximos jogos", f"jogos da {g['nome'].split(' · ')[-1]}", 1) if "próximos jogos" in desc else desc
     nav = f'<nav class="abas" role="tablist">{botoes}</nav>' if len(abas) > 1 else ""
-    corpo = f'<h1>{h1}</h1>' + (f'<div class="camp2">{nav}{secoes}</div>' if lado_a_lado else nav + secoes)
+    corpo = f'<h1>{h1}</h1>' + (f'<div class="camp2">{nav}{secoes}</div>' if lado_a_lado else nav + secoes) + guia.bloco(cx, k)
     return pagina(cx, cam, titulo, desc, corpo, None, [("Início", "/"), (nome, cam)], largo=lado_a_lado)
 
 
@@ -854,6 +872,7 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
         novas[f"/campeonato/{slug(k)}/"] = (pagina_comp(cx, k, comps.get(k, [])), "")
     if cx.tabs:
         novas["/tabelas/"] = (pagina_tabelas(cx), "")
+    novas["/onde-passa/"] = (guia.pagina_guia(cx), "")
     for cam, rot, dia in (("/jogos-de-hoje/", "hoje", cx.hoje), ("/jogos-de-amanha/", "amanhã", cx.hoje + timedelta(days=1))):
         js = [j for j in cx.jogos if j["_t"].date() == dia]
         novas[cam] = (pagina_dia(cx, cam, rot, dia, js), "")
@@ -894,7 +913,7 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
         if cam in ("/jogos-de-hoje/", "/jogos-de-amanha/"):
             continue
         pri = "0.8" if cam.startswith("/jogo/") and info.get("dia", "") >= cx.hoje.isoformat() else (
-            "0.7" if cam.startswith(("/time/", "/campeonato/", "/tabelas/")) else "0.4")
+            "0.7" if cam.startswith(("/time/", "/campeonato/", "/tabelas/", "/onde-passa/")) else "0.4")
         urls.append((cam, info["mod"], "daily", pri))
     urls.append(("/privacidade.html", "2026-11-17", "yearly", "0.1"))
     xml = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
