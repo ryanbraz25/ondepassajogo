@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Gimnástica Torrelavega · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Gimnástica Torrelavega com horário de Brasília e o
+ nde assistir. Atualiza sozinho: https://ondepassajogo.com.br/time/gimnasti
+ ca-torrelavega/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928517@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Gimnástica Torrelavega 3 x 1 UD Ourense
+DTSTART:20261029T193000Z
+DTEND:20261029T213000Z
+LOCATION:El Malecon\, Torrelavega
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936397@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Gimnástica Torrelavega x Alavés
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:El Malecon\, Torrelavega
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/gimnastica-torrelavega
+ -x-alaves-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/gimnastica-torrelavega-x-alaves-01-12
+ -2026/
+END:VEVENT
+END:VCALENDAR

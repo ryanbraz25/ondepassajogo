@@ -1,0 +1,112 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Heerenveen · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Heerenveen com horário de Brasília e onde assistir.
+  Atualiza sozinho: https://ondepassajogo.com.br/time/heerenveen/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401875583@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heerenveen 4 x 0 Excelsior
+DTSTART:20261016T180000Z
+DTEND:20261016T200000Z
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875571@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:ADO Den Haag 2 x 3 Heerenveen
+DTSTART:20261024T190000Z
+DTEND:20261024T210000Z
+LOCATION:ADO Den Haag Stadium\, Den Haag
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875563@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heerenveen 1 x 0 NEC Nijmegen
+DTSTART:20261031T174500Z
+DTEND:20261031T194500Z
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875551@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heerenveen 5 x 3 Feyenoord Rotterdam
+DTSTART:20261108T111500Z
+DTEND:20261108T131500Z
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875546@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Groningen 1 x 3 Heerenveen
+DTSTART:20261121T200000Z
+DTEND:20261121T220000Z
+LOCATION:Euroborg\, Groningen
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/fc-groningen-x-heerenveen-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-groningen-x-heerenveen-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875534@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fortuna Sittard x Heerenveen
+DTSTART:20261129T133000Z
+DTEND:20261129T153000Z
+LOCATION:Fortuna Sittard Stadion\, Sittard
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fortuna-sitta
+ rd-x-heerenveen-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fortuna-sittard-x-heerenveen-29-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875524@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heerenveen x SC Cambuur
+DTSTART:20261206T111500Z
+DTEND:20261206T131500Z
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/heerenveen-x-
+ sc-cambuur-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/heerenveen-x-sc-cambuur-06-12-2026/
+END:VEVENT
+END:VCALENDAR

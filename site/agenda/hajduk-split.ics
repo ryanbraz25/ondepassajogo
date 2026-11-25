@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Hajduk Split · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Hajduk Split com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/hajduk-split/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915861@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hajduk Split 2 x 1 Ajax Amsterdam
+DTSTART:20261015T164500Z
+DTEND:20261015T184500Z
+LOCATION:Stadion Poljud\, Split
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915834@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Thun 0 x 1 Hajduk Split
+DTSTART:20261022T190000Z
+DTEND:20261022T210000Z
+LOCATION:Stockhorn Arena\, Thun
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915742@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lincoln Red Imps 1 x 0 Hajduk Split
+DTSTART:20261105T174500Z
+DTEND:20261105T194500Z
+LOCATION:Europa Point Stadium\, Gibraltar
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915805@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hajduk Split x Sint-Truidense
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Stadion Poljud\, Split
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/hajduk-split-
+ x-sint-truidense-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/hajduk-split-x-sint-truidense-26-11-2
+ 026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,457 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bundesliga · Onde Passa Jogo
+X-WR-CALDESC:Jogos Bundesliga com horário de Brasília e onde assistir. ht
+ tps://ondepassajogo.com.br/campeonato/bundesliga/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401884736@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique 1 x 1 FC Cologne
+DTSTART:20261120T193000Z
+DTEND:20261120T213000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /bayern-de-munique-x-fc-cologne-20-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayern-de-munique-x-fc-cologne-20-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884728@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SV Elversberg 0 x 1 SC Freiburg
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:URSAPHARM-Arena an der Kaiserlinde\, Spiesen-Elversberg
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /sv-elversberg-x-sc-freiburg-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sv-elversberg-x-sc-freiburg-21-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884731@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Borussia Mönchengladbach 0 x 1 Borussia Dortmund
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:BORUSSIA-PARK\, Mönchengladbach
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /borussia-monchengladbach-x-borussia-dortmund-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/borussia-monchengladbach-x-borussia-d
+ ortmund-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884732@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:1. FC Union Berlin 1 x 5 RB Leipzig
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:Stadion An der Alten Försterei\, Berlin
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /1-fc-union-berlin-x-rb-leipzig-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-rb-leipzig-21-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884734@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Eintracht Frankfurt 1 x 0 TSG Hoffenheim
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:Deutsche Bank Park\, Frankfurt
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /eintracht-frankfurt-x-tsg-hoffenheim-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/eintracht-frankfurt-x-tsg-hoffenheim-
+ 21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884735@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayer Leverkusen 4 x 0 SC Paderborn 07
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /bayer-leverkusen-x-sc-paderborn-07-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-sc-paderborn-07-21
+ -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884729@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Schalke 04 0 x 0 VfB Stuttgart
+DTSTART:20261121T173000Z
+DTEND:20261121T193000Z
+LOCATION:Veltins Arena\, Gelsenkirchen
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /schalke-04-x-vfb-stuttgart-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/schalke-04-x-vfb-stuttgart-21-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884733@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Augsburg 3 x 1 Mainz
+DTSTART:20261122T143000Z
+DTEND:20261122T163000Z
+LOCATION:WWK Arena\, Augsburg
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /fc-augsburg-x-mainz-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/fc-augsburg-x-mainz-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884730@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Werder Bremen 4 x 0 Hamburg SV
+DTSTART:20261122T163000Z
+DTEND:20261122T183000Z
+LOCATION:Weserstadion\, Bremen
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /werder-bremen-x-hamburg-sv-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/werder-bremen-x-hamburg-sv-22-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884720@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Werder Bremen x Borussia Mönchengladbach
+DTSTART:20261127T193000Z
+DTEND:20261127T213000Z
+LOCATION:Weserstadion\, Bremen
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/werder-bremen-x-borussia-m
+ onchengladbach-27-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/werder-bremen-x-borussia-monchengladb
+ ach-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884721@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Cologne x SV Elversberg
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+LOCATION:RheinEnergieStadion\, Cologne
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/fc-cologne-x-sv-elversberg
+ -28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/fc-cologne-x-sv-elversberg-28-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884722@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hamburg SV x Bayern de Munique
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+LOCATION:Volksparkstadion\, Hamburg Norderstedt
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/hamburg-sv-x-bayern-de-mun
+ ique-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/hamburg-sv-x-bayern-de-munique-28-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884723@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Mainz x 1. FC Union Berlin
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+LOCATION:MEWA ARENA\, Mainz
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/mainz-x-1-fc-union-berlin-
+ 28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/mainz-x-1-fc-union-berlin-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884719@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Paderborn 07 x Schalke 04
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+LOCATION:Home Deluxe Arena\, Paderborn
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sc-paderborn-07-x-schalke-
+ 04-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sc-paderborn-07-x-schalke-04-28-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884726@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:VfB Stuttgart x Eintracht Frankfurt
+DTSTART:20261128T173000Z
+DTEND:20261128T193000Z
+LOCATION:MHPArena\, Stuttgart
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/vfb-stuttgart-x-eintracht-
+ frankfurt-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/vfb-stuttgart-x-eintracht-frankfurt-2
+ 8-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884724@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Freiburg x RB Leipzig
+DTSTART:20261129T143000Z
+DTEND:20261129T163000Z
+LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sc-freiburg-x-rb-leipzig-2
+ 9-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sc-freiburg-x-rb-leipzig-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884725@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:TSG Hoffenheim x FC Augsburg
+DTSTART:20261129T163000Z
+DTEND:20261129T183000Z
+LOCATION:PreZero Arena\, Sinsheim
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-fc-augsbu
+ rg-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-fc-augsburg-29-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884727@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Borussia Dortmund x Bayer Leverkusen
+DTSTART:20261129T183000Z
+DTEND:20261129T203000Z
+LOCATION:Signal Iduna Park\, Aue
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/borussia-dortmund-x-bayer-
+ leverkusen-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-bayer-leverkusen-
+ 29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884718@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique x SC Paderborn 07
+DTSTART:20261204T193000Z
+DTEND:20261204T213000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/bayern-de-munique-x-sc-pad
+ erborn-07-04-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayern-de-munique-x-sc-paderborn-07-0
+ 4-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884712@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:1. FC Union Berlin x Hamburg SV
+DTSTART:20261205T143000Z
+DTEND:20261205T163000Z
+LOCATION:Stadion An der Alten Försterei\, Berlin
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-hambur
+ g-sv-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-hamburg-sv-05-12-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884716@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayer Leverkusen x Borussia Mönchengladbach
+DTSTART:20261205T143000Z
+DTEND:20261205T163000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-borussi
+ a-monchengladbach-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-borussia-monchengl
+ adbach-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884713@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Augsburg x FC Cologne
+DTSTART:20261205T143000Z
+DTEND:20261205T163000Z
+LOCATION:WWK Arena\, Augsburg
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/fc-augsburg-x-fc-cologne-0
+ 5-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/fc-augsburg-x-fc-cologne-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884717@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:RB Leipzig x Mainz
+DTSTART:20261205T143000Z
+DTEND:20261205T163000Z
+LOCATION:Red Bull Arena\, Leipzig
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/rb-leipzig-x-mainz-05-12-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/rb-leipzig-x-mainz-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884715@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Freiburg x TSG Hoffenheim
+DTSTART:20261205T143000Z
+DTEND:20261205T163000Z
+LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sc-freiburg-x-tsg-hoffenhe
+ im-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sc-freiburg-x-tsg-hoffenheim-05-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884714@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Eintracht Frankfurt x Werder Bremen
+DTSTART:20261205T173000Z
+DTEND:20261205T193000Z
+LOCATION:Deutsche Bank Park\, Frankfurt
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/eintracht-frankfurt-x-werd
+ er-bremen-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/eintracht-frankfurt-x-werder-bremen-0
+ 5-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884711@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Schalke 04 x Borussia Dortmund
+DTSTART:20261206T143000Z
+DTEND:20261206T163000Z
+LOCATION:Veltins Arena\, Gelsenkirchen
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/schalke-04-x-borussia-dort
+ mund-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/schalke-04-x-borussia-dortmund-06-12-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884710@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SV Elversberg x VfB Stuttgart
+DTSTART:20261206T163000Z
+DTEND:20261206T183000Z
+LOCATION:URSAPHARM-Arena an der Kaiserlinde\, Spiesen-Elversberg
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sv-elversberg-x-vfb-stuttg
+ art-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sv-elversberg-x-vfb-stuttgart-06-12-2
+ 026/
+END:VEVENT
+END:VCALENDAR

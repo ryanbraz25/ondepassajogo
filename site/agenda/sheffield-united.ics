@@ -1,0 +1,174 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Sheffield United · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Sheffield United com horário de Brasília e onde ass
+ istir. Atualiza sozinho: https://ondepassajogo.com.br/time/sheffield-unite
+ d/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880222@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Portsmouth 3 x 2 Sheffield United
+DTSTART:20261014T184500Z
+DTEND:20261014T204500Z
+LOCATION:Fratton Park\, Portsmouth
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880219@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bristol City 0 x 1 Sheffield United
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:Ashton Gate\, Bristol
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880200@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sheffield United 1 x 1 Derby County
+DTSTART:20261024T113000Z
+DTEND:20261024T133000Z
+LOCATION:Bramall Lane\, Sheffield
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880190@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sheffield United 1 x 0 Wrexham
+DTSTART:20261030T200000Z
+DTEND:20261030T220000Z
+LOCATION:Bramall Lane\, Sheffield
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880180@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Preston North End 2 x 3 Sheffield United
+DTSTART:20261103T194500Z
+DTEND:20261103T214500Z
+LOCATION:Deepdale\, Preston
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880168@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Charlton Athletic 2 x 1 Sheffield United
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:The Valley\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880154@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sheffield United 4 x 0 Watford
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Bramall Lane\, Sheffield
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/sheffield-united-x-watford-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/sheffield-united-x-watford-21-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880142@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sheffield United 1 x 1 Southampton
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Bramall Lane\, Sheffield
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/sheffield-united-x-southampton-24-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/sheffield-united-x-southampton-24-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880130@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers x Sheffield United
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/queens-p
+ ark-rangers-x-sheffield-united-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/queens-park-rangers-x-sheffield-unite
+ d-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880116@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sheffield United x West Ham United
+DTSTART:20261204T200000Z
+DTEND:20261204T220000Z
+LOCATION:Bramall Lane\, Sheffield
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sheffiel
+ d-united-x-west-ham-united-04-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/sheffield-united-x-west-ham-united-04
+ -12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880110@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall x Sheffield United
+DTSTART:20261208T194500Z
+DTEND:20261208T214500Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/millwall
+ -x-sheffield-united-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/millwall-x-sheffield-united-08-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Bayer Leverkusen · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Bayer Leverkusen com horário de Brasília e onde ass
+ istir. Atualiza sozinho: https://ondepassajogo.com.br/time/bayer-leverkuse
+ n/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915576@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lech Poznan 0 x 4 Bayer Leverkusen
+DTSTART:20261015T164500Z
+DTEND:20261015T184500Z
+LOCATION:Municipal Stadium-Poznan\, Poznan
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884771@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayer Leverkusen 2 x 1 SC Freiburg
+DTSTART:20261018T133000Z
+DTEND:20261018T153000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915559@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:OFI Crete 0 x 2 Bayer Leverkusen
+DTSTART:20261022T164500Z
+DTEND:20261022T184500Z
+LOCATION:Pankritio Stadium\, Crete
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884760@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:TSG Hoffenheim 3 x 0 Bayer Leverkusen
+DTSTART:20261025T143000Z
+DTEND:20261025T163000Z
+LOCATION:PreZero Arena\, Sinsheim
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884753@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayer Leverkusen 2 x 4 VfB Stuttgart
+DTSTART:20261031T143000Z
+DTEND:20261031T163000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915533@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayer Leverkusen 0 x 1 Marseille
+DTSTART:20261105T200000Z
+DTEND:20261105T220000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884738@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Cologne 1 x 2 Bayer Leverkusen
+DTSTART:20261108T143000Z
+DTEND:20261108T163000Z
+LOCATION:RheinEnergieStadion\, Cologne
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884735@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayer Leverkusen 4 x 0 SC Paderborn 07
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /bayer-leverkusen-x-sc-paderborn-07-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-sc-paderborn-07-21
+ -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915517@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Dinamo Zagreb x Bayer Leverkusen
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Maksimir Stadium\, Zagreb
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/dinamo-zagreb-x-bay
+ er-leverkusen-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/dinamo-zagreb-x-bayer-leverkusen-26-1
+ 1-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884727@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Borussia Dortmund x Bayer Leverkusen
+DTSTART:20261129T183000Z
+DTEND:20261129T203000Z
+LOCATION:Signal Iduna Park\, Aue
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/borussia-dortmund-x-bayer-
+ leverkusen-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-bayer-leverkusen-
+ 29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884716@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayer Leverkusen x Borussia Mönchengladbach
+DTSTART:20261205T143000Z
+DTEND:20261205T163000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-borussi
+ a-monchengladbach-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-borussia-monchengl
+ adbach-05-12-2026/
+END:VEVENT
+END:VCALENDAR

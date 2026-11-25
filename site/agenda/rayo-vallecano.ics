@@ -1,0 +1,142 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Rayo Vallecano · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Rayo Vallecano com horário de Brasília e onde assis
+ tir. Atualiza sozinho: https://ondepassajogo.com.br/time/rayo-vallecano/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401882842@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Getafe 1 x 1 Rayo Vallecano
+DTSTART:20261019T190000Z
+DTEND:20261019T210000Z
+LOCATION:Estádio Coliseum\, Getafe
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882830@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Rayo Vallecano 0 x 3 Elche
+DTSTART:20261024T120000Z
+DTEND:20261024T140000Z
+LOCATION:Estádio de Vallecas\, Madrid
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401928533@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Recreativo Huelva 2 x 3 Rayo Vallecano
+DTSTART:20261027T200000Z
+DTEND:20261027T220000Z
+LOCATION:Estádio Nuevo Colombino\, Huelva
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882818@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Rayo Vallecano 3 x 0 Celta Vigo
+DTSTART:20261031T151500Z
+DTEND:20261031T171500Z
+LOCATION:Estádio de Vallecas\, Madrid
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882810@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Sociedad 1 x 0 Rayo Vallecano
+DTSTART:20261108T151500Z
+DTEND:20261108T171500Z
+LOCATION:Reale Arena\, San Sebastian
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882799@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Rayo Vallecano 0 x 1 Valencia
+DTSTART:20261121T151500Z
+DTEND:20261121T171500Z
+LOCATION:Estádio de Vallecas\, Madrid
+DESCRIPTION:La Liga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/ra
+ yo-vallecano-x-valencia-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/rayo-vallecano-x-valencia-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882796@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Betis x Rayo Vallecano
+DTSTART:20261128T130000Z
+DTEND:20261128T150000Z
+LOCATION:Estádio La Cartuja\, Sevilla
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/real-betis-x-rayo-valle
+ cano-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/real-betis-x-rayo-vallecano-28-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936400@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CE Europa x Rayo Vallecano
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:Camp Municipal de Futbol Nou Sardenya\, Barcelona
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/ce-europa-x-rayo-valle
+ cano-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/ce-europa-x-rayo-vallecano-01-12-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882779@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Rayo Vallecano x Levante
+DTSTART:20261205T151500Z
+DTEND:20261205T171500Z
+LOCATION:Estádio de Vallecas\, Madrid
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/rayo-vallecano-x-levant
+ e-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/rayo-vallecano-x-levante-05-12-2026/
+END:VEVENT
+END:VCALENDAR

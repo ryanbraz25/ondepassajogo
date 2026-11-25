@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Brasil · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Brasil com horário de Brasília e onde assistir. Atu
+ aliza sozinho: https://ondepassajogo.com.br/time/brasil/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401916337@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Japão 3 x 2 Brasil
+DTSTART:20261114T101500Z
+DTEND:20261114T121500Z
+LOCATION:Singapore National Stadium\, Singapore
+DESCRIPTION:Seleção / Amistosos
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Seleção / Amistosos
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401916335@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Singapura 0 x 7 Brasil
+DTSTART:20261117T100000Z
+DTEND:20261117T120000Z
+LOCATION:Singapore National Stadium\, Singapore
+DESCRIPTION:Seleção / Amistosos\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/singapura-x-brasil-17-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Seleção / Amistosos
+URL:https://ondepassajogo.com.br/jogo/singapura-x-brasil-17-11-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do SC Paderborn 07 · Onde Passa Jogo
+X-WR-CALDESC:Jogos do SC Paderborn 07 com horário de Brasília e onde assi
+ stir. Atualiza sozinho: https://ondepassajogo.com.br/time/sc-paderborn-07/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401884766@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Werder Bremen 2 x 2 SC Paderborn 07
+DTSTART:20261017T133000Z
+DTEND:20261017T153000Z
+LOCATION:Weserstadion\, Bremen
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884755@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Paderborn 07 1 x 0 Hamburg SV
+DTSTART:20261024T133000Z
+DTEND:20261024T153000Z
+LOCATION:Home Deluxe Arena\, Paderborn
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884749@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Borussia Mönchengladbach 0 x 0 SC Paderborn 07
+DTSTART:20261031T143000Z
+DTEND:20261031T163000Z
+LOCATION:BORUSSIA-PARK\, Mönchengladbach
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884737@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Paderborn 07 2 x 2 Eintracht Frankfurt
+DTSTART:20261107T143000Z
+DTEND:20261107T163000Z
+LOCATION:Home Deluxe Arena\, Paderborn
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884735@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayer Leverkusen 4 x 0 SC Paderborn 07
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /bayer-leverkusen-x-sc-paderborn-07-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-sc-paderborn-07-21
+ -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884719@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Paderborn 07 x Schalke 04
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+LOCATION:Home Deluxe Arena\, Paderborn
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sc-paderborn-07-x-schalke-
+ 04-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sc-paderborn-07-x-schalke-04-28-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884718@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique x SC Paderborn 07
+DTSTART:20261204T193000Z
+DTEND:20261204T213000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/bayern-de-munique-x-sc-pad
+ erborn-07-04-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayern-de-munique-x-sc-paderborn-07-0
+ 4-12-2026/
+END:VEVENT
+END:VCALENDAR

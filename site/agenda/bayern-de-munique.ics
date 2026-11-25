@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Bayern de Munique · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Bayern de Munique com horário de Brasília e onde as
+ sistir. Atualiza sozinho: https://ondepassajogo.com.br/time/bayern-de-muni
+ que/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915411@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Viking FK 3 x 3 Bayern de Munique
+DTSTART:20261013T190000Z
+DTEND:20261013T210000Z
+LOCATION:Viking Stadion\, Stavanger
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884772@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique 6 x 1 RB Leipzig
+DTSTART:20261017T163000Z
+DTEND:20261017T183000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915312@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique 2 x 2 Arsenal
+DTSTART:20261021T190000Z
+DTEND:20261021T210000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884759@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Freiburg 1 x 3 Bayern de Munique
+DTSTART:20261025T163000Z
+DTEND:20261025T183000Z
+LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884754@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique 2 x 2 Borussia Dortmund
+DTSTART:20261031T173000Z
+DTEND:20261031T193000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915386@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid 0 x 2 Bayern de Munique
+DTSTART:20261103T200000Z
+DTEND:20261103T220000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884740@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Mainz 1 x 2 Bayern de Munique
+DTSTART:20261107T143000Z
+DTEND:20261107T163000Z
+LOCATION:MEWA ARENA\, Mainz
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884736@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique 1 x 1 FC Cologne
+DTSTART:20261120T193000Z
+DTEND:20261120T213000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /bayern-de-munique-x-fc-cologne-20-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayern-de-munique-x-fc-cologne-20-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915377@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lille x Bayern de Munique
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Decathlon Arena - Stade Pierre-Mauroy\, Lille
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: TNT (grátis)\, HBO
+  Max\nSpace na TV e TNT Sports no YouTube\nDetalhes e onde assistir: https
+ ://ondepassajogo.com.br/jogo/lille-x-bayern-de-munique-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/lille-x-bayern-de-munique-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884722@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hamburg SV x Bayern de Munique
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+LOCATION:Volksparkstadion\, Hamburg Norderstedt
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/hamburg-sv-x-bayern-de-mun
+ ique-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/hamburg-sv-x-bayern-de-munique-28-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884718@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique x SC Paderborn 07
+DTSTART:20261204T193000Z
+DTEND:20261204T213000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/bayern-de-munique-x-sc-pad
+ erborn-07-04-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayern-de-munique-x-sc-paderborn-07-0
+ 4-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915284@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique x Slavia Prague
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/bayern-de-munique-x-slav
+ ia-prague-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/bayern-de-munique-x-slavia-prague-08-
+ 12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Cheltenham Town · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Cheltenham Town com horário de Brasília e onde assi
+ stir. Atualiza sozinho: https://ondepassajogo.com.br/time/cheltenham-town/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401931088@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cheltenham Town 2 x 0 FC Halifax Town
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:The Completely-Suzuki Stadium\, Cheltenham
+DESCRIPTION:FA Cup
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933817@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chesterfield x Cheltenham Town
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:SMH Group Stadium\, Chesterfield
+DESCRIPTION:FA Cup\nOnde passa: canais ainda não anunciados\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/chesterfield-x-cheltenham-t
+ own-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+URL:https://ondepassajogo.com.br/jogo/chesterfield-x-cheltenham-town-05-12-
+ 2026/
+END:VEVENT
+END:VCALENDAR

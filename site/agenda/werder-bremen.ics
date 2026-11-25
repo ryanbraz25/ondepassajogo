@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Werder Bremen · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Werder Bremen com horário de Brasília e onde assist
+ ir. Atualiza sozinho: https://ondepassajogo.com.br/time/werder-bremen/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401884766@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Werder Bremen 2 x 2 SC Paderborn 07
+DTSTART:20261017T133000Z
+DTEND:20261017T153000Z
+LOCATION:Weserstadion\, Bremen
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884757@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Mainz 2 x 3 Werder Bremen
+DTSTART:20261024T133000Z
+DTEND:20261024T153000Z
+LOCATION:MEWA ARENA\, Mainz
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884748@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Werder Bremen 2 x 0 TSG Hoffenheim
+DTSTART:20261031T143000Z
+DTEND:20261031T163000Z
+LOCATION:Weserstadion\, Bremen
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884743@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:VfB Stuttgart 1 x 0 Werder Bremen
+DTSTART:20261107T173000Z
+DTEND:20261107T193000Z
+LOCATION:MHPArena\, Stuttgart
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884730@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Werder Bremen 4 x 0 Hamburg SV
+DTSTART:20261122T163000Z
+DTEND:20261122T183000Z
+LOCATION:Weserstadion\, Bremen
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /werder-bremen-x-hamburg-sv-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/werder-bremen-x-hamburg-sv-22-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884720@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Werder Bremen x Borussia Mönchengladbach
+DTSTART:20261127T193000Z
+DTEND:20261127T213000Z
+LOCATION:Weserstadion\, Bremen
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/werder-bremen-x-borussia-m
+ onchengladbach-27-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/werder-bremen-x-borussia-monchengladb
+ ach-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884714@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Eintracht Frankfurt x Werder Bremen
+DTSTART:20261205T173000Z
+DTEND:20261205T193000Z
+LOCATION:Deutsche Bank Park\, Frankfurt
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/eintracht-frankfurt-x-werd
+ er-bremen-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/eintracht-frankfurt-x-werder-bremen-0
+ 5-12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,129 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Ipswich Town · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Ipswich Town com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/ipswich-town/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401879259@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 3 x 2 Ipswich Town
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879253@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ipswich Town 1 x 1 Nottingham Forest
+DTSTART:20261023T190000Z
+DTEND:20261023T210000Z
+LOCATION:Portman Road\, Ipswich
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878763@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hull City 2 x 2 Ipswich Town
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:The MKM Stadium\, Hull
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878759@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ipswich Town 1 x 2 Bournemouth
+DTSTART:20261108T140000Z
+DTEND:20261108T160000Z
+LOCATION:Portman Road\, Ipswich
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878754@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham 2 x 0 Ipswich Town
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/tottenham-x-ipswich-town-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/tottenham-x-ipswich-town-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878752@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ipswich Town x Aston Villa
+DTSTART:20261128T173000Z
+DTEND:20261128T193000Z
+LOCATION:Portman Road\, Ipswich
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/ipswich-town-x-aston-villa
+ -28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/ipswich-town-x-aston-villa-28-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879221@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coventry City x Ipswich Town
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:Coventry Building Society Arena\, Coventry
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/coventry-city-x-ipswich-to
+ wn-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/coventry-city-x-ipswich-town-01-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879211@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Leeds x Ipswich Town
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Elland Road\, Leeds
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/leeds-x-ipswich-town-05-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/leeds-x-ipswich-town-05-12-2026/
+END:VEVENT
+END:VCALENDAR

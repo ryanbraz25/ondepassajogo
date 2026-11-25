@@ -1,0 +1,151 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Chapecoense · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Chapecoense com horário de Brasília e onde assistir
+ . Atualiza sozinho: https://ondepassajogo.com.br/time/chapecoense/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401841265@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chapecoense 1 x 4 Athletico-PR
+DTSTART:20261012T223000Z
+DTEND:20261013T003000Z
+LOCATION:Arena Condá\, Chapecó
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841268@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Botafogo 1 x 0 Chapecoense
+DTSTART:20261017T210000Z
+DTEND:20261017T230000Z
+LOCATION:João Havelange Stadium\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841278@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chapecoense 2 x 1 Fluminense
+DTSTART:20261024T223000Z
+DTEND:20261025T003000Z
+LOCATION:Arena Condá\, Chapecó
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841291@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Red Bull Bragantino 3 x 0 Chapecoense
+DTSTART:20261028T223000Z
+DTEND:20261029T003000Z
+LOCATION:Estádio Municipal Cicero de Souza Marques\, Bragança Paulista
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841304@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chapecoense 1 x 2 Mirassol
+DTSTART:20261103T223000Z
+DTEND:20261104T003000Z
+LOCATION:Arena Condá\, Chapecó
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841175@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chapecoense 0 x 2 Vasco
+DTSTART:20261114T233000Z
+DTEND:20261115T013000Z
+LOCATION:Arena Condá\, Chapecó
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841310@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Remo 2 x 0 Chapecoense
+DTSTART:20261118T230000Z
+DTEND:20261119T010000Z
+LOCATION:Mangueirão\, Belém
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/remo-x-chapecoense-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/remo-x-chapecoense-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841325@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chapecoense 1 x 2 Cruzeiro
+DTSTART:20261122T000000Z
+DTEND:20261122T020000Z
+LOCATION:Arena Condá\, Chapecó
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/chapecoense-x-cruzeiro-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/chapecoense-x-cruzeiro-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841335@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chapecoense 3 x 0 Palmeiras
+DTSTART:20261124T210000Z
+DTEND:20261124T230000Z
+LOCATION:Arena Condá\, Chapecó
+DESCRIPTION:Brasileirão Série A · 37ª rodada\nDetalhes do jogo: https:/
+ /ondepassajogo.com.br/jogo/chapecoense-x-palmeiras-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/chapecoense-x-palmeiras-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841341@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Flamengo x Chapecoense
+DTSTART:20261203T003000Z
+DTEND:20261203T023000Z
+LOCATION:Estádio do Maracanã\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A\nOnde passa: canais ainda não anunciados
+ \nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/flamengo-x-c
+ hapecoense-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/flamengo-x-chapecoense-02-12-2026/
+END:VEVENT
+END:VCALENDAR

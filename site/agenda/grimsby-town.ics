@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Grimsby Town · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Grimsby Town com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/grimsby-town/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401931079@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Stafford Rangers 3 x 3 Grimsby Town
+DTSTART:20261108T120000Z
+DTEND:20261108T140000Z
+LOCATION:The Stan Robinson Stadium\, Stafford
+DESCRIPTION:FA Cup
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933797@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grimsby Town x Oldham Athletic
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Blundell Park\, Grimsby
+DESCRIPTION:FA Cup\nOnde passa: canais ainda não anunciados\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/grimsby-town-x-oldham-athle
+ tic-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+URL:https://ondepassajogo.com.br/jogo/grimsby-town-x-oldham-athletic-05-12-
+ 2026/
+END:VEVENT
+END:VCALENDAR

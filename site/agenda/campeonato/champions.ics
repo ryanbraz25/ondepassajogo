@@ -1,0 +1,450 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Champions League · Onde Passa Jogo
+X-WR-CALDESC:Jogos Champions League com horário de Brasília e onde assist
+ ir. https://ondepassajogo.com.br/campeonato/champions/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915380@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bodo/Glimt 1 x 0 LASK Linz
+DTSTART:20261124T174500Z
+DTEND:20261124T194500Z
+LOCATION:Aspmyra Stadion\, Bodø/Glimt
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/bodo-glimt-x-lask-linz-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/bodo-glimt-x-lask-linz-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915300@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Galatasaray 1 x 0 Aston Villa
+DTSTART:20261124T174500Z
+DTEND:20261124T194500Z
+LOCATION:RAMS Park\, Istanbul
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/galatasaray-x-aston-villa-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/galatasaray-x-aston-villa-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915295@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Arsenal 1 x 1 Borussia Dortmund
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:Emirates Stadium\, London
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/arsenal-x-borussia-dortmund-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/arsenal-x-borussia-dortmund-24-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915296@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Como 1 x 0 AEK Athens
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:Giuseppe Sinigaglia\, Como
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/como-x-aek-athens-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/como-x-aek-athens-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915294@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam 0 x 1 FC Porto
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/feyenoord-rotterdam-x-fc-porto-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-fc-porto-24-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915379@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 2 x 2 Napoli
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/manchester-city-x-napoli-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/manchester-city-x-napoli-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915299@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:RB Leipzig 3 x 1 Lens
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:Red Bull Arena\, Leipzig
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/rb-leipzig-x-lens-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/rb-leipzig-x-lens-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915298@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Madrid 5 x 1 PSV Eindhoven
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:Santiago Bernabéu\, Madrid
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/real-madrid-x-psv-eindhoven-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/real-madrid-x-psv-eindhoven-24-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915297@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Slovan Bratislava 0 x 2 Real Betis
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:Národny Futbalovy Stadión\, Bratislava
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/slovan-bratislava-x-real-betis-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/slovan-bratislava-x-real-betis-24-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915378@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sabah FK x Barcelona
+DTSTART:20261125T174500Z
+DTEND:20261125T194500Z
+LOCATION:Baku Olympic Stadium\, Baku
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: TNT\, HBO Max\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/sabah-fk-x-barcelo
+ na-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/sabah-fk-x-barcelona-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915293@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Slavia Prague x Villarreal
+DTSTART:20261125T174500Z
+DTEND:20261125T194500Z
+LOCATION:Fortuna Arena\, Prague
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: TNT\, HBO Max\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/slavia-prague-x-vi
+ llarreal-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/slavia-prague-x-villarreal-25-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915291@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid x Viking FK
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: HBO Max\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-vik
+ ing-fk-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-viking-fk-25-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915292@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Club Brugge x Liverpool
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Jan Breydel Stadium\, Brugge
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: HBO Max\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/club-brugge-x-liverpool-
+ 25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/club-brugge-x-liverpool-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915376@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Inter de Milão x VfB Stuttgart
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:San Siro\, Milano
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: HBO Max\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/inter-de-milao-x-vfb-stu
+ ttgart-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/inter-de-milao-x-vfb-stuttgart-25-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915377@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lille x Bayern de Munique
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Decathlon Arena - Stade Pierre-Mauroy\, Lille
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: TNT (grátis)\, HBO
+  Max\nSpace na TV e TNT Sports no YouTube\nDetalhes e onde assistir: https
+ ://ondepassajogo.com.br/jogo/lille-x-bayern-de-munique-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/lille-x-bayern-de-munique-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915374@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Paris Saint-Germain x Roma
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Parc des Princes\, Paris
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: TNT\, HBO Max\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/paris-saint-germai
+ n-x-roma-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/paris-saint-germain-x-roma-25-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915375@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Shakhtar Donetsk x Fenerbahce
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Stamford Bridge\, London
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: HBO Max\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/shakhtar-donetsk-x-fener
+ bahce-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/shakhtar-donetsk-x-fenerbahce-25-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915373@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sporting CP x Manchester United
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Estádio José Alvalade\, Lisbon
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: HBO Max\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/sporting-cp-x-manchester
+ -united-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/sporting-cp-x-manchester-united-25-11
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915290@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Viking FK x Feyenoord Rotterdam
+DTSTART:20261208T174500Z
+DTEND:20261208T194500Z
+LOCATION:Viking Stadion\, Stavanger
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/viking-fk-x-feyenoord-ro
+ tterdam-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/viking-fk-x-feyenoord-rotterdam-08-12
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915372@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Villarreal x Sabah FK
+DTSTART:20261208T174500Z
+DTEND:20261208T194500Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/villarreal-x-sabah-fk-08
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/villarreal-x-sabah-fk-08-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915289@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:AEK Athens x Galatasaray
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:OPAP Arena\, Athens
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/aek-athens-x-galatasaray
+ -08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/aek-athens-x-galatasaray-08-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915286@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa x Paris Saint-Germain
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/aston-villa-x-paris-sain
+ t-germain-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/aston-villa-x-paris-saint-germain-08-
+ 12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915285@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona x Manchester City
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-manchester-c
+ ity-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/barcelona-x-manchester-city-08-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915284@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayern de Munique x Slavia Prague
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Allianz Arena\, München
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/bayern-de-munique-x-slav
+ ia-prague-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/bayern-de-munique-x-slavia-prague-08-
+ 12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915371@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester United x RB Leipzig
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Old Trafford\, Manchester
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/manchester-united-x-rb-l
+ eipzig-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/manchester-united-x-rb-leipzig-08-12-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915287@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Napoli x Club Brugge
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Stadio Diego Armando Maradona\, Napoli
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/napoli-x-club-brugge-08-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/napoli-x-club-brugge-08-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915288@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Roma x Sporting CP
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Olimpico\, Roma
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/roma-x-sporting-cp-08-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/roma-x-sporting-cp-08-12-2026/
+END:VEVENT
+END:VCALENDAR

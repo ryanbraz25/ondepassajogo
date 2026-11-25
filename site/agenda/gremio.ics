@@ -1,0 +1,182 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Grêmio · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Grêmio com horário de Brasília e onde assistir. At
+ ualiza sozinho: https://ondepassajogo.com.br/time/gremio/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401841267@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grêmio 1 x 1 Internacional
+DTSTART:20261011T203000Z
+DTEND:20261011T223000Z
+LOCATION:Arena do Grêmio\, Porto Alegre
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841276@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grêmio 2 x 4 Cruzeiro
+DTSTART:20261018T190000Z
+DTEND:20261018T210000Z
+LOCATION:Arena do Grêmio\, Porto Alegre
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841279@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coritiba 0 x 1 Grêmio
+DTSTART:20261026T223000Z
+DTEND:20261027T003000Z
+LOCATION:Couto Pereira\, Curitiba
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841290@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grêmio 2 x 0 Athletico-PR
+DTSTART:20261030T003000Z
+DTEND:20261030T023000Z
+LOCATION:Arena do Grêmio\, Porto Alegre
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401913109@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grêmio 2 x 0 Atlético-MG
+DTSTART:20261101T213000Z
+DTEND:20261101T233000Z
+LOCATION:Arena do Grêmio\, Porto Alegre
+DESCRIPTION:Copa do Brasil
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Brasil
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841307@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Flamengo 3 x 1 Grêmio
+DTSTART:20261104T223000Z
+DTEND:20261105T003000Z
+LOCATION:Estádio do Maracanã\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401913108@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético-MG 1 x 1 Grêmio
+DTSTART:20261107T210000Z
+DTEND:20261107T230000Z
+LOCATION:Arena MRV\, Belo Horizonte
+DESCRIPTION:Copa do Brasil
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Brasil
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841312@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grêmio 0 x 0 Bahia
+DTSTART:20261119T003000Z
+DTEND:20261119T023000Z
+LOCATION:Arena do Grêmio\, Porto Alegre
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/gremio-x-bahia-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/gremio-x-bahia-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841320@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santos 0 x 2 Grêmio
+DTSTART:20261124T000000Z
+DTEND:20261124T020000Z
+LOCATION:Estádio Cícero Pompeu de Toledo\, São Paulo
+DESCRIPTION:Brasileirão Série A · 36ª rodada\nDetalhes do jogo: https:/
+ /ondepassajogo.com.br/jogo/santos-x-gremio-23-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/santos-x-gremio-23-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841334@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Corinthians x Grêmio
+DTSTART:20261129T213000Z
+DTEND:20261129T233000Z
+LOCATION:Neo Química Arena\, São Paulo
+DESCRIPTION:Brasileirão Série A · 37ª rodada\nOnde passa: Prime Video\n
+ Luta contra o rebaixamento\nDetalhes e onde assistir: https://ondepassajog
+ o.com.br/jogo/corinthians-x-gremio-29-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/corinthians-x-gremio-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841347@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grêmio x Mirassol
+DTSTART:20261203T003000Z
+DTEND:20261203T023000Z
+LOCATION:Arena do Grêmio\, Porto Alegre
+DESCRIPTION:Brasileirão Série A\nOnde passa: canais ainda não anunciados
+ \nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/gremio-x-mir
+ assol-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/gremio-x-mirassol-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401913106@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grêmio x Palmeiras
+DTSTART:20261206T200000Z
+DTEND:20261206T220000Z
+LOCATION:Arena BRB Mané Garrincha\, Brasília
+DESCRIPTION:Copa do Brasil · Final\nOnde passa: TV Globo (grátis)\, ge tv
+  (grátis)\, SporTV\, Premiere\, Prime Video\nFinal em jogo único\nDetalh
+ es e onde assistir: https://ondepassajogo.com.br/jogo/gremio-x-palmeiras-0
+ 6-12-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Brasil
+URL:https://ondepassajogo.com.br/jogo/gremio-x-palmeiras-06-12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Al Ittihad · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Al Ittihad com horário de Brasília e onde assistir.
+  Atualiza sozinho: https://ondepassajogo.com.br/time/al-ittihad/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401900448@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Ettifaq 1 x 4 Al Ittihad
+DTSTART:20261020T180000Z
+DTEND:20261020T200000Z
+LOCATION:Al Ettifaq Club Stadium\, Dammam
+DESCRIPTION:Saudita
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900890@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Ittihad 2 x 0 Al Diriyah
+DTSTART:20261023T153000Z
+DTEND:20261023T173000Z
+LOCATION:King Abdullah Sports City\, Jeddah
+DESCRIPTION:Saudita
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900885@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Abha 1 x 1 Al Ittihad
+DTSTART:20261030T123000Z
+DTEND:20261030T143000Z
+LOCATION:Prince Sultan bin Abdulaziz Sports City Stadium\, Abha
+DESCRIPTION:Saudita
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900873@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Ittihad x Neom SC
+DTSTART:20261127T173000Z
+DTEND:20261127T193000Z
+LOCATION:Prince Abdullah Al-Faisal Stadium\, Jeddah
+DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/al-ittihad-x-neom-sc-27-11
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/al-ittihad-x-neom-sc-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900866@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Khaleej x Al Ittihad
+DTSTART:20261204T125500Z
+DTEND:20261204T145500Z
+LOCATION:Prince Mohammed Bin Fahd Stadium\, Dammam
+DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/al-khaleej-x-al-ittihad-04
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/al-khaleej-x-al-ittihad-04-12-2026/
+END:VEVENT
+END:VCALENDAR

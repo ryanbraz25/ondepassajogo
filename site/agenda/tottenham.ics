@@ -1,0 +1,127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Tottenham · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Tottenham com horário de Brasília e onde assistir. 
+ Atualiza sozinho: https://ondepassajogo.com.br/time/tottenham/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401879257@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham 3 x 1 Coventry City
+DTSTART:20261019T190000Z
+DTEND:20261019T210000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878767@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chelsea 0 x 2 Tottenham
+DTSTART:20261024T163000Z
+DTEND:20261024T183000Z
+LOCATION:Stamford Bridge\, London
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878761@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham 2 x 0 Crystal Palace
+DTSTART:20261031T173000Z
+DTEND:20261031T193000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878758@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Leeds 1 x 0 Tottenham
+DTSTART:20261107T123000Z
+DTEND:20261107T143000Z
+LOCATION:Elland Road\, Leeds
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878754@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham 2 x 0 Ipswich Town
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/tottenham-x-ipswich-town-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/tottenham-x-ipswich-town-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879224@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sunderland x Tottenham
+DTSTART:20261129T140500Z
+DTEND:20261129T160500Z
+LOCATION:Stadium of Light\, Sunderland
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sunderland-x-tottenham-29-
+ 11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/sunderland-x-tottenham-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878749@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham x Fulham
+DTSTART:20261203T200000Z
+DTEND:20261203T220000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/tottenham-x-fulham-03-12-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/tottenham-x-fulham-03-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879209@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham x Arsenal
+DTSTART:20261206T163000Z
+DTEND:20261206T183000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/tottenham-x-arsenal-06-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/tottenham-x-arsenal-06-12-2026/
+END:VEVENT
+END:VCALENDAR

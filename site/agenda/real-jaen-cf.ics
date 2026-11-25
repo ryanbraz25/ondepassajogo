@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Real Jaen CF · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Real Jaen CF com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/real-jaen-cf/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928528@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Mijas Las Lagunas 1 x 2 Real Jaen CF
+DTSTART:20261110T190000Z
+DTEND:20261110T210000Z
+LOCATION:Francisco Muñoz Pérez\, Estepona
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936410@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Jaen CF x Valencia
+DTSTART:20261203T200000Z
+DTEND:20261203T220000Z
+LOCATION:Nuevo Estádio Municipal de La Victoria\, Jaén
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/real-jaen-cf-x-valenci
+ a-03-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/real-jaen-cf-x-valencia-03-12-2026/
+END:VEVENT
+END:VCALENDAR

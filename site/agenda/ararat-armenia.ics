@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Ararat-Armenia · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Ararat-Armenia com horário de Brasília e onde assis
+ tir. Atualiza sozinho: https://ondepassajogo.com.br/time/ararat-armenia/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915561@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Jagiellonia Bialystok 3 x 1 Ararat-Armenia
+DTSTART:20261015T190000Z
+DTEND:20261015T210000Z
+LOCATION:Stadion Miejski Bialystok\, Bialystok
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915548@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ararat-Armenia 0 x 4 AZ Alkmaar
+DTSTART:20261022T164500Z
+DTEND:20261022T184500Z
+LOCATION:Vazgen Sargsyan Republican Stadium\, Yerevan
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915530@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Torreense 3 x 2 Ararat-Armenia
+DTSTART:20261105T200000Z
+DTEND:20261105T220000Z
+LOCATION:Estádio Dr. Magalhaes Pessoa\, Leiria
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915520@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:RB Salzburg x Ararat-Armenia
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Red Bull Arena Salzburg\, Salzburg
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/rb-salzburg-x-arara
+ t-armenia-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/rb-salzburg-x-ararat-armenia-26-11-20
+ 26/
+END:VEVENT
+END:VCALENDAR

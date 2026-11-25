@@ -1,0 +1,183 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Sunderland · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Sunderland com horário de Brasília e onde assistir.
+  Atualiza sozinho: https://ondepassajogo.com.br/time/sunderland/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915575@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Torreense 1 x 2 Sunderland
+DTSTART:20261015T164500Z
+DTEND:20261015T184500Z
+LOCATION:Estádio Dr. Magalhaes Pessoa\, Leiria
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879263@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bournemouth 2 x 0 Sunderland
+DTSTART:20261018T130000Z
+DTEND:20261018T150000Z
+LOCATION:Vitality Stadium\, Bournemouth
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915546@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lech Poznan 1 x 1 Sunderland
+DTSTART:20261022T164500Z
+DTEND:20261022T184500Z
+LOCATION:Municipal Stadium-Poznan\, Poznan
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878764@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sunderland 0 x 0 Leeds
+DTSTART:20261025T163000Z
+DTEND:20261025T183000Z
+LOCATION:Stadium of Light\, Sunderland
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879247@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coventry City 3 x 1 Sunderland
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:Coventry Building Society Arena\, Coventry
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915523@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sunderland 0 x 2 Dinamo Zagreb
+DTSTART:20261105T200000Z
+DTEND:20261105T220000Z
+LOCATION:Stadium of Light\, Sunderland
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879239@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sunderland 1 x 0 Chelsea
+DTSTART:20261108T140000Z
+DTEND:20261108T160000Z
+LOCATION:Stadium of Light\, Sunderland
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878756@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 0 x 0 Sunderland
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/aston-villa-x-sunderland-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/aston-villa-x-sunderland-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915513@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sunderland x Jagiellonia Bialystok
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Stadium of Light\, Sunderland
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/sunderland-x-jagiel
+ lonia-bialystok-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/sunderland-x-jagiellonia-bialystok-26
+ -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879224@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sunderland x Tottenham
+DTSTART:20261129T140500Z
+DTEND:20261129T160500Z
+LOCATION:Stadium of Light\, Sunderland
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sunderland-x-tottenham-29-
+ 11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/sunderland-x-tottenham-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879219@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Liverpool x Sunderland
+DTSTART:20261202T193000Z
+DTEND:20261202T213000Z
+LOCATION:Anfield\, Liverpool
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/liverpool-x-sunderland-02-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/liverpool-x-sunderland-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878748@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Newcastle x Sunderland
+DTSTART:20261206T140000Z
+DTEND:20261206T160000Z
+LOCATION:St. James' Park\, Newcastle-upon-Tyne
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/newcastle-x-sunderland-06-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/newcastle-x-sunderland-06-12-2026/
+END:VEVENT
+END:VCALENDAR

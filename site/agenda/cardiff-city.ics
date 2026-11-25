@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Cardiff City · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Cardiff City com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/cardiff-city/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880229@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cardiff City 5 x 1 Watford
+DTSTART:20261013T184500Z
+DTEND:20261013T204500Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880216@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Middlesbrough 2 x 2 Cardiff City
+DTSTART:20261017T113000Z
+DTEND:20261017T133000Z
+LOCATION:Riverside Stadium\, Middlesbrough
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880206@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cardiff City 1 x 0 Birmingham City
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880185@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wolverhampton Wanderers 3 x 0 Cardiff City
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:Molineux Stadium\, Wolverhampton
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880175@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cardiff City 3 x 3 West Ham United
+DTSTART:20261104T194500Z
+DTEND:20261104T214500Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880169@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cardiff City 5 x 4 Burnley
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880155@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Norwich City 2 x 1 Cardiff City
+DTSTART:20261121T123000Z
+DTEND:20261121T143000Z
+LOCATION:Carrow Road\, Norwich
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/norwich-city-x-cardiff-city-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/norwich-city-x-cardiff-city-21-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880147@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cardiff City 0 x 4 Preston North End
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/cardiff-city-x-preston-north-end-24-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/cardiff-city-x-preston-north-end-24-1
+ 1-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880128@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Swansea City x Cardiff City
+DTSTART:20261129T120000Z
+DTEND:20261129T140000Z
+LOCATION:Swansea.com Stadium\, Swansea
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/swansea-
+ city-x-cardiff-city-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/swansea-city-x-cardiff-city-29-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880121@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cardiff City x Lincoln City
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/cardiff-
+ city-x-lincoln-city-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/cardiff-city-x-lincoln-city-05-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880107@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Bromwich Albion x Cardiff City
+DTSTART:20261208T194500Z
+DTEND:20261208T214500Z
+LOCATION:The Hawthorns\, West Bromwich
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/west-bro
+ mwich-albion-x-cardiff-city-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/west-bromwich-albion-x-cardiff-city-0
+ 8-12-2026/
+END:VEVENT
+END:VCALENDAR

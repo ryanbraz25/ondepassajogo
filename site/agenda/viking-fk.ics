@@ -1,0 +1,85 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Viking FK · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Viking FK com horário de Brasília e onde assistir. 
+ Atualiza sozinho: https://ondepassajogo.com.br/time/viking-fk/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915411@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Viking FK 3 x 3 Bayern de Munique
+DTSTART:20261013T190000Z
+DTEND:20261013T210000Z
+LOCATION:Viking Stadion\, Stavanger
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915394@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 3 x 1 Viking FK
+DTSTART:20261021T190000Z
+DTEND:20261021T210000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915302@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Viking FK 4 x 1 Sabah FK
+DTSTART:20261104T200000Z
+DTEND:20261104T220000Z
+LOCATION:Viking Stadion\, Stavanger
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915291@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid x Viking FK
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: HBO Max\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-vik
+ ing-fk-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-viking-fk-25-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915290@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Viking FK x Feyenoord Rotterdam
+DTSTART:20261208T174500Z
+DTEND:20261208T194500Z
+LOCATION:Viking Stadion\, Stavanger
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/viking-fk-x-feyenoord-ro
+ tterdam-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/viking-fk-x-feyenoord-rotterdam-08-12
+ -2026/
+END:VEVENT
+END:VCALENDAR

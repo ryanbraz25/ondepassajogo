@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Konyaspor · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Konyaspor com horário de Brasília e onde assistir. 
+ Atualiza sozinho: https://ondepassajogo.com.br/time/konyaspor/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401888281@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Konyaspor 0 x 0 Istanbul Basaksehir
+DTSTART:20261011T103000Z
+DTEND:20261011T123000Z
+LOCATION:Medas Konya Büyüksehir Stadyumu\, Konya
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888378@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Amed SFK 1 x 0 Konyaspor
+DTSTART:20261017T130000Z
+DTEND:20261017T150000Z
+LOCATION:Diyarbakir Stadyumu\, Diyarbakir
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888266@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Konyaspor 2 x 0 Genclerbirligi
+DTSTART:20261025T130000Z
+DTEND:20261025T150000Z
+LOCATION:Medas Konya Büyüksehir Stadyumu\, Konya
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888259@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Konyaspor 0 x 4 Galatasaray
+DTSTART:20261030T170000Z
+DTEND:20261030T190000Z
+LOCATION:Medas Konya Büyüksehir Stadyumu\, Konya
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888250@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Samsunspor 1 x 0 Konyaspor
+DTSTART:20261107T130000Z
+DTEND:20261107T150000Z
+LOCATION:Samsun 19 Mayis Stadium\, Samsun
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888246@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Konyaspor 2 x 4 Besiktas
+DTSTART:20261122T130000Z
+DTEND:20261122T150000Z
+LOCATION:Medas Konya Büyüksehir Stadyumu\, Konya
+DESCRIPTION:Liga da Turquia\nDetalhes do jogo: https://ondepassajogo.com.br
+ /jogo/konyaspor-x-besiktas-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/konyaspor-x-besiktas-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888241@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Alanyaspor x Konyaspor
+DTSTART:20261127T170000Z
+DTEND:20261127T190000Z
+LOCATION:Kirbiyik Holding Stadyumu\, Antalya
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/alanyaspor-x-konya
+ spor-27-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/alanyaspor-x-konyaspor-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888232@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Konyaspor x Gaziantep FK
+DTSTART:20261205T103000Z
+DTEND:20261205T123000Z
+LOCATION:Medas Konya Büyüksehir Stadyumu\, Konya
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/konyaspor-x-gazian
+ tep-fk-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/konyaspor-x-gaziantep-fk-05-12-2026/
+END:VEVENT
+END:VCALENDAR

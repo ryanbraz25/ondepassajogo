@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Exeter City · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Exeter City com horário de Brasília e onde assistir
+ . Atualiza sozinho: https://ondepassajogo.com.br/time/exeter-city/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401931094@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Huddersfield Town 1 x 2 Exeter City
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:John Smith's Stadium\, Huddersfield
+DESCRIPTION:FA Cup
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933816@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Exeter City x Stevenage
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:St James Park\, Exeter
+DESCRIPTION:FA Cup\nOnde passa: canais ainda não anunciados\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/exeter-city-x-stevenage-05-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+URL:https://ondepassajogo.com.br/jogo/exeter-city-x-stevenage-05-12-2026/
+END:VEVENT
+END:VCALENDAR

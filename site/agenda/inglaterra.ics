@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Inglaterra · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Inglaterra com horário de Brasília e onde assistir.
+  Atualiza sozinho: https://ondepassajogo.com.br/time/inglaterra/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401861150@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Inglaterra 2 x 1 Croácia
+DTSTART:20261112T194500Z
+DTEND:20261112T214500Z
+LOCATION:Wembley Stadium\, London
+DESCRIPTION:Liga das Nações
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga das Nações
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401861175@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Espanha 2 x 3 Inglaterra
+DTSTART:20261115T194500Z
+DTEND:20261115T214500Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:Liga das Nações
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga das Nações
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401930339@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Inglaterra x Ucrânia
+DTSTART:20261205T173000Z
+DTEND:20261205T193000Z
+LOCATION:Wembley Stadium\, London
+DESCRIPTION:Seleção / Amistosos\nOnde passa: canais ainda não anunciados
+ \nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/inglaterra-x
+ -ucrania-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Seleção / Amistosos
+URL:https://ondepassajogo.com.br/jogo/inglaterra-x-ucrania-05-12-2026/
+END:VEVENT
+END:VCALENDAR

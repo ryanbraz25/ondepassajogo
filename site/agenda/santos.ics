@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Santos · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Santos com horário de Brasília e onde assistir. Atu
+ aliza sozinho: https://ondepassajogo.com.br/time/santos/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401841258@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético-MG 2 x 1 Santos
+DTSTART:20261011T190000Z
+DTEND:20261011T210000Z
+LOCATION:Arena MRV\, Belo Horizonte
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841277@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fluminense 1 x 2 Santos
+DTSTART:20261018T190000Z
+DTEND:20261018T210000Z
+LOCATION:Estádio do Maracanã\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841282@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santos 1 x 1 Bahia
+DTSTART:20261025T000000Z
+DTEND:20261025T020000Z
+LOCATION:Estádio Vila Belmiro (Urbano Caldeira)\, Santos
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841293@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santos 0 x 0 Palmeiras
+DTSTART:20261028T223000Z
+DTEND:20261029T003000Z
+LOCATION:Estádio Vila Belmiro (Urbano Caldeira)\, Santos
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841299@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Red Bull Bragantino 2 x 1 Santos
+DTSTART:20261102T230000Z
+DTEND:20261103T010000Z
+LOCATION:Estádio Municipal Cicero de Souza Marques\, Bragança Paulista
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841315@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coritiba 0 x 1 Santos
+DTSTART:20261118T223000Z
+DTEND:20261119T003000Z
+LOCATION:Couto Pereira\, Curitiba
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/coritiba-x-santos-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/coritiba-x-santos-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841320@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santos 0 x 2 Grêmio
+DTSTART:20261124T000000Z
+DTEND:20261124T020000Z
+LOCATION:Estádio Cícero Pompeu de Toledo\, São Paulo
+DESCRIPTION:Brasileirão Série A · 36ª rodada\nDetalhes do jogo: https:/
+ /ondepassajogo.com.br/jogo/santos-x-gremio-23-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/santos-x-gremio-23-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841332@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Vitória x Santos
+DTSTART:20261129T190000Z
+DTEND:20261129T210000Z
+LOCATION:Estádio Manoel Barradas\, Salvador
+DESCRIPTION:Brasileirão Série A · 37ª rodada\nOnde passa: TV Globo (gr
+ átis)\, ge tv (grátis)\, Premiere\nDetalhes e onde assistir: https://ond
+ epassajogo.com.br/jogo/vitoria-x-santos-29-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/vitoria-x-santos-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841346@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santos x Botafogo
+DTSTART:20261203T003000Z
+DTEND:20261203T023000Z
+LOCATION:Estádio Vila Belmiro (Urbano Caldeira)\, Santos
+DESCRIPTION:Brasileirão Série A\nOnde passa: canais ainda não anunciados
+ \nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/santos-x-bot
+ afogo-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/santos-x-botafogo-02-12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Botafogo · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Botafogo com horário de Brasília e onde assistir. A
+ tualiza sozinho: https://ondepassajogo.com.br/time/botafogo/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401841264@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coritiba 1 x 1 Botafogo
+DTSTART:20261012T190000Z
+DTEND:20261012T210000Z
+LOCATION:Couto Pereira\, Curitiba
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841268@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Botafogo 1 x 0 Chapecoense
+DTSTART:20261017T210000Z
+DTEND:20261017T230000Z
+LOCATION:João Havelange Stadium\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841285@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Internacional 3 x 0 Botafogo
+DTSTART:20261024T193000Z
+DTEND:20261024T213000Z
+LOCATION:Estádio Beira-Rio\, Porto Alegre
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841297@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Remo 2 x 1 Botafogo
+DTSTART:20261029T003000Z
+DTEND:20261029T023000Z
+LOCATION:Mangueirão\, Belém
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841305@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Botafogo 1 x 0 Atlético-MG
+DTSTART:20261105T003000Z
+DTEND:20261105T023000Z
+LOCATION:João Havelange Stadium\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841316@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Corinthians 4 x 0 Botafogo
+DTSTART:20261119T003000Z
+DTEND:20261119T023000Z
+LOCATION:Neo Química Arena\, São Paulo
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/corinthians-x-botafogo-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/corinthians-x-botafogo-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841326@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Botafogo 1 x 1 São Paulo
+DTSTART:20261123T230000Z
+DTEND:20261124T010000Z
+LOCATION:João Havelange Stadium\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A · 36ª rodada\nDetalhes do jogo: https:/
+ /ondepassajogo.com.br/jogo/botafogo-x-sao-paulo-23-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/botafogo-x-sao-paulo-23-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841336@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Botafogo x Bahia
+DTSTART:20261129T000000Z
+DTEND:20261129T020000Z
+LOCATION:João Havelange Stadium\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A · 37ª rodada\nOnde passa: Premiere\nDet
+ alhes e onde assistir: https://ondepassajogo.com.br/jogo/botafogo-x-bahia-
+ 28-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/botafogo-x-bahia-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841346@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santos x Botafogo
+DTSTART:20261203T003000Z
+DTEND:20261203T023000Z
+LOCATION:Estádio Vila Belmiro (Urbano Caldeira)\, Santos
+DESCRIPTION:Brasileirão Série A\nOnde passa: canais ainda não anunciados
+ \nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/santos-x-bot
+ afogo-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/santos-x-botafogo-02-12-2026/
+END:VEVENT
+END:VCALENDAR

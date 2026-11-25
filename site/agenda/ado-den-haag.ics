@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do ADO Den Haag · Onde Passa Jogo
+X-WR-CALDESC:Jogos do ADO Den Haag com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/ado-den-haag/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401875585@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Telstar 2 x 2 ADO Den Haag
+DTSTART:20261011T123000Z
+DTEND:20261011T143000Z
+LOCATION:711 Stadion\, Velsen-Zuid
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875582@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:ADO Den Haag 2 x 1 PSV Eindhoven
+DTSTART:20261017T143000Z
+DTEND:20261017T163000Z
+LOCATION:ADO Den Haag Stadium\, Den Haag
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875571@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:ADO Den Haag 2 x 3 Heerenveen
+DTSTART:20261024T190000Z
+DTEND:20261024T210000Z
+LOCATION:ADO Den Haag Stadium\, Den Haag
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875560@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:PEC Zwolle 1 x 0 ADO Den Haag
+DTSTART:20261101T111500Z
+DTEND:20261101T131500Z
+LOCATION:MAC³PARK Stadion\, Zwolle
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875552@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:ADO Den Haag 3 x 1 Sparta Rotterdam
+DTSTART:20261107T174500Z
+DTEND:20261107T194500Z
+LOCATION:ADO Den Haag Stadium\, Den Haag
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875547@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ajax Amsterdam 3 x 0 ADO Den Haag
+DTSTART:20261122T133000Z
+DTEND:20261122T153000Z
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875538@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:ADO Den Haag x FC Utrecht
+DTSTART:20261129T111500Z
+DTEND:20261129T131500Z
+LOCATION:ADO Den Haag Stadium\, Den Haag
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/ado-den-haag-
+ x-fc-utrecht-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/ado-den-haag-x-fc-utrecht-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875529@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:ADO Den Haag x Excelsior
+DTSTART:20261206T154500Z
+DTEND:20261206T174500Z
+LOCATION:ADO Den Haag Stadium\, Den Haag
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/ado-den-haag-
+ x-excelsior-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/ado-den-haag-x-excelsior-06-12-2026/
+END:VEVENT
+END:VCALENDAR

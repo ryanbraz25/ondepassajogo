@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Eldense · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Eldense com horário de Brasília e onde assistir. At
+ ualiza sozinho: https://ondepassajogo.com.br/time/eldense/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928529@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético Baleares 0 x 1 Eldense
+DTSTART:20261029T180000Z
+DTEND:20261029T200000Z
+LOCATION:Estádio Balear\, Palma de Mallorca
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936433@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Eldense x Tenerife
+DTSTART:20261202T190000Z
+DTEND:20261202T210000Z
+LOCATION:Estádio Municipal Nuevo Pepico Amat\, Elda
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/eldense-x-tenerife-02-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/eldense-x-tenerife-02-12-2026/
+END:VEVENT
+END:VCALENDAR

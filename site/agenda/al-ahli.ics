@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Al Ahli · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Al Ahli com horário de Brasília e onde assistir. At
+ ualiza sozinho: https://ondepassajogo.com.br/time/al-ahli/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401900897@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Fayha 2 x 3 Al Ahli
+DTSTART:20261019T150500Z
+DTEND:20261019T170500Z
+LOCATION:Al Majma'a Sport City Stadium\, Al Majma'ah
+DESCRIPTION:Saudita
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900892@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Ahli 4 x 1 Al Khaleej
+DTSTART:20261023T180000Z
+DTEND:20261023T200000Z
+LOCATION:Prince Abdullah Al-Faisal Stadium\, Jeddah
+DESCRIPTION:Saudita
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900879@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Shabab 6 x 1 Al Ahli
+DTSTART:20261030T180000Z
+DTEND:20261030T200000Z
+LOCATION:Al-Shabab Club Stadium\, King Fahd International Stadium
+DESCRIPTION:Saudita
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900905@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Ahli 3 x 1 Al Nassr
+DTSTART:20261120T173000Z
+DTEND:20261120T193000Z
+LOCATION:King Abdullah Sports City\, Jeddah
+DESCRIPTION:Saudita\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/al
+ -ahli-x-al-nassr-20-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/al-ahli-x-al-nassr-20-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900876@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Ahli x Al Taawoun
+DTSTART:20261128T173000Z
+DTEND:20261128T193000Z
+LOCATION:King Abdullah Sports City\, Jeddah
+DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/al-ahli-x-al-taawoun-28-11
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/al-ahli-x-al-taawoun-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900869@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Al Ahli x Al Faisaly
+DTSTART:20261204T151500Z
+DTEND:20261204T171500Z
+LOCATION:Prince Abdullah Al-Faisal Stadium\, Jeddah
+DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/al-ahli-x-al-faisaly-04-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/al-ahli-x-al-faisaly-04-12-2026/
+END:VEVENT
+END:VCALENDAR

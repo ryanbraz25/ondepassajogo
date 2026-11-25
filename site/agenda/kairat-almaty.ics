@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Kairat Almaty · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Kairat Almaty com horário de Brasília e onde assist
+ ir. Atualiza sozinho: https://ondepassajogo.com.br/time/kairat-almaty/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915747@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Riga FC 1 x 1 Kairat Almaty
+DTSTART:20261015T164500Z
+DTEND:20261015T184500Z
+LOCATION:Skonto Stadions\, Riga
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915846@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kairat Almaty 1 x 5 Panathinaikos
+DTSTART:20261022T143000Z
+DTEND:20261022T163000Z
+LOCATION:Almaty Ortalyk Stadium\, Almaty
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915830@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atalanta 1 x 1 Kairat Almaty
+DTSTART:20261105T174500Z
+DTEND:20261105T194500Z
+LOCATION:New Balance Arena\, Bergamo
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915816@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kairat Almaty x Mjällby AIF
+DTSTART:20261126T153000Z
+DTEND:20261126T173000Z
+LOCATION:Almaty Ortalyk Stadium\, Almaty
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/kairat-almaty
+ -x-mjallby-aif-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/kairat-almaty-x-mjallby-aif-26-11-202
+ 6/
+END:VEVENT
+END:VCALENDAR

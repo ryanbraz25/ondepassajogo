@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Vitória de Guimaraes · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Vitória de Guimaraes com horário de Brasília e ond
+ e assistir. Atualiza sozinho: https://ondepassajogo.com.br/time/vitoria-de
+ -guimaraes/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401885421@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Benfica 2 x 0 Vitória de Guimaraes
+DTSTART:20261011T170000Z
+DTEND:20261011T190000Z
+LOCATION:Estádio da Luz\, Lisbon
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885412@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Vitória de Guimaraes 5 x 0 Maritimo
+DTSTART:20261023T194500Z
+DTEND:20261023T214500Z
+LOCATION:Estádio D. Afonso Henriques\, Guimarães
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885407@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Gil Vicente 0 x 0 Vitória de Guimaraes
+DTSTART:20261102T201500Z
+DTEND:20261102T221500Z
+LOCATION:Estádio Cidade de Barcelos\, Barcelos
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885394@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Vitória de Guimaraes 1 x 2 FC Porto
+DTSTART:20261108T180000Z
+DTEND:20261108T200000Z
+LOCATION:Estádio D. Afonso Henriques\, Guimarães
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885385@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Vitória de Guimaraes x Estrela
+DTSTART:20261128T203000Z
+DTEND:20261128T223000Z
+LOCATION:Estádio D. Afonso Henriques\, Guimarães
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/vitoria-de-guimaraes-x-estr
+ ela-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/vitoria-de-guimaraes-x-estrela-28-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885381@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Estoril x Vitória de Guimaraes
+DTSTART:20261206T180000Z
+DTEND:20261206T200000Z
+LOCATION:Estádio António Coimbra da Mota\, Estoril
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/estoril-x-vitoria-de-guimar
+ aes-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/estoril-x-vitoria-de-guimaraes-06-12-
+ 2026/
+END:VEVENT
+END:VCALENDAR

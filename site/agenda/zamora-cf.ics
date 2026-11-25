@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Zamora CF · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Zamora CF com horário de Brasília e onde assistir. 
+ Atualiza sozinho: https://ondepassajogo.com.br/time/zamora-cf/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928494@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coruxo 0 x 2 Zamora CF
+DTSTART:20261029T180000Z
+DTEND:20261029T200000Z
+LOCATION:Campo do Vao\, Galicia
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936404@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Zamora CF x Real Valladolid
+DTSTART:20261202T190000Z
+DTEND:20261202T210000Z
+LOCATION:Estádio Ruta de la Plata\, Zamora
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/zamora-cf-x-real-valla
+ dolid-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/zamora-cf-x-real-valladolid-02-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR

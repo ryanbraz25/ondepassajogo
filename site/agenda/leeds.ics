@@ -1,0 +1,127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Leeds · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Leeds com horário de Brasília e onde assistir. Atua
+ liza sozinho: https://ondepassajogo.com.br/time/leeds/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401879260@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Leeds 1 x 1 Manchester United
+DTSTART:20261018T130000Z
+DTEND:20261018T150000Z
+LOCATION:Elland Road\, Leeds
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878764@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sunderland 0 x 0 Leeds
+DTSTART:20261025T163000Z
+DTEND:20261025T183000Z
+LOCATION:Stadium of Light\, Sunderland
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879251@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bournemouth 2 x 0 Leeds
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:Vitality Stadium\, Bournemouth
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878758@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Leeds 1 x 0 Tottenham
+DTSTART:20261107T123000Z
+DTEND:20261107T143000Z
+LOCATION:Elland Road\, Leeds
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879236@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chelsea 1 x 4 Leeds
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Stamford Bridge\, London
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/chelsea-x-leeds-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/chelsea-x-leeds-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879227@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Leeds x Coventry City
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:Elland Road\, Leeds
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/leeds-x-coventry-city-28-1
+ 1-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/leeds-x-coventry-city-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879218@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City x Leeds
+DTSTART:20261202T193000Z
+DTEND:20261202T213000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/manchester-city-x-leeds-02
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-city-x-leeds-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879211@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Leeds x Ipswich Town
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Elland Road\, Leeds
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/leeds-x-ipswich-town-05-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/leeds-x-ipswich-town-05-12-2026/
+END:VEVENT
+END:VCALENDAR

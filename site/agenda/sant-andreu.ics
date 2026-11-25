@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Sant Andreu · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Sant Andreu com horário de Brasília e onde assistir
+ . Atualiza sozinho: https://ondepassajogo.com.br/time/sant-andreu/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928502@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manresa 2 x 2 Sant Andreu
+DTSTART:20261027T193000Z
+DTEND:20261027T213000Z
+LOCATION:Estadi Municipal el Congost\, Manresa
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936423@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sant Andreu x Eibar
+DTSTART:20261202T180000Z
+DTEND:20261202T200000Z
+LOCATION:Narcís Sala\, Barcelona
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/sant-andreu-x-eibar-02
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/sant-andreu-x-eibar-02-12-2026/
+END:VEVENT
+END:VCALENDAR

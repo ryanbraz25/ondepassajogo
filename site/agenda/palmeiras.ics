@@ -1,0 +1,224 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Palmeiras · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Palmeiras com horário de Brasília e onde assistir. 
+ Atualiza sozinho: https://ondepassajogo.com.br/time/palmeiras/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401841261@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Palmeiras 4 x 1 Corinthians
+DTSTART:20261011T203000Z
+DTEND:20261011T223000Z
+LOCATION:Allianz Parque\, São Paulo
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401912522@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fluminense 1 x 2 Palmeiras
+DTSTART:20261015T003000Z
+DTEND:20261015T023000Z
+LOCATION:Estádio do Maracanã\, Rio de Janeiro
+DESCRIPTION:Libertadores
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Libertadores
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841271@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Athletico-PR 0 x 2 Palmeiras
+DTSTART:20261017T223000Z
+DTEND:20261018T003000Z
+LOCATION:Arena da Baixada\, Curitiba
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401912520@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Palmeiras 0 x 1 Fluminense
+DTSTART:20261022T003000Z
+DTEND:20261022T023000Z
+LOCATION:Allianz Parque\, São Paulo
+DESCRIPTION:Libertadores
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Libertadores
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841283@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Palmeiras 2 x 0 Red Bull Bragantino
+DTSTART:20261024T213000Z
+DTEND:20261024T233000Z
+LOCATION:Arena Barueri\, Barueri
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841293@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santos 0 x 0 Palmeiras
+DTSTART:20261028T223000Z
+DTEND:20261029T003000Z
+LOCATION:Estádio Vila Belmiro (Urbano Caldeira)\, Santos
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401913105@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Palmeiras 1 x 0 Vasco
+DTSTART:20261101T190000Z
+DTEND:20261101T210000Z
+LOCATION:Allianz Parque\, São Paulo
+DESCRIPTION:Copa do Brasil
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Brasil
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841300@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Palmeiras 6 x 1 Remo
+DTSTART:20261105T223000Z
+DTEND:20261106T003000Z
+LOCATION:Allianz Parque\, São Paulo
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401913107@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Vasco 2 x 1 Palmeiras
+DTSTART:20261108T200000Z
+DTEND:20261108T220000Z
+LOCATION:Estádio São Januário\, Rio de Janeiro
+DESCRIPTION:Copa do Brasil
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Brasil
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841314@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cruzeiro 2 x 1 Palmeiras
+DTSTART:20261118T233000Z
+DTEND:20261119T013000Z
+LOCATION:Estádio Mineirão\, Belo Horizonte
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/cruzeiro-x-palmeiras-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/cruzeiro-x-palmeiras-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841322@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Palmeiras 1 x 1 Flamengo
+DTSTART:20261121T193000Z
+DTEND:20261121T213000Z
+LOCATION:Allianz Parque\, São Paulo
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/palmeiras-x-flamengo-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/palmeiras-x-flamengo-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841335@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chapecoense 3 x 0 Palmeiras
+DTSTART:20261124T210000Z
+DTEND:20261124T230000Z
+LOCATION:Arena Condá\, Chapecó
+DESCRIPTION:Brasileirão Série A · 37ª rodada\nDetalhes do jogo: https:/
+ /ondepassajogo.com.br/jogo/chapecoense-x-palmeiras-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/chapecoense-x-palmeiras-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401912519@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Palmeiras x Estudiantes
+DTSTART:20261128T200000Z
+DTEND:20261128T220000Z
+LOCATION:Estádio Centenario\, Montevideo
+DESCRIPTION:Libertadores · Final\nOnde passa: TV Globo (grátis)\, ge tv (
+ grátis)\, ESPN\, Disney+\, Paramount+\nFinal em jogo único\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/palmeiras-x-estudiantes-28
+ -11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Libertadores
+URL:https://ondepassajogo.com.br/jogo/palmeiras-x-estudiantes-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841343@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Palmeiras x Coritiba
+DTSTART:20261203T003000Z
+DTEND:20261203T023000Z
+LOCATION:Allianz Parque\, São Paulo
+DESCRIPTION:Brasileirão Série A\nOnde passa: canais ainda não anunciados
+ \nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/palmeiras-x-
+ coritiba-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/palmeiras-x-coritiba-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401913106@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grêmio x Palmeiras
+DTSTART:20261206T200000Z
+DTEND:20261206T220000Z
+LOCATION:Arena BRB Mané Garrincha\, Brasília
+DESCRIPTION:Copa do Brasil · Final\nOnde passa: TV Globo (grátis)\, ge tv
+  (grátis)\, SporTV\, Premiere\, Prime Video\nFinal em jogo único\nDetalh
+ es e onde assistir: https://ondepassajogo.com.br/jogo/gremio-x-palmeiras-0
+ 6-12-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Brasil
+URL:https://ondepassajogo.com.br/jogo/gremio-x-palmeiras-06-12-2026/
+END:VEVENT
+END:VCALENDAR

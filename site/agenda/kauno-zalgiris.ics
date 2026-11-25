@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Kauno Zalgiris · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Kauno Zalgiris com horário de Brasília e onde assis
+ tir. Atualiza sozinho: https://ondepassajogo.com.br/time/kauno-zalgiris/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915853@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brighton 4 x 0 Kauno Zalgiris
+DTSTART:20261015T190000Z
+DTEND:20261015T210000Z
+LOCATION:American Express Stadium\, Falmer
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915841@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kauno Zalgiris 1 x 4 SK Brann
+DTSTART:20261022T164500Z
+DTEND:20261022T184500Z
+LOCATION:S. Darius and S. Gireno Stadium\, Kaunas
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915823@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Lugano 3 x 0 Kauno Zalgiris
+DTSTART:20261105T200000Z
+DTEND:20261105T220000Z
+LOCATION:AIL Arena\, Lugano
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915739@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kauno Zalgiris x Riga FC
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:S. Darius and S. Gireno Stadium\, Kaunas
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/kauno-zalgiri
+ s-x-riga-fc-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/kauno-zalgiris-x-riga-fc-26-11-2026/
+END:VEVENT
+END:VCALENDAR

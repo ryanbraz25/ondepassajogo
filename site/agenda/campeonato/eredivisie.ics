@@ -1,0 +1,450 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Eredivisie (Holanda) · Onde Passa Jogo
+X-WR-CALDESC:Jogos Eredivisie (Holanda) com horário de Brasília e onde as
+ sistir. https://ondepassajogo.com.br/campeonato/eredivisie/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401875541@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen 1 x 4 PSV Eindhoven
+DTSTART:20261121T153000Z
+DTEND:20261121T173000Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/nec-nijmegen-x-psv-eindhoven-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-psv-eindhoven-21-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875543@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam 2 x 3 Excelsior
+DTSTART:20261121T174500Z
+DTEND:20261121T194500Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/feyenoord-rotterdam-x-excelsior-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-excelsior-21-11
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875544@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Utrecht 2 x 3 SC Cambuur
+DTSTART:20261121T174500Z
+DTEND:20261121T194500Z
+LOCATION:Stadion Galgenwaard\, Utrecht
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/fc-utrecht-x-sc-cambuur-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-utrecht-x-sc-cambuur-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875539@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Telstar 1 x 3 PEC Zwolle
+DTSTART:20261121T200000Z
+DTEND:20261121T220000Z
+LOCATION:711 Stadion\, Velsen-Zuid
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/telstar-x-pec-zwolle-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/telstar-x-pec-zwolle-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875546@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Groningen 1 x 3 Heerenveen
+DTSTART:20261121T200000Z
+DTEND:20261121T220000Z
+LOCATION:Euroborg\, Groningen
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/fc-groningen-x-heerenveen-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-groningen-x-heerenveen-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875545@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Twente 2 x 1 Willem II
+DTSTART:20261122T111500Z
+DTEND:20261122T131500Z
+LOCATION:De Grolsch Veste\, Enschede
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/fc-twente-x-willem-ii-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-twente-x-willem-ii-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875540@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sparta Rotterdam 1 x 5 AZ Alkmaar
+DTSTART:20261122T133000Z
+DTEND:20261122T153000Z
+LOCATION:Sparta-Stadion Het Kasteel\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/sparta-rotterdam-x-az-alkmaar-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/sparta-rotterdam-x-az-alkmaar-22-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875547@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ajax Amsterdam 3 x 0 ADO Den Haag
+DTSTART:20261122T133000Z
+DTEND:20261122T153000Z
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875542@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Go Ahead Eagles 0 x 1 Fortuna Sittard
+DTSTART:20261122T154500Z
+DTEND:20261122T174500Z
+LOCATION:De Adelaarshorst\, Deventer
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/go-ahead-eagles-x-fortuna-sittard-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/go-ahead-eagles-x-fortuna-sittard-22-
+ 11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875536@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Groningen x Willem II
+DTSTART:20261127T190000Z
+DTEND:20261127T210000Z
+LOCATION:Euroborg\, Groningen
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-groningen-
+ x-willem-ii-27-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-groningen-x-willem-ii-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875537@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Excelsior x Telstar
+DTSTART:20261128T153000Z
+DTEND:20261128T173000Z
+LOCATION:Stadion Woudestein\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/excelsior-x-t
+ elstar-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/excelsior-x-telstar-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875531@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:PSV Eindhoven x Go Ahead Eagles
+DTSTART:20261128T174500Z
+DTEND:20261128T194500Z
+LOCATION:Philips Stadion\, Eindhoven
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/psv-eindhoven
+ -x-go-ahead-eagles-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/psv-eindhoven-x-go-ahead-eagles-28-11
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875530@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Cambuur x Sparta Rotterdam
+DTSTART:20261128T200000Z
+DTEND:20261128T220000Z
+LOCATION:Kooi Stadium\, Leeuwarden
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sc-cambuur-x-
+ sparta-rotterdam-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/sc-cambuur-x-sparta-rotterdam-28-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875538@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:ADO Den Haag x FC Utrecht
+DTSTART:20261129T111500Z
+DTEND:20261129T131500Z
+LOCATION:ADO Den Haag Stadium\, Den Haag
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/ado-den-haag-
+ x-fc-utrecht-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/ado-den-haag-x-fc-utrecht-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875535@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam x Ajax Amsterdam
+DTSTART:20261129T133000Z
+DTEND:20261129T153000Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/feyenoord-rot
+ terdam-x-ajax-amsterdam-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-ajax-amsterdam-
+ 29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875534@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fortuna Sittard x Heerenveen
+DTSTART:20261129T133000Z
+DTEND:20261129T153000Z
+LOCATION:Fortuna Sittard Stadion\, Sittard
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fortuna-sitta
+ rd-x-heerenveen-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fortuna-sittard-x-heerenveen-29-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875532@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:PEC Zwolle x AZ Alkmaar
+DTSTART:20261129T154500Z
+DTEND:20261129T174500Z
+LOCATION:MAC³PARK Stadion\, Zwolle
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/pec-zwolle-x-
+ az-alkmaar-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/pec-zwolle-x-az-alkmaar-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875533@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen x FC Twente
+DTSTART:20261129T190000Z
+DTEND:20261129T210000Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/nec-nijmegen-
+ x-fc-twente-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-fc-twente-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875522@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Telstar x FC Groningen
+DTSTART:20261204T190000Z
+DTEND:20261204T210000Z
+LOCATION:711 Stadion\, Velsen-Zuid
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/telstar-x-fc-
+ groningen-04-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/telstar-x-fc-groningen-04-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875521@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Willem II x Feyenoord Rotterdam
+DTSTART:20261205T153000Z
+DTEND:20261205T173000Z
+LOCATION:Koning Willem II Stadion\, Tilburg
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/willem-ii-x-f
+ eyenoord-rotterdam-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/willem-ii-x-feyenoord-rotterdam-05-12
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875523@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sparta Rotterdam x NEC Nijmegen
+DTSTART:20261205T174500Z
+DTEND:20261205T194500Z
+LOCATION:Sparta-Stadion Het Kasteel\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sparta-rotter
+ dam-x-nec-nijmegen-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/sparta-rotterdam-x-nec-nijmegen-05-12
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875527@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:AZ Alkmaar x PSV Eindhoven
+DTSTART:20261205T190000Z
+DTEND:20261205T210000Z
+LOCATION:AFAS Stadion\, Alkmaar
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/az-alkmaar-x-
+ psv-eindhoven-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/az-alkmaar-x-psv-eindhoven-05-12-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875526@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fortuna Sittard x PEC Zwolle
+DTSTART:20261205T200000Z
+DTEND:20261205T220000Z
+LOCATION:Fortuna Sittard Stadion\, Sittard
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fortuna-sitta
+ rd-x-pec-zwolle-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fortuna-sittard-x-pec-zwolle-05-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875524@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heerenveen x SC Cambuur
+DTSTART:20261206T111500Z
+DTEND:20261206T131500Z
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/heerenveen-x-
+ sc-cambuur-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/heerenveen-x-sc-cambuur-06-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875528@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ajax Amsterdam x FC Utrecht
+DTSTART:20261206T133000Z
+DTEND:20261206T153000Z
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/ajax-amsterda
+ m-x-fc-utrecht-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-utrecht-06-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875525@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Go Ahead Eagles x FC Twente
+DTSTART:20261206T133000Z
+DTEND:20261206T153000Z
+LOCATION:De Adelaarshorst\, Deventer
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/go-ahead-eagl
+ es-x-fc-twente-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/go-ahead-eagles-x-fc-twente-06-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875529@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:ADO Den Haag x Excelsior
+DTSTART:20261206T154500Z
+DTEND:20261206T174500Z
+LOCATION:ADO Den Haag Stadium\, Den Haag
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/ado-den-haag-
+ x-excelsior-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/ado-den-haag-x-excelsior-06-12-2026/
+END:VEVENT
+END:VCALENDAR

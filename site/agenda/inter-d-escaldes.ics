@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Inter D'Escaldes · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Inter D'Escaldes com horário de Brasília e onde ass
+ istir. Atualiza sozinho: https://ondepassajogo.com.br/time/inter-d-escalde
+ s/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915857@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Mjällby AIF 2 x 0 Inter D'Escaldes
+DTSTART:20261015T164500Z
+DTEND:20261015T184500Z
+LOCATION:Olympia\, Helsingborg
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915839@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Inter D'Escaldes 1 x 3 CSU Craiova
+DTSTART:20261022T164500Z
+DTEND:20261022T184500Z
+LOCATION:Estadi de la FAF d'Encamp\, Encamp
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915827@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Red Star Belgrade 2 x 1 Inter D'Escaldes
+DTSTART:20261105T174500Z
+DTEND:20261105T194500Z
+LOCATION:Rajko Mitic Stadium\, Belgrade
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915738@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Inter D'Escaldes x F.C. København
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Estadi de la FAF d'Encamp\, Encamp
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/inter-d-escal
+ des-x-f-c-kbenhavn-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/inter-d-escaldes-x-f-c-kbenhavn-26-11
+ -2026/
+END:VEVENT
+END:VCALENDAR

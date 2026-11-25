@@ -1,0 +1,200 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Aston Villa · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Aston Villa com horário de Brasília e onde assistir
+ . Atualiza sozinho: https://ondepassajogo.com.br/time/aston-villa/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915409@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 6 x 0 Fenerbahce
+DTSTART:20261014T190000Z
+DTEND:20261014T210000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879258@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Newcastle 0 x 1 Aston Villa
+DTSTART:20261017T163000Z
+DTEND:20261017T183000Z
+LOCATION:St. James' Park\, Newcastle-upon-Tyne
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915394@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 3 x 1 Viking FK
+DTSTART:20261021T190000Z
+DTEND:20261021T210000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879256@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 2 x 1 Manchester City
+DTSTART:20261024T113000Z
+DTEND:20261024T133000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879250@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 1 x 1 Fulham
+DTSTART:20261031T200000Z
+DTEND:20261031T220000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915387@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona 3 x 0 Aston Villa
+DTSTART:20261103T200000Z
+DTEND:20261103T220000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879240@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester United 4 x 4 Aston Villa
+DTSTART:20261108T163000Z
+DTEND:20261108T183000Z
+LOCATION:Old Trafford\, Manchester
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878756@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 0 x 0 Sunderland
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/aston-villa-x-sunderland-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/aston-villa-x-sunderland-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915300@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Galatasaray 1 x 0 Aston Villa
+DTSTART:20261124T174500Z
+DTEND:20261124T194500Z
+LOCATION:RAMS Park\, Istanbul
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/galatasaray-x-aston-villa-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/galatasaray-x-aston-villa-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878752@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ipswich Town x Aston Villa
+DTSTART:20261128T173000Z
+DTEND:20261128T193000Z
+LOCATION:Portman Road\, Ipswich
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/ipswich-town-x-aston-villa
+ -28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/ipswich-town-x-aston-villa-28-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878751@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa x Everton
+DTSTART:20261202T201500Z
+DTEND:20261202T221500Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/aston-villa-x-everton-02-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/aston-villa-x-everton-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879215@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa x Crystal Palace
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/aston-villa-x-crystal-pala
+ ce-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/aston-villa-x-crystal-palace-05-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915286@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa x Paris Saint-Germain
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/aston-villa-x-paris-sain
+ t-germain-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/aston-villa-x-paris-saint-germain-08-
+ 12-2026/
+END:VEVENT
+END:VCALENDAR

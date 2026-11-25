@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Guiseley · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Guiseley com horário de Brasília e onde assistir. A
+ tualiza sozinho: https://ondepassajogo.com.br/time/guiseley/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401931092@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Guiseley 1 x 0 Sutton United
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:Nethermoor Park\, Guiseley
+DESCRIPTION:FA Cup
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933801@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Guiseley x Notts County
+DTSTART:20261207T193000Z
+DTEND:20261207T213000Z
+LOCATION:Nethermoor Park\, Guiseley
+DESCRIPTION:FA Cup\nOnde passa: canais ainda não anunciados\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/guiseley-x-notts-county-07-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+URL:https://ondepassajogo.com.br/jogo/guiseley-x-notts-county-07-12-2026/
+END:VEVENT
+END:VCALENDAR

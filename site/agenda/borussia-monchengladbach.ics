@@ -1,0 +1,128 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Borussia Mönchengladbach · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Borussia Mönchengladbach com horário de Brasília e
+  onde assistir. Atualiza sozinho: https://ondepassajogo.com.br/time/boruss
+ ia-monchengladbach/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401884774@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Cologne 2 x 1 Borussia Mönchengladbach
+DTSTART:20261011T133000Z
+DTEND:20261011T153000Z
+LOCATION:RheinEnergieStadion\, Cologne
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884768@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Borussia Mönchengladbach 1 x 2 TSG Hoffenheim
+DTSTART:20261018T153000Z
+DTEND:20261018T173000Z
+LOCATION:BORUSSIA-PARK\, Mönchengladbach
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884761@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:VfB Stuttgart 2 x 3 Borussia Mönchengladbach
+DTSTART:20261023T183000Z
+DTEND:20261023T203000Z
+LOCATION:MHPArena\, Stuttgart
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884749@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Borussia Mönchengladbach 0 x 0 SC Paderborn 07
+DTSTART:20261031T143000Z
+DTEND:20261031T163000Z
+LOCATION:BORUSSIA-PARK\, Mönchengladbach
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884739@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hamburg SV 3 x 1 Borussia Mönchengladbach
+DTSTART:20261106T193000Z
+DTEND:20261106T213000Z
+LOCATION:Volksparkstadion\, Hamburg Norderstedt
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884731@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Borussia Mönchengladbach 0 x 1 Borussia Dortmund
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:BORUSSIA-PARK\, Mönchengladbach
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /borussia-monchengladbach-x-borussia-dortmund-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/borussia-monchengladbach-x-borussia-d
+ ortmund-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884720@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Werder Bremen x Borussia Mönchengladbach
+DTSTART:20261127T193000Z
+DTEND:20261127T213000Z
+LOCATION:Weserstadion\, Bremen
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/werder-bremen-x-borussia-m
+ onchengladbach-27-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/werder-bremen-x-borussia-monchengladb
+ ach-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884716@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bayer Leverkusen x Borussia Mönchengladbach
+DTSTART:20261205T143000Z
+DTEND:20261205T163000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-borussi
+ a-monchengladbach-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-borussia-monchengl
+ adbach-05-12-2026/
+END:VEVENT
+END:VCALENDAR

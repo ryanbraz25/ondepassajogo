@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Swansea City · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Swansea City com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/swansea-city/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880228@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall 0 x 1 Swansea City
+DTSTART:20261013T184500Z
+DTEND:20261013T204500Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880212@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Swansea City 0 x 1 West Ham United
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:Swansea.com Stadium\, Swansea
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880201@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers 5 x 0 Swansea City
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880187@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Swansea City 4 x 0 Blackburn Rovers
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:Swansea.com Stadium\, Swansea
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880181@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Portsmouth 3 x 1 Swansea City
+DTSTART:20261103T194500Z
+DTEND:20261103T214500Z
+LOCATION:Fratton Park\, Portsmouth
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880172@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Birmingham City 2 x 1 Swansea City
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:St. Andrew's Stadium\, Birmingham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880151@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Swansea City 2 x 2 West Bromwich Albion
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Swansea.com Stadium\, Swansea
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/swansea-city-x-west-bromwich-albion-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/swansea-city-x-west-bromwich-albion-2
+ 1-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880145@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Middlesbrough 2 x 1 Swansea City
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Riverside Stadium\, Middlesbrough
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/middlesbrough-x-swansea-city-24-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/middlesbrough-x-swansea-city-24-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880128@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Swansea City x Cardiff City
+DTSTART:20261129T120000Z
+DTEND:20261129T140000Z
+LOCATION:Swansea.com Stadium\, Swansea
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/swansea-
+ city-x-cardiff-city-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/swansea-city-x-cardiff-city-29-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880123@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bristol City x Swansea City
+DTSTART:20261205T123000Z
+DTEND:20261205T143000Z
+LOCATION:Ashton Gate\, Bristol
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/bristol-
+ city-x-swansea-city-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/bristol-city-x-swansea-city-05-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880108@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Swansea City x Bolton Wanderers
+DTSTART:20261208T194500Z
+DTEND:20261208T214500Z
+LOCATION:Swansea.com Stadium\, Swansea
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/swansea-
+ city-x-bolton-wanderers-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/swansea-city-x-bolton-wanderers-08-12
+ -2026/
+END:VEVENT
+END:VCALENDAR

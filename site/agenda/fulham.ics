@@ -1,0 +1,127 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Fulham · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Fulham com horário de Brasília e onde assistir. Atu
+ aliza sozinho: https://ondepassajogo.com.br/time/fulham/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401878770@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fulham 1 x 0 Hull City
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:Craven Cottage\, London
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879255@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coventry City 0 x 1 Fulham
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+LOCATION:Coventry Building Society Arena\, Coventry
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879250@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 1 x 1 Fulham
+DTSTART:20261031T200000Z
+DTEND:20261031T220000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879241@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fulham 1 x 1 Newcastle
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:Craven Cottage\, London
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879233@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 1 x 1 Fulham
+DTSTART:20261121T123000Z
+DTEND:20261121T143000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/manchester-city-x-fulham-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-city-x-fulham-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879228@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fulham x Bournemouth
+DTSTART:20261129T140500Z
+DTEND:20261129T160500Z
+LOCATION:Craven Cottage\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/fulham-x-bournemouth-29-11
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/fulham-x-bournemouth-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878749@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham x Fulham
+DTSTART:20261203T200000Z
+DTEND:20261203T220000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/tottenham-x-fulham-03-12-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/tottenham-x-fulham-03-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879212@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Everton x Fulham
+DTSTART:20261206T140000Z
+DTEND:20261206T160000Z
+LOCATION:Hill Dickinson Stadium\, Liverpool
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/everton-x-fulham-06-12-202
+ 6/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/everton-x-fulham-06-12-2026/
+END:VEVENT
+END:VCALENDAR

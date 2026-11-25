@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Ajax Amsterdam · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Ajax Amsterdam com horário de Brasília e onde assis
+ tir. Atualiza sozinho: https://ondepassajogo.com.br/time/ajax-amsterdam/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915861@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hajduk Split 2 x 1 Ajax Amsterdam
+DTSTART:20261015T164500Z
+DTEND:20261015T184500Z
+LOCATION:Stadion Poljud\, Split
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875575@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Groningen 2 x 5 Ajax Amsterdam
+DTSTART:20261018T144500Z
+DTEND:20261018T164500Z
+LOCATION:Euroborg\, Groningen
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915837@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ajax Amsterdam 2 x 0 Atalanta
+DTSTART:20261022T190000Z
+DTEND:20261022T210000Z
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875567@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sparta Rotterdam 1 x 2 Ajax Amsterdam
+DTSTART:20261025T154500Z
+DTEND:20261025T174500Z
+LOCATION:Sparta-Stadion Het Kasteel\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875562@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ajax Amsterdam 1 x 0 AZ Alkmaar
+DTSTART:20261031T200000Z
+DTEND:20261031T220000Z
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915829@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Midtjylland 1 x 6 Ajax Amsterdam
+DTSTART:20261105T174500Z
+DTEND:20261105T194500Z
+LOCATION:MCH Arena\, Herning
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875550@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Twente 2 x 2 Ajax Amsterdam
+DTSTART:20261108T133000Z
+DTEND:20261108T153000Z
+LOCATION:De Grolsch Veste\, Enschede
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875547@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ajax Amsterdam 3 x 0 ADO Den Haag
+DTSTART:20261122T133000Z
+DTEND:20261122T153000Z
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915815@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ajax Amsterdam x FC Thun
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/ajax-amsterda
+ m-x-fc-thun-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875535@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam x Ajax Amsterdam
+DTSTART:20261129T133000Z
+DTEND:20261129T153000Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/feyenoord-rot
+ terdam-x-ajax-amsterdam-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-ajax-amsterdam-
+ 29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875528@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ajax Amsterdam x FC Utrecht
+DTSTART:20261206T133000Z
+DTEND:20261206T153000Z
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/ajax-amsterda
+ m-x-fc-utrecht-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-utrecht-06-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR

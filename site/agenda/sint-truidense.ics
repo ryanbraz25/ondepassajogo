@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Sint-Truidense · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Sint-Truidense com horário de Brasília e onde assis
+ tir. Atualiza sozinho: https://ondepassajogo.com.br/time/sint-truidense/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915849@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sint-Truidense 2 x 0 Iberia 1999
+DTSTART:20261015T190000Z
+DTEND:20261015T210000Z
+LOCATION:Daio Wasabi Stayen Stadium\, Sint-Truiden
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915835@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Midtjylland 0 x 1 Sint-Truidense
+DTSTART:20261022T190000Z
+DTEND:20261022T210000Z
+LOCATION:MCH Arena\, Herning
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915820@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sint-Truidense 1 x 1 SK Brann
+DTSTART:20261105T200000Z
+DTEND:20261105T220000Z
+LOCATION:Daio Wasabi Stayen Stadium\, Sint-Truiden
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915805@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hajduk Split x Sint-Truidense
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Stadion Poljud\, Split
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/hajduk-split-
+ x-sint-truidense-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/hajduk-split-x-sint-truidense-26-11-2
+ 026/
+END:VEVENT
+END:VCALENDAR

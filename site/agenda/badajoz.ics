@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Badajoz · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Badajoz com horário de Brasília e onde assistir. At
+ ualiza sozinho: https://ondepassajogo.com.br/time/badajoz/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928532@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Badajoz 2 x 5 Tenerife
+DTSTART:20261118T190000Z
+DTEND:20261118T210000Z
+LOCATION:Estádio Municipal Nuevo Vivero\, Badajoz
+DESCRIPTION:Copa do Rei\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/badajoz-x-tenerife-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/badajoz-x-tenerife-18-11-2026/
+END:VEVENT
+END:VCALENDAR

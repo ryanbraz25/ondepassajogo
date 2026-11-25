@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Leganés · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Leganés com horário de Brasília e onde assistir. A
+ tualiza sozinho: https://ondepassajogo.com.br/time/leganes/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928550@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Trival Valderas 0 x 1 Leganés
+DTSTART:20261110T190000Z
+DTEND:20261110T210000Z
+LOCATION:Estádio Municipal de Butarque\, Leganés\, Madrid
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936403@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Mirandés x Leganés
+DTSTART:20261202T190000Z
+DTEND:20261202T210000Z
+LOCATION:Estádio Municipal de Anduva\, Miranda de Ebro
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/mirandes-x-leganes-02-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/mirandes-x-leganes-02-12-2026/
+END:VEVENT
+END:VCALENDAR

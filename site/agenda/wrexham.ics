@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Wrexham · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Wrexham com horário de Brasília e onde assistir. At
+ ualiza sozinho: https://ondepassajogo.com.br/time/wrexham/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880225@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wrexham 1 x 2 West Bromwich Albion
+DTSTART:20261013T184500Z
+DTEND:20261013T204500Z
+LOCATION:STōK Cae Ras\, Wrexham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880209@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wrexham 4 x 1 Preston North End
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:STōK Cae Ras\, Wrexham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880208@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Blackburn Rovers 2 x 0 Wrexham
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+LOCATION:Ewood Park\, Blackburn
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880190@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sheffield United 1 x 0 Wrexham
+DTSTART:20261030T200000Z
+DTEND:20261030T220000Z
+LOCATION:Bramall Lane\, Sheffield
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880173@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wrexham 2 x 0 Middlesbrough
+DTSTART:20261104T194500Z
+DTEND:20261104T214500Z
+LOCATION:STōK Cae Ras\, Wrexham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880161@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wrexham 1 x 1 Wolverhampton Wanderers
+DTSTART:20261107T123000Z
+DTEND:20261107T143000Z
+LOCATION:STōK Cae Ras\, Wrexham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880158@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lincoln City 0 x 1 Wrexham
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:LNER Stadium\, Lincoln
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/lincoln-city-x-wrexham-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/lincoln-city-x-wrexham-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880148@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bristol City 1 x 1 Wrexham
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Ashton Gate\, Bristol
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/bristol-city-x-wrexham-24-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/bristol-city-x-wrexham-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880125@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wrexham x Portsmouth
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:STōK Cae Ras\, Wrexham
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/wrexham-
+ x-portsmouth-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/wrexham-x-portsmouth-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880118@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Norwich City x Wrexham
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Carrow Road\, Norwich
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/norwich-
+ city-x-wrexham-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/norwich-city-x-wrexham-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880105@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wrexham x Charlton Athletic
+DTSTART:20261208T194500Z
+DTEND:20261208T214500Z
+LOCATION:STōK Cae Ras\, Wrexham
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/wrexham-
+ x-charlton-athletic-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/wrexham-x-charlton-athletic-08-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR

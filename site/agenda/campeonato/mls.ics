@@ -1,0 +1,440 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MLS · Onde Passa Jogo
+X-WR-CALDESC:Jogos MLS com horário de Brasília e onde assistir. https://o
+ ndepassajogo.com.br/campeonato/mls/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401933535@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Orlando City SC 1 x 3 FC Cincinnati
+DTSTART:20261120T003000Z
+DTEND:20261120T023000Z
+LOCATION:Inter&Co Stadium\, Orlando\, Florida
+DESCRIPTION:MLS\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/orland
+ o-city-sc-x-fc-cincinnati-19-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/orlando-city-sc-x-fc-cincinnati-19-11
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933555@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Seattle Sounders FC 1 x 1 Real Salt Lake
+DTSTART:20261120T030000Z
+DTEND:20261120T050000Z
+LOCATION:Lumen Field\, Seattle\, Washington
+DESCRIPTION:MLS\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/seattl
+ e-sounders-fc-x-real-salt-lake-20-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/seattle-sounders-fc-x-real-salt-lake-
+ 20-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933733@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:New England Revolution 2 x 0 Philadelphia Union
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:MLS\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/new-en
+ gland-revolution-x-philadelphia-union-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/new-england-revolution-x-philadelphia
+ -union-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933732@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Dallas 3 x 0 Portland Timbers
+DTSTART:20261121T210000Z
+DTEND:20261121T230000Z
+LOCATION:Toyota Stadium\, Toyota Stadium
+DESCRIPTION:MLS\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/fc-dal
+ las-x-portland-timbers-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/fc-dallas-x-portland-timbers-21-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933739@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Inter Miami CF 0 x 3 Columbus Crew
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+LOCATION:Nu Stadium\, Miami\, Florida
+DESCRIPTION:MLS\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/inter-
+ miami-cf-x-columbus-crew-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/inter-miami-cf-x-columbus-crew-21-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933731@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Nashville SC 0 x 1 FC Cincinnati
+DTSTART:20261122T210000Z
+DTEND:20261122T230000Z
+LOCATION:GEODIS Park\, Nashville\, Tennessee
+DESCRIPTION:MLS\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/nashvi
+ lle-sc-x-fc-cincinnati-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/nashville-sc-x-fc-cincinnati-22-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933730@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chicago Fire FC 1 x 2 Charlotte FC
+DTSTART:20261122T233000Z
+DTEND:20261123T013000Z
+LOCATION:SeatGeek Stadium\, Bridgeview\, Illinois
+DESCRIPTION:MLS\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/chicag
+ o-fire-fc-x-charlotte-fc-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/chicago-fire-fc-x-charlotte-fc-22-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933729@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Vancouver Whitecaps 2 x 0 Real Salt Lake
+DTSTART:20261123T013000Z
+DTEND:20261123T033000Z
+LOCATION:BC Place\, Vancouver
+DESCRIPTION:MLS\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/vancou
+ ver-whitecaps-x-real-salt-lake-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake-
+ 22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933728@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:St. Louis CITY SC 3 x 2 LAFC
+DTSTART:20261124T011500Z
+DTEND:20261124T031500Z
+LOCATION:Energizer Park\, St. Louis\, Missouri
+DESCRIPTION:MLS\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/st-lou
+ is-city-sc-x-lafc-23-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/st-louis-city-sc-x-lafc-23-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933738@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:San Jose Earthquakes x Houston Dynamo FC
+DTSTART:20261125T030000Z
+DTEND:20261125T050000Z
+LOCATION:PayPal Park\, San José\, California
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/san-jose-earthquakes-x-houston-dynam
+ o-fc-25-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/san-jose-earthquakes-x-houston-dynamo
+ -fc-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933727@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Columbus Crew x Inter Miami CF
+DTSTART:20261128T010000Z
+DTEND:20261128T030000Z
+LOCATION:ScottsMiracle-Gro Field\, Columbus\, Ohio
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/columbus-crew-x-inter-miami-cf-27-11
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/columbus-crew-x-inter-miami-cf-27-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933725@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Salt Lake x Vancouver Whitecaps
+DTSTART:20261128T030000Z
+DTEND:20261128T050000Z
+LOCATION:America First Field\, Sandy\, Utah
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/real-salt-lake-x-vancouver-whitecaps
+ -28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/real-salt-lake-x-vancouver-whitecaps-
+ 28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933737@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Charlotte FC x Chicago Fire FC
+DTSTART:20261128T173000Z
+DTEND:20261128T193000Z
+LOCATION:Bank of America Stadium\, Charlotte\, North Carolina
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/charlotte-fc-x-chicago-fire-fc-28-11
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/charlotte-fc-x-chicago-fire-fc-28-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933724@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Houston Dynamo FC x San Jose Earthquakes
+DTSTART:20261128T193000Z
+DTEND:20261128T213000Z
+LOCATION:Shell Energy Stadium\, Houston\, Texas
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/houston-dynamo-fc-x-san-jose-earthqu
+ akes-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/houston-dynamo-fc-x-san-jose-earthqua
+ kes-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933723@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Philadelphia Union x New England Revolution
+DTSTART:20261128T213000Z
+DTEND:20261128T233000Z
+LOCATION:Subaru Park\, Chester\, Pennsylvania
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/philadelphia-union-x-new-england-rev
+ olution-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/philadelphia-union-x-new-england-revo
+ lution-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933722@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Cincinnati x Nashville SC
+DTSTART:20261128T233000Z
+DTEND:20261129T013000Z
+LOCATION:TQL Stadium\, Cincinnati\, Ohio
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/fc-cincinnati-x-nashville-sc-28-11-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/fc-cincinnati-x-nashville-sc-28-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933726@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:LAFC x St. Louis CITY SC
+DTSTART:20261129T013000Z
+DTEND:20261129T033000Z
+LOCATION:BMO Stadium\, Los Angeles\, California
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/lafc-x-st-louis-city-sc-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/lafc-x-st-louis-city-sc-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933721@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Portland Timbers x FC Dallas
+DTSTART:20261129T033000Z
+DTEND:20261129T053000Z
+LOCATION:Providence Park\, Portland\, Oregon
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/portland-timbers-x-fc-dallas-29-11-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/portland-timbers-x-fc-dallas-29-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933719@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:New England Revolution x Philadelphia Union
+DTSTART:20261203T000000Z
+DTEND:20261203T020000Z
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/new-england-revolution-x-philadelphi
+ a-union-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/new-england-revolution-x-philadelphia
+ -union-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933720@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Inter Miami CF x Columbus Crew
+DTSTART:20261203T003000Z
+DTEND:20261203T023000Z
+LOCATION:Nu Stadium\, Miami\, Florida
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/inter-miami-cf-x-columbus-crew-02-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/inter-miami-cf-x-columbus-crew-02-12-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933718@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chicago Fire FC x Charlotte FC
+DTSTART:20261203T010000Z
+DTEND:20261203T030000Z
+LOCATION:SeatGeek Stadium\, Bridgeview\, Illinois
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/chicago-fire-fc-x-charlotte-fc-02-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/chicago-fire-fc-x-charlotte-fc-02-12-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933716@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Dallas x Portland Timbers
+DTSTART:20261203T010000Z
+DTEND:20261203T030000Z
+LOCATION:Toyota Stadium\, Toyota Stadium
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/fc-dallas-x-portland-timbers-02-12-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/fc-dallas-x-portland-timbers-02-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933736@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Nashville SC x FC Cincinnati
+DTSTART:20261203T010000Z
+DTEND:20261203T030000Z
+LOCATION:GEODIS Park\, Nashville\, Tennessee
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/nashville-sc-x-fc-cincinnati-02-12-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/nashville-sc-x-fc-cincinnati-02-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933735@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:St. Louis CITY SC x LAFC
+DTSTART:20261203T010000Z
+DTEND:20261203T030000Z
+LOCATION:Energizer Park\, St. Louis\, Missouri
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/st-louis-city-sc-x-lafc-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/st-louis-city-sc-x-lafc-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933717@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Vancouver Whitecaps x Real Salt Lake
+DTSTART:20261203T020000Z
+DTEND:20261203T040000Z
+LOCATION:BC Place\, Vancouver
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake
+ -02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake-
+ 02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933715@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:San Jose Earthquakes x Houston Dynamo FC
+DTSTART:20261203T030000Z
+DTEND:20261203T050000Z
+LOCATION:PayPal Park\, San José\, California
+DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
+ ir: https://ondepassajogo.com.br/jogo/san-jose-earthquakes-x-houston-dynam
+ o-fc-03-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:MLS
+URL:https://ondepassajogo.com.br/jogo/san-jose-earthquakes-x-houston-dynamo
+ -fc-03-12-2026/
+END:VEVENT
+END:VCALENDAR

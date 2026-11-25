@@ -1,0 +1,155 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Lincoln City · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Lincoln City com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/lincoln-city/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880224@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lincoln City 0 x 6 West Ham United
+DTSTART:20261014T190000Z
+DTEND:20261014T210000Z
+LOCATION:LNER Stadium\, Lincoln
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880215@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall 2 x 2 Lincoln City
+DTSTART:20261017T113000Z
+DTEND:20261017T133000Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880204@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lincoln City 4 x 1 Burnley
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+LOCATION:LNER Stadium\, Lincoln
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880194@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lincoln City 1 x 3 Birmingham City
+DTSTART:20261031T123000Z
+DTEND:20261031T143000Z
+LOCATION:LNER Stadium\, Lincoln
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880178@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Watford 1 x 0 Lincoln City
+DTSTART:20261103T194500Z
+DTEND:20261103T214500Z
+LOCATION:Vicarage Road\, Watford
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880164@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers 2 x 1 Lincoln City
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880158@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lincoln City 0 x 1 Wrexham
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:LNER Stadium\, Lincoln
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/lincoln-city-x-wrexham-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/lincoln-city-x-wrexham-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880146@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Charlton Athletic 4 x 0 Lincoln City
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:The Valley\, London
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/charlton-athletic-x-lincoln-city-24-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/charlton-athletic-x-lincoln-city-24-1
+ 1-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880133@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lincoln City x Wolverhampton Wanderers
+DTSTART:20261128T123000Z
+DTEND:20261128T143000Z
+LOCATION:LNER Stadium\, Lincoln
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/lincoln-
+ city-x-wolverhampton-wanderers-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/lincoln-city-x-wolverhampton-wanderer
+ s-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880121@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cardiff City x Lincoln City
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/cardiff-
+ city-x-lincoln-city-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/cardiff-city-x-lincoln-city-05-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR

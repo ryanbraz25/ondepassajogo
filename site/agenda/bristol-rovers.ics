@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Bristol Rovers · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Bristol Rovers com horário de Brasília e onde assis
+ tir. Atualiza sozinho: https://ondepassajogo.com.br/time/bristol-rovers/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401931085@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bristol Rovers 2 x 0 Cambridge United
+DTSTART:20261106T193000Z
+DTEND:20261106T213000Z
+LOCATION:Memorial Stadium\, Bristol
+DESCRIPTION:FA Cup
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933802@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Rotherham United x Bristol Rovers
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:AESSEAL New York Stadium\, Rotherham
+DESCRIPTION:FA Cup\nOnde passa: canais ainda não anunciados\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/rotherham-united-x-bristol-
+ rovers-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+URL:https://ondepassajogo.com.br/jogo/rotherham-united-x-bristol-rovers-05-
+ 12-2026/
+END:VEVENT
+END:VCALENDAR

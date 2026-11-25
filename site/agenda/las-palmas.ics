@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Las Palmas · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Las Palmas com horário de Brasília e onde assistir.
+  Atualiza sozinho: https://ondepassajogo.com.br/time/las-palmas/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928549@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Alcalá 1 x 3 Las Palmas
+DTSTART:20261027T190000Z
+DTEND:20261027T210000Z
+LOCATION:Virgen del Val\, Alcalá de Henares
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936424@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Albacete x Las Palmas
+DTSTART:20261201T190000Z
+DTEND:20261201T210000Z
+LOCATION:Carlos Belmonte\, Albacete
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/albacete-x-las-palmas-
+ 01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/albacete-x-las-palmas-01-12-2026/
+END:VEVENT
+END:VCALENDAR

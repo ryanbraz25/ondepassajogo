@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Cruzeiro · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Cruzeiro com horário de Brasília e onde assistir. A
+ tualiza sozinho: https://ondepassajogo.com.br/time/cruzeiro/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401841260@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Red Bull Bragantino 4 x 2 Cruzeiro
+DTSTART:20261013T000000Z
+DTEND:20261013T020000Z
+LOCATION:Estádio Municipal Cicero de Souza Marques\, Bragança Paulista
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841276@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Grêmio 2 x 4 Cruzeiro
+DTSTART:20261018T190000Z
+DTEND:20261018T210000Z
+LOCATION:Arena do Grêmio\, Porto Alegre
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841287@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cruzeiro 1 x 0 Remo
+DTSTART:20261023T230000Z
+DTEND:20261024T010000Z
+LOCATION:Estádio Mineirão\, Belo Horizonte
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841288@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético-MG 0 x 1 Cruzeiro
+DTSTART:20261029T223000Z
+DTEND:20261030T003000Z
+LOCATION:Arena MRV\, Belo Horizonte
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841303@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cruzeiro 3 x 2 Bahia
+DTSTART:20261106T003000Z
+DTEND:20261106T023000Z
+LOCATION:Estádio Mineirão\, Belo Horizonte
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841314@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cruzeiro 2 x 1 Palmeiras
+DTSTART:20261118T233000Z
+DTEND:20261119T013000Z
+LOCATION:Estádio Mineirão\, Belo Horizonte
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/cruzeiro-x-palmeiras-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/cruzeiro-x-palmeiras-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841325@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chapecoense 1 x 2 Cruzeiro
+DTSTART:20261122T000000Z
+DTEND:20261122T020000Z
+LOCATION:Arena Condá\, Chapecó
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/chapecoense-x-cruzeiro-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/chapecoense-x-cruzeiro-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841337@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fluminense x Cruzeiro
+DTSTART:20261127T230000Z
+DTEND:20261128T010000Z
+LOCATION:Estádio do Maracanã\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A · 37ª rodada\nOnde passa: SporTV\, Prem
+ iere\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fluminen
+ se-x-cruzeiro-27-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/fluminense-x-cruzeiro-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841340@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cruzeiro x Internacional
+DTSTART:20261203T003000Z
+DTEND:20261203T023000Z
+LOCATION:Estádio Mineirão\, Belo Horizonte
+DESCRIPTION:Brasileirão Série A\nOnde passa: canais ainda não anunciados
+ \nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/cruzeiro-x-i
+ nternacional-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/cruzeiro-x-internacional-02-12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Fortuna Sittard · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Fortuna Sittard com horário de Brasília e onde assi
+ stir. Atualiza sozinho: https://ondepassajogo.com.br/time/fortuna-sittard/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401875581@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen 2 x 2 Fortuna Sittard
+DTSTART:20261018T180000Z
+DTEND:20261018T200000Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875570@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fortuna Sittard 1 x 0 Excelsior
+DTSTART:20261025T111500Z
+DTEND:20261025T131500Z
+LOCATION:Fortuna Sittard Stadion\, Sittard
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875565@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam 1 x 1 Fortuna Sittard
+DTSTART:20261031T153000Z
+DTEND:20261031T173000Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875555@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fortuna Sittard 2 x 2 Telstar
+DTSTART:20261107T153000Z
+DTEND:20261107T173000Z
+LOCATION:Fortuna Sittard Stadion\, Sittard
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875542@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Go Ahead Eagles 0 x 1 Fortuna Sittard
+DTSTART:20261122T154500Z
+DTEND:20261122T174500Z
+LOCATION:De Adelaarshorst\, Deventer
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/go-ahead-eagles-x-fortuna-sittard-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/go-ahead-eagles-x-fortuna-sittard-22-
+ 11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875534@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fortuna Sittard x Heerenveen
+DTSTART:20261129T133000Z
+DTEND:20261129T153000Z
+LOCATION:Fortuna Sittard Stadion\, Sittard
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fortuna-sitta
+ rd-x-heerenveen-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fortuna-sittard-x-heerenveen-29-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875526@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fortuna Sittard x PEC Zwolle
+DTSTART:20261205T200000Z
+DTEND:20261205T220000Z
+LOCATION:Fortuna Sittard Stadion\, Sittard
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fortuna-sitta
+ rd-x-pec-zwolle-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fortuna-sittard-x-pec-zwolle-05-12-20
+ 26/
+END:VEVENT
+END:VCALENDAR

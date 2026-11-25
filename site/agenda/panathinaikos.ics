@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Panathinaikos · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Panathinaikos com horário de Brasília e onde assist
+ ir. Atualiza sozinho: https://ondepassajogo.com.br/time/panathinaikos/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915856@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Panathinaikos 2 x 1 Borac Banja Luka
+DTSTART:20261015T164500Z
+DTEND:20261015T184500Z
+LOCATION:Athens Olympic Stadium\, Athens
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915846@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kairat Almaty 1 x 5 Panathinaikos
+DTSTART:20261022T143000Z
+DTEND:20261022T163000Z
+LOCATION:Almaty Ortalyk Stadium\, Almaty
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915819@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Panathinaikos 2 x 1 CSKA Sofia
+DTSTART:20261105T200000Z
+DTEND:20261105T220000Z
+LOCATION:Athens Olympic Stadium\, Athens
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915807@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Nordsjælland x Panathinaikos
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Right to Dream Park\, Farum
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-nordsjllan
+ d-x-panathinaikos-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/fc-nordsjlland-x-panathinaikos-26-11-
+ 2026/
+END:VEVENT
+END:VCALENDAR

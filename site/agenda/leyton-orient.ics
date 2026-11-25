@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Leyton Orient · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Leyton Orient com horário de Brasília e onde assist
+ ir. Atualiza sozinho: https://ondepassajogo.com.br/time/leyton-orient/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401931110@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Leyton Orient 5 x 1 Harborough Town
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:Gaughan Group Stadium\, London
+DESCRIPTION:FA Cup
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933788@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Port Vale x Leyton Orient
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Vale Park\, Stoke-on-Trent
+DESCRIPTION:FA Cup\nOnde passa: canais ainda não anunciados\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/port-vale-x-leyton-orient-0
+ 5-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+URL:https://ondepassajogo.com.br/jogo/port-vale-x-leyton-orient-05-12-2026/
+END:VEVENT
+END:VCALENDAR

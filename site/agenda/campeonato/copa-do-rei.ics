@@ -1,0 +1,560 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Copa do Rei · Onde Passa Jogo
+X-WR-CALDESC:Jogos Copa do Rei com horário de Brasília e onde assistir. h
+ ttps://ondepassajogo.com.br/campeonato/copa-do-rei/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928497@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Utebo 0 x 3 CD Sabadell
+DTSTART:20261118T180000Z
+DTEND:20261118T200000Z
+LOCATION:Campo de Fútbol Municipal Santa Ana\, Utebo
+DESCRIPTION:Copa do Rei\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/utebo-x-cd-sabadell-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/utebo-x-cd-sabadell-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401928518@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Portugalete 0 x 0 Real Unión Irun
+DTSTART:20261118T180000Z
+DTEND:20261118T200000Z
+LOCATION:La Florida\, Portugalete
+DESCRIPTION:Copa do Rei\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/portugalete-x-real-union-irun-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/portugalete-x-real-union-irun-18-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401928505@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Alcoyano 1 x 3 Mallorca
+DTSTART:20261118T190000Z
+DTEND:20261118T210000Z
+LOCATION:El Collao\, Manises
+DESCRIPTION:Copa do Rei\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/alcoyano-x-mallorca-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/alcoyano-x-mallorca-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401928532@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Badajoz 2 x 5 Tenerife
+DTSTART:20261118T190000Z
+DTEND:20261118T210000Z
+LOCATION:Estádio Municipal Nuevo Vivero\, Badajoz
+DESCRIPTION:Copa do Rei\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/badajoz-x-tenerife-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/badajoz-x-tenerife-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401928500@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Reus FC Reddis 1 x 1 Barakaldo
+DTSTART:20261118T193000Z
+DTEND:20261118T213000Z
+LOCATION:Camp Nou Municipal\, Reus
+DESCRIPTION:Copa do Rei\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/reus-fc-reddis-x-barakaldo-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/reus-fc-reddis-x-barakaldo-18-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401928524@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CD Minera 1 x 2 FC Cartagena
+DTSTART:20261118T193000Z
+DTEND:20261118T213000Z
+LOCATION:Estádio Municipal Ángel Celdrán\, Murcia
+DESCRIPTION:Copa do Rei\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/cd-minera-x-fc-cartagena-18-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/cd-minera-x-fc-cartagena-18-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936411@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Antequera CF x Levante
+DTSTART:20261201T180000Z
+DTEND:20261201T200000Z
+LOCATION:Estádio El Maulí\, Antequera
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/antequera-cf-x-levante
+ -01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/antequera-cf-x-levante-01-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936401@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Reus FC Reddis x Racing Santander
+DTSTART:20261201T180000Z
+DTEND:20261201T200000Z
+LOCATION:Camp Nou Municipal\, Reus
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/reus-fc-reddis-x-racin
+ g-santander-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/reus-fc-reddis-x-racing-santander-01-
+ 12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936417@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Huesca x Girona
+DTSTART:20261201T183000Z
+DTEND:20261201T203000Z
+LOCATION:Estádio El Alcoraz\, Huesca
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/huesca-x-girona-01-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/huesca-x-girona-01-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936424@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Albacete x Las Palmas
+DTSTART:20261201T190000Z
+DTEND:20261201T210000Z
+LOCATION:Carlos Belmonte\, Albacete
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/albacete-x-las-palmas-
+ 01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/albacete-x-las-palmas-01-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936422@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ponferradina x FC Andorra
+DTSTART:20261201T190000Z
+DTEND:20261201T210000Z
+LOCATION:El Toralín\, Ponferrada
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/ponferradina-x-fc-ando
+ rra-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/ponferradina-x-fc-andorra-01-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936406@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CD Extremadura x Real Betis
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:Francisco de la Hera\, Almendralejo
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/cd-extremadura-x-real-
+ betis-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/cd-extremadura-x-real-betis-01-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936400@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CE Europa x Rayo Vallecano
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:Camp Municipal de Futbol Nou Sardenya\, Barcelona
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/ce-europa-x-rayo-valle
+ cano-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/ce-europa-x-rayo-vallecano-01-12-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936408@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Cartagena x Elche
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:Estádio Cartagonova\, Cartagena
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/fc-cartagena-x-elche-0
+ 1-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/fc-cartagena-x-elche-01-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936397@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Gimnástica Torrelavega x Alavés
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:El Malecon\, Torrelavega
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/gimnastica-torrelavega
+ -x-alaves-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/gimnastica-torrelavega-x-alaves-01-12
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936399@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Numancia x Athletic Club
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:Los Pajaritos\, Soria
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/numancia-x-athletic-cl
+ ub-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/numancia-x-athletic-club-01-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936412@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ceuta x Cádiz
+DTSTART:20261202T173000Z
+DTEND:20261202T193000Z
+LOCATION:Estádio Alfonso Murube\, Ceuta
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/ceuta-x-cadiz-02-12-20
+ 26/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/ceuta-x-cadiz-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936415@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Portugalete x Deportivo
+DTSTART:20261202T180000Z
+DTEND:20261202T200000Z
+LOCATION:La Florida\, Portugalete
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/portugalete-x-deportiv
+ o-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/portugalete-x-deportivo-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936423@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sant Andreu x Eibar
+DTSTART:20261202T180000Z
+DTEND:20261202T200000Z
+LOCATION:Narcís Sala\, Barcelona
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/sant-andreu-x-eibar-02
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/sant-andreu-x-eibar-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936425@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Almería x Granada
+DTSTART:20261202T190000Z
+DTEND:20261202T210000Z
+LOCATION:Power Horse Stadium\, Almería
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/almeria-x-granada-02-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/almeria-x-granada-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936402@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CD Sabadell x Sporting Gijón
+DTSTART:20261202T190000Z
+DTEND:20261202T210000Z
+LOCATION:Estadi Municipal de la Nova Creu Alta\, Sabadell
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/cd-sabadell-x-sporting
+ -gijon-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/cd-sabadell-x-sporting-gijon-02-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936405@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cultural Leonesa x Castellón
+DTSTART:20261202T190000Z
+DTEND:20261202T210000Z
+LOCATION:Estádio Reino de León\, León
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/cultural-leonesa-x-cas
+ tellon-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/cultural-leonesa-x-castellon-02-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936433@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Eldense x Tenerife
+DTSTART:20261202T190000Z
+DTEND:20261202T210000Z
+LOCATION:Estádio Municipal Nuevo Pepico Amat\, Elda
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/eldense-x-tenerife-02-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/eldense-x-tenerife-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936403@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Mirandés x Leganés
+DTSTART:20261202T190000Z
+DTEND:20261202T210000Z
+LOCATION:Estádio Municipal de Anduva\, Miranda de Ebro
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/mirandes-x-leganes-02-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/mirandes-x-leganes-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936404@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Zamora CF x Real Valladolid
+DTSTART:20261202T190000Z
+DTEND:20261202T210000Z
+LOCATION:Estádio Ruta de la Plata\, Zamora
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/zamora-cf-x-real-valla
+ dolid-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/zamora-cf-x-real-valladolid-02-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936416@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Arosa x Celta Vigo
+DTSTART:20261202T200000Z
+DTEND:20261202T220000Z
+LOCATION:Estádio de A Lomba\, Villagarcía de Arosa
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/arosa-x-celta-vigo-02-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/arosa-x-celta-vigo-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936421@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Rayo Majadahonda x Mallorca
+DTSTART:20261202T200000Z
+DTEND:20261202T220000Z
+LOCATION:Cerro del Espino\, Madrid
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/rayo-majadahonda-x-mal
+ lorca-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/rayo-majadahonda-x-mallorca-02-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936398@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sestao x Villarreal
+DTSTART:20261202T200000Z
+DTEND:20261202T220000Z
+LOCATION:Las Llanas\, Sestao
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/sestao-x-villarreal-02
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/sestao-x-villarreal-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936409@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético Paso x Sevilla
+DTSTART:20261203T180000Z
+DTEND:20261203T200000Z
+LOCATION:Campo Municipal de El Paso\, El Paso
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/atletico-paso-x-sevill
+ a-03-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/atletico-paso-x-sevilla-03-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936420@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Ávila x Getafe
+DTSTART:20261203T180000Z
+DTEND:20261203T200000Z
+LOCATION:Municipal Adolfo Suárez\, Ávila
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/real-avila-x-getafe-03
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/real-avila-x-getafe-03-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936418@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Amorebieta x Osasuna
+DTSTART:20261203T200000Z
+DTEND:20261203T220000Z
+LOCATION:Urritxe\, Amorebieta
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/amorebieta-x-osasuna-0
+ 3-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/amorebieta-x-osasuna-03-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936407@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coria x Málaga
+DTSTART:20261203T200000Z
+DTEND:20261203T220000Z
+LOCATION:Estádio La Isla\, Logroño
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/coria-x-malaga-03-12-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/coria-x-malaga-03-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936410@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Jaen CF x Valencia
+DTSTART:20261203T200000Z
+DTEND:20261203T220000Z
+LOCATION:Nuevo Estádio Municipal de La Victoria\, Jaén
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/real-jaen-cf-x-valenci
+ a-03-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/real-jaen-cf-x-valencia-03-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936419@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Zaragoza x Burgos
+DTSTART:20261203T200000Z
+DTEND:20261203T220000Z
+LOCATION:Ibercaja Estádio\, Zaragoza
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/real-zaragoza-x-burgos
+ -03-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/real-zaragoza-x-burgos-03-12-2026/
+END:VEVENT
+END:VCALENDAR

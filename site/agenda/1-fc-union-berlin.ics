@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do 1. FC Union Berlin · Onde Passa Jogo
+X-WR-CALDESC:Jogos do 1. FC Union Berlin com horário de Brasília e onde a
+ ssistir. Atualiza sozinho: https://ondepassajogo.com.br/time/1-fc-union-be
+ rlin/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401884769@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:1. FC Union Berlin 0 x 0 Borussia Dortmund
+DTSTART:20261017T133000Z
+DTEND:20261017T153000Z
+LOCATION:Stadion An der Alten Försterei\, Berlin
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884758@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Augsburg 1 x 1 1. FC Union Berlin
+DTSTART:20261024T133000Z
+DTEND:20261024T153000Z
+LOCATION:WWK Arena\, Augsburg
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884750@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:1. FC Union Berlin 1 x 1 FC Cologne
+DTSTART:20261101T143000Z
+DTEND:20261101T163000Z
+LOCATION:Stadion An der Alten Försterei\, Berlin
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884741@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Freiburg 2 x 0 1. FC Union Berlin
+DTSTART:20261108T163000Z
+DTEND:20261108T183000Z
+LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884732@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:1. FC Union Berlin 1 x 5 RB Leipzig
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:Stadion An der Alten Försterei\, Berlin
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /1-fc-union-berlin-x-rb-leipzig-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-rb-leipzig-21-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884723@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Mainz x 1. FC Union Berlin
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+LOCATION:MEWA ARENA\, Mainz
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/mainz-x-1-fc-union-berlin-
+ 28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/mainz-x-1-fc-union-berlin-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884712@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:1. FC Union Berlin x Hamburg SV
+DTSTART:20261205T143000Z
+DTEND:20261205T163000Z
+LOCATION:Stadion An der Alten Försterei\, Berlin
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-hambur
+ g-sv-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-hamburg-sv-05-12-
+ 2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,113 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Genclerbirligi · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Genclerbirligi com horário de Brasília e onde assis
+ tir. Atualiza sozinho: https://ondepassajogo.com.br/time/genclerbirligi/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401888274@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Genclerbirligi 0 x 1 Galatasaray
+DTSTART:20261017T130000Z
+DTEND:20261017T150000Z
+LOCATION:Eryaman Stadium\, Ankara
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888266@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Konyaspor 2 x 0 Genclerbirligi
+DTSTART:20261025T130000Z
+DTEND:20261025T150000Z
+LOCATION:Medas Konya Büyüksehir Stadyumu\, Konya
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888260@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Genclerbirligi 5 x 0 Alanyaspor
+DTSTART:20261102T170000Z
+DTEND:20261102T190000Z
+LOCATION:Eryaman Stadium\, Ankara
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888251@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Besiktas 3 x 0 Genclerbirligi
+DTSTART:20261108T180000Z
+DTEND:20261108T200000Z
+LOCATION:Vodafone Park\, Istanbul
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888247@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Genclerbirligi 1 x 0 Gaziantep FK
+DTSTART:20261121T103000Z
+DTEND:20261121T123000Z
+LOCATION:Eryaman Stadium\, Ankara
+DESCRIPTION:Liga da Turquia\nDetalhes do jogo: https://ondepassajogo.com.br
+ /jogo/genclerbirligi-x-gaziantep-fk-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/genclerbirligi-x-gaziantep-fk-21-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888236@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Samsunspor x Genclerbirligi
+DTSTART:20261128T130000Z
+DTEND:20261128T150000Z
+LOCATION:Samsun 19 Mayis Stadium\, Samsun
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/samsunspor-x-gencl
+ erbirligi-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/samsunspor-x-genclerbirligi-28-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888233@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Genclerbirligi x Eyupspor
+DTSTART:20261206T130000Z
+DTEND:20261206T150000Z
+LOCATION:Eryaman Stadium\, Ankara
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/genclerbirligi-x-e
+ yupspor-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/genclerbirligi-x-eyupspor-06-12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do FC Nordsjælland · Onde Passa Jogo
+X-WR-CALDESC:Jogos do FC Nordsjælland com horário de Brasília e onde ass
+ istir. Atualiza sozinho: https://ondepassajogo.com.br/time/fc-nordsjlland/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915850@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heart of Midlothian 1 x 1 FC Nordsjælland
+DTSTART:20261015T190000Z
+DTEND:20261015T210000Z
+LOCATION:Tynecastle Park\, Edinburgh
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915844@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Nordsjælland 2 x 2 CSKA Sofia
+DTSTART:20261022T164500Z
+DTEND:20261022T184500Z
+LOCATION:Right to Dream Park\, Farum
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915824@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:AS Monaco 2 x 0 FC Nordsjælland
+DTSTART:20261105T200000Z
+DTEND:20261105T220000Z
+LOCATION:Stade Louis II\, Monaco
+DESCRIPTION:Conference League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915807@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Nordsjælland x Panathinaikos
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Right to Dream Park\, Farum
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-nordsjllan
+ d-x-panathinaikos-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/fc-nordsjlland-x-panathinaikos-26-11-
+ 2026/
+END:VEVENT
+END:VCALENDAR

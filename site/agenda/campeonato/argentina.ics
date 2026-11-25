@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Argentino · Onde Passa Jogo
+X-WR-CALDESC:Jogos Argentino com horário de Brasília e onde assistir. htt
+ ps://ondepassajogo.com.br/campeonato/argentina/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401933760@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Vélez Sarsfield 2 x 2 Belgrano (Córdoba)
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+LOCATION:José Amalfitani\, Buenos Aires
+DESCRIPTION:Argentino\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/
+ velez-sarsfield-x-belgrano-cordoba-20-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/velez-sarsfield-x-belgrano-cordoba-20
+ -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933758@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Defensa y Justicia 0 x 1 Barracas Central
+DTSTART:20261121T180000Z
+DTEND:20261121T200000Z
+LOCATION:Norberto Tomaghello\, Buenos Aires
+DESCRIPTION:Argentino\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/
+ defensa-y-justicia-x-barracas-central-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/defensa-y-justicia-x-barracas-central
+ -21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933755@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Argentinos Juniors 1 x 2 Independiente
+DTSTART:20261121T200000Z
+DTEND:20261121T220000Z
+LOCATION:Diego Armando Maradona\, Buenos Aires
+DESCRIPTION:Argentino\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/
+ argentinos-juniors-x-independiente-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/argentinos-juniors-x-independiente-21
+ -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933759@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Rosario Central 3 x 1 Gimnasia (Mendoza)
+DTSTART:20261122T190000Z
+DTEND:20261122T210000Z
+LOCATION:Gigante de Arroyito\, Rosario
+DESCRIPTION:Argentino\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/
+ rosario-central-x-gimnasia-mendoza-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/rosario-central-x-gimnasia-mendoza-22
+ -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933761@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:River Plate 3 x 1 Lanús
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+LOCATION:Estádio Más Monumental\, Buenos Aires
+DESCRIPTION:Argentino\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/
+ river-plate-x-lanus-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/river-plate-x-lanus-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933762@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Instituto (Córdoba) 2 x 1 Huracán
+DTSTART:20261123T010000Z
+DTEND:20261123T030000Z
+LOCATION:Mario Alberto Kempes\, Córdoba
+DESCRIPTION:Argentino\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/
+ instituto-cordoba-x-huracan-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/instituto-cordoba-x-huracan-22-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933756@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Gimnasia La Plata 4 x 2 Newell's Old Boys
+DTSTART:20261123T200000Z
+DTEND:20261123T220000Z
+LOCATION:Juan Carmelo Zerillo (El Bosque)\, La Plata
+DESCRIPTION:Argentino\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/
+ gimnasia-la-plata-x-newell-s-old-boys-23-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/gimnasia-la-plata-x-newell-s-old-boys
+ -23-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933757@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Boca Juniors x Independiente Rivadavia
+DTSTART:20261126T000000Z
+DTEND:20261126T020000Z
+LOCATION:Alberto José Armando (La Bombonera)\, Buenos Aires
+DESCRIPTION:Argentino\nOnde passa: Disney+ (a confirmar)\nDetalhes e onde a
+ ssistir: https://ondepassajogo.com.br/jogo/boca-juniors-x-independiente-ri
+ vadavia-25-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/boca-juniors-x-independiente-rivadavi
+ a-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936353@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Vélez Sarsfield x Independiente
+DTSTART:20261129T200000Z
+DTEND:20261129T220000Z
+LOCATION:José Amalfitani\, Buenos Aires
+DESCRIPTION:Argentino\nOnde passa: Disney+ (a confirmar)\nDetalhes e onde a
+ ssistir: https://ondepassajogo.com.br/jogo/velez-sarsfield-x-independiente
+ -29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/velez-sarsfield-x-independiente-29-11
+ -2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,126 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do São Paulo · Onde Passa Jogo
+X-WR-CALDESC:Jogos do São Paulo com horário de Brasília e onde assistir.
+  Atualiza sozinho: https://ondepassajogo.com.br/time/sao-paulo/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401841273@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:São Paulo 1 x 0 Vasco
+DTSTART:20261018T000000Z
+DTEND:20261018T020000Z
+LOCATION:Estádio Cícero Pompeu de Toledo\, São Paulo
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841284@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Mirassol 1 x 1 São Paulo
+DTSTART:20261024T193000Z
+DTEND:20261024T213000Z
+LOCATION:Estádio Municipal José Maria de Campos Maia\, Mirassol
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841296@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bahia 3 x 2 São Paulo
+DTSTART:20261029T003000Z
+DTEND:20261029T023000Z
+LOCATION:Arena Fonte Nova\, Salvador
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841298@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:São Paulo 0 x 0 Corinthians
+DTSTART:20261105T003000Z
+DTEND:20261105T023000Z
+LOCATION:Estádio Vila Belmiro (Urbano Caldeira)\, Santos
+DESCRIPTION:Brasileirão Série A
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841309@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:São Paulo 0 x 1 Fluminense
+DTSTART:20261120T003000Z
+DTEND:20261120T023000Z
+LOCATION:Estádio Cícero Pompeu de Toledo\, São Paulo
+DESCRIPTION:Brasileirão Série A\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/sao-paulo-x-fluminense-19-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/sao-paulo-x-fluminense-19-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841326@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Botafogo 1 x 1 São Paulo
+DTSTART:20261123T230000Z
+DTEND:20261124T010000Z
+LOCATION:João Havelange Stadium\, Rio de Janeiro
+DESCRIPTION:Brasileirão Série A · 36ª rodada\nDetalhes do jogo: https:/
+ /ondepassajogo.com.br/jogo/botafogo-x-sao-paulo-23-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/botafogo-x-sao-paulo-23-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841329@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:São Paulo x Remo
+DTSTART:20261126T230000Z
+DTEND:20261127T010000Z
+LOCATION:Estádio Cícero Pompeu de Toledo\, São Paulo
+DESCRIPTION:Brasileirão Série A · 37ª rodada\nOnde passa: Premiere\nDet
+ alhes e onde assistir: https://ondepassajogo.com.br/jogo/sao-paulo-x-remo-
+ 26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/sao-paulo-x-remo-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401841338@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Athletico-PR x São Paulo
+DTSTART:20261203T003000Z
+DTEND:20261203T023000Z
+LOCATION:Arena da Baixada\, Curitiba
+DESCRIPTION:Brasileirão Série A\nOnde passa: canais ainda não anunciados
+ \nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/athletico-pr
+ -x-sao-paulo-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Brasileirão Série A
+URL:https://ondepassajogo.com.br/jogo/athletico-pr-x-sao-paulo-02-12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,155 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Derby County · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Derby County com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/derby-county/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880221@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers 4 x 1 Derby County
+DTSTART:20261014T184500Z
+DTEND:20261014T204500Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880217@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Derby County 0 x 1 Stoke City
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:Pride Park\, Derby
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880200@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sheffield United 1 x 1 Derby County
+DTSTART:20261024T113000Z
+DTEND:20261024T133000Z
+LOCATION:Bramall Lane\, Sheffield
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880192@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall 4 x 1 Derby County
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880182@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Derby County 0 x 4 Norwich City
+DTSTART:20261103T194500Z
+DTEND:20261103T214500Z
+LOCATION:Pride Park\, Derby
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880167@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Derby County 3 x 1 Bolton Wanderers
+DTSTART:20261106T200000Z
+DTEND:20261106T220000Z
+LOCATION:Pride Park\, Derby
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880153@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Southampton 2 x 0 Derby County
+DTSTART:20261121T123000Z
+DTEND:20261121T143000Z
+LOCATION:St. Mary's Stadium\, Southampton
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/southampton-x-derby-county-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/southampton-x-derby-county-21-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880141@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wolverhampton Wanderers 3 x 0 Derby County
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:Molineux Stadium\, Wolverhampton
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/wolverhampton-wanderers-x-derby-county-24-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/wolverhampton-wanderers-x-derby-count
+ y-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880134@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Derby County x Watford
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:Pride Park\, Derby
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/derby-co
+ unty-x-watford-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/derby-county-x-watford-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880119@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Middlesbrough x Derby County
+DTSTART:20261205T123000Z
+DTEND:20261205T143000Z
+LOCATION:Riverside Stadium\, Middlesbrough
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/middlesb
+ rough-x-derby-county-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/middlesbrough-x-derby-county-05-12-20
+ 26/
+END:VEVENT
+END:VCALENDAR

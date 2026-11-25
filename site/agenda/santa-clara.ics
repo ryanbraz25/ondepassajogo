@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Santa Clara · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Santa Clara com horário de Brasília e onde assistir
+ . Atualiza sozinho: https://ondepassajogo.com.br/time/santa-clara/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401885414@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santa Clara 1 x 2 Benfica
+DTSTART:20261026T184500Z
+DTEND:20261026T204500Z
+LOCATION:Estádio de São Miguel\, Ponta Delgada
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885406@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Maritimo 0 x 2 Santa Clara
+DTSTART:20261101T180000Z
+DTEND:20261101T200000Z
+LOCATION:Estádio do Marítimo\, Funchal
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885396@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santa Clara 1 x 2 Gil Vicente
+DTSTART:20261108T153000Z
+DTEND:20261108T173000Z
+LOCATION:Estádio de São Miguel\, Ponta Delgada
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885388@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Moreirense x Santa Clara
+DTSTART:20261128T153000Z
+DTEND:20261128T173000Z
+LOCATION:Estádio Comendador Joaquim de Almeida Freitas\, Moreira de Conego
+ s
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/moreirense-x-santa-clara-28
+ -11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/moreirense-x-santa-clara-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885377@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Santa Clara x FC Porto
+DTSTART:20261205T180000Z
+DTEND:20261205T200000Z
+LOCATION:Estádio de São Miguel\, Ponta Delgada
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/santa-clara-x-fc-porto-05-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/santa-clara-x-fc-porto-05-12-2026/
+END:VEVENT
+END:VCALENDAR

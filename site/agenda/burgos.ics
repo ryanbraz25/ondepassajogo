@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Burgos · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Burgos com horário de Brasília e onde assistir. Atu
+ aliza sozinho: https://ondepassajogo.com.br/time/burgos/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928491@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CD Laredo 2 x 4 Burgos
+DTSTART:20261029T190000Z
+DTEND:20261029T210000Z
+LOCATION:Estádio El Paloma\, Cantabria
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936419@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Zaragoza x Burgos
+DTSTART:20261203T200000Z
+DTEND:20261203T220000Z
+LOCATION:Ibercaja Estádio\, Zaragoza
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/real-zaragoza-x-burgos
+ -03-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/real-zaragoza-x-burgos-03-12-2026/
+END:VEVENT
+END:VCALENDAR

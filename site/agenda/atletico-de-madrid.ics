@@ -1,0 +1,188 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Atlético de Madrid · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Atlético de Madrid com horário de Brasília e onde 
+ assistir. Atualiza sozinho: https://ondepassajogo.com.br/time/atletico-de-
+ madrid/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915412@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid 2 x 0 Manchester United
+DTSTART:20261013T190000Z
+DTEND:20261013T210000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882843@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Espanyol 0 x 1 Atlético de Madrid
+DTSTART:20261017T120000Z
+DTEND:20261017T140000Z
+LOCATION:RCDE Stadium\, Barcelona
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915392@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:VfB Stuttgart 1 x 1 Atlético de Madrid
+DTSTART:20261020T190000Z
+DTEND:20261020T210000Z
+LOCATION:MHPArena\, Stuttgart
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882834@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid 1 x 0 Deportivo
+DTSTART:20261024T190000Z
+DTEND:20261024T210000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882820@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Levante 0 x 2 Atlético de Madrid
+DTSTART:20261031T130000Z
+DTEND:20261031T150000Z
+LOCATION:Estadi Ciutat de València\, Manises
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915386@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid 0 x 2 Bayern de Munique
+DTSTART:20261103T200000Z
+DTEND:20261103T220000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882816@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid 1 x 2 Barcelona
+DTSTART:20261108T200000Z
+DTEND:20261108T220000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882803@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Getafe 0 x 3 Atlético de Madrid
+DTSTART:20261122T200000Z
+DTEND:20261122T220000Z
+LOCATION:Estádio Coliseum\, Getafe
+DESCRIPTION:La Liga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/ge
+ tafe-x-atletico-de-madrid-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/getafe-x-atletico-de-madrid-22-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915291@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid x Viking FK
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: HBO Max\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-vik
+ ing-fk-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-viking-fk-25-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882793@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Elche x Atlético de Madrid
+DTSTART:20261128T173000Z
+DTEND:20261128T193000Z
+LOCATION:Estádio Martínez Valero\, Elche
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/elche-x-atletico-de-mad
+ rid-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/elche-x-atletico-de-madrid-28-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882700@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona x Atlético de Madrid
+DTSTART:20261202T203000Z
+DTEND:20261202T223000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-atletico-de
+ -madrid-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/barcelona-x-atletico-de-madrid-02-12-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882784@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid x Real Betis
+DTSTART:20261206T200000Z
+DTEND:20261206T220000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-re
+ al-betis-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-real-betis-06-12
+ -2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Willem II · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Willem II com horário de Brasília e onde assistir. 
+ Atualiza sozinho: https://ondepassajogo.com.br/time/willem-ii/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401875587@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Utrecht 3 x 1 Willem II
+DTSTART:20261011T101500Z
+DTEND:20261011T121500Z
+LOCATION:Stadion Galgenwaard\, Utrecht
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875579@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sparta Rotterdam 3 x 2 Willem II
+DTSTART:20261017T190000Z
+DTEND:20261017T210000Z
+LOCATION:Sparta-Stadion Het Kasteel\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875572@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Willem II 1 x 6 SC Cambuur
+DTSTART:20261024T164500Z
+DTEND:20261024T184500Z
+LOCATION:Koning Willem II Stadion\, Tilburg
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875564@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:PSV Eindhoven 7 x 0 Willem II
+DTSTART:20261031T174500Z
+DTEND:20261031T194500Z
+LOCATION:Philips Stadion\, Eindhoven
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875556@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Willem II 1 x 1 PEC Zwolle
+DTSTART:20261106T190000Z
+DTEND:20261106T210000Z
+LOCATION:Koning Willem II Stadion\, Tilburg
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875545@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Twente 2 x 1 Willem II
+DTSTART:20261122T111500Z
+DTEND:20261122T131500Z
+LOCATION:De Grolsch Veste\, Enschede
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/fc-twente-x-willem-ii-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-twente-x-willem-ii-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875536@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Groningen x Willem II
+DTSTART:20261127T190000Z
+DTEND:20261127T210000Z
+LOCATION:Euroborg\, Groningen
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-groningen-
+ x-willem-ii-27-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-groningen-x-willem-ii-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875521@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Willem II x Feyenoord Rotterdam
+DTSTART:20261205T153000Z
+DTEND:20261205T173000Z
+LOCATION:Koning Willem II Stadion\, Tilburg
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/willem-ii-x-f
+ eyenoord-rotterdam-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/willem-ii-x-feyenoord-rotterdam-05-12
+ -2026/
+END:VEVENT
+END:VCALENDAR

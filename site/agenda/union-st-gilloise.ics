@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Union St.-Gilloise · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Union St.-Gilloise com horário de Brasília e onde a
+ ssistir. Atualiza sozinho: https://ondepassajogo.com.br/time/union-st-gill
+ oise/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915574@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Union St.-Gilloise 1 x 1 Real Sociedad
+DTSTART:20261015T164500Z
+DTEND:20261015T184500Z
+LOCATION:King Power at Den Dreef Stadion\, Leuven
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915545@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Union St.-Gilloise 4 x 0 Hapoel Be'er
+DTSTART:20261022T164500Z
+DTEND:20261022T184500Z
+LOCATION:Merkur Spiel-Arena\, Düsseldorf
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915531@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Celta Vigo 1 x 2 Union St.-Gilloise
+DTSTART:20261105T200000Z
+DTEND:20261105T220000Z
+LOCATION:Balaidos\, Vigo
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915508@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Union St.-Gilloise x Lech Poznan
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:King Power at Den Dreef Stadion\, Leuven
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/union-st-gilloise-x
+ -lech-poznan-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/union-st-gilloise-x-lech-poznan-26-11
+ -2026/
+END:VEVENT
+END:VCALENDAR

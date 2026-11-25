@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Millwall · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Millwall com horário de Brasília e onde assistir. A
+ tualiza sozinho: https://ondepassajogo.com.br/time/millwall/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880228@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall 0 x 1 Swansea City
+DTSTART:20261013T184500Z
+DTEND:20261013T204500Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880215@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall 2 x 2 Lincoln City
+DTSTART:20261017T113000Z
+DTEND:20261017T133000Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880203@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Portsmouth 2 x 1 Millwall
+DTSTART:20261024T113000Z
+DTEND:20261024T133000Z
+LOCATION:Fratton Park\, Portsmouth
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880192@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall 4 x 1 Derby County
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880184@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Birmingham City 3 x 0 Millwall
+DTSTART:20261103T200000Z
+DTEND:20261103T220000Z
+LOCATION:St. Andrew's Stadium\, Birmingham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880162@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Bromwich Albion 3 x 0 Millwall
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:The Hawthorns\, West Bromwich
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880156@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall 0 x 1 Queens Park Rangers
+DTSTART:20261121T123000Z
+DTEND:20261121T143000Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/millwall-x-queens-park-rangers-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/millwall-x-queens-park-rangers-21-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880138@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Stoke City x Millwall
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:bet365 Stadium\, Stoke-on-Trent
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/stoke-ci
+ ty-x-millwall-25-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/stoke-city-x-millwall-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880132@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall x Burnley
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/millwall
+ -x-burnley-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/millwall-x-burnley-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880114@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Watford x Millwall
+DTSTART:20261205T123000Z
+DTEND:20261205T143000Z
+LOCATION:Vicarage Road\, Watford
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/watford-
+ x-millwall-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/watford-x-millwall-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880110@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall x Sheffield United
+DTSTART:20261208T194500Z
+DTEND:20261208T214500Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/millwall
+ -x-sheffield-united-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/millwall-x-sheffield-united-08-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR

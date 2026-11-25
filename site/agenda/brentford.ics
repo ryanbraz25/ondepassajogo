@@ -1,0 +1,129 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Brentford · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Brentford com horário de Brasília e onde assistir. 
+ Atualiza sozinho: https://ondepassajogo.com.br/time/brentford/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401879262@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brentford 1 x 2 Liverpool
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:Gtech Community Stadium\, Brentford
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878766@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hull City 1 x 1 Brentford
+DTSTART:20261025T140000Z
+DTEND:20261025T160000Z
+LOCATION:The MKM Stadium\, Hull
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879249@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brentford 2 x 0 Nottingham Forest
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:Gtech Community Stadium\, Brentford
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879244@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brighton 2 x 0 Brentford
+DTSTART:20261108T140000Z
+DTEND:20261108T160000Z
+LOCATION:American Express Stadium\, Falmer
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879237@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brentford 4 x 0 Everton
+DTSTART:20261123T200000Z
+DTEND:20261123T220000Z
+LOCATION:Gtech Community Stadium\, Brentford
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/brentford-x-everton-23-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/brentford-x-everton-23-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879226@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester United x Brentford
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:Old Trafford\, Manchester
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/manchester-united-x-brentf
+ ord-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-united-x-brentford-28-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878750@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brentford x Arsenal
+DTSTART:20261202T201500Z
+DTEND:20261202T221500Z
+LOCATION:Gtech Community Stadium\, Brentford
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/brentford-x-arsenal-02-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/brentford-x-arsenal-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879214@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brentford x Manchester City
+DTSTART:20261205T200000Z
+DTEND:20261205T220000Z
+LOCATION:Gtech Community Stadium\, Brentford
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/brentford-x-manchester-cit
+ y-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/brentford-x-manchester-city-05-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR

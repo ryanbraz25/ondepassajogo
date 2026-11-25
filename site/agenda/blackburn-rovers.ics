@@ -1,0 +1,175 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Blackburn Rovers · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Blackburn Rovers com horário de Brasília e onde ass
+ istir. Atualiza sozinho: https://ondepassajogo.com.br/time/blackburn-rover
+ s/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880231@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bristol City 0 x 1 Blackburn Rovers
+DTSTART:20261013T184500Z
+DTEND:20261013T204500Z
+LOCATION:Ashton Gate\, Bristol
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880210@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Bromwich Albion 3 x 2 Blackburn Rovers
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:The Hawthorns\, West Bromwich
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880208@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Blackburn Rovers 2 x 0 Wrexham
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+LOCATION:Ewood Park\, Blackburn
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880187@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Swansea City 4 x 0 Blackburn Rovers
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:Swansea.com Stadium\, Swansea
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880183@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Blackburn Rovers 1 x 2 Stoke City
+DTSTART:20261103T194500Z
+DTEND:20261103T214500Z
+LOCATION:Ewood Park\, Blackburn
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880171@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Blackburn Rovers 2 x 1 West Ham United
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:Ewood Park\, Blackburn
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880159@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Burnley 2 x 2 Blackburn Rovers
+DTSTART:20261122T120000Z
+DTEND:20261122T140000Z
+LOCATION:Turf Moor\, Burnley
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/burnley-x-blackburn-rovers-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/burnley-x-blackburn-rovers-22-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880137@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Watford x Blackburn Rovers
+DTSTART:20261125T194500Z
+DTEND:20261125T214500Z
+LOCATION:Vicarage Road\, Watford
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/watford-
+ x-blackburn-rovers-25-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/watford-x-blackburn-rovers-25-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880135@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Blackburn Rovers x Charlton Athletic
+DTSTART:20261128T123000Z
+DTEND:20261128T143000Z
+LOCATION:Ewood Park\, Blackburn
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/blackbur
+ n-rovers-x-charlton-athletic-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/blackburn-rovers-x-charlton-athletic-
+ 28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880124@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bolton Wanderers x Blackburn Rovers
+DTSTART:20261205T123000Z
+DTEND:20261205T143000Z
+LOCATION:Toughsheet Community Stadium\, Bolton
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/bolton-w
+ anderers-x-blackburn-rovers-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/bolton-wanderers-x-blackburn-rovers-0
+ 5-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880111@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Blackburn Rovers x Norwich City
+DTSTART:20261208T194500Z
+DTEND:20261208T214500Z
+LOCATION:Ewood Park\, Blackburn
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/blackbur
+ n-rovers-x-norwich-city-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/blackburn-rovers-x-norwich-city-08-12
+ -2026/
+END:VEVENT
+END:VCALENDAR

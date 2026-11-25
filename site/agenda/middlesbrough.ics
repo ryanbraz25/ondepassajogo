@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Middlesbrough · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Middlesbrough com horário de Brasília e onde assist
+ ir. Atualiza sozinho: https://ondepassajogo.com.br/time/middlesbrough/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880227@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Stoke City 2 x 3 Middlesbrough
+DTSTART:20261013T190000Z
+DTEND:20261013T210000Z
+LOCATION:bet365 Stadium\, Stoke-on-Trent
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880216@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Middlesbrough 2 x 2 Cardiff City
+DTSTART:20261017T113000Z
+DTEND:20261017T133000Z
+LOCATION:Riverside Stadium\, Middlesbrough
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880207@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bolton Wanderers 1 x 5 Middlesbrough
+DTSTART:20261023T190000Z
+DTEND:20261023T210000Z
+LOCATION:Toughsheet Community Stadium\, Bolton
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880193@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Middlesbrough 3 x 0 Charlton Athletic
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:Riverside Stadium\, Middlesbrough
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880173@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wrexham 2 x 0 Middlesbrough
+DTSTART:20261104T194500Z
+DTEND:20261104T214500Z
+LOCATION:STōK Cae Ras\, Wrexham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880163@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Watford 0 x 0 Middlesbrough
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:Vicarage Road\, Watford
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880157@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Middlesbrough 2 x 0 Bristol City
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Riverside Stadium\, Middlesbrough
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/middlesbrough-x-bristol-city-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/middlesbrough-x-bristol-city-21-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880145@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Middlesbrough 2 x 1 Swansea City
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Riverside Stadium\, Middlesbrough
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/middlesbrough-x-swansea-city-24-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/middlesbrough-x-swansea-city-24-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880129@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Southampton x Middlesbrough
+DTSTART:20261127T200000Z
+DTEND:20261127T220000Z
+LOCATION:St. Mary's Stadium\, Southampton
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/southamp
+ ton-x-middlesbrough-27-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/southampton-x-middlesbrough-27-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880119@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Middlesbrough x Derby County
+DTSTART:20261205T123000Z
+DTEND:20261205T143000Z
+LOCATION:Riverside Stadium\, Middlesbrough
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/middlesb
+ rough-x-derby-county-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/middlesbrough-x-derby-county-05-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880106@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Ham United x Middlesbrough
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:London Stadium\, London
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/west-ham
+ -united-x-middlesbrough-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/west-ham-united-x-middlesbrough-08-12
+ -2026/
+END:VEVENT
+END:VCALENDAR

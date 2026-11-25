@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Arosa · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Arosa com horário de Brasília e onde assistir. Atua
+ liza sozinho: https://ondepassajogo.com.br/time/arosa/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928488@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Arosa 2 x 0 Pontevedra
+DTSTART:20261027T200000Z
+DTEND:20261027T220000Z
+LOCATION:Estádio de A Lomba\, Villagarcía de Arosa
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936416@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Arosa x Celta Vigo
+DTSTART:20261202T200000Z
+DTEND:20261202T220000Z
+LOCATION:Estádio de A Lomba\, Villagarcía de Arosa
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/arosa-x-celta-vigo-02-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/arosa-x-celta-vigo-02-12-2026/
+END:VEVENT
+END:VCALENDAR

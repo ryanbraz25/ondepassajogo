@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Real Ávila · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Real Ávila com horário de Brasília e onde assistir
+ . Atualiza sozinho: https://ondepassajogo.com.br/time/real-avila/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928512@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Ávila 1 x 0 Unionistas de Salamanca
+DTSTART:20261029T190000Z
+DTEND:20261029T210000Z
+LOCATION:Municipal Adolfo Suárez\, Ávila
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936420@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Ávila x Getafe
+DTSTART:20261203T180000Z
+DTEND:20261203T200000Z
+LOCATION:Municipal Adolfo Suárez\, Ávila
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/real-avila-x-getafe-03
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/real-avila-x-getafe-03-12-2026/
+END:VEVENT
+END:VCALENDAR

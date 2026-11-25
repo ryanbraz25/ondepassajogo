@@ -1,0 +1,212 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Manchester City · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Manchester City com horário de Brasília e onde assi
+ stir. Atualiza sozinho: https://ondepassajogo.com.br/time/manchester-city/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401879264@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Liverpool 0 x 3 Manchester City
+DTSTART:20261011T153000Z
+DTEND:20261011T173000Z
+LOCATION:Anfield\, Liverpool
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915407@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 2 x 4 Paris Saint-Germain
+DTSTART:20261014T190000Z
+DTEND:20261014T210000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879259@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 3 x 2 Ipswich Town
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915401@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 5 x 1 AEK Athens
+DTSTART:20261020T190000Z
+DTEND:20261020T210000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879256@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 2 x 1 Manchester City
+DTSTART:20261024T113000Z
+DTEND:20261024T133000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879245@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 0 x 1 Brighton
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915306@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:RB Leipzig 2 x 3 Manchester City
+DTSTART:20261104T200000Z
+DTEND:20261104T220000Z
+LOCATION:Red Bull Arena\, Leipzig
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878757@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Nottingham Forest 3 x 1 Manchester City
+DTSTART:20261107T173000Z
+DTEND:20261107T193000Z
+LOCATION:The City Ground\, Nottingham
+DESCRIPTION:Premier League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879233@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 1 x 1 Fulham
+DTSTART:20261121T123000Z
+DTEND:20261121T143000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/manchester-city-x-fulham-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-city-x-fulham-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915379@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 2 x 2 Napoli
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/manchester-city-x-napoli-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/manchester-city-x-napoli-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878753@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Arsenal x Manchester City
+DTSTART:20261129T163000Z
+DTEND:20261129T183000Z
+LOCATION:Emirates Stadium\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/arsenal-x-manchester-city-
+ 29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/arsenal-x-manchester-city-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879218@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City x Leeds
+DTSTART:20261202T193000Z
+DTEND:20261202T213000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/manchester-city-x-leeds-02
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-city-x-leeds-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879214@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brentford x Manchester City
+DTSTART:20261205T200000Z
+DTEND:20261205T220000Z
+LOCATION:Gtech Community Stadium\, Brentford
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/brentford-x-manchester-cit
+ y-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/brentford-x-manchester-city-05-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915285@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona x Manchester City
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-manchester-c
+ ity-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/barcelona-x-manchester-city-08-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR

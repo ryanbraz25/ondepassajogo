@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Kocaelispor · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Kocaelispor com horário de Brasília e onde assistir
+ . Atualiza sozinho: https://ondepassajogo.com.br/time/kocaelispor/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401888279@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Besiktas 2 x 1 Kocaelispor
+DTSTART:20261011T160000Z
+DTEND:20261011T180000Z
+LOCATION:Vodafone Park\, Istanbul
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888272@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kocaelispor 1 x 2 Goztepe
+DTSTART:20261018T130000Z
+DTEND:20261018T150000Z
+LOCATION:Yildiz Entegre Kocaeli Stadyumu\, Kocaeli
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888268@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Alanyaspor 1 x 2 Kocaelispor
+DTSTART:20261023T170000Z
+DTEND:20261023T190000Z
+LOCATION:Kirbiyik Holding Stadyumu\, Antalya
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888257@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kocaelispor 0 x 0 Caykur Rizespor
+DTSTART:20261031T130000Z
+DTEND:20261031T150000Z
+LOCATION:Yildiz Entegre Kocaeli Stadyumu\, Kocaeli
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888255@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Eyupspor 0 x 2 Kocaelispor
+DTSTART:20261107T103000Z
+DTEND:20261107T123000Z
+LOCATION:Esenyurt Necmi Kadioglu Stadi\, Istanbul
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888244@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kocaelispor 2 x 2 Fenerbahce
+DTSTART:20261121T160000Z
+DTEND:20261121T180000Z
+LOCATION:Yildiz Entegre Kocaeli Stadyumu\, Kocaeli
+DESCRIPTION:Liga da Turquia\nDetalhes do jogo: https://ondepassajogo.com.br
+ /jogo/kocaelispor-x-fenerbahce-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/kocaelispor-x-fenerbahce-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888367@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Çorum FK x Kocaelispor
+DTSTART:20261129T103000Z
+DTEND:20261129T123000Z
+LOCATION:Çorum Sehir Stadyumu\, Çorum
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/corum-fk-x-kocaeli
+ spor-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/corum-fk-x-kocaelispor-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888229@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Erzurum BB x Kocaelispor
+DTSTART:20261206T103000Z
+DTEND:20261206T123000Z
+LOCATION:Erzurum Kazim Karabekir\, Erzurum
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/erzurum-bb-x-kocae
+ lispor-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/erzurum-bb-x-kocaelispor-06-12-2026/
+END:VEVENT
+END:VCALENDAR

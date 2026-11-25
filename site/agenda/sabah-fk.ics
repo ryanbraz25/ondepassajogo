@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Sabah FK · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Sabah FK com horário de Brasília e onde assistir. A
+ tualiza sozinho: https://ondepassajogo.com.br/time/sabah-fk/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915436@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sabah FK 2 x 0 Slavia Prague
+DTSTART:20261013T164500Z
+DTEND:20261013T184500Z
+LOCATION:Baku Olympic Stadium\, Baku
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915404@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sabah FK 1 x 2 Borussia Dortmund
+DTSTART:20261020T164500Z
+DTEND:20261020T184500Z
+LOCATION:Baku Olympic Stadium\, Baku
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915302@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Viking FK 4 x 1 Sabah FK
+DTSTART:20261104T200000Z
+DTEND:20261104T220000Z
+LOCATION:Viking Stadion\, Stavanger
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915378@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sabah FK x Barcelona
+DTSTART:20261125T174500Z
+DTEND:20261125T194500Z
+LOCATION:Baku Olympic Stadium\, Baku
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: TNT\, HBO Max\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/sabah-fk-x-barcelo
+ na-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/sabah-fk-x-barcelona-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915372@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Villarreal x Sabah FK
+DTSTART:20261208T174500Z
+DTEND:20261208T194500Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/villarreal-x-sabah-fk-08
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/villarreal-x-sabah-fk-08-12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Girona · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Girona com horário de Brasília e onde assistir. Atu
+ aliza sozinho: https://ondepassajogo.com.br/time/girona/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928493@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CD Cuarte 0 x 2 Girona
+DTSTART:20261027T173000Z
+DTEND:20261027T193000Z
+LOCATION:Estádio Municipal Juan Guerrero El Lobo\, Cuarte de Huerva
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936417@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Huesca x Girona
+DTSTART:20261201T183000Z
+DTEND:20261201T203000Z
+LOCATION:Estádio El Alcoraz\, Huesca
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/huesca-x-girona-01-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/huesca-x-girona-01-12-2026/
+END:VEVENT
+END:VCALENDAR

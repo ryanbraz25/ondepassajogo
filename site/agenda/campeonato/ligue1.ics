@@ -1,0 +1,438 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ligue 1 · Onde Passa Jogo
+X-WR-CALDESC:Jogos Ligue 1 com horário de Brasília e onde assistir. https
+ ://ondepassajogo.com.br/campeonato/ligue1/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401876395@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Troyes 3 x 1 Le Havre AC
+DTSTART:20261120T194500Z
+DTEND:20261120T214500Z
+LOCATION:Stade de l'Aube\, Paris
+DESCRIPTION:Ligue 1\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/tr
+ oyes-x-le-havre-ac-20-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/troyes-x-le-havre-ac-20-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876398@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Nice 2 x 3 Paris Saint-Germain
+DTSTART:20261121T161500Z
+DTEND:20261121T181500Z
+LOCATION:Allianz Riviera\, Nice
+DESCRIPTION:Ligue 1\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/ni
+ ce-x-paris-saint-germain-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/nice-x-paris-saint-germain-21-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876396@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Strasbourg 0 x 1 Brest
+DTSTART:20261121T194500Z
+DTEND:20261121T214500Z
+LOCATION:Stade de la Meinau\, Strasbourg
+DESCRIPTION:Ligue 1\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/st
+ rasbourg-x-brest-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/strasbourg-x-brest-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876399@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:AS Monaco 1 x 1 AJ Auxerre
+DTSTART:20261121T194500Z
+DTEND:20261121T214500Z
+LOCATION:Stade Louis II\, Monaco
+DESCRIPTION:Ligue 1\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/as
+ -monaco-x-aj-auxerre-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/as-monaco-x-aj-auxerre-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876402@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lille 0 x 1 Lyon
+DTSTART:20261121T194500Z
+DTEND:20261121T214500Z
+LOCATION:Decathlon Arena - Stade Pierre-Mauroy\, Lille
+DESCRIPTION:Ligue 1\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/li
+ lle-x-lyon-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/lille-x-lyon-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876403@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lens 1 x 1 Toulouse
+DTSTART:20261121T194500Z
+DTEND:20261121T214500Z
+LOCATION:Stade Bollaert-Delelis\, Lens
+DESCRIPTION:Ligue 1\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/le
+ ns-x-toulouse-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/lens-x-toulouse-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876397@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Paris FC 4 x 0 Angers
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+LOCATION:Stade Jean Bouin\, Paris
+DESCRIPTION:Ligue 1\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/pa
+ ris-fc-x-angers-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/paris-fc-x-angers-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876401@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lorient 1 x 1 Stade Rennais
+DTSTART:20261122T161500Z
+DTEND:20261122T181500Z
+LOCATION:Stade du Moustoir - Yves Allainmat\, Lorient
+DESCRIPTION:Ligue 1\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/lo
+ rient-x-stade-rennais-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/lorient-x-stade-rennais-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876400@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Marseille 2 x 3 Le Mans
+DTSTART:20261122T194500Z
+DTEND:20261122T214500Z
+LOCATION:Stade Vélodrome\, Marseille
+DESCRIPTION:Ligue 1\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/ma
+ rseille-x-le-mans-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/marseille-x-le-mans-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876392@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brest x Paris FC
+DTSTART:20261127T194500Z
+DTEND:20261127T214500Z
+LOCATION:Stade Francis-Le Blé\, Brest
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/brest-x-paris-fc-27-11-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/brest-x-paris-fc-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876394@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Angers x Lens
+DTSTART:20261128T161500Z
+DTEND:20261128T181500Z
+LOCATION:Stade Raymond Kopa\, Angers
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/angers-x-lens-28-11-202
+ 6/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/angers-x-lens-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876391@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Le Havre AC x Strasbourg
+DTSTART:20261128T194500Z
+DTEND:20261128T214500Z
+LOCATION:Stade Océane\, Le Havre
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/le-havre-ac-x-strasbour
+ g-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/le-havre-ac-x-strasbourg-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876390@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Le Mans x Lille
+DTSTART:20261128T194500Z
+DTEND:20261128T214500Z
+LOCATION:Stade Marie-Marvingt\, Le Mans
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/le-mans-x-lille-28-11-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/le-mans-x-lille-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876388@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Nice x Troyes
+DTSTART:20261128T194500Z
+DTEND:20261128T214500Z
+LOCATION:Allianz Riviera\, Nice
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/nice-x-troyes-28-11-202
+ 6/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/nice-x-troyes-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876387@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Paris Saint-Germain x Lorient
+DTSTART:20261128T194500Z
+DTEND:20261128T214500Z
+LOCATION:Parc des Princes\, Paris
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/paris-saint-germain-x-l
+ orient-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/paris-saint-germain-x-lorient-28-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876393@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:AJ Auxerre x Marseille
+DTSTART:20261129T140000Z
+DTEND:20261129T160000Z
+LOCATION:Stade de l'Abbé-Deschamps\, Auxerre
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/aj-auxerre-x-marseille-
+ 29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/aj-auxerre-x-marseille-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876386@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Toulouse x Stade Rennais
+DTSTART:20261129T161500Z
+DTEND:20261129T181500Z
+LOCATION:Stadium Municipal de Toulouse\, Toulouse
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/toulouse-x-stade-rennai
+ s-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/toulouse-x-stade-rennais-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876389@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lyon x AS Monaco
+DTSTART:20261129T194500Z
+DTEND:20261129T214500Z
+LOCATION:Groupama Stadium\, Lyon
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/lyon-x-as-monaco-29-11-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/lyon-x-as-monaco-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876378@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Toulouse x Paris Saint-Germain
+DTSTART:20261204T194500Z
+DTEND:20261204T214500Z
+LOCATION:Stadium Municipal de Toulouse\, Toulouse
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/toulouse-x-paris-saint-
+ germain-04-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/toulouse-x-paris-saint-germain-04-12-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876384@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lille x AJ Auxerre
+DTSTART:20261205T161500Z
+DTEND:20261205T181500Z
+LOCATION:Decathlon Arena - Stade Pierre-Mauroy\, Lille
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/lille-x-aj-auxerre-05-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/lille-x-aj-auxerre-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876382@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:AS Monaco x Angers
+DTSTART:20261205T194500Z
+DTEND:20261205T214500Z
+LOCATION:Stade Louis II\, Monaco
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/as-monaco-x-angers-05-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/as-monaco-x-angers-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876385@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Lens x Le Havre AC
+DTSTART:20261205T194500Z
+DTEND:20261205T214500Z
+LOCATION:Stade Bollaert-Delelis\, Lens
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/lens-x-le-havre-ac-05-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/lens-x-le-havre-ac-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876381@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Paris FC x Le Mans
+DTSTART:20261205T194500Z
+DTEND:20261205T214500Z
+LOCATION:Stade Jean Bouin\, Paris
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/paris-fc-x-le-mans-05-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/paris-fc-x-le-mans-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876379@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Strasbourg x Lorient
+DTSTART:20261205T194500Z
+DTEND:20261205T214500Z
+LOCATION:Stade de la Meinau\, Strasbourg
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/strasbourg-x-lorient-05
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/strasbourg-x-lorient-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876377@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Troyes x Lyon
+DTSTART:20261206T140000Z
+DTEND:20261206T160000Z
+LOCATION:Stade de l'Aube\, Paris
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/troyes-x-lyon-06-12-202
+ 6/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/troyes-x-lyon-06-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876380@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Stade Rennais x Brest
+DTSTART:20261206T161500Z
+DTEND:20261206T181500Z
+LOCATION:Roazhon Park\, Rennes
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/stade-rennais-x-brest-0
+ 6-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/stade-rennais-x-brest-06-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876383@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Marseille x Nice
+DTSTART:20261206T194500Z
+DTEND:20261206T214500Z
+LOCATION:Stade Vélodrome\, Marseille
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/marseille-x-nice-06-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/marseille-x-nice-06-12-2026/
+END:VEVENT
+END:VCALENDAR

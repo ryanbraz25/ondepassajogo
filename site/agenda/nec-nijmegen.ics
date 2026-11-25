@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do NEC Nijmegen · Onde Passa Jogo
+X-WR-CALDESC:Jogos do NEC Nijmegen com horário de Brasília e onde assisti
+ r. Atualiza sozinho: https://ondepassajogo.com.br/time/nec-nijmegen/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915565@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen 1 x 1 Levski Sofia
+DTSTART:20261015T190000Z
+DTEND:20261015T210000Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875581@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen 2 x 2 Fortuna Sittard
+DTSTART:20261018T180000Z
+DTEND:20261018T200000Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915556@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Dinamo Zagreb 2 x 4 NEC Nijmegen
+DTSTART:20261022T164500Z
+DTEND:20261022T184500Z
+LOCATION:Maksimir Stadium\, Zagreb
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875569@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen 2 x 2 FC Groningen
+DTSTART:20261025T133000Z
+DTEND:20261025T153000Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875563@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heerenveen 1 x 0 NEC Nijmegen
+DTSTART:20261031T174500Z
+DTEND:20261031T194500Z
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915535@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen 3 x 1 Omonia Nicosia
+DTSTART:20261105T174500Z
+DTEND:20261105T194500Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Liga Europa
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875549@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Utrecht 2 x 3 NEC Nijmegen
+DTSTART:20261108T190000Z
+DTEND:20261108T210000Z
+LOCATION:Stadion Galgenwaard\, Utrecht
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875541@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen 1 x 4 PSV Eindhoven
+DTSTART:20261121T153000Z
+DTEND:20261121T173000Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/nec-nijmegen-x-psv-eindhoven-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-psv-eindhoven-21-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915505@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen x Stade Rennais
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/nec-nijmegen-x-stad
+ e-rennais-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-stade-rennais-26-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875533@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:NEC Nijmegen x FC Twente
+DTSTART:20261129T190000Z
+DTEND:20261129T210000Z
+LOCATION:Goffertstadion\, Nijmegen
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/nec-nijmegen-
+ x-fc-twente-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-fc-twente-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875523@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sparta Rotterdam x NEC Nijmegen
+DTSTART:20261205T174500Z
+DTEND:20261205T194500Z
+LOCATION:Sparta-Stadion Het Kasteel\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sparta-rotter
+ dam-x-nec-nijmegen-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/sparta-rotterdam-x-nec-nijmegen-05-12
+ -2026/
+END:VEVENT
+END:VCALENDAR

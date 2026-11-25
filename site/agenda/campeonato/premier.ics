@@ -1,0 +1,656 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Premier League · Onde Passa Jogo
+X-WR-CALDESC:Jogos Premier League com horário de Brasília e onde assistir
+ . https://ondepassajogo.com.br/campeonato/premier/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401879233@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City 1 x 1 Fulham
+DTSTART:20261121T123000Z
+DTEND:20261121T143000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/manchester-city-x-fulham-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-city-x-fulham-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878754@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham 2 x 0 Ipswich Town
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/tottenham-x-ipswich-town-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/tottenham-x-ipswich-town-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878756@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa 0 x 0 Sunderland
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/aston-villa-x-sunderland-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/aston-villa-x-sunderland-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879235@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coventry City 3 x 2 Crystal Palace
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Coventry Building Society Arena\, Coventry
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/coventry-city-x-crystal-palace-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/coventry-city-x-crystal-palace-21-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879236@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chelsea 1 x 4 Leeds
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Stamford Bridge\, London
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/chelsea-x-leeds-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/chelsea-x-leeds-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879238@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bournemouth 2 x 0 Nottingham Forest
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Vitality Stadium\, Bournemouth
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/bournemouth-x-nottingham-forest-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/bournemouth-x-nottingham-forest-21-11
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879232@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Newcastle 2 x 2 Arsenal
+DTSTART:20261121T173000Z
+DTEND:20261121T193000Z
+LOCATION:St. James' Park\, Newcastle-upon-Tyne
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/newcastle-x-arsenal-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/newcastle-x-arsenal-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879234@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hull City 2 x 0 Brighton
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+LOCATION:The MKM Stadium\, Hull
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/hull-city-x-brighton-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/hull-city-x-brighton-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878755@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Liverpool 4 x 0 Manchester United
+DTSTART:20261122T163000Z
+DTEND:20261122T183000Z
+LOCATION:Anfield\, Liverpool
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/liverpool-x-manchester-united-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/liverpool-x-manchester-united-22-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879237@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brentford 4 x 0 Everton
+DTSTART:20261123T200000Z
+DTEND:20261123T220000Z
+LOCATION:Gtech Community Stadium\, Brentford
+DESCRIPTION:Premier League\nDetalhes do jogo: https://ondepassajogo.com.br/
+ jogo/brentford-x-everton-23-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/brentford-x-everton-23-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879225@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Nottingham Forest x Chelsea
+DTSTART:20261127T200000Z
+DTEND:20261127T220000Z
+LOCATION:The City Ground\, Nottingham
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/nottingham-forest-x-chelse
+ a-27-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/nottingham-forest-x-chelsea-27-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879227@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Leeds x Coventry City
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:Elland Road\, Leeds
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/leeds-x-coventry-city-28-1
+ 1-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/leeds-x-coventry-city-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879226@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester United x Brentford
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:Old Trafford\, Manchester
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/manchester-united-x-brentf
+ ord-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-united-x-brentford-28-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878752@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ipswich Town x Aston Villa
+DTSTART:20261128T173000Z
+DTEND:20261128T193000Z
+LOCATION:Portman Road\, Ipswich
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/ipswich-town-x-aston-villa
+ -28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/ipswich-town-x-aston-villa-28-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879229@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Everton x Liverpool
+DTSTART:20261129T120000Z
+DTEND:20261129T140000Z
+LOCATION:Hill Dickinson Stadium\, Liverpool
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/everton-x-liverpool-29-11-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/everton-x-liverpool-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879231@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brighton x Newcastle
+DTSTART:20261129T140500Z
+DTEND:20261129T160500Z
+LOCATION:American Express Stadium\, Falmer
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/brighton-x-newcastle-29-11
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/brighton-x-newcastle-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879230@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Crystal Palace x Hull City
+DTSTART:20261129T140500Z
+DTEND:20261129T160500Z
+LOCATION:Selhurst Park\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/crystal-palace-x-hull-city
+ -29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/crystal-palace-x-hull-city-29-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879228@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fulham x Bournemouth
+DTSTART:20261129T140500Z
+DTEND:20261129T160500Z
+LOCATION:Craven Cottage\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/fulham-x-bournemouth-29-11
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/fulham-x-bournemouth-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879224@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sunderland x Tottenham
+DTSTART:20261129T140500Z
+DTEND:20261129T160500Z
+LOCATION:Stadium of Light\, Sunderland
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sunderland-x-tottenham-29-
+ 11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/sunderland-x-tottenham-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878753@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Arsenal x Manchester City
+DTSTART:20261129T163000Z
+DTEND:20261129T183000Z
+LOCATION:Emirates Stadium\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/arsenal-x-manchester-city-
+ 29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/arsenal-x-manchester-city-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879221@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Coventry City x Ipswich Town
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:Coventry Building Society Arena\, Coventry
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/coventry-city-x-ipswich-to
+ wn-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/coventry-city-x-ipswich-town-01-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879222@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chelsea x Crystal Palace
+DTSTART:20261202T193000Z
+DTEND:20261202T213000Z
+LOCATION:Stamford Bridge\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/chelsea-x-crystal-palace-0
+ 2-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/chelsea-x-crystal-palace-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879220@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hull City x Nottingham Forest
+DTSTART:20261202T193000Z
+DTEND:20261202T213000Z
+LOCATION:The MKM Stadium\, Hull
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/hull-city-x-nottingham-for
+ est-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/hull-city-x-nottingham-forest-02-12-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879219@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Liverpool x Sunderland
+DTSTART:20261202T193000Z
+DTEND:20261202T213000Z
+LOCATION:Anfield\, Liverpool
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/liverpool-x-sunderland-02-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/liverpool-x-sunderland-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879218@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester City x Leeds
+DTSTART:20261202T193000Z
+DTEND:20261202T213000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/manchester-city-x-leeds-02
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-city-x-leeds-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878751@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa x Everton
+DTSTART:20261202T201500Z
+DTEND:20261202T221500Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/aston-villa-x-everton-02-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/aston-villa-x-everton-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879223@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bournemouth x Brighton
+DTSTART:20261202T201500Z
+DTEND:20261202T221500Z
+LOCATION:Vitality Stadium\, Bournemouth
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/bournemouth-x-brighton-02-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/bournemouth-x-brighton-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878750@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brentford x Arsenal
+DTSTART:20261202T201500Z
+DTEND:20261202T221500Z
+LOCATION:Gtech Community Stadium\, Brentford
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/brentford-x-arsenal-02-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/brentford-x-arsenal-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879217@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Newcastle x Manchester United
+DTSTART:20261202T201500Z
+DTEND:20261202T221500Z
+LOCATION:St. James' Park\, Newcastle-upon-Tyne
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/newcastle-x-manchester-uni
+ ted-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/newcastle-x-manchester-united-02-12-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878749@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham x Fulham
+DTSTART:20261203T200000Z
+DTEND:20261203T220000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/tottenham-x-fulham-03-12-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/tottenham-x-fulham-03-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879213@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Chelsea x Liverpool
+DTSTART:20261205T123000Z
+DTEND:20261205T143000Z
+LOCATION:Stamford Bridge\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/chelsea-x-liverpool-05-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/chelsea-x-liverpool-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879215@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Aston Villa x Crystal Palace
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Villa Park\, Birmingham
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/aston-villa-x-crystal-pala
+ ce-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/aston-villa-x-crystal-palace-05-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879216@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bournemouth x Hull City
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Vitality Stadium\, Bournemouth
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/bournemouth-x-hull-city-05
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/bournemouth-x-hull-city-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879211@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Leeds x Ipswich Town
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Elland Road\, Leeds
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/leeds-x-ipswich-town-05-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/leeds-x-ipswich-town-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879210@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manchester United x Coventry City
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Old Trafford\, Manchester
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/manchester-united-x-covent
+ ry-city-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-united-x-coventry-city-05-
+ 12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878747@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Nottingham Forest x Brighton
+DTSTART:20261205T173000Z
+DTEND:20261205T193000Z
+LOCATION:The City Ground\, Nottingham
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/nottingham-forest-x-bright
+ on-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/nottingham-forest-x-brighton-05-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879214@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brentford x Manchester City
+DTSTART:20261205T200000Z
+DTEND:20261205T220000Z
+LOCATION:Gtech Community Stadium\, Brentford
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/brentford-x-manchester-cit
+ y-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/brentford-x-manchester-city-05-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879212@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Everton x Fulham
+DTSTART:20261206T140000Z
+DTEND:20261206T160000Z
+LOCATION:Hill Dickinson Stadium\, Liverpool
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/everton-x-fulham-06-12-202
+ 6/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/everton-x-fulham-06-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878748@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Newcastle x Sunderland
+DTSTART:20261206T140000Z
+DTEND:20261206T160000Z
+LOCATION:St. James' Park\, Newcastle-upon-Tyne
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/newcastle-x-sunderland-06-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/newcastle-x-sunderland-06-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879209@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Tottenham x Arsenal
+DTSTART:20261206T163000Z
+DTEND:20261206T183000Z
+LOCATION:Tottenham Hotspur Stadium\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/tottenham-x-arsenal-06-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/tottenham-x-arsenal-06-12-2026/
+END:VEVENT
+END:VCALENDAR

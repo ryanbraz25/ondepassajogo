@@ -1,0 +1,308 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Conference League · Onde Passa Jogo
+X-WR-CALDESC:Jogos Conference League com horário de Brasília e onde assis
+ tir. https://ondepassajogo.com.br/campeonato/conference/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915816@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kairat Almaty x Mjällby AIF
+DTSTART:20261126T153000Z
+DTEND:20261126T173000Z
+LOCATION:Almaty Ortalyk Stadium\, Almaty
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/kairat-almaty
+ -x-mjallby-aif-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/kairat-almaty-x-mjallby-aif-26-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915815@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Ajax Amsterdam x FC Thun
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/ajax-amsterda
+ m-x-fc-thun-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915814@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Brighton x CSU Craiova
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:American Express Stadium\, Falmer
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/brighton-x-cs
+ u-craiova-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/brighton-x-csu-craiova-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915810@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Egnatia x Lincoln Red Imps
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Air Albania Stadium\, Tirana
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/egnatia-x-lin
+ coln-red-imps-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/egnatia-x-lincoln-red-imps-26-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915811@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heart of Midlothian x AS Monaco
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Tynecastle Park\, Edinburgh
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/heart-of-midl
+ othian-x-as-monaco-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/heart-of-midlothian-x-as-monaco-26-11
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915813@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Iberia 1999 x Getafe
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Mikheil Meskhi Stadioni\, Tbilisi
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/iberia-1999-x
+ -getafe-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/iberia-1999-x-getafe-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915812@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Jablonec x FC Lugano
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Stadion Strelnice\, Jablonec
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/jablonec-x-fc
+ -lugano-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/jablonec-x-fc-lugano-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915739@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kauno Zalgiris x Riga FC
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:S. Darius and S. Gireno Stadium\, Kaunas
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/kauno-zalgiri
+ s-x-riga-fc-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/kauno-zalgiris-x-riga-fc-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915809@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Pafos x FC Midtjylland
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Alphamega Stadium\, Kolossi
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/pafos-x-fc-mi
+ dtjylland-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/pafos-x-fc-midtjylland-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915808@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SK Brann x AGF
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Brann Stadium\, Bergen
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sk-brann-x-ag
+ f-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/sk-brann-x-agf-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915806@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Borac Banja Luka x Atalanta
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Gradski Stadion Banja Luka\, Banja Luka
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/borac-banja-l
+ uka-x-atalanta-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/borac-banja-luka-x-atalanta-26-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915802@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Braga x KuPS Kuopio
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Estádio Municipal de Braga\, Braga
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/braga-x-kups-
+ kuopio-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/braga-x-kups-kuopio-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915803@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CSKA Sofia x Trabzonspor
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Balgarska Armia Stadium\, Sofia
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/cska-sofia-x-
+ trabzonspor-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/cska-sofia-x-trabzonspor-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915807@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Nordsjælland x Panathinaikos
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Right to Dream Park\, Farum
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-nordsjllan
+ d-x-panathinaikos-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/fc-nordsjlland-x-panathinaikos-26-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915805@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Hajduk Split x Sint-Truidense
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Stadion Poljud\, Split
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/hajduk-split-
+ x-sint-truidense-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/hajduk-split-x-sint-truidense-26-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915738@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Inter D'Escaldes x F.C. København
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Estadi de la FAF d'Encamp\, Encamp
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/inter-d-escal
+ des-x-f-c-kbenhavn-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/inter-d-escaldes-x-f-c-kbenhavn-26-11
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915804@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:KAA Gent x Red Star Belgrade
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Ghelamco Arena\, Ghent
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/kaa-gent-x-re
+ d-star-belgrade-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/kaa-gent-x-red-star-belgrade-26-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915801@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Freiburg x FC Twente
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sc-freiburg-x
+ -fc-twente-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/sc-freiburg-x-fc-twente-26-11-2026/
+END:VEVENT
+END:VCALENDAR

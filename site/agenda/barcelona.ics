@@ -1,0 +1,200 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Barcelona · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Barcelona com horário de Brasília e onde assistir. 
+ Atualiza sozinho: https://ondepassajogo.com.br/time/barcelona/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915435@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Galatasaray 1 x 4 Barcelona
+DTSTART:20261013T190000Z
+DTEND:20261013T210000Z
+LOCATION:RAMS Park\, Istanbul
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882846@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Betis 2 x 5 Barcelona
+DTSTART:20261017T163000Z
+DTEND:20261017T183000Z
+LOCATION:Estádio La Cartuja\, Sevilla
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915399@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Paris Saint-Germain 4 x 2 Barcelona
+DTSTART:20261020T190000Z
+DTEND:20261020T210000Z
+LOCATION:Parc des Princes\, Paris
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882832@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona 1 x 2 Real Madrid
+DTSTART:20261025T200000Z
+DTEND:20261025T220000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882822@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona 6 x 1 Alavés
+DTSTART:20261031T200000Z
+DTEND:20261031T220000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915387@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona 3 x 0 Aston Villa
+DTSTART:20261103T200000Z
+DTEND:20261103T220000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882816@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Atlético de Madrid 1 x 2 Barcelona
+DTSTART:20261108T200000Z
+DTEND:20261108T220000Z
+LOCATION:Riyadh Air Metropolitano\, Madrid
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882804@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona 3 x 2 Villarreal
+DTSTART:20261122T130000Z
+DTEND:20261122T150000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:La Liga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/ba
+ rcelona-x-villarreal-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/barcelona-x-villarreal-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915378@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sabah FK x Barcelona
+DTSTART:20261125T174500Z
+DTEND:20261125T194500Z
+LOCATION:Baku Olympic Stadium\, Baku
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: TNT\, HBO Max\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/sabah-fk-x-barcelo
+ na-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/sabah-fk-x-barcelona-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882794@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Deportivo x Barcelona
+DTSTART:20261129T151500Z
+DTEND:20261129T171500Z
+LOCATION:Riazor\, La Coruña
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/deportivo-x-barcelona-2
+ 9-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/deportivo-x-barcelona-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882700@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona x Atlético de Madrid
+DTSTART:20261202T203000Z
+DTEND:20261202T223000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-atletico-de
+ -madrid-02-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/barcelona-x-atletico-de-madrid-02-12-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882783@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona x Celta Vigo
+DTSTART:20261205T200000Z
+DTEND:20261205T220000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-celta-vigo-
+ 05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/barcelona-x-celta-vigo-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915285@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona x Manchester City
+DTSTART:20261208T200000Z
+DTEND:20261208T220000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-manchester-c
+ ity-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/barcelona-x-manchester-city-08-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR

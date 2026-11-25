@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Académico de Viseu · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Académico de Viseu com horário de Brasília e onde 
+ assistir. Atualiza sozinho: https://ondepassajogo.com.br/time/academico-de
+ -viseu/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401885413@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sporting CP 1 x 2 Académico de Viseu
+DTSTART:20261025T203000Z
+DTEND:20261025T223000Z
+LOCATION:Estádio José Alvalade\, Lisbon
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885411@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Académico de Viseu 2 x 1 Rio Ave
+DTSTART:20261101T180000Z
+DTEND:20261101T200000Z
+LOCATION:Estádio do Fontelo\, Viseu
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885398@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:C.D. Nacional 1 x 0 Académico de Viseu
+DTSTART:20261108T153000Z
+DTEND:20261108T173000Z
+LOCATION:Estádio da Madeira\, Funchal
+DESCRIPTION:Liga Portugal
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885393@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Académico de Viseu x Alverca
+DTSTART:20261128T180000Z
+DTEND:20261128T200000Z
+LOCATION:Estádio do Fontelo\, Viseu
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/academico-de-viseu-x-alverc
+ a-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/academico-de-viseu-x-alverca-28-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885380@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Famalicao x Académico de Viseu
+DTSTART:20261206T203000Z
+DTEND:20261206T223000Z
+LOCATION:Estádio Municipal 22 de Junho\, Vila Nova de Famalicão
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/fc-famalicao-x-academico-de
+ -viseu-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/fc-famalicao-x-academico-de-viseu-06-
+ 12-2026/
+END:VEVENT
+END:VCALENDAR

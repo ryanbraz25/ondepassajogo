@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Noruega · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Noruega com horário de Brasília e onde assistir. At
+ ualiza sozinho: https://ondepassajogo.com.br/time/noruega/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401861165@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Noruega 3 x 1 País de Gales
+DTSTART:20261114T170000Z
+DTEND:20261114T190000Z
+LOCATION:Ullevaal Stadion\, Oslo
+DESCRIPTION:Liga das Nações
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga das Nações
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401861194@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Dinamarca 2 x 3 Noruega
+DTSTART:20261117T194500Z
+DTEND:20261117T214500Z
+LOCATION:Parken Stadium\, Copenhagen
+DESCRIPTION:Liga das Nações\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/dinamarca-x-noruega-17-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga das Nações
+URL:https://ondepassajogo.com.br/jogo/dinamarca-x-noruega-17-11-2026/
+END:VEVENT
+END:VCALENDAR

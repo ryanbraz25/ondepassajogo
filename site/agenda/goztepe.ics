@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Goztepe · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Goztepe com horário de Brasília e onde assistir. At
+ ualiza sozinho: https://ondepassajogo.com.br/time/goztepe/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401888284@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Eyupspor 0 x 4 Goztepe
+DTSTART:20261012T170000Z
+DTEND:20261012T190000Z
+LOCATION:Esenyurt Necmi Kadioglu Stadi\, Istanbul
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888272@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kocaelispor 1 x 2 Goztepe
+DTSTART:20261018T130000Z
+DTEND:20261018T150000Z
+LOCATION:Yildiz Entegre Kocaeli Stadyumu\, Kocaeli
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888376@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Goztepe 2 x 0 Çorum FK
+DTSTART:20261025T160000Z
+DTEND:20261025T180000Z
+LOCATION:Göztepe Gürsel Aksel Stadi\, Izmir
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888258@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fenerbahce 1 x 2 Goztepe
+DTSTART:20261031T160000Z
+DTEND:20261031T180000Z
+LOCATION:Şükrü Saracoğlu Stadium\, Istanbul
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888252@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Goztepe 1 x 2 Istanbul Basaksehir
+DTSTART:20261107T160000Z
+DTEND:20261107T180000Z
+LOCATION:Göztepe Gürsel Aksel Stadi\, Izmir
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888243@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Erzurum BB 0 x 1 Goztepe
+DTSTART:20261122T103000Z
+DTEND:20261122T123000Z
+LOCATION:Erzurum Kazim Karabekir\, Erzurum
+DESCRIPTION:Liga da Turquia\nDetalhes do jogo: https://ondepassajogo.com.br
+ /jogo/erzurum-bb-x-goztepe-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/erzurum-bb-x-goztepe-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888239@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Goztepe x Trabzonspor
+DTSTART:20261130T160000Z
+DTEND:20261130T180000Z
+LOCATION:Göztepe Gürsel Aksel Stadi\, Izmir
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/goztepe-x-trabzons
+ por-30-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/goztepe-x-trabzonspor-30-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888235@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kasimpasa x Goztepe
+DTSTART:20261207T170000Z
+DTEND:20261207T190000Z
+LOCATION:Recep Tayyip Erdogan Stadium\, Istanbul
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/kasimpasa-x-goztep
+ e-07-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/kasimpasa-x-goztepe-07-12-2026/
+END:VEVENT
+END:VCALENDAR

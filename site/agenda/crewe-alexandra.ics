@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Crewe Alexandra · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Crewe Alexandra com horário de Brasília e onde assi
+ stir. Atualiza sozinho: https://ondepassajogo.com.br/time/crewe-alexandra/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401931120@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Crewe Alexandra 2 x 1 AFC Wimbledon
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:Mornflake Stadium\, Crewe
+DESCRIPTION:FA Cup
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401933794@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Crewe Alexandra x Plymouth Argyle
+DTSTART:20261206T151500Z
+DTEND:20261206T171500Z
+LOCATION:Mornflake Stadium\, Crewe
+DESCRIPTION:FA Cup\nOnde passa: canais ainda não anunciados\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/crewe-alexandra-x-plymouth-
+ argyle-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:FA Cup
+URL:https://ondepassajogo.com.br/jogo/crewe-alexandra-x-plymouth-argyle-06-
+ 12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,175 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do West Bromwich Albion · Onde Passa Jogo
+X-WR-CALDESC:Jogos do West Bromwich Albion com horário de Brasília e onde
+  assistir. Atualiza sozinho: https://ondepassajogo.com.br/time/west-bromwi
+ ch-albion/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880225@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wrexham 1 x 2 West Bromwich Albion
+DTSTART:20261013T184500Z
+DTEND:20261013T204500Z
+LOCATION:STōK Cae Ras\, Wrexham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880210@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Bromwich Albion 3 x 2 Blackburn Rovers
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:The Hawthorns\, West Bromwich
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880202@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Preston North End 1 x 1 West Bromwich Albion
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+LOCATION:Deepdale\, Preston
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880186@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Ham United 1 x 3 West Bromwich Albion
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:London Stadium\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880177@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Bromwich Albion 1 x 1 Southampton
+DTSTART:20261103T200000Z
+DTEND:20261103T220000Z
+LOCATION:The Hawthorns\, West Bromwich
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880162@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Bromwich Albion 3 x 0 Millwall
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:The Hawthorns\, West Bromwich
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880151@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Swansea City 2 x 2 West Bromwich Albion
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:Swansea.com Stadium\, Swansea
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/swansea-city-x-west-bromwich-albion-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/swansea-city-x-west-bromwich-albion-2
+ 1-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880140@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Bolton Wanderers x West Bromwich Albion
+DTSTART:20261125T194500Z
+DTEND:20261125T214500Z
+LOCATION:Toughsheet Community Stadium\, Bolton
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/bolton-w
+ anderers-x-west-bromwich-albion-25-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/bolton-wanderers-x-west-bromwich-albi
+ on-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880127@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Bromwich Albion x Bristol City
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:The Hawthorns\, West Bromwich
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/west-bro
+ mwich-albion-x-bristol-city-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/west-bromwich-albion-x-bristol-city-2
+ 8-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880117@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Portsmouth x West Bromwich Albion
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:Fratton Park\, Portsmouth
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/portsmou
+ th-x-west-bromwich-albion-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/portsmouth-x-west-bromwich-albion-05-
+ 12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880107@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Bromwich Albion x Cardiff City
+DTSTART:20261208T194500Z
+DTEND:20261208T214500Z
+LOCATION:The Hawthorns\, West Bromwich
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/west-bro
+ mwich-albion-x-cardiff-city-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/west-bromwich-albion-x-cardiff-city-0
+ 8-12-2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,174 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Queens Park Rangers · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Queens Park Rangers com horário de Brasília e onde 
+ assistir. Atualiza sozinho: https://ondepassajogo.com.br/time/queens-park-
+ rangers/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880221@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers 4 x 1 Derby County
+DTSTART:20261014T184500Z
+DTEND:20261014T204500Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880220@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Birmingham City 3 x 0 Queens Park Rangers
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:St. Andrew's Stadium\, Birmingham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880201@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers 5 x 0 Swansea City
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880189@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Southampton 4 x 1 Queens Park Rangers
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+LOCATION:St. Mary's Stadium\, Southampton
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880179@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers 1 x 1 Burnley
+DTSTART:20261103T194500Z
+DTEND:20261103T214500Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880164@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers 2 x 1 Lincoln City
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880156@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Millwall 0 x 1 Queens Park Rangers
+DTSTART:20261121T123000Z
+DTEND:20261121T143000Z
+LOCATION:The Den\, London
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/millwall-x-queens-park-rangers-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/millwall-x-queens-park-rangers-21-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880144@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Norwich City 1 x 1 Queens Park Rangers
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Carrow Road\, Norwich
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/norwich-city-x-queens-park-rangers-24-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/norwich-city-x-queens-park-rangers-24
+ -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880130@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers x Sheffield United
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/queens-p
+ ark-rangers-x-sheffield-united-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/queens-park-rangers-x-sheffield-unite
+ d-28-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880115@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Stoke City x Queens Park Rangers
+DTSTART:20261205T150000Z
+DTEND:20261205T170000Z
+LOCATION:bet365 Stadium\, Stoke-on-Trent
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/stoke-ci
+ ty-x-queens-park-rangers-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/stoke-city-x-queens-park-rangers-05-1
+ 2-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880109@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Queens Park Rangers x Wolverhampton Wanderers
+DTSTART:20261208T194500Z
+DTEND:20261208T214500Z
+LOCATION:MATRADE Loftus Road\, London
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/queens-p
+ ark-rangers-x-wolverhampton-wanderers-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/queens-park-rangers-x-wolverhampton-w
+ anderers-08-12-2026/
+END:VEVENT
+END:VCALENDAR

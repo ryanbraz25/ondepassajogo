@@ -1,0 +1,213 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Villarreal · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Villarreal com horário de Brasília e onde assistir.
+  Atualiza sozinho: https://ondepassajogo.com.br/time/villarreal/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915410@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Villarreal 3 x 1 Napoli
+DTSTART:20261013T190000Z
+DTEND:20261013T210000Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882837@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Villarreal 0 x 0 Elche
+DTSTART:20261017T141500Z
+DTEND:20261017T161500Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915397@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Liverpool 4 x 3 Villarreal
+DTSTART:20261020T190000Z
+DTEND:20261020T210000Z
+LOCATION:Anfield\, Liverpool
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882827@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Valencia 1 x 2 Villarreal
+DTSTART:20261024T163000Z
+DTEND:20261024T183000Z
+LOCATION:Mestalla Stadium\, Manises
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401928522@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Manacor 0 x 5 Villarreal
+DTSTART:20261027T200000Z
+DTEND:20261027T220000Z
+LOCATION:Poliesportiu Municipal Na Capellera\, Manacor
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882817@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Villarreal 0 x 1 Espanyol
+DTSTART:20261030T200000Z
+DTEND:20261030T220000Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915309@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Villarreal 0 x 6 Paris Saint-Germain
+DTSTART:20261103T200000Z
+DTEND:20261103T220000Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882807@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Villarreal 2 x 0 Getafe
+DTSTART:20261108T173000Z
+DTEND:20261108T193000Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:La Liga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882804@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Barcelona 3 x 2 Villarreal
+DTSTART:20261122T130000Z
+DTEND:20261122T150000Z
+LOCATION:Spotify Camp Nou\, Barcelona
+DESCRIPTION:La Liga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/ba
+ rcelona-x-villarreal-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/barcelona-x-villarreal-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915293@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Slavia Prague x Villarreal
+DTSTART:20261125T174500Z
+DTEND:20261125T194500Z
+LOCATION:Fortuna Arena\, Prague
+DESCRIPTION:Champions League · 5ª rodada\nOnde passa: TNT\, HBO Max\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/slavia-prague-x-vi
+ llarreal-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/slavia-prague-x-villarreal-25-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882795@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Celta Vigo x Villarreal
+DTSTART:20261129T173000Z
+DTEND:20261129T193000Z
+LOCATION:Balaidos\, Vigo
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/celta-vigo-x-villarreal
+ -29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/celta-vigo-x-villarreal-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936398@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Sestao x Villarreal
+DTSTART:20261202T200000Z
+DTEND:20261202T220000Z
+LOCATION:Las Llanas\, Sestao
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/sestao-x-villarreal-02
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/sestao-x-villarreal-02-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882777@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Villarreal x Real Sociedad
+DTSTART:20261205T173000Z
+DTEND:20261205T193000Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/villarreal-x-real-socie
+ dad-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/villarreal-x-real-sociedad-05-12-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915372@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Villarreal x Sabah FK
+DTSTART:20261208T174500Z
+DTEND:20261208T194500Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/villarreal-x-sabah-fk-08
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/villarreal-x-sabah-fk-08-12-2026/
+END:VEVENT
+END:VCALENDAR

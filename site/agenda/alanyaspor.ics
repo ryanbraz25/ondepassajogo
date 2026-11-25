@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Alanyaspor · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Alanyaspor com horário de Brasília e onde assistir.
+  Atualiza sozinho: https://ondepassajogo.com.br/time/alanyaspor/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401888273@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Fenerbahce 3 x 0 Alanyaspor
+DTSTART:20261017T160000Z
+DTEND:20261017T180000Z
+LOCATION:Şükrü Saracoğlu Stadium\, Istanbul
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888268@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Alanyaspor 1 x 2 Kocaelispor
+DTSTART:20261023T170000Z
+DTEND:20261023T190000Z
+LOCATION:Kirbiyik Holding Stadyumu\, Antalya
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888260@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Genclerbirligi 5 x 0 Alanyaspor
+DTSTART:20261102T170000Z
+DTEND:20261102T190000Z
+LOCATION:Eryaman Stadium\, Ankara
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888254@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Alanyaspor 0 x 2 Trabzonspor
+DTSTART:20261108T153000Z
+DTEND:20261108T173000Z
+LOCATION:Kirbiyik Holding Stadyumu\, Antalya
+DESCRIPTION:Liga da Turquia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888248@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Kasimpasa 2 x 1 Alanyaspor
+DTSTART:20261122T130000Z
+DTEND:20261122T150000Z
+LOCATION:Recep Tayyip Erdogan Stadium\, Istanbul
+DESCRIPTION:Liga da Turquia\nDetalhes do jogo: https://ondepassajogo.com.br
+ /jogo/kasimpasa-x-alanyaspor-22-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/kasimpasa-x-alanyaspor-22-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888241@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Alanyaspor x Konyaspor
+DTSTART:20261127T170000Z
+DTEND:20261127T190000Z
+LOCATION:Kirbiyik Holding Stadyumu\, Antalya
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/alanyaspor-x-konya
+ spor-27-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/alanyaspor-x-konyaspor-27-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888365@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Amed SFK x Alanyaspor
+DTSTART:20261205T130000Z
+DTEND:20261205T150000Z
+LOCATION:Diyarbakir Stadyumu\, Diyarbakir
+DESCRIPTION:Liga da Turquia\nOnde passa: canais ainda não anunciados\nDeta
+ lhes e onde assistir: https://ondepassajogo.com.br/jogo/amed-sfk-x-alanyas
+ por-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/amed-sfk-x-alanyaspor-05-12-2026/
+END:VEVENT
+END:VCALENDAR

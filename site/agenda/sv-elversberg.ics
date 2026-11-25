@@ -1,0 +1,114 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do SV Elversberg · Onde Passa Jogo
+X-WR-CALDESC:Jogos do SV Elversberg com horário de Brasília e onde assist
+ ir. Atualiza sozinho: https://ondepassajogo.com.br/time/sv-elversberg/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401884764@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SV Elversberg 4 x 3 FC Augsburg
+DTSTART:20261017T133000Z
+DTEND:20261017T153000Z
+LOCATION:URSAPHARM-Arena an der Kaiserlinde\, Spiesen-Elversberg
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884762@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:RB Leipzig 4 x 0 SV Elversberg
+DTSTART:20261024T133000Z
+DTEND:20261024T153000Z
+LOCATION:Red Bull Arena\, Leipzig
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884746@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SV Elversberg 4 x 1 Mainz
+DTSTART:20261030T193000Z
+DTEND:20261030T213000Z
+LOCATION:URSAPHARM-Arena an der Kaiserlinde\, Spiesen-Elversberg
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884745@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Borussia Dortmund 2 x 1 SV Elversberg
+DTSTART:20261107T143000Z
+DTEND:20261107T163000Z
+LOCATION:Signal Iduna Park\, Aue
+DESCRIPTION:Bundesliga
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884728@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SV Elversberg 0 x 1 SC Freiburg
+DTSTART:20261121T143000Z
+DTEND:20261121T163000Z
+LOCATION:URSAPHARM-Arena an der Kaiserlinde\, Spiesen-Elversberg
+DESCRIPTION:Bundesliga\nDetalhes do jogo: https://ondepassajogo.com.br/jogo
+ /sv-elversberg-x-sc-freiburg-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sv-elversberg-x-sc-freiburg-21-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884721@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Cologne x SV Elversberg
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+LOCATION:RheinEnergieStadion\, Cologne
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/fc-cologne-x-sv-elversberg
+ -28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/fc-cologne-x-sv-elversberg-28-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884710@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SV Elversberg x VfB Stuttgart
+DTSTART:20261206T163000Z
+DTEND:20261206T183000Z
+LOCATION:URSAPHARM-Arena an der Kaiserlinde\, Spiesen-Elversberg
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sv-elversberg-x-vfb-stuttg
+ art-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sv-elversberg-x-vfb-stuttgart-06-12-2
+ 026/
+END:VEVENT
+END:VCALENDAR

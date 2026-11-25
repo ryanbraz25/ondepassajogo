@@ -1,0 +1,187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Feyenoord Rotterdam · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Feyenoord Rotterdam com horário de Brasília e onde 
+ assistir. Atualiza sozinho: https://ondepassajogo.com.br/time/feyenoord-ro
+ tterdam/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915416@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam 3 x 2 Como
+DTSTART:20261014T164500Z
+DTEND:20261014T184500Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875580@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Telstar 3 x 4 Feyenoord Rotterdam
+DTSTART:20261017T180000Z
+DTEND:20261017T200000Z
+LOCATION:711 Stadion\, Velsen-Zuid
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915389@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Real Betis 1 x 0 Feyenoord Rotterdam
+DTSTART:20261021T190000Z
+DTEND:20261021T210000Z
+LOCATION:Estádio La Cartuja\, Sevilla
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875568@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:PSV Eindhoven 1 x 1 Feyenoord Rotterdam
+DTSTART:20261025T133000Z
+DTEND:20261025T153000Z
+LOCATION:Philips Stadion\, Eindhoven
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875565@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam 1 x 1 Fortuna Sittard
+DTSTART:20261031T153000Z
+DTEND:20261031T173000Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915307@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam 0 x 3 Inter de Milão
+DTSTART:20261103T200000Z
+DTEND:20261103T220000Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Champions League
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875551@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heerenveen 5 x 3 Feyenoord Rotterdam
+DTSTART:20261108T111500Z
+DTEND:20261108T131500Z
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875543@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam 2 x 3 Excelsior
+DTSTART:20261121T174500Z
+DTEND:20261121T194500Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/feyenoord-rotterdam-x-excelsior-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-excelsior-21-11
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915294@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam 0 x 1 FC Porto
+DTSTART:20261124T200000Z
+DTEND:20261124T220000Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
+ assajogo.com.br/jogo/feyenoord-rotterdam-x-fc-porto-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-fc-porto-24-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875535@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Feyenoord Rotterdam x Ajax Amsterdam
+DTSTART:20261129T133000Z
+DTEND:20261129T153000Z
+LOCATION:De Kuip\, Rotterdam
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/feyenoord-rot
+ terdam-x-ajax-amsterdam-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-ajax-amsterdam-
+ 29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875521@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Willem II x Feyenoord Rotterdam
+DTSTART:20261205T153000Z
+DTEND:20261205T173000Z
+LOCATION:Koning Willem II Stadion\, Tilburg
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/willem-ii-x-f
+ eyenoord-rotterdam-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/willem-ii-x-feyenoord-rotterdam-05-12
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915290@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Viking FK x Feyenoord Rotterdam
+DTSTART:20261208T174500Z
+DTEND:20261208T194500Z
+LOCATION:Viking Stadion\, Stavanger
+DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
+  onde assistir: https://ondepassajogo.com.br/jogo/viking-fk-x-feyenoord-ro
+ tterdam-08-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/viking-fk-x-feyenoord-rotterdam-08-12
+ -2026/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do SC Cambuur · Onde Passa Jogo
+X-WR-CALDESC:Jogos do SC Cambuur com horário de Brasília e onde assistir.
+  Atualiza sozinho: https://ondepassajogo.com.br/time/sc-cambuur/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401875586@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:PEC Zwolle 0 x 1 SC Cambuur
+DTSTART:20261011T123000Z
+DTEND:20261011T143000Z
+LOCATION:MAC³PARK Stadion\, Zwolle
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875576@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Cambuur 2 x 2 AZ Alkmaar
+DTSTART:20261018T123000Z
+DTEND:20261018T143000Z
+LOCATION:Kooi Stadium\, Leeuwarden
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875572@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Willem II 1 x 6 SC Cambuur
+DTSTART:20261024T164500Z
+DTEND:20261024T184500Z
+LOCATION:Koning Willem II Stadion\, Tilburg
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875561@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Cambuur 4 x 0 Go Ahead Eagles
+DTSTART:20261031T200000Z
+DTEND:20261031T220000Z
+LOCATION:Kooi Stadium\, Leeuwarden
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875553@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Cambuur 2 x 5 PSV Eindhoven
+DTSTART:20261108T154500Z
+DTEND:20261108T174500Z
+LOCATION:Kooi Stadium\, Leeuwarden
+DESCRIPTION:Eredivisie (Holanda)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875544@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:FC Utrecht 2 x 3 SC Cambuur
+DTSTART:20261121T174500Z
+DTEND:20261121T194500Z
+LOCATION:Stadion Galgenwaard\, Utrecht
+DESCRIPTION:Eredivisie (Holanda)\nDetalhes do jogo: https://ondepassajogo.c
+ om.br/jogo/fc-utrecht-x-sc-cambuur-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-utrecht-x-sc-cambuur-21-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875530@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:SC Cambuur x Sparta Rotterdam
+DTSTART:20261128T200000Z
+DTEND:20261128T220000Z
+LOCATION:Kooi Stadium\, Leeuwarden
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sc-cambuur-x-
+ sparta-rotterdam-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/sc-cambuur-x-sparta-rotterdam-28-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875524@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Heerenveen x SC Cambuur
+DTSTART:20261206T111500Z
+DTEND:20261206T131500Z
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/heerenveen-x-
+ sc-cambuur-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/heerenveen-x-sc-cambuur-06-12-2026/
+END:VEVENT
+END:VCALENDAR

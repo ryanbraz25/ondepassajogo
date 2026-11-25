@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do CE Europa · Onde Passa Jogo
+X-WR-CALDESC:Jogos do CE Europa com horário de Brasília e onde assistir. 
+ Atualiza sozinho: https://ondepassajogo.com.br/time/ce-europa/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401928520@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CF Calamocha 0 x 3 CE Europa
+DTSTART:20261027T180000Z
+DTEND:20261027T200000Z
+LOCATION:Campo De Fútbol Jumaya Calamocha\, Teruel
+DESCRIPTION:Copa do Rei
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936400@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:CE Europa x Rayo Vallecano
+DTSTART:20261201T200000Z
+DTEND:20261201T220000Z
+LOCATION:Camp Municipal de Futbol Nou Sardenya\, Barcelona
+DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/ce-europa-x-rayo-valle
+ cano-01-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Copa do Rei
+URL:https://ondepassajogo.com.br/jogo/ce-europa-x-rayo-vallecano-01-12-2026
+ /
+END:VEVENT
+END:VCALENDAR

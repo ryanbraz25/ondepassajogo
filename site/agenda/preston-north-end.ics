@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Preston North End · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Preston North End com horário de Brasília e onde as
+ sistir. Atualiza sozinho: https://ondepassajogo.com.br/time/preston-north-
+ end/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401880232@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Birmingham City 4 x 0 Preston North End
+DTSTART:20261013T190000Z
+DTEND:20261013T210000Z
+LOCATION:St. Andrew's Stadium\, Birmingham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880209@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Wrexham 4 x 1 Preston North End
+DTSTART:20261017T140000Z
+DTEND:20261017T160000Z
+LOCATION:STōK Cae Ras\, Wrexham
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880202@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Preston North End 1 x 1 West Bromwich Albion
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+LOCATION:Deepdale\, Preston
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880188@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Stoke City 2 x 0 Preston North End
+DTSTART:20261031T123000Z
+DTEND:20261031T143000Z
+LOCATION:bet365 Stadium\, Stoke-on-Trent
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880180@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Preston North End 2 x 3 Sheffield United
+DTSTART:20261103T194500Z
+DTEND:20261103T214500Z
+LOCATION:Deepdale\, Preston
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880165@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Preston North End 1 x 0 Southampton
+DTSTART:20261107T150000Z
+DTEND:20261107T170000Z
+LOCATION:Deepdale\, Preston
+DESCRIPTION:Championship (Inglaterra)
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880150@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:West Ham United 1 x 1 Preston North End
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+LOCATION:London Stadium\, London
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/west-ham-united-x-preston-north-end-21-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/west-ham-united-x-preston-north-end-2
+ 1-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880147@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Cardiff City 0 x 4 Preston North End
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/cardiff-city-x-preston-north-end-24-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/cardiff-city-x-preston-north-end-24-1
+ 1-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880131@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Preston North End x Norwich City
+DTSTART:20261128T123000Z
+DTEND:20261128T143000Z
+LOCATION:Deepdale\, Preston
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/preston-
+ north-end-x-norwich-city-28-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/preston-north-end-x-norwich-city-28-1
+ 1-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880122@ondepassajogo.com.br
+DTSTAMP:20261125T014306Z
+LAST-MODIFIED:20261125T014306Z
+SUMMARY:Burnley x Preston North End
+DTSTART:20261206T120000Z
+DTEND:20261206T140000Z
+LOCATION:Turf Moor\, Burnley
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: canais ainda não anunci
+ ados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/burnley-
+ x-preston-north-end-06-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/burnley-x-preston-north-end-06-12-202
+ 6/
+END:VEVENT
+END:VCALENDAR
