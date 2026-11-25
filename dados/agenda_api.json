@@ -8037,6 +8037,27 @@
   "local": "José Amalfitani, Buenos Aires",
   "status": "a_confirmar"
  },
+ "espn:401936373": {
+  "_d": "20261129",
+  "_liga": "arg.1",
+  "_logos": {
+   "Barracas Central": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
+   "Rosario Central": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Rosario Central",
+  "comp": "argentina",
+  "ed": "20261129",
+  "eid": "401936373",
+  "fase": "clausura---quarterfinals",
+  "fora": "Barracas Central",
+  "inicio": "2026-11-29T17:00:00-03:00",
+  "lg": "arg.1",
+  "local": "Gigante de Arroyito, Rosario",
+  "status": "a_confirmar"
+ },
  "espn:401936397": {
   "_d": "20261201",
   "_liga": "esp.copa_del_rey",
@@ -8339,6 +8360,27 @@
   "inicio": "2026-12-02T14:30:00-03:00",
   "lg": "esp.copa_del_rey",
   "local": "Estadio Alfonso Murube, Ceuta",
+  "status": "a_confirmar"
+ },
+ "espn:401936413": {
+  "_d": "20261129",
+  "_liga": "arg.1",
+  "_logos": {
+   "Instituto (Córdoba)": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
+   "River Plate": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Instituto (Córdoba)",
+  "comp": "argentina",
+  "ed": "20261129",
+  "eid": "401936413",
+  "fase": "clausura---quarterfinals",
+  "fora": "River Plate",
+  "inicio": "2026-11-29T17:00:00-03:00",
+  "lg": "arg.1",
+  "local": "Monumental Presidente Perón, Córdoba",
   "status": "a_confirmar"
  },
  "espn:401936415": {

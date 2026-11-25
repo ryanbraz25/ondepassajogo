@@ -78,4 +78,21 @@ CATEGORIES:Argentino
 URL:https://ondepassajogo.com.br/jogo/instituto-cordoba-x-huracan-22-11-202
  6/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936413@ondepassajogo.com.br
+DTSTAMP:20261125T145149Z
+LAST-MODIFIED:20261125T145149Z
+SUMMARY:Instituto (Córdoba) x River Plate
+DTSTART:20261129T200000Z
+DTEND:20261129T220000Z
+LOCATION:Monumental Presidente Perón\, Córdoba
+DESCRIPTION:Argentino\nOnde passa: Disney+ (a confirmar)\nDetalhes e onde a
+ ssistir: https://ondepassajogo.com.br/jogo/instituto-cordoba-x-river-plate
+ -29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/instituto-cordoba-x-river-plate-29-11
+ -2026/
+END:VEVENT
 END:VCALENDAR

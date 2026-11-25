@@ -90,4 +90,21 @@ CATEGORIES:Argentino
 URL:https://ondepassajogo.com.br/jogo/rosario-central-x-gimnasia-mendoza-22
  -11-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936373@ondepassajogo.com.br
+DTSTAMP:20261125T145149Z
+LAST-MODIFIED:20261125T145149Z
+SUMMARY:Rosario Central x Barracas Central
+DTSTART:20261129T200000Z
+DTEND:20261129T220000Z
+LOCATION:Gigante de Arroyito\, Rosario
+DESCRIPTION:Argentino\nOnde passa: Disney+ (a confirmar)\nDetalhes e onde a
+ ssistir: https://ondepassajogo.com.br/jogo/rosario-central-x-barracas-cent
+ ral-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/rosario-central-x-barracas-central-29
+ -11-2026/
+END:VEVENT
 END:VCALENDAR
