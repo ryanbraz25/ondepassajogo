@@ -180,13 +180,13 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/p.css?v=6">
+<link rel="stylesheet" href="/p.css?v=7">
 <link rel="stylesheet" href="/menu.css?v=2">
 <link rel="stylesheet" href="/personaliza.css?v=3">
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <link rel="stylesheet" href="/aovivo.css?v=1">
 <link rel="stylesheet" href="/estatisticas.css?v=1">
-<script src="/p.js?v=6" defer></script>
+<script src="/p.js?v=7" defer></script>
 <script src="/rodadas.js?v=2" defer></script>
 <script src="/aovivo.js?v=1" defer></script>
 <script src="/estatisticas.js?v=1" defer></script>
@@ -507,8 +507,17 @@ def escalacoes_html(cx, j):
             res = ", ".join(p["nome"] for p in x["reservas"])
             lados.append(f'<div class="esq"><h3>{e(nome_)}{(" · " + e(x["esquema"])) if x.get("esquema") else ""}</h3>'
                          f'<p><b>Titulares:</b> {e(tit)}.</p>' + (f'<p class="rs"><b>Reservas:</b> {e(res)}.</p>' if res else "") + "</div>")
+        subs = es.get("subs") or []
+        if subs:
+            nomes_l = {"c": j["casa"], "f": j["fora"]}
+            lados.append('<div class="esq"><h3>Substituições</h3><p>' + "; ".join(
+                f'{e(x["m"])} {e(nomes_l.get(x["l"], ""))}: entrou {e(x["ent"])}, saiu {e(x["sai"])}' for x in subs) + ".</p></div>")
         dados = ('<script type="application/json" class="escdata">' + json.dumps(es, ensure_ascii=False).replace("</", "<\\/") + "</script>")
-        return (f'<section id="escalacoes" class="escal"><h2>Escalações</h2><div class="campo" data-pronto="1"></div>'
+        final = ' data-final="1"' if es.get("completa") and es.get("v", 0) >= 3 else ""
+        # data-eid/lg/ini: enquanto o jogo não termina, o p.js atualiza substituições e números direto da ESPN
+        return (f'<section id="escalacoes" class="escal"><h2>Escalações</h2><div class="campo" data-pronto="1" data-lg="{e(j.get("lg", ""))}" '
+                f'data-eid="{e(j.get("eid", ""))}" data-ini="{ini.isoformat()}" data-casa="{e(j["casa"])}" data-fora="{e(j["fora"])}"'
+                f'{final}></div>'
                 f'<div class="esqs esqs-txt">{"".join(lados)}</div>{dados}</section>')
     if ini - agora > timedelta(days=3):
         return ""

@@ -285,14 +285,44 @@ def historico(cfg, nome, get_json, jogos, offline=False):
 
 
 # ---------------------------------------------------------------- escalações oficiais
+ESTAT = {"totalGoals": "g", "goalAssists": "a", "totalShots": "ch", "shotsOnTarget": "cg", "foulsCommitted": "fc",
+         "foulsSuffered": "fs", "offsides": "imp", "yellowCards": "am", "redCards": "vm", "saves": "df",
+         "goalsConceded": "gs", "ownGoals": "gc"}
+
+
+def _minuto_sub(p, ultimo=False):
+    m = [x.get("clock", {}).get("displayValue", "") for x in p.get("plays") or [] if x.get("substitution")]
+    m = [x for x in m if x]
+    return (m[-1] if ultimo else m[0]) if m else ""
+
+
 def _lado(r):
+    """Titulares e reservas de um time, com quem entrou/saiu (minuto) e os números de cada jogador na partida.
+    O mesmo formato é montado pelo p.js quando o navegador busca na ESPN (jogo ao vivo)."""
     titulares, reservas = [], []
     for p in r.get("roster") or []:
         a = p.get("athlete") or {}
         pos = (p.get("position") or {}).get("abbreviation") or ""
         item = {"n": str(p.get("jersey") or ""), "nome": a.get("shortName") or a.get("displayName") or "?", "pos": pos}
+        if a.get("id"):
+            item["id"] = str(a["id"])
         if p.get("formationPlace"):
             item["fp"] = int(p["formationPlace"])
+        if p.get("subbedIn"):
+            item["e"] = _minuto_sub(p) or "?"
+        if p.get("subbedOut"):
+            item["s"] = _minuto_sub(p, ultimo=True) or "?"
+        st = {}
+        for x in p.get("stats") or []:
+            k = ESTAT.get(x.get("name"))
+            try:
+                v = int(float(x.get("value") or 0))
+            except (TypeError, ValueError):
+                v = 0
+            if k and v and not (k == "gs" and pos not in ("G", "GK")):
+                st[k] = v
+        if st:
+            item["st"] = st
         (titulares if p.get("starter") else reservas).append(item)
     titulares.sort(key=lambda x: x.get("fp", 99))
     out = {"titulares": titulares, "reservas": reservas}
@@ -304,13 +334,35 @@ def _lado(r):
     return out
 
 
+def _substituicoes(resumo):
+    """[{"l": "c"/"f", "m": "63'", "ent": nome, "sai": nome}] pela ordem do jogo (keyEvents da ESPN)."""
+    nomes, lado_time = {}, {}
+    for ros in resumo.get("rosters") or []:
+        lado_time[str((ros.get("team") or {}).get("id"))] = "c" if ros.get("homeAway") == "home" else "f"
+        for p in ros.get("roster") or []:
+            a = p.get("athlete") or {}
+            if a.get("id"):
+                nomes[str(a["id"])] = a.get("shortName") or a.get("displayName") or "?"
+    out = []
+    for k in resumo.get("keyEvents") or []:
+        if "substitution" not in str((k.get("type") or {}).get("text", "")).lower():
+            continue
+        ps = [x.get("athlete") or {} for x in k.get("participants") or []]
+        if len(ps) < 2:
+            continue
+        nm = lambda a: nomes.get(str(a.get("id")), a.get("shortName") or a.get("displayName") or "?")
+        out.append({"l": lado_time.get(str((k.get("team") or {}).get("id")), ""), "m": (k.get("clock") or {}).get("displayValue", ""),
+                    "ent": nm(ps[0]), "sai": nm(ps[1])})
+    return out
+
+
 def escalacoes(cfg, get_json, jogos, offline=False):
     e = ler(ESCAL, {})
     agora = datetime.now(BRT)
     if not offline:
         alvo = []
         for j in jogos:
-            if not (j.get("eid") and j.get("lg")) or j["eid"] in e and e[j["eid"]].get("completa") and e[j["eid"]].get("v") == 2:
+            if not (j.get("eid") and j.get("lg")) or j["eid"] in e and e[j["eid"]].get("completa") and e[j["eid"]].get("v") == 3:
                 continue
             ini = datetime.fromisoformat(j["inicio"]).astimezone(BRT)
             # de 2h30 antes do jogo até 2 dias depois: se o robô não rodou na hora (o agendador grátis
@@ -330,9 +382,12 @@ def escalacoes(cfg, get_json, jogos, offline=False):
             casa, fora = _lado(lados["home"]), _lado(lados["away"])
             if len(casa["titulares"]) >= 11 and len(fora["titulares"]) >= 11:
                 ini = datetime.fromisoformat(j["inicio"]).astimezone(BRT)
-                e[j["eid"]] = {"casa": casa, "fora": fora, "inicio": j["inicio"], "time_casa": j["casa"], "time_fora": j["fora"],
-                               "comp": j["comp"], "pg": j.get("pg", ""), "achada": agora.isoformat(timespec="minutes"),
-                               "completa": agora > ini + timedelta(minutes=20), "v": 2}
+                # "completa" só depois do fim do jogo: até lá, substituições e números dos jogadores mudam
+                e[j["eid"]] = {"casa": casa, "fora": fora, "subs": _substituicoes(r), "inicio": j["inicio"],
+                               "time_casa": j["casa"], "time_fora": j["fora"], "comp": j["comp"], "pg": j.get("pg", ""),
+                               "achada": (e.get(j["eid"]) or {}).get("achada") or agora.isoformat(timespec="minutes"),
+                               "atualizada": agora.isoformat(timespec="minutes"),
+                               "completa": agora > ini + timedelta(hours=3), "v": 3}
             time.sleep(0.3)
     corte = (agora - timedelta(days=4)).isoformat()
     e = {k: v for k, v in e.items() if v["inicio"] >= corte}
