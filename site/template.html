@@ -319,8 +319,40 @@ img.lgi{display:inline-block;width:18px;height:18px;object-fit:contain;vertical-
 @media(min-width:960px){.side{top:64px;max-height:calc(100vh - 64px)}}
 /* no computador os dias dividem a largura certinho (o último termina alinhado à direita);
    se não couberem, a faixa rola e ganha um esmaecido no fim avisando que tem mais */
-@media(min-width:960px){#days .day{flex:1 1 0;min-width:58px;padding-inline:4px}}
-.days.rola{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 36px),transparent)}
+/* faixa de dias: os dias passados ficam à esquerda de Hoje. No computador cabem 15 dias certinhos
+   (Hoje..+14, o último alinhado à direita) e as setas ‹ › rolam de 7 em 7; no celular rola com o dedo */
+.dwrap{position:relative}
+.day.past:not([aria-pressed=true]){background:rgba(0,0,0,.14);border-color:rgba(255,255,255,.2);color:rgba(255,255,255,.8)}
+.dnav{display:none}
+@media(min-width:960px){
+ #days{scroll-snap-type:x mandatory}
+ #days .day{flex:0 0 calc((100% - 112px)/15);min-width:0;padding-inline:4px;scroll-snap-align:start}
+ .dnav{display:grid;place-items:center;position:absolute;top:6px;bottom:18px;margin:auto 0;width:32px;height:32px;padding:0;border-radius:50%;border:1px solid rgba(255,255,255,.45);background:rgba(0,0,0,.28);color:var(--chalk);font:700 22px/1 Barlow,sans-serif;cursor:pointer;z-index:2}
+ .dnav:hover{border-color:var(--gold);color:var(--gold)}
+ .dprev{left:calc(3px - 4vw)}.dnext{right:calc(3px - 4vw)}
+}
+.dnav[hidden]{display:none!important}
+@media(max-width:959px){
+ #days.fr{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 28px),transparent)}
+ #days.fl{-webkit-mask-image:linear-gradient(90deg,transparent,#000 18px);mask-image:linear-gradient(90deg,transparent,#000 18px)}
+ #days.fl.fr{-webkit-mask-image:linear-gradient(90deg,transparent,#000 18px,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,transparent,#000 18px,#000 calc(100% - 28px),transparent)}
+}
+/* título do dia com setas para o dia anterior e o seguinte */
+h2.dh{align-items:center}
+.dnv{display:inline-flex;align-items:center;gap:8px;min-width:0}
+.dpn{flex:0 0 auto;display:grid;place-items:center;width:30px;height:30px;padding:0;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:700 20px/1 Barlow,sans-serif;cursor:pointer}
+.dpn:hover:not(:disabled){border-color:var(--pitch);color:var(--pitch)}
+.dpn:disabled{opacity:.3;cursor:default}
+.carreg{display:flex;align-items:center;gap:10px}
+.carreg::before{content:"";width:16px;height:16px;border-radius:50%;border:2px solid var(--line);border-top-color:var(--pitch);animation:gira .8s linear infinite}
+@keyframes gira{to{transform:rotate(1turn)}}
+@media(max-width:640px){
+ h2.dh{flex-wrap:wrap;row-gap:4px}
+ h2.dh .dnv{flex:1 1 100%}
+ h2.dh .dnv>span{flex:1;min-width:0}
+ h2.dh small{flex-basis:100%}
+}
+@media (prefers-reduced-motion:reduce){.carreg::before{animation:none}}
 @media (prefers-reduced-motion:reduce){.mini{transition:none}}
 header .wrap{position:relative}
 .hbtns{position:absolute;top:14px;right:max(16px,4vw);z-index:2;display:flex;align-items:center;gap:8px}
@@ -458,7 +490,11 @@ __ADSENSE_HEAD__
    </div>
    <div class="nextbox" id="next" aria-live="polite"></div>
   </div>
-  <nav class="days" id="days" aria-label="Escolher dia"></nav>
+  <div class="dwrap">
+   <button class="dnav dprev" id="dprev" type="button" aria-label="Ver dias anteriores" hidden>‹</button>
+   <nav class="days" id="days" aria-label="Escolher dia"></nav>
+   <button class="dnav dnext" id="dnext" type="button" aria-label="Ver próximos dias" hidden>›</button>
+  </div>
  </div>
 </header>
 
@@ -633,7 +669,7 @@ const cap=t=>t.charAt(0).toUpperCase()+t.slice(1);
 function zapJogo(g){
  const c=C(g.comp), pl=g.placar&&state(g)!=='up';
  return [pl?`⚽ *${g.casa} ${g.placar.casa} x ${g.placar.fora} ${g.fora}*`:`⚽ *${g.casa} x ${g.fora}*`,`🏆 ${c.nome}${g.rodada?' · '+g.rodada:''}`,
-  `🕘 ${cap(longDay(g.t))}, às ${hhmm(g.t)} (Brasília)`,`📺 ${zapCanais(g)}`,'',`Veja onde assistir: ${SITE}${g.pg||'/'}?${UTM}`].join('\n');
+  `🕘 ${cap(longDay(g.t))}, às ${hhmm(g.t)} (Brasília)`,...(g.sc||state(g)==='done'&&g.k<dayKey(new Date())&&!g.canais.length&&g.status!=='sem_transmissao'?[]:[`📺 ${zapCanais(g)}`]),'',`Veja onde assistir: ${SITE}${g.pg||'/'}?${UTM}`].join('\n');
 }
 const ZAPI='<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11A2.99 2.99 0 0 0 21 5a3 3 0 1 0-5.91.7L8.04 9.81A2.99 2.99 0 0 0 3 12a3 3 0 0 0 5.04 2.19l7.12 4.16c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92Z"/></svg>'; // ícone padrão de compartilhar
 
@@ -661,12 +697,14 @@ function board(g){
 const lembBtn=g=>`<button class="lemb" type="button" data-lemb="${esc(g.pg)}" data-ini="${esc(g.inicio)}" aria-pressed="false" aria-label="Avisar 1 hora antes do jogo" title="Avisar 1 hora antes do jogo" hidden><svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 17V11a6 6 0 0 1 12 0v6l1.6 2H4.4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 21.5h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>`;
 function row(g){
  const c=C(g.comp), st=state(g);
- const chans = g.canais.length? (g.status==='sem_transmissao'?'<div class="tbc semtx">Sem imagem no Brasil</div>':'')+g.canais.slice().sort(ordCh(g)).map(x=>chanLink(x,g)).join('') : g.status==='sem_transmissao'?'<div class="tbc semtx">Sem transmissão no Brasil</div>':'<div class="tbc">Transmissão a confirmar</div>';
+ // dia que já passou: sem registro de canal não vira "a confirmar" (não há mais o que confirmar)
+ const passou=st==='done'&&g.k<dayKey(new Date()), semReg=g.sc||passou&&!g.canais.length&&g.status!=='sem_transmissao';
+ const chans = semReg? '' : g.canais.length? (g.status==='sem_transmissao'?'<div class="tbc semtx">Sem imagem no Brasil</div>':'')+g.canais.slice().sort(ordCh(g)).map(x=>chanLink(x,g)).join('') : g.status==='sem_transmissao'?'<div class="tbc semtx">Sem transmissão no Brasil</div>':'<div class="tbc">Transmissão a confirmar</div>';
  const info=[g.rodada,g.local].filter(Boolean).join(' · ');
  return `<article class="g ${st}${isFavG(g)?' isfav':''}">
   <div>
    ${g.placar&&st!=='up'?board(g):`<div class="teams"><span class="tn">${tl(g.casa)}${fst(g.casa)}</span> <span>x</span> <span class="tn">${tl(g.fora)}${fst(g.fora)}</span></div>`}
-   <div class="meta">${st==='live'?`<b class="lmin"><span class="dot"></span>${g.ao&&g.ao.d?esc(g.ao.d):'Ao vivo'}</b> `:''}<a class="pill" href="/campeonato/${slugJS(g.comp)}/#tabela" title="Ver tabela e jogos: ${esc(c.nome)}"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</a>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}${vcAssiste(g)?' <span class="tag vc">Você assiste</span>':''}${g.reg&&!P.uf()?' <button class="lnk" type="button" data-prefs="uf">Seu estado?</button>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
+   <div class="meta">${st==='live'?`<b class="lmin"><span class="dot"></span>${g.ao&&g.ao.d?esc(g.ao.d):'Ao vivo'}</b> `:''}<a class="pill" href="/campeonato/${slugJS(g.comp)}/#tabela" title="Ver tabela e jogos: ${esc(c.nome)}"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</a>${info?' · '+esc(info):''}${g.status==='a_confirmar'&&!passou?' <span class="tag">a confirmar</span>':''}${vcAssiste(g)?' <span class="tag vc">Você assiste</span>':''}${g.reg&&!P.uf()?' <button class="lnk" type="button" data-prefs="uf">Seu estado?</button>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
   </div>
   <div class="chans">${chans}<span class="gicons">${st==='up'&&g.pg&&avDisponivel()?lembBtn(g):''}<button class="zapb" type="button" data-zapg="${g.i}" aria-label="Compartilhar ${esc(g.casa)} x ${esc(g.fora)}" title="Compartilhar">${ZAPI}</button></span></div>
   ${g.pg?`<span class="gacts"><a class="gpage" href="${g.pg}">Detalhes do jogo</a></span>`:''}
@@ -674,20 +712,58 @@ function row(g){
 }
 
 
+// dias da faixa: os passados (D.passados, até 14 dias) + hoje + os da agenda
+const PASS={};(D.passados||[]).forEach(p=>PASS[p.d]=p.n);
+const PASSC={}; // dia passado buscado em /dados/dia-AAAA-MM-DD.json: 'carregando' | 'ok' | 'erro'
+function diasKeys(){
+ const today=dayKey(new Date());
+ return [...new Set([today,...Object.keys(PASS),...games.map(g=>g.k)])].filter(k=>k>=today||PASS[k]!==undefined||games.some(g=>g.k===k)).sort();
+}
+const temDia=k=>PASSC[k]==='ok'||games.some(g=>g.k===k);
 function renderDays(){
  renderDays0();
- const d=$('days'); d.classList.toggle('rola',d.scrollWidth>d.clientWidth+1);
- const m=$('mdays'); m.innerHTML=d.innerHTML;
- const on=m.querySelector('[aria-pressed=true]'); if(on) on.scrollIntoView({block:'nearest',inline:'nearest'});
+ $('mdays').innerHTML=$('days').innerHTML;
+ alinharDias(!renderDays.feito);renderDays.feito=true;
+ bordas();
 }
+// ao abrir, Hoje fica como o primeiro dia visível (no celular com uma ponta de Ontem à esquerda);
+// depois, só rola se o dia escolhido sair da vista
+function alinharDias(primeiro){
+ [$('days'),$('mdays')].forEach(fx=>{const on=fx.querySelector('[aria-pressed=true]');if(!on)return;
+  const x=on.offsetLeft, vis=x>=fx.scrollLeft-1&&x+on.offsetWidth<=fx.scrollLeft+fx.clientWidth+1;
+  if(primeiro||!vis)fx.scrollLeft=Math.max(0,x-(primeiro?(innerWidth<960?30:0):fx.clientWidth/2-on.offsetWidth/2))});
+ bordas();
+}
+// as fontes chegam depois e mudam a largura dos dias: realinha se a pessoa ainda não mexeu na faixa
+let mexeuDias=false;
+['pointerdown','wheel','touchstart','keydown'].forEach(ev=>$('days').addEventListener(ev,()=>{mexeuDias=true},{passive:true}));
+if(document.fonts)document.fonts.ready.then(()=>{if(!mexeuDias)alinharDias(true)});
 function renderDays0(){
- const today=dayKey(new Date());
- const keys=[...new Set([today,...games.map(g=>g.k)])].filter(k=>k>=today).sort();
+ const today=dayKey(new Date()), keys=diasKeys();
  if(!S.day||!keys.includes(S.day)) S.day=today;
+ const ontem=dayKey(new Date(noon(today)-864e5));
  $('days').innerHTML=keys.map(k=>{
-  const n=games.filter(g=>g.k===k&&match(g)).length;
-  return `<button class="day${n?'':' none'}" aria-pressed="${k===S.day}" data-k="${k}"><small>${k===today?'Hoje':esc(wk(noon(k)))}</small><b>${Number(k.slice(8))}</b><small>${n?plural(n):'—'}</small></button>`;
+  const past=k<today, n=temDia(k)?games.filter(g=>g.k===k&&match(g)).length:PASS[k]||0;
+  return `<button class="day${n?'':' none'}${past?' past':''}" aria-pressed="${k===S.day}" data-k="${k}"><small>${k===today?'Hoje':k===ontem?'Ontem':esc(wk(noon(k)))}</small><b>${Number(k.slice(8))}</b><small>${n?plural(n):'—'}</small></button>`;
  }).join('');
+}
+// setas e esmaecidos da faixa: cada lado só aparece quando há dias escondidos daquele lado
+function bordas(){
+ const d=$('days'), esq=d.scrollLeft>2, dir=d.scrollLeft+d.clientWidth<d.scrollWidth-2;
+ d.classList.toggle('fl',esq);d.classList.toggle('fr',dir);
+ $('dprev').hidden=!esq;$('dnext').hidden=!dir;
+}
+// dia passado que não veio na página: busca o arquivo do dia e junta aos jogos
+function carregarDia(k){
+ if(PASSC[k]==='carregando'||PASSC[k]==='ok')return;
+ PASSC[k]='carregando';
+ fetch('/dados/dia-'+k+'.json').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(x=>{
+  (x.jogos||[]).forEach(g=>{const t=new Date(g.inicio);games.push({...g,canais:g.canais||[],i:games.length,t,k:dayKey(t)})});
+  games.sort((a,b)=>a.t-b.t||a.casa.localeCompare(b.casa));
+  Object.assign(ESC,x.escudos||{});
+  PASSC[k]='ok';
+  if(S.day===k){renderDays();renderChips();renderList()}
+ }).catch(()=>{PASSC[k]='erro';if(S.day===k)renderList()});
 }
 
 function renderChips(){
@@ -735,6 +811,7 @@ function slotsAd(list){
 }
 function dayHTML(list,k,searching){
  const today=dayKey(new Date());
+ if(k<today&&!searching) return slots(list,'done'); // dia que já passou: resultados
  if(k!==today||searching&&k!==today) return searching?slots(list):slotsAd(list);
  const live=list.filter(g=>state(g)==='live'), up=list.filter(g=>state(g)==='up'), done=list.filter(g=>state(g)==='done');
  let h='';
@@ -845,9 +922,17 @@ function renderList(){
   setList(byDay(list,true));
   return;
  }
+ const today=dayKey(new Date()), past=S.day<today, ks=diasKeys(), pos=ks.indexOf(S.day);
+ const prev=ks[pos-1]||'', next=ks[pos+1]||'';
+ const tit=sm=>bar+`<h2 class="dh"><span class="dnv"><button class="dpn" type="button" data-go="${prev}" aria-label="Dia anterior"${prev?` title="${esc(cap(longDay(noon(prev))))}"`:' disabled'}>‹</button><span>${esc(longDay(noon(S.day)))}</span><button class="dpn" type="button" data-go="${next}" aria-label="Próximo dia"${next?` title="${esc(cap(longDay(noon(next))))}"`:' disabled'}>›</button></span><small>${sm}</small></h2>`;
+ if(past&&!temDia(S.day)){
+  if(PASSC[S.day]==='erro'){setList(tit('Resultados')+`<p class="empty">Não deu para carregar os jogos deste dia. <button class="jump" type="button" data-rk="${S.day}">Tentar de novo</button></p>`);return}
+  setList(tit('Resultados')+'<p class="empty carreg" role="status">Carregando resultados…</p>');
+  carregarDia(S.day);
+  return;
+ }
  const list=games.filter(g=>g.k===S.day&&match(g));
- const hoje=S.day===dayKey(new Date());
- const title=bar+`<h2>${esc(longDay(noon(S.day)))}<small>${plural(list.length)}</small></h2>`;
+ const title=tit((past?'Resultados · ':'')+plural(list.length));
  if(!list.length){
   const nxt=games.find(g=>g.k>S.day&&match(g));
   const which=S.comps.size?[...S.comps].map(k=>C(k).curto||C(k).nome).join(', '):'';
@@ -877,6 +962,10 @@ function toast(t){const el=$('toast');el.textContent=t;el.classList.add('on');cl
 
 const pickDay=e=>{const b=e.target.closest('.day');if(!b)return;S.day=b.dataset.k;S.q='';$('q').value='';S.view='todos';closeSugs();render();if(e.currentTarget.id==='mdays')$('lista').scrollIntoView({block:'start'})};
 $('days').addEventListener('click',pickDay);$('mdays').addEventListener('click',pickDay);
+const passoDias=()=>{const b=$('days').querySelector('.day');return b?(b.offsetWidth+8)*7:500};
+$('dprev').addEventListener('click',()=>$('days').scrollBy({left:-passoDias(),behavior:'smooth'}));
+$('dnext').addEventListener('click',()=>$('days').scrollBy({left:passoDias(),behavior:'smooth'}));
+$('days').addEventListener('scroll',bordas,{passive:true});
 // barra fina: aparece quando os dias do topo saem da tela
 new IntersectionObserver(([en])=>{const on=!en.isIntersecting&&en.boundingClientRect.top<0;$('mini').classList.toggle('on',on);$('mini').setAttribute('aria-hidden',String(!on));$('mini').querySelectorAll('button').forEach(b=>b.tabIndex=on?0:-1)}).observe($('days'));
 $('mtop').addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
@@ -1002,6 +1091,10 @@ $('lista').addEventListener('click',async e=>{
  const sl=e.target.closest('[data-l]');
  if(sl){toggleLiga(sl.dataset.l);return}
  if(e.target.closest('[data-avopen]')){abrirAv();return}
+ const go=e.target.closest('[data-go]');
+ if(go){if(!go.disabled&&go.dataset.go){S.day=go.dataset.go;render();const h=$('lista').querySelector('h2.dh');if(h&&h.getBoundingClientRect().top<0)h.scrollIntoView({block:'start'})}return}
+ const rk=e.target.closest('[data-rk]');
+ if(rk){delete PASSC[rk.dataset.rk];renderList();return}
  const j=e.target.closest('.jump');
  if(j){S.day=j.dataset.k;render();window.scrollTo({top:0});return}
 });
@@ -1124,7 +1217,7 @@ render();anuncios();
 window.OPJ={avisosOk:avDisponivel,avisos:abrirAv,seguindo(){S.view='favs';S.q='';$('q').value='';closeSugs();render();$('lista').scrollIntoView({block:'start'})}};
 if(location.hash==='#avisos'&&avDisponivel())setTimeout(abrirAv,400);
 setInterval(()=>{renderNext();if(S.open===null&&$('sugs').hidden)renderList()},60000);
-addEventListener('resize',()=>{const d=$('days');d.classList.toggle('rola',d.scrollWidth>d.clientWidth+1)},{passive:true});
+addEventListener('resize',bordas,{passive:true});
 tickLive();setInterval(tickLive,60000);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')tickLive()});
 }
 </script>
