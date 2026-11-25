@@ -2965,6 +2965,20 @@
   "fase": "regular-season",
   "fora": "Blackburn Rovers",
   "inicio": "2026-11-25T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "f",
+    "m": "57'",
+    "n": "T. Cantwell"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "62'",
+    "n": "J. Zemura"
+   }
+  ],
   "lg": "eng.2",
   "local": "Vicarage Road, Watford",
   "status": "a_confirmar"
@@ -2991,6 +3005,12 @@
     "k": "g",
     "l": "c",
     "m": "13'",
+    "n": "G. Hirst"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "40'",
     "n": "G. Hirst"
    }
   ],
@@ -3021,6 +3041,12 @@
     "l": "f",
     "m": "7'",
     "n": "A. Priske"
+   },
+   {
+    "k": "c",
+    "l": "f",
+    "m": "52'",
+    "n": "J. Banel"
    }
   ],
   "lg": "eng.2",
@@ -3050,6 +3076,18 @@
     "l": "f",
     "m": "21'",
     "n": "A. Heggebo"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "63'",
+    "n": "R. Rodrigues"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "75'",
+    "n": "F. Myhre"
    }
   ],
   "lg": "eng.2",
@@ -5748,6 +5786,12 @@
     "l": "c",
     "m": "19'",
     "n": "A. Sørloth"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "24'",
+    "n": "J. Álvarez"
    }
   ],
   "lg": "uefa.champions",
@@ -6292,6 +6336,26 @@
   "fase": "league-phase",
   "fora": "Manchester United",
   "inicio": "2026-11-25T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "c",
+    "m": "33'",
+    "n": "L. Suárez"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "48'",
+    "n": "B. Fernandes"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "50'",
+    "n": "B. Fernandes"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Estádio José Alvalade, Lisbon",
   "status": "a_confirmar"
@@ -6319,6 +6383,18 @@
     "l": "f",
     "m": "5'",
     "n": "M. Hermoso"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "31'",
+    "n": "I. Zabarnyi"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "62'",
+    "n": "O. Dembélé"
    }
   ],
   "lg": "uefa.champions",
@@ -6342,6 +6418,14 @@
   "fase": "league-phase",
   "fora": "Fenerbahce",
   "inicio": "2026-11-25T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "56'",
+    "n": "V. Muriqi"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Stamford Bridge, London",
   "status": "a_confirmar"
@@ -6363,6 +6447,14 @@
   "fase": "league-phase",
   "fora": "VfB Stuttgart",
   "inicio": "2026-11-25T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "c",
+    "m": "57'",
+    "n": "P. Sucic"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "San Siro, Milano",
   "status": "a_confirmar"
@@ -6390,6 +6482,12 @@
     "l": "f",
     "m": "15'",
     "n": "D. Upamecano"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "62'",
+    "n": "A. Ueda"
    }
   ],
   "lg": "uefa.champions",
