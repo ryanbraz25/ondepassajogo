@@ -242,9 +242,10 @@ def aplicar_canais(cfg, jogos):
                 break
         if alvo is None:
             if e.get("inicio") and e.get("comp"):
-                novo = {k: v for k, v in e.items() if k != "data"}
+                novo = {k: v for k, v in e.items() if k not in ("data", "regioes")}
                 novo.setdefault("canais", [])
                 novo.setdefault("status", "a_confirmar")
+                aplicar_regioes(cfg, novo, e)
                 jogos.append(novo)
                 n += 1
             continue
@@ -256,8 +257,33 @@ def aplicar_canais(cfg, jogos):
                 alvo[k] = e[k]
         if e.get("links"):
             alvo["links"] = {**alvo.get("links", {}), **e["links"]}
+        aplicar_regioes(cfg, alvo, e)
     log(f"Canais: {usados} jogos com canais pesquisados, {n} jogos acrescentados só pela pesquisa")
     return jogos
+
+
+UFS = {"AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI",
+       "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO"}
+
+
+def aplicar_regioes(cfg, jogo, entrada):
+    """Canal que só passa em alguns estados (ex.: Globo) e jogo sem transmissão no Brasil.
+
+    Em canais.json: "regioes": {"globo": ["MG", "RS"]} vira "reg" no jogo (só canais do jogo e siglas
+    de UF válidas); "status": "sem_transmissao" deixa o jogo sem canais, para o site dizer isso claramente."""
+    reg = {}
+    for c, ufs in (entrada.get("regioes") or {}).items():
+        ufs = sorted({str(u).strip().upper() for u in (ufs or [])} & UFS)
+        if c in cfg["canais"] and c in jogo.get("canais", []) and ufs and len(ufs) < len(UFS):
+            reg[c] = ufs
+    if reg:
+        jogo["reg"] = reg
+    elif "regioes" in entrada:  # a pesquisa nova tirou a restrição
+        jogo.pop("reg", None)
+    if jogo.get("status") == "sem_transmissao":
+        jogo["canais"] = []
+        jogo.pop("reg", None)
+        jogo.pop("links", None)
 
 
 # ---------------------------------------------------------------- YouTube

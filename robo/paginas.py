@@ -113,13 +113,19 @@ class Ctx:
     def comp_nome(self, k):
         return (self.comps.get(k) or {}).get("nome", k)
 
-    def canal_info(self, j, c):
+    def canal_info(self, j, c, com_regiao=True):
+        """(nome, tipo, link, grátis). Canal que só passa em alguns estados leva as siglas no nome:
+        "Globo (MG e RS)"; com_regiao=False devolve só o nome."""
         info = self.canais.get(c) or {"nome": c, "tipo": "", "url": ""}
         link = (j.get("links") or {}).get(c) or info.get("url", "")
         yt = "youtube.com" in link or "youtu.be" in link
         gratis = info.get("tipo") in GRATIS or yt
         tipo = "Grátis no YouTube" if yt and info.get("tipo") != "YouTube" else info.get("tipo", "")
-        return info.get("nome", c), tipo, link, gratis
+        nome = info.get("nome", c)
+        reg = (j.get("reg") or {}).get(c)
+        if reg and com_regiao:
+            nome += f" ({ufs_txt(reg)})"
+        return nome, tipo, link, gratis
 
     def tem_gratis(self, j):
         return any(self.canal_info(j, c)[3] for c in j.get("canais", []))
@@ -164,12 +170,14 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/p.css?v=5">
 <link rel="stylesheet" href="/menu.css?v=2">
+<link rel="stylesheet" href="/personaliza.css?v=1">
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <link rel="stylesheet" href="/aovivo.css?v=1">
 <script src="/p.js?v=5" defer></script>
 <script src="/rodadas.js?v=2" defer></script>
 <script src="/aovivo.js?v=1" defer></script>
 <script src="/menu.js?v=2" defer></script>
+<script src="/personaliza.js?v=1" defer></script>
 {cx.head_extra}
 {ld}</head>
 <body{' class="largo"' if largo else ''}>
@@ -198,8 +206,66 @@ def escudo(cx, t, tam=40):
     return f'<span class="cr ini" aria-hidden="true">{e(ini)}</span>'
 
 
+def ufs_txt(ufs):
+    """["MG", "RS", "SP"] -> "MG, RS e SP"."""
+    ufs = list(ufs)
+    return ", ".join(ufs[:-1]) + " e " + ufs[-1] if len(ufs) > 1 else "".join(ufs)
+
+
+def sem_tx(j):
+    """Jogo que a pesquisa confirmou que não passa no Brasil (diferente de "a confirmar")."""
+    return j.get("status") == "sem_transmissao"
+
+
+def sem_canal(j, padrao):
+    return "sem transmissão no Brasil" if sem_tx(j) else padrao
+
+
+ZAP_ICO = ('<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.6 1.1 2.8.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>')
+
+
+def botao_zap(texto, rotulo, tipo, classe="zap"):
+    """Botão de mandar no WhatsApp; o texto vai pronto (o personaliza.js abre o compartilhamento)."""
+    return (f'<button class="{classe}" type="button" data-zap="{e(tipo)}" data-texto="{e(texto)}">'
+            f'{ZAP_ICO}<span>{e(rotulo)}</span></button>')
+
+
+def zap_canais(cx, j):
+    nomes = [cx.canal_info(j, c)[0] + (" (grátis)" if cx.canal_info(j, c)[3] and not (j.get("reg") or {}).get(c) else "")
+             for c in j.get("canais", [])]
+    return ", ".join(nomes) or sem_canal(j, "canais a confirmar")
+
+
+def zap_jogo(cx, j):
+    """Texto de um jogo para o WhatsApp (o *negrito* é do próprio WhatsApp)."""
+    t = j["_t"]
+    comp = cx.comp_nome(j["comp"]) + (f" · {j['rodada']}" if j.get("rodada") else "")
+    pl = j.get("placar")
+    linhas = [f"⚽ *{j['casa']} {pl['casa']} x {pl['fora']} {j['fora']}*" if pl else f"⚽ *{j['casa']} x {j['fora']}*",
+              f"🏆 {comp}", f"🕘 {data_longa(t)[0].upper() + data_longa(t)[1:]}, às {hora(t)} (Brasília)",
+              f"📺 {zap_canais(cx, j)}", "", f"Veja onde assistir: {URL}{j['_pg']}?utm_source=whatsapp&utm_medium=compartilhar"]
+    return "\n".join(linhas)
+
+
+def zap_lista(cx, jogos, titulo, caminho, limite=25):
+    """Lista de jogos para o WhatsApp, separada por campeonato."""
+    linhas = [f"⚽ *{titulo}* (horário de Brasília)"]
+    por = {}
+    for j in jogos[:limite]:
+        por.setdefault(j["comp"], []).append(j)
+    for k, js in por.items():
+        linhas += ["", f"*{cx.comp_nome(k)}*"]
+        linhas += [f"{hora(j['_t'])} · {j['casa']} x {j['fora']} · {zap_canais(cx, j)}" for j in js]
+    if len(jogos) > limite:
+        linhas += ["", f"…e mais {len(jogos) - limite} jogos"]
+    linhas += ["", f"Veja todos e onde assistir: {URL}{caminho}?utm_source=whatsapp&utm_medium=compartilhar"]
+    return "\n".join(linhas)
+
+
 def lista_canais(cx, j):
     if not j.get("canais"):
+        if sem_tx(j):
+            return '<p class="semcanal semtx">Sem transmissão no Brasil: nenhuma emissora anunciou este jogo.</p>'
         return '<p class="semcanal">Os canais ainda não foram anunciados. A gente atualiza esta página assim que sair a confirmação.</p>'
     itens = []
     for c in j["canais"]:
@@ -217,7 +283,7 @@ def linha_jogo(cx, j, mostrar_data=True, mostrar_comp=True):
     quando = (data_curta(t) + " · " if mostrar_data else "") + hora(t)
     placar = j.get("placar")
     meio = f'<b class="pl">{placar["casa"]} x {placar["fora"]}</b>' if placar else '<span class="x">x</span>'
-    can = ", ".join(cx.canal_info(j, c)[0] for c in j.get("canais", [])) or "canais a confirmar"
+    can = ", ".join(cx.canal_info(j, c)[0] for c in j.get("canais", [])) or sem_canal(j, "canais a confirmar")
     sub = (e(cx.comp_nome(j["comp"])) + " · " if mostrar_comp else "") + e(can)
     return (f'<li><a class="lj" href="{e(j["_pg"])}"><span class="lh">{e(quando)}</span>'
             f'<span class="lt">{escudo(cx, j["casa"], 22)}{e(j["casa"])} {meio} {e(j["fora"])}{escudo(cx, j["fora"], 22)}</span>'
@@ -289,6 +355,7 @@ _ICO = {
     "palp": '<path d="M4 20V10M10 20V4M16 20v-8M22 20H2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
     "seg": '<path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
     "tab": '<path d="M4 5h16v14H4zM4 10h16M4 15h16M9 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
+    "tv": '<rect x="3" y="5" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
     "aviso": '<path d="M6 17V11a6 6 0 0 1 12 0v6l1.6 2H4.4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 21.5h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>',
     "ig": '<rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.3" fill="currentColor"/>',
 }
@@ -324,6 +391,7 @@ def menu_html(comps, com_tabela):
         + (f'<h3>Tabelas</h3><div class="mn-tb">{tabs}</div>' if tabs else "")
         + item("/tabelas/", "tab", "Todas as tabelas", ' class="mn-all"')
         + '<h3>Mais</h3><div class="mn-ls">'
+        + item("/#meus-canais", "tv", "Meus canais e meu estado", ' data-prefs="canais"')
         + item("/#avisos", "aviso", "Avisos no celular", ' data-menu-avisos')
         + item("https://www.instagram.com/ondepassajogo.com.br/", "ig", "Siga no Instagram", ' target="_blank" rel="noopener"')
         + '</div></nav></dialog>')
@@ -477,7 +545,7 @@ def pagina_jogo(cx, j):
     titulo = (f"{casa} x {fora}: onde assistir ao vivo, horário e canais ({t:%d/%m})" if not encerrado
               else f"{casa} {placar['casa']} x {placar['fora']} {fora}: resultado e onde passou ({t:%d/%m})")
     desc = (f"{casa} x {fora} pelo {comp}, {data_curta(t)} às {hora(t)} (Brasília). "
-            + (f"Onde assistir: {lista_nomes}." if nomes else "Veja onde vai passar e o horário.")
+            + (f"Onde assistir: {lista_nomes}." if nomes else "Sem transmissão no Brasil." if sem_tx(j) else "Veja onde vai passar e o horário.")
             + (" Tem transmissão grátis." if gratis else ""))
     quando = f"{data_longa(t)}, às {hora(t)} (horário de Brasília)"
     texto = (f"{e(nl(casa))} e {e(nl(fora))} se enfrentam {e(quando)}"
@@ -488,6 +556,8 @@ def pagina_jogo(cx, j):
         if gratis:
             lg = (", ".join(gratis[:-1]) + " e " + gratis[-1]) if len(gratis) > 1 else gratis[0]
             texto += f" De graça: {e(lg)}."
+    elif sem_tx(j):
+        texto += "Nenhuma emissora anunciou transmissão no Brasil."
     else:
         texto += "Os canais ainda não foram anunciados; esta página é atualizada assim que sair a confirmação."
     nota = f'<p class="nota">{e(j["nota"])}</p>' if j.get("nota") else ""
@@ -506,7 +576,7 @@ def pagina_jogo(cx, j):
     faq = f"""<h3>Que horas é o jogo {e(casa)} x {e(fora)}?</h3>
 <p>A partida começa às <b>{hora(t)}</b>, horário de Brasília, {e(data_longa(t))}.</p>
 <h3>Onde vai passar {e(casa)} x {e(fora)}?</h3>
-<p>{(f"{e(lista_nomes)}." if nomes else "Ainda não há canal confirmado.")}{(" Os botões acima levam direto para a transmissão oficial." if nomes else "")}</p>
+<p>{(f"{e(lista_nomes)}." if nomes else "Não há transmissão no Brasil." if sem_tx(j) else "Ainda não há canal confirmado.")}{(" Os botões acima levam direto para a transmissão oficial." if nomes else "")}</p>
 <h3>Tem transmissão grátis?</h3>
 <p>{(f"Sim: {e(' e '.join(gratis))}." if gratis else ("Por enquanto, não há transmissão gratuita anunciada." if nomes else "Ainda não sabemos; confira de novo mais perto do jogo."))}</p>
 """
@@ -541,19 +611,29 @@ def pagina_jogo(cx, j):
         l, _ = X.posicao(cx.tabs, j["comp"], time_)
         return f'<small class="rk">{l["pos"]}º · {l["pts"]} pts</small>' if l else ""
 
-    # canais: grátis primeiro, cada um vira um botão para a transmissão oficial
+    # canais: grátis primeiro, cada um vira um botão para a transmissão oficial.
+    # data-canal e data-reg deixam o personaliza.js marcar "você assiste" e a Globo do estado da pessoa.
     botoes = ""
-    for nome, tipo, link, gr in sorted(canais, key=lambda c: not c[3]):
+    for c in sorted(j.get("canais", []), key=lambda c: not cx.canal_info(j, c)[3]):
+        nome, tipo, link, gr = cx.canal_info(j, c, com_regiao=False)
+        reg = (j.get("reg") or {}).get(c) or []
         sub = "Grátis" + (f" · {tipo}" if tipo and tipo != "Grátis no YouTube" else " · YouTube" if "YouTube" in tipo else "") if gr else tipo
         acao = ("Assistir grátis" if gr else "Assistir") if not encerrado else "Abrir"
-        miolo = f'<span class="cn"><b>{e(nome)}</b><small>{e(sub)}</small></span><span class="ir">{acao} <span aria-hidden="true">›</span></span>'
+        rg = f'<small class="rg">Só em {e(ufs_txt(reg))}</small>' if reg else ""
+        miolo = f'<span class="cn"><b>{e(nome)}</b><small>{e(sub)}</small>{rg}</span><span class="ir">{acao} <span aria-hidden="true">›</span></span>'
         cls = "ver gratis" if gr else "ver"
-        botoes += (f'<a class="{cls}" href="{e(link)}" target="_blank" rel="noopener">{miolo}</a>' if link
-                   else f'<span class="{cls}">{miolo}</span>')
+        attrs = f' data-canal="{e(c)}"' + (f' data-reg="{e(",".join(reg))}"' if reg else "") + (' data-gr="1"' if gr else "")
+        botoes += (f'<a class="{cls}" href="{e(link)}" target="_blank" rel="noopener"{attrs}>{miolo}</a>' if link
+                   else f'<span class="{cls}"{attrs}>{miolo}</span>')
+    zap = botao_zap(zap_jogo(cx, j), "Mandar no WhatsApp", "jogo", "zap zapj")
     if botoes:
         bloco_canais = (f'<div class="botoes">{botoes}</div>'
                         + ('<p class="aconf">Transmissão a confirmar: ainda não saiu anúncio oficial.</p>' if j.get("status") == "a_confirmar"
-                           else '<p class="ofc">Os botões abrem a página oficial de cada emissora.</p>'))
+                           else '<p class="ofc">Os botões abrem a página oficial de cada emissora.</p>')
+                        + (f'<p class="pz-uf" data-pz-uf>Algum canal só passa em alguns estados. '
+                           f'<button type="button" class="lnk" data-prefs="uf">Escolher meu estado</button></p>' if j.get("reg") else ""))
+    elif sem_tx(j):
+        bloco_canais = '<p class="semcanal semtx">Sem transmissão no Brasil: nenhuma emissora anunciou este jogo.</p>'
     else:
         bloco_canais = ('<p class="semcanal">Os canais ainda não foram anunciados. Esta página é atualizada assim que sair a confirmação.</p>'
                         '<p class="cta2"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">Me avise quando sair</a></p>')
@@ -583,6 +663,7 @@ def pagina_jogo(cx, j):
 {lances_html(j)}
 <h2>{'Onde passou' if encerrado else 'Onde assistir'}</h2>
 {bloco_canais}
+{zap}
 <p class="cta2"><a href="/?utm_source=pagina_jogo&utm_medium=link#seguindo">★ Seguir {e(nl(casa))} ou {e(nl(fora))} e receber aviso no dia do jogo</a></p>
 {escalacoes_html(cx, j)}
 {como_chegam(cx, j)}
@@ -614,7 +695,7 @@ def pagina_time(cx, time, jogos):
             pos_l, pos_k, pos_g = l, k, g
             break
     if prox:
-        can = ", ".join(cx.canal_info(prox, c)[0] for c in prox.get("canais", [])) or "canal a confirmar"
+        can = ", ".join(cx.canal_info(prox, c)[0] for c in prox.get("canais", [])) or sem_canal(prox, "canal a confirmar")
         intro = (f'<p class="dest">Próximo jogo: <a href="{e(prox["_pg"])}"><b>{e(prox["casa"])} x {e(prox["fora"])}</b></a>, '
                  f'{e(data_curta(prox["_t"]))} às {hora(prox["_t"])} · {e(can)}</p>')
         desc = (f"Próximo jogo do {nome}: {prox['casa']} x {prox['fora']}, {data_curta(prox['_t'])} às {hora(prox['_t'])}"
@@ -739,7 +820,7 @@ def _rodada_jogo(cx, j):
             cs.append(f'<span class="{"gr" if gratis else ""}">{e(nome_c)}</span>')
         rodape = f'<p class="rj-tv">{"".join(cs)}</p>'
     elif t and t > cx.agora - timedelta(hours=3):
-        rodape = '<p class="rj-tv rj-s">Canais a confirmar</p>'
+        rodape = f'<p class="rj-tv rj-s">{"Sem transmissão no Brasil" if sem_tx(j) else "Canais a confirmar"}</p>'
     else:
         rodape = ""
     dados = "".join(f' data-{a}="{e(j[b])}"' for a, b in (("eid", "eid"), ("lg", "lg"), ("ed", "ed")) if j.get(b))
@@ -811,7 +892,8 @@ def pagina_dia(cx, cam, rotulo, dia, jogos):
         blocos.append(f'<h2><a href="/campeonato/{slug(k)}/">{e(cx.comp_nome(k))}</a></h2>' + lista(cx, por_comp[k], mostrar_data=False, mostrar_comp=False))
     intro = (f"<p>{len(jogos)} jogos {rotulo}, {e(data_longa(d))}"
              + (f", {len(gr)} com transmissão grátis" if gr else "") + ". Toque no jogo para ver os canais e os links oficiais.</p>")
-    corpo = f"<h1>Jogos de {rotulo} na TV e onde assistir</h1>{intro}" + ("".join(blocos) if jogos else "<p>Nenhum jogo na agenda.</p>")
+    zap = botao_zap(zap_lista(cx, jogos, f"Jogos de {rotulo}, {data_curta(d)}", cam), f"Mandar os jogos de {rotulo} no WhatsApp", "lista") if jogos else ""
+    corpo = f"<h1>Jogos de {rotulo} na TV e onde assistir</h1>{intro}{zap}" + ("".join(blocos) if jogos else "<p>Nenhum jogo na agenda.</p>")
     return pagina(cx, cam, titulo, desc, corpo, None, [("Início", "/"), (f"Jogos de {rotulo}", cam)])
 
 
@@ -841,6 +923,12 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
     preparar_rodadas(cx, set(novas) | {c for c, i in pags.items() if c.startswith("/jogo/") and i.get("dia", "") >= guarda})
     pasta = SITE / "dados"
     pasta.mkdir(parents=True, exist_ok=True)
+    # lista de canais para o "Meus canais" das páginas estáticas (a página inicial já tem no próprio HTML)
+    canais_pz = json.dumps({c: {"nome": v.get("nome", c), "tipo": v.get("tipo", "")} for c, v in cx.canais.items()},
+                           ensure_ascii=False, separators=(",", ":"))
+    arq_pz = pasta / "canais.json"
+    if not arq_pz.exists() or arq_pz.read_text(encoding="utf-8") != canais_pz:
+        arq_pz.write_text(canais_pz, encoding="utf-8")
     feitos = set()
     for k, rd in cx.rods.items():
         nome_arq = f"rod-{slug(k)}.json"
