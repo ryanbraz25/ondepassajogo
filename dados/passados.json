@@ -154,10 +154,16 @@
 ],
 "casa": "América-MG",
 "comp": "brasileirao-b",
+"eid": "401860432",
 "fora": "Avaí",
 "inicio": "2026-11-14T16:30:00-03:00",
+"lg": "bra.2",
 "local": "",
 "nota": "Avaí luta contra o rebaixamento",
+"placar": {
+"casa": 0,
+"fora": 2
+},
 "rodada": "38ª rodada",
 "status": "confirmado"
 },
@@ -427,9 +433,15 @@
 ],
 "casa": "Atlético-GO",
 "comp": "brasileirao-b",
+"eid": "401860440",
 "fora": "Cuiabá",
 "inicio": "2026-11-14T16:30:00-03:00",
+"lg": "bra.2",
 "local": "",
+"placar": {
+"casa": 1,
+"fora": 0
+},
 "rodada": "38ª rodada",
 "status": "confirmado"
 },
@@ -479,9 +491,15 @@
 ],
 "casa": "Áustria",
 "comp": "nations",
+"eid": "401861170",
 "fora": "Irlanda",
 "inicio": "2026-11-14T16:45:00-03:00",
+"lg": "uefa.nations",
 "local": "",
+"placar": {
+"casa": 1,
+"fora": 0
+},
 "rodada": "Fase de liga",
 "status": "a_confirmar"
 },
@@ -625,8 +643,10 @@
 ],
 "casa": "Bélgica",
 "comp": "nations",
+"eid": "401861176",
 "fora": "Itália",
 "inicio": "2026-11-15T16:45:00-03:00",
+"lg": "uefa.nations",
 "local": "King Baudouin Stadium, Brussels",
 "placar": {
 "casa": 4,
@@ -1046,10 +1066,16 @@
 ],
 "casa": "Chapecoense",
 "comp": "brasileirao-a",
+"eid": "401841175",
 "fora": "Vasco",
 "inicio": "2026-11-14T20:30:00-03:00",
+"lg": "bra.1",
 "local": "Arena Condá, Chapecó",
 "nota": "Premiere confirmado; SporTV em parte das fontes",
+"placar": {
+"casa": 0,
+"fora": 2
+},
 "rodada": "21ª rodada (jogo atrasado)",
 "status": "a_confirmar"
 },
@@ -1285,10 +1311,16 @@
 ],
 "casa": "CRB",
 "comp": "brasileirao-b",
+"eid": "401860439",
 "fora": "Ceará",
 "inicio": "2026-11-14T16:30:00-03:00",
+"lg": "bra.2",
 "local": "Rei Pelé, Maceió",
 "nota": "Ceará luta contra o rebaixamento",
+"placar": {
+"casa": 1,
+"fora": 1
+},
 "rodada": "38ª rodada",
 "status": "confirmado"
 },
@@ -1325,10 +1357,16 @@
 ],
 "casa": "Criciúma",
 "comp": "brasileirao-b",
+"eid": "401860438",
 "fora": "Novorizontino",
 "inicio": "2026-11-14T16:30:00-03:00",
+"lg": "bra.2",
 "local": "Heriberto Hülse",
 "nota": "Novorizontino decide o título",
+"placar": {
+"casa": 0,
+"fora": 1
+},
 "rodada": "38ª rodada",
 "status": "confirmado"
 },
@@ -1338,8 +1376,10 @@
 ],
 "casa": "Croácia",
 "comp": "nations",
+"eid": "401861178",
 "fora": "República Tcheca",
 "inicio": "2026-11-15T16:45:00-03:00",
+"lg": "uefa.nations",
 "local": "Opus Arena, Osijek",
 "placar": {
 "casa": 2,
@@ -1453,8 +1493,10 @@
 ],
 "casa": "Espanha",
 "comp": "nations",
+"eid": "401861175",
 "fora": "Inglaterra",
 "inicio": "2026-11-15T16:45:00-03:00",
+"lg": "uefa.nations",
 "local": "Riyadh Air Metropolitano, Madrid",
 "placar": {
 "casa": 2,
@@ -1721,9 +1763,15 @@
 ],
 "casa": "Fortaleza",
 "comp": "brasileirao-b",
+"eid": "401860437",
 "fora": "Vila Nova",
 "inicio": "2026-11-14T16:30:00-03:00",
+"lg": "bra.2",
 "local": "",
+"placar": {
+"casa": 1,
+"fora": 0
+},
 "rodada": "38ª rodada",
 "status": "confirmado"
 },
@@ -1734,8 +1782,10 @@
 ],
 "casa": "França",
 "comp": "nations",
+"eid": "401861177",
 "fora": "Turquia",
 "inicio": "2026-11-15T16:45:00-03:00",
+"lg": "uefa.nations",
 "local": "Stade Atlantique, Bordeaux",
 "placar": {
 "casa": 2,
@@ -2153,9 +2203,15 @@
 ],
 "casa": "Irlanda do Norte",
 "comp": "nations",
+"eid": "401861169",
 "fora": "Ucrânia",
 "inicio": "2026-11-14T16:45:00-03:00",
+"lg": "uefa.nations",
 "local": "",
+"placar": {
+"casa": 1,
+"fora": 0
+},
 "rodada": "Fase de liga",
 "status": "a_confirmar"
 },
@@ -2221,8 +2277,10 @@
 ],
 "casa": "Japão",
 "comp": "amistoso",
+"eid": "401916337",
 "fora": "Brasil",
 "inicio": "2026-11-14T07:15:00-03:00",
+"lg": "fifa.friendly",
 "local": "Estádio Nacional de Singapura",
 "placar": {
 "casa": 3,
@@ -2256,9 +2314,15 @@
 ],
 "casa": "Juventude",
 "comp": "brasileirao-b",
+"eid": "401860441",
 "fora": "Botafogo-SP",
 "inicio": "2026-11-14T16:30:00-03:00",
+"lg": "bra.2",
 "local": "",
+"placar": {
+"casa": 2,
+"fora": 0
+},
 "rodada": "38ª rodada",
 "status": "confirmado"
 },
@@ -2849,9 +2913,15 @@
 ],
 "casa": "Mirassol",
 "comp": "brasileirao-a",
+"eid": "401841311",
 "fora": "Atlético-MG",
 "inicio": "2026-11-14T18:30:00-03:00",
+"lg": "bra.1",
 "local": "Maião, Mirassol",
+"placar": {
+"casa": 0,
+"fora": 0
+},
 "rodada": "35ª rodada",
 "status": "confirmado"
 },
@@ -2947,8 +3017,20 @@
 "eid": "401933731",
 "fora": "TBD Away",
 "inicio": "2026-11-22T18:00:00-03:00",
+"lances": [
+{
+"k": "c",
+"l": "f",
+"m": "7'",
+"n": "P. Yazbek"
+}
+],
 "lg": "usa.1",
 "local": "GEODIS Park, Nashville, Tennessee",
+"placar": {
+"casa": 0,
+"fora": 1
+},
 "status": "a_confirmar"
 },
 "/jogo/nec-nijmegen-x-psv-eindhoven-21-11-2026/": {
@@ -3289,9 +3371,15 @@
 ],
 "casa": "Portugal",
 "comp": "nations",
+"eid": "401861167",
 "fora": "Dinamarca",
 "inicio": "2026-11-14T16:45:00-03:00",
+"lg": "uefa.nations",
 "local": "",
+"placar": {
+"casa": 1,
+"fora": 4
+},
 "rodada": "Fase de liga",
 "status": "a_confirmar"
 },
@@ -3697,9 +3785,15 @@
 ],
 "casa": "Romênia",
 "comp": "nations",
+"eid": "401861168",
 "fora": "Polônia",
 "inicio": "2026-11-14T16:45:00-03:00",
+"lg": "uefa.nations",
 "local": "",
+"placar": {
+"casa": 2,
+"fora": 1
+},
 "rodada": "Fase de liga",
 "status": "a_confirmar"
 },
@@ -3807,6 +3901,10 @@
 "inicio": "2026-11-21T20:00:00-03:00",
 "lg": "mex.1",
 "local": "Estadio Corona, Torreón",
+"placar": {
+"casa": 1,
+"fora": 2
+},
 "status": "a_confirmar"
 },
 "/jogo/sao-paulo-x-fluminense-19-11-2026/": {
@@ -4105,9 +4203,15 @@
 ],
 "casa": "Sport",
 "comp": "brasileirao-b",
+"eid": "401860433",
 "fora": "Goiás",
 "inicio": "2026-11-14T16:30:00-03:00",
+"lg": "bra.2",
 "local": "",
+"placar": {
+"casa": 3,
+"fora": 0
+},
 "rodada": "38ª rodada",
 "status": "confirmado"
 },
@@ -4202,9 +4306,15 @@
 ],
 "casa": "Suécia",
 "comp": "nations",
+"eid": "401861166",
 "fora": "Bósnia",
 "inicio": "2026-11-14T16:45:00-03:00",
+"lg": "uefa.nations",
 "local": "",
+"placar": {
+"casa": 3,
+"fora": 2
+},
 "rodada": "Fase de liga",
 "status": "a_confirmar"
 },
@@ -4476,8 +4586,26 @@
 "eid": "401933729",
 "fora": "TBD Away",
 "inicio": "2026-11-22T22:30:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "44'",
+"n": "É. Ocampo"
+},
+{
+"k": "g",
+"l": "c",
+"m": "55'",
+"n": "B. Caicedo"
+}
+],
 "lg": "usa.1",
 "local": "BC Place, Vancouver",
+"placar": {
+"casa": 2,
+"fora": 0
+},
 "status": "a_confirmar"
 },
 "/jogo/vasco-x-internacional-19-11-2026/": {

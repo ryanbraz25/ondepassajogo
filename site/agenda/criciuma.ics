@@ -76,16 +76,18 @@ CATEGORIES:Brasileirão Série B
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401860438@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T161602Z
+LAST-MODIFIED:20261125T161602Z
 SUMMARY:Criciúma 0 x 1 Novorizontino
 DTSTART:20261114T193000Z
 DTEND:20261114T213000Z
 LOCATION:Heriberto Hülse\, Criciúma
-DESCRIPTION:Brasileirão Série B
+DESCRIPTION:Brasileirão Série B\nDetalhes do jogo: https://ondepassajogo.
+ com.br/jogo/criciuma-x-novorizontino-14-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Brasileirão Série B
+URL:https://ondepassajogo.com.br/jogo/criciuma-x-novorizontino-14-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401912682@ondepassajogo.com.br

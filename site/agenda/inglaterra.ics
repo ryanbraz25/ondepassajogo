@@ -24,16 +24,18 @@ CATEGORIES:Liga das Nações
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401861175@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261125T161602Z
+LAST-MODIFIED:20261125T161602Z
 SUMMARY:Espanha 2 x 3 Inglaterra
 DTSTART:20261115T194500Z
 DTEND:20261115T214500Z
 LOCATION:Riyadh Air Metropolitano\, Madrid
-DESCRIPTION:Liga das Nações
+DESCRIPTION:Liga das Nações\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/espanha-x-inglaterra-15-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga das Nações
+URL:https://ondepassajogo.com.br/jogo/espanha-x-inglaterra-15-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401930339@ondepassajogo.com.br
