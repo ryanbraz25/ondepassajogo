@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-24T23:05:40-03:00",
+ "atualizado": "2026-11-24T23:15:41-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -24,8 +24,9 @@
   "prime": {
    "nome": "Prime Video",
    "tipo": "Streaming",
-   "url": "https://www.primevideo.com/",
-   "afiliado": "amazon"
+   "url": "https://www.amazon.com.br/gp/video/storefront?tag=ondepassajogo-20",
+   "afiliado": "amazon",
+   "patrocinado": true
   },
   "record": {
    "nome": "Record",
