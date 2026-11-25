@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T02:15:08-03:00",
+ "atualizado": "2026-11-25T03:11:48-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1081,6 +1081,10 @@
      "k": "v"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   },
    "rodada": "Playoffs",
    "pg": "/jogo/san-jose-earthquakes-x-houston-dynamo-fc-25-11-2026/"
   },

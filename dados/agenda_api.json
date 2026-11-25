@@ -7609,6 +7609,10 @@
   ],
   "lg": "usa.1",
   "local": "PayPal Park, San Jose, California",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401933757": {

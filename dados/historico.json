@@ -28205,6 +28205,45 @@
     "fora": 0
    }
   },
+  "401933738": {
+   "casa": "San Jose Earthquakes",
+   "comp": "mls",
+   "fase": "western-conference-playoffs---round-one",
+   "fora": "Houston Dynamo FC",
+   "inicio": "2026-11-25T00:00:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "11'",
+     "n": "R. Vieira"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "24'",
+     "n": "E. Löwen"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "80'",
+     "n": "D. McGuire"
+    },
+    {
+     "k": "v",
+     "l": "f",
+     "m": "81'",
+     "n": "A. Resch"
+    }
+   ],
+   "lg": "usa.1",
+   "local": "PayPal Park, San Jose, California",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
   "401933739": {
    "casa": "Inter Miami CF",
    "comp": "mls",
