@@ -1,7 +1,7 @@
 {
  "argentina": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "arg.1",
@@ -473,7 +473,7 @@
  },
  "brasileirao-a": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "bra.1",
@@ -798,7 +798,7 @@
  },
  "brasileirao-b": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "bra.2",
@@ -1112,7 +1112,7 @@
  },
  "bundesliga": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "ger.1",
@@ -1398,7 +1398,7 @@
  },
  "carioca": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "bra.camp.carioca",
@@ -1584,7 +1584,7 @@
  },
  "champions": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "uefa.champions",
@@ -2174,7 +2174,7 @@
  },
  "championship": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "eng.2",
@@ -2546,7 +2546,7 @@
  },
  "conference": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "uefa.europa.conf",
@@ -3136,7 +3136,7 @@
  },
  "eredivisie": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "ned.1",
@@ -3420,7 +3420,7 @@
  },
  "eurocopa": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "uefa.euro",
@@ -8268,7 +8268,7 @@
  },
  "europa": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "uefa.europa",
@@ -8858,7 +8858,7 @@
  },
  "laliga": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "esp.1",
@@ -9174,7 +9174,7 @@
  },
  "libertadores": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "conmebol.libertadores",
@@ -9684,7 +9684,7 @@
  },
  "ligamx": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "mex.1",
@@ -9966,7 +9966,7 @@
  },
  "ligue1": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "fra.1",
@@ -10252,7 +10252,7 @@
  },
  "mineiro": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "bra.camp.mineiro",
@@ -10442,7 +10442,7 @@
  },
  "mls": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "usa.1",
@@ -10918,7 +10918,7 @@
  },
  "mundial": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "fifa.cwc",
@@ -11454,7 +11454,7 @@
  },
  "nations": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "uefa.nations",
@@ -12310,7 +12310,7 @@
  },
  "paulista": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "bra.camp.paulista",
@@ -12544,7 +12544,7 @@
  },
  "portugal": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "por.1",
@@ -12824,7 +12824,7 @@
  },
  "premier": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "eng.1",
@@ -13134,7 +13134,7 @@
  },
  "saudita": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "ksa.1",
@@ -13400,7 +13400,7 @@
  },
  "serie-a-ita": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "ita.1",
@@ -13714,7 +13714,7 @@
  },
  "sul-americana": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "conmebol.sudamericana",
@@ -14222,7 +14222,7 @@
  },
  "turquia": {
   "_rodada": "2026112423",
-  "atualizado": "2026-11-24T23:49-03:00",
+  "atualizado": "2026-11-24T23:51-03:00",
   "grupos": [
    {
     "lg": "tur.1",
