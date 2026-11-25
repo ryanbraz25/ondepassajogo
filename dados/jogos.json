@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T01:51:22-03:00",
+ "atualizado": "2026-11-25T02:15:08-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1067,6 +1067,18 @@
      "m": "24'",
      "n": "E. Löwen",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "80'",
+     "n": "D. McGuire",
+     "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "81'",
+     "n": "A. Resch",
+     "k": "v"
     }
    ],
    "rodada": "Playoffs",
