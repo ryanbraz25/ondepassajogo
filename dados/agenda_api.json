@@ -2981,6 +2981,10 @@
   ],
   "lg": "eng.2",
   "local": "Vicarage Road, Watford",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880138": {
@@ -3012,10 +3016,20 @@
     "l": "c",
     "m": "40'",
     "n": "G. Hirst"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "81'",
+    "n": "M. Sykes"
    }
   ],
   "lg": "eng.2",
   "local": "bet365 Stadium, Stoke-on-Trent",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401880139": {
@@ -3051,6 +3065,10 @@
   ],
   "lg": "eng.2",
   "local": "Turf Moor, Burnley",
+  "placar": {
+   "casa": 0,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401880140": {
@@ -3088,10 +3106,20 @@
     "l": "f",
     "m": "75'",
     "n": "F. Myhre"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "83'",
+    "n": "A. Heggebo"
    }
   ],
   "lg": "eng.2",
   "local": "Toughsheet Community Stadium, Bolton",
+  "placar": {
+   "casa": 1,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401880141": {
@@ -5792,10 +5820,20 @@
     "l": "c",
     "m": "24'",
     "n": "J. Álvarez"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "90+1'",
+    "n": "H. Falchener"
    }
   ],
   "lg": "uefa.champions",
   "local": "Riyadh Air Metropolitano, Madrid",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401915292": {
@@ -5821,10 +5859,26 @@
     "l": "f",
     "m": "13'",
     "n": "A. Isak"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "79'",
+    "n": "F. Wirtz"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "82'",
+    "n": "A. Isak"
    }
   ],
   "lg": "uefa.champions",
   "local": "Jan Breydel Stadium, Brugge",
+  "placar": {
+   "casa": 0,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401915293": {
@@ -6354,10 +6408,26 @@
     "l": "f",
     "m": "50'",
     "n": "B. Fernandes"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "80'",
+    "n": "L. Suárez"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "90+3'",
+    "n": "Y. Tielemans"
    }
   ],
   "lg": "uefa.champions",
   "local": "Estádio José Alvalade, Lisbon",
+  "placar": {
+   "casa": 2,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401915374": {
@@ -6395,10 +6465,20 @@
     "l": "c",
     "m": "62'",
     "n": "O. Dembélé"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "78'",
+    "n": "D. Malen"
    }
   ],
   "lg": "uefa.champions",
   "local": "Parc des Princes, Paris",
+  "placar": {
+   "casa": 2,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401915375": {
@@ -6428,6 +6508,10 @@
   ],
   "lg": "uefa.champions",
   "local": "Stamford Bridge, London",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915376": {
@@ -6453,10 +6537,20 @@
     "l": "c",
     "m": "57'",
     "n": "P. Sucic"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "74'",
+    "n": "L. Martínez"
    }
   ],
   "lg": "uefa.champions",
   "local": "San Siro, Milano",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401915377": {
@@ -6488,10 +6582,20 @@
     "l": "c",
     "m": "62'",
     "n": "A. Ueda"
+   },
+   {
+    "k": "c",
+    "l": "c",
+    "m": "65'",
+    "n": "A. Pavlovic"
    }
   ],
   "lg": "uefa.champions",
   "local": "Decathlon Arena - Stade Pierre-Mauroy, Lille",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915378": {
