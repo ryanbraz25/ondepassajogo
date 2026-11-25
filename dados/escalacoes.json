@@ -1,7 +1,7 @@
 {
  "401841319": {
   "achada": "2026-11-25T19:25-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -1865,7 +1865,7 @@
  },
  "401880137": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "4-3-3",
    "reservas": [
@@ -1877,7 +1877,6 @@
      "pos": "SUB"
     },
     {
-     "e": "74'",
      "fp": 0,
      "id": "324213",
      "n": "11",
@@ -1885,39 +1884,25 @@
      "pos": "SUB"
     },
     {
-     "e": "52'",
      "fp": 0,
      "id": "268986",
      "n": "39",
      "nome": "E. Kayembe",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "fs": 2
-     }
+     "pos": "SUB"
     },
     {
-     "e": "67'",
      "fp": 0,
      "id": "249112",
      "n": "16",
      "nome": "M. Bola",
-     "pos": "SUB",
-     "st": {
-      "ch": 2,
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "66'",
      "fp": 0,
      "id": "406061",
      "n": "29",
      "nome": "B. Mlacic",
-     "pos": "SUB",
-     "st": {
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -1934,15 +1919,11 @@
      "pos": "SUB"
     },
     {
-     "e": "66'",
      "fp": 0,
      "id": "376535",
      "n": "7",
      "nome": "O. Maamma",
-     "pos": "SUB",
-     "st": {
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -1958,11 +1939,7 @@
      "id": "245626",
      "n": "1",
      "nome": "F. Ravaglia",
-     "pos": "G",
-     "st": {
-      "df": 4,
-      "gs": 1
-     }
+     "pos": "G"
     },
     {
      "fp": 2,
@@ -1981,9 +1958,9 @@
      "nome": "J. Zemura",
      "pos": "LB",
      "st": {
-      "fc": 2,
-      "fs": 2,
-      "vm": 1
+      "am": 1,
+      "fc": 1,
+      "fs": 1
      }
     },
     {
@@ -2001,23 +1978,14 @@
      "id": "281721",
      "n": "6",
      "nome": "M. Pollock",
-     "pos": "CD-R",
-     "st": {
-      "am": 1,
-      "fc": 1,
-      "imp": 1
-     }
+     "pos": "CD-R"
     },
     {
      "fp": 6,
      "id": "10767",
      "n": "3",
      "nome": "S. Coulibaly",
-     "pos": "CD-L",
-     "s": "66'",
-     "st": {
-      "fs": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -2025,11 +1993,9 @@
      "n": "8",
      "nome": "E. Bove",
      "pos": "RM",
-     "s": "52'",
      "st": {
       "ch": 1,
-      "fc": 2,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -2038,12 +2004,11 @@
      "n": "17",
      "nome": "I. Bravo",
      "pos": "LM",
-     "s": "74'",
      "st": {
-      "cg": 2,
-      "ch": 3,
-      "fc": 2,
-      "fs": 2
+      "cg": 1,
+      "ch": 2,
+      "fc": 1,
+      "fs": 1
      }
     },
     {
@@ -2053,8 +2018,7 @@
      "nome": "M. Doumbia",
      "pos": "F",
      "st": {
-      "ch": 1,
-      "fs": 1
+      "ch": 1
      }
     },
     {
@@ -2063,10 +2027,9 @@
      "n": "21",
      "nome": "A. Nabizada",
      "pos": "RF",
-     "s": "66'",
      "st": {
-      "ch": 2,
-      "fs": 2
+      "ch": 1,
+      "fs": 1
      }
     },
     {
@@ -2075,7 +2038,6 @@
      "n": "45",
      "nome": "S. Mavididi",
      "pos": "LF",
-     "s": "67'",
      "st": {
       "cg": 1,
       "ch": 1,
@@ -2085,12 +2047,11 @@
    ]
   },
   "comp": "championship",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "90'+7'",
      "fp": 0,
      "id": "324693",
      "n": "30",
@@ -2126,20 +2087,13 @@
      "pos": "SUB"
     },
     {
-     "e": "74'",
      "fp": 0,
      "id": "283613",
      "n": "23",
      "nome": "Y. Ohashi",
-     "pos": "SUB",
-     "st": {
-      "cg": 1,
-      "ch": 1,
-      "imp": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "86'",
      "fp": 0,
      "id": "227224",
      "n": "4",
@@ -2147,26 +2101,18 @@
      "pos": "SUB"
     },
     {
-     "e": "73'",
      "fp": 0,
      "id": "277151",
      "n": "7",
      "nome": "A. Kargbo",
-     "pos": "SUB",
-     "st": {
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "74'",
      "fp": 0,
      "id": "303060",
      "n": "25",
      "nome": "R. Morishita",
-     "pos": "SUB",
-     "st": {
-      "fs": 1
-     }
+     "pos": "SUB"
     }
    ],
    "titulares": [
@@ -2177,7 +2123,7 @@
      "nome": "A. Pears",
      "pos": "G",
      "st": {
-      "df": 3
+      "df": 2
      }
     },
     {
@@ -2187,9 +2133,6 @@
      "nome": "G. Beyuku",
      "pos": "RB",
      "st": {
-      "cg": 1,
-      "ch": 1,
-      "fc": 1,
       "fs": 2
      }
     },
@@ -2198,11 +2141,7 @@
      "id": "241040",
      "n": "3",
      "nome": "H. Pickering",
-     "pos": "LB",
-     "s": "86'",
-     "st": {
-      "fc": 1
-     }
+     "pos": "LB"
     },
     {
      "fp": 4,
@@ -2211,7 +2150,6 @@
      "nome": "M. Baradji",
      "pos": "LM",
      "st": {
-      "am": 1,
       "fc": 1,
       "fs": 1
      }
@@ -2224,7 +2162,7 @@
      "pos": "CD-R",
      "st": {
       "am": 1,
-      "ch": 3
+      "ch": 2
      }
     },
     {
@@ -2232,10 +2170,7 @@
      "id": "274535",
      "n": "15",
      "nome": "S. McLoughlin",
-     "pos": "CD-L",
-     "st": {
-      "ch": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -2243,10 +2178,8 @@
      "n": "11",
      "nome": "J. Fevrier",
      "pos": "AM-R",
-     "s": "74'",
      "st": {
-      "ch": 2,
-      "fc": 2,
+      "fc": 1,
       "imp": 1
      }
     },
@@ -2257,9 +2190,7 @@
      "nome": "K. Montgomery",
      "pos": "RM",
      "st": {
-      "am": 1,
-      "ch": 2,
-      "fc": 3,
+      "ch": 1,
       "fs": 2
      }
     },
@@ -2269,9 +2200,7 @@
      "n": "9",
      "nome": "A. Gudjohnsen",
      "pos": "F",
-     "s": "74'",
      "st": {
-      "ch": 1,
       "fs": 1
      }
     },
@@ -2281,13 +2210,10 @@
      "n": "10",
      "nome": "T. Cantwell",
      "pos": "AM",
-     "s": "90'+7'",
      "st": {
-      "cg": 2,
-      "ch": 4,
+      "ch": 1,
       "fc": 1,
-      "fs": 3,
-      "g": 1
+      "fs": 1
      }
     },
     {
@@ -2296,92 +2222,27 @@
      "n": "21",
      "nome": "O. Afolayan",
      "pos": "AM-L",
-     "s": "73'",
      "st": {
-      "cg": 1,
-      "ch": 2,
-      "fc": 2,
-      "fs": 3
+      "fc": 1,
+      "fs": 1
      }
     }
    ]
   },
   "inicio": "2026-11-25T16:45:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "E. Kayembe",
-    "l": "c",
-    "m": "52'",
-    "sai": "E. Bove"
-   },
-   {
-    "ent": "B. Mlacic",
-    "l": "c",
-    "m": "66'",
-    "sai": "S. Coulibaly"
-   },
-   {
-    "ent": "O. Maamma",
-    "l": "c",
-    "m": "66'",
-    "sai": "A. Nabizada"
-   },
-   {
-    "ent": "M. Bola",
-    "l": "c",
-    "m": "67'",
-    "sai": "S. Mavididi"
-   },
-   {
-    "ent": "A. Kargbo",
-    "l": "f",
-    "m": "73'",
-    "sai": "O. Afolayan"
-   },
-   {
-    "ent": "Y. Ohashi",
-    "l": "f",
-    "m": "74'",
-    "sai": "A. Gudjohnsen"
-   },
-   {
-    "ent": "R. Morishita",
-    "l": "f",
-    "m": "74'",
-    "sai": "J. Fevrier"
-   },
-   {
-    "ent": "R. Vata",
-    "l": "c",
-    "m": "74'",
-    "sai": "I. Bravo"
-   },
-   {
-    "ent": "Y. Ribeiro",
-    "l": "f",
-    "m": "86'",
-    "sai": "H. Pickering"
-   },
-   {
-    "ent": "J. Garrett",
-    "l": "f",
-    "m": "90'+7'",
-    "sai": "T. Cantwell"
-   }
-  ],
+  "subs": [],
   "time_casa": "Watford",
   "time_fora": "Blackburn Rovers",
   "v": 3
  },
  "401880138": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "3-4-3",
    "reservas": [
     {
-     "e": "86'",
      "fp": 0,
      "id": "121473",
      "n": "3",
@@ -2389,15 +2250,11 @@
      "pos": "SUB"
     },
     {
-     "e": "66'",
      "fp": 0,
      "id": "224342",
      "n": "6",
      "nome": "S. Ingelsson",
-     "pos": "SUB",
-     "st": {
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -2414,17 +2271,11 @@
      "pos": "SUB"
     },
     {
-     "e": "75'",
      "fp": 0,
      "id": "277100",
      "n": "9",
      "nome": "R. Bozeník",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "fc": 2,
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -2448,16 +2299,11 @@
      "pos": "SUB"
     },
     {
-     "e": "74'",
      "fp": 0,
      "id": "196098",
      "n": "20",
      "nome": "S. Gallagher",
-     "pos": "SUB",
-     "st": {
-      "fs": 1,
-      "imp": 1
-     }
+     "pos": "SUB"
     }
    ],
    "titulares": [
@@ -2468,9 +2314,7 @@
      "nome": "V. Johansson",
      "pos": "G",
      "st": {
-      "df": 3,
-      "fs": 2,
-      "gs": 1
+      "df": 1
      }
     },
     {
@@ -2478,44 +2322,28 @@
      "id": "9426",
      "n": "2",
      "nome": "B. Johnson",
-     "pos": "RM",
-     "st": {
-      "cg": 1,
-      "ch": 1,
-      "fs": 1
-     }
+     "pos": "RM"
     },
     {
      "fp": 3,
      "id": "291468",
      "n": "13",
      "nome": "J. Devenny",
-     "pos": "LM",
-     "st": {
-      "ch": 2,
-      "fc": 1
-     }
+     "pos": "LM"
     },
     {
      "fp": 4,
      "id": "40299",
      "n": "5",
      "nome": "L. Graham",
-     "pos": "CD-L",
-     "st": {
-      "am": 1,
-      "fc": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 5,
      "id": "323201",
      "n": "18",
      "nome": "B. Lawal",
-     "pos": "CD",
-     "st": {
-      "fs": 1
-     }
+     "pos": "CD"
     },
     {
      "fp": 6,
@@ -2535,8 +2363,7 @@
      "pos": "CM-R",
      "st": {
       "a": 1,
-      "cg": 1,
-      "ch": 3
+      "ch": 1
      }
     },
     {
@@ -2545,10 +2372,9 @@
      "n": "8",
      "nome": "E. Galbraith",
      "pos": "CM-L",
-     "s": "74'",
      "st": {
       "cg": 1,
-      "ch": 4
+      "ch": 2
      }
     },
     {
@@ -2557,12 +2383,10 @@
      "n": "15",
      "nome": "G. Hirst",
      "pos": "F",
-     "s": "75'",
      "st": {
-      "cg": 3,
-      "ch": 3,
-      "fc": 2,
-      "g": 2
+      "cg": 1,
+      "ch": 1,
+      "g": 1
      }
     },
     {
@@ -2571,11 +2395,8 @@
      "n": "42",
      "nome": "M. Manhoef",
      "pos": "CF-R",
-     "s": "66'",
      "st": {
-      "a": 1,
-      "ch": 2,
-      "fs": 1
+      "ch": 2
      }
     },
     {
@@ -2584,16 +2405,14 @@
      "n": "10",
      "nome": "B. Jun-Ho",
      "pos": "CF-L",
-     "s": "86'",
      "st": {
-      "ch": 4,
-      "fs": 4
+      "ch": 2
      }
     }
    ]
   },
   "comp": "championship",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -2605,20 +2424,13 @@
      "pos": "SUB"
     },
     {
-     "e": "45'",
      "fp": 0,
      "id": "227438",
      "n": "16",
      "nome": "D. Kelly",
-     "pos": "SUB",
-     "st": {
-      "am": 1,
-      "ch": 1,
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "66'",
      "fp": 0,
      "id": "281730",
      "n": "25",
@@ -2626,17 +2438,11 @@
      "pos": "SUB"
     },
     {
-     "e": "45'",
      "fp": 0,
      "id": "207538",
      "n": "13",
      "nome": "L. Dykes",
-     "pos": "SUB",
-     "st": {
-      "am": 1,
-      "ch": 1,
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -2653,30 +2459,18 @@
      "pos": "SUB"
     },
     {
-     "e": "45'",
      "fp": 0,
      "id": "374682",
      "n": "22",
      "nome": "K. Lisbie",
-     "pos": "SUB",
-     "st": {
-      "am": 1,
-      "cg": 1,
-      "ch": 3,
-      "fc": 2,
-      "imp": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "76'",
      "fp": 0,
      "id": "308555",
      "n": "12",
      "nome": "E. Baggott",
-     "pos": "SUB",
-     "st": {
-      "fc": 2
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -2694,8 +2488,8 @@
      "nome": "L. Jensen",
      "pos": "G",
      "st": {
-      "df": 4,
-      "gs": 2
+      "df": 1,
+      "gs": 1
      }
     },
     {
@@ -2703,11 +2497,7 @@
      "id": "267300",
      "n": "2",
      "nome": "J. Osei-Tutu",
-     "pos": "RB",
-     "st": {
-      "fc": 2,
-      "fs": 2
-     }
+     "pos": "RB"
     },
     {
      "fp": 3,
@@ -2715,10 +2505,8 @@
      "n": "45",
      "nome": "A. Doughty",
      "pos": "LB",
-     "s": "76'",
      "st": {
-      "ch": 1,
-      "fc": 2
+      "fc": 1
      }
     },
     {
@@ -2726,13 +2514,7 @@
      "id": "324659",
      "n": "49",
      "nome": "D. Mazou-Sacko",
-     "pos": "LM",
-     "s": "66'",
-     "st": {
-      "am": 1,
-      "ch": 2,
-      "fc": 2
-     }
+     "pos": "LM"
     },
     {
      "fp": 5,
@@ -2741,9 +2523,7 @@
      "nome": "C. Taylor",
      "pos": "CD-R",
      "st": {
-      "cg": 1,
-      "ch": 2,
-      "fs": 3
+      "ch": 1
      }
     },
     {
@@ -2751,52 +2531,35 @@
      "id": "190963",
      "n": "5",
      "nome": "J. Cooper",
-     "pos": "CD-L",
-     "st": {
-      "a": 1,
-      "fs": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
      "id": "205701",
      "n": "17",
      "nome": "M. Sykes",
-     "pos": "AM-R",
-     "st": {
-      "cg": 1,
-      "ch": 1,
-      "g": 1
-     }
+     "pos": "AM-R"
     },
     {
      "fp": 8,
      "id": "328018",
      "n": "14",
      "nome": "J. Metcalfe",
-     "pos": "RM",
-     "s": "45'",
-     "st": {
-      "fs": 1
-     }
+     "pos": "RM"
     },
     {
      "fp": 9,
      "id": "359214",
      "n": "9",
      "nome": "M. Ivanovic",
-     "pos": "F",
-     "s": "45'"
+     "pos": "F"
     },
     {
      "fp": 10,
      "id": "310173",
      "n": "10",
      "nome": "C. Neghli",
-     "pos": "AM",
-     "st": {
-      "ch": 1
-     }
+     "pos": "AM"
     },
     {
      "fp": 11,
@@ -2804,79 +2567,23 @@
      "n": "7",
      "nome": "T. Arconte",
      "pos": "AM-L",
-     "s": "45'",
      "st": {
       "cg": 1,
-      "ch": 2
+      "ch": 1
      }
     }
    ]
   },
   "inicio": "2026-11-25T17:00:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "K. Lisbie",
-    "l": "f",
-    "m": "45'",
-    "sai": "T. Arconte"
-   },
-   {
-    "ent": "L. Dykes",
-    "l": "f",
-    "m": "45'",
-    "sai": "M. Ivanovic"
-   },
-   {
-    "ent": "D. Kelly",
-    "l": "f",
-    "m": "45'",
-    "sai": "J. Metcalfe"
-   },
-   {
-    "ent": "S. Ingelsson",
-    "l": "c",
-    "m": "66'",
-    "sai": "M. Manhoef"
-   },
-   {
-    "ent": "L. Cundle",
-    "l": "f",
-    "m": "66'",
-    "sai": "D. Mazou-Sacko"
-   },
-   {
-    "ent": "S. Gallagher",
-    "l": "c",
-    "m": "74'",
-    "sai": "E. Galbraith"
-   },
-   {
-    "ent": "R. Bozeník",
-    "l": "c",
-    "m": "75'",
-    "sai": "G. Hirst"
-   },
-   {
-    "ent": "E. Baggott",
-    "l": "f",
-    "m": "76'",
-    "sai": "A. Doughty"
-   },
-   {
-    "ent": "A. Cresswell",
-    "l": "c",
-    "m": "86'",
-    "sai": "B. Jun-Ho"
-   }
-  ],
+  "subs": [],
   "time_casa": "Stoke City",
   "time_fora": "Millwall",
   "v": 3
  },
  "401880139": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -2888,30 +2595,18 @@
      "pos": "SUB"
     },
     {
-     "e": "75'",
      "fp": 0,
      "id": "225552",
      "n": "10",
      "nome": "M. Edwards",
-     "pos": "SUB",
-     "st": {
-      "am": 1,
-      "fc": 1,
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "63'",
      "fp": 0,
      "id": "317322",
      "n": "17",
      "nome": "A. Hountondji",
-     "pos": "SUB",
-     "st": {
-      "cg": 1,
-      "ch": 1,
-      "imp": 2
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -2928,17 +2623,11 @@
      "pos": "SUB"
     },
     {
-     "e": "63'",
      "fp": 0,
      "id": "333319",
      "n": "8",
      "nome": "U. Raghouber",
-     "pos": "SUB",
-     "st": {
-      "am": 1,
-      "fc": 1,
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -2955,16 +2644,11 @@
      "pos": "SUB"
     },
     {
-     "e": "75'",
      "fp": 0,
      "id": "165648",
      "n": "9",
      "nome": "J. Vardy",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "imp": 1
-     }
+     "pos": "SUB"
     }
    ],
    "titulares": [
@@ -2975,8 +2659,8 @@
      "nome": "M. Weiß",
      "pos": "G",
      "st": {
-      "df": 8,
-      "gs": 2
+      "df": 1,
+      "gs": 1
      }
     },
     {
@@ -2986,9 +2670,7 @@
      "nome": "K. Walker",
      "pos": "RB",
      "st": {
-      "ch": 2,
-      "fc": 1,
-      "fs": 2
+      "fc": 1
      }
     },
     {
@@ -2996,18 +2678,14 @@
      "id": "285790",
      "n": "23",
      "nome": "L. Pires",
-     "pos": "LB",
-     "st": {
-      "imp": 1
-     }
+     "pos": "LB"
     },
     {
      "fp": 4,
      "id": "288891",
      "n": "5",
      "nome": "R. Hatate",
-     "pos": "LM",
-     "s": "63'"
+     "pos": "LM"
     },
     {
      "fp": 5,
@@ -3016,9 +2694,7 @@
      "nome": "M. Alleyne",
      "pos": "CD-R",
      "st": {
-      "am": 1,
-      "fc": 1,
-      "fs": 2
+      "fs": 1
      }
     },
     {
@@ -3026,10 +2702,7 @@
      "id": "234143",
      "n": "44",
      "nome": "Igor Julio",
-     "pos": "CD-L",
-     "st": {
-      "ch": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -3038,10 +2711,8 @@
      "nome": "L. Ramazani",
      "pos": "AM-R",
      "st": {
-      "am": 1,
       "cg": 2,
-      "ch": 3,
-      "fc": 2
+      "ch": 3
      }
     },
     {
@@ -3051,8 +2722,7 @@
      "nome": "J. Cullen",
      "pos": "RM",
      "st": {
-      "fc": 1,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -3061,10 +2731,8 @@
      "n": "11",
      "nome": "Z. Amdouni",
      "pos": "F",
-     "s": "75'",
      "st": {
       "ch": 1,
-      "fc": 1,
       "imp": 1
      }
     },
@@ -3074,7 +2742,6 @@
      "n": "21",
      "nome": "A. Ramsey",
      "pos": "AM",
-     "s": "63'",
      "st": {
       "cg": 1,
       "ch": 2,
@@ -3087,20 +2754,17 @@
      "n": "34",
      "nome": "J. Banel",
      "pos": "AM-L",
-     "s": "75'",
      "st": {
       "am": 1,
       "ch": 2,
-      "fc": 2,
-      "fs": 1,
-      "gc": 1,
-      "imp": 2
+      "fc": 1,
+      "imp": 1
      }
     }
    ]
   },
   "comp": "championship",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -3119,19 +2783,13 @@
      "pos": "SUB"
     },
     {
-     "e": "81'",
      "fp": 0,
      "id": "285032",
      "n": "32",
      "nome": "L. Vázquez",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "75'",
      "fp": 0,
      "id": "251853",
      "n": "18",
@@ -3146,18 +2804,13 @@
      "pos": "SUB"
     },
     {
-     "e": "90'+1'",
      "fp": 0,
      "id": "282892",
      "n": "19",
      "nome": "T. Gardner-Hickman",
-     "pos": "SUB",
-     "st": {
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "75'",
      "fp": 0,
      "id": "256598",
      "n": "8",
@@ -3165,18 +2818,11 @@
      "pos": "SUB"
     },
     {
-     "e": "75'",
      "fp": 0,
      "id": "194403",
      "n": "10",
      "nome": "D. Gray",
-     "pos": "SUB",
-     "st": {
-      "cg": 2,
-      "ch": 3,
-      "fc": 2,
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -3194,7 +2840,7 @@
      "nome": "J. Beadle",
      "pos": "G",
      "st": {
-      "df": 4
+      "df": 3
      }
     },
     {
@@ -3202,22 +2848,14 @@
      "id": "217071",
      "n": "26",
      "nome": "B. Osayi-Samuel",
-     "pos": "RB",
-     "st": {
-      "ch": 1,
-      "fs": 3
-     }
+     "pos": "RB"
     },
     {
      "fp": 3,
      "id": "251627",
      "n": "20",
      "nome": "A. Cochrane",
-     "pos": "LB",
-     "st": {
-      "am": 1,
-      "fc": 1
-     }
+     "pos": "LB"
     },
     {
      "fp": 4,
@@ -3225,11 +2863,10 @@
      "n": "14",
      "nome": "J. Solis",
      "pos": "LM",
-     "s": "75'",
      "st": {
       "am": 1,
       "ch": 1,
-      "fc": 2,
+      "fc": 1,
       "fs": 2
      }
     },
@@ -3240,8 +2877,7 @@
      "nome": "P. Neumann",
      "pos": "CD-R",
      "st": {
-      "ch": 3,
-      "imp": 1
+      "ch": 2
      }
     },
     {
@@ -3249,11 +2885,7 @@
      "id": "223792",
      "n": "23",
      "nome": "D. Fry",
-     "pos": "CD-L",
-     "st": {
-      "cg": 1,
-      "ch": 2
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -3261,10 +2893,7 @@
      "n": "7",
      "nome": "C. Vicente",
      "pos": "AM-R",
-     "s": "90'+1'",
      "st": {
-      "cg": 1,
-      "ch": 1,
       "imp": 1
      }
     },
@@ -3276,8 +2905,7 @@
      "pos": "RM",
      "st": {
       "ch": 1,
-      "fc": 3,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -3286,12 +2914,10 @@
      "n": "9",
      "nome": "A. Priske",
      "pos": "F",
-     "s": "81'",
      "st": {
-      "cg": 2,
-      "ch": 3,
+      "cg": 1,
+      "ch": 1,
       "fc": 1,
-      "fs": 1,
       "g": 1
      }
     },
@@ -3301,7 +2927,6 @@
      "n": "28",
      "nome": "J. Stansfield",
      "pos": "AM",
-     "s": "75'",
      "st": {
       "a": 1,
       "cg": 1,
@@ -3314,105 +2939,38 @@
      "n": "17",
      "nome": "L. Millar",
      "pos": "AM-L",
-     "s": "75'",
      "st": {
-      "cg": 1,
-      "ch": 1,
-      "fs": 2
+      "fs": 1
      }
     }
    ]
   },
   "inicio": "2026-11-25T16:45:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "A. Hountondji",
-    "l": "c",
-    "m": "63'",
-    "sai": "A. Ramsey"
-   },
-   {
-    "ent": "U. Raghouber",
-    "l": "c",
-    "m": "63'",
-    "sai": "R. Hatate"
-   },
-   {
-    "ent": "M. Bird",
-    "l": "f",
-    "m": "75'",
-    "sai": "J. Stansfield"
-   },
-   {
-    "ent": "D. Gray",
-    "l": "f",
-    "m": "75'",
-    "sai": "L. Millar"
-   },
-   {
-    "ent": "P. Seung-Ho",
-    "l": "f",
-    "m": "75'",
-    "sai": "J. Solis"
-   },
-   {
-    "ent": "M. Edwards",
-    "l": "c",
-    "m": "75'",
-    "sai": "J. Banel"
-   },
-   {
-    "ent": "J. Vardy",
-    "l": "c",
-    "m": "75'",
-    "sai": "Z. Amdouni"
-   },
-   {
-    "ent": "L. Vázquez",
-    "l": "f",
-    "m": "81'",
-    "sai": "A. Priske"
-   },
-   {
-    "ent": "T. Gardner-Hickman",
-    "l": "f",
-    "m": "90'+1'",
-    "sai": "C. Vicente"
-   }
-  ],
+  "subs": [],
   "time_casa": "Burnley",
   "time_fora": "Birmingham City",
   "v": 3
  },
  "401880140": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "45'",
      "fp": 0,
      "id": "326207",
      "n": "3",
      "nome": "C. Forino Joseph",
-     "pos": "SUB",
-     "st": {
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "45'",
      "fp": 0,
      "id": "243385",
      "n": "10",
      "nome": "S. Dalby",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "fs": 2
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -3422,7 +2980,6 @@
      "pos": "SUB"
     },
     {
-     "e": "88'",
      "fp": 0,
      "id": "409157",
      "n": "35",
@@ -3437,19 +2994,11 @@
      "pos": "SUB"
     },
     {
-     "e": "52'",
      "fp": 0,
      "id": "12669",
      "n": "20",
      "nome": "R. Rodrigues",
-     "pos": "SUB",
-     "st": {
-      "cg": 1,
-      "ch": 3,
-      "fc": 1,
-      "g": 1,
-      "imp": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -3466,7 +3015,6 @@
      "pos": "SUB"
     },
     {
-     "e": "88'",
      "fp": 0,
      "id": "272245",
      "n": "11",
@@ -3482,10 +3030,9 @@
      "nome": "G. Bazunu",
      "pos": "G",
      "st": {
-      "df": 4,
-      "fc": 1,
+      "df": 2,
       "fs": 1,
-      "gs": 3
+      "gs": 1
      }
     },
     {
@@ -3495,10 +3042,7 @@
      "nome": "L. Stephenson",
      "pos": "RB",
      "st": {
-      "ch": 1,
-      "fc": 2,
-      "fs": 1,
-      "imp": 1
+      "ch": 1
      }
     },
     {
@@ -3508,8 +3052,7 @@
      "nome": "M. Conway",
      "pos": "LB",
      "st": {
-      "ch": 1,
-      "fs": 4
+      "fs": 3
      }
     },
     {
@@ -3527,10 +3070,7 @@
      "id": "294311",
      "n": "5",
      "nome": "L. Brunt",
-     "pos": "CD-R",
-     "st": {
-      "fc": 1
-     }
+     "pos": "CD-R"
     },
     {
      "fp": 6,
@@ -3538,7 +3078,6 @@
      "n": "14",
      "nome": "A. Famewo",
      "pos": "CD-L",
-     "s": "45'",
      "st": {
       "am": 1,
       "fc": 1
@@ -3549,23 +3088,14 @@
      "id": "248860",
      "n": "22",
      "nome": "G. Larrazabal",
-     "pos": "AM-R",
-     "s": "88'",
-     "st": {
-      "fc": 1
-     }
+     "pos": "AM-R"
     },
     {
      "fp": 8,
      "id": "296411",
      "n": "4",
      "nome": "X. Simons",
-     "pos": "RM",
-     "s": "52'",
-     "st": {
-      "fc": 1,
-      "imp": 1
-     }
+     "pos": "RM"
     },
     {
      "fp": 9,
@@ -3573,9 +3103,7 @@
      "n": "9",
      "nome": "T. Bair",
      "pos": "F",
-     "s": "45'",
      "st": {
-      "ch": 2,
       "fc": 1
      }
     },
@@ -3584,11 +3112,7 @@
      "id": "304028",
      "n": "17",
      "nome": "A. Ito",
-     "pos": "AM",
-     "st": {
-      "ch": 1,
-      "fs": 1
-     }
+     "pos": "AM"
     },
     {
      "fp": 11,
@@ -3596,18 +3120,14 @@
      "n": "16",
      "nome": "S. Iling-Junior",
      "pos": "AM-L",
-     "s": "88'",
      "st": {
-      "cg": 1,
-      "ch": 1,
-      "fc": 1,
-      "fs": 2
+      "fs": 1
      }
     }
    ]
   },
   "comp": "championship",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-4-2",
    "reservas": [
@@ -3626,32 +3146,20 @@
      "pos": "SUB"
     },
     {
-     "e": "84'",
      "fp": 0,
      "id": "398165",
      "n": "9",
      "nome": "B. Stewart",
-     "pos": "SUB",
-     "st": {
-      "cg": 1,
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "71'",
      "fp": 0,
      "id": "347415",
      "n": "11",
      "nome": "J. Morgan",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "fc": 2,
-      "fs": 3
-     }
+     "pos": "SUB"
     },
     {
-     "e": "90'+2'",
      "fp": 0,
      "id": "168309",
      "n": "22",
@@ -3659,7 +3167,6 @@
      "pos": "SUB"
     },
     {
-     "e": "90'+2'",
      "fp": 0,
      "id": "380144",
      "n": "23",
@@ -3681,7 +3188,6 @@
      "pos": "SUB"
     },
     {
-     "e": "84'",
      "fp": 0,
      "id": "275109",
      "n": "3",
@@ -3695,11 +3201,7 @@
      "id": "195607",
      "n": "1",
      "nome": "M. O'Leary",
-     "pos": "G",
-     "st": {
-      "df": 1,
-      "gs": 1
-     }
+     "pos": "G"
     },
     {
      "fp": 2,
@@ -3720,9 +3222,7 @@
      "pos": "LB",
      "st": {
       "a": 1,
-      "am": 1,
-      "fc": 2,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -3730,33 +3230,21 @@
      "id": "365932",
      "n": "20",
      "nome": "R. Nzingoula",
-     "pos": "CM-R",
-     "s": "90'+2'",
-     "st": {
-      "am": 1,
-      "ch": 1
-     }
+     "pos": "CM-R"
     },
     {
      "fp": 5,
      "id": "251509",
      "n": "2",
      "nome": "C. Mepham",
-     "pos": "CD-R",
-     "st": {
-      "fc": 2,
-      "fs": 1
-     }
+     "pos": "CD-R"
     },
     {
      "fp": 6,
      "id": "231066",
      "n": "6",
      "nome": "G. Campbell",
-     "pos": "CD-L",
-     "st": {
-      "fc": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -3764,11 +3252,10 @@
      "n": "26",
      "nome": "K. Tunde",
      "pos": "RM",
-     "s": "71'",
      "st": {
-      "cg": 2,
-      "ch": 3,
-      "fc": 2,
+      "cg": 1,
+      "ch": 2,
+      "fc": 1,
       "fs": 1
      }
     },
@@ -3788,13 +3275,8 @@
      "n": "7",
      "nome": "F. Myhre",
      "pos": "CF-L",
-     "s": "90'+2'",
      "st": {
-      "cg": 1,
-      "ch": 1,
       "fc": 1,
-      "fs": 1,
-      "g": 1,
       "imp": 1
      }
     },
@@ -3804,13 +3286,10 @@
      "n": "19",
      "nome": "A. Heggebo",
      "pos": "CF-R",
-     "s": "84'",
      "st": {
-      "cg": 2,
-      "ch": 2,
-      "fc": 1,
-      "g": 2,
-      "imp": 1
+      "cg": 1,
+      "ch": 1,
+      "g": 1
      }
     },
     {
@@ -3819,80 +3298,16 @@
      "n": "29",
      "nome": "H. Whitwell",
      "pos": "LM",
-     "s": "84'",
      "st": {
       "cg": 1,
-      "ch": 1,
-      "fc": 1,
-      "fs": 1
+      "ch": 1
      }
     }
    ]
   },
   "inicio": "2026-11-25T16:45:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "C. Forino Joseph",
-    "l": "c",
-    "m": "45'",
-    "sai": "A. Famewo"
-   },
-   {
-    "ent": "S. Dalby",
-    "l": "c",
-    "m": "45'",
-    "sai": "T. Bair"
-   },
-   {
-    "ent": "R. Rodrigues",
-    "l": "c",
-    "m": "52'",
-    "sai": "X. Simons"
-   },
-   {
-    "ent": "J. Morgan",
-    "l": "f",
-    "m": "71'",
-    "sai": "K. Tunde"
-   },
-   {
-    "ent": "B. Stewart",
-    "l": "f",
-    "m": "84'",
-    "sai": "A. Heggebo"
-   },
-   {
-    "ent": "N. Phillips",
-    "l": "f",
-    "m": "84'",
-    "sai": "H. Whitwell"
-   },
-   {
-    "ent": "T. Gale",
-    "l": "c",
-    "m": "88'",
-    "sai": "S. Iling-Junior"
-   },
-   {
-    "ent": "M. Lott",
-    "l": "c",
-    "m": "88'",
-    "sai": "G. Larrazabal"
-   },
-   {
-    "ent": "T. Bany",
-    "l": "f",
-    "m": "90'+2'",
-    "sai": "F. Myhre"
-   },
-   {
-    "ent": "C. Townsend",
-    "l": "f",
-    "m": "90'+2'",
-    "sai": "R. Nzingoula"
-   }
-  ],
+  "subs": [],
   "time_casa": "Bolton Wanderers",
   "time_fora": "West Bromwich Albion",
   "v": 3
@@ -8155,7 +7570,7 @@
  },
  "401915291": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "4-4-2",
    "reservas": [
@@ -8167,7 +7582,6 @@
      "pos": "SUB"
     },
     {
-     "e": "45'",
      "fp": 0,
      "id": "336634",
      "n": "8",
@@ -8182,7 +7596,6 @@
      "pos": "SUB"
     },
     {
-     "e": "68'",
      "fp": 0,
      "id": "274911",
      "n": "23",
@@ -8211,16 +7624,11 @@
      "pos": "SUB"
     },
     {
-     "e": "57'",
      "fp": 0,
      "id": "273499",
      "n": "15",
      "nome": "J. David",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "imp": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -8237,29 +7645,18 @@
      "pos": "SUB"
     },
     {
-     "e": "57'",
      "fp": 0,
      "id": "323838",
      "n": "20",
      "nome": "G. Simeone",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "fc": 1,
-      "fs": 2
-     }
+     "pos": "SUB"
     },
     {
-     "e": "71'",
      "fp": 0,
      "id": "74630",
      "n": "4",
      "nome": "R. Mendoza",
-     "pos": "SUB",
-     "st": {
-      "cg": 1,
-      "ch": 1
-     }
+     "pos": "SUB"
     }
    ],
    "titulares": [
@@ -8268,20 +7665,14 @@
      "id": "149622",
      "n": "13",
      "nome": "J. Oblak",
-     "pos": "G",
-     "st": {
-      "df": 1
-     }
+     "pos": "G"
     },
     {
      "fp": 2,
      "id": "206474",
      "n": "14",
      "nome": "M. Llorente",
-     "pos": "RB",
-     "st": {
-      "fs": 1
-     }
+     "pos": "RB"
     },
     {
      "fp": 3,
@@ -8290,9 +7681,7 @@
      "nome": "A. Grimaldo",
      "pos": "LB",
      "st": {
-      "a": 1,
-      "cg": 1,
-      "ch": 2
+      "a": 1
      }
     },
     {
@@ -8301,7 +7690,6 @@
      "n": "6",
      "nome": "Koke",
      "pos": "CM-R",
-     "s": "68'",
      "st": {
       "ch": 1,
       "fs": 1
@@ -8322,11 +7710,7 @@
      "id": "257786",
      "n": "17",
      "nome": "D. Hancko",
-     "pos": "CD-L",
-     "st": {
-      "ch": 1,
-      "fc": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -8334,12 +7718,8 @@
      "n": "7",
      "nome": "L. Kang-In",
      "pos": "RM",
-     "s": "57'",
      "st": {
-      "cg": 1,
-      "ch": 2,
-      "fc": 2,
-      "fs": 1
+      "ch": 1
      }
     },
     {
@@ -8349,8 +7729,7 @@
      "nome": "J. Cardoso",
      "pos": "CM-L",
      "st": {
-      "cg": 2,
-      "ch": 3
+      "ch": 1
      }
     },
     {
@@ -8359,14 +7738,10 @@
      "n": "9",
      "nome": "A. Sørloth",
      "pos": "CF-L",
-     "s": "71'",
      "st": {
       "cg": 1,
-      "ch": 3,
-      "fc": 1,
-      "fs": 1,
-      "g": 1,
-      "imp": 1
+      "ch": 1,
+      "g": 1
      }
     },
     {
@@ -8375,12 +7750,9 @@
      "n": "19",
      "nome": "J. Álvarez",
      "pos": "CF-R",
-     "s": "57'",
      "st": {
-      "cg": 2,
-      "ch": 2,
-      "fc": 1,
-      "fs": 1,
+      "cg": 1,
+      "ch": 1,
       "g": 1
      }
     },
@@ -8390,17 +7762,15 @@
      "n": "10",
      "nome": "Á. Baena",
      "pos": "LM",
-     "s": "45'",
      "st": {
-      "cg": 1,
-      "ch": 3,
+      "ch": 1,
       "fc": 1
      }
     }
    ]
   },
   "comp": "champions",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-3-3",
    "reservas": [
@@ -8433,16 +7803,11 @@
      "pos": "SUB"
     },
     {
-     "e": "57'",
      "fp": 0,
      "id": "377601",
      "n": "24",
      "nome": "V. Auklend",
-     "pos": "SUB",
-     "st": {
-      "fc": 1,
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -8452,19 +7817,13 @@
      "pos": "SUB"
     },
     {
-     "e": "57'",
      "fp": 0,
      "id": "9167",
      "n": "20",
      "nome": "P. Christiansen",
-     "pos": "SUB",
-     "st": {
-      "fs": 1,
-      "imp": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "82'",
      "fp": 0,
      "id": "228294",
      "n": "8",
@@ -8472,7 +7831,6 @@
      "pos": "SUB"
     },
     {
-     "e": "76'",
      "fp": 0,
      "id": "386923",
      "n": "23",
@@ -8487,17 +7845,11 @@
      "pos": "SUB"
     },
     {
-     "e": "76'",
      "fp": 0,
      "id": "420982",
      "n": "19",
      "nome": "A. Cosic",
-     "pos": "SUB",
-     "st": {
-      "cg": 1,
-      "ch": 1,
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -8515,7 +7867,6 @@
      "nome": "L. Belko",
      "pos": "G",
      "st": {
-      "df": 7,
       "gs": 2
      }
     },
@@ -8524,30 +7875,21 @@
      "id": "303105",
      "n": "2",
      "nome": "H. Haugen",
-     "pos": "RB",
-     "s": "76'",
-     "st": {
-      "ch": 1
-     }
+     "pos": "RB"
     },
     {
      "fp": 3,
      "id": "303977",
      "n": "5",
      "nome": "H. Heggheim",
-     "pos": "LB",
-     "s": "57'"
+     "pos": "LB"
     },
     {
      "fp": 4,
      "id": "392602",
      "n": "29",
      "nome": "T. Moi",
-     "pos": "CM",
-     "s": "76'",
-     "st": {
-      "ch": 1
-     }
+     "pos": "CM"
     },
     {
      "fp": 5,
@@ -8556,9 +7898,7 @@
      "nome": "G. Stensness",
      "pos": "CD-R",
      "st": {
-      "am": 1,
-      "fc": 1,
-      "fs": 2
+      "fs": 1
      }
     },
     {
@@ -8566,22 +7906,14 @@
      "id": "303281",
      "n": "25",
      "nome": "H. Falchener",
-     "pos": "CD-L",
-     "st": {
-      "fc": 2,
-      "vm": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
      "id": "280963",
      "n": "7",
      "nome": "K. Askildsen",
-     "pos": "RM",
-     "s": "82'",
-     "st": {
-      "ch": 1
-     }
+     "pos": "RM"
     },
     {
      "fp": 8,
@@ -8589,7 +7921,6 @@
      "n": "26",
      "nome": "S. Kvia-Egeskog",
      "pos": "LM",
-     "s": "57'",
      "st": {
       "fc": 1
      }
@@ -8612,8 +7943,7 @@
      "nome": "H. Bjørdal",
      "pos": "RF",
      "st": {
-      "fc": 1,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -8623,84 +7953,21 @@
      "nome": "Z. Tripic",
      "pos": "LF",
      "st": {
-      "ch": 3,
-      "fc": 1,
-      "fs": 2
+      "ch": 1
      }
     }
    ]
   },
   "inicio": "2026-11-25T17:00:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "P. Barrios",
-    "l": "c",
-    "m": "45'",
-    "sai": "Á. Baena"
-   },
-   {
-    "ent": "G. Simeone",
-    "l": "c",
-    "m": "57'",
-    "sai": "J. Álvarez"
-   },
-   {
-    "ent": "J. David",
-    "l": "c",
-    "m": "57'",
-    "sai": "L. Kang-In"
-   },
-   {
-    "ent": "P. Christiansen",
-    "l": "f",
-    "m": "57'",
-    "sai": "S. Kvia-Egeskog"
-   },
-   {
-    "ent": "V. Auklend",
-    "l": "f",
-    "m": "57'",
-    "sai": "H. Heggheim"
-   },
-   {
-    "ent": "M. Hjulmand",
-    "l": "c",
-    "m": "68'",
-    "sai": "Koke"
-   },
-   {
-    "ent": "R. Mendoza",
-    "l": "c",
-    "m": "71'",
-    "sai": "A. Sørloth"
-   },
-   {
-    "ent": "N. Fuglestad",
-    "l": "f",
-    "m": "76'",
-    "sai": "H. Haugen"
-   },
-   {
-    "ent": "A. Cosic",
-    "l": "f",
-    "m": "76'",
-    "sai": "T. Moi"
-   },
-   {
-    "ent": "J. Bell",
-    "l": "f",
-    "m": "82'",
-    "sai": "K. Askildsen"
-   }
-  ],
+  "subs": [],
   "time_casa": "Atlético de Madrid",
   "time_fora": "Viking FK",
   "v": 3
  },
  "401915292": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -8712,18 +7979,11 @@
      "pos": "SUB"
     },
     {
-     "e": "75'",
      "fp": 0,
      "id": "360422",
      "n": "17",
      "nome": "R. Vermant",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "fc": 1,
-      "fs": 1,
-      "imp": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -8733,7 +7993,6 @@
      "pos": "SUB"
     },
     {
-     "e": "89'",
      "fp": 0,
      "id": "331153",
      "n": "32",
@@ -8776,19 +8035,13 @@
      "pos": "SUB"
     },
     {
-     "e": "75'",
      "fp": 0,
      "id": "362875",
      "n": "67",
      "nome": "M. Diakhon",
-     "pos": "SUB",
-     "st": {
-      "cg": 1,
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "83'",
      "fp": 0,
      "id": "310023",
      "n": "41",
@@ -8796,15 +8049,11 @@
      "pos": "SUB"
     },
     {
-     "e": "83'",
      "fp": 0,
      "id": "380662",
      "n": "16",
      "nome": "C. Tsawa",
-     "pos": "SUB",
-     "st": {
-      "ch": 1
-     }
+     "pos": "SUB"
     }
    ],
    "titulares": [
@@ -8815,8 +8064,7 @@
      "nome": "Y. Sommer",
      "pos": "G",
      "st": {
-      "df": 1,
-      "gs": 3
+      "gs": 1
      }
     },
     {
@@ -8825,11 +8073,8 @@
      "n": "64",
      "nome": "K. Sabbe",
      "pos": "RB",
-     "s": "83'",
      "st": {
-      "cg": 1,
-      "ch": 1,
-      "fc": 2
+      "fc": 1
      }
     },
     {
@@ -8838,11 +8083,8 @@
      "n": "65",
      "nome": "J. Seys",
      "pos": "LB",
-     "s": "89'",
      "st": {
-      "ch": 1,
-      "fs": 1,
-      "imp": 2
+      "fs": 1
      }
     },
     {
@@ -8850,31 +8092,21 @@
      "id": "193849",
      "n": "20",
      "nome": "H. Vanaken",
-     "pos": "LM",
-     "st": {
-      "fc": 1
-     }
+     "pos": "LM"
     },
     {
      "fp": 5,
      "id": "351301",
      "n": "58",
      "nome": "J. Spileers",
-     "pos": "CD-R",
-     "st": {
-      "fs": 1
-     }
+     "pos": "CD-R"
     },
     {
      "fp": 6,
      "id": "191222",
      "n": "44",
      "nome": "B. Mechele",
-     "pos": "CD-L",
-     "st": {
-      "ch": 1,
-      "fc": 2
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -8883,9 +8115,8 @@
      "nome": "C. Forbs",
      "pos": "AM-R",
      "st": {
-      "ch": 1,
       "fc": 1,
-      "fs": 2
+      "fs": 1
      }
     },
     {
@@ -8894,11 +8125,8 @@
      "n": "8",
      "nome": "F. Potts",
      "pos": "RM",
-     "s": "83'",
      "st": {
-      "ch": 1,
-      "fc": 1,
-      "fs": 1
+      "ch": 1
      }
     },
     {
@@ -8908,9 +8136,7 @@
      "nome": "N. Tresoldi",
      "pos": "F",
      "st": {
-      "cg": 1,
-      "ch": 5,
-      "fs": 4
+      "ch": 1
      }
     },
     {
@@ -8918,13 +8144,7 @@
      "id": "255261",
      "n": "10",
      "nome": "H. Vetlesen",
-     "pos": "AM",
-     "s": "75'",
-     "st": {
-      "ch": 1,
-      "fc": 1,
-      "fs": 1
-     }
+     "pos": "AM"
     },
     {
      "fp": 11,
@@ -8932,17 +8152,15 @@
      "n": "80",
      "nome": "F. Lemarechal",
      "pos": "AM-L",
-     "s": "75'",
      "st": {
-      "cg": 2,
-      "ch": 3,
-      "fs": 2
+      "cg": 1,
+      "ch": 1
      }
     }
    ]
   },
   "comp": "champions",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -8968,7 +8186,6 @@
      "pos": "SUB"
     },
     {
-     "e": "86'",
      "fp": 0,
      "id": "350661",
      "n": "67",
@@ -8976,7 +8193,6 @@
      "pos": "SUB"
     },
     {
-     "e": "73'",
      "fp": 0,
      "id": "157892",
      "n": "4",
@@ -8984,7 +8200,6 @@
      "pos": "SUB"
     },
     {
-     "e": "86'",
      "fp": 0,
      "id": "32572",
      "n": "44",
@@ -8992,15 +8207,11 @@
      "pos": "SUB"
     },
     {
-     "e": "73'",
      "fp": 0,
      "id": "249299",
      "n": "10",
      "nome": "A. Mac Allister",
-     "pos": "SUB",
-     "st": {
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -9017,17 +8228,11 @@
      "pos": "SUB"
     },
     {
-     "e": "42'",
      "fp": 0,
      "id": "379588",
      "n": "73",
      "nome": "R. Ngumoha",
-     "pos": "SUB",
-     "st": {
-      "a": 1,
-      "ch": 1,
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -9045,8 +8250,7 @@
      "nome": "A. Becker",
      "pos": "G",
      "st": {
-      "a": 1,
-      "df": 5
+      "df": 1
      }
     },
     {
@@ -9054,11 +8258,7 @@
      "id": "281119",
      "n": "30",
      "nome": "J. Frimpong",
-     "pos": "RB",
-     "s": "73'",
-     "st": {
-      "fc": 1
-     }
+     "pos": "RB"
     },
     {
      "fp": 3,
@@ -9068,8 +8268,8 @@
      "pos": "LB",
      "st": {
       "ch": 1,
-      "fc": 3,
-      "fs": 2
+      "fc": 1,
+      "fs": 1
      }
     },
     {
@@ -9077,11 +8277,7 @@
      "id": "356075",
      "n": "42",
      "nome": "T. Nyoni",
-     "pos": "LM",
-     "s": "73'",
-     "st": {
-      "fc": 1
-     }
+     "pos": "LM"
     },
     {
      "fp": 5,
@@ -9095,11 +8291,7 @@
      "id": "355980",
      "n": "5",
      "nome": "J. Jacquet",
-     "pos": "CD-L",
-     "st": {
-      "fc": 3,
-      "fs": 2
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -9107,10 +8299,9 @@
      "n": "23",
      "nome": "V. Muñoz",
      "pos": "AM-R",
-     "s": "42'",
      "st": {
       "ch": 2,
-      "fc": 2
+      "fc": 1
      }
     },
     {
@@ -9120,10 +8311,7 @@
      "nome": "D. Szoboszlai",
      "pos": "RM",
      "st": {
-      "a": 1,
-      "cg": 1,
-      "ch": 1,
-      "fc": 2
+      "a": 1
      }
     },
     {
@@ -9132,12 +8320,10 @@
      "n": "9",
      "nome": "A. Isak",
      "pos": "F",
-     "s": "86'",
      "st": {
-      "cg": 2,
-      "ch": 5,
-      "fs": 1,
-      "g": 2
+      "cg": 1,
+      "ch": 1,
+      "g": 1
      }
     },
     {
@@ -9145,13 +8331,7 @@
      "id": "303748",
      "n": "7",
      "nome": "F. Wirtz",
-     "pos": "AM",
-     "st": {
-      "cg": 1,
-      "ch": 1,
-      "fs": 2,
-      "g": 1
-     }
+     "pos": "AM"
     },
     {
      "fp": 11,
@@ -9159,77 +8339,15 @@
      "n": "29",
      "nome": "B. Barcola",
      "pos": "AM-L",
-     "s": "86'",
      "st": {
-      "ch": 2
+      "ch": 1
      }
     }
    ]
   },
   "inicio": "2026-11-25T17:00:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "R. Ngumoha",
-    "l": "f",
-    "m": "42'",
-    "sai": "V. Muñoz"
-   },
-   {
-    "ent": "V. van Dijk",
-    "l": "f",
-    "m": "73'",
-    "sai": "J. Frimpong"
-   },
-   {
-    "ent": "A. Mac Allister",
-    "l": "f",
-    "m": "73'",
-    "sai": "T. Nyoni"
-   },
-   {
-    "ent": "R. Vermant",
-    "l": "c",
-    "m": "75'",
-    "sai": "H. Vetlesen"
-   },
-   {
-    "ent": "M. Diakhon",
-    "l": "c",
-    "m": "75'",
-    "sai": "F. Lemarechal"
-   },
-   {
-    "ent": "H. Siquet",
-    "l": "c",
-    "m": "83'",
-    "sai": "K. Sabbe"
-   },
-   {
-    "ent": "C. Tsawa",
-    "l": "c",
-    "m": "83'",
-    "sai": "F. Potts"
-   },
-   {
-    "ent": "L. Chambers",
-    "l": "f",
-    "m": "86'",
-    "sai": "B. Barcola"
-   },
-   {
-    "ent": "L. Koumas",
-    "l": "f",
-    "m": "86'",
-    "sai": "A. Isak"
-   },
-   {
-    "ent": "M. Dams",
-    "l": "c",
-    "m": "89'",
-    "sai": "J. Seys"
-   }
-  ],
+  "subs": [],
   "time_casa": "Club Brugge",
   "time_fora": "Liverpool",
   "v": 3
@@ -13335,7 +12453,7 @@
  },
  "401915373": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "3-1-4-2",
    "reservas": [
@@ -13347,7 +12465,6 @@
      "pos": ""
     },
     {
-     "e": "76'",
      "fp": 0,
      "id": "105237",
      "n": "55",
@@ -13362,15 +12479,11 @@
      "pos": ""
     },
     {
-     "e": "86'",
      "fp": 0,
      "id": "266318",
      "n": "7",
      "nome": "F. Ioannidis",
-     "pos": "",
-     "st": {
-      "fc": 1
-     }
+     "pos": ""
     },
     {
      "fp": 0,
@@ -13415,29 +12528,18 @@
      "pos": ""
     },
     {
-     "e": "68'",
      "fp": 0,
      "id": "287494",
      "n": "17",
      "nome": "R. Zalazar",
-     "pos": "",
-     "st": {
-      "fc": 1,
-      "fs": 1
-     }
+     "pos": ""
     },
     {
-     "e": "76'",
      "fp": 0,
      "id": "328535",
      "n": "19",
      "nome": "N. Irankunda",
-     "pos": "",
-     "st": {
-      "am": 1,
-      "ch": 1,
-      "fc": 1
-     }
+     "pos": ""
     }
    ],
    "titulares": [
@@ -13446,11 +12548,7 @@
      "id": "332352",
      "n": "30",
      "nome": "Kaique",
-     "pos": "G",
-     "st": {
-      "fs": 1,
-      "gs": 2
-     }
+     "pos": "G"
     },
     {
      "fp": 2,
@@ -13458,10 +12556,9 @@
      "n": "10",
      "nome": "G. Catamo",
      "pos": "RM",
-     "s": "68'",
      "st": {
       "ch": 1,
-      "fs": 2
+      "fs": 1
      }
     },
     {
@@ -13471,9 +12568,8 @@
      "nome": "M. Araújo",
      "pos": "LM",
      "st": {
-      "ch": 2,
-      "fc": 3,
-      "fs": 3
+      "ch": 1,
+      "fs": 1
      }
     },
     {
@@ -13481,33 +12577,21 @@
      "id": "290590",
      "n": "72",
      "nome": "E. Quaresma",
-     "pos": "CD",
-     "s": "76'",
-     "st": {
-      "am": 1,
-      "fc": 2
-     }
+     "pos": "CD"
     },
     {
      "fp": 5,
      "id": "333209",
      "n": "22",
      "nome": "I. Fresneda",
-     "pos": "CD-R",
-     "st": {
-      "fc": 1
-     }
+     "pos": "CD-R"
     },
     {
      "fp": 6,
      "id": "304106",
      "n": "25",
      "nome": "G. Inácio",
-     "pos": "CD-L",
-     "st": {
-      "fc": 1,
-      "fs": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -13526,10 +12610,8 @@
      "nome": "S. Altimira",
      "pos": "SW",
      "st": {
-      "cg": 1,
-      "ch": 2,
-      "fc": 2,
-      "fs": 3
+      "fc": 1,
+      "fs": 1
      }
     },
     {
@@ -13539,8 +12621,6 @@
      "nome": "Luis Guilherme",
      "pos": "CF-R",
      "st": {
-      "ch": 1,
-      "fc": 1,
       "fs": 1
      }
     },
@@ -13550,13 +12630,8 @@
      "n": "97",
      "nome": "L. Suárez",
      "pos": "CF-L",
-     "s": "86'",
      "st": {
-      "cg": 3,
-      "ch": 3,
-      "fc": 4,
-      "g": 2,
-      "imp": 1
+      "fc": 2
      }
     },
     {
@@ -13564,29 +12639,21 @@
      "id": "386592",
      "n": "77",
      "nome": "I. Doumbia",
-     "pos": "CM-L",
-     "s": "76'",
-     "st": {
-      "ch": 1
-     }
+     "pos": "CM-L"
     }
    ]
   },
   "comp": "champions",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "64'",
      "fp": 0,
      "id": "238902",
      "n": "2",
      "nome": "D. Dalot",
-     "pos": "SUB",
-     "st": {
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -13596,15 +12663,11 @@
      "pos": "SUB"
     },
     {
-     "e": "77'",
      "fp": 0,
      "id": "358180",
      "n": "31",
      "nome": "S. Lacey",
-     "pos": "SUB",
-     "st": {
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -13635,15 +12698,11 @@
      "pos": "SUB"
     },
     {
-     "e": "90'+2'",
      "fp": 0,
      "id": "231167",
      "n": "7",
      "nome": "M. Mount",
-     "pos": "SUB",
-     "st": {
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -13653,19 +12712,13 @@
      "pos": "SUB"
     },
     {
-     "e": "64'",
      "fp": 0,
      "id": "366781",
      "n": "13",
      "nome": "P. Dorgu",
-     "pos": "SUB",
-     "st": {
-      "fc": 2,
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "90'+2'",
      "fp": 0,
      "id": "314858",
      "n": "17",
@@ -13679,13 +12732,7 @@
      "id": "301425",
      "n": "1",
      "nome": "S. Lammens",
-     "pos": "G",
-     "st": {
-      "am": 1,
-      "df": 2,
-      "fc": 1,
-      "gs": 2
-     }
+     "pos": "G"
     },
     {
      "fp": 2,
@@ -13693,10 +12740,8 @@
      "n": "3",
      "nome": "N. Mazraoui",
      "pos": "RB",
-     "s": "64'",
      "st": {
       "fc": 1,
-      "fs": 2,
       "imp": 1
      }
     },
@@ -13705,17 +12750,13 @@
      "id": "233937",
      "n": "6",
      "nome": "L. Martínez",
-     "pos": "LB",
-     "st": {
-      "fc": 2,
-      "fs": 2
-     }
+     "pos": "LB"
     },
     {
      "fp": 4,
-     "id": "328466",
-     "n": "37",
-     "nome": "K. Mainoo",
+     "id": "193297",
+     "n": "18",
+     "nome": "Y. Tielemans",
      "pos": "LM",
      "st": {
       "fc": 1,
@@ -13729,7 +12770,7 @@
      "nome": "L. Yoro",
      "pos": "CD-R",
      "st": {
-      "fs": 2
+      "fs": 1
      }
     },
     {
@@ -13739,7 +12780,7 @@
      "nome": "H. Maguire",
      "pos": "CD-L",
      "st": {
-      "fs": 4
+      "fs": 2
      }
     },
     {
@@ -13748,25 +12789,18 @@
      "n": "16",
      "nome": "A. Diallo",
      "pos": "AM-R",
-     "s": "77'",
      "st": {
-      "a": 1,
-      "ch": 1,
-      "fs": 3,
-      "imp": 3
+      "imp": 1
      }
     },
     {
      "fp": 8,
-     "id": "193297",
-     "n": "18",
-     "nome": "Y. Tielemans",
+     "id": "328466",
+     "n": "37",
+     "nome": "K. Mainoo",
      "pos": "RM",
      "st": {
-      "fc": 4,
-      "fs": 2,
-      "imp": 1,
-      "vm": 1
+      "fc": 1
      }
     },
     {
@@ -13775,9 +12809,8 @@
      "n": "11",
      "nome": "J. Zirkzee",
      "pos": "F",
-     "s": "64'",
      "st": {
-      "ch": 2,
+      "ch": 1,
       "imp": 1
      }
     },
@@ -13787,12 +12820,8 @@
      "n": "8",
      "nome": "B. Fernandes",
      "pos": "AM",
-     "s": "90'+2'",
      "st": {
-      "cg": 2,
-      "ch": 3,
-      "fc": 1,
-      "g": 2
+      "fc": 1
      }
     },
     {
@@ -13800,76 +12829,20 @@
      "id": "271170",
      "n": "19",
      "nome": "B. Mbeumo",
-     "pos": "AM-L",
-     "s": "90'+2'"
+     "pos": "AM-L"
     }
    ]
   },
   "inicio": "2026-11-25T17:00:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "P. Dorgu",
-    "l": "f",
-    "m": "64'",
-    "sai": "J. Zirkzee"
-   },
-   {
-    "ent": "D. Dalot",
-    "l": "f",
-    "m": "64'",
-    "sai": "N. Mazraoui"
-   },
-   {
-    "ent": "R. Zalazar",
-    "l": "c",
-    "m": "68'",
-    "sai": "G. Catamo"
-   },
-   {
-    "ent": "N. Irankunda",
-    "l": "c",
-    "m": "76'",
-    "sai": "I. Doumbia"
-   },
-   {
-    "ent": "I. Ba",
-    "l": "c",
-    "m": "76'",
-    "sai": "E. Quaresma"
-   },
-   {
-    "ent": "S. Lacey",
-    "l": "f",
-    "m": "77'",
-    "sai": "A. Diallo"
-   },
-   {
-    "ent": "F. Ioannidis",
-    "l": "c",
-    "m": "86'",
-    "sai": "L. Suárez"
-   },
-   {
-    "ent": "M. Mount",
-    "l": "f",
-    "m": "90'+2'",
-    "sai": "B. Mbeumo"
-   },
-   {
-    "ent": "A. Santos",
-    "l": "f",
-    "m": "90'+2'",
-    "sai": "B. Fernandes"
-   }
-  ],
+  "subs": [],
   "time_casa": "Sporting CP",
   "time_fora": "Manchester United",
   "v": 3
  },
  "401915374": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "4-3-3",
    "reservas": [
@@ -14100,7 +13073,7 @@
    ]
   },
   "comp": "champions",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "3-4-2-1",
    "reservas": [
@@ -14384,7 +13357,7 @@
  },
  "401915375": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "4-1-4-1",
    "reservas": [
@@ -14403,7 +13376,6 @@
      "pos": "SUB"
     },
     {
-     "e": "82'",
      "fp": 0,
      "id": "396504",
      "n": "49",
@@ -14432,7 +13404,6 @@
      "pos": "SUB"
     },
     {
-     "e": "82'",
      "fp": 0,
      "id": "289554",
      "n": "16",
@@ -14440,15 +13411,11 @@
      "pos": "SUB"
     },
     {
-     "e": "89'",
      "fp": 0,
      "id": "365817",
      "n": "68",
      "nome": "P. Obah",
-     "pos": "SUB",
-     "st": {
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -14458,7 +13425,6 @@
      "pos": "SUB"
     },
     {
-     "e": "55'",
      "fp": 0,
      "id": "382970",
      "n": "14",
@@ -14486,22 +13452,14 @@
      "id": "276081",
      "n": "31",
      "nome": "D. Riznyk",
-     "pos": "G",
-     "st": {
-      "df": 4,
-      "gs": 1
-     }
+     "pos": "G"
     },
     {
      "fp": 2,
      "id": "307928",
      "n": "17",
      "nome": "Vinícius Tobias",
-     "pos": "RB",
-     "s": "82'",
-     "st": {
-      "fs": 2
-     }
+     "pos": "RB"
     },
     {
      "fp": 3,
@@ -14510,9 +13468,7 @@
      "nome": "Pedrinho",
      "pos": "LB",
      "st": {
-      "am": 1,
-      "fc": 1,
-      "fs": 2
+      "fs": 1
      }
     },
     {
@@ -14521,11 +13477,8 @@
      "n": "29",
      "nome": "Y. Nazaryna",
      "pos": "DM",
-     "s": "89'",
      "st": {
-      "cg": 1,
-      "ch": 3,
-      "fc": 1
+      "ch": 1
      }
     },
     {
@@ -14533,11 +13486,7 @@
      "id": "276070",
      "n": "5",
      "nome": "V. Bondar",
-     "pos": "CD-R",
-     "st": {
-      "am": 1,
-      "fc": 1
-     }
+     "pos": "CD-R"
     },
     {
      "fp": 6,
@@ -14546,7 +13495,7 @@
      "nome": "M. Matviyenko",
      "pos": "CD-L",
      "st": {
-      "fs": 3
+      "fs": 1
      }
     },
     {
@@ -14556,10 +13505,8 @@
      "nome": "A. Santana",
      "pos": "RM",
      "st": {
-      "cg": 1,
-      "ch": 3,
-      "fc": 4,
-      "fs": 2
+      "ch": 1,
+      "fc": 1
      }
     },
     {
@@ -14569,8 +13516,7 @@
      "nome": "O. Ocheretko",
      "pos": "CM-R",
      "st": {
-      "fc": 1,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -14578,37 +13524,26 @@
      "id": "268019",
      "n": "2",
      "nome": "L. Traoré",
-     "pos": "F",
-     "s": "82'",
-     "st": {
-      "fc": 2,
-      "fs": 1
-     }
+     "pos": "F"
     },
     {
      "fp": 10,
      "id": "314851",
      "n": "6",
      "nome": "M. Gomes",
-     "pos": "CM-L",
-     "s": "55'"
+     "pos": "CM-L"
     },
     {
      "fp": 11,
      "id": "361629",
      "n": "11",
      "nome": "Newertton",
-     "pos": "LM",
-     "st": {
-      "ch": 2,
-      "fc": 2,
-      "fs": 2
-     }
+     "pos": "LM"
     }
    ]
   },
   "comp": "champions",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -14662,16 +13597,11 @@
      "pos": "SUB"
     },
     {
-     "e": "86'",
      "fp": 0,
      "id": "139437",
      "n": "9",
      "nome": "R. Lukaku",
-     "pos": "SUB",
-     "st": {
-      "cg": 1,
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -14681,7 +13611,6 @@
      "pos": "SUB"
     },
     {
-     "e": "78'",
      "fp": 0,
      "id": "248676",
      "n": "6",
@@ -14689,17 +13618,11 @@
      "pos": "SUB"
     },
     {
-     "e": "69'",
      "fp": 0,
      "id": "211923",
      "n": "17",
      "nome": "I. Kahveci",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "fs": 1,
-      "imp": 1
-     }
+     "pos": "SUB"
     }
    ],
    "titulares": [
@@ -14708,10 +13631,7 @@
      "id": "176948",
      "n": "31",
      "nome": "Ederson",
-     "pos": "G",
-     "st": {
-      "df": 2
-     }
+     "pos": "G"
     },
     {
      "fp": 2,
@@ -14720,7 +13640,6 @@
      "nome": "N. Semedo",
      "pos": "RB",
      "st": {
-      "ch": 1,
       "fc": 1
      }
     },
@@ -14729,31 +13648,21 @@
      "id": "320982",
      "n": "3",
      "nome": "A. Brown",
-     "pos": "LB",
-     "st": {
-      "fs": 1
-     }
+     "pos": "LB"
     },
     {
      "fp": 4,
      "id": "173556",
      "n": "91",
      "nome": "N. Kanté",
-     "pos": "LM",
-     "st": {
-      "fc": 1,
-      "fs": 1
-     }
+     "pos": "LM"
     },
     {
      "fp": 5,
      "id": "175195",
      "n": "37",
      "nome": "M. Skriniar",
-     "pos": "CD-R",
-     "st": {
-      "fs": 1
-     }
+     "pos": "CD-R"
     },
     {
      "fp": 6,
@@ -14762,8 +13671,7 @@
      "nome": "K. Oppong",
      "pos": "CD-L",
      "st": {
-      "fc": 3,
-      "fs": 3
+      "fs": 1
      }
     },
     {
@@ -14771,24 +13679,14 @@
      "id": "322813",
      "n": "70",
      "nome": "O. Aydin",
-     "pos": "AM-R",
-     "st": {
-      "cg": 1,
-      "ch": 1,
-      "fc": 3
-     }
+     "pos": "AM-R"
     },
     {
      "fp": 8,
      "id": "305629",
      "n": "5",
      "nome": "I. Yüksek",
-     "pos": "RM",
-     "st": {
-      "am": 1,
-      "fc": 2,
-      "fs": 2
-     }
+     "pos": "RM"
     },
     {
      "fp": 9,
@@ -14796,14 +13694,9 @@
      "n": "19",
      "nome": "V. Muriqi",
      "pos": "F",
-     "s": "86'",
      "st": {
-      "cg": 1,
-      "ch": 6,
-      "fc": 2,
-      "fs": 1,
-      "g": 1,
-      "imp": 1
+      "ch": 2,
+      "fc": 1
      }
     },
     {
@@ -14812,12 +13705,8 @@
      "n": "11",
      "nome": "M. Greenwood",
      "pos": "AM",
-     "s": "78'",
      "st": {
-      "cg": 2,
-      "ch": 3,
-      "fc": 1,
-      "fs": 2
+      "fs": 1
      }
     },
     {
@@ -14825,67 +13714,20 @@
      "id": "306789",
      "n": "7",
      "nome": "K. Aktürkoglu",
-     "pos": "AM-L",
-     "s": "69'",
-     "st": {
-      "fc": 1
-     }
+     "pos": "AM-L"
     }
    ]
   },
   "inicio": "2026-11-25T17:00:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "Isaque",
-    "l": "c",
-    "m": "55'",
-    "sai": "M. Gomes"
-   },
-   {
-    "ent": "I. Kahveci",
-    "l": "f",
-    "m": "69'",
-    "sai": "K. Aktürkoglu"
-   },
-   {
-    "ent": "M. Guendouzi",
-    "l": "f",
-    "m": "78'",
-    "sai": "M. Greenwood"
-   },
-   {
-    "ent": "I. Azarovi",
-    "l": "c",
-    "m": "82'",
-    "sai": "Vinícius Tobias"
-   },
-   {
-    "ent": "L. Meirelles",
-    "l": "c",
-    "m": "82'",
-    "sai": "L. Traoré"
-   },
-   {
-    "ent": "R. Lukaku",
-    "l": "f",
-    "m": "86'",
-    "sai": "V. Muriqi"
-   },
-   {
-    "ent": "P. Obah",
-    "l": "c",
-    "m": "89'",
-    "sai": "Y. Nazaryna"
-   }
-  ],
+  "subs": [],
   "time_casa": "Shakhtar Donetsk",
   "time_fora": "Fenerbahce",
   "v": 3
  },
  "401915376": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
    "esquema": "3-5-2",
    "reservas": [
@@ -14897,7 +13739,6 @@
      "pos": "SUB"
     },
     {
-     "e": "86'",
      "fp": 0,
      "id": "319167",
      "n": "17",
@@ -14912,30 +13753,18 @@
      "pos": "SUB"
     },
     {
-     "e": "86'",
      "fp": 0,
      "id": "240109",
      "n": "5",
      "nome": "A. Stankovic",
-     "pos": "SUB",
-     "st": {
-      "ch": 1,
-      "fc": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "69'",
      "fp": 0,
      "id": "219713",
      "n": "10",
      "nome": "L. Martínez",
-     "pos": "SUB",
-     "st": {
-      "cg": 1,
-      "ch": 3,
-      "fs": 1,
-      "g": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -14966,17 +13795,11 @@
      "pos": "SUB"
     },
     {
-     "e": "41'",
      "fp": 0,
      "id": "194748",
      "n": "32",
      "nome": "F. Dimarco",
-     "pos": "SUB",
-     "st": {
-      "a": 1,
-      "cg": 1,
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -14986,7 +13809,6 @@
      "pos": "SUB"
     },
     {
-     "e": "69'",
      "fp": 0,
      "id": "190257",
      "n": "21",
@@ -15002,8 +13824,7 @@
      "nome": "J. Martínez",
      "pos": "G",
      "st": {
-      "df": 1,
-      "fs": 2
+      "df": 1
      }
     },
     {
@@ -15014,9 +13835,7 @@
      "pos": "RM",
      "st": {
       "cg": 1,
-      "ch": 1,
-      "fc": 1,
-      "fs": 1
+      "ch": 1
      }
     },
     {
@@ -15026,8 +13845,7 @@
      "nome": "C. Augusto",
      "pos": "LM",
      "st": {
-      "fc": 1,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -15036,7 +13854,9 @@
      "n": "95",
      "nome": "A. Bastoni",
      "pos": "CD-L",
-     "s": "41'"
+     "st": {
+      "fs": 1
+     }
     },
     {
      "fp": 5,
@@ -15045,9 +13865,7 @@
      "nome": "M. Akanji",
      "pos": "CD",
      "st": {
-      "am": 1,
-      "ch": 1,
-      "fc": 1
+      "ch": 1
      }
     },
     {
@@ -15057,9 +13875,7 @@
      "nome": "Y. Bisseck",
      "pos": "CD-R",
      "st": {
-      "cg": 1,
-      "ch": 3,
-      "fc": 1
+      "ch": 1
      }
     },
     {
@@ -15067,11 +13883,7 @@
      "id": "204441",
      "n": "23",
      "nome": "N. Barella",
-     "pos": "CM-R",
-     "s": "86'",
-     "st": {
-      "ch": 1
-     }
+     "pos": "CM-R"
     },
     {
      "fp": 8,
@@ -15079,7 +13891,6 @@
      "n": "22",
      "nome": "H. Mkhitaryan",
      "pos": "CM-L",
-     "s": "69'",
      "st": {
       "ch": 1,
       "fs": 1
@@ -15091,12 +13902,9 @@
      "n": "9",
      "nome": "M. Thuram",
      "pos": "CF-L",
-     "s": "69'",
      "st": {
       "am": 1,
-      "ch": 3,
-      "fc": 1,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -15104,13 +13912,7 @@
      "id": "362674",
      "n": "94",
      "nome": "P. Esposito",
-     "pos": "CF-R",
-     "s": "86'",
-     "st": {
-      "ch": 2,
-      "fc": 2,
-      "fs": 2
-     }
+     "pos": "CF-R"
     },
     {
      "fp": 11,
@@ -15119,41 +13921,30 @@
      "nome": "P. Sucic",
      "pos": "AM",
      "st": {
-      "cg": 1,
-      "ch": 3,
-      "fc": 1,
-      "g": 1
+      "ch": 1,
+      "fc": 1
      }
     }
    ]
   },
   "comp": "champions",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "3-4-3",
    "reservas": [
     {
-     "e": "71'",
      "fp": 0,
      "id": "290232",
      "n": "6",
      "nome": "A. Stiller",
-     "pos": "SUB",
-     "st": {
-      "fc": 1,
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
-     "e": "84'",
      "fp": 0,
      "id": "304019",
      "n": "8",
      "nome": "T. Tomás",
-     "pos": "SUB",
-     "st": {
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -15177,15 +13968,11 @@
      "pos": "SUB"
     },
     {
-     "e": "63'",
      "fp": 0,
      "id": "290811",
      "n": "18",
      "nome": "J. Leweling",
-     "pos": "SUB",
-     "st": {
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -15195,7 +13982,6 @@
      "pos": "SUB"
     },
     {
-     "e": "71'",
      "fp": 0,
      "id": "332574",
      "n": "14",
@@ -15203,15 +13989,11 @@
      "pos": "SUB"
     },
     {
-     "e": "64'",
      "fp": 0,
      "id": "273300",
      "n": "26",
      "nome": "D. Undav",
-     "pos": "SUB",
-     "st": {
-      "fs": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -15243,8 +14025,7 @@
      "nome": "D. Seimen",
      "pos": "G",
      "st": {
-      "df": 3,
-      "gs": 2
+      "df": 1
      }
     },
     {
@@ -15253,9 +14034,7 @@
      "n": "4",
      "nome": "J. Vagnoman",
      "pos": "RM",
-     "s": "63'",
      "st": {
-      "fc": 1,
       "fs": 1
      }
     },
@@ -15266,7 +14045,6 @@
      "nome": "M. Mittelstädt",
      "pos": "LM",
      "st": {
-      "ch": 2,
       "fs": 1
      }
     },
@@ -15275,20 +14053,14 @@
      "id": "289322",
      "n": "3",
      "nome": "R. Hendriks",
-     "pos": "CD-L",
-     "st": {
-      "ch": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 5,
      "id": "258909",
      "n": "24",
      "nome": "J. Chabot",
-     "pos": "CD",
-     "st": {
-      "fs": 1
-     }
+     "pos": "CD"
     },
     {
      "fp": 6,
@@ -15296,11 +14068,8 @@
      "n": "29",
      "nome": "F. Jeltsch",
      "pos": "CD-R",
-     "s": "71'",
      "st": {
-      "am": 1,
-      "fc": 3,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -15309,11 +14078,8 @@
      "n": "28",
      "nome": "N. Nartey",
      "pos": "CM-R",
-     "s": "71'",
      "st": {
-      "cg": 1,
-      "ch": 2,
-      "fc": 3,
+      "fc": 1,
       "fs": 1
      }
     },
@@ -15322,11 +14088,7 @@
      "id": "403741",
      "n": "47",
      "nome": "Y. Spalt",
-     "pos": "CM-L",
-     "st": {
-      "fc": 1,
-      "fs": 1
-     }
+     "pos": "CM-L"
     },
     {
      "fp": 9,
@@ -15335,9 +14097,7 @@
      "nome": "E. Demirovic",
      "pos": "F",
      "st": {
-      "ch": 4,
-      "fc": 1,
-      "imp": 1
+      "ch": 2
      }
     },
     {
@@ -15345,11 +14105,7 @@
      "id": "336595",
      "n": "11",
      "nome": "B. El Khannouss",
-     "pos": "CF-R",
-     "s": "84'",
-     "st": {
-      "ch": 1
-     }
+     "pos": "CF-R"
     },
     {
      "fp": 11,
@@ -15357,7 +14113,6 @@
      "n": "10",
      "nome": "C. Führich",
      "pos": "CF-L",
-     "s": "64'",
      "st": {
       "cg": 1,
       "ch": 1
@@ -15367,77 +14122,16 @@
   },
   "inicio": "2026-11-25T17:00:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "F. Dimarco",
-    "l": "c",
-    "m": "41'",
-    "sai": "A. Bastoni"
-   },
-   {
-    "ent": "J. Leweling",
-    "l": "f",
-    "m": "63'",
-    "sai": "J. Vagnoman"
-   },
-   {
-    "ent": "D. Undav",
-    "l": "f",
-    "m": "64'",
-    "sai": "C. Führich"
-   },
-   {
-    "ent": "L. Martínez",
-    "l": "c",
-    "m": "69'",
-    "sai": "M. Thuram"
-   },
-   {
-    "ent": "C. Jones",
-    "l": "c",
-    "m": "69'",
-    "sai": "H. Mkhitaryan"
-   },
-   {
-    "ent": "A. Stiller",
-    "l": "f",
-    "m": "71'",
-    "sai": "N. Nartey"
-   },
-   {
-    "ent": "L. Jaquez",
-    "l": "f",
-    "m": "71'",
-    "sai": "F. Jeltsch"
-   },
-   {
-    "ent": "T. Tomás",
-    "l": "f",
-    "m": "84'",
-    "sai": "B. El Khannouss"
-   },
-   {
-    "ent": "A. Stankovic",
-    "l": "c",
-    "m": "86'",
-    "sai": "N. Barella"
-   },
-   {
-    "ent": "A. Diouf",
-    "l": "c",
-    "m": "86'",
-    "sai": "P. Esposito"
-   }
-  ],
+  "subs": [],
   "time_casa": "Inter de Milão",
   "time_fora": "VfB Stuttgart",
   "v": 3
  },
  "401915377": {
   "achada": "2026-11-25T17:26-03:00",
-  "atualizada": "2026-11-25T19:25-03:00",
+  "atualizada": "2026-11-25T20:20-03:00",
   "casa": {
-   "esquema": "4-1-4-1",
+   "esquema": "4-3-3",
    "reservas": [
     {
      "fp": 0,
@@ -15447,15 +14141,11 @@
      "pos": "SUB"
     },
     {
-     "e": "77'",
      "fp": 0,
      "id": "400352",
      "n": "35",
      "nome": "S. Diaoune",
-     "pos": "SUB",
-     "st": {
-      "ch": 2
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -15472,7 +14162,6 @@
      "pos": "SUB"
     },
     {
-     "e": "87'",
      "fp": 0,
      "id": "88965",
      "n": "9",
@@ -15480,7 +14169,6 @@
      "pos": "SUB"
     },
     {
-     "e": "77'",
      "fp": 0,
      "id": "337855",
      "n": "19",
@@ -15488,15 +14176,11 @@
      "pos": "SUB"
     },
     {
-     "e": "90'+2'",
      "fp": 0,
      "id": "250853",
      "n": "15",
      "nome": "R. Perraud",
-     "pos": "SUB",
-     "st": {
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -15513,7 +14197,6 @@
      "pos": "SUB"
     },
     {
-     "e": "87'",
      "fp": 0,
      "id": "393321",
      "n": "26",
@@ -15543,7 +14226,7 @@
      "nome": "B. Özer",
      "pos": "G",
      "st": {
-      "df": 7,
+      "df": 2,
       "gs": 1
      }
     },
@@ -15559,19 +14242,16 @@
      "id": "217381",
      "n": "24",
      "nome": "C. Verdonk",
-     "pos": "LB",
-     "s": "90'+2'"
+     "pos": "LB"
     },
     {
      "fp": 4,
      "id": "179187",
      "n": "6",
      "nome": "N. Bentaleb",
-     "pos": "DM",
+     "pos": "CM",
      "st": {
-      "ch": 1,
-      "fc": 1,
-      "fs": 2
+      "fs": 1
      }
     },
     {
@@ -15581,8 +14261,7 @@
      "nome": "N. Ngoy",
      "pos": "CD-R",
      "st": {
-      "a": 1,
-      "fs": 3
+      "fs": 1
      }
     },
     {
@@ -15590,31 +14269,25 @@
      "id": "340900",
      "n": "4",
      "nome": "Alexsandro",
-     "pos": "CD-L",
-     "st": {
-      "fs": 1
-     }
+     "pos": "CD-L"
     },
     {
      "fp": 7,
-     "id": "355971",
-     "n": "8",
-     "nome": "E. Mbappé",
+     "id": "345988",
+     "n": "17",
+     "nome": "N. Mukau",
      "pos": "RM",
-     "s": "77'",
      "st": {
-      "cg": 1,
-      "ch": 3
+      "ch": 1
      }
     },
     {
      "fp": 8,
-     "id": "345988",
-     "n": "17",
-     "nome": "N. Mukau",
-     "pos": "CM-R",
+     "id": "123683",
+     "n": "21",
+     "nome": "B. André",
+     "pos": "LM",
      "st": {
-      "ch": 2,
       "fs": 1
      }
     },
@@ -15624,47 +14297,36 @@
      "n": "18",
      "nome": "A. Ueda",
      "pos": "F",
-     "s": "77'",
      "st": {
-      "cg": 2,
-      "ch": 4,
-      "fc": 1,
-      "g": 1
+      "cg": 1,
+      "ch": 2
      }
     },
     {
      "fp": 10,
-     "id": "123683",
-     "n": "21",
-     "nome": "B. André",
-     "pos": "CM-L",
-     "s": "87'",
-     "st": {
-      "ch": 1,
-      "fs": 2
-     }
+     "id": "355971",
+     "n": "8",
+     "nome": "E. Mbappé",
+     "pos": "RF"
     },
     {
      "fp": 11,
      "id": "318779",
      "n": "10",
      "nome": "H. Haraldsson",
-     "pos": "LM",
-     "s": "87'",
+     "pos": "LF",
      "st": {
-      "ch": 1,
       "fs": 1
      }
     }
    ]
   },
   "comp": "champions",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "90'+2'",
      "fp": 0,
      "id": "188052",
      "n": "4",
@@ -15672,7 +14334,6 @@
      "pos": "SUB"
     },
     {
-     "e": "81'",
      "fp": 0,
      "id": "3104145",
      "n": "36",
@@ -15694,7 +14355,6 @@
      "pos": "SUB"
     },
     {
-     "e": "76'",
      "fp": 0,
      "id": "3104151",
      "n": "46",
@@ -15702,15 +14362,11 @@
      "pos": "SUB"
     },
     {
-     "e": "76'",
      "fp": 0,
      "id": "303821",
      "n": "10",
      "nome": "J. Musiala",
-     "pos": "SUB",
-     "st": {
-      "ch": 1
-     }
+     "pos": "SUB"
     },
     {
      "fp": 0,
@@ -15727,7 +14383,6 @@
      "pos": "SUB"
     },
     {
-     "e": "76'",
      "fp": 0,
      "id": "257390",
      "n": "14",
@@ -15743,8 +14398,7 @@
      "nome": "J. Urbig",
      "pos": "G",
      "st": {
-      "df": 2,
-      "gs": 2
+      "df": 1
      }
     },
     {
@@ -15753,7 +14407,6 @@
      "n": "44",
      "nome": "J. Stanisic",
      "pos": "RB",
-     "s": "76'",
      "st": {
       "imp": 1
      }
@@ -15763,12 +14416,7 @@
      "id": "97111",
      "n": "21",
      "nome": "H. Ito",
-     "pos": "LB",
-     "s": "76'",
-     "st": {
-      "cg": 1,
-      "ch": 2
-     }
+     "pos": "LB"
     },
     {
      "fp": 4,
@@ -15776,13 +14424,9 @@
      "n": "8",
      "nome": "T. Bischof",
      "pos": "LM",
-     "s": "76'",
      "st": {
       "a": 1,
-      "cg": 2,
-      "ch": 2,
-      "fc": 1,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -15793,8 +14437,7 @@
      "pos": "CD-R",
      "st": {
       "cg": 1,
-      "ch": 2,
-      "fc": 1,
+      "ch": 1,
       "g": 1
      }
     },
@@ -15803,8 +14446,7 @@
      "id": "157688",
      "n": "3",
      "nome": "K. Min-Jae",
-     "pos": "CD-L",
-     "s": "90'+2'"
+     "pos": "CD-L"
     },
     {
      "fp": 7,
@@ -15812,9 +14454,7 @@
      "n": "42",
      "nome": "L. Karl",
      "pos": "AM-R",
-     "s": "81'",
      "st": {
-      "ch": 1,
       "fc": 1
      }
     },
@@ -15825,8 +14465,7 @@
      "nome": "J. Kimmich",
      "pos": "RM",
      "st": {
-      "fc": 1,
-      "fs": 1
+      "fc": 1
      }
     },
     {
@@ -15836,10 +14475,7 @@
      "nome": "K. Laimer",
      "pos": "F",
      "st": {
-      "am": 1,
-      "cg": 1,
-      "ch": 2,
-      "fc": 4
+      "fc": 1
      }
     },
     {
@@ -15849,9 +14485,8 @@
      "nome": "A. Pavlovic",
      "pos": "AM",
      "st": {
-      "cg": 2,
-      "ch": 2,
-      "gc": 1
+      "cg": 1,
+      "ch": 1
      }
     },
     {
@@ -15861,76 +14496,14 @@
      "nome": "N. Brown",
      "pos": "AM-L",
      "st": {
-      "fc": 3,
-      "imp": 3
+      "imp": 1
      }
     }
    ]
   },
   "inicio": "2026-11-25T17:00:00-03:00",
   "pg": "",
-  "subs": [
-   {
-    "ent": "J. Musiala",
-    "l": "f",
-    "m": "76'",
-    "sai": "T. Bischof"
-   },
-   {
-    "ent": "L. Díaz",
-    "l": "f",
-    "m": "76'",
-    "sai": "J. Stanisic"
-   },
-   {
-    "ent": "T. Binder",
-    "l": "f",
-    "m": "76'",
-    "sai": "H. Ito"
-   },
-   {
-    "ent": "S. Diaoune",
-    "l": "c",
-    "m": "77'",
-    "sai": "E. Mbappé"
-   },
-   {
-    "ent": "B. Önal",
-    "l": "c",
-    "m": "77'",
-    "sai": "A. Ueda"
-   },
-   {
-    "ent": "N. Codjo-Evora",
-    "l": "f",
-    "m": "81'",
-    "sai": "L. Karl"
-   },
-   {
-    "ent": "O. Giroud",
-    "l": "c",
-    "m": "87'",
-    "sai": "H. Haraldsson"
-   },
-   {
-    "ent": "I. Cossier",
-    "l": "c",
-    "m": "87'",
-    "sai": "B. André"
-   },
-   {
-    "ent": "J. Tah",
-    "l": "f",
-    "m": "90'+2'",
-    "sai": "K. Min-Jae"
-   },
-   {
-    "ent": "R. Perraud",
-    "l": "c",
-    "m": "90'+2'",
-    "sai": "C. Verdonk"
-   }
-  ],
+  "subs": [],
   "time_casa": "Lille",
   "time_fora": "Bayern de Munique",
   "v": 3
