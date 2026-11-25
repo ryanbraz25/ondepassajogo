@@ -627,7 +627,7 @@ function chanLink(c,g){
  const rg=P.regiao(c,g), fora=!P.alcanca(c,g), meu=P.temMeus()&&!fora&&(P.meu(c)||free);
  const cls='ch'+(free?' free':'')+(fora?' pz-fora':'')+(meu?' pz-meu':'');
  const tit=yt?`${x.nome} transmite de graça no YouTube`:rg&&fora?`${x.nome}: este jogo não passa no seu estado`:'';
- return `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener"${tit?` title="${esc(tit)}"`:''}>${esc(x.nome)}<small>${free?'<span class="gr">Grátis</span><span class="tp"> · '+esc(tipo)+'</span>':'<span class="tp">'+esc(tipo)+'</span>'}</small>${rg?`<small class="rg ${rg.cls}">${esc(rg.txt)}</small>`:''}</a>`;
+ return `<a class="${cls}" href="${esc(url)}" target="_blank" rel="${x.patrocinado&&url===x.url?'sponsored noopener':'noopener'}"${tit?` title="${esc(tit)}"`:''}>${esc(x.nome)}<small>${free?'<span class="gr">Grátis</span><span class="tp"> · '+esc(tipo)+'</span>':'<span class="tp">'+esc(tipo)+'</span>'}</small>${rg?`<small class="rg ${rg.cls}">${esc(rg.txt)}</small>`:''}</a>`;
 }
 /* WhatsApp: texto pronto (o *negrito* é do próprio WhatsApp), com horário de Brasília, canais e link */
 const SITE=location.origin, UTM='utm_source=whatsapp&utm_medium=compartilhar';

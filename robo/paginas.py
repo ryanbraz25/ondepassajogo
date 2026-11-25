@@ -274,6 +274,12 @@ def zap_lista(cx, jogos, titulo, caminho, limite=25):
     return "\n".join(linhas)
 
 
+def rel_canal(cx, c, link):
+    """Link de afiliado (ex.: Prime Video com a etiqueta da Amazon) vai marcado como patrocinado."""
+    info = cx.canais.get(c) or {}
+    return "sponsored noopener" if info.get("patrocinado") and link == info.get("url") else "noopener"
+
+
 def lista_canais(cx, j):
     if not j.get("canais"):
         if sem_tx(j):
@@ -283,7 +289,7 @@ def lista_canais(cx, j):
     for c in j["canais"]:
         nome, tipo, link, gratis = cx.canal_info(j, c)
         selo = '<span class="gr">Grátis</span>' if gratis else ""
-        tag = f'<a class="canal" href="{e(link)}" target="_blank" rel="noopener">' if link else '<span class="canal">'
+        tag = f'<a class="canal" href="{e(link)}" target="_blank" rel="{rel_canal(cx, c, link)}">' if link else '<span class="canal">'
         fim = "</a>" if link else "</span>"
         itens.append(f'{tag}<b>{e(nome)}</b><small>{e(tipo)}</small>{selo}{fim}')
     aviso = '<p class="aconf">Transmissão a confirmar: ainda não saiu anúncio oficial.</p>' if j.get("status") == "a_confirmar" else ""
@@ -637,7 +643,7 @@ def pagina_jogo(cx, j):
         miolo = f'<span class="cn"><b>{e(nome)}</b><small>{e(sub)}</small>{rg}</span><span class="ir">{acao} <span aria-hidden="true">›</span></span>'
         cls = "ver gratis" if gr else "ver"
         attrs = f' data-canal="{e(c)}"' + (f' data-reg="{e(",".join(reg))}"' if reg else "") + (' data-gr="1"' if gr else "")
-        botoes += (f'<a class="{cls}" href="{e(link)}" target="_blank" rel="noopener"{attrs}>{miolo}</a>' if link
+        botoes += (f'<a class="{cls}" href="{e(link)}" target="_blank" rel="{rel_canal(cx, c, link)}"{attrs}>{miolo}</a>' if link
                    else f'<span class="{cls}"{attrs}>{miolo}</span>')
     zap = botao_zap(zap_jogo(cx, j), "Mandar no WhatsApp", "jogo", "zap zapj")
     if botoes:

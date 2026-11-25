@@ -352,6 +352,7 @@ def aplicar_afiliado(cfg):
         if c.get("afiliado") == "amazon":
             sep = "&" if "?" in c["url"] else "?"
             c["url"] = f'{c["url"]}{sep}tag={urllib.parse.quote(tag)}'
+            c["patrocinado"] = True  # link de afiliado: vai com rel="sponsored" (regra do Google)
 
 
 # ---------------------------------------------------------------- Escudos e bandeiras
@@ -523,6 +524,9 @@ def main():
 
     import extras
     hist = extras.historico(cfg, nome, get_json, jogos, OFFLINE)
+    for x in hist["jogos"].values():  # a ESPN manda os estádios sem acento
+        if x.get("local"):
+            x["local"] = acentua(cfg, x["local"])
     if OFFLINE:
         tabs = extras.ler(extras.TABELAS, {})
     else:
