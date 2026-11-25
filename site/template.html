@@ -327,9 +327,11 @@ img.lgi{display:inline-block;width:18px;height:18px;object-fit:contain;vertical-
 @media(min-width:960px){
  #days{scroll-snap-type:x mandatory}
  #days .day{flex:0 0 calc((100% - 112px)/15);min-width:0;padding-inline:4px;scroll-snap-align:start}
- .dnav{display:grid;place-items:center;position:absolute;top:6px;bottom:18px;margin:auto 0;width:32px;height:32px;padding:0;border-radius:50%;border:1px solid rgba(255,255,255,.45);background:rgba(0,0,0,.28);color:var(--chalk);font:700 22px/1 Barlow,sans-serif;cursor:pointer;z-index:2}
- .dnav:hover{border-color:var(--gold);color:var(--gold)}
- .dprev{left:calc(3px - 4vw)}.dnext{right:calc(3px - 4vw)}
+ .dnav{display:grid;place-items:center;position:absolute;top:6px;bottom:18px;margin:auto 0;width:40px;height:40px;padding:0;border-radius:50%;border:0;background:#fff;color:#0a3d20;box-shadow:0 4px 14px rgba(0,0,0,.28);cursor:pointer;z-index:2;transition:transform .15s,background .15s}
+ .dnav svg{width:20px;height:20px}
+ .dnav:hover{background:var(--gold);transform:scale(1.06)}
+ .dnav:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+ .dprev{left:calc(-2px - 4vw)}.dnext{right:calc(-2px - 4vw)}
 }
 .dnav[hidden]{display:none!important}
 @media(max-width:959px){
@@ -340,8 +342,9 @@ img.lgi{display:inline-block;width:18px;height:18px;object-fit:contain;vertical-
 /* título do dia com setas para o dia anterior e o seguinte */
 h2.dh{align-items:center}
 .dnv{display:inline-flex;align-items:center;gap:8px;min-width:0}
-.dpn{flex:0 0 auto;display:grid;place-items:center;width:30px;height:30px;padding:0;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:700 20px/1 Barlow,sans-serif;cursor:pointer}
-.dpn:hover:not(:disabled){border-color:var(--pitch);color:var(--pitch)}
+.dpn{flex:0 0 auto;display:grid;place-items:center;width:34px;height:34px;padding:0;border-radius:50%;border:0;background:color-mix(in srgb,var(--pitch) 12%,transparent);color:var(--pitch);cursor:pointer;transition:background .15s,color .15s,transform .15s}
+.dpn:hover:not(:disabled){background:var(--pitch);color:#fff;transform:scale(1.05)}
+.dpn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 .dpn:disabled{opacity:.3;cursor:default}
 .carreg{display:flex;align-items:center;gap:10px}
 .carreg::before{content:"";width:16px;height:16px;border-radius:50%;border:2px solid var(--line);border-top-color:var(--pitch);animation:gira .8s linear infinite}
@@ -491,9 +494,9 @@ __ADSENSE_HEAD__
    <div class="nextbox" id="next" aria-live="polite"></div>
   </div>
   <div class="dwrap">
-   <button class="dnav dprev" id="dprev" type="button" aria-label="Ver dias anteriores" hidden>‹</button>
+   <button class="dnav dprev" id="dprev" type="button" aria-label="Ver dias anteriores" hidden><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
    <nav class="days" id="days" aria-label="Escolher dia"></nav>
-   <button class="dnav dnext" id="dnext" type="button" aria-label="Ver próximos dias" hidden>›</button>
+   <button class="dnav dnext" id="dnext" type="button" aria-label="Ver próximos dias" hidden><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
   </div>
  </div>
 </header>
@@ -601,6 +604,7 @@ const P = window.OPJP || {uf:()=>'',ufsTxt:l=>l.join(', '),alcanca:()=>true,regi
 window.OPJ_CANAIS = D.canais;
 const games = D.jogos.map((g,i)=>({...g,i,t:new Date(g.inicio),k:dayKey(new Date(g.inicio))})).sort((a,b)=>a.t-b.t||a.casa.localeCompare(b.casa));
 const $ = id => document.getElementById(id);
+const SETA_E='<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>', SETA_D='<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'; // setas (chevron) dos dias
 
 let saved=[]; try{saved=JSON.parse(localStorage.getItem('ligas')||'[]')}catch(_){}
 let favs=[]; try{favs=JSON.parse(localStorage.getItem('favs')||'[]')}catch(_){}
@@ -924,7 +928,7 @@ function renderList(){
  }
  const today=dayKey(new Date()), past=S.day<today, ks=diasKeys(), pos=ks.indexOf(S.day);
  const prev=ks[pos-1]||'', next=ks[pos+1]||'';
- const tit=sm=>bar+`<h2 class="dh"><span class="dnv"><button class="dpn" type="button" data-go="${prev}" aria-label="Dia anterior"${prev?` title="${esc(cap(longDay(noon(prev))))}"`:' disabled'}>‹</button><span>${esc(longDay(noon(S.day)))}</span><button class="dpn" type="button" data-go="${next}" aria-label="Próximo dia"${next?` title="${esc(cap(longDay(noon(next))))}"`:' disabled'}>›</button></span><small>${sm}</small></h2>`;
+ const tit=sm=>bar+`<h2 class="dh"><span class="dnv"><button class="dpn" type="button" data-go="${prev}" aria-label="Dia anterior"${prev?` title="${esc(cap(longDay(noon(prev))))}"`:' disabled'}>${SETA_E}</button><span>${esc(longDay(noon(S.day)))}</span><button class="dpn" type="button" data-go="${next}" aria-label="Próximo dia"${next?` title="${esc(cap(longDay(noon(next))))}"`:' disabled'}>${SETA_D}</button></span><small>${sm}</small></h2>`;
  if(past&&!temDia(S.day)){
   if(PASSC[S.day]==='erro'){setList(tit('Resultados')+`<p class="empty">Não deu para carregar os jogos deste dia. <button class="jump" type="button" data-rk="${S.day}">Tentar de novo</button></p>`);return}
   setList(tit('Resultados')+'<p class="empty carreg" role="status">Carregando resultados…</p>');
