@@ -74,6 +74,8 @@ a.ver:hover{border-color:var(--link)}
 .ver.gratis .cn small{color:rgba(255,255,255,.85)}
 .ver.gratis .ir{background:#fff;color:var(--pitch);border-radius:999px;padding:7px 14px}
 a.ver.gratis:hover{filter:brightness(1.08)}
+.ver.radio{border-style:dashed}
+.ver.radio .ir{color:var(--mute)}
 .ofc{color:var(--mute);font-size:14px;margin:8px 0 0}
 .cta2{margin:18px 0 0}
 .cta2 a{display:inline-block;border:1.5px solid var(--link);color:var(--link);text-decoration:none;font-weight:700;border-radius:999px;padding:8px 16px;font-size:15px}

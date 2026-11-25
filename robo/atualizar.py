@@ -270,7 +270,8 @@ def aplicar_regioes(cfg, jogo, entrada):
     """Canal que só passa em alguns estados (ex.: Globo) e jogo sem transmissão no Brasil.
 
     Em canais.json: "regioes": {"globo": ["MG", "RS"]} vira "reg" no jogo (só canais do jogo e siglas
-    de UF válidas); "status": "sem_transmissao" deixa o jogo sem canais, para o site dizer isso claramente."""
+    de UF válidas); "status": "sem_transmissao" deixa o jogo sem TV nem streaming (só rádio, se houver),
+    para o site dizer isso claramente."""
     reg = {}
     for c, ufs in (entrada.get("regioes") or {}).items():
         ufs = sorted({str(u).strip().upper() for u in (ufs or [])} & UFS)
@@ -281,9 +282,14 @@ def aplicar_regioes(cfg, jogo, entrada):
     elif "regioes" in entrada:  # a pesquisa nova tirou a restrição
         jogo.pop("reg", None)
     if jogo.get("status") == "sem_transmissao":
-        jogo["canais"] = []
+        # sem imagem no Brasil: só fica a narração de rádio (se a pesquisa achou), nunca TV ou streaming
+        radios = [c for c in jogo.get("canais", []) if (cfg["canais"].get(c) or {}).get("tipo") == "Rádio"]
+        jogo["canais"] = radios
         jogo.pop("reg", None)
-        jogo.pop("links", None)
+        if radios:
+            jogo["links"] = {c: u for c, u in (jogo.get("links") or {}).items() if c in radios}
+        else:
+            jogo.pop("links", None)
 
 
 # ---------------------------------------------------------------- YouTube

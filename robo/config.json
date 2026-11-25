@@ -118,6 +118,46 @@
    "nome": "DAZN",
    "tipo": "Streaming",
    "url": "https://www.dazn.com/pt-BR/home"
+  },
+  "radio-itatiaia": {
+   "nome": "Rádio Itatiaia",
+   "tipo": "Rádio",
+   "url": "https://www.itatiaia.com.br/"
+  },
+  "radio-gaucha": {
+   "nome": "Rádio Gaúcha",
+   "tipo": "Rádio",
+   "url": "https://gauchazh.clicrbs.com.br/radio-gaucha/"
+  },
+  "radio-guaiba": {
+   "nome": "Rádio Guaíba",
+   "tipo": "Rádio",
+   "url": "https://guaiba.com.br/"
+  },
+  "radio-bandeirantes": {
+   "nome": "Rádio Bandeirantes",
+   "tipo": "Rádio",
+   "url": "https://www.band.uol.com.br/radio-bandeirantes"
+  },
+  "radio-jovempan": {
+   "nome": "Jovem Pan",
+   "tipo": "Rádio",
+   "url": "https://jovempan.com.br/"
+  },
+  "radio-cbn": {
+   "nome": "CBN",
+   "tipo": "Rádio",
+   "url": "https://cbn.globo.com/"
+  },
+  "radio-tupi": {
+   "nome": "Rádio Tupi",
+   "tipo": "Rádio",
+   "url": "https://www.tupi.fm/"
+  },
+  "radio-transamerica": {
+   "nome": "Rádio Transamérica",
+   "tipo": "Rádio",
+   "url": "https://www.transamerica.com.br/"
   }
  },
  "apelidos_canais": {

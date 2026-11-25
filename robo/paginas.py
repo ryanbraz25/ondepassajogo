@@ -128,12 +128,16 @@ class Ctx:
         link = (j.get("links") or {}).get(c) or info.get("url", "")
         yt = "youtube.com" in link or "youtu.be" in link
         gratis = info.get("tipo") in GRATIS or yt
-        tipo = "Grátis no YouTube" if yt and info.get("tipo") != "YouTube" else info.get("tipo", "")
+        tipo = ("Grátis no YouTube" if yt and info.get("tipo") != "YouTube"
+                else "Narração no rádio" if info.get("tipo") == "Rádio" else info.get("tipo", ""))
         nome = info.get("nome", c)
         reg = (j.get("reg") or {}).get(c)
         if reg and com_regiao:
             nome += f" ({ufs_txt(reg)})"
         return nome, tipo, link, gratis
+
+    def radio(self, c):
+        return (self.canais.get(c) or {}).get("tipo") == "Rádio"
 
     def tem_gratis(self, j):
         return any(self.canal_info(j, c)[3] for c in j.get("canais", []))
@@ -176,7 +180,7 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;1,900&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/p.css?v=5">
+<link rel="stylesheet" href="/p.css?v=6">
 <link rel="stylesheet" href="/menu.css?v=2">
 <link rel="stylesheet" href="/personaliza.css?v=2">
 <link rel="stylesheet" href="/rodadas.css?v=2">
@@ -243,8 +247,11 @@ def botao_zap(texto, rotulo, tipo, classe="zap"):
 
 
 def zap_canais(cx, j):
-    nomes = [cx.canal_info(j, c)[0] + (" (grátis)" if cx.canal_info(j, c)[3] and not (j.get("reg") or {}).get(c) else "")
-             for c in j.get("canais", [])]
+    nomes = [cx.canal_info(j, c)[0] + (" (narração)" if cx.radio(c) else
+                                      " (grátis)" if cx.canal_info(j, c)[3] and not (j.get("reg") or {}).get(c) else "")
+             for c in sorted(j.get("canais", []), key=cx.radio)]
+    if nomes and sem_tx(j):
+        return "sem imagem no Brasil; " + ", ".join(nomes)
     return ", ".join(nomes) or sem_canal(j, "canais a confirmar")
 
 
@@ -286,13 +293,14 @@ def lista_canais(cx, j):
             return '<p class="semcanal semtx">Sem transmissão no Brasil: nenhuma emissora anunciou este jogo.</p>'
         return '<p class="semcanal">Os canais ainda não foram anunciados. A gente atualiza esta página assim que sair a confirmação.</p>'
     itens = []
-    for c in j["canais"]:
+    for c in sorted(j["canais"], key=cx.radio):
         nome, tipo, link, gratis = cx.canal_info(j, c)
         selo = '<span class="gr">Grátis</span>' if gratis else ""
         tag = f'<a class="canal" href="{e(link)}" target="_blank" rel="{rel_canal(cx, c, link)}">' if link else '<span class="canal">'
         fim = "</a>" if link else "</span>"
         itens.append(f'{tag}<b>{e(nome)}</b><small>{e(tipo)}</small>{selo}{fim}')
-    aviso = '<p class="aconf">Transmissão a confirmar: ainda não saiu anúncio oficial.</p>' if j.get("status") == "a_confirmar" else ""
+    aviso = ('<p class="aconf">Transmissão a confirmar: ainda não saiu anúncio oficial.</p>' if j.get("status") == "a_confirmar"
+             else '<p class="semcanal semtx">Sem imagem no Brasil: dá para acompanhar pela narração no rádio.</p>' if sem_tx(j) else "")
     return '<div class="canais">' + "".join(itens) + "</div>" + aviso
 
 
@@ -551,7 +559,8 @@ def pagina_jogo(cx, j):
     t = j["_t"]
     casa, fora = j["casa"], j["fora"]
     comp = cx.comp_nome(j["comp"])
-    canais = [cx.canal_info(j, c) for c in j.get("canais", [])]
+    canais = [cx.canal_info(j, c) for c in sorted(j.get("canais", []), key=cx.radio)]
+    so_radio = bool(canais) and all(cx.radio(c) for c in j.get("canais", []))
     nomes = [c[0] for c in canais]
     gratis = [c[0] for c in canais if c[3]]
     lista_nomes = (", ".join(nomes[:-1]) + " e " + nomes[-1]) if len(nomes) > 1 else (nomes[0] if nomes else "")
@@ -562,13 +571,15 @@ def pagina_jogo(cx, j):
     titulo = (f"{casa} x {fora}: onde assistir ao vivo, horário e canais ({t:%d/%m})" if not encerrado
               else f"{casa} {placar['casa']} x {placar['fora']} {fora}: resultado e onde passou ({t:%d/%m})")
     desc = (f"{casa} x {fora} pelo {comp}, {data_curta(t)} às {hora(t)} (Brasília). "
-            + (f"Onde assistir: {lista_nomes}." if nomes else "Sem transmissão no Brasil." if sem_tx(j) else "Veja onde vai passar e o horário.")
+            + (f"Sem imagem no Brasil; narração: {lista_nomes}." if so_radio else f"Onde assistir: {lista_nomes}." if nomes else "Sem transmissão no Brasil." if sem_tx(j) else "Veja onde vai passar e o horário.")
             + (" Tem transmissão grátis." if gratis else ""))
     quando = f"{data_longa(t)}, às {hora(t)} (horário de Brasília)"
     texto = (f"{e(nl(casa))} e {e(nl(fora))} se enfrentam {e(quando)}"
              + (f", pela {e(rodada)}" if rodada else "") + f" {e(do_(comp))}"
              + (f", no {e(local)}" if local else "") + ". ")
-    if nomes:
+    if so_radio:
+        texto += f"Nenhuma emissora de TV ou streaming anunciou o jogo no Brasil; dá para acompanhar pela narração: {e(lista_nomes)}."
+    elif nomes:
         texto += f"Transmissão: {e(lista_nomes)}."
         if gratis:
             lg = (", ".join(gratis[:-1]) + " e " + gratis[-1]) if len(gratis) > 1 else gratis[0]
@@ -593,7 +604,7 @@ def pagina_jogo(cx, j):
     faq = f"""<h3>Que horas é o jogo {e(casa)} x {e(fora)}?</h3>
 <p>A partida começa às <b>{hora(t)}</b>, horário de Brasília, {e(data_longa(t))}.</p>
 <h3>Onde vai passar {e(casa)} x {e(fora)}?</h3>
-<p>{(f"{e(lista_nomes)}." if nomes else "Não há transmissão no Brasil." if sem_tx(j) else "Ainda não há canal confirmado.")}{(" Os botões acima levam direto para a transmissão oficial." if nomes else "")}</p>
+<p>{(f"Não há transmissão de imagem no Brasil. Narração: {e(lista_nomes)}." if so_radio else f"{e(lista_nomes)}." if nomes else "Não há transmissão no Brasil." if sem_tx(j) else "Ainda não há canal confirmado.")}{(" Os botões acima levam direto para a transmissão oficial." if nomes else "")}</p>
 <h3>Tem transmissão grátis?</h3>
 <p>{(f"Sim: {e(' e '.join(gratis))}." if gratis else ("Por enquanto, não há transmissão gratuita anunciada." if nomes else "Ainda não sabemos; confira de novo mais perto do jogo."))}</p>
 """
@@ -631,14 +642,14 @@ def pagina_jogo(cx, j):
     # canais: grátis primeiro, cada um vira um botão para a transmissão oficial.
     # data-canal e data-reg deixam o personaliza.js marcar "você assiste" e a Globo do estado da pessoa.
     botoes = ""
-    for c in sorted(j.get("canais", []), key=lambda c: not cx.canal_info(j, c)[3]):
+    for c in sorted(j.get("canais", []), key=lambda c: (cx.radio(c), not cx.canal_info(j, c)[3])):
         nome, tipo, link, gr = cx.canal_info(j, c, com_regiao=False)
         reg = (j.get("reg") or {}).get(c) or []
         sub = "Grátis" + (f" · {tipo}" if tipo and tipo != "Grátis no YouTube" else " · YouTube" if "YouTube" in tipo else "") if gr else tipo
-        acao = ("Assistir grátis" if gr else "Assistir") if not encerrado else "Abrir"
+        acao = ("Ouvir" if cx.radio(c) else "Assistir grátis" if gr else "Assistir") if not encerrado else "Abrir"
         rg = f'<small class="rg">Só em {e(ufs_txt(reg))}</small>' if reg else ""
         miolo = f'<span class="cn"><b>{e(nome)}</b><small>{e(sub)}</small>{rg}</span><span class="ir">{acao} <span aria-hidden="true">›</span></span>'
-        cls = "ver gratis" if gr else "ver"
+        cls = "ver radio" if cx.radio(c) else "ver gratis" if gr else "ver"
         attrs = f' data-canal="{e(c)}"' + (f' data-reg="{e(",".join(reg))}"' if reg else "") + (' data-gr="1"' if gr else "")
         botoes += (f'<a class="{cls}" href="{e(link)}" target="_blank" rel="{rel_canal(cx, c, link)}"{attrs}>{miolo}</a>' if link
                    else f'<span class="{cls}"{attrs}>{miolo}</span>')
@@ -646,6 +657,7 @@ def pagina_jogo(cx, j):
     if botoes:
         bloco_canais = (f'<div class="botoes">{botoes}</div>'
                         + ('<p class="aconf">Transmissão a confirmar: ainda não saiu anúncio oficial.</p>' if j.get("status") == "a_confirmar"
+                           else '<p class="semcanal semtx">Sem imagem no Brasil: nenhuma TV ou streaming anunciou este jogo. Dá para acompanhar pela narração no rádio.</p>' if sem_tx(j)
                            else '<p class="ofc">Os botões abrem a página oficial de cada emissora.</p>')
                         + (f'<p class="pz-uf" data-pz-uf>Algum canal só passa em alguns estados. '
                            f'<button type="button" class="lnk" data-prefs="uf">Escolher meu estado</button></p>' if j.get("reg") else ""))

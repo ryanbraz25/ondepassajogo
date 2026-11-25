@@ -7,7 +7,7 @@ Vira a página /onde-passa/ e uma seção no fim de cada página de campeonato.
 """
 from html import escape as e
 
-ORDEM_TIPOS = ["TV aberta", "Grátis no YouTube", "YouTube", "TV fechada", "Streaming", "Pay-per-view", "App"]
+ORDEM_TIPOS = ["TV aberta", "Grátis no YouTube", "YouTube", "TV fechada", "Streaming", "Pay-per-view", "App", "Narração no rádio"]
 ROTULO_TIPO = {"Grátis no YouTube": "YouTube (grátis)", "YouTube": "YouTube (grátis)"}
 
 
