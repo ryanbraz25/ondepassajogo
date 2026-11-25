@@ -1,6 +1,6 @@
 {
  "comentario": "Gravado pela pesquisa noturna do Claude: canais (e rodada/nota) de cada jogo. O robô junta isso aos jogos da ESPN. Pode editar à mão.",
- "atualizado": "2026-11-24T14:12:00-03:00",
+ "atualizado": "2026-11-25T00:00:10-03:00",
  "jogos": [
   {
    "data": "2026-11-23",
@@ -180,6 +180,16 @@
   },
   {
    "data": "2026-11-25",
+   "casa": "San Jose Earthquakes",
+   "fora": "Houston Dynamo FC",
+   "canais": [
+    "appletv"
+   ],
+   "status": "confirmado",
+   "rodada": "Playoffs"
+  },
+  {
+   "data": "2026-11-25",
    "casa": "Sabah FK",
    "fora": "Barcelona",
    "inicio": "2026-11-25T14:45:00-03:00",
@@ -203,6 +213,27 @@
    ],
    "status": "confirmado",
    "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-25",
+   "casa": "Bolton Wanderers",
+   "fora": "West Bromwich Albion",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-25",
+   "casa": "Burnley",
+   "fora": "Birmingham City",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-25",
+   "casa": "Watford",
+   "fora": "Blackburn Rovers",
+   "canais": [],
+   "status": "a_confirmar"
   },
   {
    "data": "2026-11-25",
@@ -296,6 +327,16 @@
   },
   {
    "data": "2026-11-25",
+   "casa": "Stoke City",
+   "fora": "Millwall",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "data": "2026-11-25",
    "casa": "Atlético-MG",
    "fora": "Corinthians",
    "inicio": "2026-11-25T20:00:00-03:00",
@@ -309,6 +350,463 @@
    "local": "Arena MRV, Belo Horizonte"
   },
   {
+   "data": "2026-11-25",
+   "casa": "Boca Juniors",
+   "fora": "Independiente Rivadavia",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "confirmado",
+   "rodada": "Oitavas de final (Clausura)"
+  },
+  {
+   "data": "2026-11-25",
+   "casa": "Toluca",
+   "fora": "Atlas",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Monterrey",
+   "fora": "América",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Al Fateh",
+   "fora": "Al Riyadh",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Abha",
+   "fora": "Al Shabab",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Kairat Almaty",
+   "fora": "Mjällby AIF",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Al Faisaly",
+   "fora": "Al Diriyah",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Ajax Amsterdam",
+   "fora": "FC Thun",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Besiktas",
+   "fora": "Hapoel Be'er",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Brighton",
+   "fora": "CSU Craiova",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Celta Vigo",
+   "fora": "Bournemouth",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Dinamo Zagreb",
+   "fora": "Bayer Leverkusen",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Egnatia",
+   "fora": "Lincoln Red Imps",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Heart of Midlothian",
+   "fora": "AS Monaco",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Iberia 1999",
+   "fora": "Getafe",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Jablonec",
+   "fora": "FC Lugano",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Kauno Zalgiris",
+   "fora": "Riga FC",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Marseille",
+   "fora": "Levski Sofia",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Olympiacos",
+   "fora": "Milan",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Pafos",
+   "fora": "FC Midtjylland",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "RB Salzburg",
+   "fora": "Ararat-Armenia",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "SK Brann",
+   "fora": "AGF",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Union St.-Gilloise",
+   "fora": "Lech Poznan",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Viktoria Plzen",
+   "fora": "Benfica",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Borac Banja Luka",
+   "fora": "Atalanta",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Braga",
+   "fora": "KuPS Kuopio",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "CSKA Sofia",
+   "fora": "Trabzonspor",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Crystal Palace",
+   "fora": "Real Sociedad",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "FC Nordsjælland",
+   "fora": "Panathinaikos",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Ferencvaros",
+   "fora": "NK Celje",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Hajduk Split",
+   "fora": "Sint-Truidense",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Inter D'Escaldes",
+   "fora": "F.C. København",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Juventus",
+   "fora": "Omonia Nicosia",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "KAA Gent",
+   "fora": "Red Star Belgrade",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Lyon",
+   "fora": "Lillestrom",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "NEC Nijmegen",
+   "fora": "Stade Rennais",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "OFI Crete",
+   "fora": "Anderlecht",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "SC Freiburg",
+   "fora": "FC Twente",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Sparta Prague",
+   "fora": "AZ Alkmaar",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Sunderland",
+   "fora": "Jagiellonia Bialystok",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "TSG Hoffenheim",
+   "fora": "SK Sturm Graz",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   },
+   "rodada": "5ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Torreense",
+   "fora": "Celtic",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "rodada": "5ª rodada"
+  },
+  {
    "data": "2026-11-26",
    "casa": "São Paulo",
    "fora": "Remo",
@@ -319,6 +817,134 @@
    ],
    "status": "confirmado",
    "rodada": "37ª rodada"
+  },
+  {
+   "data": "2026-11-26",
+   "casa": "Pachuca",
+   "fora": "Guadalajara",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "León",
+   "fora": "Cruz Azul",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Al Kholood",
+   "fora": "Al Khaleej",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Al Qadsiah",
+   "fora": "Al Fayha",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Alanyaspor",
+   "fora": "Konyaspor",
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Caykur Rizespor",
+   "fora": "Kasimpasa",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Al Ittihad",
+   "fora": "Neom SC",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "FC Groningen",
+   "fora": "Willem II",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Werder Bremen",
+   "fora": "Borussia Mönchengladbach",
+   "canais": [],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Brest",
+   "fora": "Paris FC",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Venezia",
+   "fora": "Bologna",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Levante",
+   "fora": "Racing Santander",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Nottingham Forest",
+   "fora": "Chelsea",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "confirmado"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Southampton",
+   "fora": "Middlesbrough",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Maritimo",
+   "fora": "C.D. Nacional",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar"
   },
   {
    "data": "2026-11-27",
@@ -353,6 +979,38 @@
    "nota": "Decide vaga na Série A; clássico"
   },
   {
+   "data": "2026-11-27",
+   "casa": "Columbus Crew",
+   "fora": "Inter Miami CF",
+   "canais": [
+    "appletv"
+   ],
+   "status": "confirmado",
+   "rodada": "Playoffs"
+  },
+  {
+   "data": "2026-11-28",
+   "casa": "Manchester United",
+   "fora": "Brentford",
+   "canais": [
+    "espn",
+    "disney"
+   ],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-28",
+   "casa": "Paris Saint-Germain",
+   "fora": "Lorient",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
+  },
+  {
    "data": "2026-11-28",
    "casa": "Palmeiras",
    "fora": "Estudiantes",
@@ -372,6 +1030,18 @@
    "rodada": "Final",
    "nota": "Final em jogo único",
    "local": "Estádio Centenário, Montevidéu"
+  },
+  {
+   "data": "2026-11-28",
+   "casa": "Real Madrid",
+   "fora": "Alavés",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "confirmado",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-28",
