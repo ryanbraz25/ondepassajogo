@@ -562,7 +562,6 @@ def main():
         "canais": cfg["canais"],
         "competicoes": {k: {x: v[x] for x in ("nome", "curto", "cor", "principal")} for k, v in cfg["competicoes"].items()},
         "jogos": jogos,
-        "sugestoes": {k: v for k, v in cfg.get("sugestoes", {}).items() if k != "comentario"},
         "popularidade": {k: v for k, v in cfg.get("popularidade", {}).items() if k != "comentario"},
         "escudos": escudos(cfg, jogos, logos),
         "logos_ligas": logos_ligas(cfg),
