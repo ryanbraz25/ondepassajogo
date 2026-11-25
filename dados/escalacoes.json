@@ -1989,5 +1989,269 @@
   "time_casa": "St. Louis CITY SC",
   "time_fora": "LAFC",
   "v": 2
+ },
+ "401933738": {
+  "achada": "2026-11-24T23:39-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "P. Marie",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "4",
+     "nome": "D. Romney",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "2",
+     "nome": "J. Ricketts",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "20",
+     "nome": "N. Fernandez",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "J. Jasinski",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "1",
+     "nome": "A. Gunn",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "25",
+     "nome": "M. Floriani",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "7",
+     "nome": "O. Bouda",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "6",
+     "nome": "I. Harkes",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "36",
+     "nome": "E. Edwards",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "28",
+     "nome": "B. Kikanovic",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "87",
+     "nome": "V. Costa",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "34",
+     "nome": "B. Leroux",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "5",
+     "nome": "D. Munie",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "18",
+     "nome": "R. Roberts",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "23",
+     "nome": "E. Löwen",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "14",
+     "nome": "R. Vieira",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "19",
+     "nome": "P. Judd",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "10",
+     "nome": "N. Tsakiris",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "11",
+     "nome": "T. Werner",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "comp": "mls",
+  "completa": false,
+  "fora": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "n": "26",
+     "nome": "B. Gillingham",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "17",
+     "nome": "N. Markanich",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "11",
+     "nome": "L. Ennali",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "3",
+     "nome": "Antônio Carlos",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "23",
+     "nome": "D. McGuire",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "4",
+     "nome": "M. Saracchi",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "30",
+     "nome": "A. Bouzat",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "37",
+     "nome": "G. Rivera",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "n": "18",
+     "nome": "D. Samassekou",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "n": "31",
+     "nome": "J. Bond",
+     "pos": "G"
+    },
+    {
+     "fp": 2,
+     "n": "6",
+     "nome": "Artur",
+     "pos": "RB"
+    },
+    {
+     "fp": 3,
+     "n": "21",
+     "nome": "F. Negri",
+     "pos": "LB"
+    },
+    {
+     "fp": 4,
+     "n": "16",
+     "nome": "H. Herrera",
+     "pos": "LM"
+    },
+    {
+     "fp": 5,
+     "n": "5",
+     "nome": "L. Halter",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "n": "34",
+     "nome": "A. Resch",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "n": "19",
+     "nome": "M. Bogusz",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "n": "24",
+     "nome": "I. Aliyu",
+     "pos": "RM"
+    },
+    {
+     "fp": 9,
+     "n": "9",
+     "nome": "L. Foster",
+     "pos": "F"
+    },
+    {
+     "fp": 10,
+     "n": "14",
+     "nome": "D. Holmes",
+     "pos": "AM"
+    },
+    {
+     "fp": 11,
+     "n": "20",
+     "nome": "Guilherme Augusto",
+     "pos": "AM-L"
+    }
+   ]
+  },
+  "inicio": "2026-11-25T00:00:00-03:00",
+  "pg": "",
+  "time_casa": "San Jose Earthquakes",
+  "time_fora": "Houston Dynamo FC",
+  "v": 2
  }
 }
