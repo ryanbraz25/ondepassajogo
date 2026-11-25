@@ -1,4 +1,4 @@
-"""Avisos no celular: resumo do dia às 9h (horário de Brasília).
+"""Avisos no celular: resumo do dia às 9h, escalação saiu e "começa em 1 hora" (horário de Brasília).
 
 Roda no GitHub depois do robô da agenda, a cada passo de hora em hora. Envia uma vez por dia:
 lê os inscritos no Firestore (projeto Firebase do site), monta uma mensagem para cada pessoa
@@ -8,6 +8,7 @@ e manda pelo Firebase Cloud Messaging. O texto não entrega o canal: chama para 
 Precisa do segredo FIREBASE_SA (JSON da conta de serviço). Sem ele, não faz nada.
 Teste sem enviar: python robo/avisos.py --simular
 Forçar envio fora do horário (uma vez): python robo/avisos.py --agora
+Só o aviso "começa em 1 hora" (workflow avisos.yml, a cada 15 min): python robo/avisos.py --inicio
 """
 import json
 import os
@@ -19,6 +20,8 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 BRT = timezone(timedelta(hours=-3))
 ESTADO = RAIZ / "dados" / "avisos_estado.json"
+# o aviso "começa em 1 hora" roda em outro workflow (avisos.yml): estado separado para os dois não brigarem no git
+ESTADO_INICIO = RAIZ / "dados" / "avisos_inicio.json"
 SITE = "https://ondepassajogo.com.br/"
 GRATIS = {"TV aberta", "YouTube"}
 
@@ -223,6 +226,57 @@ def aviso_escalacao(fb, cfg, estado, agora):
         estado["escalacoes"] = sorted(feitos)[-200:]
 
 
+def canais_txt(dados, j):
+    """'Premiere e CazéTV (grátis)': grátis primeiro, no máximo três."""
+    canais = dados.get("canais", {})
+    lista = []
+    for c in j.get("canais", []):
+        info = canais.get(c) or {"nome": c}
+        link = (j.get("links") or {}).get(c, "")
+        gr = info.get("tipo") in GRATIS or "youtube.com" in link or "youtu.be" in link
+        lista.append((not gr, info.get("nome", c) + (" (grátis)" if gr else "")))
+    nomes = [n for _, n in sorted(lista)][:3]
+    return ", ".join(nomes[:-1]) + " e " + nomes[-1] if len(nomes) > 1 else (nomes[0] if nomes else "")
+
+
+def aviso_inicio(fb, cfg, estado, agora):
+    """'Começa em 1 hora': para quem marcou o jogo (sino) e para quem segue um dos times. Uma vez por jogo.
+
+    Vale para jogos que começam entre agora e +75 min (roda a cada 15 min pelo workflow avisos.yml)."""
+    dados = ler(RAIZ / "dados" / "jogos.json")
+    feitos = set(estado.get("inicio", []))
+    pend = []
+    for j in dados["jogos"]:
+        if "A definir" in (j["casa"], j["fora"]) or j.get("placar") or (j.get("nota") or "") in ("Adiado", "Cancelado"):
+            continue
+        ini = datetime.fromisoformat(j["inicio"]).astimezone(BRT)
+        chave = j.get("pg") or f"{j['comp']}|{j['casa']}|{j['fora']}|{j['inicio'][:10]}"
+        if chave in feitos or not (timedelta(0) < ini - agora <= timedelta(minutes=75)):
+            continue
+        pend.append((chave, j, ini))
+    if not pend:
+        return log("início: nenhum jogo começando na próxima hora")
+    for chave, j, ini in pend:
+        url = SITE.rstrip("/") + (j.get("pg") or "/") + "?utm_source=push&utm_medium=notificacao&utm_campaign=inicio"
+        can = canais_txt(dados, j)
+        primeiro = can.split(",")[0].split(" e ")[0].replace(" (grátis)", "")
+        titulo = f"⏰ {j['casa']} x {j['fora']} começa às {hhmm(ini)}" + (f" · {primeiro}" if primeiro else "")
+        corpo = (f"Onde passa: {can}. Toque para abrir os links oficiais." if can
+                 else "Os canais ainda não foram anunciados. Toque para acompanhar.")
+        envios = []
+        for p in fb.inscritos():
+            marcou = chave in (p.get("jogos") or [])
+            segue = bool({j["casa"], j["fora"]} & set(p.get("times") or []))
+            if marcou or segue:  # cada pessoa recebe uma vez só, mesmo marcando e seguindo
+                envios.append((p, titulo, corpo, url))
+        log(f"início {j['casa']} x {j['fora']} ({hhmm(ini)}): {len(envios)} avisos")
+        if envios:
+            fb.enviar(envios, "inicio-" + chave, 90 * 60)
+        feitos.add(chave)
+    if not fb.simular:
+        estado["inicio"] = sorted(feitos)[-300:]
+
+
 def main():
     simular = "--simular" in sys.argv
     agora = datetime.now(BRT)
@@ -231,10 +285,16 @@ def main():
     fb = Firebase(simular)
     if not fb.ok():
         return log("sem FIREBASE_SA; nada a fazer")
-    resumo_do_dia(fb, cfg, estado, agora, simular or "--agora" in sys.argv)
-    aviso_escalacao(fb, cfg, estado, agora)
+    if "--inicio" in sys.argv:  # workflow avisos.yml (a cada 15 min): só o aviso de "começa em 1 hora"
+        arq = ESTADO_INICIO
+        estado = ler(arq) if arq.exists() else {}
+        aviso_inicio(fb, cfg, estado, agora)
+    else:  # depois do robô da agenda (de hora em hora): resumo das 9h e escalações
+        arq = ESTADO
+        resumo_do_dia(fb, cfg, estado, agora, simular or "--agora" in sys.argv)
+        aviso_escalacao(fb, cfg, estado, agora)
     if not simular:
-        ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        arq.write_text(json.dumps(estado, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

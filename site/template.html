@@ -415,6 +415,8 @@ header .wrap{position:relative}
 <link rel="stylesheet" href="/aovivo.css?v=1">
 <link rel="stylesheet" href="/estatisticas.css?v=1">
 <script src="/aovivo.js?v=1" defer></script>
+<link rel="stylesheet" href="/lembretes.css?v=1">
+<script src="/lembretes.js?v=1" defer></script>
 <script src="/menu.js?v=2" defer></script>
 __ADSENSE_HEAD__
 </head>
@@ -668,6 +670,8 @@ function board(g){
   <span class="tm ${cls(b,a)}">${tl(g.fora)}${fst(g.fora)}</span><span class="pts ${cls(b,a)}">${b}</span>
  </div>`;
 }
+// sino "Avisar 1 hora antes" (o lembretes.js pinta o estado e trata o toque)
+const lembBtn=g=>`<button class="lemb" type="button" data-lemb="${esc(g.pg)}" data-ini="${esc(g.inicio)}" aria-pressed="false" hidden><svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 17V11a6 6 0 0 1 12 0v6l1.6 2H4.4Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M10 21.5h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="lemb-t">Avisar 1 hora antes</span></button>`;
 function row(g){
  const c=C(g.comp), st=state(g);
  const chans = g.canais.length? g.canais.slice().sort((a,b)=>isFreeCh(b,g)-isFreeCh(a,g)).map(x=>chanLink(x,g)).join('') : g.status==='sem_transmissao'?'<div class="tbc semtx">Sem transmissão no Brasil</div>':'<div class="tbc">Transmissão a confirmar</div>';
@@ -678,7 +682,7 @@ function row(g){
    <div class="meta">${st==='live'?`<b class="lmin"><span class="dot"></span>${g.ao&&g.ao.d?esc(g.ao.d):'Ao vivo'}</b> `:''}<span class="pill"><i style="background:${esc(c.cor)}"></i>${esc(c.curto||c.nome)}</span>${info?' · '+esc(info):''}${g.status==='a_confirmar'?' <span class="tag">a confirmar</span>':''}${vcAssiste(g)?' <span class="tag vc">Você assiste</span>':''}${g.reg&&!P.uf()?' <button class="lnk" type="button" data-prefs="uf">Seu estado?</button>':''}${g.nota?'<br><b>'+esc(g.nota)+'</b>':''}</div>
   </div>
   <div class="chans">${chans}</div>
-  ${S.open===g.i?sform(g):`<span class="gacts">${g.pg?`<a class="gpage" href="${g.pg}">Detalhes do jogo</a>`:''}<button class="zapb" type="button" data-zapg="${g.i}" aria-label="Mandar ${esc(g.casa)} x ${esc(g.fora)} no WhatsApp">${ZAPI}<span>Mandar</span></button><button class="sug" data-i="${g.i}">Sugerir onde está passando</button></span>`}
+  ${S.open===g.i?sform(g):`<span class="gacts">${st==='up'&&g.pg&&avDisponivel()?lembBtn(g):''}${g.pg?`<a class="gpage" href="${g.pg}">Detalhes do jogo</a>`:''}<button class="zapb" type="button" data-zapg="${g.i}" aria-label="Mandar ${esc(g.casa)} x ${esc(g.fora)} no WhatsApp">${ZAPI}<span>Mandar</span></button><button class="sug" data-i="${g.i}">Sugerir onde está passando</button></span>`}
  </article>`;
 }
 
@@ -841,8 +845,10 @@ function renderList(){
   const list=games.filter(g=>isFavG(g)&&okFree(g)&&(state(g)!=='done'||g.k===today));
   const nt=S.favs.size, nl=S.lfav.size, partes=[nt?nt+(nt===1?' time':' times'):'',nl?nl+(nl===1?' liga':' ligas'):''].filter(Boolean).join(' e ');
   let head=`<h2>Seguindo<small>${partes}${list.length?' '+zapListaBtn(list.filter(g=>state(g)!=='done'),'Jogos dos meus times'):''}</small></h2>`+(nSeg()?`<div class="mytm">${[...S.favs].map(t=>`<span class="tmchip">${crest(t)}${esc(t)}<button class="star" type="button" data-t="${esc(t)}" aria-pressed="true" aria-label="Deixar de seguir ${esc(t)}">★</button></span>`).join('')}${[...S.lfav].map(k=>`<span class="tmchip lgchip">${lgIcon(k)}${esc(C(k).curto||C(k).nome)}<button class="star" type="button" data-l="${k}" aria-pressed="true" aria-label="Deixar de seguir ${esc(C(k).nome)}">★</button></span>`).join('')}</div>`:'');
-  const avc=avDisponivel()?(AV?`<div class="avcard on"><p>🔔 Avisos ligados: às 9h você recebe os jogos de quem segue.</p><button type="button" data-avopen>Mudar</button></div>`:`<div class="avcard"><p>🔔 <b>Quer ser avisado no celular?</b> Às 9h, nos dias de jogo de quem você segue.</p><button type="button" data-avopen>Ativar avisos</button></div>`):'';
+  const avc=avDisponivel()?(AV?`<div class="avcard on"><p>🔔 Avisos ligados: às 9h e 1 hora antes dos jogos de quem você segue.</p><button type="button" data-avopen>Mudar</button></div>`:`<div class="avcard"><p>🔔 <b>Quer ser avisado no celular?</b> Às 9h e 1 hora antes dos jogos de quem você segue.</p><button type="button" data-avopen>Ativar avisos</button></div>`):'';
   head+=avc;
+  // agenda do celular: cada time seguido tem um calendário que se atualiza sozinho (robo/calendario.py)
+  if(S.favs.size)head+=`<p class="agdfav">📅 Leve os jogos para a agenda do celular: ${[...S.favs].map(t=>`<a href="/time/${slugJS(t)}/#agenda">${esc(t)}</a>`).join(' · ')}</p>`;
   if(!nSeg()){setList(head+'<p class="empty">Você ainda não segue nenhum time nem liga. Digite o nome do seu time ou campeonato na busca e toque na <b>☆</b> ao lado: os jogos aparecem aqui e ficam sempre em primeiro na lista.</p>');return}
   if(!list.length){setList(head+`<p class="empty">Nenhum jogo de quem você segue nos próximos dias.</p>`);return}
   setList(head+byDay(list,true));
@@ -1086,6 +1092,7 @@ if(matchMedia('(max-width:640px)').matches)$('q').placeholder='Buscar time ou ca
 })();
 // ---------- Avisos no celular (Firebase Cloud Messaging + Firestore, sem servidor próprio)
 const PUSH=(D.push&&D.push.cfg&&D.push.cfg.apiKey)?D.push:null;
+window.OPJ_PUSH=PUSH; // o lembretes.js usa para gravar os jogos marcados
 let AV=null; try{AV=JSON.parse(localStorage.getItem('avisos')||'null')}catch(_){}
 const saveAV=()=>{try{AV?localStorage.setItem('avisos',JSON.stringify(AV)):localStorage.removeItem('avisos')}catch(_){}};
 const isIOS=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
@@ -1103,7 +1110,10 @@ const fsArr=a=>a.length?{arrayValue:{values:a.map(x=>({stringValue:String(x)}))}
 async function avSalvar(){
  if(!AV||!PUSH)return;
  const seg=AV.seg!==false;
- const r=await fetch(FSURL(AV.id),{method:'PATCH',headers:{'Content-Type':'application/json'},body:JSON.stringify({fields:{token:{stringValue:AV.token},times:fsArr(seg?[...S.favs]:[]),ligas:fsArr(seg?[...S.lfav]:[]),destaques:{booleanValue:AV.dest!==false},atualizado:{stringValue:new Date().toISOString()}}})});
+ const jogos=window.OPJLembretes?OPJLembretes.lista():[]; // lembretes "avisar 1 hora antes" (lembretes.js)
+ const campos={token:{stringValue:AV.token},times:fsArr(seg?[...S.favs]:[]),ligas:fsArr(seg?[...S.lfav]:[]),destaques:{booleanValue:AV.dest!==false},atualizado:{stringValue:new Date().toISOString()}};
+ if(jogos.length)campos.jogos=fsArr(jogos);
+ const r=await fetch(FSURL(AV.id),{method:'PATCH',headers:{'Content-Type':'application/json'},body:JSON.stringify({fields:campos})});
  if(!r.ok)throw new Error('Firestore '+r.status);
 }
 async function sha40(t){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('').slice(0,40)}
@@ -1122,9 +1132,9 @@ function drawAv(msg,err){
  if(!pushApi()){b.innerHTML=`<p>Este navegador não aceita avisos. No Android, use o Chrome; no iPhone, o Safari (iOS 16.4 ou mais novo).</p><div class="obf"><button class="ok" type="button" data-av="x">Ok</button></div>`;return}
  if(Notification.permission==='denied'){b.innerHTML=`<p>Os avisos estão bloqueados para este site. Toque no cadeado ao lado do endereço (ou nas configurações do navegador), libere as <b>Notificações</b> e tente de novo.</p><div class="obf"><button class="ok" type="button" data-av="x">Ok</button></div>`;return}
  if(AV){
-  b.innerHTML=`<p class="avok">✓ Avisos ligados neste aparelho</p><p>Todo dia às 9h, quando tiver jogo, chega um aviso com quem joga e a hora. É só tocar para ver onde passa.</p>${opts}${m}<div class="obf"><button class="later" type="button" data-av="off">Desligar avisos</button><button class="ok" type="button" data-av="x">Pronto</button></div>`;
+  b.innerHTML=`<p class="avok">✓ Avisos ligados neste aparelho</p><p>Todo dia às 9h, quando tiver jogo, chega um aviso com quem joga e a hora, e outro 1 hora antes de começar. É só tocar para ver onde passa.</p>${opts}${m}<div class="obf"><button class="later" type="button" data-av="off">Desligar avisos</button><button class="ok" type="button" data-av="x">Pronto</button></div>`;
  }else{
-  b.innerHTML=`<p>Todo dia às 9h, quando tiver jogo, você recebe quem joga e a hora. É só tocar para ver onde passa (e se tem de graça).</p>${opts}${m}<div class="obf"><button class="later" type="button" data-av="x">Agora não</button><button class="ok" type="button" data-av="on">Ativar avisos</button></div>`;
+  b.innerHTML=`<p>Todo dia às 9h, quando tiver jogo, você recebe quem joga e a hora, e um aviso 1 hora antes de começar. É só tocar para ver onde passa (e se tem de graça).</p>${opts}${m}<div class="obf"><button class="later" type="button" data-av="x">Agora não</button><button class="ok" type="button" data-av="on">Ativar avisos</button></div>`;
  }
 }
 function abrirAv(){drawAv();$('av').hidden=false;document.querySelector('#av .ok')?.focus({preventScroll:true})}

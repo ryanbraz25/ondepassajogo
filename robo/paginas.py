@@ -96,6 +96,7 @@ class Ctx:
         self.stats = ex.get("estatisticas") or {}  # estatísticas dos jogos (robo/estatisticas.py)
         self.art = ex.get("artilharia") or {}      # artilheiros por campeonato (robo/artilharia.py)
         self.guia = ex.get("guia") or {}           # texto conferido de onde passa cada campeonato
+        self.agendas = (set(), set())  # times e campeonatos com arquivo .ics (calendario.gerar)
         self.d = dados
         self.head_extra = head_extra
         self.favicon = favicon
@@ -185,6 +186,8 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <script src="/rodadas.js?v=2" defer></script>
 <script src="/aovivo.js?v=1" defer></script>
 <script src="/estatisticas.js?v=1" defer></script>
+<link rel="stylesheet" href="/lembretes.css?v=1">
+<script src="/lembretes.js?v=1" defer></script>
 <script src="/menu.js?v=2" defer></script>
 <script src="/personaliza.js?v=1" defer></script>
 {cx.head_extra}
@@ -320,6 +323,7 @@ def por_dia(cx, jogos, **kw):
 # ---------------------------------------------------------------- tabela, forma, resultados, escalações
 import extras as X  # noqa: E402
 import palpites as PALP  # noqa: E402
+import calendario as CAL  # noqa: E402
 
 COLS = '<tr><th class="c-pos">#</th><th class="c-time">Time</th><th>P</th><th>J</th><th class="c-x">V</th><th class="c-x">E</th><th class="c-x">D</th><th class="c-x">GP</th><th class="c-x">GC</th><th>SG</th><th class="c-f">Últimos 5</th></tr>'
 
@@ -669,7 +673,7 @@ def pagina_jogo(cx, j):
  </div>
  <a class="tm" href="/time/{slug(fora)}/">{escudo(cx, fora, 56)}<span>{e(fora)}</span>{rk(fora)}</a>
 </div>
-{status}
+{status}{'' if encerrado else CAL.botao_lembrete(j['_pg'], t.isoformat(), grande=True)}
 {lances_html(j)}
 {estatisticas.html(cx.stats.get(j.get("eid", "")), casa, fora)}
 <h2>{'Onde passou' if encerrado else 'Onde assistir'}</h2>
@@ -729,7 +733,8 @@ def pagina_time(cx, time, jogos):
                     + f'<p class="mais"><a href="/campeonato/{slug(pos_k)}/#tabela">Ver a tabela completa</a></p>')
         else:
             mini = f'<h2>Posição {e(no_(cx.comp_nome(pos_k)))}</h2>' + tabela_html(cx, pos_k, {time}, com_forma=False)
-    corpo = (f'<h1>{escudo(cx, time, 44)} Jogos do {e(nome)}: onde assistir ao vivo</h1>{intro}{resumo}'
+    agenda = CAL.botao_agenda(f"/agenda/{slug(time)}.ics", f"do {nome}") if slug(time) in cx.agendas[0] else ""
+    corpo = (f'<h1>{escudo(cx, time, 44)} Jogos do {e(nome)}: onde assistir ao vivo</h1>{intro}{agenda}{resumo}'
              + (f"<h2>Próximos jogos</h2>{lista(cx, futuros)}" if futuros else "")
              + (f"<h2>Últimos resultados</h2>{resultados_html(cx, ult, time)}" if ult else "")
              + mini
@@ -784,7 +789,8 @@ def pagina_comp(cx, k, jogos):
         g = rd["rodadas"][rd["atual"]]
         desc = desc.replace("próximos jogos", f"jogos da {g['nome'].split(' · ')[-1]}", 1) if "próximos jogos" in desc else desc
     nav = f'<nav class="abas" role="tablist">{botoes}</nav>' if len(abas) > 1 else ""
-    corpo = f'<h1>{h1}</h1>' + (f'<div class="camp2">{nav}{secoes}</div>' if lado_a_lado else nav + secoes) + guia.bloco(cx, k)
+    agenda = CAL.botao_agenda(f"/agenda/campeonato/{slug(k)}.ics", do_(nome)) if slug(k) in cx.agendas[1] else ""
+    corpo = f'<h1>{h1}</h1>{agenda}' + (f'<div class="camp2">{nav}{secoes}</div>' if lado_a_lado else nav + secoes) + guia.bloco(cx, k)
     return pagina(cx, cam, titulo, desc, corpo, None, [("Início", "/"), (nome, cam)], largo=lado_a_lado)
 
 
@@ -930,6 +936,11 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
         for t in (j["casa"], j["fora"]):
             if t != "A definir":
                 times.setdefault(t, []).append(j)
+    # agenda no calendário: um .ics por time com página e por campeonato (os botões das páginas dependem disso)
+    guarda_ics = (cx.hoje - timedelta(days=GUARDAR_DIAS)).isoformat()
+    no_ar = set(novas) | {c for c, i in pags.items() if c.startswith("/jogo/") and i.get("dia", "") >= guarda_ics}
+    todos_times = set(times) | {i["nome"] for c, i in pags.items() if c.startswith("/time/") and i.get("nome")}
+    cx.agendas = CAL.gerar(cx, todos_times, no_ar, slug, caminho_jogo)
     for t, js in times.items():
         novas[f"/time/{slug(t)}/"] = (pagina_time(cx, t, js), "")
     for cam, info in pags.items():  # time sem jogo agora: a página continua, sem jogos marcados

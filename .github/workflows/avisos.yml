@@ -1,0 +1,51 @@
+name: Avisos de início de jogo
+
+# "Começa em 1 hora": quem marcou o sino do jogo ou segue um dos times recebe um aviso no celular.
+# Roda a cada 15 minutos só esta parte (leve: não refaz o site), para o aviso chegar na hora certa.
+# O resumo das 9h e o aviso de escalação continuam no workflow "Atualizar agenda".
+# O GitHub pode atrasar disparos agendados; por isso o aviso vale para jogos que começam
+# em até 75 minutos e cada jogo é avisado uma vez só (dados/avisos_inicio.json).
+
+on:
+  schedule:
+    - cron: "4,19,34,49 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: avisos-inicio
+  cancel-in-progress: false
+
+jobs:
+  inicio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/workflows/avisos.yml
+      - name: Mandar os avisos de início
+        env:
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+        run: |
+          if [ -z "$FIREBASE_SA" ]; then echo "Sem FIREBASE_SA: avisos desligados"; exit 0; fi
+          pip install -q firebase-admin
+          python robo/avisos.py --inicio
+      - name: Guardar quais jogos já foram avisados
+        run: |
+          git config user.name "robo-avisos"
+          git config user.email "robo-avisos@users.noreply.github.com"
+          git add dados/avisos_inicio.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Avisos de início $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break
+            sleep 7
+          done
