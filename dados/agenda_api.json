@@ -2986,6 +2986,14 @@
   "fase": "regular-season",
   "fora": "Millwall",
   "inicio": "2026-11-25T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "13'",
+    "n": "G. Hirst"
+   }
+  ],
   "lg": "eng.2",
   "local": "bet365 Stadium, Stoke-on-Trent",
   "status": "a_confirmar"
@@ -3007,6 +3015,14 @@
   "fase": "regular-season",
   "fora": "Birmingham City",
   "inicio": "2026-11-25T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "7'",
+    "n": "A. Priske"
+   }
+  ],
   "lg": "eng.2",
   "local": "Turf Moor, Burnley",
   "status": "a_confirmar"
@@ -3028,6 +3044,14 @@
   "fase": "regular-season",
   "fora": "West Bromwich Albion",
   "inicio": "2026-11-25T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "21'",
+    "n": "A. Heggebo"
+   }
+  ],
   "lg": "eng.2",
   "local": "Toughsheet Community Stadium, Bolton",
   "status": "a_confirmar"
@@ -5718,6 +5742,14 @@
   "fase": "league-phase",
   "fora": "Viking FK",
   "inicio": "2026-11-25T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "19'",
+    "n": "A. Sørloth"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Riyadh Air Metropolitano, Madrid",
   "status": "a_confirmar"
@@ -5739,6 +5771,14 @@
   "fase": "league-phase",
   "fora": "Liverpool",
   "inicio": "2026-11-25T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "13'",
+    "n": "A. Isak"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Jan Breydel Stadium, Brugge",
   "status": "a_confirmar"
@@ -5770,6 +5810,10 @@
   ],
   "lg": "uefa.champions",
   "local": "Fortuna Arena, Prague",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915294": {
@@ -6269,6 +6313,14 @@
   "fase": "league-phase",
   "fora": "Roma",
   "inicio": "2026-11-25T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "5'",
+    "n": "M. Hermoso"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Parc des Princes, Paris",
   "status": "a_confirmar"
@@ -6332,6 +6384,14 @@
   "fase": "league-phase",
   "fora": "Bayern de Munique",
   "inicio": "2026-11-25T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "15'",
+    "n": "D. Upamecano"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Decathlon Arena - Stade Pierre-Mauroy, Lille",
   "status": "a_confirmar"
@@ -6387,6 +6447,10 @@
   ],
   "lg": "uefa.champions",
   "local": "Baku Olympic Stadium, Baku",
+  "placar": {
+   "casa": 1,
+   "fora": 4
+  },
   "status": "a_confirmar"
  },
  "espn:401915379": {

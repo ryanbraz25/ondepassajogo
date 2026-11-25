@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T16:31:26-03:00",
+ "atualizado": "2026-11-25T17:26:54-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1150,6 +1150,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   },
    "rodada": "5ª rodada",
    "pg": "/jogo/sabah-fk-x-barcelona-25-11-2026/"
   },
@@ -1175,6 +1179,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "rodada": "5ª rodada",
    "pg": "/jogo/slavia-prague-x-villarreal-25-11-2026/"
   },
@@ -1191,6 +1199,14 @@
    "eid": "401880140",
    "lg": "eng.2",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "f",
+     "m": "21'",
+     "n": "A. Heggebo",
+     "k": "g"
+    }
+   ],
    "pg": "/jogo/bolton-wanderers-x-west-bromwich-albion-25-11-2026/"
   },
   {
@@ -1206,6 +1222,14 @@
    "eid": "401880139",
    "lg": "eng.2",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "f",
+     "m": "7'",
+     "n": "A. Priske",
+     "k": "g"
+    }
+   ],
    "pg": "/jogo/burnley-x-birmingham-city-25-11-2026/"
   },
   {
@@ -1236,6 +1260,14 @@
    "eid": "401915291",
    "lg": "uefa.champions",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "c",
+     "m": "19'",
+     "n": "A. Sørloth",
+     "k": "g"
+    }
+   ],
    "rodada": "5ª rodada",
    "pg": "/jogo/atletico-de-madrid-x-viking-fk-25-11-2026/"
   },
@@ -1252,6 +1284,14 @@
    "eid": "401915292",
    "lg": "uefa.champions",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "f",
+     "m": "13'",
+     "n": "A. Isak",
+     "k": "g"
+    }
+   ],
    "rodada": "5ª rodada",
    "pg": "/jogo/club-brugge-x-liverpool-25-11-2026/"
   },
@@ -1285,6 +1325,14 @@
    "eid": "401915377",
    "lg": "uefa.champions",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "f",
+     "m": "15'",
+     "n": "D. Upamecano",
+     "k": "g"
+    }
+   ],
    "rodada": "5ª rodada",
    "nota": "Space na TV e TNT Sports no YouTube",
    "links": {
@@ -1306,6 +1354,14 @@
    "eid": "401915374",
    "lg": "uefa.champions",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "f",
+     "m": "5'",
+     "n": "M. Hermoso",
+     "k": "g"
+    }
+   ],
    "rodada": "5ª rodada",
    "pg": "/jogo/paris-saint-germain-x-roma-25-11-2026/"
   },
@@ -1355,6 +1411,14 @@
    "eid": "401880138",
    "lg": "eng.2",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "c",
+     "m": "13'",
+     "n": "G. Hirst",
+     "k": "g"
+    }
+   ],
    "pg": "/jogo/stoke-city-x-millwall-25-11-2026/"
   },
   {
