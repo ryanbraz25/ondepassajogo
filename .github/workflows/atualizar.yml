@@ -1,8 +1,10 @@
 name: Atualizar agenda
 
-# O agendamento grátis do GitHub atrasa e pula execuções. Por isso, cada disparo
-# agendado vira uma "rodada" de 6 horas: 6 passos em sequência, um por hora,
-# cada um busca jogos e placares, salva no repositório e publica o site.
+# O agendamento grátis do GitHub atrasa e pula execuções (às vezes fica 5 horas sem disparar).
+# Por isso cada rodada tem 6 passos em sequência, um por hora (busca jogos, placares e escalações,
+# salva no repositório e publica o site), e no fim o último passo já dispara a rodada seguinte:
+# a corrente não depende do agendador. O "schedule" abaixo só serve para religar a corrente se ela parar.
+# Enquanto espera a hora do passo, manda os avisos de "começa em 1 hora" a cada ~15 minutos.
 # O botão "Run workflow" também começa uma rodada de 6 horas.
 # Disparos por push (canais da pesquisa noturna, mudanças no robô) fazem um passo só, na hora.
 
@@ -26,9 +28,12 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: write
 
 concurrency:
-  group: agenda-${{ github.event_name }}
+  # push faz um passo só, na hora; agendado e "Run workflow" formam uma corrente única
+  # (se chegar outro disparo, ele espera, e o GitHub guarda só o mais novo)
+  group: agenda-${{ github.event_name == 'push' && 'push' || 'corrente' }}
   cancel-in-progress: false
 
 jobs:
@@ -41,15 +46,35 @@ jobs:
       matrix:
         passo: ${{ github.event_name != 'push' && fromJSON('[0,1,2,3,4,5]') || fromJSON('[0]') }}
     steps:
-      - name: Esperar a hora deste passo
-        if: matrix.passo > 0
-        run: sleep 3300
       - uses: actions/checkout@v4
         with:
           ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Esperar a hora deste passo (com avisos de início a cada ~15 min)
+        if: matrix.passo > 0
+        env:
+          FIREBASE_SA: ${{ secrets.FIREBASE_SA }}
+        run: |
+          git config user.name "robo-avisos"
+          git config user.email "robo-avisos@users.noreply.github.com"
+          [ -n "$FIREBASE_SA" ] && pip install -q firebase-admin
+          for k in 1 2 3 4; do
+            sleep 800
+            git pull -q --rebase origin main || true
+            if [ -n "$FIREBASE_SA" ]; then
+              python robo/avisos.py --inicio || echo "avisos de início falharam nesta volta"
+              git add dados/avisos_inicio.json 2>/dev/null || true
+              if ! git diff --cached --quiet; then
+                git commit -q -m "Avisos de início $(date -u +%Y-%m-%dT%H:%MZ)"
+                for i in 1 2 3; do git pull -q --rebase origin main && git push -q && break; sleep 7; done
+              fi
+            fi
+          done
+      - name: Pegar a versão mais nova do repositório
+        if: matrix.passo > 0
+        run: git pull -q --rebase origin main
       - name: Rodar o robô
         env:
           THESPORTSDB_KEY: ${{ secrets.THESPORTSDB_KEY }}
@@ -99,3 +124,8 @@ jobs:
       - name: Avisar Bing das páginas novas (IndexNow)
         continue-on-error: true
         run: python robo/paginas.py
+      - name: Emendar a próxima rodada de 6 horas
+        if: always() && matrix.passo == 5 && github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run atualizar.yml --ref main
