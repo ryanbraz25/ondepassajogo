@@ -186,7 +186,7 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <link rel="stylesheet" href="/aovivo.css?v=1">
 <link rel="stylesheet" href="/estatisticas.css?v=1">
-<script src="/p.js?v=11" defer></script>
+<script src="/p.js?v=12" defer></script>
 <script src="/rodadas.js?v=2" defer></script>
 <script src="/aovivo.js?v=1" defer></script>
 <script src="/estatisticas.js?v=2" defer></script>

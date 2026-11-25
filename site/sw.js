@@ -9,6 +9,7 @@ self.addEventListener('push', e => {
   const title = d.title || 'Onde Passa Jogo';
   e.waitUntil(self.registration.showNotification(title, {
     body: d.body || 'Veja os jogos de hoje e onde passam.',
+    lang: 'pt-BR', // o texto do aviso é em português
     icon: '/icone-192.png',
     badge: '/badge-96.png',
     tag: d.tag || 'resumo-do-dia',
