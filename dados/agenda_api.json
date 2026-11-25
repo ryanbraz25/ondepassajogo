@@ -7581,6 +7581,14 @@
   "fase": "western-conference-playoffs---round-one",
   "fora": "Houston Dynamo FC",
   "inicio": "2026-11-25T00:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "11'",
+    "n": "R. Vieira"
+   }
+  ],
   "lg": "usa.1",
   "local": "PayPal Park, San Jose, California",
   "status": "a_confirmar"

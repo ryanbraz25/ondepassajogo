@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T00:38:32-03:00",
+ "atualizado": "2026-11-25T00:53:00-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1055,6 +1055,14 @@
    "eid": "401933738",
    "lg": "usa.1",
    "ed": "20261124",
+   "lances": [
+    {
+     "l": "c",
+     "m": "11'",
+     "n": "R. Vieira",
+     "k": "g"
+    }
+   ],
    "rodada": "Playoffs",
    "pg": "/jogo/san-jose-earthquakes-x-houston-dynamo-fc-25-11-2026/"
   },
