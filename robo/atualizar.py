@@ -14,7 +14,7 @@ Roda sozinho (GitHub Actions, a cada 3 horas) e:
 Só usa a biblioteca padrão do Python. Variáveis de ambiente (todas opcionais):
   THESPORTSDB_KEY   chave da TheSportsDB (padrão: chave gratuita "123")
   YOUTUBE_API_KEY   chave da YouTube Data API v3
-  AMAZON_TAG        sua tag de Associado Amazon (vai no link do Prime Video)
+  AMAZON_TAG        sua tag de Associado Amazon (vai no link do Prime Video; também pode ficar em config.json → afiliados.amazon)
 
 Uso:  python robo/atualizar.py            (normal: a cada 6 horas busca 15 dias; nas outras, ontem a amanhã)
       python robo/atualizar.py --completo (força a busca dos 15 dias)
@@ -345,7 +345,7 @@ def juntar(api, verificados):
 
 
 def aplicar_afiliado(cfg):
-    tag = os.environ.get("AMAZON_TAG")
+    tag = os.environ.get("AMAZON_TAG") or (cfg.get("afiliados") or {}).get("amazon")
     if not tag:
         return
     for c in cfg["canais"].values():

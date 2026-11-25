@@ -31,7 +31,7 @@
   "prime": {
    "nome": "Prime Video",
    "tipo": "Streaming",
-   "url": "https://www.primevideo.com/",
+   "url": "https://www.amazon.com.br/gp/video/storefront",
    "afiliado": "amazon"
   },
   "record": {
@@ -1002,5 +1002,9 @@
   "serie-a-ita": "Na temporada 2026/27, o Campeonato Italiano é da Disney (ESPN e Disney+), e a SportyNet mostra jogos de graça no YouTube.",
   "bundesliga": "Na temporada 2026/27, a Bundesliga passa na SportyNet (dois jogos por rodada de graça no YouTube e um no canal pago), na Jovem Pan (um jogo por rodada na TV aberta e no YouTube) e na Xsports.",
   "ligue1": "Na temporada 2026/27, o Campeonato Francês passa na CazéTV, e a Xsports mostra três jogos por rodada na TV aberta."
+ },
+ "afiliados": {
+  "comentario": "Etiqueta do Amazon Associados (é pública: aparece no link). O robô põe no link do Prime Video e marca o link como patrocinado.",
+  "amazon": "ondepassajogo-20"
  }
 }
