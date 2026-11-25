@@ -186,10 +186,10 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <link rel="stylesheet" href="/aovivo.css?v=1">
 <link rel="stylesheet" href="/estatisticas.css?v=1">
-<script src="/p.js?v=9" defer></script>
+<script src="/p.js?v=10" defer></script>
 <script src="/rodadas.js?v=2" defer></script>
 <script src="/aovivo.js?v=1" defer></script>
-<script src="/estatisticas.js?v=1" defer></script>
+<script src="/estatisticas.js?v=2" defer></script>
 <link rel="stylesheet" href="/lembretes.css?v=2">
 <script src="/lembretes.js?v=2" defer></script>
 <script src="/menu.js?v=2" defer></script>
@@ -523,7 +523,7 @@ def escalacoes_html(cx, j):
         return ""
     if j.get("placar"):
         # jogo encerrado sem escalação guardada: o navegador busca na ESPN e mostra a seção só se achar
-        if not (j.get("eid") and j.get("lg")) or agora - ini > timedelta(days=10):
+        if not (j.get("eid") and j.get("lg")) or agora - ini > timedelta(days=GUARDAR_DIAS):
             return ""
         return (f'<section id="escalacoes" class="escal" hidden><h2>Escalações</h2>'
                 f'<div class="campo" data-lg="{e(j["lg"])}" data-eid="{e(j["eid"])}" data-ini="{ini.isoformat()}" '
@@ -959,6 +959,12 @@ def gerar(dados, head_extra, favicon, pin, extras=None):
     cx.jogos = [j for j in cx.jogos if "A definir" not in (j["casa"], j["fora"])]
     for j in cx.jogos:
         novas[j["_pg"]] = (pagina_jogo(cx, j), j["_t"].date().isoformat())
+    # jogos dos dias anteriores (robo/passados.py): a página continua com o modelo atual (escalações, números)
+    for j in (extras or {}).get("passados") or []:
+        pg = caminho_jogo(j)
+        if pg not in novas:
+            jj = {**j, "_t": datetime.fromisoformat(j["inicio"]).astimezone(BRT), "_pg": pg, "pg": pg}
+            novas[pg] = (pagina_jogo(cx, jj), jj["_t"].date().isoformat())
     times = {}
     for j in cx.jogos:
         for t in (j["casa"], j["fora"]):

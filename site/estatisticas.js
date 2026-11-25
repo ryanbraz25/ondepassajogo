@@ -53,7 +53,7 @@
     const agora = Date.now();
     if (jaFechado) return; // o robô já gravou as estatísticas finais
     if (agora < ini - 5 * 60e3) { setTimeout(vez, Math.min(ini - 5 * 60e3 - agora, 30 * 60e3)); return; }
-    if (agora > ini + 36 * 3600e3) return;
+    // jogo antigo sem os números guardados: uma consulta só (a ESPN mantém o resumo do jogo)
     let fim = false;
     try {
       const r = await (await fetch(url, { cache: 'no-store' })).json();

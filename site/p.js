@@ -101,12 +101,16 @@
     const cart = st.vm ? '<span class="jc vm">Cartão vermelho</span>' : st.am ? '<span class="jc am">Cartão amarelo</span>' : '';
     const linhas = LINHAS.filter(([c]) => (c !== 'df' && c !== 'gs') || gk).filter(([c]) => c !== 'gc' || st.gc)
       .map(([c, n]) => `<li><span>${n}</span><b${st[c] ? ' class="v"' : ''}>${st[c] || 0}</b></li>`).join('');
+    // sem nenhum número no jogo (a ESPN não publicou, ou ainda está carregando): não mostra zeros
+    const todos = [jogoEs.casa, jogoEs.fora].flatMap(t => [...(t.titulares || []), ...(t.reservas || [])]);
+    const temNum = todos.some(q => q.st && Object.keys(q.st).length);
+    const numeros = temNum ? `<div class="jgs"><div><b>${st.g || 0}</b><span>${(st.g || 0) === 1 ? 'Gol' : 'Gols'}</span></div><div><b>${st.a || 0}</b><span>${(st.a || 0) === 1 ? 'Assistência' : 'Assistências'}</span></div></div>
+      <ul class="jls">${linhas}</ul><p class="jf">Dados da ESPN${box && !box.dataset.final ? ', atualizados durante o jogo' : ''}.</p>`
+      : '<p class="jf">A ESPN ainda não publicou os números dos jogadores deste jogo.</p>';
     return `<div class="jh"><b class="jn ${lado === 'c' ? 'ca' : 'fo'}">${esc(p.n)}</b><div><h3 id="jan-t">${esc(p.nome)}</h3>
         <p>${[posNome(p.pos), esc(time)].filter(Boolean).join(' · ')}</p></div>
         <button type="button" class="jx" aria-label="Fechar">×</button></div>
-      <p class="jt">${tempo}</p>${cart}
-      <div class="jgs"><div><b>${st.g || 0}</b><span>${(st.g || 0) === 1 ? 'Gol' : 'Gols'}</span></div><div><b>${st.a || 0}</b><span>${(st.a || 0) === 1 ? 'Assistência' : 'Assistências'}</span></div></div>
-      <ul class="jls">${linhas}</ul><p class="jf">Dados da ESPN${box && !box.dataset.final ? ', atualizados durante o jogo' : ''}.</p>`;
+      <p class="jt">${tempo}</p>${cart}${numeros}`;
   }
   function abrirJogador(dj) {
     const [lado, k] = dj.split(/:(.*)/s);

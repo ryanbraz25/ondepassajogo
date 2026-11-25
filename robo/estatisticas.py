@@ -70,7 +70,7 @@ def extrair(summary):
 
 
 def buscar(get_json, jogos, offline=False):
-    """Atualiza as estatísticas dos jogos que começaram há até 36 h e ainda não estão completas."""
+    """Atualiza as estatísticas dos jogos que já começaram (até GUARDA_DIAS) e ainda não estão completas."""
     dados = ler()
     agora = datetime.now(BRT)
     if not offline:
@@ -79,8 +79,11 @@ def buscar(get_json, jogos, offline=False):
             if not (j.get("eid") and j.get("lg")) or (dados.get(j["eid"]) or {}).get("fim"):
                 continue
             ini = datetime.fromisoformat(j["inicio"]).astimezone(BRT)
-            if timedelta(minutes=5) <= agora - ini <= timedelta(hours=36):
+            # do início até o fim da guarda: jogo antigo sem números (de antes deste arquivo ou de quando
+            # o robô não rodou) é buscado aos poucos, os mais recentes primeiro
+            if timedelta(minutes=5) <= agora - ini <= timedelta(days=GUARDA_DIAS):
                 alvo.append(j)
+        alvo.sort(key=lambda j: j["inicio"], reverse=True)
 
         def um(j):
             try:

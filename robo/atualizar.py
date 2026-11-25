@@ -544,14 +544,19 @@ def main():
     EXTRAS.update({"tabelas": tabs_ativas, "historico": hist, "escalacoes": esc_})
     import artilharia
     import estatisticas
-    EXTRAS["estatisticas"] = estatisticas.buscar(get_json, jogos, OFFLINE)
+    import paginas
+    import passados
+    for j in jogos:  # a ESPN manda os estádios sem acento
+        if j.get("local"):
+            j["local"] = acentua(cfg, j["local"])
+    arq_p = passados.atualizar(jogos, hist, hoje, paginas.caminho_jogo)
+    EXTRAS["passados"] = passados.com_resultado(arq_p)
+    vistos = {j.get("eid") for j in jogos}
+    EXTRAS["estatisticas"] = estatisticas.buscar(get_json, jogos + [j for j in EXTRAS["passados"] if j.get("eid") not in vistos], OFFLINE)
     EXTRAS["artilharia"] = artilharia.buscar(cfg, get_json, tabs, nome, ativos, OFFLINE)
     EXTRAS["guia"] = {k: v for k, v in (cfg.get("guia") or {}).items() if k != "comentario"}
 
-    import paginas
     for j in jogos:
-        if j.get("local"):
-            j["local"] = acentua(cfg, j["local"])
         if "A definir" not in (j["casa"], j["fora"]):
             j["pg"] = paginas.caminho_jogo(j)
         else:
@@ -580,6 +585,12 @@ def main():
     artilharia.arquivos_site(EXTRAS["artilharia"], esc_art)
     for c in EXTRAS["artilharia"]:
         dados["abas"][c] = dados["abas"].get(c, "") + "a"
+    # dias anteriores: arquivo dos jogos passados (páginas dos jogos antigos + resultados na página inicial)
+    dias_p = passados.dias_home(arq_p, hist, hoje)
+    esc_p = escudos(cfg, [j for js in dias_p.values() for j in js], logos)
+    dados["passados"] = passados.arquivos_site(
+        dias_p, lambda js: {t: esc_p[t] for j in js for t in (j["casa"], j["fora"]) if t in esc_p},
+        lambda j: "" if j.get("sc") else paginas.caminho_jogo(j))
     nt = cfg.get("notificacoes") or {}
     if (nt.get("firebase") or {}).get("apiKey"):
         dados["push"] = {"cfg": nt["firebase"], "vapid": nt.get("vapid", "")}
