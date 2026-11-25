@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T13:44:26-03:00",
+ "atualizado": "2026-11-25T14:36:42-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2364,17 +2364,11 @@
    "pg": "/jogo/al-hazem-x-al-nassr-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T09:30:00-03:00",
-   "comp": "championship",
-   "casa": "Blackburn Rovers",
-   "fora": "Charlton Athletic",
-   "local": "Ewood Park, Blackburn",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880135",
-   "lg": "eng.2",
+   "casa": "Blackburn Rovers",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880135",
    "fora": "Charlton Athletic",
@@ -2385,17 +2379,11 @@
    "pg": "/jogo/blackburn-rovers-x-charlton-athletic-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T09:30:00-03:00",
-   "comp": "championship",
-   "casa": "Lincoln City",
-   "fora": "Wolverhampton Wanderers",
-   "local": "LNER Stadium, Lincoln",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880133",
-   "lg": "eng.2",
+   "casa": "Lincoln City",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880133",
    "fora": "Wolverhampton Wanderers",
@@ -2406,17 +2394,11 @@
    "pg": "/jogo/lincoln-city-x-wolverhampton-wanderers-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T09:30:00-03:00",
-   "comp": "championship",
-   "casa": "Preston North End",
-   "fora": "Norwich City",
-   "local": "Deepdale, Preston",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880131",
-   "lg": "eng.2",
+   "casa": "Preston North End",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880131",
    "fora": "Norwich City",
@@ -2442,17 +2424,11 @@
    "pg": "/jogo/real-betis-x-rayo-vallecano-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T10:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Samsunspor",
-   "fora": "Genclerbirligi",
-   "local": "Samsun 19 Mayis Stadium, Samsun",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888236",
-   "lg": "tur.1",
+   "casa": "Samsunspor",
+   "comp": "turquia",
    "ed": "20261128",
    "eid": "401888236",
    "fora": "Genclerbirligi",
@@ -2551,17 +2527,11 @@
    "pg": "/jogo/sc-paderborn-07-x-schalke-04-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Birmingham City",
-   "fora": "Bolton Wanderers",
-   "local": "St. Andrew's Stadium, Birmingham",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880136",
-   "lg": "eng.2",
+   "casa": "Birmingham City",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880136",
    "fora": "Bolton Wanderers",
@@ -2572,17 +2542,11 @@
    "pg": "/jogo/birmingham-city-x-bolton-wanderers-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Derby County",
-   "fora": "Watford",
-   "local": "Pride Park, Derby",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880134",
-   "lg": "eng.2",
+   "casa": "Derby County",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880134",
    "fora": "Watford",
@@ -2624,17 +2588,11 @@
    "pg": "/jogo/manchester-united-x-brentford-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Millwall",
-   "fora": "Burnley",
-   "local": "The Den, London",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880132",
-   "lg": "eng.2",
+   "casa": "Millwall",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880132",
    "fora": "Burnley",
@@ -2645,17 +2603,11 @@
    "pg": "/jogo/millwall-x-burnley-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Queens Park Rangers",
-   "fora": "Sheffield United",
-   "local": "MATRADE Loftus Road, London",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880130",
-   "lg": "eng.2",
+   "casa": "Queens Park Rangers",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880130",
    "fora": "Sheffield United",
@@ -2666,17 +2618,11 @@
    "pg": "/jogo/queens-park-rangers-x-sheffield-united-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "West Bromwich Albion",
-   "fora": "Bristol City",
-   "local": "The Hawthorns, West Bromwich",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880127",
-   "lg": "eng.2",
+   "casa": "West Bromwich Albion",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880127",
    "fora": "Bristol City",
@@ -2687,17 +2633,11 @@
    "pg": "/jogo/west-bromwich-albion-x-bristol-city-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "West Ham United",
-   "fora": "Stoke City",
-   "local": "London Stadium, London",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880126",
-   "lg": "eng.2",
+   "casa": "West Ham United",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880126",
    "fora": "Stoke City",
@@ -2708,17 +2648,11 @@
    "pg": "/jogo/west-ham-united-x-stoke-city-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Wrexham",
-   "fora": "Portsmouth",
-   "local": "STōK Cae Ras, Wrexham",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880125",
-   "lg": "eng.2",
+   "casa": "Wrexham",
+   "comp": "championship",
    "ed": "20261128",
    "eid": "401880125",
    "fora": "Portsmouth",
@@ -2787,17 +2721,11 @@
    "pg": "/jogo/moreirense-x-santa-clara-28-11-2026/"
   },
   {
-   "inicio": "2026-11-28T13:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Gaziantep FK",
-   "fora": "Amed SFK",
-   "local": "Gaziantep Stadium, Gaziantep",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888368",
-   "lg": "tur.1",
+   "casa": "Gaziantep FK",
+   "comp": "turquia",
    "ed": "20261128",
    "eid": "401888368",
    "fora": "Amed SFK",
@@ -3224,17 +3152,11 @@
    "pg": "/jogo/portland-timbers-x-fc-dallas-29-11-2026/"
   },
   {
-   "inicio": "2026-11-29T07:30:00-03:00",
-   "comp": "turquia",
-   "casa": "Çorum FK",
-   "fora": "Kocaelispor",
-   "local": "Çorum Sehir Stadyumu, Çorum",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888367",
-   "lg": "tur.1",
+   "casa": "Çorum FK",
+   "comp": "turquia",
    "ed": "20261129",
    "eid": "401888367",
    "fora": "Kocaelispor",
@@ -3288,17 +3210,11 @@
    "pg": "/jogo/everton-x-liverpool-29-11-2026/"
   },
   {
-   "inicio": "2026-11-29T09:00:00-03:00",
-   "comp": "championship",
-   "casa": "Swansea City",
-   "fora": "Cardiff City",
-   "local": "Swansea.com Stadium, Swansea",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880128",
-   "lg": "eng.2",
+   "casa": "Swansea City",
+   "comp": "championship",
    "ed": "20261129",
    "eid": "401880128",
    "fora": "Cardiff City",
@@ -3309,17 +3225,11 @@
    "pg": "/jogo/swansea-city-x-cardiff-city-29-11-2026/"
   },
   {
-   "inicio": "2026-11-29T10:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Eyupspor",
-   "fora": "Istanbul Basaksehir",
-   "local": "Esenyurt Necmi Kadioglu Stadi, Istanbul",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888242",
-   "lg": "tur.1",
+   "casa": "Eyupspor",
+   "comp": "turquia",
    "ed": "20261129",
    "eid": "401888242",
    "fora": "Istanbul Basaksehir",
@@ -3504,17 +3414,11 @@
    "pg": "/jogo/pec-zwolle-x-az-alkmaar-29-11-2026/"
   },
   {
-   "inicio": "2026-11-29T13:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Fenerbahce",
-   "fora": "Erzurum BB",
-   "local": "Şükrü Saracoğlu Stadium, Istanbul",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888238",
-   "lg": "tur.1",
+   "casa": "Fenerbahce",
+   "comp": "turquia",
    "ed": "20261129",
    "eid": "401888238",
    "fora": "Erzurum BB",
@@ -3881,17 +3785,11 @@
    "pg": "/jogo/cruz-azul-x-leon-30-11-2026/"
   },
   {
-   "inicio": "2026-11-30T13:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Goztepe",
-   "fora": "Trabzonspor",
-   "local": "Göztepe Gürsel Aksel Stadi, Izmir",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888239",
-   "lg": "tur.1",
+   "casa": "Goztepe",
+   "comp": "turquia",
    "ed": "20261130",
    "eid": "401888239",
    "fora": "Trabzonspor",
@@ -3917,17 +3815,11 @@
    "pg": "/jogo/lecce-x-atalanta-30-11-2026/"
   },
   {
-   "inicio": "2026-11-30T15:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Besiktas",
-   "fora": "Galatasaray",
-   "local": "Vodafone Park, Istanbul",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888237",
-   "lg": "tur.1",
+   "casa": "Besiktas",
+   "comp": "turquia",
    "ed": "20261130",
    "eid": "401888237",
    "fora": "Galatasaray",
@@ -4912,17 +4804,11 @@
    "pg": "/jogo/al-ahli-x-al-faisaly-04-12-2026/"
   },
   {
-   "inicio": "2026-12-04T14:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Galatasaray",
-   "fora": "Caykur Rizespor",
-   "local": "RAMS Park, Istanbul",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888231",
-   "lg": "tur.1",
+   "casa": "Galatasaray",
+   "comp": "turquia",
    "ed": "20261204",
    "eid": "401888231",
    "fora": "Caykur Rizespor",
@@ -5045,17 +4931,11 @@
    "pg": "/jogo/alaves-x-espanyol-04-12-2026/"
   },
   {
-   "inicio": "2026-12-04T17:00:00-03:00",
-   "comp": "championship",
-   "casa": "Sheffield United",
-   "fora": "West Ham United",
-   "local": "Bramall Lane, Sheffield",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880116",
-   "lg": "eng.2",
+   "casa": "Sheffield United",
+   "comp": "championship",
    "ed": "20261204",
    "eid": "401880116",
    "fora": "West Ham United",
@@ -5081,17 +4961,11 @@
    "pg": "/jogo/sporting-cp-x-maritimo-04-12-2026/"
   },
   {
-   "inicio": "2026-12-05T07:30:00-03:00",
-   "comp": "turquia",
-   "casa": "Konyaspor",
-   "fora": "Gaziantep FK",
-   "local": "Medas Konya Büyüksehir Stadyumu, Konya",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888232",
-   "lg": "tur.1",
+   "casa": "Konyaspor",
+   "comp": "turquia",
    "ed": "20261205",
    "eid": "401888232",
    "fora": "Gaziantep FK",
@@ -5115,17 +4989,11 @@
    "pg": "/jogo/al-fayha-x-al-fateh-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T09:30:00-03:00",
-   "comp": "championship",
-   "casa": "Bolton Wanderers",
-   "fora": "Blackburn Rovers",
-   "local": "Toughsheet Community Stadium, Bolton",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880124",
-   "lg": "eng.2",
+   "casa": "Bolton Wanderers",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880124",
    "fora": "Blackburn Rovers",
@@ -5136,17 +5004,11 @@
    "pg": "/jogo/bolton-wanderers-x-blackburn-rovers-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T09:30:00-03:00",
-   "comp": "championship",
-   "casa": "Bristol City",
-   "fora": "Swansea City",
-   "local": "Ashton Gate, Bristol",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880123",
-   "lg": "eng.2",
+   "casa": "Bristol City",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880123",
    "fora": "Swansea City",
@@ -5172,17 +5034,11 @@
    "pg": "/jogo/chelsea-x-liverpool-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T09:30:00-03:00",
-   "comp": "championship",
-   "casa": "Middlesbrough",
-   "fora": "Derby County",
-   "local": "Riverside Stadium, Middlesbrough",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880119",
-   "lg": "eng.2",
+   "casa": "Middlesbrough",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880119",
    "fora": "Derby County",
@@ -5193,17 +5049,11 @@
    "pg": "/jogo/middlesbrough-x-derby-county-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T09:30:00-03:00",
-   "comp": "championship",
-   "casa": "Watford",
-   "fora": "Millwall",
-   "local": "Vicarage Road, Watford",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880114",
-   "lg": "eng.2",
+   "casa": "Watford",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880114",
    "fora": "Millwall",
@@ -5214,17 +5064,11 @@
    "pg": "/jogo/watford-x-millwall-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T10:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Amed SFK",
-   "fora": "Alanyaspor",
-   "local": "Diyarbakir Stadyumu, Diyarbakir",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888365",
-   "lg": "tur.1",
+   "casa": "Amed SFK",
+   "comp": "turquia",
    "ed": "20261205",
    "eid": "401888365",
    "fora": "Alanyaspor",
@@ -5383,17 +5227,11 @@
    "pg": "/jogo/bournemouth-x-hull-city-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Cardiff City",
-   "fora": "Lincoln City",
-   "local": "Cardiff City Stadium, Cardiff",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880121",
-   "lg": "eng.2",
+   "casa": "Cardiff City",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880121",
    "fora": "Lincoln City",
@@ -5404,17 +5242,11 @@
    "pg": "/jogo/cardiff-city-x-lincoln-city-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Charlton Athletic",
-   "fora": "Birmingham City",
-   "local": "The Valley, London",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880120",
-   "lg": "eng.2",
+   "casa": "Charlton Athletic",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880120",
    "fora": "Birmingham City",
@@ -5507,17 +5339,11 @@
    "pg": "/jogo/manchester-united-x-coventry-city-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Norwich City",
-   "fora": "Wrexham",
-   "local": "Carrow Road, Norwich",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880118",
-   "lg": "eng.2",
+   "casa": "Norwich City",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880118",
    "fora": "Wrexham",
@@ -5541,17 +5367,11 @@
    "pg": "/jogo/port-vale-x-leyton-orient-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Portsmouth",
-   "fora": "West Bromwich Albion",
-   "local": "Fratton Park, Portsmouth",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880117",
-   "lg": "eng.2",
+   "casa": "Portsmouth",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880117",
    "fora": "West Bromwich Albion",
@@ -5614,17 +5434,11 @@
    "pg": "/jogo/shrewsbury-town-x-burton-albion-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Stoke City",
-   "fora": "Queens Park Rangers",
-   "local": "bet365 Stadium, Stoke-on-Trent",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880115",
-   "lg": "eng.2",
+   "casa": "Stoke City",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880115",
    "fora": "Queens Park Rangers",
@@ -5648,17 +5462,11 @@
    "pg": "/jogo/wigan-athletic-x-barnsley-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T12:00:00-03:00",
-   "comp": "championship",
-   "casa": "Wolverhampton Wanderers",
-   "fora": "Southampton",
-   "local": "Molineux Stadium, Wolverhampton",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880113",
-   "lg": "eng.2",
+   "casa": "Wolverhampton Wanderers",
+   "comp": "championship",
    "ed": "20261205",
    "eid": "401880113",
    "fora": "Southampton",
@@ -5725,17 +5533,11 @@
    "pg": "/jogo/willem-ii-x-feyenoord-rotterdam-05-12-2026/"
   },
   {
-   "inicio": "2026-12-05T13:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Istanbul Basaksehir",
-   "fora": "Fenerbahce",
-   "local": "Basaksehir Fatih Terim Stadium, Istanbul",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888234",
-   "lg": "tur.1",
+   "casa": "Istanbul Basaksehir",
+   "comp": "turquia",
    "ed": "20261205",
    "eid": "401888234",
    "fora": "Fenerbahce",
@@ -6034,17 +5836,11 @@
    "pg": "/jogo/braga-x-arouca-05-12-2026/"
   },
   {
-   "inicio": "2026-12-06T07:30:00-03:00",
-   "comp": "turquia",
-   "casa": "Erzurum BB",
-   "fora": "Kocaelispor",
-   "local": "Erzurum Kazim Karabekir, Erzurum",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888229",
-   "lg": "tur.1",
+   "casa": "Erzurum BB",
+   "comp": "turquia",
    "ed": "20261206",
    "eid": "401888229",
    "fora": "Kocaelispor",
@@ -6083,17 +5879,11 @@
    "pg": "/jogo/genoa-x-torino-06-12-2026/"
   },
   {
-   "inicio": "2026-12-06T09:00:00-03:00",
-   "comp": "championship",
-   "casa": "Burnley",
-   "fora": "Preston North End",
-   "local": "Turf Moor, Burnley",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880122",
-   "lg": "eng.2",
+   "casa": "Burnley",
+   "comp": "championship",
    "ed": "20261206",
    "eid": "401880122",
    "fora": "Preston North End",
@@ -6117,17 +5907,11 @@
    "pg": "/jogo/salisbury-fc-x-blackpool-06-12-2026/"
   },
   {
-   "inicio": "2026-12-06T10:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Besiktas",
-   "fora": "Samsunspor",
-   "local": "Vodafone Park, Istanbul",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888230",
-   "lg": "tur.1",
+   "casa": "Besiktas",
+   "comp": "turquia",
    "ed": "20261206",
    "eid": "401888230",
    "fora": "Samsunspor",
@@ -6138,17 +5922,11 @@
    "pg": "/jogo/besiktas-x-samsunspor-06-12-2026/"
   },
   {
-   "inicio": "2026-12-06T10:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Genclerbirligi",
-   "fora": "Eyupspor",
-   "local": "Eryaman Stadium, Ankara",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888233",
-   "lg": "tur.1",
+   "casa": "Genclerbirligi",
+   "comp": "turquia",
    "ed": "20261206",
    "eid": "401888233",
    "fora": "Eyupspor",
@@ -6359,17 +6137,11 @@
    "pg": "/jogo/ado-den-haag-x-excelsior-06-12-2026/"
   },
   {
-   "inicio": "2026-12-06T13:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Trabzonspor",
-   "fora": "Çorum FK",
-   "local": "Papara Park, Trabzon",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888366",
-   "lg": "tur.1",
+   "casa": "Trabzonspor",
+   "comp": "turquia",
    "ed": "20261206",
    "eid": "401888366",
    "fora": "Çorum FK",
@@ -6580,17 +6352,11 @@
    "pg": "/jogo/abha-x-al-kholood-07-12-2026/"
   },
   {
-   "inicio": "2026-12-07T14:00:00-03:00",
-   "comp": "turquia",
-   "casa": "Kasimpasa",
-   "fora": "Goztepe",
-   "local": "Recep Tayyip Erdogan Stadium, Istanbul",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401888235",
-   "lg": "tur.1",
+   "casa": "Kasimpasa",
+   "comp": "turquia",
    "ed": "20261207",
    "eid": "401888235",
    "fora": "Goztepe",
@@ -6704,17 +6470,11 @@
    "pg": "/jogo/villarreal-x-sabah-fk-08-12-2026/"
   },
   {
-   "inicio": "2026-12-08T16:45:00-03:00",
-   "comp": "championship",
-   "casa": "Blackburn Rovers",
-   "fora": "Norwich City",
-   "local": "Ewood Park, Blackburn",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880111",
-   "lg": "eng.2",
+   "casa": "Blackburn Rovers",
+   "comp": "championship",
    "ed": "20261208",
    "eid": "401880111",
    "fora": "Norwich City",
@@ -6725,17 +6485,11 @@
    "pg": "/jogo/blackburn-rovers-x-norwich-city-08-12-2026/"
   },
   {
-   "inicio": "2026-12-08T16:45:00-03:00",
-   "comp": "championship",
-   "casa": "Millwall",
-   "fora": "Sheffield United",
-   "local": "The Den, London",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880110",
-   "lg": "eng.2",
+   "casa": "Millwall",
+   "comp": "championship",
    "ed": "20261208",
    "eid": "401880110",
    "fora": "Sheffield United",
@@ -6746,17 +6500,11 @@
    "pg": "/jogo/millwall-x-sheffield-united-08-12-2026/"
   },
   {
-   "inicio": "2026-12-08T16:45:00-03:00",
-   "comp": "championship",
-   "casa": "Queens Park Rangers",
-   "fora": "Wolverhampton Wanderers",
-   "local": "MATRADE Loftus Road, London",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880109",
-   "lg": "eng.2",
+   "casa": "Queens Park Rangers",
+   "comp": "championship",
    "ed": "20261208",
    "eid": "401880109",
    "fora": "Wolverhampton Wanderers",
@@ -6767,17 +6515,11 @@
    "pg": "/jogo/queens-park-rangers-x-wolverhampton-wanderers-08-12-2026/"
   },
   {
-   "inicio": "2026-12-08T16:45:00-03:00",
-   "comp": "championship",
-   "casa": "Swansea City",
-   "fora": "Bolton Wanderers",
-   "local": "Swansea.com Stadium, Swansea",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880108",
-   "lg": "eng.2",
+   "casa": "Swansea City",
+   "comp": "championship",
    "ed": "20261208",
    "eid": "401880108",
    "fora": "Bolton Wanderers",
@@ -6788,17 +6530,11 @@
    "pg": "/jogo/swansea-city-x-bolton-wanderers-08-12-2026/"
   },
   {
-   "inicio": "2026-12-08T16:45:00-03:00",
-   "comp": "championship",
-   "casa": "West Bromwich Albion",
-   "fora": "Cardiff City",
-   "local": "The Hawthorns, West Bromwich",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880107",
-   "lg": "eng.2",
+   "casa": "West Bromwich Albion",
+   "comp": "championship",
    "ed": "20261208",
    "eid": "401880107",
    "fora": "Cardiff City",
@@ -6809,17 +6545,11 @@
    "pg": "/jogo/west-bromwich-albion-x-cardiff-city-08-12-2026/"
   },
   {
-   "inicio": "2026-12-08T16:45:00-03:00",
-   "comp": "championship",
-   "casa": "Wrexham",
-   "fora": "Charlton Athletic",
-   "local": "STōK Cae Ras, Wrexham",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880105",
-   "lg": "eng.2",
+   "casa": "Wrexham",
+   "comp": "championship",
    "ed": "20261208",
    "eid": "401880105",
    "fora": "Charlton Athletic",
@@ -6890,17 +6620,11 @@
    "pg": "/jogo/bayern-de-munique-x-slavia-prague-08-12-2026/"
   },
   {
-   "inicio": "2026-12-08T17:00:00-03:00",
-   "comp": "championship",
-   "casa": "Birmingham City",
-   "fora": "Watford",
-   "local": "St. Andrew's Stadium, Birmingham",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880112",
-   "lg": "eng.2",
+   "casa": "Birmingham City",
+   "comp": "championship",
    "ed": "20261208",
    "eid": "401880112",
    "fora": "Watford",
@@ -6956,17 +6680,11 @@
    "pg": "/jogo/roma-x-sporting-cp-08-12-2026/"
   },
   {
-   "inicio": "2026-12-08T17:00:00-03:00",
-   "comp": "championship",
-   "casa": "West Ham United",
-   "fora": "Middlesbrough",
-   "local": "London Stadium, London",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880106",
-   "lg": "eng.2",
+   "casa": "West Ham United",
+   "comp": "championship",
    "ed": "20261208",
    "eid": "401880106",
    "fora": "Middlesbrough",
@@ -7022,17 +6740,11 @@
    "pg": "/jogo/rayo-vallecano-x-athletic-club-09-12-2026/"
   },
   {
-   "inicio": "2026-12-09T16:45:00-03:00",
-   "comp": "championship",
-   "casa": "Derby County",
-   "fora": "Bristol City",
-   "local": "Pride Park, Derby",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880104",
-   "lg": "eng.2",
+   "casa": "Derby County",
+   "comp": "championship",
    "ed": "20261209",
    "eid": "401880104",
    "fora": "Bristol City",
@@ -7043,17 +6755,11 @@
    "pg": "/jogo/derby-county-x-bristol-city-09-12-2026/"
   },
   {
-   "inicio": "2026-12-09T16:45:00-03:00",
-   "comp": "championship",
-   "casa": "Lincoln City",
-   "fora": "Stoke City",
-   "local": "LNER Stadium, Lincoln",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880103",
-   "lg": "eng.2",
+   "casa": "Lincoln City",
+   "comp": "championship",
    "ed": "20261209",
    "eid": "401880103",
    "fora": "Stoke City",
@@ -7064,17 +6770,11 @@
    "pg": "/jogo/lincoln-city-x-stoke-city-09-12-2026/"
   },
   {
-   "inicio": "2026-12-09T16:45:00-03:00",
-   "comp": "championship",
-   "casa": "Preston North End",
-   "fora": "Portsmouth",
-   "local": "Deepdale, Preston",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880102",
-   "lg": "eng.2",
+   "casa": "Preston North End",
+   "comp": "championship",
    "ed": "20261209",
    "eid": "401880102",
    "fora": "Portsmouth",
@@ -7175,17 +6875,11 @@
    "pg": "/jogo/psv-eindhoven-x-atletico-de-madrid-09-12-2026/"
   },
   {
-   "inicio": "2026-12-09T17:00:00-03:00",
-   "comp": "championship",
-   "casa": "Southampton",
-   "fora": "Burnley",
-   "local": "St. Mary's Stadium, Southampton",
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
-   "eid": "401880101",
-   "lg": "eng.2",
+   "casa": "Southampton",
+   "comp": "championship",
    "ed": "20261209",
    "eid": "401880101",
    "fora": "Burnley",
