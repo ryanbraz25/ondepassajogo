@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-24T23:15:41-03:00",
+ "atualizado": "2026-11-24T23:34:42-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -6808,14 +6808,6 @@
    "pg": "/jogo/west-ham-united-x-middlesbrough-08-12-2026/"
   }
  ],
- "sugestoes": {
-  "form_url": "",
-  "campos": {
-   "jogo": "",
-   "canal": "",
-   "link": ""
-  }
- },
  "popularidade": {
   "padrao": 10,
   "times": {
