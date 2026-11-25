@@ -51,7 +51,7 @@
     return [gol, ...ls].filter(x => x.length);
   }
   // marcas no jogador do campo: gols, cartões e minuto em que saiu
-  const BOLA = '<svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#fff" stroke="#111" stroke-width="2"/><path d="M12 7l4 3-1.5 5h-5L8 10z" fill="#111"/></svg>';
+  const BOLA = '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#fff" stroke="#111" stroke-width="2"/><path d="M12 7l4 3-1.5 5h-5L8 10z" fill="#111"/></svg>';
   const marcas = p => {
     const st = p.st || {}; let m = '';
     for (let k = 0; k < Math.min(st.g || 0, 3); k++) m += `<i class="mk-g" title="Gol">${BOLA}</i>`;
@@ -84,7 +84,10 @@
     const tem = [...jogou(es.casa), ...jogou(es.fora)].some(p => p.st && Object.keys(p.st).length);
     if (!tem) return '';
     const tab = (x, n) => {
-      const ps = jogou(x).sort((a, b) => prof(a.pos) - prof(b.pos) || (a.e ? 1 : 0) - (b.e ? 1 : 0));
+      // titulares do goleiro ao ataque; depois quem entrou, na ordem em que entrou
+      const minN = m => parseInt(String(m || '').replace(/\D.*$/, ''), 10) || 0;
+      const ps = [...(x.titulares || []).slice().sort((a, b) => prof(a.pos) - prof(b.pos) || (a.fp || 99) - (b.fp || 99)),
+        ...(x.reservas || []).filter(p => p.e).sort((a, b) => minN(a.e) - minN(b.e))];
       const lin = ps.map(p => {
         const st = p.st || {};
         const cart = st.vm ? '<i class="mk-c vm" title="Cartão vermelho"></i>' : st.am ? '<i class="mk-c am" title="Cartão amarelo"></i>' : '';
