@@ -76,7 +76,7 @@
         box.insertAdjacentHTML('afterend', reservas(es, es.time_casa, es.time_fora));
       } catch (_) {}
     } else if (box.dataset.eid && box.dataset.lg) {
-      // ainda não saiu: a partir de 90 min antes, consulta a ESPN direto do navegador a cada 2 minutos
+      // escalação não guardada: a partir de 90 min antes, consulta a ESPN direto do navegador (também depois do jogo)
       const ini = Date.parse(box.dataset.ini);
       const url = `https://site.web.api.espn.com/apis/site/v2/sports/soccer/${box.dataset.lg}/summary?event=${box.dataset.eid}&region=br&lang=en`;
       const lado = r => {
@@ -90,7 +90,7 @@
       };
       const tentar = async () => {
         const agora = Date.now();
-        if (agora < ini - 90 * 60e3 || agora > ini + 150 * 60e3) return false;
+        if (agora < ini - 90 * 60e3) return false;
         try {
           const r = await (await fetch(url, { cache: 'no-store' })).json();
           const m = {}; (r.rosters || []).forEach(x => m[x.homeAway] = x);
@@ -100,10 +100,12 @@
           box.innerHTML = campo(es, box.dataset.casa, box.dataset.fora);
           box.insertAdjacentHTML('afterend', reservas(es, box.dataset.casa, box.dataset.fora));
           const n = $('.escnota'); if (n) n.textContent = 'Escalações oficiais.';
+          const sec = box.closest('section'); if (sec) sec.hidden = false;
           return true;
         } catch (_) { return false; }
       };
-      tentar().then(ok => { if (!ok) { const t = setInterval(async () => { if (await tentar()) clearInterval(t); }, 120e3); } });
+      // depois do jogo (mais de 2h30 do início) basta uma consulta; antes, tenta de novo a cada 2 minutos
+      tentar().then(ok => { if (!ok && Date.now() < ini + 150 * 60e3) { const t = setInterval(async () => { if (await tentar() || Date.now() > ini + 150 * 60e3) clearInterval(t); }, 120e3); } });
     }
   }
 })();

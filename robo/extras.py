@@ -313,8 +313,11 @@ def escalacoes(cfg, get_json, jogos, offline=False):
             if not (j.get("eid") and j.get("lg")) or j["eid"] in e and e[j["eid"]].get("completa") and e[j["eid"]].get("v") == 2:
                 continue
             ini = datetime.fromisoformat(j["inicio"]).astimezone(BRT)
-            if -timedelta(hours=2, minutes=30) <= ini - agora <= timedelta(hours=2, minutes=30):
+            # de 2h30 antes do jogo até 2 dias depois: se o robô não rodou na hora (o agendador grátis
+            # do GitHub atrasa), a escalação ainda é buscada depois, porque a ESPN guarda a do jogo
+            if -timedelta(days=2) <= ini - agora <= timedelta(hours=2, minutes=30):
                 alvo.append(j)
+        alvo.sort(key=lambda j: abs((datetime.fromisoformat(j["inicio"]).astimezone(BRT) - agora).total_seconds()))
         for j in alvo[:40]:
             try:
                 r = get_json(SUMMARY.format(j["lg"], j["eid"]), timeout=30)

@@ -186,7 +186,7 @@ def pagina(cx, caminho, titulo, descricao, corpo, jsonld=None, migalhas=None, no
 <link rel="stylesheet" href="/rodadas.css?v=2">
 <link rel="stylesheet" href="/aovivo.css?v=1">
 <link rel="stylesheet" href="/estatisticas.css?v=1">
-<script src="/p.js?v=5" defer></script>
+<script src="/p.js?v=6" defer></script>
 <script src="/rodadas.js?v=2" defer></script>
 <script src="/aovivo.js?v=1" defer></script>
 <script src="/estatisticas.js?v=1" defer></script>
@@ -510,8 +510,15 @@ def escalacoes_html(cx, j):
         dados = ('<script type="application/json" class="escdata">' + json.dumps(es, ensure_ascii=False).replace("</", "<\\/") + "</script>")
         return (f'<section id="escalacoes" class="escal"><h2>Escalações</h2><div class="campo" data-pronto="1"></div>'
                 f'<div class="esqs esqs-txt">{"".join(lados)}</div>{dados}</section>')
-    if j.get("placar") or ini - agora > timedelta(days=3):
+    if ini - agora > timedelta(days=3):
         return ""
+    if j.get("placar"):
+        # jogo encerrado sem escalação guardada: o navegador busca na ESPN e mostra a seção só se achar
+        if not (j.get("eid") and j.get("lg")) or agora - ini > timedelta(days=10):
+            return ""
+        return (f'<section id="escalacoes" class="escal" hidden><h2>Escalações</h2>'
+                f'<div class="campo" data-lg="{e(j["lg"])}" data-eid="{e(j["eid"])}" data-ini="{ini.isoformat()}" '
+                f'data-casa="{e(j["casa"])}" data-fora="{e(j["fora"])}"></div></section>')
     return (f'<section id="escalacoes" class="escal"><h2>Escalações</h2>'
             f'<div class="campo" data-lg="{e(j.get("lg", ""))}" data-eid="{e(j.get("eid", ""))}" data-ini="{ini.isoformat()}" '
             f'data-casa="{e(j["casa"])}" data-fora="{e(j["fora"])}"></div>'
