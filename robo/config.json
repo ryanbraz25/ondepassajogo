@@ -522,7 +522,10 @@
    "curto": "Championship",
    "espn": "eng.2",
    "principal": false,
-   "tsdb_id": 4329
+   "tsdb_id": 4329,
+   "canais_padrao": [
+    "disney"
+   ]
   },
   "eredivisie": {
    "nome": "Eredivisie (Holanda)",
@@ -538,7 +541,10 @@
    "curto": "Turco",
    "espn": "tur.1",
    "principal": false,
-   "tsdb_id": 4339
+   "tsdb_id": 4339,
+   "canais_padrao": [
+    "disney"
+   ]
   },
   "feminino": {
    "nome": "Brasileirão Feminino",
