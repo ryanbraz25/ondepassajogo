@@ -6345,6 +6345,14 @@
   "fase": "league-phase",
   "fora": "Barcelona",
   "inicio": "2026-11-25T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "31'",
+    "n": "A. Gordon"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Baku Olympic Stadium, Baku",
   "status": "a_confirmar"
