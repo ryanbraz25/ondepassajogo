@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T15:36:03-03:00",
+ "atualizado": "2026-11-25T16:31:26-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1124,6 +1124,30 @@
      "m": "31'",
      "n": "A. Gordon",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "51'",
+     "n": "A. Gordon",
+     "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "55'",
+     "n": "K. Adeyemi",
+     "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "60'",
+     "n": "G. Jesus",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "63'",
+     "n": "J. Mickels",
+     "k": "g"
     }
    ],
    "rodada": "5ª rodada",
@@ -1143,6 +1167,14 @@
    "eid": "401915293",
    "lg": "uefa.champions",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "f",
+     "m": "62'",
+     "n": "T. Buchanan",
+     "k": "g"
+    }
+   ],
    "rodada": "5ª rodada",
    "pg": "/jogo/slavia-prague-x-villarreal-25-11-2026/"
   },

@@ -5760,6 +5760,14 @@
   "fase": "league-phase",
   "fora": "Villarreal",
   "inicio": "2026-11-25T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "62'",
+    "n": "T. Buchanan"
+   }
+  ],
   "lg": "uefa.champions",
   "local": "Fortuna Arena, Prague",
   "status": "a_confirmar"
@@ -6351,6 +6359,30 @@
     "l": "f",
     "m": "31'",
     "n": "A. Gordon"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "51'",
+    "n": "A. Gordon"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "55'",
+    "n": "K. Adeyemi"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "60'",
+    "n": "G. Jesus"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "63'",
+    "n": "J. Mickels"
    }
   ],
   "lg": "uefa.champions",
