@@ -1,47 +1,7 @@
 {
  "comentario": "Gravado pela pesquisa noturna do Claude: canais (e rodada/nota) de cada jogo. O robô junta isso aos jogos da ESPN. Pode editar à mão.",
- "atualizado": "2026-11-25T00:00:10-03:00",
+ "atualizado": "2026-11-25T11:47:54-03:00",
  "jogos": [
-  {
-   "data": "2026-11-23",
-   "casa": "Internacional",
-   "fora": "Vitória",
-   "inicio": "2026-11-23T19:30:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "premiere"
-   ],
-   "status": "confirmado",
-   "rodada": "36ª rodada",
-   "local": "Beira-Rio, Porto Alegre"
-  },
-  {
-   "data": "2026-11-23",
-   "casa": "Botafogo",
-   "fora": "São Paulo",
-   "inicio": "2026-11-23T20:00:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "prime"
-   ],
-   "status": "confirmado",
-   "rodada": "36ª rodada",
-   "local": "Nilton Santos, Rio de Janeiro"
-  },
-  {
-   "data": "2026-11-23",
-   "casa": "Santos",
-   "fora": "Grêmio",
-   "inicio": "2026-11-23T21:00:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "sportv",
-    "premiere"
-   ],
-   "status": "confirmado",
-   "rodada": "36ª rodada",
-   "local": "Morumbis, São Paulo"
-  },
   {
    "data": "2026-11-24",
    "casa": "Bodo/Glimt",
