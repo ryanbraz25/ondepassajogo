@@ -9173,5 +9173,26 @@
   "lg": "esp.copa_del_rey",
   "local": "Estadio Municipal Nuevo Pepico Amat, Elda",
   "status": "a_confirmar"
+ },
+ "espn:401936657": {
+  "_d": "20261129",
+  "_liga": "arg.1",
+  "_logos": {
+   "Boca Juniors": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "Gimnasia La Plata": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Boca Juniors",
+  "comp": "argentina",
+  "ed": "20261129",
+  "eid": "401936657",
+  "fase": "clausura---quarterfinals",
+  "fora": "Gimnasia La Plata",
+  "inicio": "2026-11-29T20:30:00-03:00",
+  "lg": "arg.1",
+  "local": "Alberto José Armando (La Bombonera), Buenos Aires",
+  "status": "a_confirmar"
  }
 }

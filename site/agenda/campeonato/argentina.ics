@@ -188,4 +188,21 @@ CATEGORIES:Argentino
 URL:https://ondepassajogo.com.br/jogo/rosario-central-x-barracas-central-29
  -11-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401936657@ondepassajogo.com.br
+DTSTAMP:20261126T145226Z
+LAST-MODIFIED:20261126T145226Z
+SUMMARY:Boca Juniors x Gimnasia La Plata
+DTSTART:20261129T233000Z
+DTEND:20261130T013000Z
+LOCATION:Alberto José Armando (La Bombonera)\, Buenos Aires
+DESCRIPTION:Argentino\nOnde passa: Disney+ (a confirmar)\nDetalhes e onde a
+ ssistir: https://ondepassajogo.com.br/jogo/boca-juniors-x-gimnasia-la-plat
+ a-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Argentino
+URL:https://ondepassajogo.com.br/jogo/boca-juniors-x-gimnasia-la-plata-29-1
+ 1-2026/
+END:VEVENT
 END:VCALENDAR
