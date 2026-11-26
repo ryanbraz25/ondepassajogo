@@ -50,15 +50,14 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915514@ondepassajogo.com.br
-DTSTAMP:20261126T030549Z
-LAST-MODIFIED:20261126T030549Z
-SUMMARY:Sparta Prague x AZ Alkmaar
+DTSTAMP:20261126T220347Z
+LAST-MODIFIED:20261126T220347Z
+SUMMARY:Sparta Prague 2 x 4 AZ Alkmaar
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Generali Arena\, Prague
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nOnde passa: CazéTV (
- grátis)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/spar
- ta-prague-x-az-alkmaar-26-11-2026/
+DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
+ ps://ondepassajogo.com.br/jogo/sparta-prague-x-az-alkmaar-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa

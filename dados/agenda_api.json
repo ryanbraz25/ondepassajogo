@@ -6475,6 +6475,10 @@
   "inicio": "2026-11-26T17:00:00-03:00",
   "lg": "uefa.europa",
   "local": "Groupama Stadium, Lyon",
+  "placar": {
+   "casa": 0,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401915502": {
@@ -6512,10 +6516,26 @@
     "l": "c",
     "m": "43'",
     "n": "J. Ekhator"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "68'",
+    "n": "F. Conceição"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "73'",
+    "n": "J. Boga"
    }
   ],
   "lg": "uefa.europa",
   "local": "Allianz Stadium, Torino",
+  "placar": {
+   "casa": 4,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915503": {
@@ -6547,10 +6567,26 @@
     "l": "f",
     "m": "39'",
     "n": "T. Aasgaard"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "54'",
+    "n": "T. Fountas"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+5'",
+    "n": "A. Bertaccini"
    }
   ],
   "lg": "uefa.europa",
   "local": "Pankritio Stadium, Crete",
+  "placar": {
+   "casa": 1,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401915504": {
@@ -6570,8 +6606,38 @@
   "fase": "league-phase",
   "fora": "Real Sociedad",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "66'",
+    "n": "M. Sarr"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "71'",
+    "n": "J. Martín"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "73'",
+    "n": "J. Mateta"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "81'",
+    "n": "D. McNeil"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Selhurst Park, London",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915505": {
@@ -6603,10 +6669,26 @@
     "l": "f",
     "m": "36'",
     "n": "A. Thomasson"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "81'",
+    "n": "T. Chery"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "89'",
+    "n": "C. Bischoff"
    }
   ],
   "lg": "uefa.europa",
   "local": "Goffertstadion, Nijmegen",
+  "placar": {
+   "casa": 3,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915506": {
@@ -6809,10 +6891,20 @@
     "l": "c",
     "m": "19'",
     "n": "D. Jean"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "84'",
+    "n": "C. Durán"
    }
   ],
   "lg": "uefa.europa",
   "local": "Estádio Dr. Magalhaes Pessoa, Leiria",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401915513": {
@@ -6832,8 +6924,26 @@
   "fase": "league-phase",
   "fora": "Jagiellonia Bialystok",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "47'",
+    "n": "T. Tutierov"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "52'",
+    "n": "K. Jozwiak"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Stadium of Light, Sunderland",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915514": {
@@ -6865,10 +6975,38 @@
     "l": "c",
     "m": "27'",
     "n": "P. Vydra"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "52'",
+    "n": "P. Koopmeiners"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "68'",
+    "n": "R. Daal"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "73'",
+    "n": "A. Oufkir"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "84'",
+    "n": "A. Oufkir"
    }
   ],
   "lg": "uefa.europa",
   "local": "Generali Arena, Prague",
+  "placar": {
+   "casa": 2,
+   "fora": 4
+  },
   "status": "a_confirmar"
  },
  "espn:401915515": {
@@ -6894,10 +7032,32 @@
     "l": "f",
     "m": "43'",
     "n": "O. Diakité"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "72'",
+    "n": "A. Hlozek"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "80'",
+    "n": "B. Conté"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90'",
+    "n": "M. Moerstedt"
    }
   ],
   "lg": "uefa.europa",
   "local": "PreZero Arena, Sinsheim",
+  "placar": {
+   "casa": 3,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915516": {
@@ -6919,6 +7079,10 @@
   "inicio": "2026-11-26T17:00:00-03:00",
   "lg": "uefa.europa",
   "local": "Groupama Arena, Budapest",
+  "placar": {
+   "casa": 0,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401915517": {
@@ -7376,10 +7540,32 @@
     "l": "c",
     "m": "19'",
     "n": "D. López"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "54'",
+    "n": "T. Delaney"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "57'",
+    "n": "Á. Markgráf"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "59'",
+    "n": "Faysal Choaib"
    }
   ],
   "lg": "uefa.europa.conf",
   "local": "Estadi de la FAF d'Encamp, Encamp",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401915739": {
@@ -7645,10 +7831,26 @@
     "l": "c",
     "m": "11'",
     "n": "C. Irié"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "62'",
+    "n": "Y. Taha"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+3'",
+    "n": "N. Beste"
    }
   ],
   "lg": "uefa.europa.conf",
   "local": "Europa-Park Stadion, Freiburg im Breisgau",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915802": {
@@ -7680,10 +7882,26 @@
     "l": "c",
     "m": "31'",
     "n": "F. Navarro"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "71'",
+    "n": "M. Dorgeles"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "82'",
+    "n": "J. Milosevic"
    }
   ],
   "lg": "uefa.europa.conf",
   "local": "Estádio Municipal de Braga, Braga",
+  "placar": {
+   "casa": 4,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401915803": {
@@ -7709,10 +7927,26 @@
     "l": "c",
     "m": "32'",
     "n": "S. Lopes Cabral"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "69'",
+    "n": "M. Salah"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+3'",
+    "n": "N. Saviolo"
    }
   ],
   "lg": "uefa.europa.conf",
   "local": "Balgarska Armia Stadium, Sofia",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401915804": {
@@ -7738,10 +7972,20 @@
     "l": "c",
     "m": "26'",
     "n": "Tiago Araújo"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "85'",
+    "n": "M. Gashtarov"
    }
   ],
   "lg": "uefa.europa.conf",
   "local": "Ghelamco Arena, Ghent",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915805": {
@@ -7767,10 +8011,20 @@
     "l": "f",
     "m": "45+1'",
     "n": "S. Bazdar"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "51'",
+    "n": "S. Shinkawa"
    }
   ],
   "lg": "uefa.europa.conf",
   "local": "Stadion Poljud, Split",
+  "placar": {
+   "casa": 0,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401915806": {
@@ -7802,10 +8056,44 @@
     "l": "c",
     "m": "29'",
     "n": "M. Deket"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "75'",
+    "n": "Abel Pascual"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "86'",
+    "n": "N. Krstovic"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "88'",
+    "n": "S. Herrera"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90'",
+    "n": "S. Kolasinac"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+3'",
+    "n": "D. Zappacosta"
    }
   ],
   "lg": "uefa.europa.conf",
   "local": "Gradski Stadion Banja Luka, Banja Luka",
+  "placar": {
+   "casa": 2,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401915807": {
@@ -7831,10 +8119,38 @@
     "l": "f",
     "m": "45'",
     "n": "A. Jagusic"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "55'",
+    "n": "E. Rastoder"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "61'",
+    "n": "A. Lind"
+   },
+   {
+    "k": "c",
+    "l": "c",
+    "m": "78'",
+    "n": "V. Kristiansen"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "80'",
+    "n": "A. Lind"
    }
   ],
   "lg": "uefa.europa.conf",
   "local": "Right to Dream Park, Farum",
+  "placar": {
+   "casa": 3,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401915808": {
