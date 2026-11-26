@@ -14,8 +14,32 @@
   "fase": "2026-brasileiro-serie-a",
   "fora": "Corinthians",
   "inicio": "2026-11-25T20:00:00-03:00",
+  "lances": [
+   {
+    "k": "v",
+    "l": "c",
+    "m": "66'",
+    "n": "T. Borbas"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "70'",
+    "n": "Kaio"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+2'",
+    "n": "T. Cuello"
+   }
+  ],
   "lg": "bra.1",
   "local": "Arena MRV, Belo Horizonte",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841328": {
@@ -8070,6 +8094,14 @@
   "fase": "clausura---round-of-16",
   "fora": "Independiente Rivadavia",
   "inicio": "2026-11-25T21:00:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "c",
+    "m": "18'",
+    "n": "L. Paredes"
+   }
+  ],
   "lg": "arg.1",
   "local": "Alberto José Armando (La Bombonera), Buenos Aires",
   "status": "a_confirmar"

@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T21:15:27-03:00",
+ "atualizado": "2026-11-25T22:10:39-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1636,6 +1636,30 @@
    "eid": "401841319",
    "lg": "bra.1",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "c",
+     "m": "66'",
+     "n": "T. Borbas",
+     "k": "v"
+    },
+    {
+     "l": "f",
+     "m": "70'",
+     "n": "Kaio",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "90+2'",
+     "n": "T. Cuello",
+     "k": "g"
+    }
+   ],
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   },
    "rodada": "36ª rodada",
    "nota": "Corinthians luta contra o rebaixamento",
    "pg": "/jogo/atletico-mg-x-corinthians-25-11-2026/"
@@ -1654,6 +1678,14 @@
    "eid": "401933757",
    "lg": "arg.1",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "c",
+     "m": "18'",
+     "n": "L. Paredes",
+     "k": "p"
+    }
+   ],
    "rodada": "Oitavas de final (Clausura)",
    "pg": "/jogo/boca-juniors-x-independiente-rivadavia-25-11-2026/"
   },
