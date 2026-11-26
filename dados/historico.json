@@ -21541,6 +21541,45 @@
     "fora": 3
    }
   },
+  "401900871": {
+   "casa": "Al Faisaly",
+   "comp": "saudita",
+   "fase": "2026-27-saudi-pro-league",
+   "fora": "Al Diriyah",
+   "inicio": "2026-11-26T14:30:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "8'",
+     "n": "C. Diandy"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "45+3'",
+     "n": "C. Diandy"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "71'",
+     "n": "A. Mendy"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "89'",
+     "n": "T. Bongonda"
+    }
+   ],
+   "lg": "ksa.1",
+   "local": "King Abdullah Sport City Stadium, Buraidah",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
   "401900874": {
    "casa": "Al Fateh",
    "comp": "saudita",
@@ -24351,6 +24390,249 @@
     "fora": 1
    }
   },
+  "401915507": {
+   "casa": "Marseille",
+   "comp": "europa",
+   "fase": "league-phase",
+   "fora": "Levski Sofia",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "p",
+     "l": "c",
+     "m": "28'",
+     "n": "A. Gouiri"
+    }
+   ],
+   "lg": "uefa.europa",
+   "local": "Stade Vélodrome, Marseille",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401915508": {
+   "casa": "Union St.-Gilloise",
+   "comp": "europa",
+   "fase": "league-phase",
+   "fora": "Lech Poznan",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "15'",
+     "n": "M. Agnero"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "18'",
+     "n": "L. Palma"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "54'",
+     "n": "R. Florucz"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "66'",
+     "n": "K. Rodríguez"
+    }
+   ],
+   "lg": "uefa.europa",
+   "local": "King Power at Den Dreef Stadion, Leuven",
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   }
+  },
+  "401915517": {
+   "casa": "Dinamo Zagreb",
+   "comp": "europa",
+   "fase": "league-phase",
+   "fora": "Bayer Leverkusen",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "10'",
+     "n": "M. Tillman"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "45'",
+     "n": "J. Quansah"
+    }
+   ],
+   "lg": "uefa.europa",
+   "local": "Maksimir Stadium, Zagreb",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401915518": {
+   "casa": "Viktoria Plzen",
+   "comp": "europa",
+   "fase": "league-phase",
+   "fora": "Benfica",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "30'",
+     "n": "P. Hrosovský"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "43'",
+     "n": "P. Adu"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "44'",
+     "n": "C. Kabongo"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "46'",
+     "n": "C. Kabongo"
+    }
+   ],
+   "lg": "uefa.europa",
+   "local": "Doosan Arena, Plzen",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401915519": {
+   "casa": "Celta Vigo",
+   "comp": "europa",
+   "fase": "league-phase",
+   "fora": "Bournemouth",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "19'",
+     "n": "I. Aspas"
+    },
+    {
+     "k": "v",
+     "l": "f",
+     "m": "23'",
+     "n": "B. Diakité"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "47'",
+     "n": "Á. Rodríguez"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "78'",
+     "n": "Rayan"
+    }
+   ],
+   "lg": "uefa.europa",
+   "local": "Balaidos, Vigo",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
+  "401915520": {
+   "casa": "RB Salzburg",
+   "comp": "europa",
+   "fase": "league-phase",
+   "fora": "Ararat-Armenia",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "47'",
+     "n": "B. Mazurek"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "51'",
+     "n": "B. Mazurek"
+    }
+   ],
+   "lg": "uefa.europa",
+   "local": "Red Bull Arena Salzburg, Salzburg",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401915521": {
+   "casa": "Olympiacos",
+   "comp": "europa",
+   "fase": "league-phase",
+   "fora": "Milan",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "c",
+     "l": "c",
+     "m": "31'",
+     "n": "M. Maignan"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "49'",
+     "n": "J. Silva"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "56'",
+     "n": "O. Hutchinson"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "63'",
+     "n": "A. Cissè"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "71'",
+     "n": "C. Pulisic"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "90+5'",
+     "n": "D. Moreira"
+    }
+   ],
+   "lg": "uefa.europa",
+   "local": "Georgios Karaiskakis Stadium, Piraeus",
+   "placar": {
+    "casa": 2,
+    "fora": 4
+   }
+  },
   "401915522": {
    "casa": "Celtic",
    "comp": "europa",
@@ -25287,6 +25569,45 @@
     "fora": 0
    }
   },
+  "401915739": {
+   "casa": "Kauno Zalgiris",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "Riga FC",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "v",
+     "l": "f",
+     "m": "40'",
+     "n": "I. Siqueira"
+    },
+    {
+     "k": "v",
+     "l": "f",
+     "m": "45+4'",
+     "n": "K. Piric"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "56'",
+     "n": "A. Kalik"
+    },
+    {
+     "k": "p",
+     "l": "c",
+     "m": "61'",
+     "n": "G. Debeljuh"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "S. Darius and S. Gireno Stadium, Kaunas",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
   "401915740": {
    "casa": "F.C. København",
    "comp": "conference",
@@ -25402,6 +25723,294 @@
    "placar": {
     "casa": 3,
     "fora": 2
+   }
+  },
+  "401915808": {
+   "casa": "SK Brann",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "AGF",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "25'",
+     "n": "T. Bech"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "39'",
+     "n": "D. Grétarsson"
+    },
+    {
+     "k": "p",
+     "l": "c",
+     "m": "51'",
+     "n": "N. Castro"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "56'",
+     "n": "S. Tchamche"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "60'",
+     "n": "M. Knudsen"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "Brann Stadium, Bergen",
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   }
+  },
+  "401915809": {
+   "casa": "Pafos",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "FC Midtjylland",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "43'",
+     "n": "M. Rajovic"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "82'",
+     "n": "M. Gogorza"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "Alphamega Stadium, Kolossi",
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   }
+  },
+  "401915810": {
+   "casa": "Egnatia",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "Lincoln Red Imps",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "47'",
+     "n": "A. Albanese"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "79'",
+     "n": "Y. Flalhi Idrissi"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "81'",
+     "n": "F. Medeiros"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "Air Albania Stadium, Tirana",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
+  "401915811": {
+   "casa": "Heart of Midlothian",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "AS Monaco",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "15'",
+     "n": "J. Altena"
+    },
+    {
+     "k": "p",
+     "l": "f",
+     "m": "25'",
+     "n": "F. Balogun"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "41'",
+     "n": "E. Diop"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "44'",
+     "n": "S. Kerjota"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "90+4'",
+     "n": "F. Balogun"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "Tynecastle Park, Edinburgh",
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   }
+  },
+  "401915812": {
+   "casa": "Jablonec",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "FC Lugano",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "70'",
+     "n": "M. Cedidla"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "85'",
+     "n": "L. Jawo"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "Stadion Strelnice, Jablonec",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
+  "401915813": {
+   "casa": "Iberia 1999",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "Getafe",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "25'",
+     "n": "G. Kobuladze"
+    },
+    {
+     "k": "v",
+     "l": "f",
+     "m": "59'",
+     "n": "O. Mangala"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "Mikheil Meskhi Stadioni, Tbilisi",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
+  "401915814": {
+   "casa": "Brighton",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "CSU Craiova",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "3'",
+     "n": "I. Osman"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "33'",
+     "n": "M. De Cuyper"
+    },
+    {
+     "k": "v",
+     "l": "f",
+     "m": "39'",
+     "n": "V. Screciu"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "61'",
+     "n": "C. Kostoulas"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "63'",
+     "n": "I. Osman"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "American Express Stadium, Falmer",
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   }
+  },
+  "401915815": {
+   "casa": "Ajax Amsterdam",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "FC Thun",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "6'",
+     "n": "R. Bounida"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "41'",
+     "n": "Marcos Leonardo"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "70'",
+     "n": "R. Bounida"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "89'",
+     "n": "S. Berghuis"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "Johan Cruijff Arena, Amsterdam",
+   "placar": {
+    "casa": 4,
+    "fora": 0
    }
   },
   "401915816": {

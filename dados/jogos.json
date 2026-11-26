@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T16:15:06-03:00",
+ "atualizado": "2026-11-26T17:10:29-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1219,8 +1219,18 @@
      "m": "71'",
      "n": "A. Mendy",
      "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "89'",
+     "n": "T. Bongonda",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   },
    "nota": "BandSports na TV; Canal GOAT no YouTube",
    "links": {
     "goat": "https://www.youtube.com/@canalgoatbr"
@@ -1252,8 +1262,24 @@
      "m": "41'",
      "n": "Marcos Leonardo",
      "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "70'",
+     "n": "R. Bounida",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "89'",
+     "n": "S. Berghuis",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1273,6 +1299,20 @@
    "eid": "401915506",
    "lg": "uefa.europa",
    "ed": "20261126",
+   "lances": [
+    {
+     "l": "c",
+     "m": "75'",
+     "n": "J. Olaitan",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "90'",
+     "n": "O. Kökçü",
+     "k": "g"
+    }
+   ],
    "rodada": "5ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1324,6 +1364,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1361,8 +1405,18 @@
      "m": "47'",
      "n": "Á. Rodríguez",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "78'",
+     "n": "Rayan",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   },
    "rodada": "5ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1397,6 +1451,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   },
    "rodada": "5ª rodada (fase de liga)",
    "nota": "CNN Brasil e Itatiaia no YouTube",
    "links": {
@@ -1423,8 +1481,24 @@
      "m": "47'",
      "n": "A. Albanese",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "79'",
+     "n": "Y. Flalhi Idrissi",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "81'",
+     "n": "F. Medeiros",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   },
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1468,8 +1542,18 @@
      "m": "44'",
      "n": "S. Kerjota",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "90+4'",
+     "n": "F. Balogun",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 3
+   },
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1503,6 +1587,10 @@
      "k": "v"
     }
    ],
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1522,6 +1610,24 @@
    "eid": "401915812",
    "lg": "uefa.europa.conf",
    "ed": "20261126",
+   "lances": [
+    {
+     "l": "c",
+     "m": "70'",
+     "n": "M. Cedidla",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "85'",
+     "n": "L. Jawo",
+     "k": "g"
+    }
+   ],
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1559,8 +1665,18 @@
      "m": "56'",
      "n": "A. Kalik",
      "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "61'",
+     "n": "G. Debeljuh",
+     "k": "p"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1588,6 +1704,10 @@
      "k": "p"
     }
    ],
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "rodada": "5ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1631,8 +1751,24 @@
      "m": "63'",
      "n": "A. Cissè",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "71'",
+     "n": "C. Pulisic",
+     "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "90+5'",
+     "n": "D. Moreira",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 4
+   },
    "rodada": "5ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1655,11 +1791,21 @@
    "lances": [
     {
      "l": "f",
-     "m": "44'",
+     "m": "43'",
      "n": "M. Rajovic",
+     "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "82'",
+     "n": "M. Gogorza",
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 0,
+    "fora": 2
+   },
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1693,6 +1839,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "rodada": "5ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1744,6 +1894,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 1,
+    "fora": 4
+   },
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1789,6 +1943,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 2
+   },
    "rodada": "5ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1834,6 +1992,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 4,
+    "fora": 0
+   },
    "rodada": "5ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -2119,6 +2281,14 @@
    "eid": "401915514",
    "lg": "uefa.europa",
    "ed": "20261126",
+   "lances": [
+    {
+     "l": "c",
+     "m": "4'",
+     "n": "J. Brunes",
+     "k": "g"
+    }
+   ],
    "rodada": "5ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
