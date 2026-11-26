@@ -7597,10 +7597,20 @@
     "l": "c",
     "m": "15'",
     "n": "Helinho"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "54'",
+    "n": "Helinho"
    }
   ],
   "lg": "mex.1",
   "local": "Estadio Nemesio Díez Riega, Toluca",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401931995": {

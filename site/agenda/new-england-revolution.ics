@@ -106,16 +106,16 @@ URL:https://ondepassajogo.com.br/jogo/new-england-revolution-x-philadelphia
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933723@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Philadelphia Union x New England Revolution
 DTSTART:20261128T213000Z
 DTEND:20261128T233000Z
 LOCATION:Subaru Park\, Chester\, Pennsylvania
-DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
- ir: https://ondepassajogo.com.br/jogo/philadelphia-union-x-new-england-rev
- olution-28-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
+ depassajogo.com.br/jogo/philadelphia-union-x-new-england-revolution-28-11-
+ 2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/philadelphia-union-x-new-england-revo
@@ -123,16 +123,16 @@ URL:https://ondepassajogo.com.br/jogo/philadelphia-union-x-new-england-revo
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933719@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:New England Revolution x Philadelphia Union
 DTSTART:20261203T000000Z
 DTEND:20261203T020000Z
 LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
-DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
- ir: https://ondepassajogo.com.br/jogo/new-england-revolution-x-philadelphi
- a-union-02-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
+ depassajogo.com.br/jogo/new-england-revolution-x-philadelphia-union-02-12-
+ 2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/new-england-revolution-x-philadelphia

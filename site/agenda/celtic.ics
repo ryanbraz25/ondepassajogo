@@ -50,16 +50,16 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915512@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Torreense x Celtic
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Estádio Dr. Magalhaes Pessoa\, Leiria
-DESCRIPTION:Liga Europa · 5ª rodada\nOnde passa: CazéTV (grátis) (a con
- firmar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/torre
- ense-x-celtic-26-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nOnde passa: CazéTV (
+ grátis)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/torr
+ eense-x-celtic-26-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/torreense-x-celtic-26-11-2026/

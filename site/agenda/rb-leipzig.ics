@@ -118,14 +118,14 @@ URL:https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-rb-leipzig-21-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915299@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:RB Leipzig 3 x 1 Lens
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 LOCATION:Red Bull Arena\, Leipzig
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/rb-leipzig-x-lens-24-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/rb-leipzig-x-lens-24-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -133,48 +133,48 @@ URL:https://ondepassajogo.com.br/jogo/rb-leipzig-x-lens-24-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401884724@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:SC Freiburg x RB Leipzig
 DTSTART:20261129T143000Z
 DTEND:20261129T163000Z
 LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
-DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/sc-freiburg-x-rb-leipzig-2
- 9-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Bundesliga · 11ª rodada\nOnde passa: OneFootball\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/sc-freiburg-x-rb-leipzig-
+ 29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/sc-freiburg-x-rb-leipzig-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401884717@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:RB Leipzig x Mainz
 DTSTART:20261205T143000Z
 DTEND:20261205T163000Z
 LOCATION:Red Bull Arena\, Leipzig
-DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/rb-leipzig-x-mainz-05-12-2
- 026/
-STATUS:TENTATIVE
+DESCRIPTION:Bundesliga · 12ª rodada\nOnde passa: OneFootball\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/rb-leipzig-x-mainz-05-12-
+ 2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/rb-leipzig-x-mainz-05-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915371@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Manchester United x RB Leipzig
 DTSTART:20261208T200000Z
 DTEND:20261208T220000Z
 LOCATION:Old Trafford\, Manchester
-DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
-  onde assistir: https://ondepassajogo.com.br/jogo/manchester-united-x-rb-l
- eipzig-08-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Champions League · Fase de liga - 6ª rodada\nOnde passa: HBO 
+ Max\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/mancheste
+ r-united-x-rb-leipzig-08-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/manchester-united-x-rb-leipzig-08-12-

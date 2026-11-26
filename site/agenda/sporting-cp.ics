@@ -105,15 +105,15 @@ URL:https://ondepassajogo.com.br/jogo/sporting-cp-x-manchester-united-25-11
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885387@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:FC Porto x Sporting CP
 DTSTART:20261129T203000Z
 DTEND:20261129T223000Z
 LOCATION:Estádio do Dragão\, Porto
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/fc-porto-x-sporting-cp-29-1
- 1-2026/
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nclássico\nDe
+ talhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-porto-x-sport
+ ing-cp-29-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
@@ -121,15 +121,15 @@ URL:https://ondepassajogo.com.br/jogo/fc-porto-x-sporting-cp-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885376@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Sporting CP x Maritimo
 DTSTART:20261204T201500Z
 DTEND:20261204T221500Z
 LOCATION:Estádio José Alvalade\, Lisbon
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/sporting-cp-x-maritimo-04-1
- 2-2026/
+DESCRIPTION:Liga Portugal\nOnde passa: ESPN\, Disney+ (a confirmar)\nDetalh
+ es e onde assistir: https://ondepassajogo.com.br/jogo/sporting-cp-x-mariti
+ mo-04-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
@@ -137,16 +137,16 @@ URL:https://ondepassajogo.com.br/jogo/sporting-cp-x-maritimo-04-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915288@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Roma x Sporting CP
 DTSTART:20261208T200000Z
 DTEND:20261208T220000Z
 LOCATION:Olimpico\, Roma
-DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
-  onde assistir: https://ondepassajogo.com.br/jogo/roma-x-sporting-cp-08-12
- -2026/
-STATUS:TENTATIVE
+DESCRIPTION:Champions League · Fase de liga - 6ª rodada\nOnde passa: HBO 
+ Max\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/roma-x-sp
+ orting-cp-08-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/roma-x-sporting-cp-08-12-2026/

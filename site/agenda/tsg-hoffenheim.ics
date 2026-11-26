@@ -118,15 +118,15 @@ URL:https://ondepassajogo.com.br/jogo/eintracht-frankfurt-x-tsg-hoffenheim-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915515@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:TSG Hoffenheim x SK Sturm Graz
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:PreZero Arena\, Sinsheim
-DESCRIPTION:Liga Europa · 5ª rodada\nOnde passa: CazéTV (grátis)\nDetal
- hes e onde assistir: https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-sk
- -sturm-graz-26-11-2026/
+DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nOnde passa: CazéTV (
+ grátis)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/tsg-
+ hoffenheim-x-sk-sturm-graz-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
@@ -135,16 +135,16 @@ URL:https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-sk-sturm-graz-26-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401884725@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:TSG Hoffenheim x FC Augsburg
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 LOCATION:PreZero Arena\, Sinsheim
-DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-fc-augsbu
- rg-29-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Bundesliga · 11ª rodada\nOnde passa: OneFootball\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-fc-augsb
+ urg-29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-fc-augsburg-29-11-20
@@ -152,16 +152,16 @@ URL:https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-fc-augsburg-29-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401884715@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:SC Freiburg x TSG Hoffenheim
 DTSTART:20261205T143000Z
 DTEND:20261205T163000Z
 LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
-DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/sc-freiburg-x-tsg-hoffenhe
- im-05-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Bundesliga · 12ª rodada\nOnde passa: OneFootball\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/sc-freiburg-x-tsg-hoffenh
+ eim-05-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/sc-freiburg-x-tsg-hoffenheim-05-12-20

@@ -50,16 +50,15 @@ CATEGORIES:Liga Portugal
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885389@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Maritimo x C.D. Nacional
 DTSTART:20261127T201500Z
 DTEND:20261127T221500Z
 LOCATION:Estádio do Marítimo\, Funchal
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/maritimo-x-c-d-nacional-27-
- 11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+\nDetalhes e onde assistir: h
+ ttps://ondepassajogo.com.br/jogo/maritimo-x-c-d-nacional-27-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/maritimo-x-c-d-nacional-27-11-2026/

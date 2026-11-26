@@ -63,16 +63,15 @@ CATEGORIES:Liga Portugal
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885386@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Benfica x FC Famalicao
 DTSTART:20261130T201500Z
 DTEND:20261130T221500Z
 LOCATION:Estádio da Luz\, Lisbon
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/benfica-x-fc-famalicao-30-1
- 1-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: ESPN\, Disney+\nDetalhes e onde assi
+ stir: https://ondepassajogo.com.br/jogo/benfica-x-fc-famalicao-30-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/benfica-x-fc-famalicao-30-11-2026/

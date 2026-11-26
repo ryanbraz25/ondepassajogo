@@ -147,15 +147,16 @@ URL:https://ondepassajogo.com.br/jogo/marseille-x-le-mans-22-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401876392@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Brest x Paris FC
 DTSTART:20261127T194500Z
 DTEND:20261127T214500Z
 LOCATION:Stade Francis-Le Blé\, Brest
-DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis)\nDetalhes e onde assisti
- r: https://ondepassajogo.com.br/jogo/brest-x-paris-fc-27-11-2026/
-STATUS:CONFIRMED
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/brest-x-paris-fc-27-11-
+ 2026/
+STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
 URL:https://ondepassajogo.com.br/jogo/brest-x-paris-fc-27-11-2026/

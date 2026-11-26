@@ -117,14 +117,14 @@ URL:https://ondepassajogo.com.br/jogo/real-madrid-x-celta-vigo-21-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915298@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Real Madrid 5 x 1 PSV Eindhoven
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 LOCATION:Santiago Bernabéu\, Madrid
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/real-madrid-x-psv-eindhoven-24-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/real-madrid-x-psv-eindhoven-24-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -148,16 +148,16 @@ URL:https://ondepassajogo.com.br/jogo/real-madrid-x-alaves-28-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882698@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Real Sociedad x Real Madrid
 DTSTART:20261202T180000Z
 DTEND:20261202T200000Z
 LOCATION:Reale Arena\, San Sebastian
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/real-sociedad-x-real-ma
- drid-02-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis)\nDetalhes e onde assisti
+ r: https://ondepassajogo.com.br/jogo/real-sociedad-x-real-madrid-02-12-202
+ 6/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/real-sociedad-x-real-madrid-02-12-202
@@ -165,16 +165,16 @@ URL:https://ondepassajogo.com.br/jogo/real-sociedad-x-real-madrid-02-12-202
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882785@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Athletic Club x Real Madrid
 DTSTART:20261206T151500Z
 DTEND:20261206T171500Z
 LOCATION:San Mamés\, Bilbao
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/athletic-club-x-real-ma
- drid-06-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis)\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/athletic-club-x-real-m
+ adrid-06-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/athletic-club-x-real-madrid-06-12-202
@@ -182,16 +182,16 @@ URL:https://ondepassajogo.com.br/jogo/athletic-club-x-real-madrid-06-12-202
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915367@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Arsenal x Real Madrid
 DTSTART:20261209T200000Z
 DTEND:20261209T220000Z
 LOCATION:Emirates Stadium\, London
-DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
-  onde assistir: https://ondepassajogo.com.br/jogo/arsenal-x-real-madrid-09
- -12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Champions League · Fase de liga - 6ª rodada\nOnde passa: HBO 
+ Max\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/arsenal-x
+ -real-madrid-09-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/arsenal-x-real-madrid-09-12-2026/

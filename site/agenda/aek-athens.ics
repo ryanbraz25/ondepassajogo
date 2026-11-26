@@ -50,14 +50,14 @@ CATEGORIES:Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915296@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Como 1 x 0 AEK Athens
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 LOCATION:Giuseppe Sinigaglia\, Como
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/como-x-aek-athens-24-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/como-x-aek-athens-24-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -65,16 +65,16 @@ URL:https://ondepassajogo.com.br/jogo/como-x-aek-athens-24-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915289@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:AEK Athens x Galatasaray
 DTSTART:20261208T200000Z
 DTEND:20261208T220000Z
 LOCATION:OPAP Arena\, Athens
-DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
-  onde assistir: https://ondepassajogo.com.br/jogo/aek-athens-x-galatasaray
- -08-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Champions League · Fase de liga - 6ª rodada\nOnde passa: HBO 
+ Max\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/aek-athen
+ s-x-galatasaray-08-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/aek-athens-x-galatasaray-08-12-2026/

@@ -163,16 +163,16 @@ URL:https://ondepassajogo.com.br/jogo/levante-x-elche-23-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882791@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Levante x Racing Santander
 DTSTART:20261127T200000Z
 DTEND:20261127T220000Z
 LOCATION:Estadi Ciutat de València\, Manises
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis)\nDetalhes e onde assisti
- r: https://ondepassajogo.com.br/jogo/levante-x-racing-santander-27-11-2026
- /
-STATUS:CONFIRMED
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/levante-
+ x-racing-santander-27-11-2026/
+STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/levante-x-racing-santander-27-11-2026
@@ -180,15 +180,15 @@ URL:https://ondepassajogo.com.br/jogo/levante-x-racing-santander-27-11-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882796@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Real Betis x Rayo Vallecano
 DTSTART:20261128T130000Z
 DTEND:20261128T150000Z
 LOCATION:Estádio La Cartuja\, Sevilla
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/real-betis-x-rayo-valle
- cano-28-11-2026/
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/real-bet
+ is-x-rayo-vallecano-28-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -197,15 +197,15 @@ URL:https://ondepassajogo.com.br/jogo/real-betis-x-rayo-vallecano-28-11-202
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882790@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Málaga x Athletic Club
 DTSTART:20261128T151500Z
 DTEND:20261128T171500Z
 LOCATION:La Rosaleda\, Malaga
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/malaga-x-athletic-club-
- 28-11-2026/
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/malaga-x
+ -athletic-club-28-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -213,15 +213,15 @@ URL:https://ondepassajogo.com.br/jogo/malaga-x-athletic-club-28-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882793@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Elche x Atlético de Madrid
 DTSTART:20261128T173000Z
 DTEND:20261128T193000Z
 LOCATION:Estádio Martínez Valero\, Elche
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/elche-x-atletico-de-mad
- rid-28-11-2026/
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/elche-x-
+ atletico-de-madrid-28-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -245,15 +245,15 @@ URL:https://ondepassajogo.com.br/jogo/real-madrid-x-alaves-28-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882787@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Valencia x Osasuna
 DTSTART:20261129T130000Z
 DTEND:20261129T150000Z
 LOCATION:Mestalla Stadium\, Manises
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/valencia-x-osasuna-29-1
- 1-2026/
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/valencia
+ -x-osasuna-29-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -261,31 +261,31 @@ URL:https://ondepassajogo.com.br/jogo/valencia-x-osasuna-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882794@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Deportivo x Barcelona
 DTSTART:20261129T151500Z
 DTEND:20261129T171500Z
 LOCATION:Riazor\, La Coruña
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/deportivo-x-barcelona-2
- 9-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis)\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/deportivo-x-barcelona-
+ 29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/deportivo-x-barcelona-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882795@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Celta Vigo x Villarreal
 DTSTART:20261129T173000Z
 DTEND:20261129T193000Z
 LOCATION:Balaidos\, Vigo
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/celta-vigo-x-villarreal
- -29-11-2026/
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/celta-vi
+ go-x-villarreal-29-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -293,15 +293,15 @@ URL:https://ondepassajogo.com.br/jogo/celta-vigo-x-villarreal-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882788@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Real Sociedad x Sevilla
 DTSTART:20261129T200000Z
 DTEND:20261129T220000Z
 LOCATION:Reale Arena\, San Sebastian
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/real-sociedad-x-sevilla
- -29-11-2026/
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/real-soc
+ iedad-x-sevilla-29-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -309,15 +309,15 @@ URL:https://ondepassajogo.com.br/jogo/real-sociedad-x-sevilla-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882792@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Espanyol x Getafe
 DTSTART:20261130T200000Z
 DTEND:20261130T220000Z
 LOCATION:RCDE Stadium\, Barcelona
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/espanyol-x-getafe-30-11
- -2026/
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/espanyol
+ -x-getafe-30-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -325,16 +325,16 @@ URL:https://ondepassajogo.com.br/jogo/espanyol-x-getafe-30-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882698@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Real Sociedad x Real Madrid
 DTSTART:20261202T180000Z
 DTEND:20261202T200000Z
 LOCATION:Reale Arena\, San Sebastian
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/real-sociedad-x-real-ma
- drid-02-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis)\nDetalhes e onde assisti
+ r: https://ondepassajogo.com.br/jogo/real-sociedad-x-real-madrid-02-12-202
+ 6/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/real-sociedad-x-real-madrid-02-12-202
@@ -342,16 +342,16 @@ URL:https://ondepassajogo.com.br/jogo/real-sociedad-x-real-madrid-02-12-202
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882700@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Barcelona x Atlético de Madrid
 DTSTART:20261202T203000Z
 DTEND:20261202T223000Z
 LOCATION:Spotify Camp Nou\, Barcelona
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-atletico-de
- -madrid-02-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis)\nDetalhes e onde assisti
+ r: https://ondepassajogo.com.br/jogo/barcelona-x-atletico-de-madrid-02-12-
+ 2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/barcelona-x-atletico-de-madrid-02-12-
@@ -359,15 +359,15 @@ URL:https://ondepassajogo.com.br/jogo/barcelona-x-atletico-de-madrid-02-12-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882786@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Alavés x Espanyol
 DTSTART:20261204T200000Z
 DTEND:20261204T220000Z
 LOCATION:Mendizorrotza\, Vitória-Gasteiz
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/alaves-x-espanyol-04-12
- -2026/
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/alaves-x
+ -espanyol-04-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -375,15 +375,15 @@ URL:https://ondepassajogo.com.br/jogo/alaves-x-espanyol-04-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882780@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Racing Santander x Deportivo
 DTSTART:20261205T130000Z
 DTEND:20261205T150000Z
 LOCATION:El Sardineros\, Santander
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/racing-santander-x-depo
- rtivo-05-12-2026/
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/racing-s
+ antander-x-deportivo-05-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -392,15 +392,15 @@ URL:https://ondepassajogo.com.br/jogo/racing-santander-x-deportivo-05-12-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882779@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Rayo Vallecano x Levante
 DTSTART:20261205T151500Z
 DTEND:20261205T171500Z
 LOCATION:Estádio de Vallecas\, Madrid
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/rayo-vallecano-x-levant
- e-05-12-2026/
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/rayo-val
+ lecano-x-levante-05-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -408,15 +408,15 @@ URL:https://ondepassajogo.com.br/jogo/rayo-vallecano-x-levante-05-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882777@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Villarreal x Real Sociedad
 DTSTART:20261205T173000Z
 DTEND:20261205T193000Z
 LOCATION:Estádio de la Cerámica\, Villarreal
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/villarreal-x-real-socie
- dad-05-12-2026/
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/villarre
+ al-x-real-sociedad-05-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -425,31 +425,31 @@ URL:https://ondepassajogo.com.br/jogo/villarreal-x-real-sociedad-05-12-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882783@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Barcelona x Celta Vigo
 DTSTART:20261205T200000Z
 DTEND:20261205T220000Z
 LOCATION:Spotify Camp Nou\, Barcelona
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-celta-vigo-
- 05-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis)\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-celta-vigo
+ -05-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/barcelona-x-celta-vigo-05-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882781@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Osasuna x Elche
 DTSTART:20261206T130000Z
 DTEND:20261206T150000Z
 LOCATION:El Sadar\, Pamplona
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/osasuna-x-elche-06-12-2
- 026/
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/osasuna-
+ x-elche-06-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -457,16 +457,16 @@ URL:https://ondepassajogo.com.br/jogo/osasuna-x-elche-06-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882785@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Athletic Club x Real Madrid
 DTSTART:20261206T151500Z
 DTEND:20261206T171500Z
 LOCATION:San Mamés\, Bilbao
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/athletic-club-x-real-ma
- drid-06-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis)\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/athletic-club-x-real-m
+ adrid-06-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/athletic-club-x-real-madrid-06-12-202
@@ -474,15 +474,15 @@ URL:https://ondepassajogo.com.br/jogo/athletic-club-x-real-madrid-06-12-202
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882782@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Getafe x Valencia
 DTSTART:20261206T173000Z
 DTEND:20261206T193000Z
 LOCATION:Estádio Coliseum\, Getafe
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/getafe-x-valencia-06-12
- -2026/
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/getafe-x
+ -valencia-06-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -490,15 +490,15 @@ URL:https://ondepassajogo.com.br/jogo/getafe-x-valencia-06-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882784@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Atlético de Madrid x Real Betis
 DTSTART:20261206T200000Z
 DTEND:20261206T220000Z
 LOCATION:Riyadh Air Metropolitano\, Madrid
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-re
- al-betis-06-12-2026/
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/atletico
+ -de-madrid-x-real-betis-06-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
@@ -507,15 +507,15 @@ URL:https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-real-betis-06-12
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882778@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Sevilla x Málaga
 DTSTART:20261207T200000Z
 DTEND:20261207T220000Z
 LOCATION:Ramón Sánchez Pizjuán Stadium\, Sevilla
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/sevilla-x-malaga-07-12-
- 2026/
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sevilla-
+ x-malaga-07-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga

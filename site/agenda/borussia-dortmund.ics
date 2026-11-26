@@ -119,14 +119,14 @@ URL:https://ondepassajogo.com.br/jogo/borussia-monchengladbach-x-borussia-d
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915295@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Arsenal 1 x 1 Borussia Dortmund
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 LOCATION:Emirates Stadium\, London
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/arsenal-x-borussia-dortmund-24-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/arsenal-x-borussia-dortmund-24-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -135,16 +135,16 @@ URL:https://ondepassajogo.com.br/jogo/arsenal-x-borussia-dortmund-24-11-202
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401884727@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Borussia Dortmund x Bayer Leverkusen
 DTSTART:20261129T183000Z
 DTEND:20261129T203000Z
 LOCATION:Signal Iduna Park\, Aue
-DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/borussia-dortmund-x-bayer-
- leverkusen-29-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Bundesliga · 11ª rodada\nOnde passa: OneFootball\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/borussia-dortmund-x-bayer
+ -leverkusen-29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-bayer-leverkusen-
@@ -152,16 +152,16 @@ URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-bayer-leverkusen-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401884711@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Schalke 04 x Borussia Dortmund
 DTSTART:20261206T143000Z
 DTEND:20261206T163000Z
 LOCATION:Veltins Arena\, Gelsenkirchen
-DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/schalke-04-x-borussia-dort
- mund-06-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Bundesliga · 12ª rodada\nOnde passa: OneFootball\nclássico\n
+ Detalhes e onde assistir: https://ondepassajogo.com.br/jogo/schalke-04-x-b
+ orussia-dortmund-06-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/schalke-04-x-borussia-dortmund-06-12-
@@ -169,16 +169,16 @@ URL:https://ondepassajogo.com.br/jogo/schalke-04-x-borussia-dortmund-06-12-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915368@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Borussia Dortmund x Inter de Milão
 DTSTART:20261209T200000Z
 DTEND:20261209T220000Z
 LOCATION:Signal Iduna Park\, Aue
-DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
-  onde assistir: https://ondepassajogo.com.br/jogo/borussia-dortmund-x-inte
- r-de-milao-09-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Champions League · Fase de liga - 6ª rodada\nOnde passa: HBO 
+ Max\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/borussia-
+ dortmund-x-inter-de-milao-09-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-inter-de-milao-09

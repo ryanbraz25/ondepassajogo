@@ -117,14 +117,14 @@ URL:https://ondepassajogo.com.br/jogo/manchester-city-x-fulham-21-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915379@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Manchester City 2 x 2 Napoli
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 LOCATION:Etihad Stadium\, Manchester
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/manchester-city-x-napoli-24-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/manchester-city-x-napoli-24-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -132,48 +132,48 @@ URL:https://ondepassajogo.com.br/jogo/manchester-city-x-napoli-24-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401878753@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Arsenal x Manchester City
 DTSTART:20261129T163000Z
 DTEND:20261129T183000Z
 LOCATION:Emirates Stadium\, London
-DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/arsenal-x-manchester-city-
- 29-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Premier League · 12ª rodada\nOnde passa: Disney+\nJogo grande
+ \nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/arsenal-x-ma
+ nchester-city-29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/arsenal-x-manchester-city-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879218@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Manchester City x Leeds
 DTSTART:20261202T193000Z
 DTEND:20261202T213000Z
 LOCATION:Etihad Stadium\, Manchester
-DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/manchester-city-x-leeds-02
- -12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Premier League · 13ª rodada\nOnde passa: Disney+\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/manchester-city-x-leeds-0
+ 2-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/manchester-city-x-leeds-02-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879214@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Brentford x Manchester City
 DTSTART:20261205T200000Z
 DTEND:20261205T220000Z
 LOCATION:Gtech Community Stadium\, Brentford
-DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/brentford-x-manchester-cit
- y-05-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Premier League · 14ª rodada\nOnde passa: Disney+\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/brentford-x-manchester-ci
+ ty-05-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/brentford-x-manchester-city-05-12-202
@@ -181,16 +181,16 @@ URL:https://ondepassajogo.com.br/jogo/brentford-x-manchester-city-05-12-202
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915285@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Barcelona x Manchester City
 DTSTART:20261208T200000Z
 DTEND:20261208T220000Z
 LOCATION:Spotify Camp Nou\, Barcelona
-DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
-  onde assistir: https://ondepassajogo.com.br/jogo/barcelona-x-manchester-c
- ity-08-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Champions League · Fase de liga - 6ª rodada\nOnde passa: HBO 
+ Max\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/barcelona
+ -x-manchester-city-08-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/barcelona-x-manchester-city-08-12-202

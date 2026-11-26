@@ -50,16 +50,16 @@ CATEGORIES:Conference League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915815@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Ajax Amsterdam x FC Thun
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:Johan Cruijff Arena\, Amsterdam
-DESCRIPTION:Conference League · 5ª rodada\nOnde passa: CazéTV (grátis) 
- (a confirmar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo
- /ajax-amsterdam-x-fc-thun-26-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nOnde passa: Caz
+ éTV (grátis)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jog
+ o/ajax-amsterdam-x-fc-thun-26-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/

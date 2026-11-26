@@ -50,16 +50,16 @@ CATEGORIES:Conference League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915805@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Hajduk Split x Sint-Truidense
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Stadion Poljud\, Split
-DESCRIPTION:Conference League · 5ª rodada\nOnde passa: CazéTV (grátis) 
- (a confirmar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo
- /hajduk-split-x-sint-truidense-26-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nOnde passa: Caz
+ éTV (grátis)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jog
+ o/hajduk-split-x-sint-truidense-26-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/hajduk-split-x-sint-truidense-26-11-2

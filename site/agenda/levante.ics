@@ -117,16 +117,16 @@ URL:https://ondepassajogo.com.br/jogo/levante-x-elche-23-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882791@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Levante x Racing Santander
 DTSTART:20261127T200000Z
 DTEND:20261127T220000Z
 LOCATION:Estadi Ciutat de València\, Manises
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis)\nDetalhes e onde assisti
- r: https://ondepassajogo.com.br/jogo/levante-x-racing-santander-27-11-2026
- /
-STATUS:CONFIRMED
+DESCRIPTION:La Liga · 14ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/levante-
+ x-racing-santander-27-11-2026/
+STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/levante-x-racing-santander-27-11-2026
@@ -134,15 +134,15 @@ URL:https://ondepassajogo.com.br/jogo/levante-x-racing-santander-27-11-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401936411@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Antequera CF x Levante
 DTSTART:20261201T180000Z
 DTEND:20261201T200000Z
 LOCATION:Estádio El Maulí\, Antequera
-DESCRIPTION:Copa do Rei\nOnde passa: canais ainda não anunciados\nDetalhes
-  e onde assistir: https://ondepassajogo.com.br/jogo/antequera-cf-x-levante
- -01-12-2026/
+DESCRIPTION:Copa do Rei · 2ª fase\nOnde passa: Disney+ (a confirmar)\nDet
+ alhes e onde assistir: https://ondepassajogo.com.br/jogo/antequera-cf-x-le
+ vante-01-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Copa do Rei
@@ -150,15 +150,15 @@ URL:https://ondepassajogo.com.br/jogo/antequera-cf-x-levante-01-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401882779@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Rayo Vallecano x Levante
 DTSTART:20261205T151500Z
 DTEND:20261205T171500Z
 LOCATION:Estádio de Vallecas\, Madrid
-DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/rayo-vallecano-x-levant
- e-05-12-2026/
+DESCRIPTION:La Liga · 15ª rodada\nOnde passa: CazéTV (grátis) (a confir
+ mar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/rayo-val
+ lecano-x-levante-05-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:La Liga

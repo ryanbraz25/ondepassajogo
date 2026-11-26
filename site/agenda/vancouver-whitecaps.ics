@@ -106,16 +106,15 @@ URL:https://ondepassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933725@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Real Salt Lake x Vancouver Whitecaps
 DTSTART:20261128T030000Z
 DTEND:20261128T050000Z
 LOCATION:America First Field\, Sandy\, Utah
-DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
- ir: https://ondepassajogo.com.br/jogo/real-salt-lake-x-vancouver-whitecaps
- -28-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
+ depassajogo.com.br/jogo/real-salt-lake-x-vancouver-whitecaps-28-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/real-salt-lake-x-vancouver-whitecaps-
@@ -123,16 +122,15 @@ URL:https://ondepassajogo.com.br/jogo/real-salt-lake-x-vancouver-whitecaps-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933717@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Vancouver Whitecaps x Real Salt Lake
 DTSTART:20261203T020000Z
 DTEND:20261203T040000Z
 LOCATION:BC Place\, Vancouver
-DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
- ir: https://ondepassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake
- -02-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
+ depassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake-02-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake-

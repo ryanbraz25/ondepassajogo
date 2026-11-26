@@ -117,31 +117,31 @@ URL:https://ondepassajogo.com.br/jogo/fc-twente-x-willem-ii-22-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915801@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:SC Freiburg x FC Twente
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
-DESCRIPTION:Conference League · 5ª rodada\nOnde passa: CazéTV (grátis) 
- (a confirmar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo
- /sc-freiburg-x-fc-twente-26-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nOnde passa: Caz
+ éTV (grátis)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jog
+ o/sc-freiburg-x-fc-twente-26-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/sc-freiburg-x-fc-twente-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875533@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:NEC Nijmegen x FC Twente
 DTSTART:20261129T190000Z
 DTEND:20261129T210000Z
 LOCATION:Goffertstadion\, Nijmegen
-DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
- nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/nec-nijmegen-
- x-fc-twente-29-11-2026/
+DESCRIPTION:Eredivisie (Holanda) · 14ª rodada\nOnde passa: canais ainda n
+ ão anunciados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jog
+ o/nec-nijmegen-x-fc-twente-29-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)
@@ -149,15 +149,15 @@ URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-fc-twente-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875525@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Go Ahead Eagles x FC Twente
 DTSTART:20261206T133000Z
 DTEND:20261206T153000Z
 LOCATION:De Adelaarshorst\, Deventer
-DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
- nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/go-ahead-eagl
- es-x-fc-twente-06-12-2026/
+DESCRIPTION:Eredivisie (Holanda) · 15ª rodada\nOnde passa: canais ainda n
+ ão anunciados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jog
+ o/go-ahead-eagles-x-fc-twente-06-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)

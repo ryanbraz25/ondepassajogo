@@ -118,31 +118,31 @@ URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915815@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Ajax Amsterdam x FC Thun
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:Johan Cruijff Arena\, Amsterdam
-DESCRIPTION:Conference League · 5ª rodada\nOnde passa: CazéTV (grátis) 
- (a confirmar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo
- /ajax-amsterdam-x-fc-thun-26-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nOnde passa: Caz
+ éTV (grátis)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jog
+ o/ajax-amsterdam-x-fc-thun-26-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875535@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Feyenoord Rotterdam x Ajax Amsterdam
 DTSTART:20261129T133000Z
 DTEND:20261129T153000Z
 LOCATION:De Kuip\, Rotterdam
-DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
- nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/feyenoord-rot
- terdam-x-ajax-amsterdam-29-11-2026/
+DESCRIPTION:Eredivisie (Holanda) · 14ª rodada\nOnde passa: ESPN\, Disney+
+  (a confirmar)\nClássico\nDetalhes e onde assistir: https://ondepassajogo
+ .com.br/jogo/feyenoord-rotterdam-x-ajax-amsterdam-29-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)
@@ -151,15 +151,15 @@ URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-ajax-amsterdam-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875528@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Ajax Amsterdam x FC Utrecht
 DTSTART:20261206T133000Z
 DTEND:20261206T153000Z
 LOCATION:Johan Cruijff Arena\, Amsterdam
-DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
- nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/ajax-amsterda
- m-x-fc-utrecht-06-12-2026/
+DESCRIPTION:Eredivisie (Holanda) · 15ª rodada\nOnde passa: canais ainda n
+ ão anunciados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jog
+ o/ajax-amsterdam-x-fc-utrecht-06-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)

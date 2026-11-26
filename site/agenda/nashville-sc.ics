@@ -105,16 +105,15 @@ URL:https://ondepassajogo.com.br/jogo/nashville-sc-x-fc-cincinnati-22-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933722@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:FC Cincinnati x Nashville SC
 DTSTART:20261128T233000Z
 DTEND:20261129T013000Z
 LOCATION:TQL Stadium\, Cincinnati\, Ohio
-DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
- ir: https://ondepassajogo.com.br/jogo/fc-cincinnati-x-nashville-sc-28-11-2
- 026/
-STATUS:TENTATIVE
+DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
+ depassajogo.com.br/jogo/fc-cincinnati-x-nashville-sc-28-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/fc-cincinnati-x-nashville-sc-28-11-20
@@ -122,16 +121,15 @@ URL:https://ondepassajogo.com.br/jogo/fc-cincinnati-x-nashville-sc-28-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933736@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Nashville SC x FC Cincinnati
 DTSTART:20261203T010000Z
 DTEND:20261203T030000Z
 LOCATION:GEODIS Park\, Nashville\, Tennessee
-DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
- ir: https://ondepassajogo.com.br/jogo/nashville-sc-x-fc-cincinnati-02-12-2
- 026/
-STATUS:TENTATIVE
+DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
+ depassajogo.com.br/jogo/nashville-sc-x-fc-cincinnati-02-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/nashville-sc-x-fc-cincinnati-02-12-20

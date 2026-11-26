@@ -11,48 +11,48 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:espn-401912257@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Inter de Milão x Genoa
 DTSTART:20261201T200000Z
 DTEND:20261201T220000Z
 LOCATION:San Siro\, Milano
-DESCRIPTION:Copa da Itália\nOnde passa: canais ainda não anunciados\nDeta
- lhes e onde assistir: https://ondepassajogo.com.br/jogo/inter-de-milao-x-g
- enoa-01-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Copa da Itália\nOnde passa: SportyNet (grátis)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/inter-de-milao-x-genoa-01-1
+ 2-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Copa da Itália
 URL:https://ondepassajogo.com.br/jogo/inter-de-milao-x-genoa-01-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401912495@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Como x Cremonese
 DTSTART:20261202T200000Z
 DTEND:20261202T220000Z
 LOCATION:Giuseppe Sinigaglia\, Como
-DESCRIPTION:Copa da Itália\nOnde passa: canais ainda não anunciados\nDeta
- lhes e onde assistir: https://ondepassajogo.com.br/jogo/como-x-cremonese-0
- 2-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Copa da Itália\nOnde passa: SportyNet (grátis)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/como-x-cremonese-02-12-2026
+ /
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Copa da Itália
 URL:https://ondepassajogo.com.br/jogo/como-x-cremonese-02-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401912261@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Juventus x Sassuolo
 DTSTART:20261203T200000Z
 DTEND:20261203T220000Z
 LOCATION:Allianz Stadium\, Torino
-DESCRIPTION:Copa da Itália\nOnde passa: canais ainda não anunciados\nDeta
- lhes e onde assistir: https://ondepassajogo.com.br/jogo/juventus-x-sassuol
- o-03-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Copa da Itália\nOnde passa: SportyNet (grátis)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/juventus-x-sassuolo-03-12-2
+ 026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Copa da Itália
 URL:https://ondepassajogo.com.br/jogo/juventus-x-sassuolo-03-12-2026/

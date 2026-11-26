@@ -63,16 +63,15 @@ CATEGORIES:Saudita
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401900870@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Al Qadsiah x Al Fayha
 DTSTART:20261127T142000Z
 DTEND:20261127T162000Z
 LOCATION:Al Ettifaq Club Stadium\, Dammam
-DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/al-qadsiah-x-al-fayha-27-1
- 1-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Saudita\nOnde passa: Canal GOAT (grátis)\nDetalhes e onde assi
+ stir: https://ondepassajogo.com.br/jogo/al-qadsiah-x-al-fayha-27-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Saudita
 URL:https://ondepassajogo.com.br/jogo/al-qadsiah-x-al-fayha-27-11-2026/

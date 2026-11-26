@@ -105,16 +105,15 @@ URL:https://ondepassajogo.com.br/jogo/fc-dallas-x-portland-timbers-21-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933721@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Portland Timbers x FC Dallas
 DTSTART:20261129T033000Z
 DTEND:20261129T053000Z
 LOCATION:Providence Park\, Portland\, Oregon
-DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
- ir: https://ondepassajogo.com.br/jogo/portland-timbers-x-fc-dallas-29-11-2
- 026/
-STATUS:TENTATIVE
+DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
+ depassajogo.com.br/jogo/portland-timbers-x-fc-dallas-29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/portland-timbers-x-fc-dallas-29-11-20
@@ -122,16 +121,15 @@ URL:https://ondepassajogo.com.br/jogo/portland-timbers-x-fc-dallas-29-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933716@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:FC Dallas x Portland Timbers
 DTSTART:20261203T010000Z
 DTEND:20261203T030000Z
 LOCATION:Toyota Stadium\, Toyota Stadium
-DESCRIPTION:MLS\nOnde passa: Apple TV (a confirmar)\nDetalhes e onde assist
- ir: https://ondepassajogo.com.br/jogo/fc-dallas-x-portland-timbers-02-12-2
- 026/
-STATUS:TENTATIVE
+DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
+ depassajogo.com.br/jogo/fc-dallas-x-portland-timbers-02-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/fc-dallas-x-portland-timbers-02-12-20

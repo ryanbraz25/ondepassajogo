@@ -143,16 +143,16 @@ URL:https://ondepassajogo.com.br/jogo/atalanta-x-inter-de-milao-22-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915806@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Borac Banja Luka x Atalanta
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Gradski Stadion Banja Luka\, Banja Luka
-DESCRIPTION:Conference League · 5ª rodada\nOnde passa: CazéTV (grátis) 
- (a confirmar)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo
- /borac-banja-luka-x-atalanta-26-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nOnde passa: Caz
+ éTV (grátis)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jog
+ o/borac-banja-luka-x-atalanta-26-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/borac-banja-luka-x-atalanta-26-11-202
@@ -160,32 +160,32 @@ URL:https://ondepassajogo.com.br/jogo/borac-banja-luka-x-atalanta-26-11-202
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875095@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Lecce x Atalanta
 DTSTART:20261130T173000Z
 DTEND:20261130T193000Z
 LOCATION:Via Del Mare\, Lecce
-DESCRIPTION:Serie A (Itália)\nOnde passa: Disney+ (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/lecce-x-atalanta-30-11-
- 2026/
-STATUS:TENTATIVE
+DESCRIPTION:Serie A (Itália) · 13ª rodada\nOnde passa: Disney+\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/lecce-x-atalanta-30-11
+ -2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A (Itália)
 URL:https://ondepassajogo.com.br/jogo/lecce-x-atalanta-30-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875029@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Lazio x Atalanta
 DTSTART:20261206T140000Z
 DTEND:20261206T160000Z
 LOCATION:Olimpico\, Roma
-DESCRIPTION:Serie A (Itália)\nOnde passa: Disney+ (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/lazio-x-atalanta-06-12-
- 2026/
-STATUS:TENTATIVE
+DESCRIPTION:Serie A (Itália) · 14ª rodada\nOnde passa: Disney+\nDetalhes
+  e onde assistir: https://ondepassajogo.com.br/jogo/lazio-x-atalanta-06-12
+ -2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A (Itália)
 URL:https://ondepassajogo.com.br/jogo/lazio-x-atalanta-06-12-2026/

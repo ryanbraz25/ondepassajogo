@@ -201,127 +201,127 @@ URL:https://ondepassajogo.com.br/jogo/burnley-x-blackburn-rovers-22-11-2026
  /
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401880148@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
-SUMMARY:Bristol City 1 x 1 Wrexham
-DTSTART:20261124T194500Z
-DTEND:20261124T214500Z
-LOCATION:Ashton Gate\, Bristol
-DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
- ogo.com.br/jogo/bristol-city-x-wrexham-24-11-2026/
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:Championship (Inglaterra)
-URL:https://ondepassajogo.com.br/jogo/bristol-city-x-wrexham-24-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401880147@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
-SUMMARY:Cardiff City 0 x 4 Preston North End
-DTSTART:20261124T194500Z
-DTEND:20261124T214500Z
-LOCATION:Cardiff City Stadium\, Cardiff
-DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
- ogo.com.br/jogo/cardiff-city-x-preston-north-end-24-11-2026/
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:Championship (Inglaterra)
-URL:https://ondepassajogo.com.br/jogo/cardiff-city-x-preston-north-end-24-1
- 1-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401880146@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
-SUMMARY:Charlton Athletic 4 x 0 Lincoln City
-DTSTART:20261124T194500Z
-DTEND:20261124T214500Z
-LOCATION:The Valley\, London
-DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
- ogo.com.br/jogo/charlton-athletic-x-lincoln-city-24-11-2026/
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:Championship (Inglaterra)
-URL:https://ondepassajogo.com.br/jogo/charlton-athletic-x-lincoln-city-24-1
- 1-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401880145@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
-SUMMARY:Middlesbrough 2 x 1 Swansea City
-DTSTART:20261124T194500Z
-DTEND:20261124T214500Z
-LOCATION:Riverside Stadium\, Middlesbrough
-DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
- ogo.com.br/jogo/middlesbrough-x-swansea-city-24-11-2026/
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:Championship (Inglaterra)
-URL:https://ondepassajogo.com.br/jogo/middlesbrough-x-swansea-city-24-11-20
- 26/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401880144@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
-SUMMARY:Norwich City 1 x 1 Queens Park Rangers
-DTSTART:20261124T194500Z
-DTEND:20261124T214500Z
-LOCATION:Carrow Road\, Norwich
-DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
- ogo.com.br/jogo/norwich-city-x-queens-park-rangers-24-11-2026/
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:Championship (Inglaterra)
-URL:https://ondepassajogo.com.br/jogo/norwich-city-x-queens-park-rangers-24
- -11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401880143@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
-SUMMARY:Portsmouth 1 x 0 West Ham United
-DTSTART:20261124T194500Z
-DTEND:20261124T214500Z
-LOCATION:Fratton Park\, Portsmouth
-DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
- ogo.com.br/jogo/portsmouth-x-west-ham-united-24-11-2026/
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:Championship (Inglaterra)
-URL:https://ondepassajogo.com.br/jogo/portsmouth-x-west-ham-united-24-11-20
- 26/
-END:VEVENT
-BEGIN:VEVENT
 UID:espn-401880142@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Sheffield United 1 x 1 Southampton
 DTSTART:20261124T194500Z
 DTEND:20261124T214500Z
 LOCATION:Bramall Lane\, Sheffield
 DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
  ogo.com.br/jogo/sheffield-united-x-southampton-24-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Championship (Inglaterra)
 URL:https://ondepassajogo.com.br/jogo/sheffield-united-x-southampton-24-11-
  2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:espn-401880143@ondepassajogo.com.br
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
+SUMMARY:Portsmouth 1 x 0 West Ham United
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Fratton Park\, Portsmouth
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/portsmouth-x-west-ham-united-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/portsmouth-x-west-ham-united-24-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880144@ondepassajogo.com.br
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
+SUMMARY:Norwich City 1 x 1 Queens Park Rangers
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Carrow Road\, Norwich
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/norwich-city-x-queens-park-rangers-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/norwich-city-x-queens-park-rangers-24
+ -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880145@ondepassajogo.com.br
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
+SUMMARY:Middlesbrough 2 x 1 Swansea City
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Riverside Stadium\, Middlesbrough
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/middlesbrough-x-swansea-city-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/middlesbrough-x-swansea-city-24-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880146@ondepassajogo.com.br
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
+SUMMARY:Charlton Athletic 4 x 0 Lincoln City
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:The Valley\, London
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/charlton-athletic-x-lincoln-city-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/charlton-athletic-x-lincoln-city-24-1
+ 1-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880147@ondepassajogo.com.br
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
+SUMMARY:Cardiff City 0 x 4 Preston North End
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/cardiff-city-x-preston-north-end-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/cardiff-city-x-preston-north-end-24-1
+ 1-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880148@ondepassajogo.com.br
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
+SUMMARY:Bristol City 1 x 1 Wrexham
+DTSTART:20261124T194500Z
+DTEND:20261124T214500Z
+LOCATION:Ashton Gate\, Bristol
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/bristol-city-x-wrexham-24-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/bristol-city-x-wrexham-24-11-2026/
+END:VEVENT
+BEGIN:VEVENT
 UID:espn-401880141@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Wolverhampton Wanderers 3 x 0 Derby County
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 LOCATION:Molineux Stadium\, Wolverhampton
 DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
  ogo.com.br/jogo/wolverhampton-wanderers-x-derby-county-24-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Championship (Inglaterra)
 URL:https://ondepassajogo.com.br/jogo/wolverhampton-wanderers-x-derby-count

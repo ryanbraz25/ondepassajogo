@@ -89,14 +89,14 @@ CATEGORIES:Liga Portugal
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915294@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Feyenoord Rotterdam 0 x 1 FC Porto
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 LOCATION:De Kuip\, Rotterdam
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/feyenoord-rotterdam-x-fc-porto-24-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/feyenoord-rotterdam-x-fc-porto-24-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -105,15 +105,15 @@ URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-fc-porto-24-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885387@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:FC Porto x Sporting CP
 DTSTART:20261129T203000Z
 DTEND:20261129T223000Z
 LOCATION:Estádio do Dragão\, Porto
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/fc-porto-x-sporting-cp-29-1
- 1-2026/
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nclássico\nDe
+ talhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-porto-x-sport
+ ing-cp-29-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
@@ -137,16 +137,16 @@ URL:https://ondepassajogo.com.br/jogo/santa-clara-x-fc-porto-05-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915369@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Liverpool x FC Porto
 DTSTART:20261209T200000Z
 DTEND:20261209T220000Z
 LOCATION:Anfield\, Liverpool
-DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
-  onde assistir: https://ondepassajogo.com.br/jogo/liverpool-x-fc-porto-09-
- 12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Champions League · Fase de liga - 6ª rodada\nOnde passa: HBO 
+ Max\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/liverpool
+ -x-fc-porto-09-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/liverpool-x-fc-porto-09-12-2026/

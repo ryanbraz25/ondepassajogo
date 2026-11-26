@@ -119,14 +119,14 @@ URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-excelsior-21-11
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915294@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Feyenoord Rotterdam 0 x 1 FC Porto
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 LOCATION:De Kuip\, Rotterdam
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/feyenoord-rotterdam-x-fc-porto-24-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/feyenoord-rotterdam-x-fc-porto-24-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -135,15 +135,15 @@ URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-fc-porto-24-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875535@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Feyenoord Rotterdam x Ajax Amsterdam
 DTSTART:20261129T133000Z
 DTEND:20261129T153000Z
 LOCATION:De Kuip\, Rotterdam
-DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
- nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/feyenoord-rot
- terdam-x-ajax-amsterdam-29-11-2026/
+DESCRIPTION:Eredivisie (Holanda) · 14ª rodada\nOnde passa: ESPN\, Disney+
+  (a confirmar)\nClássico\nDetalhes e onde assistir: https://ondepassajogo
+ .com.br/jogo/feyenoord-rotterdam-x-ajax-amsterdam-29-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)
@@ -152,15 +152,15 @@ URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-ajax-amsterdam-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875521@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Willem II x Feyenoord Rotterdam
 DTSTART:20261205T153000Z
 DTEND:20261205T173000Z
 LOCATION:Koning Willem II Stadion\, Tilburg
-DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
- nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/willem-ii-x-f
- eyenoord-rotterdam-05-12-2026/
+DESCRIPTION:Eredivisie (Holanda) · 15ª rodada\nOnde passa: canais ainda n
+ ão anunciados\nDetalhes e onde assistir: https://ondepassajogo.com.br/jog
+ o/willem-ii-x-feyenoord-rotterdam-05-12-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)
@@ -169,16 +169,16 @@ URL:https://ondepassajogo.com.br/jogo/willem-ii-x-feyenoord-rotterdam-05-12
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915290@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Viking FK x Feyenoord Rotterdam
 DTSTART:20261208T174500Z
 DTEND:20261208T194500Z
 LOCATION:Viking Stadion\, Stavanger
-DESCRIPTION:Champions League\nOnde passa: HBO Max (a confirmar)\nDetalhes e
-  onde assistir: https://ondepassajogo.com.br/jogo/viking-fk-x-feyenoord-ro
- tterdam-08-12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Champions League · Fase de liga - 6ª rodada\nOnde passa: HBO 
+ Max\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/viking-fk
+ -x-feyenoord-rotterdam-08-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/viking-fk-x-feyenoord-rotterdam-08-12

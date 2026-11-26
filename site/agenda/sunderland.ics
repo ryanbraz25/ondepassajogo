@@ -117,15 +117,15 @@ URL:https://ondepassajogo.com.br/jogo/aston-villa-x-sunderland-21-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915513@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Sunderland x Jagiellonia Bialystok
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Stadium of Light\, Sunderland
-DESCRIPTION:Liga Europa · 5ª rodada\nOnde passa: CazéTV (grátis)\nDetal
- hes e onde assistir: https://ondepassajogo.com.br/jogo/sunderland-x-jagiel
- lonia-bialystok-26-11-2026/
+DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nOnde passa: CazéTV (
+ grátis)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sund
+ erland-x-jagiellonia-bialystok-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
@@ -134,48 +134,48 @@ URL:https://ondepassajogo.com.br/jogo/sunderland-x-jagiellonia-bialystok-26
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879224@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Sunderland x Tottenham
 DTSTART:20261129T140500Z
 DTEND:20261129T160500Z
 LOCATION:Stadium of Light\, Sunderland
-DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/sunderland-x-tottenham-29-
- 11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Premier League · 12ª rodada\nOnde passa: Disney+\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/sunderland-x-tottenham-29
+ -11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/sunderland-x-tottenham-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879219@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Liverpool x Sunderland
 DTSTART:20261202T193000Z
 DTEND:20261202T213000Z
 LOCATION:Anfield\, Liverpool
-DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/liverpool-x-sunderland-02-
- 12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Premier League · 13ª rodada\nOnde passa: Disney+\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/liverpool-x-sunderland-02
+ -12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/liverpool-x-sunderland-02-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401878748@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T030358Z
+LAST-MODIFIED:20261126T030358Z
 SUMMARY:Newcastle x Sunderland
 DTSTART:20261206T140000Z
 DTEND:20261206T160000Z
 LOCATION:St. James' Park\, Newcastle-upon-Tyne
-DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
- nde assistir: https://ondepassajogo.com.br/jogo/newcastle-x-sunderland-06-
- 12-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Premier League · 14ª rodada\nOnde passa: Disney+\nClássico T
+ yne-Wear\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/newc
+ astle-x-sunderland-06-12-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/newcastle-x-sunderland-06-12-2026/
