@@ -5038,6 +5038,14 @@
   "fase": "2026-27-saudi-pro-league",
   "fora": "Al Diriyah",
   "inicio": "2026-11-26T14:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "8'",
+    "n": "C. Diandy"
+   }
+  ],
   "lg": "ksa.1",
   "local": "King Abdullah Sport City Stadium, Buraidah",
   "status": "a_confirmar"
@@ -6569,6 +6577,14 @@
   "fase": "league-phase",
   "fora": "Levski Sofia",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "c",
+    "m": "28'",
+    "n": "A. Gouiri"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Stade Vélodrome, Marseille",
   "status": "a_confirmar"
@@ -6590,6 +6606,20 @@
   "fase": "league-phase",
   "fora": "Lech Poznan",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "15'",
+    "n": "M. Agnero"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "18'",
+    "n": "L. Palma"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "King Power at Den Dreef Stadion, Leuven",
   "status": "a_confirmar"
@@ -6758,6 +6788,14 @@
   "fase": "league-phase",
   "fora": "Bayer Leverkusen",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "10'",
+    "n": "M. Tillman"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Maksimir Stadium, Zagreb",
   "status": "a_confirmar"
@@ -6779,6 +6817,14 @@
   "fase": "league-phase",
   "fora": "Benfica",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "30'",
+    "n": "P. Hrosovský"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Doosan Arena, Plzen",
   "status": "a_confirmar"
@@ -6800,6 +6846,20 @@
   "fase": "league-phase",
   "fora": "Bournemouth",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "19'",
+    "n": "I. Aspas"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "23'",
+    "n": "B. Diakité"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Balaidos, Vigo",
   "status": "a_confirmar"
@@ -6842,6 +6902,14 @@
   "fase": "league-phase",
   "fora": "Milan",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "c",
+    "l": "c",
+    "m": "31'",
+    "n": "M. Maignan"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Georgios Karaiskakis Stadium, Piraeus",
   "status": "a_confirmar"
@@ -7430,6 +7498,14 @@
   "fase": "league-phase",
   "fora": "AGF",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "25'",
+    "n": "T. Bech"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Brann Stadium, Bergen",
   "status": "a_confirmar"
@@ -7493,6 +7569,20 @@
   "fase": "league-phase",
   "fora": "AS Monaco",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "15'",
+    "n": "J. Altena"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "25'",
+    "n": "F. Balogun"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Tynecastle Park, Edinburgh",
   "status": "a_confirmar"
@@ -7535,6 +7625,14 @@
   "fase": "league-phase",
   "fora": "Getafe",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "25'",
+    "n": "G. Kobuladze"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Mikheil Meskhi Stadioni, Tbilisi",
   "status": "a_confirmar"
@@ -7556,6 +7654,20 @@
   "fase": "league-phase",
   "fora": "CSU Craiova",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "3'",
+    "n": "I. Osman"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "33'",
+    "n": "M. De Cuyper"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "American Express Stadium, Falmer",
   "status": "a_confirmar"
@@ -7577,6 +7689,14 @@
   "fase": "league-phase",
   "fora": "FC Thun",
   "inicio": "2026-11-26T14:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "6'",
+    "n": "R. Bounida"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Johan Cruijff Arena, Amsterdam",
   "status": "a_confirmar"
