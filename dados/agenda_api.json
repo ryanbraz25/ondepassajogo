@@ -7738,6 +7738,14 @@
   "fase": "apertura---quarterfinals",
   "fora": "América",
   "inicio": "2026-11-26T00:10:00-03:00",
+  "lances": [
+   {
+    "k": "v",
+    "l": "c",
+    "m": "11'",
+    "n": "R. Chávez"
+   }
+  ],
   "lg": "mex.1",
   "local": "Estadio BBVA, Guadalupe",
   "status": "a_confirmar"
