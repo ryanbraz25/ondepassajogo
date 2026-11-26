@@ -119,8 +119,8 @@ URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-sc-paderborn-07-21
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915517@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Dinamo Zagreb x Bayer Leverkusen
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -137,8 +137,8 @@ URL:https://ondepassajogo.com.br/jogo/dinamo-zagreb-x-bayer-leverkusen-26-1
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401884727@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Borussia Dortmund x Bayer Leverkusen
 DTSTART:20261129T183000Z
 DTEND:20261129T203000Z
@@ -154,8 +154,8 @@ URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-bayer-leverkusen-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401884716@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Bayer Leverkusen x Borussia Mönchengladbach
 DTSTART:20261205T143000Z
 DTEND:20261205T163000Z
@@ -168,5 +168,22 @@ TRANSP:TRANSPARENT
 CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-borussia-monchengl
  adbach-05-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915492@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Bayer Leverkusen x Besiktas
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-
+ besiktas-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-besiktas-10-12-202
+ 6/
 END:VEVENT
 END:VCALENDAR

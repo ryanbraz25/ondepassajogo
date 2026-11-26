@@ -118,8 +118,8 @@ URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-psv-eindhoven-21-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915505@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:NEC Nijmegen x Stade Rennais
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -135,8 +135,8 @@ URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-stade-rennais-26-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875533@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:NEC Nijmegen x FC Twente
 DTSTART:20261129T190000Z
 DTEND:20261129T210000Z
@@ -151,8 +151,8 @@ URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-fc-twente-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875523@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Sparta Rotterdam x NEC Nijmegen
 DTSTART:20261205T174500Z
 DTEND:20261205T194500Z
@@ -165,5 +165,22 @@ TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)
 URL:https://ondepassajogo.com.br/jogo/sparta-rotterdam-x-nec-nijmegen-05-12
  -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915500@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Ararat-Armenia x NEC Nijmegen
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Vazgen Sargsyan Republican Stadium\, Yerevan
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/ararat-armenia-x-ne
+ c-nijmegen-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/ararat-armenia-x-nec-nijmegen-10-12-2
+ 026/
 END:VEVENT
 END:VCALENDAR

@@ -50,8 +50,8 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915517@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Dinamo Zagreb x Bayer Leverkusen
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -65,5 +65,22 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/dinamo-zagreb-x-bayer-leverkusen-26-1
  1-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915497@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Stade Rennais x Dinamo Zagreb
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Roazhon Park\, Rennes
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/stade-rennais-x-din
+ amo-zagreb-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/stade-rennais-x-dinamo-zagreb-10-12-2
+ 026/
 END:VEVENT
 END:VCALENDAR

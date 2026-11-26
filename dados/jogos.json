@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T00:03:57-03:00",
+ "atualizado": "2026-11-26T00:05:48-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -390,48 +390,48 @@
  },
  "jogos": [
   {
-   "inicio": "2026-11-25T00:00:00-03:00",
-   "comp": "mls",
-   "casa": "San Jose Earthquakes",
-   "fora": "Houston Dynamo FC",
-   "local": "PayPal Park, San José, California",
    "canais": [
     "appletv"
    ],
-   "status": "confirmado",
-   "eid": "401933738",
-   "lg": "usa.1",
+   "casa": "San Jose Earthquakes",
+   "comp": "mls",
    "ed": "20261124",
+   "eid": "401933738",
+   "fora": "Houston Dynamo FC",
+   "inicio": "2026-11-25T00:00:00-03:00",
    "lances": [
     {
+     "k": "g",
      "l": "c",
      "m": "11'",
-     "n": "R. Vieira",
-     "k": "g"
+     "n": "R. Vieira"
     },
     {
+     "k": "g",
      "l": "c",
      "m": "24'",
-     "n": "E. Löwen",
-     "k": "g"
+     "n": "E. Löwen"
     },
     {
+     "k": "g",
      "l": "f",
      "m": "80'",
-     "n": "D. McGuire",
-     "k": "g"
+     "n": "D. McGuire"
     },
     {
+     "k": "v",
      "l": "f",
      "m": "81'",
-     "n": "A. Resch",
-     "k": "v"
+     "n": "A. Resch"
     }
    ],
+   "lg": "usa.1",
+   "local": "PayPal Park, San José, California",
    "placar": {
     "casa": 2,
     "fora": 1
    },
+   "status": "confirmado",
    "rodada": "Playoffs",
    "pg": "/jogo/san-jose-earthquakes-x-houston-dynamo-fc-25-11-2026/"
   },
@@ -7017,6 +7017,585 @@
    "ed": "20261209",
    "rodada": "Fase de liga - 6ª rodada",
    "pg": "/jogo/vfb-stuttgart-x-lille-09-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T09:30:00-03:00",
+   "comp": "saudita",
+   "casa": "Abha",
+   "fora": "Al Riyadh",
+   "local": "Prince Sultan bin Abdulaziz Sports City Stadium, Abha",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900862",
+   "lg": "ksa.1",
+   "ed": "20261210",
+   "pg": "/jogo/abha-x-al-riyadh-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T11:45:00-03:00",
+   "comp": "saudita",
+   "casa": "Al Faisaly",
+   "fora": "Al Khaleej",
+   "local": "Al Majma'a Sport City Stadium, Al Majma'ah",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900439",
+   "lg": "ksa.1",
+   "ed": "20261210",
+   "pg": "/jogo/al-faisaly-x-al-khaleej-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T12:30:00-03:00",
+   "comp": "conference",
+   "casa": "Kairat Almaty",
+   "fora": "CSU Craiova",
+   "local": "Almaty Ortalyk Stadium, Almaty",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915737",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/kairat-almaty-x-csu-craiova-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:30:00-03:00",
+   "comp": "saudita",
+   "casa": "Al Diriyah",
+   "fora": "Al Fayha",
+   "local": "Al-Awwal Park, King Fahd International Stadium",
+   "canais": [],
+   "status": "a_confirmar",
+   "eid": "401900856",
+   "lg": "ksa.1",
+   "ed": "20261210",
+   "pg": "/jogo/al-diriyah-x-al-fayha-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "europa",
+   "casa": "AZ Alkmaar",
+   "fora": "SK Sturm Graz",
+   "local": "AFAS Stadion, Alkmaar",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915494",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/az-alkmaar-x-sk-sturm-graz-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "europa",
+   "casa": "Anderlecht",
+   "fora": "TSG Hoffenheim",
+   "local": "Lotto Park, Brussels",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915511",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/anderlecht-x-tsg-hoffenheim-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "europa",
+   "casa": "Ararat-Armenia",
+   "fora": "NEC Nijmegen",
+   "local": "Vazgen Sargsyan Republican Stadium, Yerevan",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915500",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/ararat-armenia-x-nec-nijmegen-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "conference",
+   "casa": "F.C. København",
+   "fora": "FC Lugano",
+   "local": "Parken Stadium, Copenhagen",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915800",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/f-c-kbenhavn-x-fc-lugano-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "conference",
+   "casa": "Getafe",
+   "fora": "Inter D'Escaldes",
+   "local": "Estádio Coliseum, Getafe",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915736",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/getafe-x-inter-d-escaldes-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "europa",
+   "casa": "Hapoel Be'er",
+   "fora": "Juventus",
+   "local": "Giulesti Stadium, Bucuresti",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915499",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/hapoel-be-er-x-juventus-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "conference",
+   "casa": "Iberia 1999",
+   "fora": "Red Star Belgrade",
+   "local": "Mikheil Meskhi Stadioni, Tbilisi",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915799",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/iberia-1999-x-red-star-belgrade-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "europa",
+   "casa": "Jagiellonia Bialystok",
+   "fora": "Crystal Palace",
+   "local": "Stadion Miejski Bialystok, Bialystok",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915496",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/jagiellonia-bialystok-x-crystal-palace-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "conference",
+   "casa": "KuPS Kuopio",
+   "fora": "CSKA Sofia",
+   "local": "Tammelan Stadion, Tampere",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915735",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/kups-kuopio-x-cska-sofia-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "conference",
+   "casa": "Lincoln Red Imps",
+   "fora": "FC Midtjylland",
+   "local": "Europa Point Stadium, Gibraltar",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915798",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/lincoln-red-imps-x-fc-midtjylland-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "europa",
+   "casa": "Marseille",
+   "fora": "Celta Vigo",
+   "local": "Stade Vélodrome, Marseille",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915495",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/marseille-x-celta-vigo-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "europa",
+   "casa": "NK Celje",
+   "fora": "Olympiacos",
+   "local": "Stadion Z'dezele, Celje",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915487",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/nk-celje-x-olympiacos-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "europa",
+   "casa": "Omonia Nicosia",
+   "fora": "Celtic",
+   "local": "GSP Stadium, Nicosia",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915498",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/omonia-nicosia-x-celtic-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "conference",
+   "casa": "Riga FC",
+   "fora": "Atalanta",
+   "local": "Skonto Stadions, Riga",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915734",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/riga-fc-x-atalanta-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "conference",
+   "casa": "SC Freiburg",
+   "fora": "Panathinaikos",
+   "local": "Europa-Park Stadion, Freiburg im Breisgau",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915733",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/sc-freiburg-x-panathinaikos-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "conference",
+   "casa": "SK Brann",
+   "fora": "Braga",
+   "local": "Brann Stadium, Bergen",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915797",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/sk-brann-x-braga-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "europa",
+   "casa": "Stade Rennais",
+   "fora": "Dinamo Zagreb",
+   "local": "Roazhon Park, Rennes",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915497",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/stade-rennais-x-dinamo-zagreb-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T14:45:00-03:00",
+   "comp": "conference",
+   "casa": "Trabzonspor",
+   "fora": "Jablonec",
+   "local": "Papara Park, Trabzon",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915796",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/trabzonspor-x-jablonec-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "conference",
+   "casa": "AGF",
+   "fora": "FC Twente",
+   "local": "Cepheus Park Randers, Randers",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915795",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/agf-x-fc-twente-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "europa",
+   "casa": "Bayer Leverkusen",
+   "fora": "Besiktas",
+   "local": "BayArena, Leverkusen",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915492",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/bayer-leverkusen-x-besiktas-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "europa",
+   "casa": "Benfica",
+   "fora": "OFI Crete",
+   "local": "Estádio da Luz, Lisbon",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915491",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/benfica-x-ofi-crete-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "europa",
+   "casa": "Bournemouth",
+   "fora": "Viktoria Plzen",
+   "local": "Vitality Stadium, Bournemouth",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915488",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/bournemouth-x-viktoria-plzen-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "conference",
+   "casa": "Brighton",
+   "fora": "AS Monaco",
+   "local": "American Express Stadium, Falmer",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915732",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/brighton-x-as-monaco-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "conference",
+   "casa": "Egnatia",
+   "fora": "Kauno Zalgiris",
+   "local": "Air Albania Stadium, Tirana",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915629",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/egnatia-x-kauno-zalgiris-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "conference",
+   "casa": "FC Thun",
+   "fora": "KAA Gent",
+   "local": "Stockhorn Arena, Thun",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915794",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/fc-thun-x-kaa-gent-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "conference",
+   "casa": "Hajduk Split",
+   "fora": "FC Nordsjælland",
+   "local": "Stadion Poljud, Split",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915792",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/hajduk-split-x-fc-nordsjlland-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "conference",
+   "casa": "Heart of Midlothian",
+   "fora": "Borac Banja Luka",
+   "local": "Tynecastle Park, Edinburgh",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915793",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/heart-of-midlothian-x-borac-banja-luka-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "europa",
+   "casa": "Lech Poznan",
+   "fora": "Ferencvaros",
+   "local": "Municipal Stadium-Poznan, Poznan",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915486",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/lech-poznan-x-ferencvaros-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "europa",
+   "casa": "Levski Sofia",
+   "fora": "Lillestrom",
+   "local": "Vasil Levski National Stadium, Sofia",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915510",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/levski-sofia-x-lillestrom-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "europa",
+   "casa": "Lyon",
+   "fora": "Union St.-Gilloise",
+   "local": "Groupama Stadium, Lyon",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915485",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/lyon-x-union-st-gilloise-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "europa",
+   "casa": "Milan",
+   "fora": "Sunderland",
+   "local": "San Siro, Milano",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915493",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/milan-x-sunderland-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "conference",
+   "casa": "Mjällby AIF",
+   "fora": "Pafos",
+   "local": "Olympia, Helsingborg",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915628",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/mjallby-aif-x-pafos-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "europa",
+   "casa": "RB Salzburg",
+   "fora": "Sparta Prague",
+   "local": "Red Bull Arena Salzburg, Salzburg",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915489",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/rb-salzburg-x-sparta-prague-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "europa",
+   "casa": "Real Sociedad",
+   "fora": "Torreense",
+   "local": "Reale Arena, San Sebastian",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915490",
+   "lg": "uefa.europa",
+   "ed": "20261210",
+   "pg": "/jogo/real-sociedad-x-torreense-10-12-2026/"
+  },
+  {
+   "inicio": "2026-12-10T17:00:00-03:00",
+   "comp": "conference",
+   "casa": "Sint-Truidense",
+   "fora": "Ajax Amsterdam",
+   "local": "Daio Wasabi Stayen Stadium, Sint-Truiden",
+   "canais": [
+    "cazetv"
+   ],
+   "status": "a_confirmar",
+   "eid": "401915630",
+   "lg": "uefa.europa.conf",
+   "ed": "20261210",
+   "pg": "/jogo/sint-truidense-x-ajax-amsterdam-10-12-2026/"
   }
  ],
  "popularidade": {
@@ -7575,10 +8154,6 @@
  },
  "passados": [
   {
-   "d": "2026-11-11",
-   "n": 2
-  },
-  {
    "d": "2026-11-12",
    "n": 17
   },
@@ -7629,6 +8204,10 @@
   {
    "d": "2026-11-24",
    "n": 18
+  },
+  {
+   "d": "2026-11-25",
+   "n": 17
   }
  ],
  "push": {

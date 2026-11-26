@@ -50,8 +50,8 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915520@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:RB Salzburg x Ararat-Armenia
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -64,5 +64,22 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/rb-salzburg-x-ararat-armenia-26-11-20
  26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915500@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Ararat-Armenia x NEC Nijmegen
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Vazgen Sargsyan Republican Stadium\, Yerevan
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/ararat-armenia-x-ne
+ c-nijmegen-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/ararat-armenia-x-nec-nijmegen-10-12-2
+ 026/
 END:VEVENT
 END:VCALENDAR

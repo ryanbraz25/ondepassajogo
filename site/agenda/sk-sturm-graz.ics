@@ -50,8 +50,8 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915515@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:TSG Hoffenheim x SK Sturm Graz
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -64,5 +64,22 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-sk-sturm-graz-26-11-
  2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915494@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:AZ Alkmaar x SK Sturm Graz
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:AFAS Stadion\, Alkmaar
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/az-alkmaar-x-sk-stu
+ rm-graz-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/az-alkmaar-x-sk-sturm-graz-10-12-2026
+ /
 END:VEVENT
 END:VCALENDAR

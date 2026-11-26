@@ -50,8 +50,8 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915506@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Besiktas x Hapoel Be'er
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -63,5 +63,21 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/besiktas-x-hapoel-be-er-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915499@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Hapoel Be'er x Juventus
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Giulesti Stadium\, Bucuresti
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/hapoel-be-er-x-juve
+ ntus-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/hapoel-be-er-x-juventus-10-12-2026/
 END:VEVENT
 END:VCALENDAR

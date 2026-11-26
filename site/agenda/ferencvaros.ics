@@ -50,8 +50,8 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915516@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Ferencvaros x NK Celje
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -63,5 +63,21 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/ferencvaros-x-nk-celje-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915486@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Lech Poznan x Ferencvaros
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Municipal Stadium-Poznan\, Poznan
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/lech-poznan-x-feren
+ cvaros-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/lech-poznan-x-ferencvaros-10-12-2026/
 END:VEVENT
 END:VCALENDAR

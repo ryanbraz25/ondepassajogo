@@ -50,8 +50,8 @@ CATEGORIES:Conference League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915816@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Kairat Almaty x Mjällby AIF
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
@@ -64,5 +64,21 @@ TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/kairat-almaty-x-mjallby-aif-26-11-202
  6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915628@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Mjällby AIF x Pafos
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Olympia\, Helsingborg
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/mjallby-aif-x
+ -pafos-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/mjallby-aif-x-pafos-10-12-2026/
 END:VEVENT
 END:VCALENDAR

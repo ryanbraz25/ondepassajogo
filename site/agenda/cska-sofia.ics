@@ -50,8 +50,8 @@ CATEGORIES:Conference League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915803@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:CSKA Sofia x Trabzonspor
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -63,5 +63,21 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/cska-sofia-x-trabzonspor-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915735@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:KuPS Kuopio x CSKA Sofia
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Tammelan Stadion\, Tampere
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/kups-kuopio-x
+ -cska-sofia-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/kups-kuopio-x-cska-sofia-10-12-2026/
 END:VEVENT
 END:VCALENDAR

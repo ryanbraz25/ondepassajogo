@@ -118,8 +118,8 @@ URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915815@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Ajax Amsterdam x FC Thun
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -134,8 +134,8 @@ URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875535@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Feyenoord Rotterdam x Ajax Amsterdam
 DTSTART:20261129T133000Z
 DTEND:20261129T153000Z
@@ -151,8 +151,8 @@ URL:https://ondepassajogo.com.br/jogo/feyenoord-rotterdam-x-ajax-amsterdam-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401875528@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Ajax Amsterdam x FC Utrecht
 DTSTART:20261206T133000Z
 DTEND:20261206T153000Z
@@ -165,5 +165,22 @@ TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)
 URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-utrecht-06-12-202
  6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915630@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Sint-Truidense x Ajax Amsterdam
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Daio Wasabi Stayen Stadium\, Sint-Truiden
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sint-truidens
+ e-x-ajax-amsterdam-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/sint-truidense-x-ajax-amsterdam-10-12
+ -2026/
 END:VEVENT
 END:VCALENDAR

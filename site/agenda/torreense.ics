@@ -50,8 +50,8 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915512@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Torreense x Celtic
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -63,5 +63,21 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/torreense-x-celtic-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915490@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Real Sociedad x Torreense
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Reale Arena\, San Sebastian
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/real-sociedad-x-tor
+ reense-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/real-sociedad-x-torreense-10-12-2026/
 END:VEVENT
 END:VCALENDAR

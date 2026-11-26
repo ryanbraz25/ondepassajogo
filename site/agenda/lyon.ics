@@ -117,8 +117,8 @@ URL:https://ondepassajogo.com.br/jogo/lille-x-lyon-21-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915501@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Lyon x Lillestrom
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -162,5 +162,21 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
 URL:https://ondepassajogo.com.br/jogo/troyes-x-lyon-06-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915485@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Lyon x Union St.-Gilloise
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Groupama Stadium\, Lyon
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/lyon-x-union-st-gil
+ loise-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/lyon-x-union-st-gilloise-10-12-2026/
 END:VEVENT
 END:VCALENDAR

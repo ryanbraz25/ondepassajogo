@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:espn-401915506@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Besiktas x Hapoel Be'er
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -27,8 +27,8 @@ URL:https://ondepassajogo.com.br/jogo/besiktas-x-hapoel-be-er-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915519@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Celta Vigo x Bournemouth
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -43,8 +43,8 @@ URL:https://ondepassajogo.com.br/jogo/celta-vigo-x-bournemouth-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915517@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Dinamo Zagreb x Bayer Leverkusen
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -61,8 +61,8 @@ URL:https://ondepassajogo.com.br/jogo/dinamo-zagreb-x-bayer-leverkusen-26-1
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915507@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Marseille x Levski Sofia
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -77,8 +77,8 @@ URL:https://ondepassajogo.com.br/jogo/marseille-x-levski-sofia-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915521@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Olympiacos x Milan
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -93,8 +93,8 @@ URL:https://ondepassajogo.com.br/jogo/olympiacos-x-milan-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915520@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:RB Salzburg x Ararat-Armenia
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -110,8 +110,8 @@ URL:https://ondepassajogo.com.br/jogo/rb-salzburg-x-ararat-armenia-26-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915508@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Union St.-Gilloise x Lech Poznan
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -127,8 +127,8 @@ URL:https://ondepassajogo.com.br/jogo/union-st-gilloise-x-lech-poznan-26-11
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915518@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Viktoria Plzen x Benfica
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -143,8 +143,8 @@ URL:https://ondepassajogo.com.br/jogo/viktoria-plzen-x-benfica-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915504@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Crystal Palace x Real Sociedad
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -160,8 +160,8 @@ URL:https://ondepassajogo.com.br/jogo/crystal-palace-x-real-sociedad-26-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915516@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Ferencvaros x NK Celje
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -176,8 +176,8 @@ URL:https://ondepassajogo.com.br/jogo/ferencvaros-x-nk-celje-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915502@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Juventus x Omonia Nicosia
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -192,8 +192,8 @@ URL:https://ondepassajogo.com.br/jogo/juventus-x-omonia-nicosia-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915501@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Lyon x Lillestrom
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -208,8 +208,8 @@ URL:https://ondepassajogo.com.br/jogo/lyon-x-lillestrom-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915505@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:NEC Nijmegen x Stade Rennais
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -225,8 +225,8 @@ URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-stade-rennais-26-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915503@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:OFI Crete x Anderlecht
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -241,8 +241,8 @@ URL:https://ondepassajogo.com.br/jogo/ofi-crete-x-anderlecht-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915514@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Sparta Prague x AZ Alkmaar
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -258,8 +258,8 @@ URL:https://ondepassajogo.com.br/jogo/sparta-prague-x-az-alkmaar-26-11-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915513@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Sunderland x Jagiellonia Bialystok
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -275,8 +275,8 @@ URL:https://ondepassajogo.com.br/jogo/sunderland-x-jagiellonia-bialystok-26
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915515@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:TSG Hoffenheim x SK Sturm Graz
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -292,8 +292,8 @@ URL:https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-sk-sturm-graz-26-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915512@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Torreense x Celtic
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -305,5 +305,301 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/torreense-x-celtic-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915494@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:AZ Alkmaar x SK Sturm Graz
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:AFAS Stadion\, Alkmaar
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/az-alkmaar-x-sk-stu
+ rm-graz-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/az-alkmaar-x-sk-sturm-graz-10-12-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915511@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Anderlecht x TSG Hoffenheim
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Lotto Park\, Brussels
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/anderlecht-x-tsg-ho
+ ffenheim-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/anderlecht-x-tsg-hoffenheim-10-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915500@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Ararat-Armenia x NEC Nijmegen
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Vazgen Sargsyan Republican Stadium\, Yerevan
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/ararat-armenia-x-ne
+ c-nijmegen-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/ararat-armenia-x-nec-nijmegen-10-12-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915499@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Hapoel Be'er x Juventus
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Giulesti Stadium\, Bucuresti
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/hapoel-be-er-x-juve
+ ntus-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/hapoel-be-er-x-juventus-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915496@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Jagiellonia Bialystok x Crystal Palace
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Stadion Miejski Bialystok\, Bialystok
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/jagiellonia-bialyst
+ ok-x-crystal-palace-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/jagiellonia-bialystok-x-crystal-palac
+ e-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915495@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Marseille x Celta Vigo
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Stade Vélodrome\, Marseille
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/marseille-x-celta-v
+ igo-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/marseille-x-celta-vigo-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915487@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:NK Celje x Olympiacos
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Stadion Z'dezele\, Celje
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/nk-celje-x-olympiac
+ os-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/nk-celje-x-olympiacos-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915498@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Omonia Nicosia x Celtic
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:GSP Stadium\, Nicosia
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/omonia-nicosia-x-ce
+ ltic-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/omonia-nicosia-x-celtic-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915497@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Stade Rennais x Dinamo Zagreb
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Roazhon Park\, Rennes
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/stade-rennais-x-din
+ amo-zagreb-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/stade-rennais-x-dinamo-zagreb-10-12-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915492@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Bayer Leverkusen x Besiktas
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:BayArena\, Leverkusen
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-
+ besiktas-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/bayer-leverkusen-x-besiktas-10-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915491@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Benfica x OFI Crete
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Estádio da Luz\, Lisbon
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/benfica-x-ofi-crete
+ -10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/benfica-x-ofi-crete-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915488@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Bournemouth x Viktoria Plzen
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Vitality Stadium\, Bournemouth
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/bournemouth-x-vikto
+ ria-plzen-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/bournemouth-x-viktoria-plzen-10-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915486@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Lech Poznan x Ferencvaros
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Municipal Stadium-Poznan\, Poznan
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/lech-poznan-x-feren
+ cvaros-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/lech-poznan-x-ferencvaros-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915510@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Levski Sofia x Lillestrom
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Vasil Levski National Stadium\, Sofia
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/levski-sofia-x-lill
+ estrom-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/levski-sofia-x-lillestrom-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915485@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Lyon x Union St.-Gilloise
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Groupama Stadium\, Lyon
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/lyon-x-union-st-gil
+ loise-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/lyon-x-union-st-gilloise-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915493@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Milan x Sunderland
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:San Siro\, Milano
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/milan-x-sunderland-
+ 10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/milan-x-sunderland-10-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915489@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:RB Salzburg x Sparta Prague
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Red Bull Arena Salzburg\, Salzburg
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/rb-salzburg-x-spart
+ a-prague-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/rb-salzburg-x-sparta-prague-10-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915490@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Real Sociedad x Torreense
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Reale Arena\, San Sebastian
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/real-sociedad-x-tor
+ reense-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/real-sociedad-x-torreense-10-12-2026/
 END:VEVENT
 END:VCALENDAR

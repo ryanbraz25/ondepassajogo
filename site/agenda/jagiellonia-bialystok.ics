@@ -51,8 +51,8 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915513@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Sunderland x Jagiellonia Bialystok
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -65,5 +65,22 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/sunderland-x-jagiellonia-bialystok-26
  -11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915496@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Jagiellonia Bialystok x Crystal Palace
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Stadion Miejski Bialystok\, Bialystok
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/jagiellonia-bialyst
+ ok-x-crystal-palace-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/jagiellonia-bialystok-x-crystal-palac
+ e-10-12-2026/
 END:VEVENT
 END:VCALENDAR

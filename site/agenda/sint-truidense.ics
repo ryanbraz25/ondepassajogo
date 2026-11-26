@@ -50,8 +50,8 @@ CATEGORIES:Conference League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915805@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Hajduk Split x Sint-Truidense
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -64,5 +64,22 @@ TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/hajduk-split-x-sint-truidense-26-11-2
  026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915630@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Sint-Truidense x Ajax Amsterdam
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Daio Wasabi Stayen Stadium\, Sint-Truiden
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/sint-truidens
+ e-x-ajax-amsterdam-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/sint-truidense-x-ajax-amsterdam-10-12
+ -2026/
 END:VEVENT
 END:VCALENDAR

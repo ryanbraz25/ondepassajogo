@@ -118,8 +118,8 @@ URL:https://ondepassajogo.com.br/jogo/coventry-city-x-crystal-palace-21-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915504@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Crystal Palace x Real Sociedad
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -135,8 +135,8 @@ URL:https://ondepassajogo.com.br/jogo/crystal-palace-x-real-sociedad-26-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879230@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Crystal Palace x Hull City
 DTSTART:20261129T140500Z
 DTEND:20261129T160500Z
@@ -152,8 +152,8 @@ URL:https://ondepassajogo.com.br/jogo/crystal-palace-x-hull-city-29-11-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879222@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Chelsea x Crystal Palace
 DTSTART:20261202T193000Z
 DTEND:20261202T213000Z
@@ -168,8 +168,8 @@ URL:https://ondepassajogo.com.br/jogo/chelsea-x-crystal-palace-02-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879215@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Aston Villa x Crystal Palace
 DTSTART:20261205T150000Z
 DTEND:20261205T170000Z
@@ -182,5 +182,22 @@ TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/aston-villa-x-crystal-palace-05-12-20
  26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915496@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Jagiellonia Bialystok x Crystal Palace
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Stadion Miejski Bialystok\, Bialystok
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/jagiellonia-bialyst
+ ok-x-crystal-palace-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/jagiellonia-bialystok-x-crystal-palac
+ e-10-12-2026/
 END:VEVENT
 END:VCALENDAR

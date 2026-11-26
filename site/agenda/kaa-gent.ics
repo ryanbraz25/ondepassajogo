@@ -50,8 +50,8 @@ CATEGORIES:Conference League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915804@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:KAA Gent x Red Star Belgrade
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
@@ -64,5 +64,21 @@ TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/kaa-gent-x-red-star-belgrade-26-11-20
  26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915794@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:FC Thun x KAA Gent
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Stockhorn Arena\, Thun
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-thun-x-kaa
+ -gent-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/fc-thun-x-kaa-gent-10-12-2026/
 END:VEVENT
 END:VCALENDAR

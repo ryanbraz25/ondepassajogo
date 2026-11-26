@@ -50,8 +50,8 @@ CATEGORIES:Conference League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915809@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Pafos x FC Midtjylland
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -63,5 +63,22 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/pafos-x-fc-midtjylland-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915798@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Lincoln Red Imps x FC Midtjylland
+DTSTART:20261210T174500Z
+DTEND:20261210T194500Z
+LOCATION:Europa Point Stadium\, Gibraltar
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/lincoln-red-i
+ mps-x-fc-midtjylland-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/lincoln-red-imps-x-fc-midtjylland-10-
+ 12-2026/
 END:VEVENT
 END:VCALENDAR

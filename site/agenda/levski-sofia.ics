@@ -50,8 +50,8 @@ CATEGORIES:Liga Europa
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915507@ondepassajogo.com.br
-DTSTAMP:20261126T030358Z
-LAST-MODIFIED:20261126T030358Z
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
 SUMMARY:Marseille x Levski Sofia
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
@@ -63,5 +63,21 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/marseille-x-levski-sofia-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915510@ondepassajogo.com.br
+DTSTAMP:20261126T030549Z
+LAST-MODIFIED:20261126T030549Z
+SUMMARY:Levski Sofia x Lillestrom
+DTSTART:20261210T200000Z
+DTEND:20261210T220000Z
+LOCATION:Vasil Levski National Stadium\, Sofia
+DESCRIPTION:Liga Europa\nOnde passa: CazéTV (grátis) (a confirmar)\nDetal
+ hes e onde assistir: https://ondepassajogo.com.br/jogo/levski-sofia-x-lill
+ estrom-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/levski-sofia-x-lillestrom-10-12-2026/
 END:VEVENT
 END:VCALENDAR
