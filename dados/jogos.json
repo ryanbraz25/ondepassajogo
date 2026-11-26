@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T15:19:47-03:00",
+ "atualizado": "2026-11-26T16:15:06-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1207,6 +1207,18 @@
      "m": "8'",
      "n": "C. Diandy",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "45+3'",
+     "n": "C. Diandy",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "71'",
+     "n": "A. Mendy",
+     "k": "g"
     }
    ],
    "nota": "BandSports na TV; Canal GOAT no YouTube",
@@ -1233,6 +1245,12 @@
      "l": "c",
      "m": "6'",
      "n": "R. Bounida",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "41'",
+     "n": "Marcos Leonardo",
      "k": "g"
     }
    ],
@@ -1286,6 +1304,24 @@
      "m": "33'",
      "n": "M. De Cuyper",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "39'",
+     "n": "V. Screciu",
+     "k": "v"
+    },
+    {
+     "l": "c",
+     "m": "61'",
+     "n": "C. Kostoulas",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "63'",
+     "n": "I. Osman",
+     "k": "g"
     }
    ],
    "rodada": "4ª rodada (fase de liga)",
@@ -1319,6 +1355,12 @@
      "m": "23'",
      "n": "B. Diakité",
      "k": "v"
+    },
+    {
+     "l": "f",
+     "m": "47'",
+     "n": "Á. Rodríguez",
+     "k": "g"
     }
    ],
    "rodada": "5ª rodada (fase de liga)",
@@ -1347,6 +1389,12 @@
      "m": "10'",
      "n": "M. Tillman",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "45'",
+     "n": "J. Quansah",
+     "k": "g"
     }
    ],
    "rodada": "5ª rodada (fase de liga)",
@@ -1369,6 +1417,14 @@
    "eid": "401915810",
    "lg": "uefa.europa.conf",
    "ed": "20261126",
+   "lances": [
+    {
+     "l": "c",
+     "m": "47'",
+     "n": "A. Albanese",
+     "k": "g"
+    }
+   ],
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1400,6 +1456,18 @@
      "m": "25'",
      "n": "F. Balogun",
      "k": "p"
+    },
+    {
+     "l": "f",
+     "m": "41'",
+     "n": "E. Diop",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "44'",
+     "n": "S. Kerjota",
+     "k": "g"
     }
    ],
    "rodada": "4ª rodada (fase de liga)",
@@ -1427,6 +1495,12 @@
      "m": "25'",
      "n": "G. Kobuladze",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "59'",
+     "n": "O. Mangala",
+     "k": "v"
     }
    ],
    "rodada": "4ª rodada (fase de liga)",
@@ -1467,6 +1541,26 @@
    "eid": "401915739",
    "lg": "uefa.europa.conf",
    "ed": "20261126",
+   "lances": [
+    {
+     "l": "f",
+     "m": "40'",
+     "n": "I. Siqueira",
+     "k": "v"
+    },
+    {
+     "l": "f",
+     "m": "45+4'",
+     "n": "K. Piric",
+     "k": "v"
+    },
+    {
+     "l": "c",
+     "m": "56'",
+     "n": "A. Kalik",
+     "k": "g"
+    }
+   ],
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1519,6 +1613,24 @@
      "m": "31'",
      "n": "M. Maignan",
      "k": "c"
+    },
+    {
+     "l": "c",
+     "m": "49'",
+     "n": "J. Silva",
+     "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "56'",
+     "n": "O. Hutchinson",
+     "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "63'",
+     "n": "A. Cissè",
+     "k": "g"
     }
    ],
    "rodada": "5ª rodada (fase de liga)",
@@ -1540,6 +1652,14 @@
    "eid": "401915809",
    "lg": "uefa.europa.conf",
    "ed": "20261126",
+   "lances": [
+    {
+     "l": "f",
+     "m": "44'",
+     "n": "M. Rajovic",
+     "k": "g"
+    }
+   ],
    "rodada": "4ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1559,6 +1679,20 @@
    "eid": "401915520",
    "lg": "uefa.europa",
    "ed": "20261126",
+   "lances": [
+    {
+     "l": "c",
+     "m": "47'",
+     "n": "B. Mazurek",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "51'",
+     "n": "B. Mazurek",
+     "k": "g"
+    }
+   ],
    "rodada": "5ª rodada (fase de liga)",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1583,6 +1717,30 @@
      "l": "f",
      "m": "25'",
      "n": "T. Bech",
+     "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "39'",
+     "n": "D. Grétarsson",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "51'",
+     "n": "N. Castro",
+     "k": "p"
+    },
+    {
+     "l": "f",
+     "m": "56'",
+     "n": "S. Tchamche",
+     "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "60'",
+     "n": "M. Knudsen",
      "k": "g"
     }
    ],
@@ -1617,6 +1775,18 @@
      "m": "18'",
      "n": "L. Palma",
      "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "54'",
+     "n": "R. Florucz",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "66'",
+     "n": "K. Rodríguez",
+     "k": "g"
     }
    ],
    "rodada": "5ª rodada (fase de liga)",
@@ -1643,6 +1813,24 @@
      "l": "c",
      "m": "30'",
      "n": "P. Hrosovský",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "43'",
+     "n": "P. Adu",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "44'",
+     "n": "C. Kabongo",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "46'",
+     "n": "C. Kabongo",
      "k": "g"
     }
    ],
