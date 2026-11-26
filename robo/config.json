@@ -158,6 +158,16 @@
    "nome": "Rádio Transamérica",
    "tipo": "Rádio",
    "url": "https://www.transamerica.com.br/"
+  },
+  "cnn": {
+   "nome": "CNN Brasil",
+   "tipo": "YouTube",
+   "url": "https://www.youtube.com/@CNNbrasil"
+  },
+  "itatiaia": {
+   "nome": "Itatiaia (YouTube)",
+   "tipo": "YouTube",
+   "url": "https://www.youtube.com/results?search_query=Itatiaia+Esportes+ao+vivo"
   }
  },
  "apelidos_canais": {
