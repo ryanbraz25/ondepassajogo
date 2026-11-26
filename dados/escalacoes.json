@@ -16455,404 +16455,480 @@
  },
  "401931998": {
   "achada": "2026-11-26T00:04-03:00",
-  "atualizada": "2026-11-26T02:56-03:00",
+  "atualizada": "2026-11-26T03:51-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "?",
+     "e": "45'",
      "fp": 0,
      "id": "298860",
      "n": "5",
      "nome": "F. Ambríz",
      "pos": "SUB",
-     "s": "?"
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
+     "e": "78'",
      "fp": 0,
      "id": "215559",
      "n": "21",
      "nome": "L. Reyes",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "146989",
      "n": "33",
      "nome": "S. Medina",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "375061",
      "n": "18",
      "nome": "C. Garza",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
+     "e": "82'",
      "fp": 0,
      "id": "379211",
      "n": "194",
      "nome": "C. Reyes",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "365476",
      "n": "11",
      "nome": "I. Fimbres",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "261137",
      "n": "27",
      "nome": "R. de la Rosa",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "3143802",
      "n": "244",
      "nome": "P. Ruffin Tamez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "310213",
      "n": "19",
      "nome": "D. Aceves",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "236138",
      "n": "31",
      "nome": "C. Ramos",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "190907",
      "n": "22",
      "nome": "L. Cárdenas",
      "pos": "G",
-     "s": "?"
+     "st": {
+      "df": 7
+     }
     },
     {
-     "e": "?",
      "fp": 2,
      "id": "202106",
      "n": "2",
      "nome": "R. Chávez",
      "pos": "RB",
-     "s": "?"
+     "st": {
+      "fc": 1,
+      "vm": 1
+     }
     },
     {
-     "e": "?",
      "fp": 3,
      "id": "245848",
      "n": "3",
      "nome": "G. Arteaga",
-     "pos": "LB",
-     "s": "?"
+     "pos": "LB"
     },
     {
-     "e": "?",
      "fp": 4,
      "id": "207011",
      "n": "25",
      "nome": "O. Pineda",
      "pos": "LM",
-     "s": "?"
+     "st": {
+      "fc": 1,
+      "fs": 2
+     }
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "290348",
      "n": "4",
      "nome": "V. Guzmán",
      "pos": "CD-R",
-     "s": "?"
+     "st": {
+      "ch": 2,
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 6,
      "id": "79608",
      "n": "30",
      "nome": "J. Rodríguez",
      "pos": "CD-L",
-     "s": "?"
+     "st": {
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 7,
      "id": "276305",
      "n": "10",
      "nome": "L. Orellano",
      "pos": "AM-R",
-     "s": "?"
+     "s": "45'",
+     "st": {
+      "ch": 1,
+      "fs": 1,
+      "imp": 1
+     }
     },
     {
-     "e": "?",
      "fp": 8,
      "id": "173233",
      "n": "8",
      "nome": "Ó. Torres",
      "pos": "RM",
-     "s": "?"
+     "st": {
+      "fc": 1,
+      "fs": 1,
+      "imp": 1
+     }
     },
     {
-     "e": "?",
      "fp": 9,
      "id": "235511",
      "n": "99",
      "nome": "H. Cuypers",
      "pos": "F",
-     "s": "?"
+     "s": "82'",
+     "st": {
+      "ch": 1,
+      "fs": 2,
+      "imp": 1
+     }
     },
     {
-     "e": "?",
      "fp": 10,
      "id": "159263",
      "n": "7",
      "nome": "L. Ocampos",
      "pos": "AM",
-     "s": "?"
+     "st": {
+      "ch": 2,
+      "fs": 5
+     }
     },
     {
-     "e": "?",
      "fp": 11,
      "id": "117977",
      "n": "17",
      "nome": "J. Corona",
      "pos": "AM-L",
-     "s": "?"
+     "s": "78'",
+     "st": {
+      "fc": 1,
+      "fs": 4
+     }
     }
    ]
   },
   "comp": "ligamx",
-  "completa": false,
+  "completa": true,
   "fora": {
-   "esquema": "4-2-3-1",
+   "esquema": "4-1-3-2",
    "reservas": [
     {
-     "e": "?",
      "fp": 0,
      "id": "93184",
      "n": "9",
      "nome": "H. Martín",
-     "pos": "SUB",
-     "s": "?"
+     "pos": ""
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "3102566",
      "n": "217",
      "nome": "Í. ca Conceição",
-     "pos": "SUB",
-     "s": "?"
+     "pos": ""
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "363021",
      "n": "34",
      "nome": "D. Espinoza",
-     "pos": "SUB",
-     "s": "?"
+     "pos": ""
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "311853",
      "n": "32",
      "nome": "M. Vazquez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": ""
     },
     {
-     "e": "?",
+     "e": "69'",
      "fp": 0,
      "id": "308956",
      "n": "12",
      "nome": "I. Violante",
-     "pos": "SUB",
-     "s": "?"
+     "pos": ""
     },
     {
-     "e": "?",
+     "e": "45'",
      "fp": 0,
      "id": "144325",
      "n": "7",
      "nome": "B. Rodríguez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "",
+     "st": {
+      "ch": 2
+     }
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "265866",
      "n": "20",
      "nome": "A. Gutierrez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": ""
     },
     {
-     "e": "?",
+     "e": "77'",
      "fp": 0,
      "id": "3731",
      "n": "8",
      "nome": "C. Álvarez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": ""
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "200101",
      "n": "1",
      "nome": "Á. Malagón",
-     "pos": "SUB",
-     "s": "?"
+     "pos": ""
     },
     {
-     "e": "?",
+     "e": "69'",
      "fp": 0,
      "id": "132676",
      "n": "26",
      "nome": "C. Borja",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "",
+     "st": {
+      "fc": 1
+     }
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "103729",
      "n": "30",
      "nome": "R. Cota",
      "pos": "G",
-     "s": "?"
+     "st": {
+      "df": 1
+     }
     },
     {
-     "e": "?",
      "fp": 2,
-     "id": "195312",
-     "n": "5",
-     "nome": "K. Álvarez",
-     "pos": "RB",
-     "s": "?"
-    },
-    {
-     "e": "?",
-     "fp": 3,
      "id": "290414",
      "n": "3",
      "nome": "I. Reyes",
-     "pos": "LB",
-     "s": "?"
+     "pos": "RB",
+     "st": {
+      "ch": 1,
+      "fc": 4
+     }
     },
     {
-     "e": "?",
+     "fp": 3,
+     "id": "195312",
+     "n": "5",
+     "nome": "K. Álvarez",
+     "pos": "LB",
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "fc": 3
+     }
+    },
+    {
      "fp": 4,
      "id": "228351",
      "n": "13",
      "nome": "A. Cervantes",
-     "pos": "LM",
-     "s": "?"
+     "pos": "SW",
+     "st": {
+      "am": 1,
+      "ch": 1,
+      "fc": 4
+     }
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "241225",
      "n": "14",
      "nome": "S. Bueno",
      "pos": "CD-R",
-     "s": "?"
+     "s": "69'"
     },
     {
-     "e": "?",
      "fp": 6,
      "id": "82782",
      "n": "15",
      "nome": "S. Ramos",
      "pos": "CD-L",
-     "s": "?"
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 7,
      "id": "212824",
      "n": "10",
      "nome": "A. Zendejas",
-     "pos": "AM-R",
-     "s": "?"
-    },
-    {
-     "e": "?",
-     "fp": 8,
-     "id": "129421",
-     "n": "28",
-     "nome": "É. Sánchez",
      "pos": "RM",
-     "s": "?"
+     "s": "77'",
+     "st": {
+      "cg": 2,
+      "ch": 3,
+      "fc": 1,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
-     "fp": 9,
-     "id": "167195",
-     "n": "93",
-     "nome": "M. Borja",
-     "pos": "F",
-     "s": "?"
-    },
-    {
-     "e": "?",
-     "fp": 10,
+     "fp": 8,
      "id": "286198",
      "n": "6",
      "nome": "E. Cerrillo",
-     "pos": "AM",
-     "s": "?"
+     "pos": "CM",
+     "st": {
+      "am": 1,
+      "ch": 1,
+      "fc": 1,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
+     "fp": 9,
+     "id": "129421",
+     "n": "28",
+     "nome": "É. Sánchez",
+     "pos": "CF-R",
+     "s": "45'",
+     "st": {
+      "am": 1,
+      "cg": 1,
+      "ch": 4,
+      "fc": 2
+     }
+    },
+    {
+     "fp": 10,
+     "id": "167195",
+     "n": "93",
+     "nome": "M. Borja",
+     "pos": "CF-L",
+     "st": {
+      "cg": 1,
+      "ch": 2
+     }
+    },
+    {
      "fp": 11,
      "id": "336456",
      "n": "22",
      "nome": "Ó. Perea",
-     "pos": "AM-L",
-     "s": "?"
+     "pos": "LM",
+     "s": "69'",
+     "st": {
+      "am": 1,
+      "cg": 2,
+      "ch": 3,
+      "fc": 2,
+      "fs": 2,
+      "imp": 1
+     }
     }
    ]
   },
   "inicio": "2026-11-26T00:10:00-03:00",
   "pg": "",
-  "subs": [],
+  "subs": [
+   {
+    "ent": "B. Rodríguez",
+    "l": "f",
+    "m": "45'",
+    "sai": "É. Sánchez"
+   },
+   {
+    "ent": "F. Ambríz",
+    "l": "c",
+    "m": "45'",
+    "sai": "L. Orellano"
+   },
+   {
+    "ent": "I. Violante",
+    "l": "f",
+    "m": "69'",
+    "sai": "Ó. Perea"
+   },
+   {
+    "ent": "C. Borja",
+    "l": "f",
+    "m": "69'",
+    "sai": "S. Bueno"
+   },
+   {
+    "ent": "C. Álvarez",
+    "l": "f",
+    "m": "77'",
+    "sai": "A. Zendejas"
+   },
+   {
+    "ent": "L. Reyes",
+    "l": "c",
+    "m": "78'",
+    "sai": "J. Corona"
+   },
+   {
+    "ent": "C. Reyes",
+    "l": "c",
+    "m": "82'",
+    "sai": "H. Cuypers"
+   }
+  ],
   "time_casa": "Monterrey",
   "time_fora": "América",
   "v": 3
