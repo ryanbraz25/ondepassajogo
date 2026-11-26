@@ -7608,6 +7608,10 @@
   ],
   "lg": "uefa.europa.conf",
   "local": "Almaty Ortalyk Stadium, Almaty",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401930339": {

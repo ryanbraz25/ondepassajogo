@@ -25404,6 +25404,27 @@
     "fora": 2
    }
   },
+  "401915816": {
+   "casa": "Kairat Almaty",
+   "comp": "conference",
+   "fase": "league-phase",
+   "fora": "Mjällby AIF",
+   "inicio": "2026-11-26T12:30:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "14'",
+     "n": "E. Tapalov"
+    }
+   ],
+   "lg": "uefa.europa.conf",
+   "local": "Almaty Ortalyk Stadium, Almaty",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
   "401915817": {
    "casa": "CSU Craiova",
    "comp": "conference",
