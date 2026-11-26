@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T02:01:42-03:00",
+ "atualizado": "2026-11-26T02:56:37-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1089,6 +1089,10 @@
      "k": "v"
     }
    ],
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   },
    "rodada": "Quartas de final (ida)",
    "nota": "SportyNet na TV paga e no YouTube",
    "links": {

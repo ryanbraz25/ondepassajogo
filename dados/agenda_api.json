@@ -7748,6 +7748,10 @@
   ],
   "lg": "mex.1",
   "local": "Estadio BBVA, Guadalupe",
+  "placar": {
+   "casa": 0,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401932000": {

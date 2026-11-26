@@ -28415,6 +28415,27 @@
     "fora": 0
    }
   },
+  "401931998": {
+   "casa": "Monterrey",
+   "comp": "ligamx",
+   "fase": "apertura---quarterfinals",
+   "fora": "América",
+   "inicio": "2026-11-26T00:10:00-03:00",
+   "lances": [
+    {
+     "k": "v",
+     "l": "c",
+     "m": "11'",
+     "n": "R. Chávez"
+    }
+   ],
+   "lg": "mex.1",
+   "local": "Estadio BBVA, Guadalupe",
+   "placar": {
+    "casa": 0,
+    "fora": 0
+   }
+  },
   "401932215": {
    "casa": "Uruguai",
    "comp": "amistoso",
