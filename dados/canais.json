@@ -1,143 +1,7 @@
 {
  "comentario": "Gravado pela pesquisa noturna do Claude: canais (e rodada/nota) de cada jogo. O robô junta isso aos jogos da ESPN. Pode editar à mão.",
- "atualizado": "2026-11-25T23:57:54-03:00",
+ "atualizado": "2026-11-26T11:47:28-03:00",
  "jogos": [
-  {
-   "data": "2026-11-24",
-   "casa": "Bodo/Glimt",
-   "fora": "LASK Linz",
-   "inicio": "2026-11-24T14:45:00-03:00",
-   "comp": "champions",
-   "canais": [
-    "tnt",
-    "hbomax"
-   ],
-   "status": "confirmado",
-   "rodada": "5ª rodada"
-  },
-  {
-   "data": "2026-11-24",
-   "casa": "Galatasaray",
-   "fora": "Aston Villa",
-   "inicio": "2026-11-24T14:45:00-03:00",
-   "comp": "champions",
-   "canais": [
-    "tnt",
-    "hbomax"
-   ],
-   "status": "confirmado",
-   "rodada": "5ª rodada"
-  },
-  {
-   "data": "2026-11-24",
-   "casa": "Arsenal",
-   "fora": "Borussia Dortmund",
-   "inicio": "2026-11-24T17:00:00-03:00",
-   "comp": "champions",
-   "canais": [
-    "tnt",
-    "hbomax"
-   ],
-   "status": "confirmado",
-   "links": {
-    "tnt": "https://www.youtube.com/@TNTSportsBR"
-   },
-   "rodada": "5ª rodada"
-  },
-  {
-   "data": "2026-11-24",
-   "casa": "Como",
-   "fora": "AEK Athens",
-   "inicio": "2026-11-24T17:00:00-03:00",
-   "comp": "champions",
-   "canais": [
-    "hbomax"
-   ],
-   "status": "confirmado",
-   "rodada": "5ª rodada"
-  },
-  {
-   "data": "2026-11-24",
-   "casa": "Feyenoord Rotterdam",
-   "fora": "FC Porto",
-   "inicio": "2026-11-24T17:00:00-03:00",
-   "comp": "champions",
-   "canais": [
-    "hbomax"
-   ],
-   "status": "confirmado",
-   "rodada": "5ª rodada"
-  },
-  {
-   "data": "2026-11-24",
-   "casa": "Manchester City",
-   "fora": "Napoli",
-   "inicio": "2026-11-24T17:00:00-03:00",
-   "comp": "champions",
-   "canais": [
-    "tnt",
-    "hbomax"
-   ],
-   "status": "confirmado",
-   "rodada": "5ª rodada"
-  },
-  {
-   "data": "2026-11-24",
-   "casa": "RB Leipzig",
-   "fora": "Lens",
-   "inicio": "2026-11-24T17:00:00-03:00",
-   "comp": "champions",
-   "canais": [
-    "hbomax"
-   ],
-   "status": "confirmado",
-   "rodada": "5ª rodada"
-  },
-  {
-   "data": "2026-11-24",
-   "casa": "Real Madrid",
-   "fora": "PSV Eindhoven",
-   "inicio": "2026-11-24T17:00:00-03:00",
-   "comp": "champions",
-   "canais": [
-    "sbt",
-    "tnt",
-    "hbomax"
-   ],
-   "status": "confirmado",
-   "rodada": "5ª rodada"
-  },
-  {
-   "data": "2026-11-24",
-   "casa": "Slovan Bratislava",
-   "fora": "Real Betis",
-   "inicio": "2026-11-24T17:00:00-03:00",
-   "comp": "champions",
-   "canais": [
-    "hbomax"
-   ],
-   "status": "confirmado",
-   "rodada": "5ª rodada"
-  },
-  {
-   "data": "2026-11-24",
-   "casa": "Chapecoense",
-   "fora": "Palmeiras",
-   "inicio": "2026-11-24T18:00:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "record",
-    "cazetv",
-    "premiere"
-   ],
-   "status": "confirmado",
-   "links": {
-    "cazetv": "https://www.youtube.com/@CazeTV"
-   },
-   "rodada": "37ª rodada",
-   "nota": "Pode decidir o título",
-   "local": "Arena Condá, Chapecó"
-  },
   {
    "data": "2026-11-25",
    "casa": "Boca Juniors",
@@ -364,7 +228,7 @@
    ],
    "status": "confirmado",
    "links": {
-    "goat": "https://www.youtube.com/@canalgoat"
+    "goat": "https://www.youtube.com/@canalgoatbr"
    },
    "nota": "BandSports na TV; Canal GOAT no YouTube"
   },
@@ -720,9 +584,14 @@
    "data": "2026-11-26",
    "casa": "Pachuca",
    "fora": "Guadalajara",
-   "canais": [],
+   "canais": [
+    "sportynet"
+   ],
    "status": "a_confirmar",
-   "rodada": "Quartas de final (ida)"
+   "rodada": "Quartas de final (ida)",
+   "links": {
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
+   }
   },
   {
    "data": "2026-11-26",
@@ -876,7 +745,7 @@
    ],
    "status": "confirmado",
    "links": {
-    "goat": "https://www.youtube.com/@canalgoat"
+    "goat": "https://www.youtube.com/@canalgoatbr"
    },
    "nota": "Xsports na TV aberta; Canal GOAT no YouTube"
   },
@@ -896,7 +765,7 @@
    ],
    "status": "confirmado",
    "links": {
-    "goat": "https://www.youtube.com/@canalgoat"
+    "goat": "https://www.youtube.com/@canalgoatbr"
    }
   },
   {
@@ -915,15 +784,16 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar"
+   "status": "a_confirmar",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-27",
    "casa": "Caykur Rizespor",
    "fora": "Kasimpasa",
-   "canais": [
-    "disney"
-   ],
+   "canais": [],
    "status": "a_confirmar"
   },
   {
@@ -951,16 +821,24 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar",
-   "rodada": "14ª rodada"
+   "status": "confirmado",
+   "rodada": "14ª rodada",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-27",
    "casa": "León",
    "fora": "Cruz Azul",
-   "canais": [],
+   "canais": [
+    "sportynet"
+   ],
    "status": "a_confirmar",
-   "rodada": "Quartas de final (ida)"
+   "rodada": "Quartas de final (ida)",
+   "links": {
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
+   }
   },
   {
    "data": "2026-11-27",
@@ -1038,7 +916,7 @@
    ],
    "status": "confirmado",
    "links": {
-    "goat": "https://www.youtube.com/@canalgoat"
+    "goat": "https://www.youtube.com/@canalgoatbr"
    },
    "rodada": "Playoff de acesso - volta",
    "nota": "Clássico; vale vaga na Série A"
@@ -1061,7 +939,7 @@
    ],
    "status": "a_confirmar",
    "links": {
-    "goat": "https://www.youtube.com/@canalgoat"
+    "goat": "https://www.youtube.com/@canalgoatbr"
    }
   },
   {
@@ -1073,7 +951,7 @@
    ],
    "status": "a_confirmar",
    "links": {
-    "goat": "https://www.youtube.com/@canalgoat"
+    "goat": "https://www.youtube.com/@canalgoatbr"
    }
   },
   {
@@ -1086,7 +964,7 @@
    ],
    "status": "confirmado",
    "links": {
-    "goat": "https://www.youtube.com/@canalgoat"
+    "goat": "https://www.youtube.com/@canalgoatbr"
    },
    "nota": "Xsports na TV aberta; Canal GOAT no YouTube"
   },
@@ -1097,7 +975,10 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar"
+   "status": "a_confirmar",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-28",
@@ -1160,7 +1041,10 @@
     "cazetv"
    ],
    "status": "a_confirmar",
-   "rodada": "14ª rodada"
+   "rodada": "14ª rodada",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-28",
@@ -1184,10 +1068,14 @@
    "casa": "FC Cologne",
    "fora": "SV Elversberg",
    "canais": [
-    "onefootball"
+    "onefootball",
+    "goat"
    ],
    "status": "confirmado",
-   "rodada": "11ª rodada"
+   "rodada": "11ª rodada",
+   "links": {
+    "goat": "https://www.youtube.com/@canalgoatbr"
+   }
   },
   {
    "data": "2026-11-28",
@@ -1203,9 +1091,7 @@
    "data": "2026-11-28",
    "casa": "Gaziantep FK",
    "fora": "Amed SFK",
-   "canais": [
-    "disney"
-   ],
+   "canais": [],
    "status": "a_confirmar"
   },
   {
@@ -1226,6 +1112,13 @@
     "appletv"
    ],
    "status": "confirmado"
+  },
+  {
+   "data": "2026-11-28",
+   "casa": "Instituto (Córdoba)",
+   "fora": "River Plate",
+   "canais": [],
+   "status": "a_confirmar"
   },
   {
    "data": "2026-11-28",
@@ -1263,7 +1156,10 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar"
+   "status": "a_confirmar",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-28",
@@ -1272,7 +1168,10 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar"
+   "status": "a_confirmar",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-28",
@@ -1335,7 +1234,10 @@
     "cazetv"
    ],
    "status": "a_confirmar",
-   "rodada": "14ª rodada"
+   "rodada": "14ª rodada",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-28",
@@ -1344,7 +1246,10 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar"
+   "status": "a_confirmar",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-28",
@@ -1401,7 +1306,10 @@
     "cazetv"
    ],
    "status": "a_confirmar",
-   "rodada": "14ª rodada"
+   "rodada": "14ª rodada",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV"
+   }
   },
   {
    "data": "2026-11-28",
@@ -1446,9 +1354,7 @@
    "data": "2026-11-28",
    "casa": "Samsunspor",
    "fora": "Genclerbirligi",
-   "canais": [
-    "disney"
-   ],
+   "canais": [],
    "status": "a_confirmar"
   },
   {
@@ -1478,6 +1384,13 @@
    "canais": [
     "disney"
    ],
+   "status": "a_confirmar"
+  },
+  {
+   "data": "2026-11-28",
+   "casa": "Vélez Sarsfield",
+   "fora": "Independiente",
+   "canais": [],
    "status": "a_confirmar"
   },
   {
