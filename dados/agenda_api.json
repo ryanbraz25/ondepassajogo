@@ -6494,6 +6494,26 @@
   "fase": "league-phase",
   "fora": "Omonia Nicosia",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "15'",
+    "n": "L. Satka"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "37'",
+    "n": "A. Cambiaso"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "43'",
+    "n": "J. Ekhator"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Allianz Stadium, Torino",
   "status": "a_confirmar"
@@ -6515,6 +6535,20 @@
   "fase": "league-phase",
   "fora": "Anderlecht",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "20'",
+    "n": "T. Bentayeb"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "39'",
+    "n": "T. Aasgaard"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Pankritio Stadium, Crete",
   "status": "a_confirmar"
@@ -6557,6 +6591,20 @@
   "fase": "league-phase",
   "fora": "Stade Rennais",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "29'",
+    "n": "B. Linssen"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "36'",
+    "n": "A. Thomasson"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Goffertstadion, Nijmegen",
   "status": "a_confirmar"
@@ -6590,10 +6638,20 @@
     "l": "c",
     "m": "90'",
     "n": "O. Kökçü"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+3'",
+    "n": "J. East"
    }
   ],
   "lg": "uefa.europa",
   "local": "Batumi Stadium (Adjarabet Arena), Batumi",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401915507": {
@@ -6739,6 +6797,20 @@
   "fase": "league-phase",
   "fora": "Celtic",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "c",
+    "l": "f",
+    "m": "9'",
+    "n": "J. Vazquez"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "19'",
+    "n": "D. Jean"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "Estádio Dr. Magalhaes Pessoa, Leiria",
   "status": "a_confirmar"
@@ -6787,6 +6859,12 @@
     "l": "c",
     "m": "4'",
     "n": "J. Brunes"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "27'",
+    "n": "P. Vydra"
    }
   ],
   "lg": "uefa.europa",
@@ -6810,6 +6888,14 @@
   "fase": "league-phase",
   "fora": "SK Sturm Graz",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "43'",
+    "n": "O. Diakité"
+   }
+  ],
   "lg": "uefa.europa",
   "local": "PreZero Arena, Sinsheim",
   "status": "a_confirmar"
@@ -7250,8 +7336,8 @@
   "_d": "20261210",
   "_liga": "uefa.europa.conf",
   "_logos": {
-   "CSU Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png",
-   "Kairat Almaty": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png"
+   "Kairat Almaty": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "Universitatea Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png"
   },
   "canais": [
    "cazetv"
@@ -7261,7 +7347,7 @@
   "ed": "20261210",
   "eid": "401915737",
   "fase": "league-phase",
-  "fora": "CSU Craiova",
+  "fora": "Universitatea Craiova",
   "inicio": "2026-12-10T12:30:00-03:00",
   "lg": "uefa.europa.conf",
   "local": "Almaty Ortalyk Stadium, Almaty",
@@ -7284,6 +7370,14 @@
   "fase": "league-phase",
   "fora": "F.C. København",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "19'",
+    "n": "D. López"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Estadi de la FAF d'Encamp, Encamp",
   "status": "a_confirmar"
@@ -7545,6 +7639,14 @@
   "fase": "league-phase",
   "fora": "FC Twente",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "11'",
+    "n": "C. Irié"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Europa-Park Stadion, Freiburg im Breisgau",
   "status": "a_confirmar"
@@ -7566,6 +7668,20 @@
   "fase": "league-phase",
   "fora": "KuPS Kuopio",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "18'",
+    "n": "P. Víctor"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "31'",
+    "n": "F. Navarro"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Estádio Municipal de Braga, Braga",
   "status": "a_confirmar"
@@ -7587,6 +7703,14 @@
   "fase": "league-phase",
   "fora": "Trabzonspor",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "c",
+    "l": "c",
+    "m": "32'",
+    "n": "S. Lopes Cabral"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Balgarska Armia Stadium, Sofia",
   "status": "a_confirmar"
@@ -7608,6 +7732,14 @@
   "fase": "league-phase",
   "fora": "Red Star Belgrade",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "26'",
+    "n": "Tiago Araújo"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Ghelamco Arena, Ghent",
   "status": "a_confirmar"
@@ -7629,6 +7761,14 @@
   "fase": "league-phase",
   "fora": "Sint-Truidense",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "45+1'",
+    "n": "S. Bazdar"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Stadion Poljud, Split",
   "status": "a_confirmar"
@@ -7650,6 +7790,20 @@
   "fase": "league-phase",
   "fora": "Atalanta",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "22'",
+    "n": "L. Juricic"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "29'",
+    "n": "M. Deket"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Gradski Stadion Banja Luka, Banja Luka",
   "status": "a_confirmar"
@@ -7671,6 +7825,14 @@
   "fase": "league-phase",
   "fora": "Panathinaikos",
   "inicio": "2026-11-26T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "45'",
+    "n": "A. Jagusic"
+   }
+  ],
   "lg": "uefa.europa.conf",
   "local": "Right to Dream Park, Farum",
   "status": "a_confirmar"
@@ -7956,7 +8118,7 @@
   "_liga": "uefa.europa.conf",
   "_logos": {
    "Brighton": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-   "CSU Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png"
+   "Universitatea Craiova": "https://a.espncdn.com/i/teamlogos/soccer/500/8089.png"
   },
   "canais": [
    "cazetv"
@@ -7966,7 +8128,7 @@
   "ed": "20261126",
   "eid": "401915814",
   "fase": "league-phase",
-  "fora": "CSU Craiova",
+  "fora": "Universitatea Craiova",
   "inicio": "2026-11-26T14:45:00-03:00",
   "lances": [
    {

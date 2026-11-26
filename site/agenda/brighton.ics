@@ -117,18 +117,19 @@ URL:https://ondepassajogo.com.br/jogo/hull-city-x-brighton-22-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915814@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:Brighton 4 x 0 CSU Craiova
+DTSTAMP:20261126T210823Z
+LAST-MODIFIED:20261126T210823Z
+SUMMARY:Brighton 4 x 0 Universitatea Craiova
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:American Express Stadium\, Falmer
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/brighton-x-csu-craiova-26-11-2026/
-STATUS:CONFIRMED
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/brighton-x-universitatea-craiova-26-11-2026/
+STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/brighton-x-csu-craiova-26-11-2026/
+URL:https://ondepassajogo.com.br/jogo/brighton-x-universitatea-craiova-26-1
+ 1-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401879231@ondepassajogo.com.br

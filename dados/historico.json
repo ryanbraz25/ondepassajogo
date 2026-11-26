@@ -24390,6 +24390,39 @@
     "fora": 1
    }
   },
+  "401915506": {
+   "casa": "Besiktas",
+   "comp": "europa",
+   "fase": "league-phase",
+   "fora": "Hapoel Be'er",
+   "inicio": "2026-11-26T14:45:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "75'",
+     "n": "J. Olaitan"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "90'",
+     "n": "O. Kökçü"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "90+3'",
+     "n": "J. East"
+    }
+   ],
+   "lg": "uefa.europa",
+   "local": "Batumi Stadium (Adjarabet Arena), Batumi",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
   "401915507": {
    "casa": "Marseille",
    "comp": "europa",
@@ -25933,7 +25966,7 @@
    "casa": "Brighton",
    "comp": "conference",
    "fase": "league-phase",
-   "fora": "CSU Craiova",
+   "fora": "Universitatea Craiova",
    "inicio": "2026-11-26T14:45:00-03:00",
    "lances": [
     {

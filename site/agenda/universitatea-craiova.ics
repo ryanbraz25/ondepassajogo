@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Onde Passa Jogo//Agenda de jogos//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Jogos do Universitatea Craiova · Onde Passa Jogo
+X-WR-CALDESC:Jogos do Universitatea Craiova com horário de Brasília e ond
+ e assistir. Atualiza sozinho: https://ondepassajogo.com.br/time/universita
+ tea-craiova/
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:espn-401915814@ondepassajogo.com.br
+DTSTAMP:20261126T210823Z
+LAST-MODIFIED:20261126T210823Z
+SUMMARY:Brighton 4 x 0 Universitatea Craiova
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:American Express Stadium\, Falmer
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/brighton-x-universitatea-craiova-26-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/brighton-x-universitatea-craiova-26-1
+ 1-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915737@ondepassajogo.com.br
+DTSTAMP:20261126T210823Z
+LAST-MODIFIED:20261126T210823Z
+SUMMARY:Kairat Almaty x Universitatea Craiova
+DTSTART:20261210T153000Z
+DTEND:20261210T173000Z
+LOCATION:Almaty Ortalyk Stadium\, Almaty
+DESCRIPTION:Conference League\nOnde passa: CazéTV (grátis) (a confirmar)\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/kairat-almaty
+ -x-universitatea-craiova-10-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/kairat-almaty-x-universitatea-craiova
+ -10-12-2026/
+END:VEVENT
+END:VCALENDAR
