@@ -93,19 +93,19 @@ URL:https://ondepassajogo.com.br/jogo/velez-sarsfield-x-belgrano-cordoba-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401936353@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261126T123354Z
+LAST-MODIFIED:20261126T123354Z
 SUMMARY:Vélez Sarsfield x Independiente
-DTSTART:20261129T200000Z
-DTEND:20261129T220000Z
+DTSTART:20261128T230000Z
+DTEND:20261129T010000Z
 LOCATION:José Amalfitani\, Buenos Aires
 DESCRIPTION:Argentino\nOnde passa: Disney+ (a confirmar)\nDetalhes e onde a
  ssistir: https://ondepassajogo.com.br/jogo/velez-sarsfield-x-independiente
- -29-11-2026/
+ -28-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Argentino
-URL:https://ondepassajogo.com.br/jogo/velez-sarsfield-x-independiente-29-11
+URL:https://ondepassajogo.com.br/jogo/velez-sarsfield-x-independiente-28-11
  -2026/
 END:VEVENT
 END:VCALENDAR

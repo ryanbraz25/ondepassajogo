@@ -8580,7 +8580,7 @@
   "status": "a_confirmar"
  },
  "espn:401936353": {
-  "_d": "20261129",
+  "_d": "20261128",
   "_liga": "arg.1",
   "_logos": {
    "Independiente": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
@@ -8591,11 +8591,11 @@
   ],
   "casa": "Vélez Sarsfield",
   "comp": "argentina",
-  "ed": "20261129",
+  "ed": "20261128",
   "eid": "401936353",
   "fase": "clausura---quarterfinals",
   "fora": "Independiente",
-  "inicio": "2026-11-29T17:00:00-03:00",
+  "inicio": "2026-11-28T20:00:00-03:00",
   "lg": "arg.1",
   "local": "José Amalfitani, Buenos Aires",
   "status": "a_confirmar"
@@ -8926,7 +8926,7 @@
   "status": "a_confirmar"
  },
  "espn:401936413": {
-  "_d": "20261129",
+  "_d": "20261128",
   "_liga": "arg.1",
   "_logos": {
    "Instituto (Córdoba)": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
@@ -8937,11 +8937,11 @@
   ],
   "casa": "Instituto (Córdoba)",
   "comp": "argentina",
-  "ed": "20261129",
+  "ed": "20261128",
   "eid": "401936413",
   "fase": "clausura---quarterfinals",
   "fora": "River Plate",
-  "inicio": "2026-11-29T17:00:00-03:00",
+  "inicio": "2026-11-28T22:00:00-03:00",
   "lg": "arg.1",
   "local": "Monumental Presidente Perón, Córdoba",
   "status": "a_confirmar"
