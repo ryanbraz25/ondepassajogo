@@ -7591,6 +7591,14 @@
   "fase": "apertura---quarterfinals",
   "fora": "Atlas",
   "inicio": "2026-11-25T22:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "15'",
+    "n": "Helinho"
+   }
+  ],
   "lg": "mex.1",
   "local": "Estadio Nemesio Díez Riega, Toluca",
   "status": "a_confirmar"
@@ -8100,10 +8108,20 @@
     "l": "c",
     "m": "18'",
     "n": "L. Paredes"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "53'",
+    "n": "M. Merentiel"
    }
   ],
   "lg": "arg.1",
   "local": "Alberto José Armando (La Bombonera), Buenos Aires",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401933788": {

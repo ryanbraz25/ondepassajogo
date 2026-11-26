@@ -28789,6 +28789,33 @@
     "fora": 2
    }
   },
+  "401933757": {
+   "casa": "Boca Juniors",
+   "comp": "argentina",
+   "fase": "clausura---round-of-16",
+   "fora": "Independiente Rivadavia",
+   "inicio": "2026-11-25T21:00:00-03:00",
+   "lances": [
+    {
+     "k": "p",
+     "l": "c",
+     "m": "18'",
+     "n": "L. Paredes"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "53'",
+     "n": "M. Merentiel"
+    }
+   ],
+   "lg": "arg.1",
+   "local": "Alberto José Armando (La Bombonera), Buenos Aires",
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   }
+  },
   "401933758": {
    "casa": "Defensa y Justicia",
    "comp": "argentina",

@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T22:10:39-03:00",
+ "atualizado": "2026-11-25T23:06:49-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1684,8 +1684,18 @@
      "m": "18'",
      "n": "L. Paredes",
      "k": "p"
+    },
+    {
+     "l": "c",
+     "m": "53'",
+     "n": "M. Merentiel",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "rodada": "Oitavas de final (Clausura)",
    "pg": "/jogo/boca-juniors-x-independiente-rivadavia-25-11-2026/"
   },
@@ -1700,6 +1710,14 @@
    "eid": "401931986",
    "lg": "mex.1",
    "ed": "20261125",
+   "lances": [
+    {
+     "l": "c",
+     "m": "15'",
+     "n": "Helinho",
+     "k": "g"
+    }
+   ],
    "pg": "/jogo/toluca-x-atlas-25-11-2026/"
   },
   {
