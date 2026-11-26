@@ -7658,6 +7658,392 @@
   "time_casa": "Istanbul Basaksehir",
   "time_fora": "Çorum FK"
  },
+ "401900874": {
+  "achada": "2026-11-26T11:24-03:00",
+  "atualizada": "2026-11-26T11:24-03:00",
+  "casa": {
+   "esquema": "4-4-2",
+   "reservas": [
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "3128638",
+     "n": "38",
+     "nome": "I. Al Abood",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "373079",
+     "n": "22",
+     "nome": "Abdul Rahman Al Khaibari",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "362792",
+     "n": "49",
+     "nome": "S. Al-Shurafa",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "357657",
+     "n": "87",
+     "nome": "Sattam Al Tumbukti",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "408837",
+     "n": "19",
+     "nome": "R. Kelder",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "390037",
+     "n": "24",
+     "nome": "M. Al Obod",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "367369",
+     "n": "16",
+     "nome": "A. Al Khaibari",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "341473",
+     "n": "88",
+     "nome": "O. Al Othman",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "409782",
+     "n": "25",
+     "nome": "M. Al-Sahihi",
+     "pos": "SUB",
+     "s": "?"
+    }
+   ],
+   "titulares": [
+    {
+     "e": "?",
+     "fp": 1,
+     "id": "228326",
+     "n": "1",
+     "nome": "A. Semper",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 2,
+     "id": "3141529",
+     "n": "27",
+     "nome": "A. Alamine Ali",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 3,
+     "id": "390036",
+     "n": "63",
+     "nome": "M. Al Shaqaq",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 4,
+     "id": "322756",
+     "n": "8",
+     "nome": "M. Lixandru",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 5,
+     "id": "274928",
+     "n": "3",
+     "nome": "K. Boateng",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 6,
+     "id": "422231",
+     "n": "78",
+     "nome": "A. Abdulrahman Al Suwailem",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 7,
+     "id": "309320",
+     "n": "6",
+     "nome": "A. Al-Hassan",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 8,
+     "id": "250566",
+     "n": "28",
+     "nome": "Z. Youssef",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 9,
+     "id": "241689",
+     "n": "9",
+     "nome": "W. Kanga",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 10,
+     "id": "232639",
+     "n": "11",
+     "nome": "M. Batna",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 11,
+     "id": "194966",
+     "n": "10",
+     "nome": "L. Haraslín",
+     "pos": "SUB",
+     "s": "?"
+    }
+   ]
+  },
+  "comp": "saudita",
+  "completa": false,
+  "fora": {
+   "esquema": "4-4-2",
+   "reservas": [
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "373411",
+     "n": "14",
+     "nome": "E. Bahri",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "307749",
+     "n": "11",
+     "nome": "H. Al Ali",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "372894",
+     "n": "13",
+     "nome": "O. Abdulaziz Al Bowardi",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "371781",
+     "n": "97",
+     "nome": "E. Fidaa",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "313422",
+     "n": "67",
+     "nome": "M. Alkhaibari",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "392653",
+     "n": "19",
+     "nome": "H. Al Shurafaa",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "418364",
+     "n": "16",
+     "nome": "F. Al Subhi",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "392567",
+     "n": "20",
+     "nome": "Battal Al Harthi",
+     "pos": "SUB",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 0,
+     "id": "331921",
+     "n": "12",
+     "nome": "S. Hazazi",
+     "pos": "SUB",
+     "s": "?"
+    }
+   ],
+   "titulares": [
+    {
+     "e": "?",
+     "fp": 1,
+     "id": "157292",
+     "n": "82",
+     "nome": "M. Borjan",
+     "pos": "G",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 2,
+     "id": "408237",
+     "n": "32",
+     "nome": "A. Dahal",
+     "pos": "D",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 3,
+     "id": "329133",
+     "n": "23",
+     "nome": "H. Salem",
+     "pos": "D",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 4,
+     "id": "320951",
+     "n": "6",
+     "nome": "A. Keita",
+     "pos": "M",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 5,
+     "id": "371416",
+     "n": "5",
+     "nome": "H. Majrashi",
+     "pos": "D",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 6,
+     "id": "218262",
+     "n": "26",
+     "nome": "R. Abascal",
+     "pos": "D",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 7,
+     "id": "392639",
+     "n": "79",
+     "nome": "F. Al Jayzani",
+     "pos": "M",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 8,
+     "id": "376223",
+     "n": "43",
+     "nome": "B. Mensah",
+     "pos": "M",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 9,
+     "id": "157825",
+     "n": "7",
+     "nome": "Trézéguet",
+     "pos": "F",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 10,
+     "id": "255773",
+     "n": "10",
+     "nome": "T. Okou",
+     "pos": "F",
+     "s": "?"
+    },
+    {
+     "e": "?",
+     "fp": 11,
+     "id": "373566",
+     "n": "77",
+     "nome": "Leandro Antunes",
+     "pos": "M",
+     "s": "?"
+    }
+   ]
+  },
+  "inicio": "2026-11-26T11:25:00-03:00",
+  "pg": "",
+  "subs": [],
+  "time_casa": "Al Fateh",
+  "time_fora": "Al Riyadh",
+  "v": 3
+ },
  "401915291": {
   "achada": "2026-11-25T17:26-03:00",
   "atualizada": "2026-11-25T20:20-03:00",
