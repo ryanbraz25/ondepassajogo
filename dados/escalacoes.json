@@ -7660,7 +7660,7 @@
  },
  "401900443": {
   "achada": "2026-11-26T11:51-03:00",
-  "atualizada": "2026-11-26T13:20-03:00",
+  "atualizada": "2026-11-26T14:16-03:00",
   "casa": {
    "esquema": "4-3-3",
    "reservas": [
@@ -7679,6 +7679,7 @@
      "pos": "SUB"
     },
     {
+     "e": "55'",
      "fp": 0,
      "id": "395382",
      "n": "55",
@@ -7714,6 +7715,7 @@
      "pos": "SUB"
     },
     {
+     "e": "56'",
      "fp": 0,
      "id": "373086",
      "n": "12",
@@ -7721,6 +7723,7 @@
      "pos": "SUB"
     },
     {
+     "e": "35'",
      "fp": 0,
      "id": "125188",
      "n": "22",
@@ -7734,7 +7737,11 @@
      "id": "164165",
      "n": "16",
      "nome": "D. Léon",
-     "pos": "G"
+     "pos": "G",
+     "st": {
+      "df": 2,
+      "gs": 1
+     }
     },
     {
      "fp": 2,
@@ -7743,6 +7750,7 @@
      "nome": "M. Al-Dawsari",
      "pos": "RB",
      "st": {
+      "ch": 1,
       "fc": 1
      }
     },
@@ -7751,21 +7759,29 @@
      "id": "392555",
      "n": "39",
      "nome": "M. Al Zaid",
-     "pos": "LB"
+     "pos": "LB",
+     "s": "56'"
     },
     {
      "fp": 4,
      "id": "276127",
      "n": "32",
      "nome": "L. Rosier",
-     "pos": "CM"
+     "pos": "CM",
+     "st": {
+      "fc": 2
+     }
     },
     {
      "fp": 5,
      "id": "246281",
      "n": "3",
      "nome": "J. Gaari",
-     "pos": "CD-R"
+     "pos": "CD-R",
+     "s": "35'",
+     "st": {
+      "fc": 1
+     }
     },
     {
      "fp": 6,
@@ -7779,21 +7795,32 @@
      "id": "341474",
      "n": "6",
      "nome": "F. Al Sibyani",
-     "pos": "RM"
+     "pos": "RM",
+     "s": "55'",
+     "st": {
+      "fc": 2
+     }
     },
     {
      "fp": 8,
      "id": "384215",
      "n": "7",
      "nome": "F. Al Ghamdi",
-     "pos": "LM"
+     "pos": "LM",
+     "st": {
+      "ch": 1,
+      "fs": 1
+     }
     },
     {
      "fp": 9,
      "id": "372853",
      "n": "17",
      "nome": "A. Darisi",
-     "pos": "F"
+     "pos": "F",
+     "st": {
+      "fc": 1
+     }
     },
     {
      "fp": 10,
@@ -7802,6 +7829,7 @@
      "nome": "A. Gory",
      "pos": "RF",
      "st": {
+      "ch": 1,
       "fs": 1
      }
     },
@@ -7812,8 +7840,10 @@
      "nome": "G. N'Koudou",
      "pos": "LF",
      "st": {
-      "ch": 1,
-      "fs": 1
+      "cg": 1,
+      "ch": 3,
+      "fc": 1,
+      "fs": 3
      }
     }
    ]
@@ -7893,14 +7923,20 @@
      "id": "197631",
      "n": "1",
      "nome": "M. Diaw",
-     "pos": "G"
+     "pos": "G",
+     "st": {
+      "df": 1
+     }
     },
     {
      "fp": 2,
      "id": "357664",
      "n": "27",
      "nome": "A. Al Hawsawi",
-     "pos": "RB"
+     "pos": "RB",
+     "st": {
+      "fc": 1
+     }
     },
     {
      "fp": 3,
@@ -7914,14 +7950,22 @@
      "id": "189972",
      "n": "18",
      "nome": "T. Partey",
-     "pos": "CM-R"
+     "pos": "CM-R",
+     "st": {
+      "fs": 1
+     }
     },
     {
      "fp": 5,
      "id": "189988",
      "n": "3",
      "nome": "M. Barry",
-     "pos": "CD-R"
+     "pos": "CD-R",
+     "st": {
+      "am": 1,
+      "fc": 1,
+      "fs": 2
+     }
     },
     {
      "fp": 6,
@@ -7937,7 +7981,10 @@
      "nome": "J. Brownhill",
      "pos": "RM",
      "st": {
-      "fc": 1
+      "cg": 1,
+      "ch": 3,
+      "fc": 1,
+      "g": 1
      }
     },
     {
@@ -7947,7 +7994,8 @@
      "nome": "Y. Adli",
      "pos": "CM-L",
      "st": {
-      "fs": 1
+      "ch": 1,
+      "fs": 2
      }
     },
     {
@@ -7957,7 +8005,9 @@
      "nome": "Ricardo Mathias",
      "pos": "CF-L",
      "st": {
-      "ch": 2
+      "cg": 1,
+      "ch": 2,
+      "imp": 1
      }
     },
     {
@@ -7965,7 +8015,12 @@
      "id": "192180",
      "n": "9",
      "nome": "R. Martínez",
-     "pos": "CF-R"
+     "pos": "CF-R",
+     "st": {
+      "cg": 1,
+      "ch": 2,
+      "fs": 3
+     }
     },
     {
      "fp": 11,
@@ -7974,21 +8029,43 @@
      "nome": "D. Podence",
      "pos": "LM",
      "st": {
-      "fc": 1
+      "a": 1,
+      "am": 1,
+      "ch": 3,
+      "fc": 2
      }
     }
    ]
   },
   "inicio": "2026-11-26T12:05:00-03:00",
   "pg": "",
-  "subs": [],
+  "subs": [
+   {
+    "ent": "A. Diallo",
+    "l": "c",
+    "m": "35'",
+    "sai": "J. Gaari"
+   },
+   {
+    "ent": "M. Borrell",
+    "l": "c",
+    "m": "55'",
+    "sai": "F. Al Sibyani"
+   },
+   {
+    "ent": "K. Al Shamrani",
+    "l": "c",
+    "m": "56'",
+    "sai": "M. Al Zaid"
+   }
+  ],
   "time_casa": "Abha",
   "time_fora": "Al Shabab",
   "v": 3
  },
  "401900874": {
   "achada": "2026-11-26T11:24-03:00",
-  "atualizada": "2026-11-26T13:20-03:00",
+  "atualizada": "2026-11-26T14:16-03:00",
   "casa": {
    "esquema": "5-4-1",
    "reservas": [
@@ -8014,13 +8091,18 @@
      "pos": "SUB"
     },
     {
+     "e": "79'",
      "fp": 0,
      "id": "357657",
      "n": "87",
      "nome": "Sattam Al Tumbukti",
-     "pos": "SUB"
+     "pos": "SUB",
+     "st": {
+      "fc": 1
+     }
     },
     {
+     "e": "90'+2'",
      "fp": 0,
      "id": "408837",
      "n": "19",
@@ -8035,11 +8117,15 @@
      "pos": "SUB"
     },
     {
+     "e": "79'",
      "fp": 0,
      "id": "367369",
      "n": "16",
      "nome": "A. Al Khaibari",
-     "pos": "SUB"
+     "pos": "SUB",
+     "st": {
+      "fc": 1
+     }
     },
     {
      "fp": 0,
@@ -8049,6 +8135,7 @@
      "pos": "SUB"
     },
     {
+     "e": "90'+2'",
      "fp": 0,
      "id": "409782",
      "n": "25",
@@ -8064,7 +8151,7 @@
      "nome": "A. Semper",
      "pos": "G",
      "st": {
-      "df": 2
+      "df": 5
      }
     },
     {
@@ -8073,7 +8160,9 @@
      "n": "27",
      "nome": "A. Alamine Ali",
      "pos": "RB",
+     "s": "79'",
      "st": {
+      "a": 1,
       "fc": 1
      }
     },
@@ -8083,9 +8172,11 @@
      "n": "63",
      "nome": "M. Al Shaqaq",
      "pos": "LB",
+     "s": "90'+2'",
      "st": {
       "am": 1,
-      "fc": 1
+      "fc": 1,
+      "fs": 1
      }
     },
     {
@@ -8093,7 +8184,10 @@
      "id": "422231",
      "n": "78",
      "nome": "A. Abdulrahman Al Suwailem",
-     "pos": "CD-L"
+     "pos": "CD-L",
+     "st": {
+      "fc": 1
+     }
     },
     {
      "fp": 5,
@@ -8124,10 +8218,11 @@
      "nome": "M. Batna",
      "pos": "RM",
      "st": {
-      "cg": 2,
-      "ch": 3,
+      "cg": 3,
+      "ch": 5,
       "fc": 1,
-      "fs": 2
+      "fs": 4,
+      "g": 1
      }
     },
     {
@@ -8136,9 +8231,12 @@
      "n": "28",
      "nome": "Z. Youssef",
      "pos": "CM-R",
+     "s": "90'+2'",
      "st": {
+      "am": 1,
       "ch": 1,
-      "fc": 1
+      "fc": 3,
+      "fs": 2
      }
     },
     {
@@ -8148,7 +8246,9 @@
      "nome": "W. Kanga",
      "pos": "F",
      "st": {
-      "ch": 1
+      "ch": 1,
+      "fc": 2,
+      "imp": 1
      }
     },
     {
@@ -8158,9 +8258,11 @@
      "nome": "A. Al-Hassan",
      "pos": "CM-L",
      "st": {
+      "am": 1,
       "cg": 1,
       "ch": 2,
-      "fc": 2
+      "fc": 3,
+      "fs": 1
      }
     },
     {
@@ -8169,8 +8271,11 @@
      "n": "10",
      "nome": "L. Haraslín",
      "pos": "LM",
+     "s": "79'",
      "st": {
-      "ch": 1,
+      "cg": 1,
+      "ch": 3,
+      "fc": 1,
       "fs": 2
      }
     }
@@ -8182,20 +8287,31 @@
    "esquema": "4-3-3",
    "reservas": [
     {
+     "e": "85'",
      "fp": 0,
      "id": "373411",
      "n": "14",
      "nome": "E. Bahri",
-     "pos": "SUB"
+     "pos": "SUB",
+     "st": {
+      "ch": 1
+     }
     },
     {
+     "e": "68'",
      "fp": 0,
      "id": "307749",
      "n": "11",
      "nome": "H. Al Ali",
-     "pos": "SUB"
+     "pos": "SUB",
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "fc": 1
+     }
     },
     {
+     "e": "77'",
      "fp": 0,
      "id": "372894",
      "n": "13",
@@ -8217,6 +8333,7 @@
      "pos": "SUB"
     },
     {
+     "e": "77'",
      "fp": 0,
      "id": "392653",
      "n": "19",
@@ -8253,7 +8370,10 @@
      "nome": "M. Borjan",
      "pos": "G",
      "st": {
-      "df": 3
+      "am": 1,
+      "df": 4,
+      "fs": 1,
+      "gs": 1
      }
     },
     {
@@ -8262,9 +8382,10 @@
      "n": "32",
      "nome": "A. Dahal",
      "pos": "RB",
+     "s": "77'",
      "st": {
       "am": 1,
-      "fc": 2,
+      "fc": 3,
       "fs": 2
      }
     },
@@ -8274,9 +8395,10 @@
      "n": "23",
      "nome": "H. Salem",
      "pos": "LB",
+     "s": "85'",
      "st": {
       "am": 1,
-      "fc": 1
+      "fc": 2
      }
     },
     {
@@ -8286,7 +8408,8 @@
      "nome": "A. Keita",
      "pos": "CM",
      "st": {
-      "ch": 1,
+      "cg": 1,
+      "ch": 3,
       "fs": 1
      }
     },
@@ -8295,14 +8418,22 @@
      "id": "371416",
      "n": "5",
      "nome": "H. Majrashi",
-     "pos": "CD-R"
+     "pos": "CD-R",
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
     },
     {
      "fp": 6,
      "id": "218262",
      "n": "26",
      "nome": "R. Abascal",
-     "pos": "CD-L"
+     "pos": "CD-L",
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
     },
     {
      "fp": 7,
@@ -8310,8 +8441,10 @@
      "n": "79",
      "nome": "F. Al Jayzani",
      "pos": "RM",
+     "s": "77'",
      "st": {
-      "fs": 1
+      "fc": 2,
+      "fs": 2
      }
     },
     {
@@ -8321,8 +8454,9 @@
      "nome": "B. Mensah",
      "pos": "LM",
      "st": {
+      "ch": 1,
       "fc": 1,
-      "fs": 1
+      "fs": 3
      }
     },
     {
@@ -8332,8 +8466,10 @@
      "nome": "Trézéguet",
      "pos": "F",
      "st": {
-      "ch": 1,
-      "fs": 1
+      "cg": 1,
+      "ch": 2,
+      "fs": 2,
+      "imp": 1
      }
     },
     {
@@ -8344,7 +8480,8 @@
      "pos": "RF",
      "st": {
       "ch": 1,
-      "fs": 1,
+      "fc": 1,
+      "fs": 3,
       "imp": 1
      }
     },
@@ -8354,16 +8491,66 @@
      "n": "77",
      "nome": "Leandro Antunes",
      "pos": "LF",
+     "s": "68'",
      "st": {
       "cg": 2,
-      "ch": 3
+      "ch": 4
      }
     }
    ]
   },
   "inicio": "2026-11-26T11:25:00-03:00",
   "pg": "",
-  "subs": [],
+  "subs": [
+   {
+    "ent": "H. Al Ali",
+    "l": "f",
+    "m": "68'",
+    "sai": "Leandro Antunes"
+   },
+   {
+    "ent": "O. Abdulaziz Al Bowardi",
+    "l": "f",
+    "m": "77'",
+    "sai": "F. Al Jayzani"
+   },
+   {
+    "ent": "H. Al Shurafaa",
+    "l": "f",
+    "m": "77'",
+    "sai": "A. Dahal"
+   },
+   {
+    "ent": "Sattam Al Tumbukti",
+    "l": "c",
+    "m": "79'",
+    "sai": "A. Alamine Ali"
+   },
+   {
+    "ent": "A. Al Khaibari",
+    "l": "c",
+    "m": "79'",
+    "sai": "L. Haraslín"
+   },
+   {
+    "ent": "E. Bahri",
+    "l": "f",
+    "m": "85'",
+    "sai": "H. Salem"
+   },
+   {
+    "ent": "R. Kelder",
+    "l": "c",
+    "m": "90'+2'",
+    "sai": "Z. Youssef"
+   },
+   {
+    "ent": "M. Al-Sahihi",
+    "l": "c",
+    "m": "90'+2'",
+    "sai": "M. Al Shaqaq"
+   }
+  ],
   "time_casa": "Al Fateh",
   "time_fora": "Al Riyadh",
   "v": 3
@@ -16653,389 +16840,378 @@
  },
  "401915816": {
   "achada": "2026-11-26T12:22-03:00",
-  "atualizada": "2026-11-26T13:20-03:00",
+  "atualizada": "2026-11-26T14:16-03:00",
   "casa": {
-   "esquema": "4-4-2",
+   "esquema": "3-5-2",
    "reservas": [
     {
-     "e": "?",
      "fp": 0,
      "id": "406973",
      "n": "82",
      "nome": "S. Kalmurza",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "422059",
      "n": "32",
      "nome": "A. Nurgaliev",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "406968",
      "n": "17",
      "nome": "A. Tuyakbayev",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "405661",
      "n": "81",
      "nome": "I. Bekbolat",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "345109",
      "n": "8",
      "nome": "O. Baybek",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "422055",
      "n": "71",
      "nome": "K. Makhametzhan",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "418000",
      "n": "15",
      "nome": "M. Birkurmanov",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "322548",
      "n": "6",
      "nome": "A. Sadybekov",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "326288",
      "n": "24",
      "nome": "A. Mrynskiy",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "306134",
      "n": "1",
      "nome": "T. Anarbekov",
      "pos": "G",
-     "s": "?"
+     "st": {
+      "df": 2
+     }
     },
     {
-     "e": "?",
      "fp": 2,
-     "id": "336780",
-     "n": "4",
-     "nome": "D. Kasabulat",
-     "pos": "D",
-     "s": "?"
+     "id": "287874",
+     "n": "20",
+     "nome": "E. Tapalov",
+     "pos": "RM",
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "g": 1
+     }
     },
     {
-     "e": "?",
      "fp": 3,
      "id": "227259",
      "n": "3",
      "nome": "L. Mata",
-     "pos": "D",
-     "s": "?"
+     "pos": "LM",
+     "st": {
+      "ch": 1
+     }
     },
     {
-     "e": "?",
      "fp": 4,
-     "id": "275994",
-     "n": "13",
-     "nome": "J. Oksanen",
-     "pos": "M",
-     "s": "?"
+     "id": "336780",
+     "n": "4",
+     "nome": "D. Kasabulat",
+     "pos": "CD-L"
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "140152",
      "n": "14",
      "nome": "A. Martynovich",
-     "pos": "D",
-     "s": "?"
+     "pos": "CD",
+     "st": {
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 6,
      "id": "306131",
      "n": "25",
      "nome": "A. Shirobokov",
-     "pos": "D",
-     "s": "?"
+     "pos": "CD-R",
+     "st": {
+      "cg": 1,
+      "ch": 1
+     }
     },
     {
-     "e": "?",
      "fp": 7,
-     "id": "287874",
-     "n": "20",
-     "nome": "E. Tapalov",
-     "pos": "M",
-     "s": "?"
+     "id": "275994",
+     "n": "13",
+     "nome": "J. Oksanen",
+     "pos": "CM-R",
+     "st": {
+      "fc": 1,
+      "imp": 1
+     }
     },
     {
-     "e": "?",
      "fp": 8,
-     "id": "352200",
-     "n": "22",
-     "nome": "G. Mendonça",
-     "pos": "M",
-     "s": "?"
+     "id": "385789",
+     "n": "19",
+     "nome": "O. Jukkola",
+     "pos": "CM-L",
+     "st": {
+      "ch": 1,
+      "fc": 1,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 9,
      "id": "250068",
      "n": "28",
      "nome": "M. Gual",
-     "pos": "F",
-     "s": "?"
+     "pos": "CF-L",
+     "st": {
+      "a": 1,
+      "cg": 2,
+      "ch": 5,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 10,
      "id": "352291",
      "n": "9",
      "nome": "Edmilson",
-     "pos": "F",
-     "s": "?"
+     "pos": "CF-R",
+     "st": {
+      "ch": 1,
+      "fc": 2
+     }
     },
     {
-     "e": "?",
      "fp": 11,
-     "id": "385789",
-     "n": "19",
-     "nome": "O. Jukkola",
-     "pos": "M",
-     "s": "?"
+     "id": "352200",
+     "n": "22",
+     "nome": "G. Mendonça",
+     "pos": "AM",
+     "st": {
+      "fc": 3
+     }
     }
    ]
   },
   "comp": "conference",
   "completa": false,
   "fora": {
-   "esquema": "4-3-3",
+   "esquema": "5-3-2",
    "reservas": [
     {
-     "e": "?",
      "fp": 0,
      "id": "400366",
      "n": "13",
      "nome": "R. Wallinder",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "284209",
      "n": "1",
      "nome": "S. Hansen",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "399510",
      "n": "20",
      "nome": "M. Isaksson",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "419211",
      "n": "8",
      "nome": "T. Helge",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "305836",
      "n": "23",
      "nome": "Á. Samuelsen",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "403153",
      "n": "29",
      "nome": "O. Lindberg",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "346501",
      "n": "27",
      "nome": "L. Tidstrand",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "306519",
      "n": "26",
      "nome": "I. Hoffman",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "317238",
      "n": "2",
      "nome": "L. Svanberg",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "416646",
      "n": "25",
      "nome": "M. Nielsen",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "151931",
      "n": "35",
      "nome": "A. Lundin",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "G",
+     "st": {
+      "df": 3,
+      "gs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 2,
-     "id": "356281",
-     "n": "5",
-     "nome": "A. Iqbal",
-     "pos": "SUB",
-     "s": "?"
+     "id": "357140",
+     "n": "14",
+     "nome": "V. Granath",
+     "pos": "RB",
+     "st": {
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 3,
      "id": "305080",
      "n": "3",
      "nome": "M. Agnarsson",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "LB"
     },
     {
-     "e": "?",
      "fp": 4,
-     "id": "192793",
-     "n": "22",
-     "nome": "J. Gustavsson",
-     "pos": "SUB",
-     "s": "?"
+     "id": "172917",
+     "n": "24",
+     "nome": "T. Pettersson",
+     "pos": "CD-L",
+     "st": {
+      "fc": 1,
+      "fs": 2
+     }
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "306289",
      "n": "4",
      "nome": "A. Norén",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "CD"
     },
     {
-     "e": "?",
      "fp": 6,
-     "id": "172917",
-     "n": "24",
-     "nome": "T. Pettersson",
-     "pos": "SUB",
-     "s": "?"
+     "id": "356281",
+     "n": "5",
+     "nome": "A. Iqbal",
+     "pos": "CD-R"
     },
     {
-     "e": "?",
      "fp": 7,
-     "id": "389637",
-     "n": "39",
-     "nome": "R. Leandersson",
-     "pos": "SUB",
-     "s": "?"
-    },
-    {
-     "e": "?",
-     "fp": 8,
      "id": "303651",
      "n": "7",
      "nome": "V. Gustafson",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "CM-R",
+     "st": {
+      "fs": 1
+     }
     },
     {
-     "e": "?",
+     "fp": 8,
+     "id": "192793",
+     "n": "22",
+     "nome": "J. Gustavsson",
+     "pos": "CM",
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
+    },
+    {
      "fp": 9,
      "id": "282562",
      "n": "9",
      "nome": "A. Youssef",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "CF-L",
+     "st": {
+      "cg": 1,
+      "ch": 3
+     }
     },
     {
-     "e": "?",
      "fp": 10,
-     "id": "357140",
-     "n": "14",
-     "nome": "V. Granath",
-     "pos": "SUB",
-     "s": "?"
-    },
-    {
-     "e": "?",
-     "fp": 11,
      "id": "305758",
      "n": "10",
      "nome": "J. Jensen",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "CF-R",
+     "st": {
+      "cg": 1,
+      "ch": 2,
+      "fc": 2,
+      "fs": 2
+     }
+    },
+    {
+     "fp": 11,
+     "id": "389637",
+     "n": "39",
+     "nome": "R. Leandersson",
+     "pos": "CM-L",
+     "st": {
+      "fs": 2
+     }
     }
    ]
   },

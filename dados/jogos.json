@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T13:21:48-03:00",
+ "atualizado": "2026-11-26T14:18:43-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -1119,6 +1119,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "pg": "/jogo/al-fateh-x-al-riyadh-26-11-2026/"
   },
   {
@@ -1138,8 +1142,18 @@
      "m": "39'",
      "n": "J. Brownhill",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "62'",
+     "n": "M. Barry",
+     "k": "v"
     }
    ],
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "pg": "/jogo/abha-x-al-shabab-26-11-2026/"
   },
   {

@@ -21410,6 +21410,33 @@
     "fora": 1
    }
   },
+  "401900443": {
+   "casa": "Abha",
+   "comp": "saudita",
+   "fase": "2026-27-saudi-pro-league",
+   "fora": "Al Shabab",
+   "inicio": "2026-11-26T12:05:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "39'",
+     "n": "J. Brownhill"
+    },
+    {
+     "k": "v",
+     "l": "f",
+     "m": "62'",
+     "n": "M. Barry"
+    }
+   ],
+   "lg": "ksa.1",
+   "local": "Prince Sultan bin Abdulaziz Sports City Stadium, Abha",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
   "401900444": {
    "casa": "Al Faisaly",
    "comp": "saudita",
@@ -21512,6 +21539,27 @@
    "placar": {
     "casa": 1,
     "fora": 3
+   }
+  },
+  "401900874": {
+   "casa": "Al Fateh",
+   "comp": "saudita",
+   "fase": "2026-27-saudi-pro-league",
+   "fora": "Al Riyadh",
+   "inicio": "2026-11-26T11:25:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "70'",
+     "n": "M. Batna"
+    }
+   ],
+   "lg": "ksa.1",
+   "local": "Prince Abdullah bin Jalawi Stadium, Al-Hofuf",
+   "placar": {
+    "casa": 1,
+    "fora": 0
    }
   },
   "401900877": {
