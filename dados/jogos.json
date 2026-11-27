@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T08:31:48-03:00",
+ "atualizado": "2026-11-27T09:27:12-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2306,6 +2306,14 @@
    "eid": "401900872",
    "lg": "ksa.1",
    "ed": "20261127",
+   "lances": [
+    {
+     "l": "f",
+     "m": "7'",
+     "n": "J. King",
+     "k": "p"
+    }
+   ],
    "pg": "/jogo/al-kholood-x-al-khaleej-27-11-2026/"
   },
   {

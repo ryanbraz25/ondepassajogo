@@ -9078,380 +9078,338 @@
  },
  "401900872": {
   "achada": "2026-11-27T08:31-03:00",
-  "atualizada": "2026-11-27T08:31-03:00",
+  "atualizada": "2026-11-27T09:26-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "?",
      "fp": 0,
      "id": "412840",
      "n": "24",
      "nome": "A. Adi",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "405656",
      "n": "23",
      "nome": "Y. Madani",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "410985",
      "n": "88",
      "nome": "S. Al-Marwani",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "372852",
      "n": "26",
      "nome": "Yaseen Al Zubaidi",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "383187",
      "n": "47",
      "nome": "A. Al Obaid",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "373162",
      "n": "7",
      "nome": "S. Al-Shehri",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "395521",
      "n": "67",
      "nome": "M. Al Rashdi",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "371757",
      "n": "30",
      "nome": "M. Alshammari",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "251570",
      "n": "39",
      "nome": "A. Al-Dossari",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "341472",
      "n": "1",
      "nome": "H. Al-Shanqiti",
      "pos": "G",
-     "s": "?"
+     "st": {
+      "gs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 2,
      "id": "367538",
      "n": "15",
      "nome": "R. Solan",
      "pos": "RB",
-     "s": "?"
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 3,
      "id": "251758",
      "n": "38",
      "nome": "S. Pinas",
-     "pos": "LB",
-     "s": "?"
+     "pos": "LB"
     },
     {
-     "e": "?",
      "fp": 4,
      "id": "243599",
      "n": "6",
      "nome": "J. Buckley",
-     "pos": "LM",
-     "s": "?"
+     "pos": "LM"
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "310407",
      "n": "5",
      "nome": "E. Utkus",
-     "pos": "CD-R",
-     "s": "?"
+     "pos": "CD-R"
     },
     {
-     "e": "?",
      "fp": 6,
      "id": "417727",
      "n": "25",
      "nome": "M. Camara",
-     "pos": "CD-L",
-     "s": "?"
+     "pos": "CD-L"
     },
     {
-     "e": "?",
      "fp": 7,
      "id": "373174",
      "n": "70",
      "nome": "Muhammad Sawan",
-     "pos": "AM-R",
-     "s": "?"
+     "pos": "AM-R"
     },
     {
-     "e": "?",
      "fp": 8,
      "id": "266701",
      "n": "8",
      "nome": "S. Cissé",
      "pos": "RM",
-     "s": "?"
+     "st": {
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 9,
      "id": "333033",
      "n": "22",
      "nome": "J. Domingues",
-     "pos": "F",
-     "s": "?"
+     "pos": "F"
     },
     {
-     "e": "?",
      "fp": 10,
      "id": "325009",
      "n": "10",
      "nome": "I. Kortajarena",
-     "pos": "AM",
-     "s": "?"
+     "pos": "AM"
     },
     {
-     "e": "?",
      "fp": 11,
      "id": "390696",
      "n": "11",
      "nome": "C. da Costa",
      "pos": "AM-L",
-     "s": "?"
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "fc": 1,
+      "fs": 1
+     }
     }
    ]
   },
   "comp": "saudita",
   "completa": false,
   "fora": {
-   "esquema": "4-4-2",
+   "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "?",
      "fp": 0,
      "id": "287051",
      "n": "15",
      "nome": "M. Hamzi",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "367631",
      "n": "14",
      "nome": "A. Al Shaafi",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "172190",
      "n": "13",
      "nome": "A. Asiri",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "124126",
      "n": "19",
      "nome": "M. Silva",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "357602",
      "n": "39",
      "nome": "S. Al Hamsal",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "253409",
      "n": "96",
      "nome": "M. Al Haidari",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "370553",
      "n": "90",
      "nome": "T. Al Khaibri",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "357597",
      "n": "18",
      "nome": "N. Al Saadi",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "163852",
      "n": "17",
      "nome": "A. Al Hafith",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "140195",
      "n": "49",
      "nome": "A. Moris",
      "pos": "G",
-     "s": "?"
+     "st": {
+      "df": 1
+     }
     },
     {
-     "e": "?",
      "fp": 2,
      "id": "336159",
      "n": "27",
      "nome": "Fawaz Al Saqour",
-     "pos": "D",
-     "s": "?"
+     "pos": "RB"
     },
     {
-     "e": "?",
      "fp": 3,
      "id": "219233",
      "n": "5",
      "nome": "Rebocho",
-     "pos": "D",
-     "s": "?"
+     "pos": "LB",
+     "st": {
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 4,
      "id": "357521",
      "n": "12",
      "nome": "Majed Kanabah",
-     "pos": "M",
-     "s": "?"
+     "pos": "LM"
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "263282",
      "n": "4",
      "nome": "B. Kiki Kouyate",
-     "pos": "D",
-     "s": "?"
+     "pos": "CD-R",
+     "st": {
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 6,
      "id": "267868",
      "n": "3",
      "nome": "M. Khubrani",
-     "pos": "D",
-     "s": "?"
+     "pos": "CD-L"
     },
     {
-     "e": "?",
      "fp": 7,
-     "id": "262499",
-     "n": "11",
-     "nome": "S. Al-Jamaan",
-     "pos": "M",
-     "s": "?"
+     "id": "269072",
+     "n": "99",
+     "nome": "M. Barrow",
+     "pos": "AM-R",
+     "st": {
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 8,
      "id": "174966",
      "n": "8",
      "nome": "O. Mascarell",
-     "pos": "M",
-     "s": "?"
+     "pos": "RM"
     },
     {
-     "e": "?",
      "fp": 9,
-     "id": "269072",
-     "n": "99",
-     "nome": "M. Barrow",
-     "pos": "F",
-     "s": "?"
-    },
-    {
-     "e": "?",
-     "fp": 10,
      "id": "141188",
      "n": "7",
      "nome": "J. King",
      "pos": "F",
-     "s": "?"
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "fs": 1,
+      "g": 1
+     }
     },
     {
-     "e": "?",
-     "fp": 11,
+     "fp": 10,
      "id": "215452",
      "n": "10",
      "nome": "A. Fulgini",
-     "pos": "M",
-     "s": "?"
+     "pos": "AM",
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 11,
+     "id": "262499",
+     "n": "11",
+     "nome": "S. Al-Jamaan",
+     "pos": "AM-L"
     }
    ]
   },

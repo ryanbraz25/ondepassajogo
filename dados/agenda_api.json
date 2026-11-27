@@ -5104,6 +5104,14 @@
   "fase": "2026-27-saudi-pro-league",
   "fora": "Al Khaleej",
   "inicio": "2026-11-27T09:15:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "f",
+    "m": "7'",
+    "n": "J. King"
+   }
+  ],
   "lg": "ksa.1",
   "local": "King Abdullah Sport City Stadium, Buraidah",
   "status": "a_confirmar"
