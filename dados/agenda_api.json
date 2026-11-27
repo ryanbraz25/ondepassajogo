@@ -619,6 +619,10 @@
   "inicio": "2026-11-27T16:45:00-03:00",
   "lg": "ita.1",
   "local": "Stadio Pier Luigi Penzo, Venezia",
+  "placar": {
+   "casa": 0,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401875006": {
@@ -1554,6 +1558,10 @@
   ],
   "lg": "fra.1",
   "local": "Stade Francis-Le Blé, Brest",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401876393": {
@@ -2104,10 +2112,38 @@
     "l": "c",
     "m": "5'",
     "n": "Igor Jesus"
+   },
+   {
+    "k": "p",
+    "l": "c",
+    "m": "51'",
+    "n": "M. Gibbs-White"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "54'",
+    "n": "E. Emegha"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "72'",
+    "n": "M. Gibbs-White"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "89'",
+    "n": "E. Emegha"
    }
   ],
   "lg": "eng.1",
   "local": "The City Ground, Nottingham",
+  "placar": {
+   "casa": 3,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401879226": {
@@ -2862,8 +2898,26 @@
   "fase": "regular-season",
   "fora": "Middlesbrough",
   "inicio": "2026-11-27T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "59'",
+    "n": "R. Manning"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "79'",
+    "n": "F. Azaz"
+   }
+  ],
   "lg": "eng.2",
   "local": "St. Mary's Stadium, Southampton",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401880130": {
@@ -3393,10 +3447,32 @@
     "l": "c",
     "m": "42'",
     "n": "I. Romero"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "66'",
+    "n": "P. García"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "81'",
+    "n": "Y. Zabiri"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "90+5'",
+    "n": "P. García"
    }
   ],
   "lg": "esp.1",
   "local": "Estadi Ciutat de València, Manises",
+  "placar": {
+   "casa": 1,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401882792": {
@@ -3791,10 +3867,32 @@
     "l": "f",
     "m": "46'",
     "n": "F. Honorat"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "78'",
+    "n": "F. Honorat"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "85'",
+    "n": "E. Dinkci"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+2'",
+    "n": "N. Füllkrug"
    }
   ],
   "lg": "ger.1",
   "local": "Weserstadion, Bremen",
+  "placar": {
+   "casa": 3,
+   "fora": 3
+  },
   "status": "a_confirmar"
  },
  "espn:401884721": {
@@ -4261,6 +4359,12 @@
     "l": "f",
     "m": "36'",
     "n": "S. Min-Kyu"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "51'",
+    "n": "M. Jensen"
    }
   ],
   "lg": "por.1",
