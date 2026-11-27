@@ -617,6 +617,14 @@
   "fase": "2026-27-italian-serie-a",
   "fora": "Bologna",
   "inicio": "2026-11-27T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "14'",
+    "n": "R. Halhal"
+   }
+  ],
   "lg": "ita.1",
   "local": "Stadio Pier Luigi Penzo, Venezia",
   "status": "a_confirmar"
@@ -1131,6 +1139,14 @@
   "fase": "regular-season",
   "fora": "Willem II",
   "inicio": "2026-11-27T16:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "38'",
+    "n": "C. Twigt"
+   }
+  ],
   "lg": "ned.1",
   "local": "Euroborg, Groningen",
   "status": "a_confirmar"
@@ -3731,6 +3747,14 @@
   "fase": "2026-27-german-bundesliga",
   "fora": "Borussia Mönchengladbach",
   "inicio": "2026-11-27T16:30:00-03:00",
+  "lances": [
+   {
+    "k": "p",
+    "l": "f",
+    "m": "27'",
+    "n": "K. Diks"
+   }
+  ],
   "lg": "ger.1",
   "local": "Weserstadion, Bremen",
   "status": "a_confirmar"
@@ -5225,8 +5249,20 @@
   "fase": "2026-27-saudi-pro-league",
   "fora": "Neom SC",
   "inicio": "2026-11-27T14:30:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "75'",
+    "n": "Y. En-Nesyri"
+   }
+  ],
   "lg": "ksa.1",
   "local": "Prince Abdullah Al-Faisal Stadium, Jeddah",
+  "placar": {
+   "casa": 1,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401900874": {

@@ -21757,6 +21757,27 @@
     "fora": 1
    }
   },
+  "401900873": {
+   "casa": "Al Ittihad",
+   "comp": "saudita",
+   "fase": "2026-27-saudi-pro-league",
+   "fora": "Neom SC",
+   "inicio": "2026-11-27T14:30:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "75'",
+     "n": "Y. En-Nesyri"
+    }
+   ],
+   "lg": "ksa.1",
+   "local": "Prince Abdullah Al-Faisal Stadium, Jeddah",
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   }
+  },
   "401900874": {
    "casa": "Al Fateh",
    "comp": "saudita",

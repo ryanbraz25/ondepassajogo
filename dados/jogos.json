@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T16:10:05-03:00",
+ "atualizado": "2026-11-27T17:06:47-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2473,6 +2473,18 @@
    "eid": "401900873",
    "lg": "ksa.1",
    "ed": "20261127",
+   "lances": [
+    {
+     "l": "c",
+     "m": "75'",
+     "n": "Y. En-Nesyri",
+     "k": "g"
+    }
+   ],
+   "placar": {
+    "casa": 1,
+    "fora": 0
+   },
    "nota": "Xsports na TV aberta, BandSports na TV fechada e Canal GOAT no YouTube",
    "links": {
     "goat": "https://www.youtube.com/@canalgoatbr"
@@ -2490,6 +2502,14 @@
    "eid": "401875536",
    "lg": "ned.1",
    "ed": "20261127",
+   "lances": [
+    {
+     "l": "f",
+     "m": "38'",
+     "n": "C. Twigt",
+     "k": "g"
+    }
+   ],
    "rodada": "14ª rodada",
    "pg": "/jogo/fc-groningen-x-willem-ii-27-11-2026/"
   },
@@ -2508,6 +2528,14 @@
    "eid": "401884720",
    "lg": "ger.1",
    "ed": "20261127",
+   "lances": [
+    {
+     "l": "f",
+     "m": "27'",
+     "n": "K. Diks",
+     "k": "p"
+    }
+   ],
    "rodada": "11ª rodada",
    "nota": "Grátis no YouTube (CazéTV e SportyNet)",
    "links": {
@@ -2549,6 +2577,14 @@
    "eid": "401875004",
    "lg": "ita.1",
    "ed": "20261127",
+   "lances": [
+    {
+     "l": "c",
+     "m": "14'",
+     "n": "R. Halhal",
+     "k": "g"
+    }
+   ],
    "rodada": "13ª rodada",
    "pg": "/jogo/venezia-x-bologna-27-11-2026/"
   },
