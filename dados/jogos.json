@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T10:26:48-03:00",
+ "atualizado": "2026-11-27T11:23:34-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2318,8 +2318,18 @@
      "m": "36'",
      "n": "C. da Costa",
      "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "58'",
+     "n": "J. Domingues",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   },
    "pg": "/jogo/al-kholood-x-al-khaleej-27-11-2026/"
   },
   {

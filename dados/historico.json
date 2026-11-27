@@ -21619,6 +21619,39 @@
     "fora": 2
    }
   },
+  "401900872": {
+   "casa": "Al Kholood",
+   "comp": "saudita",
+   "fase": "2026-27-saudi-pro-league",
+   "fora": "Al Khaleej",
+   "inicio": "2026-11-27T09:15:00-03:00",
+   "lances": [
+    {
+     "k": "p",
+     "l": "f",
+     "m": "7'",
+     "n": "J. King"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "36'",
+     "n": "C. da Costa"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "58'",
+     "n": "J. Domingues"
+    }
+   ],
+   "lg": "ksa.1",
+   "local": "King Abdullah Sport City Stadium, Buraidah",
+   "placar": {
+    "casa": 2,
+    "fora": 1
+   }
+  },
   "401900874": {
    "casa": "Al Fateh",
    "comp": "saudita",

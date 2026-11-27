@@ -5116,10 +5116,20 @@
     "l": "c",
     "m": "36'",
     "n": "C. da Costa"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "58'",
+    "n": "J. Domingues"
    }
   ],
   "lg": "ksa.1",
   "local": "King Abdullah Sport City Stadium, Buraidah",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401900873": {
