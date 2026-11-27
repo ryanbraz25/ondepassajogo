@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T22:51:18-03:00",
+ "atualizado": "2026-11-26T23:48:07-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2891,6 +2891,12 @@
      "m": "6'",
      "n": "E. Bauermann",
      "k": "c"
+    },
+    {
+     "l": "c",
+     "m": "48'",
+     "n": "O. Idrissi",
+     "k": "g"
     }
    ],
    "rodada": "Quartas de final (ida)",

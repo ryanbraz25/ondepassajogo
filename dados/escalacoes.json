@@ -1422,7 +1422,7 @@
  },
  "401841329": {
   "achada": "2026-11-26T21:55-03:00",
-  "atualizada": "2026-11-26T22:51-03:00",
+  "atualizada": "2026-11-26T23:46-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -1432,7 +1432,11 @@
      "id": "399075",
      "n": "46",
      "nome": "P. Ferreira",
-     "pos": "SUB"
+     "pos": "SUB",
+     "st": {
+      "ch": 1,
+      "fc": 1
+     }
     },
     {
      "fp": 0,
@@ -1472,6 +1476,7 @@
      "st": {
       "cg": 1,
       "ch": 1,
+      "fs": 1,
       "g": 1
      }
     },
@@ -1521,7 +1526,7 @@
      "nome": "Newton",
      "pos": "SUB",
      "st": {
-      "fc": 1
+      "fc": 2
      }
     },
     {
@@ -1563,7 +1568,7 @@
      "nome": "Iago",
      "pos": "LB",
      "st": {
-      "fc": 2,
+      "fc": 3,
       "fs": 1
      }
     },
@@ -1597,7 +1602,7 @@
      "nome": "L. Osorio",
      "pos": "CD-L",
      "st": {
-      "fc": 2
+      "fc": 4
      }
     },
     {
@@ -1620,6 +1625,7 @@
      "nome": "D. Bobadilla",
      "pos": "RM",
      "st": {
+      "a": 1,
       "fs": 1
      }
     },
@@ -1630,11 +1636,11 @@
      "nome": "J. Calleri",
      "pos": "F",
      "st": {
-      "cg": 1,
-      "ch": 2,
+      "cg": 2,
+      "ch": 3,
       "fc": 1,
       "fs": 1,
-      "g": 1,
+      "g": 2,
       "imp": 2
      }
     },
@@ -1667,7 +1673,7 @@
    ]
   },
   "comp": "brasileirao-a",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "5-4-1",
    "reservas": [
@@ -1724,7 +1730,10 @@
      "id": "285280",
      "n": "2",
      "nome": "João",
-     "pos": "SUB"
+     "pos": "SUB",
+     "st": {
+      "fs": 1
+     }
     },
     {
      "e": "71'",
@@ -1756,7 +1765,7 @@
      "nome": "V. Bueno",
      "pos": "SUB",
      "st": {
-      "fs": 1
+      "fs": 2
      }
     }
    ],
@@ -1769,7 +1778,7 @@
      "pos": "G",
      "st": {
       "df": 1,
-      "gs": 2
+      "gs": 3
      }
     },
     {
@@ -1806,7 +1815,9 @@
      "nome": "D. Tchamba",
      "pos": "CD-L",
      "st": {
-      "ch": 1
+      "am": 1,
+      "ch": 1,
+      "fc": 1
      }
     },
     {
@@ -1836,7 +1847,7 @@
      "st": {
       "ch": 2,
       "fc": 1,
-      "fs": 4
+      "fs": 5
      }
     },
     {
@@ -1885,7 +1896,7 @@
      "pos": "LM",
      "st": {
       "fc": 2,
-      "fs": 1
+      "fs": 2
      }
     }
    ]
@@ -36960,200 +36971,195 @@
  },
  "401931982": {
   "achada": "2026-11-26T22:51-03:00",
-  "atualizada": "2026-11-26T22:51-03:00",
+  "atualizada": "2026-11-26T23:46-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "?",
      "fp": 0,
      "id": "291607",
      "n": "19",
      "nome": "I. Hernandez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "313058",
      "n": "31",
      "nome": "J. Eulogio Téllez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "302128",
      "n": "6",
      "nome": "M. Isais",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "333706",
      "n": "9",
      "nome": "A. Alcaraz",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "3129848",
      "n": "206",
      "nome": "T. Contreras Hernández",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "408143",
      "n": "30",
      "nome": "S. Rodríguez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "347613",
      "n": "32",
      "nome": "P. Budib",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "417623",
      "n": "211",
      "nome": "C. Hernández",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "357437",
      "n": "12",
      "nome": "S. Santos",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "195349",
      "n": "29",
      "nome": "Kenedy",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "259439",
      "n": "25",
      "nome": "C. Moreno",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "G",
+     "st": {
+      "am": 1,
+      "gs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 2,
      "id": "364454",
      "n": "13",
      "nome": "J. Berlanga",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "RB",
+     "st": {
+      "am": 1,
+      "fc": 2
+     }
     },
     {
-     "e": "?",
      "fp": 3,
      "id": "228355",
      "n": "15",
      "nome": "F. Venegas",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "LB"
     },
     {
-     "e": "?",
      "fp": 4,
      "id": "326072",
      "n": "26",
      "nome": "A. Bautista",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "LM",
+     "st": {
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "194921",
      "n": "4",
      "nome": "E. Bauermann",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "CD-R",
+     "st": {
+      "ch": 1,
+      "gc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 6,
      "id": "268843",
      "n": "2",
      "nome": "S. Barreto",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "CD-L",
+     "st": {
+      "fc": 2,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 7,
      "id": "160562",
      "n": "21",
      "nome": "J. Vallejo",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "AM-R",
+     "st": {
+      "ch": 4,
+      "fc": 1,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 8,
      "id": "233978",
      "n": "16",
      "nome": "C. Rivera",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "RM"
     },
     {
-     "e": "?",
      "fp": 9,
      "id": "127570",
      "n": "23",
      "nome": "S. Rondón",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "F",
+     "st": {
+      "fc": 1,
+      "imp": 2
+     }
     },
     {
-     "e": "?",
      "fp": 10,
      "id": "176489",
      "n": "7",
      "nome": "R. Pizarro",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "AM",
+     "st": {
+      "ch": 1,
+      "fs": 4
+     }
     },
     {
-     "e": "?",
      "fp": 11,
      "id": "229552",
      "n": "11",
      "nome": "O. Idrissi",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "AM-L",
+     "st": {
+      "ch": 2,
+      "fc": 1,
+      "fs": 1
+     }
     }
    ]
   },
@@ -37163,195 +37169,188 @@
    "esquema": "3-4-2-1",
    "reservas": [
     {
-     "e": "?",
      "fp": 0,
      "id": "303577",
      "n": "11",
      "nome": "B. Gutiérrez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "228352",
      "n": "17",
      "nome": "R. Marín",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "151850",
      "n": "9",
      "nome": "Á. Sepúlveda",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "194182",
      "n": "13",
      "nome": "Ó. Whalley",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "387984",
      "n": "14",
      "nome": "H. Camberos",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "277191",
      "n": "33",
      "nome": "J. Carillo",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "147715",
      "n": "16",
      "nome": "L. Rey",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "3313",
      "n": "24",
      "nome": "M. Gómez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "276398",
      "n": "19",
      "nome": "K. Castañeda",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "96526",
      "n": "18",
      "nome": "J. Pérez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "290899",
      "n": "1",
      "nome": "R. Rangel",
      "pos": "G",
-     "s": "?"
+     "st": {
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 2,
      "id": "271844",
      "n": "37",
      "nome": "R. Ledezma",
-     "pos": "M",
-     "s": "?"
+     "pos": "RM",
+     "st": {
+      "ch": 1
+     }
     },
     {
-     "e": "?",
      "fp": 3,
      "id": "297284",
      "n": "5",
      "nome": "B. González",
-     "pos": "M",
-     "s": "?"
+     "pos": "LM",
+     "st": {
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 4,
      "id": "37249",
      "n": "2",
      "nome": "J. Castillo",
-     "pos": "D",
-     "s": "?"
+     "pos": "CD-L"
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "290889",
      "n": "3",
      "nome": "D. Campillo",
-     "pos": "D",
-     "s": "?"
+     "pos": "CD",
+     "st": {
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 6,
      "id": "133111",
      "n": "23",
      "nome": "D. Aguirre",
-     "pos": "D",
-     "s": "?"
+     "pos": "CD-R",
+     "st": {
+      "fc": 2,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 7,
      "id": "131697",
      "n": "28",
      "nome": "F. Gonzalez",
-     "pos": "M",
-     "s": "?"
+     "pos": "CM-R",
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 8,
      "id": "190901",
      "n": "6",
      "nome": "O. Govea",
-     "pos": "M",
-     "s": "?"
+     "pos": "CM-L",
+     "st": {
+      "am": 1
+     }
     },
     {
-     "e": "?",
      "fp": 9,
      "id": "118717",
      "n": "30",
      "nome": "S. Sandoval",
      "pos": "F",
-     "s": "?"
+     "st": {
+      "fc": 1,
+      "fs": 2
+     }
     },
     {
-     "e": "?",
      "fp": 10,
      "id": "194308",
      "n": "25",
      "nome": "R. Alvarado",
-     "pos": "M",
-     "s": "?"
+     "pos": "CF-R",
+     "st": {
+      "fs": 1,
+      "imp": 1
+     }
     },
     {
-     "e": "?",
      "fp": 11,
      "id": "260173",
      "n": "10",
      "nome": "E. Álvarez",
-     "pos": "M",
-     "s": "?"
+     "pos": "CF-L",
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
     }
    ]
   },
