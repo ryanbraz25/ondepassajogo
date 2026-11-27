@@ -617,14 +617,6 @@
   "fase": "2026-27-italian-serie-a",
   "fora": "Bologna",
   "inicio": "2026-11-27T16:45:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "c",
-    "m": "14'",
-    "n": "R. Halhal"
-   }
-  ],
   "lg": "ita.1",
   "local": "Stadio Pier Luigi Penzo, Venezia",
   "status": "a_confirmar"
@@ -1145,10 +1137,20 @@
     "l": "f",
     "m": "38'",
     "n": "C. Twigt"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+3'",
+    "n": "T. Van Bergen"
    }
   ],
   "lg": "ned.1",
   "local": "Euroborg, Groningen",
+  "placar": {
+   "casa": 1,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401875537": {
@@ -1542,6 +1544,14 @@
   "fase": "2026-27-ligue-1",
   "fora": "Paris FC",
   "inicio": "2026-11-27T16:45:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "21'",
+    "n": "L. Zogbe"
+   }
+  ],
   "lg": "fra.1",
   "local": "Stade Francis-Le Blé, Brest",
   "status": "a_confirmar"
@@ -2088,6 +2098,14 @@
   "fase": "2026-27-english-premier-league",
   "fora": "Chelsea",
   "inicio": "2026-11-27T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "5'",
+    "n": "Igor Jesus"
+   }
+  ],
   "lg": "eng.1",
   "local": "The City Ground, Nottingham",
   "status": "a_confirmar"
@@ -3369,6 +3387,14 @@
   "fase": "2026-27-laliga",
   "fora": "Racing Santander",
   "inicio": "2026-11-27T17:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "42'",
+    "n": "I. Romero"
+   }
+  ],
   "lg": "esp.1",
   "local": "Estadi Ciutat de València, Manises",
   "status": "a_confirmar"
@@ -3753,6 +3779,18 @@
     "l": "f",
     "m": "27'",
     "n": "K. Diks"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "38'",
+    "n": "E. Dinkci"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "46'",
+    "n": "F. Honorat"
    }
   ],
   "lg": "ger.1",
@@ -4217,6 +4255,14 @@
   "fase": "2026-27-portuguese-primeira-liga",
   "fora": "C.D. Nacional",
   "inicio": "2026-11-27T17:15:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "36'",
+    "n": "S. Min-Kyu"
+   }
+  ],
   "lg": "por.1",
   "local": "Estádio do Marítimo, Funchal",
   "status": "a_confirmar"

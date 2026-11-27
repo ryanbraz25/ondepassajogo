@@ -10780,6 +10780,33 @@
     "fora": 0
    }
   },
+  "401875536": {
+   "casa": "FC Groningen",
+   "comp": "eredivisie",
+   "fase": "regular-season",
+   "fora": "Willem II",
+   "inicio": "2026-11-27T16:00:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "38'",
+     "n": "C. Twigt"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "90+3'",
+     "n": "T. Van Bergen"
+    }
+   ],
+   "lg": "ned.1",
+   "local": "Euroborg, Groningen",
+   "placar": {
+    "casa": 1,
+    "fora": 1
+   }
+  },
   "401875539": {
    "casa": "Telstar",
    "comp": "eredivisie",
