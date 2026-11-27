@@ -1,6 +1,6 @@
 {
  "comentario": "Gravado pela pesquisa noturna do Claude: canais (e rodada/nota) de cada jogo. O robô junta isso aos jogos da ESPN. Pode editar à mão.",
- "atualizado": "2026-11-26T11:47:28-03:00",
+ "atualizado": "2026-11-26T23:47:53-03:00",
  "jogos": [
   {
    "data": "2026-11-25",
@@ -281,7 +281,7 @@
   {
    "data": "2026-11-26",
    "casa": "Brighton",
-   "fora": "CSU Craiova",
+   "fora": "Universitatea Craiova",
    "canais": [
     "cazetv"
    ],
@@ -867,7 +867,7 @@
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado"
   },
   {
    "data": "2026-11-27",
@@ -928,7 +928,7 @@
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -987,7 +987,7 @@
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -1007,15 +1007,19 @@
    "data": "2026-11-28",
    "casa": "Birmingham City",
    "fora": "Bolton Wanderers",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
    "casa": "Blackburn Rovers",
    "fora": "Charlton Athletic",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -1030,8 +1034,10 @@
    "data": "2026-11-28",
    "casa": "Derby County",
    "fora": "Watford",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -1117,8 +1123,11 @@
    "data": "2026-11-28",
    "casa": "Instituto (Córdoba)",
    "fora": "River Plate",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "rodada": "Quartas de final"
   },
   {
    "data": "2026-11-28",
@@ -1187,8 +1196,10 @@
    "data": "2026-11-28",
    "casa": "Lincoln City",
    "fora": "Wolverhampton Wanderers",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -1214,8 +1225,10 @@
    "data": "2026-11-28",
    "casa": "Millwall",
    "fora": "Burnley",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -1224,7 +1237,7 @@
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -1289,14 +1302,16 @@
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
    "casa": "Queens Park Rangers",
    "fora": "Sheffield United",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -1384,14 +1399,17 @@
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
    "casa": "Vélez Sarsfield",
    "fora": "Independiente",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "rodada": "Quartas de final"
   },
   {
    "data": "2026-11-28",
@@ -1400,21 +1418,25 @@
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
    "casa": "West Ham United",
    "fora": "Stoke City",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
    "casa": "Wrexham",
    "fora": "Portsmouth",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -1506,6 +1528,13 @@
    "status": "confirmado",
    "rodada": "12ª rodada",
    "nota": "Jogo grande"
+  },
+  {
+   "data": "2026-11-29",
+   "casa": "Boca Juniors",
+   "fora": "Gimnasia La Plata",
+   "canais": [],
+   "status": "a_confirmar"
   },
   {
    "data": "2026-11-29",
@@ -1602,7 +1631,7 @@
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "nota": "clássico"
   },
   {
@@ -1651,7 +1680,7 @@
    "canais": [
     "disney"
    ],
-   "status": "a_confirmar"
+   "status": "confirmado"
   },
   {
    "data": "2026-11-29",
@@ -1660,15 +1689,6 @@
    "canais": [],
    "status": "a_confirmar",
    "rodada": "Quartas de final (volta)"
-  },
-  {
-   "data": "2026-11-29",
-   "casa": "Instituto (Córdoba)",
-   "fora": "River Plate",
-   "canais": [
-    "disney"
-   ],
-   "status": "a_confirmar"
   },
   {
    "data": "2026-11-29",
@@ -1769,8 +1789,10 @@
    "data": "2026-11-29",
    "casa": "Swansea City",
    "fora": "Cardiff City",
-   "canais": [],
-   "status": "a_confirmar"
+   "canais": [
+    "disney"
+   ],
+   "status": "confirmado"
   },
   {
    "data": "2026-11-29",
@@ -1810,15 +1832,6 @@
    ],
    "status": "a_confirmar",
    "rodada": "14ª rodada"
-  },
-  {
-   "data": "2026-11-29",
-   "casa": "Vélez Sarsfield",
-   "fora": "Independiente",
-   "canais": [
-    "disney"
-   ],
-   "status": "a_confirmar"
   },
   {
    "data": "2026-11-29",
