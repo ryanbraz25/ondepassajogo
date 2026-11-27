@@ -38016,188 +38016,200 @@
  },
  "401931995": {
   "achada": "2026-11-26T23:52-03:00",
-  "atualizada": "2026-11-27T01:48-03:00",
+  "atualizada": "2026-11-27T02:44-03:00",
   "casa": {
-   "esquema": "4-2-3-1",
+   "esquema": "4-1-4-1",
    "reservas": [
     {
+     "e": "?",
      "fp": 0,
      "id": "215619",
      "n": "25",
      "nome": "P. Saracho",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "399013",
      "n": "185",
      "nome": "C. Mora",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "3118754",
      "n": "181",
      "nome": "I. Martínez Gutiérrez",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "372142",
      "n": "203",
      "nome": "J. Lara",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "308096",
      "n": "18",
      "nome": "E. Guerra",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "356574",
      "n": "8",
      "nome": "J. Domínguez",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "251543",
      "n": "29",
      "nome": "J. Rodríguez",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "201538",
      "n": "19",
      "nome": "J. Alvarado",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "222189",
      "n": "4",
      "nome": "B. Colula",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "235451",
      "n": "16",
      "nome": "J. Cortizo",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     }
    ],
    "titulares": [
     {
+     "e": "?",
      "fp": 1,
      "id": "335959",
      "n": "23",
      "nome": "O. García",
      "pos": "G",
-     "st": {
-      "df": 2,
-      "gs": 2
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 2,
      "id": "195695",
      "n": "7",
      "nome": "I. Moreno",
-     "pos": "RB"
+     "pos": "RB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 3,
      "id": "190559",
      "n": "5",
      "nome": "S. Vegas",
      "pos": "LB",
-     "st": {
-      "fc": 1
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 4,
-     "id": "199163",
-     "n": "20",
-     "nome": "R. Echeverría",
-     "pos": "LM",
-     "st": {
-      "fc": 2
-     }
+     "id": "386922",
+     "n": "35",
+     "nome": "L. Valadez",
+     "pos": "DM",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 5,
      "id": "235956",
      "n": "14",
      "nome": "J. Romaña",
-     "pos": "CD-R"
+     "pos": "CD-R",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 6,
      "id": "88781",
      "n": "3",
      "nome": "J. Guevara",
-     "pos": "CD-L"
+     "pos": "CD-L",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 7,
-     "id": "259697",
-     "n": "6",
-     "nome": "F. Beltrán",
-     "pos": "AM-R",
-     "st": {
-      "fs": 2
-     }
-    },
-    {
-     "fp": 8,
-     "id": "386922",
-     "n": "35",
-     "nome": "L. Valadez",
+     "id": "317509",
+     "n": "13",
+     "nome": "D. Arcila",
      "pos": "RM",
-     "st": {
-      "am": 1,
-      "ch": 1
-     }
+     "s": "?"
     },
     {
+     "e": "?",
+     "fp": 8,
+     "id": "199163",
+     "n": "20",
+     "nome": "R. Echeverría",
+     "pos": "CM-R",
+     "s": "?"
+    },
+    {
+     "e": "?",
      "fp": 9,
      "id": "248826",
      "n": "27",
      "nome": "D. Cambindo",
      "pos": "F",
-     "st": {
-      "fc": 2,
-      "fs": 1,
-      "imp": 1
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 10,
-     "id": "317509",
-     "n": "13",
-     "nome": "D. Arcila",
-     "pos": "AM",
-     "st": {
-      "ch": 1,
-      "fs": 4,
-      "imp": 1
-     }
+     "id": "259697",
+     "n": "6",
+     "nome": "F. Beltrán",
+     "pos": "CM-L",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 11,
      "id": "195326",
      "n": "11",
      "nome": "I. Díaz",
-     "pos": "AM-L",
-     "st": {
-      "fs": 1
-     }
+     "pos": "LM",
+     "s": "?"
     }
    ]
   },
@@ -38207,189 +38219,195 @@
    "esquema": "4-2-3-1",
    "reservas": [
     {
+     "e": "?",
      "fp": 0,
      "id": "257640",
      "n": "29",
      "nome": "R. Rotondi",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "228300",
      "n": "11",
      "nome": "O. Ebere",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "215512",
      "n": "14",
      "nome": "J. Calero",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "336641",
      "n": "10",
      "nome": "A. Montaño",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "346805",
      "n": "15",
      "nome": "R. Orquin",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "303844",
      "n": "18",
      "nome": "L. Romero",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "266587",
      "n": "23",
      "nome": "K. Mier",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "115447",
      "n": "21",
      "nome": "G. Fernandez",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "215785",
      "n": "2",
      "nome": "A. Mozo",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 0,
      "id": "304424",
      "n": "12",
      "nome": "A. Montes",
-     "pos": "SUB"
+     "pos": "SUB",
+     "s": "?"
     }
    ],
    "titulares": [
     {
+     "e": "?",
      "fp": 1,
      "id": "224752",
      "n": "1",
      "nome": "A. Gudiño",
-     "pos": "G"
+     "pos": "G",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 2,
-     "id": "285862",
-     "n": "16",
-     "nome": "Á. Márquez",
+     "id": "192166",
+     "n": "33",
+     "nome": "G. Piovi",
      "pos": "RB",
-     "st": {
-      "am": 1,
-      "fc": 1
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 3,
      "id": "136124",
      "n": "3",
      "nome": "O. Campos",
-     "pos": "LB"
+     "pos": "LB",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 4,
      "id": "276942",
      "n": "6",
      "nome": "É. Lira",
      "pos": "LM",
-     "st": {
-      "fc": 2
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 5,
      "id": "270229",
      "n": "4",
      "nome": "W. Ditta",
      "pos": "CD-R",
-     "st": {
-      "fc": 1
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 6,
      "id": "318342",
      "n": "5",
      "nome": "J. Orozco",
-     "pos": "CD-L"
+     "pos": "CD-L",
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 7,
      "id": "277270",
      "n": "20",
      "nome": "J. Paradela",
      "pos": "AM-R",
-     "st": {
-      "cg": 1,
-      "ch": 1,
-      "fc": 1,
-      "fs": 3,
-      "g": 1
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 8,
-     "id": "192166",
-     "n": "33",
-     "nome": "G. Piovi",
+     "id": "285862",
+     "n": "16",
+     "nome": "Á. Márquez",
      "pos": "RM",
-     "st": {
-      "fc": 1
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 9,
      "id": "207549",
      "n": "7",
      "nome": "N. Ibáñez",
      "pos": "F",
-     "st": {
-      "cg": 2,
-      "ch": 3,
-      "g": 1
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 10,
      "id": "239990",
      "n": "19",
      "nome": "C. Rodríguez",
      "pos": "AM",
-     "st": {
-      "a": 1,
-      "cg": 1,
-      "ch": 1
-     }
+     "s": "?"
     },
     {
+     "e": "?",
      "fp": 11,
      "id": "219001",
      "n": "8",
      "nome": "A. Palavecino",
      "pos": "AM-L",
-     "st": {
-      "a": 1,
-      "ch": 2,
-      "fc": 2,
-      "fs": 1
-     }
+     "s": "?"
     }
    ]
   },

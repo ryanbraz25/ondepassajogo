@@ -29842,6 +29842,45 @@
     "fora": 0
    }
   },
+  "401931995": {
+   "casa": "León",
+   "comp": "ligamx",
+   "fase": "apertura---quarterfinals",
+   "fora": "Cruz Azul",
+   "inicio": "2026-11-27T00:10:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "8'",
+     "n": "J. Paradela"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "30'",
+     "n": "N. Ibáñez"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "66'",
+     "n": "J. Paradela"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "73'",
+     "n": "G. Fernandez"
+    }
+   ],
+   "lg": "mex.1",
+   "local": "Estadio León, León de los Aldamas",
+   "placar": {
+    "casa": 0,
+    "fora": 4
+   }
+  },
   "401931998": {
    "casa": "Monterrey",
    "comp": "ligamx",

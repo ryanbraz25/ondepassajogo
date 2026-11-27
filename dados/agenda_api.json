@@ -8312,6 +8312,10 @@
   ],
   "lg": "mex.1",
   "local": "Estadio León, León de los Aldamas",
+  "placar": {
+   "casa": 0,
+   "fora": 4
+  },
   "status": "a_confirmar"
  },
  "espn:401931996": {
