@@ -4254,6 +4254,45 @@
     "fora": 1
    }
   },
+  "401841329": {
+   "casa": "São Paulo",
+   "comp": "brasileirao-a",
+   "fase": "2026-brasileiro-serie-a",
+   "fora": "Remo",
+   "inicio": "2026-11-26T20:00:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "39'",
+     "n": "J. Calleri"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "55'",
+     "n": "G. Poveda"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "87'",
+     "n": "Ryan Francisco"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "90+5'",
+     "n": "J. Calleri"
+    }
+   ],
+   "lg": "bra.1",
+   "local": "Estádio Cícero Pompeu de Toledo, Sao Paulo",
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   }
+  },
   "401841335": {
    "casa": "Chapecoense",
    "comp": "brasileirao-a",

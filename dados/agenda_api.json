@@ -94,10 +94,20 @@
     "l": "c",
     "m": "87'",
     "n": "Ryan Francisco"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+5'",
+    "n": "J. Calleri"
    }
   ],
   "lg": "bra.1",
   "local": "Estádio Cícero Pompeu de Toledo, Sao Paulo",
+  "placar": {
+   "casa": 3,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841330": {
@@ -8624,6 +8634,14 @@
   "fase": "apertura---quarterfinals",
   "fora": "Guadalajara",
   "inicio": "2026-11-26T22:00:00-03:00",
+  "lances": [
+   {
+    "k": "c",
+    "l": "f",
+    "m": "6'",
+    "n": "E. Bauermann"
+   }
+  ],
   "lg": "mex.1",
   "local": "Estadio Hidalgo, Pachuca",
   "status": "a_confirmar"

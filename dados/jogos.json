@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T21:56:20-03:00",
+ "atualizado": "2026-11-26T22:51:18-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2857,8 +2857,18 @@
      "m": "87'",
      "n": "Ryan Francisco",
      "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "90+5'",
+     "n": "J. Calleri",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 3,
+    "fora": 1
+   },
    "rodada": "37ª rodada",
    "pg": "/jogo/sao-paulo-x-remo-26-11-2026/"
   },
@@ -2875,6 +2885,14 @@
    "eid": "401931982",
    "lg": "mex.1",
    "ed": "20261126",
+   "lances": [
+    {
+     "l": "f",
+     "m": "6'",
+     "n": "E. Bauermann",
+     "k": "c"
+    }
+   ],
    "rodada": "Quartas de final (ida)",
    "links": {
     "sportynet": "https://www.youtube.com/@SportyNetBrasil"
