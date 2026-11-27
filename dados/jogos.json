@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T20:03:36-03:00",
+ "atualizado": "2026-11-26T21:00:33-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2839,6 +2839,14 @@
    "eid": "401841329",
    "lg": "bra.1",
    "ed": "20261126",
+   "lances": [
+    {
+     "l": "c",
+     "m": "39'",
+     "n": "J. Calleri",
+     "k": "g"
+    }
+   ],
    "rodada": "37ª rodada",
    "pg": "/jogo/sao-paulo-x-remo-26-11-2026/"
   },
