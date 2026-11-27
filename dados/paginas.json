@@ -7,23 +7,23 @@
 },
 "/campeonato/argentina/": {
 "dia": "",
-"h": "5c9c5781b705f035",
-"mod": "2026-11-27T14:16-03:00"
+"h": "5c399a3b19913619",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/brasileirao-a/": {
 "dia": "",
-"h": "0ba1268d4289b302",
-"mod": "2026-11-27T14:16-03:00"
+"h": "9d4b46ec6a4cf154",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/brasileirao-b/": {
 "dia": "",
-"h": "ab47097162e860ca",
-"mod": "2026-11-27T14:16-03:00"
+"h": "e7501e9b73b351c3",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/bundesliga/": {
 "dia": "",
-"h": "a906cb6d7085a8eb",
-"mod": "2026-11-27T14:16-03:00"
+"h": "16c5190fe9a4e4cb",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/carioca/": {
 "dia": "",
@@ -32,18 +32,18 @@
 },
 "/campeonato/champions/": {
 "dia": "",
-"h": "7aed6d99261b4e41",
-"mod": "2026-11-27T14:16-03:00"
+"h": "eb03cdd161410e6e",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/championship/": {
 "dia": "",
-"h": "bd5adce9ca147ca8",
-"mod": "2026-11-27T14:16-03:00"
+"h": "ea985213b7050572",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/conference/": {
 "dia": "",
-"h": "7f30a40cdfe676fa",
-"mod": "2026-11-27T14:16-03:00"
+"h": "40e03720793e218d",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/copa-do-brasil/": {
 "dia": "",
@@ -62,8 +62,8 @@
 },
 "/campeonato/eredivisie/": {
 "dia": "",
-"h": "13692ac4a9401936",
-"mod": "2026-11-27T14:16-03:00"
+"h": "d56e213744780ffa",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/eurocopa/": {
 "dia": "",
@@ -72,8 +72,8 @@
 },
 "/campeonato/europa/": {
 "dia": "",
-"h": "fc0dbf9bd2613b33",
-"mod": "2026-11-27T14:16-03:00"
+"h": "1287e64cd2572c37",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/fa-cup/": {
 "dia": "",
@@ -92,8 +92,8 @@
 },
 "/campeonato/laliga/": {
 "dia": "",
-"h": "634ec0cbc9d00c75",
-"mod": "2026-11-27T14:16-03:00"
+"h": "7136f4d5b3cbfd6a",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/libertadores-fem/": {
 "dia": "",
@@ -102,18 +102,18 @@
 },
 "/campeonato/libertadores/": {
 "dia": "",
-"h": "ac95e640cf1042bf",
-"mod": "2026-11-27T14:16-03:00"
+"h": "5125d6992fa27806",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/ligamx/": {
 "dia": "",
-"h": "6a103643b82b4da8",
-"mod": "2026-11-27T14:16-03:00"
+"h": "69b5364302c9d70e",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/ligue1/": {
 "dia": "",
-"h": "91ec9268007f1187",
-"mod": "2026-11-27T14:16-03:00"
+"h": "0dfe24a0844f41af",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/mineiro/": {
 "dia": "",
@@ -122,8 +122,8 @@
 },
 "/campeonato/mls/": {
 "dia": "",
-"h": "ac94cc298e04d2be",
-"mod": "2026-11-27T14:16-03:00"
+"h": "a7d84dc8b84ed08e",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/mundial/": {
 "dia": "",
@@ -132,8 +132,8 @@
 },
 "/campeonato/nations/": {
 "dia": "",
-"h": "ba15bda6fc1a33d0",
-"mod": "2026-11-27T14:16-03:00"
+"h": "4165f05625837127",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/nordeste/": {
 "dia": "",
@@ -147,13 +147,13 @@
 },
 "/campeonato/portugal/": {
 "dia": "",
-"h": "02301dbccc63bb1e",
-"mod": "2026-11-27T14:16-03:00"
+"h": "166a6c171611e65b",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/premier/": {
 "dia": "",
-"h": "6894882f3df65782",
-"mod": "2026-11-27T14:16-03:00"
+"h": "373db06881aea7a1",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/recopa/": {
 "dia": "",
@@ -162,18 +162,18 @@
 },
 "/campeonato/saudita/": {
 "dia": "",
-"h": "6241789f77c19df9",
-"mod": "2026-11-27T14:16-03:00"
+"h": "4adeba36fc5c0d5d",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/serie-a-ita/": {
 "dia": "",
-"h": "283270ca769e6071",
-"mod": "2026-11-27T14:16-03:00"
+"h": "8197f2eb785fd464",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/sul-americana/": {
 "dia": "",
-"h": "150135a0a2f62312",
-"mod": "2026-11-27T14:16-03:00"
+"h": "478bbb4d54864fbc",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/campeonato/supercopa/": {
 "dia": "",
@@ -182,8 +182,8 @@
 },
 "/campeonato/turquia/": {
 "dia": "",
-"h": "df022c40f9642d5f",
-"mod": "2026-11-27T14:16-03:00"
+"h": "4011f69493c1cf65",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/jogo/1-fc-union-berlin-x-hamburg-sv-05-12-2026/": {
 "dia": "2026-12-05",
@@ -332,8 +332,8 @@
 },
 "/jogo/al-ittihad-x-neom-sc-27-11-2026/": {
 "dia": "2026-11-27",
-"h": "d86aaace30e7a323",
-"mod": "2026-11-27T14:16-03:00"
+"h": "3e471c3f50415b1a",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/jogo/al-khaleej-x-al-ittihad-04-12-2026/": {
 "dia": "2026-12-04",
@@ -362,8 +362,8 @@
 },
 "/jogo/al-qadsiah-x-al-fayha-27-11-2026/": {
 "dia": "2026-11-27",
-"h": "9b65a5dea03e59ed",
-"mod": "2026-11-27T14:16-03:00"
+"h": "182bf6f7a3de0c1f",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/jogo/al-riyadh-x-al-hazem-05-12-2026/": {
 "dia": "2026-12-05",
@@ -382,8 +382,8 @@
 },
 "/jogo/alanyaspor-x-konyaspor-27-11-2026/": {
 "dia": "2026-11-27",
-"h": "80edc65a6da42294",
-"mod": "2026-11-27T14:16-03:00"
+"h": "cdf2c5d4fc598bc8",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/jogo/alaves-x-deportivo-21-11-2026/": {
 "dia": "2026-11-21",
@@ -722,8 +722,8 @@
 },
 "/jogo/besiktas-x-galatasaray-30-11-2026/": {
 "dia": "2026-11-30",
-"h": "296473081f1da60c",
-"mod": "2026-11-26T18:08-03:00"
+"h": "2ee24d8571d229b4",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/jogo/besiktas-x-hapoel-be-er-26-11-2026/": {
 "dia": "2026-11-26",
@@ -952,8 +952,8 @@
 },
 "/jogo/caykur-rizespor-x-kasimpasa-27-11-2026/": {
 "dia": "2026-11-27",
-"h": "dfc1470e0c161d2e",
-"mod": "2026-11-27T14:16-03:00"
+"h": "09a631791ffa8029",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/jogo/cd-extremadura-x-real-betis-01-12-2026/": {
 "dia": "2026-12-01",
@@ -1937,8 +1937,8 @@
 },
 "/jogo/lecce-x-atalanta-30-11-2026/": {
 "dia": "2026-11-30",
-"h": "a095cf5f3cedc679",
-"mod": "2026-11-26T19:03-03:00"
+"h": "e6bcdeab4056df91",
+"mod": "2026-11-27T15:13-03:00"
 },
 "/jogo/lech-poznan-x-ferencvaros-10-12-2026/": {
 "dia": "2026-12-10",
@@ -3606,8 +3606,8 @@
 },
 "/time/alemanha/": {
 "dia": "",
-"h": "19d26f2aaa01ba02",
-"mod": "2026-11-27T14:16-03:00",
+"h": "e23a0698075aee8f",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Alemanha"
 },
 "/time/almeria/": {
@@ -3810,8 +3810,8 @@
 },
 "/time/barracas-central/": {
 "dia": "",
-"h": "62866e204eecebf0",
-"mod": "2026-11-27T14:16-03:00",
+"h": "7a6a33716f23bf29",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Barracas Central"
 },
 "/time/barrow/": {
@@ -3870,8 +3870,8 @@
 },
 "/time/boca-juniors/": {
 "dia": "",
-"h": "19549a9a633406dd",
-"mod": "2026-11-27T14:16-03:00",
+"h": "6d40870f550b6c5b",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Boca Juniors"
 },
 "/time/bodo-glimt/": {
@@ -4266,8 +4266,8 @@
 },
 "/time/dinamarca/": {
 "dia": "",
-"h": "15c165e0d3668a60",
-"mod": "2026-11-27T14:16-03:00",
+"h": "af03ac53a8a33f77",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Dinamarca"
 },
 "/time/dinamo-zagreb/": {
@@ -4320,14 +4320,14 @@
 },
 "/time/escocia/": {
 "dia": "",
-"h": "b18a9807002da536",
-"mod": "2026-11-27T14:16-03:00",
+"h": "ec9096be1cfc0681",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Escócia"
 },
 "/time/espanha/": {
 "dia": "",
-"h": "045f3f5af2131f57",
-"mod": "2026-11-27T14:16-03:00",
+"h": "9cc6352a2b968494",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Espanha"
 },
 "/time/espanyol/": {
@@ -4350,8 +4350,8 @@
 },
 "/time/estudiantes/": {
 "dia": "",
-"h": "e56da97b2634a0fc",
-"mod": "2026-11-27T14:16-03:00",
+"h": "ca0c081ac2b168b2",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Estudiantes"
 },
 "/time/everton/": {
@@ -4566,8 +4566,8 @@
 },
 "/time/georgia/": {
 "dia": "",
-"h": "71c9c361d6d6b206",
-"mod": "2026-11-27T14:16-03:00",
+"h": "eff8fea055287122",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Geórgia"
 },
 "/time/getafe/": {
@@ -4680,8 +4680,8 @@
 },
 "/time/holanda/": {
 "dia": "",
-"h": "5b82ffb795d347e5",
-"mod": "2026-11-27T14:16-03:00",
+"h": "55051051e3899bb2",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Holanda"
 },
 "/time/houston-dynamo-fc/": {
@@ -4716,8 +4716,8 @@
 },
 "/time/independiente-rivadavia/": {
 "dia": "",
-"h": "11e2f7ba027bfaf9",
-"mod": "2026-11-27T14:16-03:00",
+"h": "66fed4e04c8bbe0e",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Independiente Rivadavia"
 },
 "/time/independiente/": {
@@ -4728,8 +4728,8 @@
 },
 "/time/inglaterra/": {
 "dia": "",
-"h": "868eb41bbcce4a3b",
-"mod": "2026-11-27T14:16-03:00",
+"h": "a7f3423b83e4fcb8",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Inglaterra"
 },
 "/time/instituto-cordoba/": {
@@ -4854,8 +4854,8 @@
 },
 "/time/lanus/": {
 "dia": "",
-"h": "ae225d1e243876b4",
-"mod": "2026-11-27T14:16-03:00",
+"h": "8ddc60c3492ccc95",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Lanús"
 },
 "/time/las-palmas/": {
@@ -5172,8 +5172,8 @@
 },
 "/time/noruega/": {
 "dia": "",
-"h": "516d6122bf370272",
-"mod": "2026-11-27T14:16-03:00",
+"h": "a2a90a1e0a66ecd0",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Noruega"
 },
 "/time/norwich-city/": {
@@ -5250,8 +5250,8 @@
 },
 "/time/pais-de-gales/": {
 "dia": "",
-"h": "a4802ef741710e87",
-"mod": "2026-11-27T14:16-03:00",
+"h": "13f323ca8898f5cd",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "País de Gales"
 },
 "/time/palmeiras/": {
@@ -5316,8 +5316,8 @@
 },
 "/time/polonia/": {
 "dia": "",
-"h": "8b0e3fed63aad25e",
-"mod": "2026-11-27T14:16-03:00",
+"h": "51f5606dcc13326d",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Polônia"
 },
 "/time/ponferradina/": {
@@ -5346,8 +5346,8 @@
 },
 "/time/portugal/": {
 "dia": "",
-"h": "16a3f03446db52e4",
-"mod": "2026-11-27T14:16-03:00",
+"h": "e418c49cbbbd5b5e",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Portugal"
 },
 "/time/portugalete/": {
@@ -5526,8 +5526,8 @@
 },
 "/time/river-plate/": {
 "dia": "",
-"h": "330532e1f044171d",
-"mod": "2026-11-27T14:16-03:00",
+"h": "ad5508b7cafa962e",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "River Plate"
 },
 "/time/rochdale/": {
@@ -5544,8 +5544,8 @@
 },
 "/time/rosario-central/": {
 "dia": "",
-"h": "29830b2ef3138719",
-"mod": "2026-11-27T14:16-03:00",
+"h": "a12395eca092b684",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Rosario Central"
 },
 "/time/rotherham-united/": {
@@ -5778,14 +5778,14 @@
 },
 "/time/suecia/": {
 "dia": "",
-"h": "11239e3580df121f",
-"mod": "2026-11-27T14:16-03:00",
+"h": "fbc28fc12d3d689f",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Suécia"
 },
 "/time/suica/": {
 "dia": "",
-"h": "b01929fbef8bb79d",
-"mod": "2026-11-27T14:16-03:00",
+"h": "63541f5ae9b8da31",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Suíça"
 },
 "/time/sunderland/": {
@@ -5880,8 +5880,8 @@
 },
 "/time/ucrania/": {
 "dia": "",
-"h": "6bd99e9ba5ce84dd",
-"mod": "2026-11-27T14:16-03:00",
+"h": "2466844b0a94279f",
+"mod": "2026-11-27T15:13-03:00",
 "nome": "Ucrânia"
 },
 "/time/udinese/": {

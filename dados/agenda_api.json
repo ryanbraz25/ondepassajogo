@@ -4529,6 +4529,26 @@
   "fase": "2026-27-turkish-super-lig",
   "fora": "Kasimpasa",
   "inicio": "2026-11-27T14:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "22'",
+    "n": "Q. Laçi"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "32'",
+    "n": "C. Winck"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "47'",
+    "n": "E. Mendes Da Silva"
+   }
+  ],
   "lg": "tur.1",
   "local": "Estadio Caykur Didi, Rize",
   "status": "a_confirmar"
@@ -4556,6 +4576,12 @@
     "l": "c",
     "m": "15'",
     "n": "I. Hagi"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "23'",
+    "n": "J. Muleka"
    }
   ],
   "lg": "tur.1",
