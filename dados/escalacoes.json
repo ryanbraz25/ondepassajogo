@@ -38016,404 +38016,488 @@
  },
  "401931995": {
   "achada": "2026-11-26T23:52-03:00",
-  "atualizada": "2026-11-27T02:44-03:00",
+  "atualizada": "2026-11-27T03:41-03:00",
   "casa": {
-   "esquema": "4-1-4-1",
+   "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "?",
      "fp": 0,
      "id": "215619",
      "n": "25",
      "nome": "P. Saracho",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "399013",
      "n": "185",
      "nome": "C. Mora",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "3118754",
      "n": "181",
      "nome": "I. Martínez Gutiérrez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "372142",
      "n": "203",
      "nome": "J. Lara",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
+     "e": "64'",
      "fp": 0,
      "id": "308096",
      "n": "18",
      "nome": "E. Guerra",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
+     "e": "45'",
      "fp": 0,
      "id": "356574",
      "n": "8",
      "nome": "J. Domínguez",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
+     "e": "45'",
      "fp": 0,
      "id": "251543",
      "n": "29",
      "nome": "J. Rodríguez",
      "pos": "SUB",
-     "s": "?"
+     "st": {
+      "fc": 1
+     }
     },
     {
-     "e": "?",
+     "e": "45'",
      "fp": 0,
      "id": "201538",
      "n": "19",
      "nome": "J. Alvarado",
      "pos": "SUB",
-     "s": "?"
+     "st": {
+      "ch": 1
+     }
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "222189",
      "n": "4",
      "nome": "B. Colula",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
+     "e": "75'",
      "fp": 0,
      "id": "235451",
      "n": "16",
      "nome": "J. Cortizo",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "335959",
      "n": "23",
      "nome": "O. García",
      "pos": "G",
-     "s": "?"
+     "st": {
+      "df": 5,
+      "gs": 4
+     }
     },
     {
-     "e": "?",
      "fp": 2,
      "id": "195695",
      "n": "7",
      "nome": "I. Moreno",
      "pos": "RB",
-     "s": "?"
+     "s": "64'"
     },
     {
-     "e": "?",
      "fp": 3,
      "id": "190559",
      "n": "5",
      "nome": "S. Vegas",
      "pos": "LB",
-     "s": "?"
+     "st": {
+      "ch": 2,
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 4,
-     "id": "386922",
-     "n": "35",
-     "nome": "L. Valadez",
-     "pos": "DM",
-     "s": "?"
+     "id": "199163",
+     "n": "20",
+     "nome": "R. Echeverría",
+     "pos": "LM",
+     "s": "75'",
+     "st": {
+      "fc": 3
+     }
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "235956",
      "n": "14",
      "nome": "J. Romaña",
      "pos": "CD-R",
-     "s": "?"
+     "st": {
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 6,
      "id": "88781",
      "n": "3",
      "nome": "J. Guevara",
      "pos": "CD-L",
-     "s": "?"
+     "st": {
+      "ch": 1,
+      "fc": 2
+     }
     },
     {
-     "e": "?",
      "fp": 7,
-     "id": "317509",
-     "n": "13",
-     "nome": "D. Arcila",
-     "pos": "RM",
-     "s": "?"
+     "id": "259697",
+     "n": "6",
+     "nome": "F. Beltrán",
+     "pos": "AM-R",
+     "s": "45'",
+     "st": {
+      "fs": 2
+     }
     },
     {
-     "e": "?",
      "fp": 8,
-     "id": "199163",
-     "n": "20",
-     "nome": "R. Echeverría",
-     "pos": "CM-R",
-     "s": "?"
+     "id": "386922",
+     "n": "35",
+     "nome": "L. Valadez",
+     "pos": "RM",
+     "s": "45'",
+     "st": {
+      "am": 1,
+      "ch": 1
+     }
     },
     {
-     "e": "?",
      "fp": 9,
      "id": "248826",
      "n": "27",
      "nome": "D. Cambindo",
      "pos": "F",
-     "s": "?"
+     "st": {
+      "ch": 2,
+      "fc": 2,
+      "fs": 1,
+      "imp": 1
+     }
     },
     {
-     "e": "?",
      "fp": 10,
-     "id": "259697",
-     "n": "6",
-     "nome": "F. Beltrán",
-     "pos": "CM-L",
-     "s": "?"
+     "id": "317509",
+     "n": "13",
+     "nome": "D. Arcila",
+     "pos": "AM",
+     "st": {
+      "ch": 2,
+      "fs": 5,
+      "imp": 1
+     }
     },
     {
-     "e": "?",
      "fp": 11,
      "id": "195326",
      "n": "11",
      "nome": "I. Díaz",
-     "pos": "LM",
-     "s": "?"
+     "pos": "AM-L",
+     "s": "45'",
+     "st": {
+      "fs": 1
+     }
     }
    ]
   },
   "comp": "ligamx",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
     {
-     "e": "?",
+     "e": "65'",
      "fp": 0,
      "id": "257640",
      "n": "29",
      "nome": "R. Rotondi",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "228300",
      "n": "11",
      "nome": "O. Ebere",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "215512",
      "n": "14",
      "nome": "J. Calero",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
+     "e": "65'",
      "fp": 0,
      "id": "336641",
      "n": "10",
      "nome": "A. Montaño",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "346805",
      "n": "15",
      "nome": "R. Orquin",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "303844",
      "n": "18",
      "nome": "L. Romero",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "266587",
      "n": "23",
      "nome": "K. Mier",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
+     "e": "65'",
      "fp": 0,
      "id": "115447",
      "n": "21",
      "nome": "G. Fernandez",
      "pos": "SUB",
-     "s": "?"
+     "st": {
+      "cg": 2,
+      "ch": 2,
+      "g": 1
+     }
     },
     {
-     "e": "?",
+     "e": "65'",
      "fp": 0,
      "id": "215785",
      "n": "2",
      "nome": "A. Mozo",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     },
     {
-     "e": "?",
      "fp": 0,
      "id": "304424",
      "n": "12",
      "nome": "A. Montes",
-     "pos": "SUB",
-     "s": "?"
+     "pos": "SUB"
     }
    ],
    "titulares": [
     {
-     "e": "?",
      "fp": 1,
      "id": "224752",
      "n": "1",
      "nome": "A. Gudiño",
-     "pos": "G",
-     "s": "?"
+     "pos": "G"
     },
     {
-     "e": "?",
      "fp": 2,
-     "id": "192166",
-     "n": "33",
-     "nome": "G. Piovi",
+     "id": "285862",
+     "n": "16",
+     "nome": "Á. Márquez",
      "pos": "RB",
-     "s": "?"
+     "s": "65'",
+     "st": {
+      "am": 1,
+      "fc": 2
+     }
     },
     {
-     "e": "?",
      "fp": 3,
      "id": "136124",
      "n": "3",
      "nome": "O. Campos",
      "pos": "LB",
-     "s": "?"
+     "st": {
+      "fc": 1,
+      "imp": 1
+     }
     },
     {
-     "e": "?",
      "fp": 4,
      "id": "276942",
      "n": "6",
      "nome": "É. Lira",
      "pos": "LM",
-     "s": "?"
+     "s": "65'",
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "fc": 2,
+      "fs": 1
+     }
     },
     {
-     "e": "?",
      "fp": 5,
      "id": "270229",
      "n": "4",
      "nome": "W. Ditta",
      "pos": "CD-R",
-     "s": "?"
+     "st": {
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 6,
      "id": "318342",
      "n": "5",
      "nome": "J. Orozco",
-     "pos": "CD-L",
-     "s": "?"
+     "pos": "CD-L"
     },
     {
-     "e": "?",
      "fp": 7,
      "id": "277270",
      "n": "20",
      "nome": "J. Paradela",
      "pos": "AM-R",
-     "s": "?"
+     "st": {
+      "cg": 2,
+      "ch": 3,
+      "fc": 1,
+      "fs": 5,
+      "g": 2
+     }
     },
     {
-     "e": "?",
      "fp": 8,
-     "id": "285862",
-     "n": "16",
-     "nome": "Á. Márquez",
+     "id": "192166",
+     "n": "33",
+     "nome": "G. Piovi",
      "pos": "RM",
-     "s": "?"
+     "st": {
+      "am": 1,
+      "fc": 1
+     }
     },
     {
-     "e": "?",
      "fp": 9,
      "id": "207549",
      "n": "7",
      "nome": "N. Ibáñez",
      "pos": "F",
-     "s": "?"
+     "s": "65'",
+     "st": {
+      "cg": 3,
+      "ch": 5,
+      "fs": 1,
+      "g": 1
+     }
     },
     {
-     "e": "?",
      "fp": 10,
      "id": "239990",
      "n": "19",
      "nome": "C. Rodríguez",
      "pos": "AM",
-     "s": "?"
+     "s": "65'",
+     "st": {
+      "a": 1,
+      "cg": 1,
+      "ch": 1
+     }
     },
     {
-     "e": "?",
      "fp": 11,
      "id": "219001",
      "n": "8",
      "nome": "A. Palavecino",
      "pos": "AM-L",
-     "s": "?"
+     "st": {
+      "a": 2,
+      "ch": 2,
+      "fc": 2,
+      "fs": 1
+     }
     }
    ]
   },
   "inicio": "2026-11-27T00:10:00-03:00",
   "pg": "",
-  "subs": [],
+  "subs": [
+   {
+    "ent": "J. Rodríguez",
+    "l": "c",
+    "m": "45'",
+    "sai": "L. Valadez"
+   },
+   {
+    "ent": "J. Alvarado",
+    "l": "c",
+    "m": "45'",
+    "sai": "I. Díaz"
+   },
+   {
+    "ent": "J. Domínguez",
+    "l": "c",
+    "m": "45'",
+    "sai": "F. Beltrán"
+   },
+   {
+    "ent": "E. Guerra",
+    "l": "c",
+    "m": "64'",
+    "sai": "I. Moreno"
+   },
+   {
+    "ent": "A. Montaño",
+    "l": "f",
+    "m": "65'",
+    "sai": "É. Lira"
+   },
+   {
+    "ent": "R. Rotondi",
+    "l": "f",
+    "m": "65'",
+    "sai": "C. Rodríguez"
+   },
+   {
+    "ent": "A. Mozo",
+    "l": "f",
+    "m": "65'",
+    "sai": "Á. Márquez"
+   },
+   {
+    "ent": "G. Fernandez",
+    "l": "f",
+    "m": "65'",
+    "sai": "N. Ibáñez"
+   },
+   {
+    "ent": "J. Cortizo",
+    "l": "c",
+    "m": "75'",
+    "sai": "R. Echeverría"
+   }
+  ],
   "time_casa": "León",
   "time_fora": "Cruz Azul",
   "v": 3
