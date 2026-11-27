@@ -4550,6 +4550,14 @@
   "fase": "2026-27-turkish-super-lig",
   "fora": "Konyaspor",
   "inicio": "2026-11-27T14:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "15'",
+    "n": "I. Hagi"
+   }
+  ],
   "lg": "tur.1",
   "local": "Kirbiyik Holding Stadyumu, Antalya",
   "status": "a_confirmar"
