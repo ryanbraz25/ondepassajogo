@@ -8699,7 +8699,7 @@
  },
  "401900870": {
   "achada": "2026-11-27T11:57-03:00",
-  "atualizada": "2026-11-27T11:57-03:00",
+  "atualizada": "2026-11-27T12:21-03:00",
   "casa": {
    "esquema": "3-5-2",
    "reservas": [
@@ -8773,7 +8773,10 @@
      "id": "140079",
      "n": "1",
      "nome": "K. Casteels",
-     "pos": "G"
+     "pos": "G",
+     "st": {
+      "df": 1
+     }
     },
     {
      "fp": 2,
@@ -8787,14 +8790,21 @@
      "id": "387845",
      "n": "70",
      "nome": "S. Suleiman",
-     "pos": "LM"
+     "pos": "LM",
+     "st": {
+      "fc": 2,
+      "fs": 2
+     }
     },
     {
      "fp": 4,
      "id": "195753",
      "n": "17",
      "nome": "G. Álvarez Suarez",
-     "pos": "CD-L"
+     "pos": "CD-L",
+     "st": {
+      "fs": 2
+     }
     },
     {
      "fp": 5,
@@ -8808,42 +8818,63 @@
      "id": "371796",
      "n": "4",
      "nome": "J. Thakri",
-     "pos": "CD-R"
+     "pos": "CD-R",
+     "st": {
+      "ch": 1
+     }
     },
     {
      "fp": 7,
      "id": "315523",
      "n": "10",
      "nome": "M. Al-Juwayr",
-     "pos": "CM-R"
+     "pos": "CM-R",
+     "st": {
+      "fc": 1
+     }
     },
     {
      "fp": 8,
      "id": "261328",
      "n": "14",
      "nome": "T. Reijnders",
-     "pos": "CM-L"
+     "pos": "CM-L",
+     "st": {
+      "cg": 1,
+      "ch": 1
+     }
     },
     {
      "fp": 9,
      "id": "233075",
      "n": "33",
      "nome": "J. Quiñones",
-     "pos": "CF-L"
+     "pos": "CF-L",
+     "st": {
+      "cg": 1,
+      "ch": 3,
+      "imp": 1
+     }
     },
     {
      "fp": 10,
      "id": "286249",
      "n": "9",
      "nome": "A. Al-Salem",
-     "pos": "CF-R"
+     "pos": "CF-R",
+     "st": {
+      "ch": 1
+     }
     },
     {
      "fp": 11,
      "id": "200192",
      "n": "5",
      "nome": "J. Weigl",
-     "pos": "AM"
+     "pos": "AM",
+     "st": {
+      "fc": 1
+     }
     }
    ]
   },
@@ -8922,28 +8953,41 @@
      "id": "191806",
      "n": "52",
      "nome": "O. Mosquera",
-     "pos": "G"
+     "pos": "G",
+     "st": {
+      "df": 2
+     }
     },
     {
      "fp": 2,
      "id": "278537",
      "n": "22",
      "nome": "M. Al Baqawi",
-     "pos": "RB"
+     "pos": "RB",
+     "st": {
+      "fc": 1,
+      "fs": 2
+     }
     },
     {
      "fp": 3,
      "id": "373114",
      "n": "77",
      "nome": "R. Enad",
-     "pos": "LB"
+     "pos": "LB",
+     "st": {
+      "fc": 1
+     }
     },
     {
      "fp": 4,
      "id": "259963",
      "n": "30",
      "nome": "A. Semedo",
-     "pos": "CM-R"
+     "pos": "CM-R",
+     "st": {
+      "fc": 1
+     }
     },
     {
      "fp": 5,
@@ -8964,7 +9008,12 @@
      "id": "361582",
      "n": "40",
      "nome": "Yago Souza",
-     "pos": "RM"
+     "pos": "RM",
+     "st": {
+      "cg": 1,
+      "ch": 2,
+      "fc": 1
+     }
     },
     {
      "fp": 8,
@@ -8978,21 +9027,31 @@
      "id": "256640",
      "n": "10",
      "nome": "F. Sakala",
-     "pos": "CF-L"
+     "pos": "CF-L",
+     "st": {
+      "ch": 1,
+      "imp": 1
+     }
     },
     {
      "fp": 10,
      "id": "186840",
      "n": "23",
      "nome": "Jason",
-     "pos": "CF-R"
+     "pos": "CF-R",
+     "st": {
+      "fc": 1
+     }
     },
     {
      "fp": 11,
      "id": "389767",
      "n": "6",
      "nome": "A. Al Hussain",
-     "pos": "LM"
+     "pos": "LM",
+     "st": {
+      "fs": 1
+     }
     }
    ]
   },
@@ -9384,7 +9443,7 @@
  },
  "401900872": {
   "achada": "2026-11-27T08:31-03:00",
-  "atualizada": "2026-11-27T11:57-03:00",
+  "atualizada": "2026-11-27T12:21-03:00",
   "casa": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -9595,7 +9654,7 @@
    ]
   },
   "comp": "saudita",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
