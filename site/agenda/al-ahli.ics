@@ -95,4 +95,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Saudita
 URL:https://ondepassajogo.com.br/jogo/al-ahli-x-al-faisaly-04-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900860@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Al Ittihad x Al Ahli
+DTSTART:20261211T173000Z
+DTEND:20261211T193000Z
+LOCATION:King Abdullah Sports City\, Jeddah
+DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/al-ittihad-x-al-ahli-11-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/al-ittihad-x-al-ahli-11-12-2026/
+END:VEVENT
 END:VCALENDAR

@@ -92,4 +92,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Saudita
 URL:https://ondepassajogo.com.br/jogo/al-nassr-x-al-qadsiah-04-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900857@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Al Qadsiah x Al Fateh
+DTSTART:20261211T114000Z
+DTEND:20261211T134000Z
+LOCATION:Prince Mohammed Bin Fahd Stadium\, Dammam
+DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/al-qadsiah-x-al-fateh-11-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/al-qadsiah-x-al-fateh-11-12-2026/
+END:VEVENT
 END:VCALENDAR

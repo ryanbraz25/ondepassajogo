@@ -295,4 +295,21 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/alverca-x-moreirense-07-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885375@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Académico de Viseu x Arouca
+DTSTART:20261211T201500Z
+DTEND:20261211T221500Z
+LOCATION:Estádio do Fontelo\, Viseu
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/academico-de-viseu-x-arouca
+ -11-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/academico-de-viseu-x-arouca-11-12-202
+ 6/
+END:VEVENT
 END:VCALENDAR

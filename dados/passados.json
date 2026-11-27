@@ -18,6 +18,36 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/abha-x-al-shabab-26-11-2026/": {
+"canais": [],
+"casa": "Abha",
+"comp": "saudita",
+"ed": "20261126",
+"eid": "401900443",
+"fora": "Al Shabab",
+"inicio": "2026-11-26T12:05:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "39'",
+"n": "J. Brownhill"
+},
+{
+"k": "v",
+"l": "f",
+"m": "62'",
+"n": "M. Barry"
+}
+],
+"lg": "ksa.1",
+"local": "Prince Sultan bin Abdulaziz Sports City Stadium, Abha",
+"placar": {
+"casa": 0,
+"fora": 1
+},
+"status": "a_confirmar"
+},
 "/jogo/ajax-amsterdam-x-ado-den-haag-22-11-2026/": {
 "canais": [],
 "casa": "Ajax Amsterdam",
@@ -60,6 +90,54 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Ajax Amsterdam",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915815",
+"fora": "FC Thun",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "6'",
+"n": "R. Bounida"
+},
+{
+"k": "g",
+"l": "c",
+"m": "41'",
+"n": "Marcos Leonardo"
+},
+{
+"k": "g",
+"l": "c",
+"m": "70'",
+"n": "R. Bounida"
+},
+{
+"k": "g",
+"l": "c",
+"m": "89'",
+"n": "S. Berghuis"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Johan Cruijff Arena, Amsterdam",
+"placar": {
+"casa": 4,
+"fora": 0
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/al-ahli-x-al-nassr-20-11-2026/": {
 "canais": [],
 "casa": "Al Ahli",
@@ -73,6 +151,79 @@
 "placar": {
 "casa": 3,
 "fora": 1
+},
+"status": "a_confirmar"
+},
+"/jogo/al-faisaly-x-al-diriyah-26-11-2026/": {
+"canais": [
+"band",
+"goat"
+],
+"casa": "Al Faisaly",
+"comp": "saudita",
+"ed": "20261126",
+"eid": "401900871",
+"fora": "Al Diriyah",
+"inicio": "2026-11-26T14:30:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "8'",
+"n": "C. Diandy"
+},
+{
+"k": "g",
+"l": "f",
+"m": "45+3'",
+"n": "C. Diandy"
+},
+{
+"k": "g",
+"l": "c",
+"m": "71'",
+"n": "A. Mendy"
+},
+{
+"k": "g",
+"l": "c",
+"m": "89'",
+"n": "T. Bongonda"
+}
+],
+"lg": "ksa.1",
+"links": {
+"goat": "https://www.youtube.com/@canalgoatbr"
+},
+"local": "King Abdullah Sport City Stadium, Buraidah",
+"nota": "BandSports na TV; Canal GOAT no YouTube",
+"placar": {
+"casa": 2,
+"fora": 2
+},
+"status": "confirmado"
+},
+"/jogo/al-fateh-x-al-riyadh-26-11-2026/": {
+"canais": [],
+"casa": "Al Fateh",
+"comp": "saudita",
+"ed": "20261126",
+"eid": "401900874",
+"fora": "Al Riyadh",
+"inicio": "2026-11-26T11:25:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "70'",
+"n": "M. Batna"
+}
+],
+"lg": "ksa.1",
+"local": "Prince Abdullah bin Jalawi Stadium, Al-Hofuf",
+"placar": {
+"casa": 1,
+"fora": 0
 },
 "status": "a_confirmar"
 },
@@ -734,6 +885,48 @@
 "rodada": "Fase de liga",
 "status": "a_confirmar"
 },
+"/jogo/besiktas-x-hapoel-be-er-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Besiktas",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915506",
+"fora": "Hapoel Be'er",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "75'",
+"n": "J. Olaitan"
+},
+{
+"k": "g",
+"l": "c",
+"m": "90'",
+"n": "O. Kökçü"
+},
+{
+"k": "g",
+"l": "f",
+"m": "90+3'",
+"n": "J. East"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Batumi Stadium (Adjarabet Arena), Batumi",
+"placar": {
+"casa": 2,
+"fora": 1
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/boca-juniors-x-independiente-rivadavia-25-11-2026/": {
 "canais": [
 "espn",
@@ -888,6 +1081,72 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/borac-banja-luka-x-atalanta-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Borac Banja Luka",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915806",
+"fora": "Atalanta",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "22'",
+"n": "L. Juricic"
+},
+{
+"k": "g",
+"l": "c",
+"m": "29'",
+"n": "M. Deket"
+},
+{
+"k": "v",
+"l": "c",
+"m": "75'",
+"n": "Abel Pascual"
+},
+{
+"k": "g",
+"l": "f",
+"m": "86'",
+"n": "N. Krstovic"
+},
+{
+"k": "v",
+"l": "c",
+"m": "88'",
+"n": "S. Herrera"
+},
+{
+"k": "g",
+"l": "f",
+"m": "90'",
+"n": "S. Kolasinac"
+},
+{
+"k": "g",
+"l": "f",
+"m": "90+3'",
+"n": "D. Zappacosta"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Gradski Stadion Banja Luka, Banja Luka",
+"placar": {
+"casa": 2,
+"fora": 3
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/borussia-monchengladbach-x-borussia-dortmund-21-11-2026/": {
 "canais": [
 "onefootball"
@@ -972,6 +1231,54 @@
 "rodada": "12ª rodada",
 "status": "a_confirmar"
 },
+"/jogo/braga-x-kups-kuopio-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Braga",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915802",
+"fora": "KuPS Kuopio",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "18'",
+"n": "P. Víctor"
+},
+{
+"k": "g",
+"l": "c",
+"m": "31'",
+"n": "F. Navarro"
+},
+{
+"k": "g",
+"l": "c",
+"m": "71'",
+"n": "M. Dorgeles"
+},
+{
+"k": "g",
+"l": "c",
+"m": "82'",
+"n": "J. Milosevic"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Estádio Municipal de Braga, Braga",
+"placar": {
+"casa": 4,
+"fora": 0
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/brentford-x-everton-23-11-2026/": {
 "canais": [
 "disney"
@@ -1021,6 +1328,60 @@
 "fora": 0
 },
 "status": "a_confirmar"
+},
+"/jogo/brighton-x-universitatea-craiova-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Brighton",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915814",
+"fora": "Universitatea Craiova",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "3'",
+"n": "I. Osman"
+},
+{
+"k": "g",
+"l": "c",
+"m": "33'",
+"n": "M. De Cuyper"
+},
+{
+"k": "v",
+"l": "f",
+"m": "39'",
+"n": "V. Screciu"
+},
+{
+"k": "g",
+"l": "c",
+"m": "61'",
+"n": "C. Kostoulas"
+},
+{
+"k": "g",
+"l": "c",
+"m": "63'",
+"n": "I. Osman"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "American Express Stadium, Falmer",
+"placar": {
+"casa": 4,
+"fora": 0
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/bristol-city-x-wrexham-24-11-2026/": {
 "canais": [
@@ -1187,6 +1548,54 @@
 "fora": 2
 },
 "status": "a_confirmar"
+},
+"/jogo/celta-vigo-x-bournemouth-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Celta Vigo",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915519",
+"fora": "Bournemouth",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "19'",
+"n": "I. Aspas"
+},
+{
+"k": "v",
+"l": "f",
+"m": "23'",
+"n": "B. Diakité"
+},
+{
+"k": "g",
+"l": "f",
+"m": "47'",
+"n": "Á. Rodríguez"
+},
+{
+"k": "g",
+"l": "f",
+"m": "78'",
+"n": "Rayan"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Balaidos, Vigo",
+"placar": {
+"casa": 1,
+"fora": 2
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/chapecoense-x-cruzeiro-21-11-2026/": {
 "canais": [
@@ -1640,6 +2049,96 @@
 "rodada": "35ª rodada",
 "status": "confirmado"
 },
+"/jogo/crystal-palace-x-real-sociedad-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Crystal Palace",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915504",
+"fora": "Real Sociedad",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "66'",
+"n": "M. Sarr"
+},
+{
+"k": "v",
+"l": "f",
+"m": "71'",
+"n": "J. Martín"
+},
+{
+"k": "p",
+"l": "c",
+"m": "73'",
+"n": "J. Mateta"
+},
+{
+"k": "g",
+"l": "c",
+"m": "81'",
+"n": "D. McNeil"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Selhurst Park, London",
+"placar": {
+"casa": 2,
+"fora": 1
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
+"/jogo/cska-sofia-x-trabzonspor-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "CSKA Sofia",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915803",
+"fora": "Trabzonspor",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "c",
+"l": "c",
+"m": "32'",
+"n": "S. Lopes Cabral"
+},
+{
+"k": "g",
+"l": "f",
+"m": "69'",
+"n": "M. Salah"
+},
+{
+"k": "g",
+"l": "f",
+"m": "90+3'",
+"n": "N. Saviolo"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Balgarska Armia Stadium, Sofia",
+"placar": {
+"casa": 1,
+"fora": 2
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/defensa-y-justicia-x-barracas-central-21-11-2026/": {
 "canais": [
 "disney"
@@ -1676,6 +2175,86 @@
 "fora": 3
 },
 "rodada": "Fase de liga",
+"status": "confirmado"
+},
+"/jogo/dinamo-zagreb-x-bayer-leverkusen-26-11-2026/": {
+"canais": [
+"cnn",
+"itatiaia"
+],
+"casa": "Dinamo Zagreb",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915517",
+"fora": "Bayer Leverkusen",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "10'",
+"n": "M. Tillman"
+},
+{
+"k": "g",
+"l": "f",
+"m": "45'",
+"n": "J. Quansah"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cnn": "https://www.youtube.com/watch?v=DdbmWJtjWZc"
+},
+"local": "Maksimir Stadium, Zagreb",
+"nota": "CNN Brasil e Itatiaia no YouTube",
+"placar": {
+"casa": 0,
+"fora": 2
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
+"/jogo/egnatia-x-lincoln-red-imps-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Egnatia",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915810",
+"fora": "Lincoln Red Imps",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "47'",
+"n": "A. Albanese"
+},
+{
+"k": "g",
+"l": "f",
+"m": "79'",
+"n": "Y. Flalhi Idrissi"
+},
+{
+"k": "g",
+"l": "c",
+"m": "81'",
+"n": "F. Medeiros"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Air Albania Stadium, Tirana",
+"placar": {
+"casa": 2,
+"fora": 1
+},
+"rodada": "4ª rodada (fase de liga)",
 "status": "confirmado"
 },
 "/jogo/eintracht-frankfurt-x-tsg-hoffenheim-21-11-2026/": {
@@ -1839,6 +2418,60 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/fc-nordsjlland-x-panathinaikos-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "FC Nordsjælland",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915807",
+"fora": "Panathinaikos",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "45'",
+"n": "A. Jagusic"
+},
+{
+"k": "g",
+"l": "f",
+"m": "55'",
+"n": "E. Rastoder"
+},
+{
+"k": "g",
+"l": "c",
+"m": "61'",
+"n": "A. Lind"
+},
+{
+"k": "c",
+"l": "c",
+"m": "78'",
+"n": "V. Kristiansen"
+},
+{
+"k": "g",
+"l": "c",
+"m": "80'",
+"n": "A. Lind"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Right to Dream Park, Farum",
+"placar": {
+"casa": 3,
+"fora": 2
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/fc-twente-x-willem-ii-22-11-2026/": {
 "canais": [],
 "casa": "FC Twente",
@@ -1896,6 +2529,28 @@
 "fora": 3
 },
 "status": "a_confirmar"
+},
+"/jogo/ferencvaros-x-nk-celje-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Ferencvaros",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915516",
+"fora": "NK Celje",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Groupama Arena, Budapest",
+"placar": {
+"casa": 0,
+"fora": 0
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/feyenoord-rotterdam-x-excelsior-21-11-2026/": {
 "canais": [],
@@ -2268,6 +2923,96 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/hajduk-split-x-sint-truidense-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Hajduk Split",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915805",
+"fora": "Sint-Truidense",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "45+1'",
+"n": "S. Bazdar"
+},
+{
+"k": "g",
+"l": "f",
+"m": "51'",
+"n": "S. Shinkawa"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Stadion Poljud, Split",
+"placar": {
+"casa": 0,
+"fora": 2
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
+"/jogo/heart-of-midlothian-x-as-monaco-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Heart of Midlothian",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915811",
+"fora": "AS Monaco",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "15'",
+"n": "J. Altena"
+},
+{
+"k": "p",
+"l": "f",
+"m": "25'",
+"n": "F. Balogun"
+},
+{
+"k": "g",
+"l": "f",
+"m": "41'",
+"n": "E. Diop"
+},
+{
+"k": "g",
+"l": "c",
+"m": "44'",
+"n": "S. Kerjota"
+},
+{
+"k": "g",
+"l": "f",
+"m": "90+4'",
+"n": "F. Balogun"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Tynecastle Park, Edinburgh",
+"placar": {
+"casa": 2,
+"fora": 3
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/hull-city-x-brighton-22-11-2026/": {
 "canais": [
 "disney"
@@ -2305,6 +3050,42 @@
 "fora": 0
 },
 "status": "a_confirmar"
+},
+"/jogo/iberia-1999-x-getafe-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Iberia 1999",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915813",
+"fora": "Getafe",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "25'",
+"n": "G. Kobuladze"
+},
+{
+"k": "v",
+"l": "f",
+"m": "59'",
+"n": "O. Mangala"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Mikheil Meskhi Stadioni, Tbilisi",
+"placar": {
+"casa": 1,
+"fora": 0
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/instituto-cordoba-x-huracan-22-11-2026/": {
 "canais": [
@@ -2349,6 +3130,54 @@
 "fora": 1
 },
 "status": "a_confirmar"
+},
+"/jogo/inter-d-escaldes-x-f-c-kbenhavn-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Inter D'Escaldes",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915738",
+"fora": "F.C. København",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "19'",
+"n": "D. López"
+},
+{
+"k": "v",
+"l": "f",
+"m": "54'",
+"n": "T. Delaney"
+},
+{
+"k": "v",
+"l": "f",
+"m": "57'",
+"n": "Á. Markgráf"
+},
+{
+"k": "p",
+"l": "c",
+"m": "59'",
+"n": "Faysal Choaib"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Estadi de la FAF d'Encamp, Encamp",
+"placar": {
+"casa": 2,
+"fora": 0
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/inter-de-milao-x-vfb-stuttgart-25-11-2026/": {
 "canais": [
@@ -2536,6 +3365,42 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/jablonec-x-fc-lugano-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Jablonec",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915812",
+"fora": "FC Lugano",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "70'",
+"n": "M. Cedidla"
+},
+{
+"k": "g",
+"l": "c",
+"m": "85'",
+"n": "L. Jawo"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Stadion Strelnice, Jablonec",
+"placar": {
+"casa": 2,
+"fora": 0
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/japao-x-brasil-14-11-2026/": {
 "canais": [
 "globo",
@@ -2593,6 +3458,60 @@
 "rodada": "38ª rodada",
 "status": "confirmado"
 },
+"/jogo/juventus-x-omonia-nicosia-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Juventus",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915502",
+"fora": "Omonia Nicosia",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "15'",
+"n": "L. Satka"
+},
+{
+"k": "g",
+"l": "c",
+"m": "37'",
+"n": "A. Cambiaso"
+},
+{
+"k": "g",
+"l": "c",
+"m": "43'",
+"n": "J. Ekhator"
+},
+{
+"k": "g",
+"l": "c",
+"m": "68'",
+"n": "F. Conceição"
+},
+{
+"k": "g",
+"l": "c",
+"m": "73'",
+"n": "J. Boga"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Allianz Stadium, Torino",
+"placar": {
+"casa": 4,
+"fora": 1
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/juventus-x-venezia-22-11-2026/": {
 "canais": [
 "disney"
@@ -2637,6 +3556,72 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/kaa-gent-x-red-star-belgrade-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "KAA Gent",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915804",
+"fora": "Red Star Belgrade",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "26'",
+"n": "Tiago Araújo"
+},
+{
+"k": "g",
+"l": "f",
+"m": "85'",
+"n": "M. Gashtarov"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Ghelamco Arena, Ghent",
+"placar": {
+"casa": 1,
+"fora": 1
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
+"/jogo/kairat-almaty-x-mjallby-aif-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Kairat Almaty",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915816",
+"fora": "Mjällby AIF",
+"inicio": "2026-11-26T12:30:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "14'",
+"n": "E. Tapalov"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Almaty Ortalyk Stadium, Almaty",
+"placar": {
+"casa": 1,
+"fora": 0
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/kasimpasa-x-alanyaspor-22-11-2026/": {
 "canais": [],
 "casa": "Kasimpasa",
@@ -2672,6 +3657,54 @@
 "fora": 1
 },
 "status": "a_confirmar"
+},
+"/jogo/kauno-zalgiris-x-riga-fc-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Kauno Zalgiris",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915739",
+"fora": "Riga FC",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "v",
+"l": "f",
+"m": "40'",
+"n": "I. Siqueira"
+},
+{
+"k": "v",
+"l": "f",
+"m": "45+4'",
+"n": "K. Piric"
+},
+{
+"k": "g",
+"l": "c",
+"m": "56'",
+"n": "A. Kalik"
+},
+{
+"k": "p",
+"l": "c",
+"m": "61'",
+"n": "G. Debeljuh"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "S. Darius and S. Gireno Stadium, Kaunas",
+"placar": {
+"casa": 2,
+"fora": 0
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/kocaelispor-x-fenerbahce-21-11-2026/": {
 "canais": [],
@@ -2977,6 +4010,28 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/lyon-x-lillestrom-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Lyon",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915501",
+"fora": "Lillestrom",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Groupama Stadium, Lyon",
+"placar": {
+"casa": 0,
+"fora": 0
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/manchester-city-x-fulham-21-11-2026/": {
 "canais": [
 "espn",
@@ -3093,6 +4148,36 @@
 "fora": 3
 },
 "status": "a_confirmar"
+},
+"/jogo/marseille-x-levski-sofia-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Marseille",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915507",
+"fora": "Levski Sofia",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "p",
+"l": "c",
+"m": "28'",
+"n": "A. Gouiri"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Stade Vélodrome, Marseille",
+"placar": {
+"casa": 1,
+"fora": 0
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/middlesbrough-x-bristol-city-21-11-2026/": {
 "canais": [],
@@ -3238,6 +4323,37 @@
 "rodada": "35ª rodada",
 "status": "confirmado"
 },
+"/jogo/monterrey-x-america-26-11-2026/": {
+"canais": [
+"sportynet"
+],
+"casa": "Monterrey",
+"comp": "ligamx",
+"ed": "20261125",
+"eid": "401931998",
+"fora": "América",
+"inicio": "2026-11-26T00:10:00-03:00",
+"lances": [
+{
+"k": "v",
+"l": "c",
+"m": "11'",
+"n": "R. Chávez"
+}
+],
+"lg": "mex.1",
+"links": {
+"sportynet": "https://www.youtube.com/@SportyNetBrasil"
+},
+"local": "Estádio BBVA, Guadalupe",
+"nota": "SportyNet na TV paga e no YouTube",
+"placar": {
+"casa": 0,
+"fora": 0
+},
+"rodada": "Quartas de final (ida)",
+"status": "a_confirmar"
+},
 "/jogo/monza-x-fiorentina-23-11-2026/": {
 "canais": [
 "disney"
@@ -3362,6 +4478,54 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/nec-nijmegen-x-stade-rennais-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "NEC Nijmegen",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915505",
+"fora": "Stade Rennais",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "29'",
+"n": "B. Linssen"
+},
+{
+"k": "g",
+"l": "f",
+"m": "36'",
+"n": "A. Thomasson"
+},
+{
+"k": "p",
+"l": "c",
+"m": "81'",
+"n": "T. Chery"
+},
+{
+"k": "g",
+"l": "c",
+"m": "89'",
+"n": "C. Bischoff"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Goffertstadion, Nijmegen",
+"placar": {
+"casa": 3,
+"fora": 1
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/new-england-revolution-x-philadelphia-union-21-11-2026/": {
 "canais": [
 "appletv"
@@ -3467,6 +4631,114 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/ofi-crete-x-anderlecht-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "OFI Crete",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915503",
+"fora": "Anderlecht",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "20'",
+"n": "T. Bentayeb"
+},
+{
+"k": "g",
+"l": "f",
+"m": "39'",
+"n": "T. Aasgaard"
+},
+{
+"k": "p",
+"l": "c",
+"m": "54'",
+"n": "T. Fountas"
+},
+{
+"k": "g",
+"l": "f",
+"m": "90+5'",
+"n": "A. Bertaccini"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Pankritio Stadium, Crete",
+"placar": {
+"casa": 1,
+"fora": 3
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
+"/jogo/olympiacos-x-milan-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Olympiacos",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915521",
+"fora": "Milan",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "c",
+"l": "c",
+"m": "31'",
+"n": "M. Maignan"
+},
+{
+"k": "g",
+"l": "c",
+"m": "49'",
+"n": "J. Silva"
+},
+{
+"k": "g",
+"l": "f",
+"m": "56'",
+"n": "O. Hutchinson"
+},
+{
+"k": "g",
+"l": "f",
+"m": "63'",
+"n": "A. Cissè"
+},
+{
+"k": "g",
+"l": "f",
+"m": "71'",
+"n": "C. Pulisic"
+},
+{
+"k": "g",
+"l": "f",
+"m": "90+5'",
+"n": "D. Moreira"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Georgios Karaiskakis Stadium, Piraeus",
+"placar": {
+"casa": 2,
+"fora": 4
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/orlando-city-sc-x-fc-cincinnati-19-11-2026/": {
 "canais": [
 "appletv"
@@ -3517,6 +4789,54 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/pachuca-x-guadalajara-26-11-2026/": {
+"canais": [
+"sportynet"
+],
+"casa": "Pachuca",
+"comp": "ligamx",
+"ed": "20261126",
+"eid": "401931982",
+"fora": "Guadalajara",
+"inicio": "2026-11-26T22:00:00-03:00",
+"lances": [
+{
+"k": "c",
+"l": "f",
+"m": "6'",
+"n": "E. Bauermann"
+},
+{
+"k": "g",
+"l": "c",
+"m": "48'",
+"n": "O. Idrissi"
+},
+{
+"k": "g",
+"l": "c",
+"m": "90+2'",
+"n": "O. Idrissi"
+},
+{
+"k": "v",
+"l": "c",
+"m": "90+3'",
+"n": "O. Idrissi"
+}
+],
+"lg": "mex.1",
+"links": {
+"sportynet": "https://www.youtube.com/@SportyNetBrasil"
+},
+"local": "Estádio Hidalgo, Pachuca",
+"placar": {
+"casa": 2,
+"fora": 1
+},
+"rodada": "Quartas de final (ida)",
+"status": "a_confirmar"
+},
 "/jogo/pachuca-x-toluca-21-11-2026/": {
 "canais": [],
 "casa": "Pachuca",
@@ -3532,6 +4852,42 @@
 "fora": 0
 },
 "status": "a_confirmar"
+},
+"/jogo/pafos-x-fc-midtjylland-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Pafos",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915809",
+"fora": "FC Midtjylland",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "43'",
+"n": "M. Rajovic"
+},
+{
+"k": "g",
+"l": "f",
+"m": "82'",
+"n": "M. Gogorza"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Alphamega Stadium, Kolossi",
+"placar": {
+"casa": 0,
+"fora": 2
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/pais-de-gales-x-portugal-17-11-2026/": {
 "canais": [
@@ -3948,6 +5304,42 @@
 "fora": 1
 },
 "rodada": "5ª rodada",
+"status": "confirmado"
+},
+"/jogo/rb-salzburg-x-ararat-armenia-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "RB Salzburg",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915520",
+"fora": "Ararat-Armenia",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "47'",
+"n": "B. Mazurek"
+},
+{
+"k": "g",
+"l": "c",
+"m": "51'",
+"n": "B. Mazurek"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Red Bull Arena Salzburg, Salzburg",
+"placar": {
+"casa": 2,
+"fora": 0
+},
+"rodada": "5ª rodada (fase de liga)",
 "status": "confirmado"
 },
 "/jogo/real-madrid-x-celta-vigo-21-11-2026/": {
@@ -4391,6 +5783,51 @@
 "rodada": "35ª rodada",
 "status": "confirmado"
 },
+"/jogo/sao-paulo-x-remo-26-11-2026/": {
+"canais": [
+"premiere"
+],
+"casa": "São Paulo",
+"comp": "brasileirao-a",
+"ed": "20261126",
+"eid": "401841329",
+"fora": "Remo",
+"inicio": "2026-11-26T20:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "39'",
+"n": "J. Calleri"
+},
+{
+"k": "g",
+"l": "f",
+"m": "55'",
+"n": "G. Poveda"
+},
+{
+"k": "g",
+"l": "c",
+"m": "87'",
+"n": "Ryan Francisco"
+},
+{
+"k": "g",
+"l": "c",
+"m": "90+5'",
+"n": "J. Calleri"
+}
+],
+"lg": "bra.1",
+"local": "Estádio Cícero Pompeu de Toledo, São Paulo",
+"placar": {
+"casa": 3,
+"fora": 1
+},
+"rodada": "37ª rodada",
+"status": "confirmado"
+},
 "/jogo/sassuolo-x-genoa-22-11-2026/": {
 "canais": [
 "disney"
@@ -4422,6 +5859,48 @@
 "fora": 2
 },
 "status": "a_confirmar"
+},
+"/jogo/sc-freiburg-x-fc-twente-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "SC Freiburg",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915801",
+"fora": "FC Twente",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "11'",
+"n": "C. Irié"
+},
+{
+"k": "g",
+"l": "f",
+"m": "62'",
+"n": "Y. Taha"
+},
+{
+"k": "g",
+"l": "c",
+"m": "90+3'",
+"n": "N. Beste"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Europa-Park Stadion, Freiburg im Breisgau",
+"placar": {
+"casa": 2,
+"fora": 1
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/schalke-04-x-vfb-stuttgart-21-11-2026/": {
 "canais": [
@@ -4577,6 +6056,60 @@
 "rodada": "Data FIFA",
 "status": "confirmado"
 },
+"/jogo/sk-brann-x-agf-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "SK Brann",
+"comp": "conference",
+"ed": "20261126",
+"eid": "401915808",
+"fora": "AGF",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "25'",
+"n": "T. Bech"
+},
+{
+"k": "g",
+"l": "f",
+"m": "39'",
+"n": "D. Grétarsson"
+},
+{
+"k": "p",
+"l": "c",
+"m": "51'",
+"n": "N. Castro"
+},
+{
+"k": "g",
+"l": "f",
+"m": "56'",
+"n": "S. Tchamche"
+},
+{
+"k": "g",
+"l": "f",
+"m": "60'",
+"n": "M. Knudsen"
+}
+],
+"lg": "uefa.europa.conf",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Brann Stadium, Bergen",
+"placar": {
+"casa": 1,
+"fora": 4
+},
+"rodada": "4ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/slavia-prague-x-villarreal-25-11-2026/": {
 "canais": [
 "tnt",
@@ -4653,6 +6186,66 @@
 "fora": 0
 },
 "status": "a_confirmar"
+},
+"/jogo/sparta-prague-x-az-alkmaar-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Sparta Prague",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915514",
+"fora": "AZ Alkmaar",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "4'",
+"n": "J. Brunes"
+},
+{
+"k": "g",
+"l": "c",
+"m": "27'",
+"n": "P. Vydra"
+},
+{
+"k": "g",
+"l": "f",
+"m": "52'",
+"n": "P. Koopmeiners"
+},
+{
+"k": "g",
+"l": "f",
+"m": "68'",
+"n": "R. Daal"
+},
+{
+"k": "g",
+"l": "f",
+"m": "73'",
+"n": "A. Oufkir"
+},
+{
+"k": "g",
+"l": "f",
+"m": "84'",
+"n": "A. Oufkir"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Generali Arena, Prague",
+"placar": {
+"casa": 2,
+"fora": 4
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/sparta-rotterdam-x-az-alkmaar-22-11-2026/": {
 "canais": [],
@@ -4945,6 +6538,42 @@
 "rodada": "Fase de liga",
 "status": "confirmado"
 },
+"/jogo/sunderland-x-jagiellonia-bialystok-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Sunderland",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915513",
+"fora": "Jagiellonia Bialystok",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "47'",
+"n": "T. Tutierov"
+},
+{
+"k": "g",
+"l": "f",
+"m": "52'",
+"n": "K. Jozwiak"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Stadium of Light, Sunderland",
+"placar": {
+"casa": 1,
+"fora": 1
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/sv-elversberg-x-sc-freiburg-21-11-2026/": {
 "canais": [
 "onefootball"
@@ -5064,6 +6693,48 @@
 "rodada": "Quartas de final (ida)",
 "status": "a_confirmar"
 },
+"/jogo/torreense-x-celtic-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Torreense",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915512",
+"fora": "Celtic",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "c",
+"l": "f",
+"m": "9'",
+"n": "J. Vazquez"
+},
+{
+"k": "g",
+"l": "c",
+"m": "19'",
+"n": "D. Jean"
+},
+{
+"k": "g",
+"l": "f",
+"m": "84'",
+"n": "C. Durán"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Estádio Dr. Magalhaes Pessoa, Leiria",
+"placar": {
+"casa": 1,
+"fora": 2
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/tottenham-x-ipswich-town-21-11-2026/": {
 "canais": [
 "disney"
@@ -5124,6 +6795,54 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/tsg-hoffenheim-x-sk-sturm-graz-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "TSG Hoffenheim",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915515",
+"fora": "SK Sturm Graz",
+"inicio": "2026-11-26T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "43'",
+"n": "O. Diakité"
+},
+{
+"k": "g",
+"l": "c",
+"m": "72'",
+"n": "A. Hlozek"
+},
+{
+"k": "g",
+"l": "c",
+"m": "80'",
+"n": "B. Conté"
+},
+{
+"k": "g",
+"l": "c",
+"m": "90'",
+"n": "M. Moerstedt"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "PreZero Arena, Sinsheim",
+"placar": {
+"casa": 3,
+"fora": 1
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
 "/jogo/ucrania-x-georgia-17-11-2026/": {
 "canais": [
 "espn",
@@ -5145,6 +6864,54 @@
 "fora": 0
 },
 "rodada": "Fase de liga",
+"status": "confirmado"
+},
+"/jogo/union-st-gilloise-x-lech-poznan-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Union St.-Gilloise",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915508",
+"fora": "Lech Poznan",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "15'",
+"n": "M. Agnero"
+},
+{
+"k": "g",
+"l": "f",
+"m": "18'",
+"n": "L. Palma"
+},
+{
+"k": "g",
+"l": "c",
+"m": "54'",
+"n": "R. Florucz"
+},
+{
+"k": "g",
+"l": "c",
+"m": "66'",
+"n": "K. Rodríguez"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "King Power at Den Dreef Stadion, Leuven",
+"placar": {
+"casa": 2,
+"fora": 2
+},
+"rodada": "5ª rodada (fase de liga)",
 "status": "confirmado"
 },
 "/jogo/uruguai-x-dominican-republic-17-11-2026/": {
@@ -5291,6 +7058,54 @@
 "fora": 2
 },
 "status": "a_confirmar"
+},
+"/jogo/viktoria-plzen-x-benfica-26-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Viktoria Plzen",
+"comp": "europa",
+"ed": "20261126",
+"eid": "401915518",
+"fora": "Benfica",
+"inicio": "2026-11-26T14:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "30'",
+"n": "P. Hrosovský"
+},
+{
+"k": "g",
+"l": "c",
+"m": "43'",
+"n": "P. Adu"
+},
+{
+"k": "g",
+"l": "c",
+"m": "44'",
+"n": "C. Kabongo"
+},
+{
+"k": "g",
+"l": "c",
+"m": "46'",
+"n": "C. Kabongo"
+}
+],
+"lg": "uefa.europa",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Doosan Arena, Plzen",
+"placar": {
+"casa": 4,
+"fora": 0
+},
+"rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
 },
 "/jogo/vitoria-x-red-bull-bragantino-19-11-2026/": {
 "canais": [

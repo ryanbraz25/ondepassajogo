@@ -454,4 +454,20 @@ CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/sv-elversberg-x-vfb-stuttgart-06-12-2
  026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884704@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Hamburg SV x Schalke 04
+DTSTART:20261211T193000Z
+DTEND:20261211T213000Z
+LOCATION:Volksparkstadion\, Hamburg Norderstedt
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/hamburg-sv-x-schalke-04-11
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/hamburg-sv-x-schalke-04-11-12-2026/
+END:VEVENT
 END:VCALENDAR

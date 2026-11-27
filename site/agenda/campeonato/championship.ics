@@ -328,51 +328,51 @@ URL:https://ondepassajogo.com.br/jogo/wolverhampton-wanderers-x-derby-count
  y-24-11-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401880140@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
-SUMMARY:Bolton Wanderers 1 x 3 West Bromwich Albion
-DTSTART:20261125T194500Z
-DTEND:20261125T214500Z
-LOCATION:Toughsheet Community Stadium\, Bolton
-DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
- ogo.com.br/jogo/bolton-wanderers-x-west-bromwich-albion-25-11-2026/
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:Championship (Inglaterra)
-URL:https://ondepassajogo.com.br/jogo/bolton-wanderers-x-west-bromwich-albi
- on-25-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401880139@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
-SUMMARY:Burnley 0 x 2 Birmingham City
-DTSTART:20261125T194500Z
-DTEND:20261125T214500Z
-LOCATION:Turf Moor\, Burnley
-DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
- ogo.com.br/jogo/burnley-x-birmingham-city-25-11-2026/
-STATUS:TENTATIVE
-TRANSP:TRANSPARENT
-CATEGORIES:Championship (Inglaterra)
-URL:https://ondepassajogo.com.br/jogo/burnley-x-birmingham-city-25-11-2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:espn-401880137@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
 SUMMARY:Watford 0 x 1 Blackburn Rovers
 DTSTART:20261125T194500Z
 DTEND:20261125T214500Z
 LOCATION:Vicarage Road\, Watford
 DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
  ogo.com.br/jogo/watford-x-blackburn-rovers-25-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Championship (Inglaterra)
 URL:https://ondepassajogo.com.br/jogo/watford-x-blackburn-rovers-25-11-2026
  /
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880139@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Burnley 0 x 2 Birmingham City
+DTSTART:20261125T194500Z
+DTEND:20261125T214500Z
+LOCATION:Turf Moor\, Burnley
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/burnley-x-birmingham-city-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/burnley-x-birmingham-city-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880140@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Bolton Wanderers 1 x 3 West Bromwich Albion
+DTSTART:20261125T194500Z
+DTEND:20261125T214500Z
+LOCATION:Toughsheet Community Stadium\, Bolton
+DESCRIPTION:Championship (Inglaterra)\nDetalhes do jogo: https://ondepassaj
+ ogo.com.br/jogo/bolton-wanderers-x-west-bromwich-albion-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/bolton-wanderers-x-west-bromwich-albi
+ on-25-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401880138@ondepassajogo.com.br
@@ -992,5 +992,22 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Championship (Inglaterra)
 URL:https://ondepassajogo.com.br/jogo/southampton-x-burnley-09-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880099@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Bolton Wanderers x Wrexham
+DTSTART:20261211T200000Z
+DTEND:20261211T220000Z
+LOCATION:Toughsheet Community Stadium\, Bolton
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: Disney+ (a confirmar)\nD
+ etalhes e onde assistir: https://ondepassajogo.com.br/jogo/bolton-wanderer
+ s-x-wrexham-11-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/bolton-wanderers-x-wrexham-11-12-2026
+ /
 END:VEVENT
 END:VCALENDAR

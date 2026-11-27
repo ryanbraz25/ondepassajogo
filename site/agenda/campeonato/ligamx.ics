@@ -147,15 +147,15 @@ URL:https://ondepassajogo.com.br/jogo/queretaro-x-necaxa-22-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401931986@ondepassajogo.com.br
-DTSTAMP:20261126T030549Z
-LAST-MODIFIED:20261126T030549Z
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
 SUMMARY:Toluca 2 x 0 Atlas
 DTSTART:20261126T010000Z
 DTEND:20261126T030000Z
 LOCATION:Estádio Nemesio Díez Riega\, Toluca
-DESCRIPTION:Liga MX (México) · Quartas de final (ida)\nDetalhes do jogo: 
- https://ondepassajogo.com.br/jogo/toluca-x-atlas-25-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga MX (México)\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/toluca-x-atlas-25-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga MX (México)
 URL:https://ondepassajogo.com.br/jogo/toluca-x-atlas-25-11-2026/
@@ -177,15 +177,14 @@ URL:https://ondepassajogo.com.br/jogo/monterrey-x-america-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401931982@ondepassajogo.com.br
-DTSTAMP:20261126T145226Z
-LAST-MODIFIED:20261126T145226Z
-SUMMARY:Pachuca x Guadalajara
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Pachuca 2 x 1 Guadalajara
 DTSTART:20261127T010000Z
 DTEND:20261127T030000Z
 LOCATION:Estádio Hidalgo\, Pachuca
-DESCRIPTION:Liga MX (México) · Quartas de final (ida)\nOnde passa: Sporty
- Net (grátis) (a confirmar)\nDetalhes e onde assistir: https://ondepassajo
- go.com.br/jogo/pachuca-x-guadalajara-26-11-2026/
+DESCRIPTION:Liga MX (México) · Quartas de final (ida)\nDetalhes do jogo: 
+ https://ondepassajogo.com.br/jogo/pachuca-x-guadalajara-26-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Liga MX (México)

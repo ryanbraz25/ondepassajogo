@@ -121,4 +121,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Serie A (Itália)
 URL:https://ondepassajogo.com.br/jogo/juventus-x-udinese-06-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401874775@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Udinese x Frosinone
+DTSTART:20261211T194500Z
+DTEND:20261211T214500Z
+LOCATION:Stadio Friuli\, Udine
+DESCRIPTION:Serie A (Itália)\nOnde passa: Disney+ (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/udinese-x-frosinone-11-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Serie A (Itália)
+URL:https://ondepassajogo.com.br/jogo/udinese-x-frosinone-11-12-2026/
+END:VEVENT
 END:VCALENDAR

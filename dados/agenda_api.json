@@ -1,47 +1,4 @@
 {
- "espn:401841319": {
-  "_d": "20261125",
-  "_liga": "bra.1",
-  "_logos": {
-   "Atlético-MG": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "Corinthians": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
-  },
-  "canais": [],
-  "casa": "Atlético-MG",
-  "comp": "brasileirao-a",
-  "ed": "20261125",
-  "eid": "401841319",
-  "fase": "2026-brasileiro-serie-a",
-  "fora": "Corinthians",
-  "inicio": "2026-11-25T20:00:00-03:00",
-  "lances": [
-   {
-    "k": "v",
-    "l": "c",
-    "m": "66'",
-    "n": "T. Borbas"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "70'",
-    "n": "Kaio"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "90+2'",
-    "n": "T. Cuello"
-   }
-  ],
-  "lg": "bra.1",
-  "local": "Arena MRV, Belo Horizonte",
-  "placar": {
-   "casa": 1,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
  "espn:401841328": {
   "_d": "20261129",
   "_liga": "bra.1",
@@ -452,6 +409,27 @@
   "inicio": "2026-11-29T14:00:00-03:00",
   "lg": "ita.1",
   "local": "Olimpico, Roma",
+  "status": "a_confirmar"
+ },
+ "espn:401874775": {
+  "_d": "20261211",
+  "_liga": "ita.1",
+  "_logos": {
+   "Frosinone": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+   "Udinese": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Udinese",
+  "comp": "serie-a-ita",
+  "ed": "20261211",
+  "eid": "401874775",
+  "fase": "2026-27-italian-serie-a",
+  "fora": "Frosinone",
+  "inicio": "2026-12-11T16:45:00-03:00",
+  "lg": "ita.1",
+  "local": "Stadio Friuli, Udine",
   "status": "a_confirmar"
  },
  "espn:401874788": {
@@ -1193,6 +1171,27 @@
   "inicio": "2026-11-29T08:15:00-03:00",
   "lg": "ned.1",
   "local": "ADO Den Haag Stadium, Den Haag",
+  "status": "a_confirmar"
+ },
+ "espn:401876375": {
+  "_d": "20261211",
+  "_liga": "fra.1",
+  "_logos": {
+   "AJ Auxerre": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+   "Toulouse": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png"
+  },
+  "canais": [
+   "cazetv"
+  ],
+  "casa": "AJ Auxerre",
+  "comp": "ligue1",
+  "ed": "20261211",
+  "eid": "401876375",
+  "fase": "2026-27-ligue-1",
+  "fora": "Toulouse",
+  "inicio": "2026-12-11T16:45:00-03:00",
+  "lg": "fra.1",
+  "local": "Stade de l'Abbé-Deschamps, Auxerre",
   "status": "a_confirmar"
  },
  "espn:401876377": {
@@ -2203,6 +2202,27 @@
   "local": "American Express Stadium, Falmer",
   "status": "a_confirmar"
  },
+ "espn:401880099": {
+  "_d": "20261211",
+  "_liga": "eng.2",
+  "_logos": {
+   "Bolton Wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
+   "Wrexham": "https://a.espncdn.com/i/teamlogos/soccer/500/352.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Bolton Wanderers",
+  "comp": "championship",
+  "ed": "20261211",
+  "eid": "401880099",
+  "fase": "regular-season",
+  "fora": "Wrexham",
+  "inicio": "2026-12-11T17:00:00-03:00",
+  "lg": "eng.2",
+  "local": "Toughsheet Community Stadium, Bolton",
+  "status": "a_confirmar"
+ },
  "espn:401880101": {
   "_d": "20261209",
   "_liga": "eng.2",
@@ -2959,180 +2979,6 @@
   "local": "St. Andrew's Stadium, Birmingham",
   "status": "a_confirmar"
  },
- "espn:401880137": {
-  "_d": "20261125",
-  "_liga": "eng.2",
-  "_logos": {
-   "Blackburn Rovers": "https://a.espncdn.com/i/teamlogos/soccer/500/365.png",
-   "Watford": "https://a.espncdn.com/i/teamlogos/soccer/500/395.png"
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Watford",
-  "comp": "championship",
-  "ed": "20261125",
-  "eid": "401880137",
-  "fase": "regular-season",
-  "fora": "Blackburn Rovers",
-  "inicio": "2026-11-25T16:45:00-03:00",
-  "lances": [
-   {
-    "k": "p",
-    "l": "f",
-    "m": "57'",
-    "n": "T. Cantwell"
-   },
-   {
-    "k": "v",
-    "l": "c",
-    "m": "62'",
-    "n": "J. Zemura"
-   }
-  ],
-  "lg": "eng.2",
-  "local": "Vicarage Road, Watford",
-  "placar": {
-   "casa": 0,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
- "espn:401880138": {
-  "_d": "20261125",
-  "_liga": "eng.2",
-  "_logos": {
-   "Millwall": "https://a.espncdn.com/i/teamlogos/soccer/500/391.png",
-   "Stoke City": "https://a.espncdn.com/i/teamlogos/soccer/500/336.png"
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Stoke City",
-  "comp": "championship",
-  "ed": "20261125",
-  "eid": "401880138",
-  "fase": "regular-season",
-  "fora": "Millwall",
-  "inicio": "2026-11-25T17:00:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "c",
-    "m": "13'",
-    "n": "G. Hirst"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "40'",
-    "n": "G. Hirst"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "81'",
-    "n": "M. Sykes"
-   }
-  ],
-  "lg": "eng.2",
-  "local": "bet365 Stadium, Stoke-on-Trent",
-  "placar": {
-   "casa": 2,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
- "espn:401880139": {
-  "_d": "20261125",
-  "_liga": "eng.2",
-  "_logos": {
-   "Birmingham City": "https://a.espncdn.com/i/teamlogos/soccer/500/392.png",
-   "Burnley": "https://a.espncdn.com/i/teamlogos/soccer/500/379.png"
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Burnley",
-  "comp": "championship",
-  "ed": "20261125",
-  "eid": "401880139",
-  "fase": "regular-season",
-  "fora": "Birmingham City",
-  "inicio": "2026-11-25T16:45:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "f",
-    "m": "7'",
-    "n": "A. Priske"
-   },
-   {
-    "k": "c",
-    "l": "f",
-    "m": "52'",
-    "n": "J. Banel"
-   }
-  ],
-  "lg": "eng.2",
-  "local": "Turf Moor, Burnley",
-  "placar": {
-   "casa": 0,
-   "fora": 2
-  },
-  "status": "a_confirmar"
- },
- "espn:401880140": {
-  "_d": "20261125",
-  "_liga": "eng.2",
-  "_logos": {
-   "Bolton Wanderers": "https://a.espncdn.com/i/teamlogos/soccer/500/358.png",
-   "West Bromwich Albion": "https://a.espncdn.com/i/teamlogos/soccer/500/383.png"
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Bolton Wanderers",
-  "comp": "championship",
-  "ed": "20261125",
-  "eid": "401880140",
-  "fase": "regular-season",
-  "fora": "West Bromwich Albion",
-  "inicio": "2026-11-25T16:45:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "f",
-    "m": "21'",
-    "n": "A. Heggebo"
-   },
-   {
-    "k": "p",
-    "l": "c",
-    "m": "63'",
-    "n": "R. Rodrigues"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "75'",
-    "n": "F. Myhre"
-   },
-   {
-    "k": "p",
-    "l": "f",
-    "m": "83'",
-    "n": "A. Heggebo"
-   }
-  ],
-  "lg": "eng.2",
-  "local": "Toughsheet Community Stadium, Bolton",
-  "placar": {
-   "casa": 1,
-   "fora": 3
-  },
-  "status": "a_confirmar"
- },
  "espn:401882698": {
   "_d": "20261202",
   "_liga": "esp.1",
@@ -3173,6 +3019,27 @@
   "inicio": "2026-12-02T17:30:00-03:00",
   "lg": "esp.1",
   "local": "Spotify Camp Nou, Barcelona",
+  "status": "a_confirmar"
+ },
+ "espn:401882773": {
+  "_d": "20261211",
+  "_liga": "esp.1",
+  "_logos": {
+   "Elche": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+   "Sevilla": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+  },
+  "canais": [
+   "cazetv"
+  ],
+  "casa": "Elche",
+  "comp": "laliga",
+  "ed": "20261211",
+  "eid": "401882773",
+  "fase": "2026-27-laliga",
+  "fora": "Sevilla",
+  "inicio": "2026-12-11T17:00:00-03:00",
+  "lg": "esp.1",
+  "local": "Estadio Martínez Valero, Elche",
   "status": "a_confirmar"
  },
  "espn:401882777": {
@@ -3616,6 +3483,27 @@
   "local": "Estadio de Vallecas, Madrid",
   "status": "a_confirmar"
  },
+ "espn:401884704": {
+  "_d": "20261211",
+  "_liga": "ger.1",
+  "_logos": {
+   "Hamburg SV": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+   "Schalke 04": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png"
+  },
+  "canais": [
+   "onefootball"
+  ],
+  "casa": "Hamburg SV",
+  "comp": "bundesliga",
+  "ed": "20261211",
+  "eid": "401884704",
+  "fase": "2026-27-german-bundesliga",
+  "fora": "Schalke 04",
+  "inicio": "2026-12-11T16:30:00-03:00",
+  "lg": "ger.1",
+  "local": "Volksparkstadion, Hamburg Norderstedt",
+  "status": "a_confirmar"
+ },
  "espn:401884710": {
   "_d": "20261206",
   "_liga": "ger.1",
@@ -3992,6 +3880,27 @@
   "inicio": "2026-11-29T15:30:00-03:00",
   "lg": "ger.1",
   "local": "Signal Iduna Park, Aue",
+  "status": "a_confirmar"
+ },
+ "espn:401885375": {
+  "_d": "20261211",
+  "_liga": "por.1",
+  "_logos": {
+   "Académico de Viseu": "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png",
+   "Arouca": "https://a.espncdn.com/i/teamlogos/soccer/500/15784.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Académico de Viseu",
+  "comp": "portugal",
+  "ed": "20261211",
+  "eid": "401885375",
+  "fase": "2026-27-portuguese-primeira-liga",
+  "fora": "Arouca",
+  "inicio": "2026-12-11T17:15:00-03:00",
+  "lg": "por.1",
+  "local": "Estádio do Fontelo, Viseu",
   "status": "a_confirmar"
  },
  "espn:401885376": {
@@ -4666,6 +4575,27 @@
   "local": "Esenyurt Necmi Kadioglu Stadi, Istanbul",
   "status": "a_confirmar"
  },
+ "espn:401888364": {
+  "_d": "20261211",
+  "_liga": "tur.1",
+  "_logos": {
+   "Amed SFK": "https://a.espncdn.com/i/teamlogos/soccer/500/132335.png",
+   "Çorum FK": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png"
+  },
+  "canais": [
+   "disney"
+  ],
+  "casa": "Çorum FK",
+  "comp": "turquia",
+  "ed": "20261211",
+  "eid": "401888364",
+  "fase": "2026-27-turkish-super-lig",
+  "fora": "Amed SFK",
+  "inicio": "2026-12-11T14:00:00-03:00",
+  "lg": "tur.1",
+  "local": "Çorum Sehir Stadyumu, Çorum",
+  "status": "a_confirmar"
+ },
  "espn:401888365": {
   "_d": "20261205",
   "_liga": "tur.1",
@@ -4880,6 +4810,63 @@
   "inicio": "2026-12-10T14:30:00-03:00",
   "lg": "ksa.1",
   "local": "Al-Awwal Park, King Fahd International Stadium",
+  "status": "a_confirmar"
+ },
+ "espn:401900857": {
+  "_d": "20261211",
+  "_liga": "ksa.1",
+  "_logos": {
+   "Al Fateh": "https://a.espncdn.com/i/teamlogos/soccer/500/13033.png",
+   "Al Qadsiah": "https://a.espncdn.com/i/teamlogos/soccer/500/22022.png"
+  },
+  "canais": [],
+  "casa": "Al Qadsiah",
+  "comp": "saudita",
+  "ed": "20261211",
+  "eid": "401900857",
+  "fase": "2026-27-saudi-pro-league",
+  "fora": "Al Fateh",
+  "inicio": "2026-12-11T08:40:00-03:00",
+  "lg": "ksa.1",
+  "local": "Prince Mohammed Bin Fahd Stadium, Dammam",
+  "status": "a_confirmar"
+ },
+ "espn:401900859": {
+  "_d": "20261211",
+  "_liga": "ksa.1",
+  "_logos": {
+   "Al Hilal": "https://a.espncdn.com/i/teamlogos/soccer/500/929.png",
+   "Al Kholood": "https://a.espncdn.com/i/teamlogos/soccer/500/22028.png"
+  },
+  "canais": [],
+  "casa": "Al Kholood",
+  "comp": "saudita",
+  "ed": "20261211",
+  "eid": "401900859",
+  "fase": "2026-27-saudi-pro-league",
+  "fora": "Al Hilal",
+  "inicio": "2026-12-11T11:50:00-03:00",
+  "lg": "ksa.1",
+  "local": "Al-Hazm Club Stadium, Al-Rass",
+  "status": "a_confirmar"
+ },
+ "espn:401900860": {
+  "_d": "20261211",
+  "_liga": "ksa.1",
+  "_logos": {
+   "Al Ahli": "https://a.espncdn.com/i/teamlogos/soccer/500/8346.png",
+   "Al Ittihad": "https://a.espncdn.com/i/teamlogos/soccer/500/2276.png"
+  },
+  "canais": [],
+  "casa": "Al Ittihad",
+  "comp": "saudita",
+  "ed": "20261211",
+  "eid": "401900860",
+  "fase": "2026-27-saudi-pro-league",
+  "fora": "Al Ahli",
+  "inicio": "2026-12-11T14:30:00-03:00",
+  "lg": "ksa.1",
+  "local": "King Abdullah Sports City, Jeddah",
   "status": "a_confirmar"
  },
  "espn:401900862": {
@@ -5577,129 +5564,6 @@
   "local": "Viking Stadion, Stavanger",
   "status": "a_confirmar"
  },
- "espn:401915291": {
-  "_d": "20261125",
-  "_liga": "uefa.champions",
-  "_logos": {
-   "Atlético de Madrid": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-   "Viking FK": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png"
-  },
-  "canais": [
-   "hbomax"
-  ],
-  "casa": "Atlético de Madrid",
-  "comp": "champions",
-  "ed": "20261125",
-  "eid": "401915291",
-  "fase": "league-phase",
-  "fora": "Viking FK",
-  "inicio": "2026-11-25T17:00:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "c",
-    "m": "19'",
-    "n": "A. Sørloth"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "24'",
-    "n": "J. Álvarez"
-   },
-   {
-    "k": "v",
-    "l": "f",
-    "m": "90+1'",
-    "n": "H. Falchener"
-   }
-  ],
-  "lg": "uefa.champions",
-  "local": "Riyadh Air Metropolitano, Madrid",
-  "placar": {
-   "casa": 2,
-   "fora": 0
-  },
-  "status": "a_confirmar"
- },
- "espn:401915292": {
-  "_d": "20261125",
-  "_liga": "uefa.champions",
-  "_logos": {
-   "Club Brugge": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
-   "Liverpool": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
-  },
-  "canais": [
-   "hbomax"
-  ],
-  "casa": "Club Brugge",
-  "comp": "champions",
-  "ed": "20261125",
-  "eid": "401915292",
-  "fase": "league-phase",
-  "fora": "Liverpool",
-  "inicio": "2026-11-25T17:00:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "f",
-    "m": "13'",
-    "n": "A. Isak"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "79'",
-    "n": "F. Wirtz"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "82'",
-    "n": "A. Isak"
-   }
-  ],
-  "lg": "uefa.champions",
-  "local": "Jan Breydel Stadium, Brugge",
-  "placar": {
-   "casa": 0,
-   "fora": 3
-  },
-  "status": "a_confirmar"
- },
- "espn:401915293": {
-  "_d": "20261125",
-  "_liga": "uefa.champions",
-  "_logos": {
-   "Slavia Prague": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
-   "Villarreal": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
-  },
-  "canais": [
-   "hbomax"
-  ],
-  "casa": "Slavia Prague",
-  "comp": "champions",
-  "ed": "20261125",
-  "eid": "401915293",
-  "fase": "league-phase",
-  "fora": "Villarreal",
-  "inicio": "2026-11-25T14:45:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "f",
-    "m": "62'",
-    "n": "T. Buchanan"
-   }
-  ],
-  "lg": "uefa.champions",
-  "local": "Fortuna Arena, Prague",
-  "placar": {
-   "casa": 0,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
  "espn:401915365": {
   "_d": "20261209",
   "_liga": "uefa.champions",
@@ -5866,288 +5730,6 @@
   "inicio": "2026-12-08T14:45:00-03:00",
   "lg": "uefa.champions",
   "local": "Estadio de la Cerámica, Villarreal",
-  "status": "a_confirmar"
- },
- "espn:401915373": {
-  "_d": "20261125",
-  "_liga": "uefa.champions",
-  "_logos": {
-   "Manchester United": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-   "Sporting CP": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png"
-  },
-  "canais": [
-   "hbomax"
-  ],
-  "casa": "Sporting CP",
-  "comp": "champions",
-  "ed": "20261125",
-  "eid": "401915373",
-  "fase": "league-phase",
-  "fora": "Manchester United",
-  "inicio": "2026-11-25T17:00:00-03:00",
-  "lances": [
-   {
-    "k": "p",
-    "l": "c",
-    "m": "33'",
-    "n": "L. Suárez"
-   },
-   {
-    "k": "p",
-    "l": "f",
-    "m": "48'",
-    "n": "B. Fernandes"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "50'",
-    "n": "B. Fernandes"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "80'",
-    "n": "L. Suárez"
-   },
-   {
-    "k": "v",
-    "l": "f",
-    "m": "90+3'",
-    "n": "Y. Tielemans"
-   }
-  ],
-  "lg": "uefa.champions",
-  "local": "Estádio José Alvalade, Lisbon",
-  "placar": {
-   "casa": 2,
-   "fora": 2
-  },
-  "status": "a_confirmar"
- },
- "espn:401915374": {
-  "_d": "20261125",
-  "_liga": "uefa.champions",
-  "_logos": {
-   "Paris Saint-Germain": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-   "Roma": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
-  },
-  "canais": [
-   "hbomax"
-  ],
-  "casa": "Paris Saint-Germain",
-  "comp": "champions",
-  "ed": "20261125",
-  "eid": "401915374",
-  "fase": "league-phase",
-  "fora": "Roma",
-  "inicio": "2026-11-25T17:00:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "f",
-    "m": "5'",
-    "n": "M. Hermoso"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "31'",
-    "n": "I. Zabarnyi"
-   },
-   {
-    "k": "p",
-    "l": "c",
-    "m": "62'",
-    "n": "O. Dembélé"
-   },
-   {
-    "k": "p",
-    "l": "f",
-    "m": "78'",
-    "n": "D. Malen"
-   }
-  ],
-  "lg": "uefa.champions",
-  "local": "Parc des Princes, Paris",
-  "placar": {
-   "casa": 2,
-   "fora": 2
-  },
-  "status": "a_confirmar"
- },
- "espn:401915375": {
-  "_d": "20261125",
-  "_liga": "uefa.champions",
-  "_logos": {
-   "Fenerbahce": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-   "Shakhtar Donetsk": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png"
-  },
-  "canais": [
-   "hbomax"
-  ],
-  "casa": "Shakhtar Donetsk",
-  "comp": "champions",
-  "ed": "20261125",
-  "eid": "401915375",
-  "fase": "league-phase",
-  "fora": "Fenerbahce",
-  "inicio": "2026-11-25T17:00:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "f",
-    "m": "56'",
-    "n": "V. Muriqi"
-   }
-  ],
-  "lg": "uefa.champions",
-  "local": "Stamford Bridge, London",
-  "placar": {
-   "casa": 0,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
- "espn:401915376": {
-  "_d": "20261125",
-  "_liga": "uefa.champions",
-  "_logos": {
-   "Inter de Milão": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-   "VfB Stuttgart": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png"
-  },
-  "canais": [
-   "hbomax"
-  ],
-  "casa": "Inter de Milão",
-  "comp": "champions",
-  "ed": "20261125",
-  "eid": "401915376",
-  "fase": "league-phase",
-  "fora": "VfB Stuttgart",
-  "inicio": "2026-11-25T17:00:00-03:00",
-  "lances": [
-   {
-    "k": "p",
-    "l": "c",
-    "m": "57'",
-    "n": "P. Sucic"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "74'",
-    "n": "L. Martínez"
-   }
-  ],
-  "lg": "uefa.champions",
-  "local": "San Siro, Milano",
-  "placar": {
-   "casa": 2,
-   "fora": 0
-  },
-  "status": "a_confirmar"
- },
- "espn:401915377": {
-  "_d": "20261125",
-  "_liga": "uefa.champions",
-  "_logos": {
-   "Bayern de Munique": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-   "Lille": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png"
-  },
-  "canais": [
-   "hbomax"
-  ],
-  "casa": "Lille",
-  "comp": "champions",
-  "ed": "20261125",
-  "eid": "401915377",
-  "fase": "league-phase",
-  "fora": "Bayern de Munique",
-  "inicio": "2026-11-25T17:00:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "f",
-    "m": "15'",
-    "n": "D. Upamecano"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "62'",
-    "n": "A. Ueda"
-   },
-   {
-    "k": "c",
-    "l": "c",
-    "m": "65'",
-    "n": "A. Pavlovic"
-   }
-  ],
-  "lg": "uefa.champions",
-  "local": "Decathlon Arena - Stade Pierre-Mauroy, Lille",
-  "placar": {
-   "casa": 2,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
- "espn:401915378": {
-  "_d": "20261125",
-  "_liga": "uefa.champions",
-  "_logos": {
-   "Barcelona": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-   "Sabah FK": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png"
-  },
-  "canais": [
-   "hbomax"
-  ],
-  "casa": "Sabah FK",
-  "comp": "champions",
-  "ed": "20261125",
-  "eid": "401915378",
-  "fase": "league-phase",
-  "fora": "Barcelona",
-  "inicio": "2026-11-25T14:45:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "f",
-    "m": "31'",
-    "n": "A. Gordon"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "51'",
-    "n": "A. Gordon"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "55'",
-    "n": "K. Adeyemi"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "60'",
-    "n": "G. Jesus"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "63'",
-    "n": "J. Mickels"
-   }
-  ],
-  "lg": "uefa.champions",
-  "local": "Baku Olympic Stadium, Baku",
-  "placar": {
-   "casa": 1,
-   "fora": 4
-  },
   "status": "a_confirmar"
  },
  "espn:401915485": {
@@ -8646,10 +8228,26 @@
     "l": "c",
     "m": "48'",
     "n": "O. Idrissi"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+2'",
+    "n": "O. Idrissi"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "90+3'",
+    "n": "O. Idrissi"
    }
   ],
   "lg": "mex.1",
   "local": "Estadio Hidalgo, Pachuca",
+  "placar": {
+   "casa": 2,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401931983": {
@@ -8671,43 +8269,6 @@
   "local": "Estadio Akron, Guadalajara",
   "status": "a_confirmar"
  },
- "espn:401931986": {
-  "_d": "20261125",
-  "_liga": "mex.1",
-  "_logos": {
-   "Atlas": "https://a.espncdn.com/i/teamlogos/soccer/500/216.png",
-   "Toluca": "https://a.espncdn.com/i/teamlogos/soccer/500/223.png"
-  },
-  "canais": [],
-  "casa": "Toluca",
-  "comp": "ligamx",
-  "ed": "20261125",
-  "eid": "401931986",
-  "fase": "apertura---quarterfinals",
-  "fora": "Atlas",
-  "inicio": "2026-11-25T22:00:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "c",
-    "m": "15'",
-    "n": "Helinho"
-   },
-   {
-    "k": "p",
-    "l": "c",
-    "m": "54'",
-    "n": "Helinho"
-   }
-  ],
-  "lg": "mex.1",
-  "local": "Estadio Nemesio Díez Riega, Toluca",
-  "placar": {
-   "casa": 2,
-   "fora": 0
-  },
-  "status": "a_confirmar"
- },
  "espn:401931995": {
   "_d": "20261126",
   "_liga": "mex.1",
@@ -8723,6 +8284,20 @@
   "fase": "apertura---quarterfinals",
   "fora": "Cruz Azul",
   "inicio": "2026-11-27T00:10:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "8'",
+    "n": "J. Paradela"
+   },
+   {
+    "k": "g",
+    "l": "f",
+    "m": "30'",
+    "n": "N. Ibáñez"
+   }
+  ],
   "lg": "mex.1",
   "local": "Estadio León, León de los Aldamas",
   "status": "a_confirmar"
@@ -9149,96 +8724,6 @@
   "inicio": "2026-11-28T14:30:00-03:00",
   "lg": "usa.1",
   "local": "Bank of America Stadium, Charlotte, North Carolina",
-  "status": "a_confirmar"
- },
- "espn:401933738": {
-  "_d": "20261124",
-  "_liga": "usa.1",
-  "_logos": {
-   "Houston Dynamo FC": "https://a.espncdn.com/i/teamlogos/soccer/500/6077.png",
-   "San Jose Earthquakes": "https://a.espncdn.com/i/teamlogos/soccer/500/191.png"
-  },
-  "canais": [
-   "appletv"
-  ],
-  "casa": "San Jose Earthquakes",
-  "comp": "mls",
-  "ed": "20261124",
-  "eid": "401933738",
-  "fase": "western-conference-playoffs---round-one",
-  "fora": "Houston Dynamo FC",
-  "inicio": "2026-11-25T00:00:00-03:00",
-  "lances": [
-   {
-    "k": "g",
-    "l": "c",
-    "m": "11'",
-    "n": "R. Vieira"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "24'",
-    "n": "E. Löwen"
-   },
-   {
-    "k": "g",
-    "l": "f",
-    "m": "80'",
-    "n": "D. McGuire"
-   },
-   {
-    "k": "v",
-    "l": "f",
-    "m": "81'",
-    "n": "A. Resch"
-   }
-  ],
-  "lg": "usa.1",
-  "local": "PayPal Park, San Jose, California",
-  "placar": {
-   "casa": 2,
-   "fora": 1
-  },
-  "status": "a_confirmar"
- },
- "espn:401933757": {
-  "_d": "20261125",
-  "_liga": "arg.1",
-  "_logos": {
-   "Boca Juniors": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-   "Independiente Rivadavia": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png"
-  },
-  "canais": [
-   "disney"
-  ],
-  "casa": "Boca Juniors",
-  "comp": "argentina",
-  "ed": "20261125",
-  "eid": "401933757",
-  "fase": "clausura---round-of-16",
-  "fora": "Independiente Rivadavia",
-  "inicio": "2026-11-25T21:00:00-03:00",
-  "lances": [
-   {
-    "k": "p",
-    "l": "c",
-    "m": "18'",
-    "n": "L. Paredes"
-   },
-   {
-    "k": "g",
-    "l": "c",
-    "m": "53'",
-    "n": "M. Merentiel"
-   }
-  ],
-  "lg": "arg.1",
-  "local": "Alberto José Armando (La Bombonera), Buenos Aires",
-  "placar": {
-   "casa": 2,
-   "fora": 0
-  },
   "status": "a_confirmar"
  },
  "espn:401933788": {

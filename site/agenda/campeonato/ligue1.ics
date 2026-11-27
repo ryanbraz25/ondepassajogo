@@ -435,4 +435,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
 URL:https://ondepassajogo.com.br/jogo/marseille-x-nice-06-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876375@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:AJ Auxerre x Toulouse
+DTSTART:20261211T194500Z
+DTEND:20261211T214500Z
+LOCATION:Stade de l'Abbé-Deschamps\, Auxerre
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/aj-auxerre-x-toulouse-1
+ 1-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/aj-auxerre-x-toulouse-11-12-2026/
+END:VEVENT
 END:VCALENDAR

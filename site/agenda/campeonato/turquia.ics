@@ -439,4 +439,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga da Turquia
 URL:https://ondepassajogo.com.br/jogo/kasimpasa-x-goztepe-07-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888364@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Çorum FK x Amed SFK
+DTSTART:20261211T170000Z
+DTEND:20261211T190000Z
+LOCATION:Çorum Sehir Stadyumu\, Çorum
+DESCRIPTION:Liga da Turquia\nOnde passa: Disney+ (a confirmar)\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/corum-fk-x-amed-sfk-11-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/corum-fk-x-amed-sfk-11-12-2026/
+END:VEVENT
 END:VCALENDAR

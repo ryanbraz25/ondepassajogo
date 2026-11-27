@@ -138,4 +138,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/osasuna-x-elche-06-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882773@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Elche x Sevilla
+DTSTART:20261211T200000Z
+DTEND:20261211T220000Z
+LOCATION:Estádio Martínez Valero\, Elche
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/elche-x-sevilla-11-12-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/elche-x-sevilla-11-12-2026/
+END:VEVENT
 END:VCALENDAR

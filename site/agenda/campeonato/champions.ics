@@ -149,30 +149,15 @@ CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/manchester-city-x-napoli-24-11-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915378@ondepassajogo.com.br
-DTSTAMP:20261125T202655Z
-LAST-MODIFIED:20261125T202655Z
-SUMMARY:Sabah FK 1 x 4 Barcelona
-DTSTART:20261125T174500Z
-DTEND:20261125T194500Z
-LOCATION:Baku Olympic Stadium\, Baku
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/sabah-fk-x-barcelona-25-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Champions League
-URL:https://ondepassajogo.com.br/jogo/sabah-fk-x-barcelona-25-11-2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:espn-401915293@ondepassajogo.com.br
-DTSTAMP:20261125T202655Z
-LAST-MODIFIED:20261125T202655Z
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
 SUMMARY:Slavia Prague 0 x 1 Villarreal
 DTSTART:20261125T174500Z
 DTEND:20261125T194500Z
 LOCATION:Fortuna Arena\, Prague
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/slavia-prague-x-villarreal-25-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/slavia-prague-x-villarreal-25-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -180,15 +165,30 @@ URL:https://ondepassajogo.com.br/jogo/slavia-prague-x-villarreal-25-11-2026
  /
 END:VEVENT
 BEGIN:VEVENT
+UID:espn-401915378@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Sabah FK 1 x 4 Barcelona
+DTSTART:20261125T174500Z
+DTEND:20261125T194500Z
+LOCATION:Baku Olympic Stadium\, Baku
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/sabah-fk-x-barcelona-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/sabah-fk-x-barcelona-25-11-2026/
+END:VEVENT
+BEGIN:VEVENT
 UID:espn-401915291@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
 SUMMARY:Atlético de Madrid 2 x 0 Viking FK
 DTSTART:20261125T200000Z
 DTEND:20261125T220000Z
 LOCATION:Riyadh Air Metropolitano\, Madrid
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/atletico-de-madrid-x-viking-fk-25-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/atletico-de-madrid-x-viking-fk-25-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -197,60 +197,45 @@ URL:https://ondepassajogo.com.br/jogo/atletico-de-madrid-x-viking-fk-25-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915292@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
 SUMMARY:Club Brugge 0 x 3 Liverpool
 DTSTART:20261125T200000Z
 DTEND:20261125T220000Z
 LOCATION:Jan Breydel Stadium\, Brugge
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/club-brugge-x-liverpool-25-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/club-brugge-x-liverpool-25-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/club-brugge-x-liverpool-25-11-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915376@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
-SUMMARY:Inter de Milão 2 x 0 VfB Stuttgart
+UID:espn-401915373@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Sporting CP 2 x 2 Manchester United
 DTSTART:20261125T200000Z
 DTEND:20261125T220000Z
-LOCATION:San Siro\, Milano
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/inter-de-milao-x-vfb-stuttgart-25-11-2026/
+LOCATION:Estádio José Alvalade\, Lisbon
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/sporting-cp-x-manchester-united-25-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
-URL:https://ondepassajogo.com.br/jogo/inter-de-milao-x-vfb-stuttgart-25-11-
- 2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915377@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
-SUMMARY:Lille 2 x 1 Bayern de Munique
-DTSTART:20261125T200000Z
-DTEND:20261125T220000Z
-LOCATION:Decathlon Arena - Stade Pierre-Mauroy\, Lille
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/lille-x-bayern-de-munique-25-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Champions League
-URL:https://ondepassajogo.com.br/jogo/lille-x-bayern-de-munique-25-11-2026/
+URL:https://ondepassajogo.com.br/jogo/sporting-cp-x-manchester-united-25-11
+ -2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915374@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
 SUMMARY:Paris Saint-Germain 2 x 2 Roma
 DTSTART:20261125T200000Z
 DTEND:20261125T220000Z
 LOCATION:Parc des Princes\, Paris
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/paris-saint-germain-x-roma-25-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/paris-saint-germain-x-roma-25-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -259,14 +244,14 @@ URL:https://ondepassajogo.com.br/jogo/paris-saint-germain-x-roma-25-11-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915375@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
 SUMMARY:Shakhtar Donetsk 0 x 1 Fenerbahce
 DTSTART:20261125T200000Z
 DTEND:20261125T220000Z
 LOCATION:Stamford Bridge\, London
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/shakhtar-donetsk-x-fenerbahce-25-11-2026/
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/shakhtar-donetsk-x-fenerbahce-25-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
@@ -274,20 +259,35 @@ URL:https://ondepassajogo.com.br/jogo/shakhtar-donetsk-x-fenerbahce-25-11-2
  026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915373@ondepassajogo.com.br
-DTSTAMP:20261125T222053Z
-LAST-MODIFIED:20261125T222053Z
-SUMMARY:Sporting CP 2 x 2 Manchester United
+UID:espn-401915376@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Inter de Milão 2 x 0 VfB Stuttgart
 DTSTART:20261125T200000Z
 DTEND:20261125T220000Z
-LOCATION:Estádio José Alvalade\, Lisbon
-DESCRIPTION:Champions League · 5ª rodada\nDetalhes do jogo: https://ondep
- assajogo.com.br/jogo/sporting-cp-x-manchester-united-25-11-2026/
+LOCATION:San Siro\, Milano
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/inter-de-milao-x-vfb-stuttgart-25-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Champions League
-URL:https://ondepassajogo.com.br/jogo/sporting-cp-x-manchester-united-25-11
- -2026/
+URL:https://ondepassajogo.com.br/jogo/inter-de-milao-x-vfb-stuttgart-25-11-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915377@ondepassajogo.com.br
+DTSTAMP:20261127T035317Z
+LAST-MODIFIED:20261127T035317Z
+SUMMARY:Lille 2 x 1 Bayern de Munique
+DTSTART:20261125T200000Z
+DTEND:20261125T220000Z
+LOCATION:Decathlon Arena - Stade Pierre-Mauroy\, Lille
+DESCRIPTION:Champions League\nDetalhes do jogo: https://ondepassajogo.com.b
+ r/jogo/lille-x-bayern-de-munique-25-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Champions League
+URL:https://ondepassajogo.com.br/jogo/lille-x-bayern-de-munique-25-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915290@ondepassajogo.com.br
