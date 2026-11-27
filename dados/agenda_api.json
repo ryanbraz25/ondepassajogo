@@ -5036,8 +5036,26 @@
   "fase": "2026-27-saudi-pro-league",
   "fora": "Al Fayha",
   "inicio": "2026-11-27T11:20:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "c",
+    "m": "71'",
+    "n": "T. Al-Ammar"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "88'",
+    "n": "M. Abu Al-Shamat"
+   }
+  ],
   "lg": "ksa.1",
   "local": "Al Ettifaq Club Stadium, Dammam",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401900871": {
