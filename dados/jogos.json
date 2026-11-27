@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T20:01:35-03:00",
+ "atualizado": "2026-11-27T20:56:36-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2835,6 +2835,14 @@
    "eid": "401841337",
    "lg": "bra.1",
    "ed": "20261127",
+   "lances": [
+    {
+     "l": "f",
+     "m": "3'",
+     "n": "Kaio Jorge",
+     "k": "g"
+    }
+   ],
    "rodada": "37ª rodada",
    "pg": "/jogo/fluminense-x-cruzeiro-27-11-2026/"
   },
