@@ -19792,6 +19792,45 @@
     "fora": 0
    }
   },
+  "401885389": {
+   "casa": "Maritimo",
+   "comp": "portugal",
+   "fase": "2026-27-portuguese-primeira-liga",
+   "fora": "C.D. Nacional",
+   "inicio": "2026-11-27T17:15:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "36'",
+     "n": "S. Min-Kyu"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "51'",
+     "n": "M. Jensen"
+    },
+    {
+     "k": "v",
+     "l": "c",
+     "m": "89'",
+     "n": "R. Correia"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "90+4'",
+     "n": "S. Bamba"
+    }
+   ],
+   "lg": "por.1",
+   "local": "Estádio do Marítimo, Funchal",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
   "401885394": {
    "casa": "Vitória de Guimaraes",
    "comp": "portugal",

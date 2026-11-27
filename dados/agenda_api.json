@@ -4371,10 +4371,20 @@
     "l": "c",
     "m": "89'",
     "n": "R. Correia"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+4'",
+    "n": "S. Bamba"
    }
   ],
   "lg": "por.1",
   "local": "Estádio do Marítimo, Funchal",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401885390": {
