@@ -4547,10 +4547,26 @@
     "l": "f",
     "m": "47'",
     "n": "E. Mendes Da Silva"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "81'",
+    "n": "E. Bulut"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "90+1'",
+    "n": "G. Borrelli"
    }
   ],
   "lg": "tur.1",
   "local": "Estadio Caykur Didi, Rize",
+  "placar": {
+   "casa": 3,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401888241": {
@@ -4582,10 +4598,20 @@
     "l": "f",
     "m": "23'",
     "n": "J. Muleka"
+   },
+   {
+    "k": "p",
+    "l": "f",
+    "m": "90+7'",
+    "n": "M. Mohamed"
    }
   ],
   "lg": "tur.1",
   "local": "Kirbiyik Holding Stadyumu, Antalya",
+  "placar": {
+   "casa": 1,
+   "fora": 2
+  },
   "status": "a_confirmar"
  },
  "espn:401888242": {

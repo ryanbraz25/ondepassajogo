@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T15:13:05-03:00",
+ "atualizado": "2026-11-27T16:10:05-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2393,8 +2393,18 @@
      "m": "23'",
      "n": "J. Muleka",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "90+7'",
+     "n": "M. Mohamed",
+     "k": "p"
     }
    ],
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   },
    "pg": "/jogo/alanyaspor-x-konyaspor-27-11-2026/"
   },
   {
@@ -2428,8 +2438,24 @@
      "m": "47'",
      "n": "E. Mendes Da Silva",
      "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "81'",
+     "n": "E. Bulut",
+     "k": "g"
+    },
+    {
+     "l": "c",
+     "m": "90+1'",
+     "n": "G. Borrelli",
+     "k": "g"
     }
    ],
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   },
    "pg": "/jogo/caykur-rizespor-x-kasimpasa-27-11-2026/"
   },
   {

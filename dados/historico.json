@@ -20297,6 +20297,84 @@
     "fora": 2
    }
   },
+  "401888240": {
+   "casa": "Caykur Rizespor",
+   "comp": "turquia",
+   "fase": "2026-27-turkish-super-lig",
+   "fora": "Kasimpasa",
+   "inicio": "2026-11-27T14:00:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "22'",
+     "n": "Q. Laçi"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "32'",
+     "n": "C. Winck"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "47'",
+     "n": "E. Mendes Da Silva"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "81'",
+     "n": "E. Bulut"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "90+1'",
+     "n": "G. Borrelli"
+    }
+   ],
+   "lg": "tur.1",
+   "local": "Estadio Caykur Didi, Rize",
+   "placar": {
+    "casa": 3,
+    "fora": 2
+   }
+  },
+  "401888241": {
+   "casa": "Alanyaspor",
+   "comp": "turquia",
+   "fase": "2026-27-turkish-super-lig",
+   "fora": "Konyaspor",
+   "inicio": "2026-11-27T14:00:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "c",
+     "m": "15'",
+     "n": "I. Hagi"
+    },
+    {
+     "k": "g",
+     "l": "f",
+     "m": "23'",
+     "n": "J. Muleka"
+    },
+    {
+     "k": "p",
+     "l": "f",
+     "m": "90+7'",
+     "n": "M. Mohamed"
+    }
+   ],
+   "lg": "tur.1",
+   "local": "Kirbiyik Holding Stadyumu, Antalya",
+   "placar": {
+    "casa": 1,
+    "fora": 2
+   }
+  },
   "401888243": {
    "casa": "Erzurum BB",
    "comp": "turquia",

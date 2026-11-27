@@ -149,14 +149,14 @@ URL:https://ondepassajogo.com.br/jogo/istanbul-basaksehir-x-corum-fk-23-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401888241@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
-SUMMARY:Alanyaspor x Konyaspor
+DTSTAMP:20261127T191006Z
+LAST-MODIFIED:20261127T191006Z
+SUMMARY:Alanyaspor 1 x 2 Konyaspor
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 LOCATION:Kirbiyik Holding Stadyumu\, Antalya
-DESCRIPTION:Liga da Turquia\nOnde passa: Disney+\nDetalhes e onde assistir:
-  https://ondepassajogo.com.br/jogo/alanyaspor-x-konyaspor-27-11-2026/
+DESCRIPTION:Liga da Turquia\nDetalhes do jogo: https://ondepassajogo.com.br
+ /jogo/alanyaspor-x-konyaspor-27-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga da Turquia
@@ -164,15 +164,14 @@ URL:https://ondepassajogo.com.br/jogo/alanyaspor-x-konyaspor-27-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401888240@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
-SUMMARY:Caykur Rizespor x Kasimpasa
+DTSTAMP:20261127T191006Z
+LAST-MODIFIED:20261127T191006Z
+SUMMARY:Caykur Rizespor 3 x 2 Kasimpasa
 DTSTART:20261127T170000Z
 DTEND:20261127T190000Z
 LOCATION:Estádio Caykur Didi\, Rize
-DESCRIPTION:Liga da Turquia\nOnde passa: Disney+ (a confirmar)\nDetalhes e 
- onde assistir: https://ondepassajogo.com.br/jogo/caykur-rizespor-x-kasimpa
- sa-27-11-2026/
+DESCRIPTION:Liga da Turquia\nDetalhes do jogo: https://ondepassajogo.com.br
+ /jogo/caykur-rizespor-x-kasimpasa-27-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Liga da Turquia
