@@ -51,17 +51,16 @@ CATEGORIES:Liga Portugal
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885388@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261127T025352Z
+LAST-MODIFIED:20261127T025352Z
 SUMMARY:Moreirense x Santa Clara
 DTSTART:20261128T153000Z
 DTEND:20261128T173000Z
 LOCATION:Estádio Comendador Joaquim de Almeida Freitas\, Moreira de Conego
  s
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/moreirense-x-santa-clara-28
- -11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+\nDetalhes e onde assistir: h
+ ttps://ondepassajogo.com.br/jogo/moreirense-x-santa-clara-28-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/moreirense-x-santa-clara-28-11-2026/

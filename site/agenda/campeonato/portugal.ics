@@ -26,49 +26,46 @@ URL:https://ondepassajogo.com.br/jogo/maritimo-x-c-d-nacional-27-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885392@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261127T025352Z
+LAST-MODIFIED:20261127T025352Z
 SUMMARY:Arouca x Rio Ave
 DTSTART:20261128T153000Z
 DTEND:20261128T173000Z
 LOCATION:Estádio Municipal de Arouca\, Arouca
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/arouca-x-rio-ave-28-11-2026
- /
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+\nDetalhes e onde assistir: h
+ ttps://ondepassajogo.com.br/jogo/arouca-x-rio-ave-28-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/arouca-x-rio-ave-28-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885388@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261127T025352Z
+LAST-MODIFIED:20261127T025352Z
 SUMMARY:Moreirense x Santa Clara
 DTSTART:20261128T153000Z
 DTEND:20261128T173000Z
 LOCATION:Estádio Comendador Joaquim de Almeida Freitas\, Moreira de Conego
  s
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/moreirense-x-santa-clara-28
- -11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+\nDetalhes e onde assistir: h
+ ttps://ondepassajogo.com.br/jogo/moreirense-x-santa-clara-28-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/moreirense-x-santa-clara-28-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885393@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261127T025352Z
+LAST-MODIFIED:20261127T025352Z
 SUMMARY:Académico de Viseu x Alverca
 DTSTART:20261128T180000Z
 DTEND:20261128T200000Z
 LOCATION:Estádio do Fontelo\, Viseu
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/academico-de-viseu-x-alverc
- a-28-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+\nDetalhes e onde assistir: h
+ ttps://ondepassajogo.com.br/jogo/academico-de-viseu-x-alverca-28-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/academico-de-viseu-x-alverca-28-11-20
@@ -76,16 +73,16 @@ URL:https://ondepassajogo.com.br/jogo/academico-de-viseu-x-alverca-28-11-20
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885385@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261127T025352Z
+LAST-MODIFIED:20261127T025352Z
 SUMMARY:Vitória de Guimaraes x Estrela
 DTSTART:20261128T203000Z
 DTEND:20261128T223000Z
 LOCATION:Estádio D. Afonso Henriques\, Guimarães
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/vitoria-de-guimaraes-x-estr
- ela-28-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+\nDetalhes e onde assistir: h
+ ttps://ondepassajogo.com.br/jogo/vitoria-de-guimaraes-x-estrela-28-11-2026
+ /
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/vitoria-de-guimaraes-x-estrela-28-11-
@@ -93,32 +90,31 @@ URL:https://ondepassajogo.com.br/jogo/vitoria-de-guimaraes-x-estrela-28-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885390@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261127T025352Z
+LAST-MODIFIED:20261127T025352Z
 SUMMARY:Gil Vicente x Estoril
 DTSTART:20261129T180000Z
 DTEND:20261129T200000Z
 LOCATION:Estádio Cidade de Barcelos\, Barcelos
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/gil-vicente-x-estoril-29-11
- -2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+\nDetalhes e onde assistir: h
+ ttps://ondepassajogo.com.br/jogo/gil-vicente-x-estoril-29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/gil-vicente-x-estoril-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885387@ondepassajogo.com.br
-DTSTAMP:20261126T030549Z
-LAST-MODIFIED:20261126T030549Z
+DTSTAMP:20261127T025352Z
+LAST-MODIFIED:20261127T025352Z
 SUMMARY:FC Porto x Sporting CP
 DTSTART:20261129T203000Z
 DTEND:20261129T223000Z
 LOCATION:Estádio do Dragão\, Porto
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nclássico\nDe
- talhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-porto-x-sport
- ing-cp-29-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+\nclássico\nDetalhes e onde 
+ assistir: https://ondepassajogo.com.br/jogo/fc-porto-x-sporting-cp-29-11-2
+ 026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/fc-porto-x-sporting-cp-29-11-2026/

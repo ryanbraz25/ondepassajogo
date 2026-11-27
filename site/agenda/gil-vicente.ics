@@ -63,16 +63,15 @@ CATEGORIES:Liga Portugal
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401885390@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261127T025352Z
+LAST-MODIFIED:20261127T025352Z
 SUMMARY:Gil Vicente x Estoril
 DTSTART:20261129T180000Z
 DTEND:20261129T200000Z
 LOCATION:Estádio Cidade de Barcelos\, Barcelos
-DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
- de assistir: https://ondepassajogo.com.br/jogo/gil-vicente-x-estoril-29-11
- -2026/
-STATUS:TENTATIVE
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+\nDetalhes e onde assistir: h
+ ttps://ondepassajogo.com.br/jogo/gil-vicente-x-estoril-29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/gil-vicente-x-estoril-29-11-2026/
