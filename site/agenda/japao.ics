@@ -39,4 +39,35 @@ TRANSP:TRANSPARENT
 CATEGORIES:Seleção / Amistosos
 URL:https://ondepassajogo.com.br/jogo/japao-x-paraguai-17-11-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:e7315b972873dccf9351@ondepassajogo.com.br
+DTSTAMP:20261127T145810Z
+LAST-MODIFIED:20261127T145810Z
+SUMMARY:Japão x Brasil
+DTSTART:20261129T045500Z
+DTEND:20261129T065500Z
+DESCRIPTION:Seleção / Amistosos · Amistoso da Seleção Feminina\nOnde p
+ assa: TV Globo (grátis)\, SporTV (a confirmar)\nSeleção feminina\; 50º
+  jogo de Arthur Elias\nDetalhes e onde assistir: https://ondepassajogo.com
+ .br/jogo/japao-x-brasil-29-11-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Seleção / Amistosos
+URL:https://ondepassajogo.com.br/jogo/japao-x-brasil-29-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:d0148dfdacc0bb2dc40f@ondepassajogo.com.br
+DTSTAMP:20261127T145810Z
+LAST-MODIFIED:20261127T145810Z
+SUMMARY:Japão x Brasil
+DTSTART:20261205T060000Z
+DTEND:20261205T080000Z
+DESCRIPTION:Seleção / Amistosos · Amistoso da Seleção Feminina\nOnde p
+ assa: canais ainda não anunciados\nSeleção feminina\nDetalhes e onde as
+ sistir: https://ondepassajogo.com.br/jogo/japao-x-brasil-05-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Seleção / Amistosos
+URL:https://ondepassajogo.com.br/jogo/japao-x-brasil-05-12-2026/
+END:VEVENT
 END:VCALENDAR
