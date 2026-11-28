@@ -396,15 +396,16 @@ URL:https://ondepassajogo.com.br/jogo/st-louis-city-sc-x-lafc-02-12-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933717@ondepassajogo.com.br
-DTSTAMP:20261126T030549Z
-LAST-MODIFIED:20261126T030549Z
+DTSTAMP:20261128T074235Z
+LAST-MODIFIED:20261128T074235Z
 SUMMARY:Vancouver Whitecaps x Real Salt Lake
 DTSTART:20261203T020000Z
 DTEND:20261203T040000Z
 LOCATION:BC Place\, Vancouver
-DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
- depassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake-02-12-2026/
-STATUS:CONFIRMED
+DESCRIPTION:MLS\nOnde passa: Apple TV\nCancelado\nDetalhes e onde assistir:
+  https://ondepassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake-02
+ -12-2026/
+STATUS:CANCELLED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/vancouver-whitecaps-x-real-salt-lake-
