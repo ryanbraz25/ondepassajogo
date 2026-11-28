@@ -520,306 +520,6 @@
   "time_fora": "Corinthians",
   "v": 3
  },
- "401841320": {
-  "achada": "2026-11-23T22:07-03:00",
-  "casa": {
-   "esquema": "4-2-3-1",
-   "reservas": [
-    {
-     "fp": 0,
-     "n": "25",
-     "nome": "Gabriel Menino",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "28",
-     "nome": "C. Oliva",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "45",
-     "nome": "Lima",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "5",
-     "nome": "J. Schmidt",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "32",
-     "nome": "B. Rollheiser",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "18",
-     "nome": "Igor",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "16",
-     "nome": "Thaciano",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "34",
-     "nome": "João Paulo",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "26",
-     "nome": "João Ananias",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "31",
-     "nome": "G. Escobar",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "33",
-     "nome": "Rony",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "17",
-     "nome": "G. Caballero",
-     "pos": "SUB"
-    }
-   ],
-   "titulares": [
-    {
-     "fp": 1,
-     "n": "1",
-     "nome": "Diogenes",
-     "pos": "G"
-    },
-    {
-     "fp": 2,
-     "n": "23",
-     "nome": "Rodinei",
-     "pos": "RB"
-    },
-    {
-     "fp": 3,
-     "n": "14",
-     "nome": "L. Peres",
-     "pos": "LB"
-    },
-    {
-     "fp": 4,
-     "n": "6",
-     "nome": "Arthur",
-     "pos": "LM"
-    },
-    {
-     "fp": 5,
-     "n": "42",
-     "nome": "João Alencar",
-     "pos": "CD-R"
-    },
-    {
-     "fp": 6,
-     "n": "15",
-     "nome": "W. Arão",
-     "pos": "CD-L"
-    },
-    {
-     "fp": 7,
-     "n": "11",
-     "nome": "P. Coutinho",
-     "pos": "AM-R"
-    },
-    {
-     "fp": 8,
-     "n": "8",
-     "nome": "G. Bontempo",
-     "pos": "RM"
-    },
-    {
-     "fp": 9,
-     "n": "9",
-     "nome": "G. Barbosa",
-     "pos": "F"
-    },
-    {
-     "fp": 10,
-     "n": "10",
-     "nome": "Neymar",
-     "pos": "AM"
-    },
-    {
-     "fp": 11,
-     "n": "7",
-     "nome": "Everton",
-     "pos": "AM-L"
-    }
-   ]
-  },
-  "comp": "brasileirao-a",
-  "completa": true,
-  "fora": {
-   "esquema": "4-1-4-1",
-   "reservas": [
-    {
-     "fp": 0,
-     "n": "6",
-     "nome": "G. Martins",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "11",
-     "nome": "M. Tetê",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "3",
-     "nome": "Wagner Leonardo",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "12",
-     "nome": "G. Grando",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "2",
-     "nome": "F. Balbuena",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "54",
-     "nome": "Pedro Gabriel",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "10",
-     "nome": "F. Krovinovic",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "38",
-     "nome": "Caio Paulista",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "22",
-     "nome": "M. Braithwaite",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "77",
-     "nome": "J. Cabral",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "15",
-     "nome": "D. Barbosa",
-     "pos": "SUB"
-    },
-    {
-     "fp": 0,
-     "n": "14",
-     "nome": "M. Rocha",
-     "pos": "SUB"
-    }
-   ],
-   "titulares": [
-    {
-     "fp": 1,
-     "n": "1",
-     "nome": "Weverton",
-     "pos": "G"
-    },
-    {
-     "fp": 2,
-     "n": "27",
-     "nome": "Diego Caito",
-     "pos": "RB"
-    },
-    {
-     "fp": 3,
-     "n": "23",
-     "nome": "Marlon",
-     "pos": "LB"
-    },
-    {
-     "fp": 4,
-     "n": "8",
-     "nome": "E. Noriega",
-     "pos": "DM"
-    },
-    {
-     "fp": 5,
-     "n": "82",
-     "nome": "Wallace",
-     "pos": "CD-R"
-    },
-    {
-     "fp": 6,
-     "n": "4",
-     "nome": "W. Kannemann",
-     "pos": "CD-L"
-    },
-    {
-     "fp": 7,
-     "n": "7",
-     "nome": "C. Pavón",
-     "pos": "RM"
-    },
-    {
-     "fp": 8,
-     "n": "20",
-     "nome": "M. Villasanti",
-     "pos": "CM-R"
-    },
-    {
-     "fp": 9,
-     "n": "95",
-     "nome": "C. Vinícius",
-     "pos": "F"
-    },
-    {
-     "fp": 10,
-     "n": "17",
-     "nome": "Dodi",
-     "pos": "CM-L"
-    },
-    {
-     "fp": 11,
-     "n": "9",
-     "nome": "F. Amuzu",
-     "pos": "LM"
-    }
-   ]
-  },
-  "inicio": "2026-11-23T21:00:00-03:00",
-  "pg": "",
-  "time_casa": "Santos",
-  "time_fora": "Grêmio",
-  "v": 2
- },
  "401841329": {
   "achada": "2026-11-26T21:55-03:00",
   "atualizada": "2026-11-26T23:46-03:00",
@@ -1900,6 +1600,430 @@
   ],
   "time_casa": "Chapecoense",
   "time_fora": "Palmeiras",
+  "v": 3
+ },
+ "401841337": {
+  "achada": "2026-11-27T21:51-03:00",
+  "atualizada": "2026-11-27T21:51-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "id": "287633",
+     "n": "90",
+     "nome": "K. Serna",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "207269",
+     "n": "13",
+     "nome": "G. Arana",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "146162",
+     "n": "2",
+     "nome": "Samuel Xavier",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "165749",
+     "n": "14",
+     "nome": "G. Cano",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "175902",
+     "n": "10",
+     "nome": "Ganso",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "397260",
+     "n": "28",
+     "nome": "Riquelme",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "235941",
+     "n": "29",
+     "nome": "J. Millan",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "403159",
+     "n": "34",
+     "nome": "Wesley Natã",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "276023",
+     "n": "22",
+     "nome": "J. Freytes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "255327",
+     "n": "98",
+     "nome": "Vitor Eudes",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "124068",
+     "n": "7",
+     "nome": "Hulk",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "238342",
+     "n": "16",
+     "nome": "Nonato",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "id": "158382",
+     "n": "1",
+     "nome": "Fábio",
+     "pos": "G",
+     "st": {
+      "df": 1,
+      "gs": 1
+     }
+    },
+    {
+     "fp": 2,
+     "id": "271557",
+     "n": "23",
+     "nome": "Guga",
+     "pos": "RB",
+     "st": {
+      "fs": 1,
+      "imp": 1
+     }
+    },
+    {
+     "fp": 3,
+     "id": "173588",
+     "n": "6",
+     "nome": "René",
+     "pos": "LB",
+     "st": {
+      "ch": 1,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 4,
+     "id": "307946",
+     "n": "8",
+     "nome": "Martinelli",
+     "pos": "LM",
+     "st": {
+      "fc": 1
+     }
+    },
+    {
+     "fp": 5,
+     "id": "96254",
+     "n": "3",
+     "nome": "T. Silva",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "id": "281559",
+     "n": "4",
+     "nome": "Ignácio",
+     "pos": "CD-L",
+     "st": {
+      "fc": 1
+     }
+    },
+    {
+     "fp": 7,
+     "id": "177219",
+     "n": "11",
+     "nome": "J. Savarino",
+     "pos": "AM-R",
+     "st": {
+      "ch": 1,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 8,
+     "id": "336622",
+     "n": "35",
+     "nome": "Hércules",
+     "pos": "RM",
+     "st": {
+      "ch": 2,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 9,
+     "id": "116395",
+     "n": "19",
+     "nome": "R. Castillo",
+     "pos": "F",
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 10,
+     "id": "199958",
+     "n": "32",
+     "nome": "L. Acosta",
+     "pos": "AM",
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "fc": 1,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 11,
+     "id": "241466",
+     "n": "17",
+     "nome": "A. Canobbio",
+     "pos": "AM-L",
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "fc": 1,
+      "fs": 2
+     }
+    }
+   ]
+  },
+  "comp": "brasileirao-a",
+  "completa": false,
+  "fora": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "id": "11632",
+     "n": "94",
+     "nome": "Wanderson",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "383096",
+     "n": "70",
+     "nome": "Kaique Kenji",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "370814",
+     "n": "22",
+     "nome": "N. Villareal",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "297070",
+     "n": "11",
+     "nome": "Marquinhos",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "108342",
+     "n": "23",
+     "nome": "Fagner",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "108347",
+     "n": "1",
+     "nome": "Cássio",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "410897",
+     "n": "54",
+     "nome": "Gustavo Alves",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "108103",
+     "n": "16",
+     "nome": "Lucas Silva",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "304533",
+     "n": "20",
+     "nome": "W. Ribeiro",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "118688",
+     "n": "97",
+     "nome": "L. Rodríguez",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "254032",
+     "n": "6",
+     "nome": "M. Viña",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "404202",
+     "n": "38",
+     "nome": "Felipe Morais",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "id": "337996",
+     "n": "81",
+     "nome": "O. Costa",
+     "pos": "G",
+     "st": {
+      "df": 2
+     }
+    },
+    {
+     "fp": 2,
+     "id": "403572",
+     "n": "2",
+     "nome": "K. Moraes Silva",
+     "pos": "RB",
+     "st": {
+      "am": 1,
+      "fc": 2,
+      "fs": 2
+     }
+    },
+    {
+     "fp": 3,
+     "id": "176810",
+     "n": "25",
+     "nome": "L. Villalba",
+     "pos": "LB",
+     "st": {
+      "ch": 1
+     }
+    },
+    {
+     "fp": 4,
+     "id": "268221",
+     "n": "7",
+     "nome": "Matheus Henrique",
+     "pos": "LM",
+     "st": {
+      "fc": 1
+     }
+    },
+    {
+     "fp": 5,
+     "id": "236111",
+     "n": "15",
+     "nome": "F. Bruno",
+     "pos": "CD-R"
+    },
+    {
+     "fp": 6,
+     "id": "363020",
+     "n": "34",
+     "nome": "J. Jesus",
+     "pos": "CD-L",
+     "st": {
+      "fc": 2
+     }
+    },
+    {
+     "fp": 7,
+     "id": "210135",
+     "n": "8",
+     "nome": "Gerson",
+     "pos": "AM-R"
+    },
+    {
+     "fp": 8,
+     "id": "402423",
+     "n": "5",
+     "nome": "Zé Lucas",
+     "pos": "RM",
+     "st": {
+      "fc": 2,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 9,
+     "id": "280978",
+     "n": "19",
+     "nome": "Kaio Jorge",
+     "pos": "F",
+     "st": {
+      "cg": 2,
+      "ch": 2,
+      "fc": 1,
+      "g": 1
+     }
+    },
+    {
+     "fp": 10,
+     "id": "216098",
+     "n": "10",
+     "nome": "M. Pereira",
+     "pos": "AM",
+     "st": {
+      "ch": 1,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 11,
+     "id": "227737",
+     "n": "9",
+     "nome": "B. Rodrigues",
+     "pos": "AM-L",
+     "st": {
+      "a": 1
+     }
+    }
+   ]
+  },
+  "inicio": "2026-11-27T20:00:00-03:00",
+  "pg": "",
+  "subs": [],
+  "time_casa": "Fluminense",
+  "time_fora": "Cruzeiro",
   "v": 3
  },
  "401875004": {
@@ -14238,6 +14362,437 @@
   ],
   "time_casa": "Al Fateh",
   "time_fora": "Al Riyadh",
+  "v": 3
+ },
+ "401912683": {
+  "achada": "2026-11-27T21:51-03:00",
+  "atualizada": "2026-11-27T21:51-03:00",
+  "casa": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "id": "252794",
+     "n": "29",
+     "nome": "Dalberson",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "338979",
+     "n": "20",
+     "nome": "Nathan",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "315282",
+     "n": "70",
+     "nome": "Emerson Lima",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "135274",
+     "n": "8",
+     "nome": "Willian Maranhão",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "3102189",
+     "n": "23",
+     "nome": "B. De Azevedo Bora",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "285000",
+     "n": "21",
+     "nome": "H. Meritão",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "181545",
+     "n": "49",
+     "nome": "Dellatorre",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "418216",
+     "n": "11",
+     "nome": "Ryan Lima",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "396038",
+     "n": "6",
+     "nome": "H. De Souza",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "264513",
+     "n": "33",
+     "nome": "B. Xavier",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "237051",
+     "n": "14",
+     "nome": "A. Jesus",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "194623",
+     "n": "31",
+     "nome": "Dodô",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "id": "186507",
+     "n": "1",
+     "nome": "H. Leite",
+     "pos": "G",
+     "st": {
+      "df": 1
+     }
+    },
+    {
+     "fp": 2,
+     "id": "235539",
+     "n": "16",
+     "nome": "Igor Cariús",
+     "pos": "RB",
+     "st": {
+      "fc": 1,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 3,
+     "id": "236225",
+     "n": "13",
+     "nome": "Willian Prado Camargo",
+     "pos": "LB",
+     "st": {
+      "am": 1,
+      "ch": 1,
+      "fc": 2
+     }
+    },
+    {
+     "fp": 4,
+     "id": "420672",
+     "n": "15",
+     "nome": "Dudu",
+     "pos": "LM",
+     "st": {
+      "cg": 2,
+      "ch": 4,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 5,
+     "id": "204133",
+     "n": "4",
+     "nome": "D. Mendes",
+     "pos": "CD-R",
+     "st": {
+      "ch": 1,
+      "fc": 2,
+      "fs": 1
+     }
+    },
+    {
+     "fp": 6,
+     "id": "169716",
+     "n": "3",
+     "nome": "Tiago",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "id": "214192",
+     "n": "17",
+     "nome": "Everton",
+     "pos": "AM-R",
+     "st": {
+      "ch": 1,
+      "fs": 3
+     }
+    },
+    {
+     "fp": 8,
+     "id": "270363",
+     "n": "5",
+     "nome": "J. Vieira",
+     "pos": "RM",
+     "st": {
+      "cg": 1,
+      "ch": 1
+     }
+    },
+    {
+     "fp": 9,
+     "id": "266663",
+     "n": "9",
+     "nome": "Lincoln",
+     "pos": "F",
+     "st": {
+      "fs": 2
+     }
+    },
+    {
+     "fp": 10,
+     "id": "131532",
+     "n": "10",
+     "nome": "Marquinhos Gabriel",
+     "pos": "AM",
+     "st": {
+      "ch": 1
+     }
+    },
+    {
+     "fp": 11,
+     "id": "249846",
+     "n": "99",
+     "nome": "Janderson",
+     "pos": "AM-L",
+     "st": {
+      "cg": 1,
+      "ch": 1,
+      "fc": 2,
+      "fs": 2,
+      "imp": 1
+     }
+    }
+   ]
+  },
+  "comp": "brasileirao-b",
+  "completa": false,
+  "fora": {
+   "esquema": "4-2-3-1",
+   "reservas": [
+    {
+     "fp": 0,
+     "id": "285371",
+     "n": "23",
+     "nome": "Bruno José",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "290720",
+     "n": "18",
+     "nome": "João Pedro",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "145567",
+     "n": "21",
+     "nome": "Guilherme",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "415073",
+     "n": "19",
+     "nome": "K. De Oliveira Pereira",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "270193",
+     "n": "20",
+     "nome": "Marrony",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "305680",
+     "n": "17",
+     "nome": "Henrique",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "205446",
+     "n": "15",
+     "nome": "Yuri",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "101029",
+     "n": "12",
+     "nome": "P. Henrique",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "319660",
+     "n": "14",
+     "nome": "Gebson",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "303568",
+     "n": "22",
+     "nome": "G. Maia",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "205011",
+     "n": "16",
+     "nome": "L. Vilela",
+     "pos": "SUB"
+    },
+    {
+     "fp": 0,
+     "id": "292255",
+     "n": "13",
+     "nome": "Ewerton",
+     "pos": "SUB"
+    }
+   ],
+   "titulares": [
+    {
+     "fp": 1,
+     "id": "279349",
+     "n": "1",
+     "nome": "Paulo Vítor",
+     "pos": "G",
+     "st": {
+      "df": 4
+     }
+    },
+    {
+     "fp": 2,
+     "id": "294883",
+     "n": "2",
+     "nome": "Warley",
+     "pos": "RB",
+     "st": {
+      "ch": 1
+     }
+    },
+    {
+     "fp": 3,
+     "id": "216107",
+     "n": "6",
+     "nome": "G. Almeida",
+     "pos": "LB",
+     "st": {
+      "am": 1,
+      "cg": 1,
+      "ch": 1,
+      "fc": 4
+     }
+    },
+    {
+     "fp": 4,
+     "id": "271302",
+     "n": "8",
+     "nome": "J. Domingo Moraes Neto",
+     "pos": "LM",
+     "st": {
+      "ch": 1,
+      "fc": 3
+     }
+    },
+    {
+     "fp": 5,
+     "id": "334077",
+     "n": "3",
+     "nome": "J. Barreto",
+     "pos": "CD-R",
+     "st": {
+      "fc": 1
+     }
+    },
+    {
+     "fp": 6,
+     "id": "302596",
+     "n": "4",
+     "nome": "A. Martins",
+     "pos": "CD-L"
+    },
+    {
+     "fp": 7,
+     "id": "384200",
+     "n": "7",
+     "nome": "Peixoto",
+     "pos": "AM-R",
+     "st": {
+      "ch": 2,
+      "fc": 1,
+      "fs": 2,
+      "imp": 1
+     }
+    },
+    {
+     "fp": 8,
+     "id": "303344",
+     "n": "5",
+     "nome": "Cristiano",
+     "pos": "RM",
+     "st": {
+      "fs": 1
+     }
+    },
+    {
+     "fp": 9,
+     "id": "288461",
+     "n": "9",
+     "nome": "G. Coutinho",
+     "pos": "F",
+     "st": {
+      "am": 1,
+      "fc": 1,
+      "imp": 1
+     }
+    },
+    {
+     "fp": 10,
+     "id": "207912",
+     "n": "10",
+     "nome": "D. Terans",
+     "pos": "AM",
+     "st": {
+      "fs": 3,
+      "imp": 1
+     }
+    },
+    {
+     "fp": 11,
+     "id": "420775",
+     "n": "11",
+     "nome": "Geovany Soares",
+     "pos": "AM-L",
+     "st": {
+      "fs": 1
+     }
+    }
+   ]
+  },
+  "inicio": "2026-11-27T20:00:00-03:00",
+  "pg": "",
+  "subs": [],
+  "time_casa": "Vila Nova",
+  "time_fora": "Atlético-GO",
   "v": 3
  },
  "401915291": {

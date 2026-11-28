@@ -202,6 +202,12 @@
     "l": "f",
     "m": "3'",
     "n": "Kaio Jorge"
+   },
+   {
+    "k": "v",
+    "l": "f",
+    "m": "72'",
+    "n": "J. Jesus"
    }
   ],
   "lg": "bra.1",
@@ -5622,6 +5628,20 @@
   "fase": "2026-brasileiro-serie-b",
   "fora": "Atlético-GO",
   "inicio": "2026-11-27T20:00:00-03:00",
+  "lances": [
+   {
+    "k": "c",
+    "l": "c",
+    "m": "53'",
+    "n": "J. Barreto"
+   },
+   {
+    "k": "g",
+    "l": "c",
+    "m": "77'",
+    "n": "J. Vieira"
+   }
+  ],
   "lg": "bra.2",
   "local": "Estádio Onésio Brasileiro Alvarenga, Goiãnia",
   "status": "a_confirmar"

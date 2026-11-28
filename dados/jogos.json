@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T20:56:36-03:00",
+ "atualizado": "2026-11-27T21:51:40-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2841,6 +2841,12 @@
      "m": "3'",
      "n": "Kaio Jorge",
      "k": "g"
+    },
+    {
+     "l": "f",
+     "m": "72'",
+     "n": "J. Jesus",
+     "k": "v"
     }
    ],
    "rodada": "37ª rodada",
@@ -2862,6 +2868,20 @@
    "eid": "401912683",
    "lg": "bra.2",
    "ed": "20261127",
+   "lances": [
+    {
+     "l": "c",
+     "m": "53'",
+     "n": "J. Barreto",
+     "k": "c"
+    },
+    {
+     "l": "c",
+     "m": "77'",
+     "n": "J. Vieira",
+     "k": "g"
+    }
+   ],
    "rodada": "Playoff de acesso - volta",
    "nota": "Clássico; vale vaga na Série A",
    "links": {
