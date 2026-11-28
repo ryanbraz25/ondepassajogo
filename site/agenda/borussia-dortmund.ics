@@ -184,4 +184,21 @@ CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-inter-de-milao-09
  -12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884709@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Borussia Dortmund x FC Augsburg
+DTSTART:20261212T143000Z
+DTEND:20261212T163000Z
+LOCATION:Signal Iduna Park\, Aue
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/borussia-dortmund-x-fc-aug
+ sburg-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-fc-augsburg-12-12
+ -2026/
+END:VEVENT
 END:VCALENDAR

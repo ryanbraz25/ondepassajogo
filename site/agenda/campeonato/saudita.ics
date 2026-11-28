@@ -26,30 +26,30 @@ URL:https://ondepassajogo.com.br/jogo/al-ahli-x-al-nassr-20-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401900874@ondepassajogo.com.br
-DTSTAMP:20261126T171844Z
-LAST-MODIFIED:20261126T171844Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Al Fateh 1 x 0 Al Riyadh
 DTSTART:20261126T142500Z
 DTEND:20261126T162500Z
 LOCATION:Prince Abdullah bin Jalawi Stadium\, Al-Hofuf
 DESCRIPTION:Saudita\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/al
  -fateh-x-al-riyadh-26-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Saudita
 URL:https://ondepassajogo.com.br/jogo/al-fateh-x-al-riyadh-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401900443@ondepassajogo.com.br
-DTSTAMP:20261126T171844Z
-LAST-MODIFIED:20261126T171844Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Abha 0 x 1 Al Shabab
 DTSTART:20261126T150500Z
 DTEND:20261126T170500Z
 LOCATION:Prince Sultan bin Abdulaziz Sports City Stadium\, Abha
 DESCRIPTION:Saudita\nDetalhes do jogo: https://ondepassajogo.com.br/jogo/ab
  ha-x-al-shabab-26-11-2026/
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Saudita
 URL:https://ondepassajogo.com.br/jogo/abha-x-al-shabab-26-11-2026/
@@ -418,5 +418,53 @@ STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Saudita
 URL:https://ondepassajogo.com.br/jogo/al-ittihad-x-al-ahli-11-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900855@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Neom SC x Al Taawoun
+DTSTART:20261212T124000Z
+DTEND:20261212T144000Z
+LOCATION:King Khalid Sport City Stadium\, Tabuk
+DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/neom-sc-x-al-taawoun-12-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/neom-sc-x-al-taawoun-12-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900861@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Al Ettifaq x Al Hazem
+DTSTART:20261212T142500Z
+DTEND:20261212T162500Z
+LOCATION:Prince Mohammed Bin Fahd Stadium\, Dammam
+DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/al-ettifaq-x-al-hazem-12-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/al-ettifaq-x-al-hazem-12-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401900858@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Al Nassr x Al Shabab
+DTSTART:20261212T173000Z
+DTEND:20261212T193000Z
+LOCATION:Al-Awwal Park\, King Fahd International Stadium
+DESCRIPTION:Saudita\nOnde passa: canais ainda não anunciados\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/al-nassr-x-al-shabab-12-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Saudita
+URL:https://ondepassajogo.com.br/jogo/al-nassr-x-al-shabab-12-12-2026/
 END:VEVENT
 END:VCALENDAR

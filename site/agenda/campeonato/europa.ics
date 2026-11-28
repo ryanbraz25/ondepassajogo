@@ -11,107 +11,44 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:espn-401915506@ondepassajogo.com.br
-DTSTAMP:20261126T210823Z
-LAST-MODIFIED:20261126T210823Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Besiktas 2 x 1 Hapoel Be'er
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:Batumi Stadium (Adjarabet Arena)\, Batumi
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/besiktas-x-hapoel-be-er-26-11-2026/
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/besiktas-x-hapoel-be-er-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/besiktas-x-hapoel-be-er-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915519@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:Celta Vigo 1 x 2 Bournemouth
-DTSTART:20261126T174500Z
-DTEND:20261126T194500Z
-LOCATION:Balaidos\, Vigo
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/celta-vigo-x-bournemouth-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/celta-vigo-x-bournemouth-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915517@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:Dinamo Zagreb 0 x 2 Bayer Leverkusen
-DTSTART:20261126T174500Z
-DTEND:20261126T194500Z
-LOCATION:Maksimir Stadium\, Zagreb
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/dinamo-zagreb-x-bayer-leverkusen-26-11-2026
- /
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/dinamo-zagreb-x-bayer-leverkusen-26-1
- 1-2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:espn-401915507@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Marseille 1 x 0 Levski Sofia
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:Stade Vélodrome\, Marseille
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/marseille-x-levski-sofia-26-11-2026/
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/marseille-x-levski-sofia-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/marseille-x-levski-sofia-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915521@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:Olympiacos 2 x 4 Milan
-DTSTART:20261126T174500Z
-DTEND:20261126T194500Z
-LOCATION:Georgios Karaiskakis Stadium\, Piraeus
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/olympiacos-x-milan-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/olympiacos-x-milan-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915520@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:RB Salzburg 2 x 0 Ararat-Armenia
-DTSTART:20261126T174500Z
-DTEND:20261126T194500Z
-LOCATION:Red Bull Arena Salzburg\, Salzburg
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/rb-salzburg-x-ararat-armenia-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/rb-salzburg-x-ararat-armenia-26-11-20
- 26/
-END:VEVENT
-BEGIN:VEVENT
 UID:espn-401915508@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Union St.-Gilloise 2 x 2 Lech Poznan
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:King Power at Den Dreef Stadion\, Leuven
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/union-st-gilloise-x-lech-poznan-26-11-2026/
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/union-st-gilloise-x-lech-poznan-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
@@ -119,30 +56,137 @@ URL:https://ondepassajogo.com.br/jogo/union-st-gilloise-x-lech-poznan-26-11
  -2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:espn-401915517@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Dinamo Zagreb 0 x 2 Bayer Leverkusen
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Maksimir Stadium\, Zagreb
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/dinamo-zagreb-x-bayer-leverkusen-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/dinamo-zagreb-x-bayer-leverkusen-26-1
+ 1-2026/
+END:VEVENT
+BEGIN:VEVENT
 UID:espn-401915518@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Viktoria Plzen 4 x 0 Benfica
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:Doosan Arena\, Plzen
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/viktoria-plzen-x-benfica-26-11-2026/
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/viktoria-plzen-x-benfica-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
 URL:https://ondepassajogo.com.br/jogo/viktoria-plzen-x-benfica-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:espn-401915519@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Celta Vigo 1 x 2 Bournemouth
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Balaidos\, Vigo
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/celta-vigo-x-bournemouth-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/celta-vigo-x-bournemouth-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915520@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:RB Salzburg 2 x 0 Ararat-Armenia
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Red Bull Arena Salzburg\, Salzburg
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/rb-salzburg-x-ararat-armenia-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/rb-salzburg-x-ararat-armenia-26-11-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915521@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Olympiacos 2 x 4 Milan
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Georgios Karaiskakis Stadium\, Piraeus
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/olympiacos-x-milan-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/olympiacos-x-milan-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915501@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Lyon 0 x 0 Lillestrom
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Groupama Stadium\, Lyon
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/lyon-x-lillestrom-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/lyon-x-lillestrom-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915502@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Juventus 4 x 1 Omonia Nicosia
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Allianz Stadium\, Torino
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/juventus-x-omonia-nicosia-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/juventus-x-omonia-nicosia-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915503@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:OFI Crete 1 x 3 Anderlecht
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Pankritio Stadium\, Crete
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/ofi-crete-x-anderlecht-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/ofi-crete-x-anderlecht-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
 UID:espn-401915504@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Crystal Palace 2 x 1 Real Sociedad
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Selhurst Park\, London
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/crystal-palace-x-real-sociedad-26-11-2026/
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/crystal-palace-x-real-sociedad-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
@@ -150,60 +194,15 @@ URL:https://ondepassajogo.com.br/jogo/crystal-palace-x-real-sociedad-26-11-
  2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915516@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:Ferencvaros 0 x 0 NK Celje
-DTSTART:20261126T200000Z
-DTEND:20261126T220000Z
-LOCATION:Groupama Arena\, Budapest
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/ferencvaros-x-nk-celje-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/ferencvaros-x-nk-celje-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915502@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:Juventus 4 x 1 Omonia Nicosia
-DTSTART:20261126T200000Z
-DTEND:20261126T220000Z
-LOCATION:Allianz Stadium\, Torino
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/juventus-x-omonia-nicosia-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/juventus-x-omonia-nicosia-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915501@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:Lyon 0 x 0 Lillestrom
-DTSTART:20261126T200000Z
-DTEND:20261126T220000Z
-LOCATION:Groupama Stadium\, Lyon
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/lyon-x-lillestrom-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/lyon-x-lillestrom-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:espn-401915505@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:NEC Nijmegen 3 x 1 Stade Rennais
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Goffertstadion\, Nijmegen
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/nec-nijmegen-x-stade-rennais-26-11-2026/
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/nec-nijmegen-x-stade-rennais-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
@@ -211,47 +210,30 @@ URL:https://ondepassajogo.com.br/jogo/nec-nijmegen-x-stade-rennais-26-11-20
  26/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915503@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:OFI Crete 1 x 3 Anderlecht
+UID:espn-401915512@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Torreense 1 x 2 Celtic
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
-LOCATION:Pankritio Stadium\, Crete
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/ofi-crete-x-anderlecht-26-11-2026/
+LOCATION:Estádio Dr. Magalhaes Pessoa\, Leiria
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/torreense-x-celtic-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/ofi-crete-x-anderlecht-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915514@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:Sparta Prague 2 x 4 AZ Alkmaar
-DTSTART:20261126T200000Z
-DTEND:20261126T220000Z
-LOCATION:Generali Arena\, Prague
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/sparta-prague-x-az-alkmaar-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/sparta-prague-x-az-alkmaar-26-11-2026
- /
+URL:https://ondepassajogo.com.br/jogo/torreense-x-celtic-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915513@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Sunderland 1 x 1 Jagiellonia Bialystok
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Stadium of Light\, Sunderland
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/sunderland-x-jagiellonia-bialystok-26-11-20
- 26/
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/sunderland-x-jagiellonia-bialystok-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
@@ -259,15 +241,31 @@ URL:https://ondepassajogo.com.br/jogo/sunderland-x-jagiellonia-bialystok-26
  -11-2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:espn-401915514@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Sparta Prague 2 x 4 AZ Alkmaar
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Generali Arena\, Prague
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/sparta-prague-x-az-alkmaar-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Europa
+URL:https://ondepassajogo.com.br/jogo/sparta-prague-x-az-alkmaar-26-11-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:espn-401915515@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:TSG Hoffenheim 3 x 1 SK Sturm Graz
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:PreZero Arena\, Sinsheim
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-sk-sturm-graz-26-11-2026/
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/tsg-hoffenheim-x-sk-sturm-graz-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
@@ -275,19 +273,19 @@ URL:https://ondepassajogo.com.br/jogo/tsg-hoffenheim-x-sk-sturm-graz-26-11-
  2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915512@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:Torreense 1 x 2 Celtic
+UID:espn-401915516@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Ferencvaros 0 x 0 NK Celje
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
-LOCATION:Estádio Dr. Magalhaes Pessoa\, Leiria
-DESCRIPTION:Liga Europa · 5ª rodada (fase de liga)\nDetalhes do jogo: htt
- ps://ondepassajogo.com.br/jogo/torreense-x-celtic-26-11-2026/
+LOCATION:Groupama Arena\, Budapest
+DESCRIPTION:Liga Europa\nDetalhes do jogo: https://ondepassajogo.com.br/jog
+ o/ferencvaros-x-nk-celje-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Liga Europa
-URL:https://ondepassajogo.com.br/jogo/torreense-x-celtic-26-11-2026/
+URL:https://ondepassajogo.com.br/jogo/ferencvaros-x-nk-celje-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915494@ondepassajogo.com.br

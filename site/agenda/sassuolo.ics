@@ -138,4 +138,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Serie A (Itália)
 URL:https://ondepassajogo.com.br/jogo/venezia-x-sassuolo-07-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401874982@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Lecce x Sassuolo
+DTSTART:20261212T170000Z
+DTEND:20261212T190000Z
+LOCATION:Via Del Mare\, Lecce
+DESCRIPTION:Serie A (Itália)\nOnde passa: Disney+ (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/lecce-x-sassuolo-12-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Serie A (Itália)
+URL:https://ondepassajogo.com.br/jogo/lecce-x-sassuolo-12-12-2026/
+END:VEVENT
 END:VCALENDAR

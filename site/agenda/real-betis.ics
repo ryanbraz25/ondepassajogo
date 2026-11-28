@@ -211,4 +211,21 @@ TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/real-betis-x-como-09-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882775@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Real Betis x Racing Santander
+DTSTART:20261212T200000Z
+DTEND:20261212T220000Z
+LOCATION:Estádio La Cartuja\, Sevilla
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/real-betis-x-racing-san
+ tander-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/real-betis-x-racing-santander-12-12-2
+ 026/
+END:VEVENT
 END:VCALENDAR

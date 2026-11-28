@@ -182,4 +182,21 @@ CATEGORIES:Championship (Inglaterra)
 URL:https://ondepassajogo.com.br/jogo/preston-north-end-x-portsmouth-09-12-
  2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880095@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Portsmouth x Birmingham City
+DTSTART:20261212T150000Z
+DTEND:20261212T170000Z
+LOCATION:Fratton Park\, Portsmouth
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: Disney+ (a confirmar)\nD
+ etalhes e onde assistir: https://ondepassajogo.com.br/jogo/portsmouth-x-bi
+ rmingham-city-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/portsmouth-x-birmingham-city-12-12-20
+ 26/
+END:VEVENT
 END:VCALENDAR

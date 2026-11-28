@@ -137,4 +137,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/sevilla-x-malaga-07-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882770@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Málaga x Barcelona
+DTSTART:20261212T173000Z
+DTEND:20261212T193000Z
+LOCATION:La Rosaleda\, Malaga
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/malaga-x-barcelona-12-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/malaga-x-barcelona-12-12-2026/
+END:VEVENT
 END:VCALENDAR

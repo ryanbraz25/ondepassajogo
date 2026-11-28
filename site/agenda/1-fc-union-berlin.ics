@@ -111,4 +111,21 @@ CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/1-fc-union-berlin-x-hamburg-sv-05-12-
  2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884708@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:VfB Stuttgart x 1. FC Union Berlin
+DTSTART:20261212T143000Z
+DTEND:20261212T163000Z
+LOCATION:MHPArena\, Stuttgart
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/vfb-stuttgart-x-1-fc-union
+ -berlin-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/vfb-stuttgart-x-1-fc-union-berlin-12-
+ 12-2026/
+END:VEVENT
 END:VCALENDAR

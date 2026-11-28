@@ -120,4 +120,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Serie A (Itália)
 URL:https://ondepassajogo.com.br/jogo/venezia-x-sassuolo-07-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401874820@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Cagliari x Venezia
+DTSTART:20261212T140000Z
+DTEND:20261212T160000Z
+LOCATION:Unipol Domus\, Cagliari
+DESCRIPTION:Serie A (Itália)\nOnde passa: Disney+ (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/cagliari-x-venezia-12-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Serie A (Itália)
+URL:https://ondepassajogo.com.br/jogo/cagliari-x-venezia-12-12-2026/
+END:VEVENT
 END:VCALENDAR

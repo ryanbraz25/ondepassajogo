@@ -155,4 +155,21 @@ TRANSP:TRANSPARENT
 CATEGORIES:Championship (Inglaterra)
 URL:https://ondepassajogo.com.br/jogo/lincoln-city-x-stoke-city-09-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880091@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Stoke City x West Bromwich Albion
+DTSTART:20261212T123000Z
+DTEND:20261212T143000Z
+LOCATION:bet365 Stadium\, Stoke-on-Trent
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: Disney+ (a confirmar)\nD
+ etalhes e onde assistir: https://ondepassajogo.com.br/jogo/stoke-city-x-we
+ st-bromwich-albion-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/stoke-city-x-west-bromwich-albion-12-
+ 12-2026/
+END:VEVENT
 END:VCALENDAR

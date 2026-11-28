@@ -207,4 +207,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/real-betis-x-como-09-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401874821@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Como x Bologna
+DTSTART:20261212T194500Z
+DTEND:20261212T214500Z
+LOCATION:Giuseppe Sinigaglia\, Como
+DESCRIPTION:Serie A (Itália)\nOnde passa: Disney+ (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/como-x-bologna-12-12-20
+ 26/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Serie A (Itália)
+URL:https://ondepassajogo.com.br/jogo/como-x-bologna-12-12-2026/
+END:VEVENT
 END:VCALENDAR

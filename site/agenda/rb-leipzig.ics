@@ -167,4 +167,20 @@ CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/manchester-united-x-rb-leipzig-08-12-
  2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884703@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:FC Cologne x RB Leipzig
+DTSTART:20261212T143000Z
+DTEND:20261212T163000Z
+LOCATION:RheinEnergieStadion\, Cologne
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/fc-cologne-x-rb-leipzig-12
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/fc-cologne-x-rb-leipzig-12-12-2026/
+END:VEVENT
 END:VCALENDAR

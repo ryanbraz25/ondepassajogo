@@ -166,4 +166,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/aek-athens-x-galatasaray-08-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888227@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Eyupspor x Galatasaray
+DTSTART:20261212T160000Z
+DTEND:20261212T180000Z
+LOCATION:Esenyurt Necmi Kadioglu Stadi\, Istanbul
+DESCRIPTION:Liga da Turquia\nOnde passa: Disney+ (a confirmar)\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/eyupspor-x-galatasaray-12
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/eyupspor-x-galatasaray-12-12-2026/
+END:VEVENT
 END:VCALENDAR

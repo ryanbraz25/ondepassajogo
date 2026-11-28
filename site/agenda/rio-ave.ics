@@ -79,4 +79,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/rio-ave-x-casa-pia-06-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885371@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Maritimo x Rio Ave
+DTSTART:20261212T180000Z
+DTEND:20261212T200000Z
+LOCATION:Estádio do Marítimo\, Funchal
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/maritimo-x-rio-ave-12-12-20
+ 26/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/maritimo-x-rio-ave-12-12-2026/
+END:VEVENT
 END:VCALENDAR

@@ -446,4 +446,54 @@ TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)
 URL:https://ondepassajogo.com.br/jogo/ado-den-haag-x-excelsior-06-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875516@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:FC Utrecht x Fortuna Sittard
+DTSTART:20261212T153000Z
+DTEND:20261212T173000Z
+LOCATION:Stadion Galgenwaard\, Utrecht
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-utrecht-x-
+ fortuna-sittard-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-utrecht-x-fortuna-sittard-12-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875513@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Heerenveen x Go Ahead Eagles
+DTSTART:20261212T174500Z
+DTEND:20261212T194500Z
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/heerenveen-x-
+ go-ahead-eagles-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/heerenveen-x-go-ahead-eagles-12-12-20
+ 26/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875515@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:PEC Zwolle x Excelsior
+DTSTART:20261212T200000Z
+DTEND:20261212T220000Z
+LOCATION:MAC³PARK Stadion\, Zwolle
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/pec-zwolle-x-
+ excelsior-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/pec-zwolle-x-excelsior-12-12-2026/
+END:VEVENT
 END:VCALENDAR

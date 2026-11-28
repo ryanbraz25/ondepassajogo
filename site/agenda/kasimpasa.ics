@@ -108,4 +108,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga da Turquia
 URL:https://ondepassajogo.com.br/jogo/kasimpasa-x-goztepe-07-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888221@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Erzurum BB x Kasimpasa
+DTSTART:20261212T103000Z
+DTEND:20261212T123000Z
+LOCATION:Erzurum Kazim Karabekir\, Erzurum
+DESCRIPTION:Liga da Turquia\nOnde passa: Disney+ (a confirmar)\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/erzurum-bb-x-kasimpasa-12
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/erzurum-bb-x-kasimpasa-12-12-2026/
+END:VEVENT
 END:VCALENDAR

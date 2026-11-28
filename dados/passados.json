@@ -227,6 +227,147 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/al-ittihad-x-neom-sc-27-11-2026/": {
+"canais": [
+"xsports",
+"goat",
+"band"
+],
+"casa": "Al Ittihad",
+"comp": "saudita",
+"ed": "20261127",
+"eid": "401900873",
+"fora": "Neom SC",
+"inicio": "2026-11-27T14:30:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "75'",
+"n": "Y. En-Nesyri"
+}
+],
+"lg": "ksa.1",
+"links": {
+"goat": "https://www.youtube.com/@canalgoatbr"
+},
+"local": "Prince Abdullah Al-Faisal Stadium, Jeddah",
+"nota": "Xsports na TV aberta, BandSports na TV fechada e Canal GOAT no YouTube",
+"placar": {
+"casa": 1,
+"fora": 0
+},
+"status": "confirmado"
+},
+"/jogo/al-kholood-x-al-khaleej-27-11-2026/": {
+"canais": [],
+"casa": "Al Kholood",
+"comp": "saudita",
+"ed": "20261127",
+"eid": "401900872",
+"fora": "Al Khaleej",
+"inicio": "2026-11-27T09:15:00-03:00",
+"lances": [
+{
+"k": "p",
+"l": "f",
+"m": "7'",
+"n": "J. King"
+},
+{
+"k": "g",
+"l": "c",
+"m": "36'",
+"n": "C. da Costa"
+},
+{
+"k": "g",
+"l": "c",
+"m": "58'",
+"n": "J. Domingues"
+}
+],
+"lg": "ksa.1",
+"local": "King Abdullah Sport City Stadium, Buraidah",
+"placar": {
+"casa": 2,
+"fora": 1
+},
+"status": "a_confirmar"
+},
+"/jogo/al-qadsiah-x-al-fayha-27-11-2026/": {
+"canais": [
+"goat"
+],
+"casa": "Al Qadsiah",
+"comp": "saudita",
+"ed": "20261127",
+"eid": "401900870",
+"fora": "Al Fayha",
+"inicio": "2026-11-27T11:20:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "71'",
+"n": "T. Al-Ammar"
+},
+{
+"k": "g",
+"l": "c",
+"m": "88'",
+"n": "M. Abu Al-Shamat"
+}
+],
+"lg": "ksa.1",
+"links": {
+"goat": "https://www.youtube.com/@canalgoatbr"
+},
+"local": "Al Ettifaq Club Stadium, Dammam",
+"placar": {
+"casa": 2,
+"fora": 0
+},
+"status": "confirmado"
+},
+"/jogo/alanyaspor-x-konyaspor-27-11-2026/": {
+"canais": [
+"disney"
+],
+"casa": "Alanyaspor",
+"comp": "turquia",
+"ed": "20261127",
+"eid": "401888241",
+"fora": "Konyaspor",
+"inicio": "2026-11-27T14:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "15'",
+"n": "I. Hagi"
+},
+{
+"k": "g",
+"l": "f",
+"m": "23'",
+"n": "J. Muleka"
+},
+{
+"k": "p",
+"l": "f",
+"m": "90+7'",
+"n": "M. Mohamed"
+}
+],
+"lg": "tur.1",
+"local": "Kirbiyik Holding Stadyumu, Antalya",
+"placar": {
+"casa": 1,
+"fora": 2
+},
+"status": "confirmado"
+},
 "/jogo/alaves-x-deportivo-21-11-2026/": {
 "canais": [
 "cazetv"
@@ -1329,6 +1470,37 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/brest-x-paris-fc-27-11-2026/": {
+"canais": [
+"cazetv",
+"xsports"
+],
+"casa": "Brest",
+"comp": "ligue1",
+"ed": "20261127",
+"eid": "401876392",
+"fora": "Paris FC",
+"inicio": "2026-11-27T16:45:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "21'",
+"n": "L. Zogbe"
+}
+],
+"lg": "fra.1",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Stade Francis-Le Blé, Brest",
+"nota": "CazéTV no YouTube e Xsports na TV aberta",
+"placar": {
+"casa": 1,
+"fora": 0
+},
+"status": "confirmado"
+},
 "/jogo/brighton-x-universitatea-craiova-26-11-2026/": {
 "canais": [
 "cazetv"
@@ -1530,6 +1702,56 @@
 "placar": {
 "casa": 0,
 "fora": 4
+},
+"status": "a_confirmar"
+},
+"/jogo/caykur-rizespor-x-kasimpasa-27-11-2026/": {
+"canais": [
+"disney"
+],
+"casa": "Caykur Rizespor",
+"comp": "turquia",
+"ed": "20261127",
+"eid": "401888240",
+"fora": "Kasimpasa",
+"inicio": "2026-11-27T14:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "22'",
+"n": "Q. Laçi"
+},
+{
+"k": "g",
+"l": "f",
+"m": "32'",
+"n": "C. Winck"
+},
+{
+"k": "g",
+"l": "f",
+"m": "47'",
+"n": "E. Mendes Da Silva"
+},
+{
+"k": "g",
+"l": "c",
+"m": "81'",
+"n": "E. Bulut"
+},
+{
+"k": "g",
+"l": "c",
+"m": "90+1'",
+"n": "G. Borrelli"
+}
+],
+"lg": "tur.1",
+"local": "Estádio Caykur Didi, Rize",
+"placar": {
+"casa": 3,
+"fora": 2
 },
 "status": "a_confirmar"
 },
@@ -1837,6 +2059,33 @@
 "fora": 3
 },
 "rodada": "5ª rodada",
+"status": "confirmado"
+},
+"/jogo/columbus-crew-x-inter-miami-cf-27-11-2026/": {
+"canais": [
+"appletv"
+],
+"casa": "Columbus Crew",
+"comp": "mls",
+"ed": "20261127",
+"eid": "401933727",
+"fora": "Inter Miami CF",
+"inicio": "2026-11-27T22:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "90+2'",
+"n": "S. Rodríguez"
+}
+],
+"lg": "usa.1",
+"local": "ScottsMiracle-Gro Field, Columbus, Ohio",
+"placar": {
+"casa": 1,
+"fora": 0
+},
+"rodada": "Playoffs",
 "status": "confirmado"
 },
 "/jogo/como-x-aek-athens-24-11-2026/": {
@@ -2402,6 +2651,37 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/fc-groningen-x-willem-ii-27-11-2026/": {
+"canais": [],
+"casa": "FC Groningen",
+"comp": "eredivisie",
+"ed": "20261127",
+"eid": "401875536",
+"fora": "Willem II",
+"inicio": "2026-11-27T16:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "38'",
+"n": "C. Twigt"
+},
+{
+"k": "g",
+"l": "c",
+"m": "90+3'",
+"n": "T. Van Bergen"
+}
+],
+"lg": "ned.1",
+"local": "Euroborg, Groningen",
+"placar": {
+"casa": 1,
+"fora": 1
+},
+"rodada": "14ª rodada",
+"status": "a_confirmar"
+},
 "/jogo/fc-juarez-x-atlas-21-11-2026/": {
 "canais": [],
 "casa": "FC Juárez",
@@ -2614,6 +2894,46 @@
 "fora": 1
 },
 "rodada": "35ª rodada",
+"status": "confirmado"
+},
+"/jogo/fluminense-x-cruzeiro-27-11-2026/": {
+"canais": [
+"sportv",
+"premiere"
+],
+"casa": "Fluminense",
+"comp": "brasileirao-a",
+"ed": "20261127",
+"eid": "401841337",
+"fora": "Cruzeiro",
+"inicio": "2026-11-27T20:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "3'",
+"n": "Kaio Jorge"
+},
+{
+"k": "v",
+"l": "f",
+"m": "72'",
+"n": "J. Jesus"
+},
+{
+"k": "v",
+"l": "c",
+"m": "90'",
+"n": "Samuel Xavier"
+}
+],
+"lg": "bra.1",
+"local": "Estádio do Maracanã, Rio de Janeiro",
+"placar": {
+"casa": 0,
+"fora": 1
+},
+"rodada": "37ª rodada",
 "status": "confirmado"
 },
 "/jogo/fluminense-x-mirassol-22-11-2026/": {
@@ -3812,6 +4132,54 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/leon-x-cruz-azul-27-11-2026/": {
+"canais": [
+"sportynet"
+],
+"casa": "León",
+"comp": "ligamx",
+"ed": "20261126",
+"eid": "401931995",
+"fora": "Cruz Azul",
+"inicio": "2026-11-27T00:10:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "8'",
+"n": "J. Paradela"
+},
+{
+"k": "g",
+"l": "f",
+"m": "30'",
+"n": "N. Ibáñez"
+},
+{
+"k": "g",
+"l": "f",
+"m": "66'",
+"n": "J. Paradela"
+},
+{
+"k": "g",
+"l": "f",
+"m": "73'",
+"n": "G. Fernandez"
+}
+],
+"lg": "mex.1",
+"links": {
+"sportynet": "https://www.youtube.com/@SportyNetBrasil"
+},
+"local": "Estádio León, León de los Aldamas",
+"placar": {
+"casa": 0,
+"fora": 4
+},
+"rodada": "Quartas de final (ida)",
+"status": "a_confirmar"
+},
 "/jogo/levante-x-elche-23-11-2026/": {
 "canais": [
 "cazetv"
@@ -3843,6 +4211,54 @@
 "fora": 1
 },
 "status": "a_confirmar"
+},
+"/jogo/levante-x-racing-santander-27-11-2026/": {
+"canais": [
+"cazetv"
+],
+"casa": "Levante",
+"comp": "laliga",
+"ed": "20261127",
+"eid": "401882791",
+"fora": "Racing Santander",
+"inicio": "2026-11-27T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "42'",
+"n": "I. Romero"
+},
+{
+"k": "g",
+"l": "f",
+"m": "66'",
+"n": "P. García"
+},
+{
+"k": "g",
+"l": "f",
+"m": "81'",
+"n": "Y. Zabiri"
+},
+{
+"k": "g",
+"l": "f",
+"m": "90+5'",
+"n": "P. García"
+}
+],
+"lg": "esp.1",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV"
+},
+"local": "Estadi Ciutat de València, Manises",
+"placar": {
+"casa": 1,
+"fora": 3
+},
+"rodada": "14ª rodada",
+"status": "confirmado"
 },
 "/jogo/lille-x-bayern-de-munique-25-11-2026/": {
 "canais": [
@@ -4097,6 +4513,50 @@
 "fora": 2
 },
 "rodada": "5ª rodada",
+"status": "confirmado"
+},
+"/jogo/maritimo-x-c-d-nacional-27-11-2026/": {
+"canais": [
+"disney"
+],
+"casa": "Maritimo",
+"comp": "portugal",
+"ed": "20261127",
+"eid": "401885389",
+"fora": "C.D. Nacional",
+"inicio": "2026-11-27T17:15:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "f",
+"m": "36'",
+"n": "S. Min-Kyu"
+},
+{
+"k": "g",
+"l": "f",
+"m": "51'",
+"n": "M. Jensen"
+},
+{
+"k": "v",
+"l": "c",
+"m": "89'",
+"n": "R. Correia"
+},
+{
+"k": "g",
+"l": "c",
+"m": "90+4'",
+"n": "S. Bamba"
+}
+],
+"lg": "por.1",
+"local": "Estádio do Marítimo, Funchal",
+"placar": {
+"casa": 1,
+"fora": 2
+},
 "status": "confirmado"
 },
 "/jogo/marseille-x-le-mans-22-11-2026/": {
@@ -4630,6 +5090,58 @@
 "fora": 1
 },
 "status": "a_confirmar"
+},
+"/jogo/nottingham-forest-x-chelsea-27-11-2026/": {
+"canais": [
+"espn",
+"disney"
+],
+"casa": "Nottingham Forest",
+"comp": "premier",
+"ed": "20261127",
+"eid": "401879225",
+"fora": "Chelsea",
+"inicio": "2026-11-27T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "5'",
+"n": "Igor Jesus"
+},
+{
+"k": "p",
+"l": "c",
+"m": "51'",
+"n": "M. Gibbs-White"
+},
+{
+"k": "g",
+"l": "f",
+"m": "54'",
+"n": "E. Emegha"
+},
+{
+"k": "g",
+"l": "c",
+"m": "72'",
+"n": "M. Gibbs-White"
+},
+{
+"k": "g",
+"l": "f",
+"m": "89'",
+"n": "E. Emegha"
+}
+],
+"lg": "eng.1",
+"local": "The City Ground, Nottingham",
+"placar": {
+"casa": 3,
+"fora": 2
+},
+"rodada": "12ª rodada",
+"status": "confirmado"
 },
 "/jogo/ofi-crete-x-anderlecht-26-11-2026/": {
 "canais": [
@@ -6187,6 +6699,39 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/southampton-x-middlesbrough-27-11-2026/": {
+"canais": [
+"disney",
+"espn"
+],
+"casa": "Southampton",
+"comp": "championship",
+"ed": "20261127",
+"eid": "401880129",
+"fora": "Middlesbrough",
+"inicio": "2026-11-27T17:00:00-03:00",
+"lances": [
+{
+"k": "g",
+"l": "c",
+"m": "59'",
+"n": "R. Manning"
+},
+{
+"k": "g",
+"l": "c",
+"m": "79'",
+"n": "F. Azaz"
+}
+],
+"lg": "eng.2",
+"local": "St. Mary's Stadium, Southampton",
+"placar": {
+"casa": 2,
+"fora": 0
+},
+"status": "confirmado"
+},
 "/jogo/sparta-prague-x-az-alkmaar-26-11-2026/": {
 "canais": [
 "cazetv"
@@ -7059,6 +7604,25 @@
 },
 "status": "a_confirmar"
 },
+"/jogo/venezia-x-bologna-27-11-2026/": {
+"canais": [
+"disney"
+],
+"casa": "Venezia",
+"comp": "serie-a-ita",
+"ed": "20261127",
+"eid": "401875004",
+"fora": "Bologna",
+"inicio": "2026-11-27T16:45:00-03:00",
+"lg": "ita.1",
+"local": "Stadio Pier Luigi Penzo, Venezia",
+"placar": {
+"casa": 0,
+"fora": 0
+},
+"rodada": "13ª rodada",
+"status": "confirmado"
+},
 "/jogo/viktoria-plzen-x-benfica-26-11-2026/": {
 "canais": [
 "cazetv"
@@ -7105,6 +7669,46 @@
 "fora": 0
 },
 "rodada": "5ª rodada (fase de liga)",
+"status": "confirmado"
+},
+"/jogo/vila-nova-x-atletico-go-27-11-2026/": {
+"canais": [
+"espn",
+"disney",
+"xsports",
+"goat"
+],
+"casa": "Vila Nova",
+"comp": "brasileirao-b",
+"ed": "20261127",
+"eid": "401912683",
+"fora": "Atlético-GO",
+"inicio": "2026-11-27T20:00:00-03:00",
+"lances": [
+{
+"k": "c",
+"l": "c",
+"m": "53'",
+"n": "J. Barreto"
+},
+{
+"k": "g",
+"l": "c",
+"m": "77'",
+"n": "J. Vieira"
+}
+],
+"lg": "bra.2",
+"links": {
+"goat": "https://www.youtube.com/@canalgoatbr"
+},
+"local": "Estádio Onésio Brasileiro Alvarenga, Goiãnia",
+"nota": "Clássico; vale vaga na Série A",
+"placar": {
+"casa": 2,
+"fora": 0
+},
+"rodada": "Playoff de acesso - volta",
 "status": "confirmado"
 },
 "/jogo/vitoria-x-red-bull-bragantino-19-11-2026/": {
@@ -7157,6 +7761,70 @@
 "fora": 1
 },
 "status": "a_confirmar"
+},
+"/jogo/werder-bremen-x-borussia-monchengladbach-27-11-2026/": {
+"canais": [
+"onefootball",
+"cazetv",
+"sportynet"
+],
+"casa": "Werder Bremen",
+"comp": "bundesliga",
+"ed": "20261127",
+"eid": "401884720",
+"fora": "Borussia Mönchengladbach",
+"inicio": "2026-11-27T16:30:00-03:00",
+"lances": [
+{
+"k": "p",
+"l": "f",
+"m": "27'",
+"n": "K. Diks"
+},
+{
+"k": "g",
+"l": "c",
+"m": "38'",
+"n": "E. Dinkci"
+},
+{
+"k": "g",
+"l": "f",
+"m": "46'",
+"n": "F. Honorat"
+},
+{
+"k": "g",
+"l": "f",
+"m": "78'",
+"n": "F. Honorat"
+},
+{
+"k": "g",
+"l": "c",
+"m": "85'",
+"n": "E. Dinkci"
+},
+{
+"k": "g",
+"l": "c",
+"m": "90+2'",
+"n": "N. Füllkrug"
+}
+],
+"lg": "ger.1",
+"links": {
+"cazetv": "https://www.youtube.com/@CazeTV",
+"sportynet": "https://www.youtube.com/@SportyNetBrasil"
+},
+"local": "Weserstadion, Bremen",
+"nota": "Grátis no YouTube (CazéTV e SportyNet)",
+"placar": {
+"casa": 3,
+"fora": 3
+},
+"rodada": "11ª rodada",
+"status": "confirmado"
 },
 "/jogo/werder-bremen-x-hamburg-sv-22-11-2026/": {
 "canais": [

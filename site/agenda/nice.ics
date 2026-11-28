@@ -108,4 +108,19 @@ TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
 URL:https://ondepassajogo.com.br/jogo/marseille-x-nice-06-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876371@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Nice x Lens
+DTSTART:20261212T194500Z
+DTEND:20261212T214500Z
+LOCATION:Allianz Riviera\, Nice
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/nice-x-lens-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/nice-x-lens-12-12-2026/
+END:VEVENT
 END:VCALENDAR

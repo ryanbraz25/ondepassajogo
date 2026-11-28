@@ -107,4 +107,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
 URL:https://ondepassajogo.com.br/jogo/troyes-x-lyon-06-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876374@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Brest x Troyes
+DTSTART:20261212T194500Z
+DTEND:20261212T214500Z
+LOCATION:Stade Francis-Le Blé\, Brest
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/brest-x-troyes-12-12-20
+ 26/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/brest-x-troyes-12-12-2026/
+END:VEVENT
 END:VCALENDAR

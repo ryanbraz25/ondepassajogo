@@ -553,4 +553,70 @@ TRANSP:TRANSPARENT
 CATEGORIES:La Liga
 URL:https://ondepassajogo.com.br/jogo/elche-x-sevilla-11-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882771@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Levante x Alavés
+DTSTART:20261212T130000Z
+DTEND:20261212T150000Z
+LOCATION:Estadi Ciutat de València\, Manises
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/levante-x-alaves-12-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/levante-x-alaves-12-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882767@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Villarreal x Rayo Vallecano
+DTSTART:20261212T151500Z
+DTEND:20261212T171500Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/villarreal-x-rayo-valle
+ cano-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/villarreal-x-rayo-vallecano-12-12-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882770@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Málaga x Barcelona
+DTSTART:20261212T173000Z
+DTEND:20261212T193000Z
+LOCATION:La Rosaleda\, Malaga
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/malaga-x-barcelona-12-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/malaga-x-barcelona-12-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882775@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Real Betis x Racing Santander
+DTSTART:20261212T200000Z
+DTEND:20261212T220000Z
+LOCATION:Estádio La Cartuja\, Sevilla
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/real-betis-x-racing-san
+ tander-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/real-betis-x-racing-santander-12-12-2
+ 026/
+END:VEVENT
 END:VCALENDAR

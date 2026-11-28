@@ -51,15 +51,14 @@ CATEGORIES:Conference League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915811@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Heart of Midlothian 2 x 3 AS Monaco
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:Tynecastle Park\, Edinburgh
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/heart-of-midlothian-x-as-monaco-26-11
- -2026/
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/heart-of-midlothian-x-as-monaco-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League

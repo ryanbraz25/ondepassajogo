@@ -312,4 +312,52 @@ CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/academico-de-viseu-x-arouca-11-12-202
  6/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885373@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Estoril x Santa Clara
+DTSTART:20261212T153000Z
+DTEND:20261212T173000Z
+LOCATION:Estádio António Coimbra da Mota\, Estoril
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/estoril-x-santa-clara-12-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/estoril-x-santa-clara-12-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885371@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Maritimo x Rio Ave
+DTSTART:20261212T180000Z
+DTEND:20261212T200000Z
+LOCATION:Estádio do Marítimo\, Funchal
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/maritimo-x-rio-ave-12-12-20
+ 26/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/maritimo-x-rio-ave-12-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885372@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Gil Vicente x Sporting CP
+DTSTART:20261212T203000Z
+DTEND:20261212T223000Z
+LOCATION:Estádio Cidade de Barcelos\, Barcelos
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/gil-vicente-x-sporting-cp-1
+ 2-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/gil-vicente-x-sporting-cp-12-12-2026/
+END:VEVENT
 END:VCALENDAR

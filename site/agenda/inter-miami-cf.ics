@@ -105,15 +105,14 @@ URL:https://ondepassajogo.com.br/jogo/inter-miami-cf-x-columbus-crew-21-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933727@ondepassajogo.com.br
-DTSTAMP:20261125T030534Z
-LAST-MODIFIED:20261125T030534Z
-SUMMARY:Columbus Crew x Inter Miami CF
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Columbus Crew 1 x 0 Inter Miami CF
 DTSTART:20261128T010000Z
 DTEND:20261128T030000Z
 LOCATION:ScottsMiracle-Gro Field\, Columbus\, Ohio
-DESCRIPTION:MLS · Playoffs\nOnde passa: Apple TV\nDetalhes e onde assistir
- : https://ondepassajogo.com.br/jogo/columbus-crew-x-inter-miami-cf-27-11-2
- 026/
+DESCRIPTION:MLS · Playoffs\nDetalhes do jogo: https://ondepassajogo.com.br
+ /jogo/columbus-crew-x-inter-miami-cf-27-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
@@ -122,15 +121,16 @@ URL:https://ondepassajogo.com.br/jogo/columbus-crew-x-inter-miami-cf-27-11-
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401933720@ondepassajogo.com.br
-DTSTAMP:20261126T030549Z
-LAST-MODIFIED:20261126T030549Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Inter Miami CF x Columbus Crew
 DTSTART:20261203T003000Z
 DTEND:20261203T023000Z
 LOCATION:Nu Stadium\, Miami\, Florida
-DESCRIPTION:MLS\nOnde passa: Apple TV\nDetalhes e onde assistir: https://on
- depassajogo.com.br/jogo/inter-miami-cf-x-columbus-crew-02-12-2026/
-STATUS:CONFIRMED
+DESCRIPTION:MLS\nOnde passa: Apple TV\nCancelado\nDetalhes e onde assistir:
+  https://ondepassajogo.com.br/jogo/inter-miami-cf-x-columbus-crew-02-12-20
+ 26/
+STATUS:CANCELLED
 TRANSP:TRANSPARENT
 CATEGORIES:MLS
 URL:https://ondepassajogo.com.br/jogo/inter-miami-cf-x-columbus-crew-02-12-

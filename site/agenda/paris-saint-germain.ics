@@ -184,4 +184,21 @@ CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/aston-villa-x-paris-saint-germain-08-
  12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876370@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Paris Saint-Germain x Paris FC
+DTSTART:20261212T161500Z
+DTEND:20261212T181500Z
+LOCATION:Parc des Princes\, Paris
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/paris-saint-germain-x-p
+ aris-fc-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/paris-saint-germain-x-paris-fc-12-12-
+ 2026/
+END:VEVENT
 END:VCALENDAR

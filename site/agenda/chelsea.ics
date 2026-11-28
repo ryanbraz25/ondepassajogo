@@ -124,4 +124,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/chelsea-x-liverpool-05-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878742@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Manchester City x Chelsea
+DTSTART:20261212T173000Z
+DTEND:20261212T193000Z
+LOCATION:Etihad Stadium\, Manchester
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/manchester-city-x-chelsea-
+ 12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/manchester-city-x-chelsea-12-12-2026/
+END:VEVENT
 END:VCALENDAR

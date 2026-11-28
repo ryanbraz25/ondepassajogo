@@ -124,4 +124,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/everton-x-fulham-06-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401879206@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Fulham x Brentford
+DTSTART:20261212T150000Z
+DTEND:20261212T170000Z
+LOCATION:Craven Cottage\, London
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/fulham-x-brentford-12-12-2
+ 026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/fulham-x-brentford-12-12-2026/
+END:VEVENT
 END:VCALENDAR

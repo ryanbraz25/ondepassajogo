@@ -496,4 +496,52 @@ TRANSP:TRANSPARENT
 CATEGORIES:Serie A (Itália)
 URL:https://ondepassajogo.com.br/jogo/udinese-x-frosinone-11-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401874820@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Cagliari x Venezia
+DTSTART:20261212T140000Z
+DTEND:20261212T160000Z
+LOCATION:Unipol Domus\, Cagliari
+DESCRIPTION:Serie A (Itália)\nOnde passa: Disney+ (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/cagliari-x-venezia-12-1
+ 2-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Serie A (Itália)
+URL:https://ondepassajogo.com.br/jogo/cagliari-x-venezia-12-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401874982@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Lecce x Sassuolo
+DTSTART:20261212T170000Z
+DTEND:20261212T190000Z
+LOCATION:Via Del Mare\, Lecce
+DESCRIPTION:Serie A (Itália)\nOnde passa: Disney+ (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/lecce-x-sassuolo-12-12-
+ 2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Serie A (Itália)
+URL:https://ondepassajogo.com.br/jogo/lecce-x-sassuolo-12-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401874821@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Como x Bologna
+DTSTART:20261212T194500Z
+DTEND:20261212T214500Z
+LOCATION:Giuseppe Sinigaglia\, Como
+DESCRIPTION:Serie A (Itália)\nOnde passa: Disney+ (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/como-x-bologna-12-12-20
+ 26/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Serie A (Itália)
+URL:https://ondepassajogo.com.br/jogo/como-x-bologna-12-12-2026/
+END:VEVENT
 END:VCALENDAR

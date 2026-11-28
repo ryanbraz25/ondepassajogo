@@ -109,4 +109,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Eredivisie (Holanda)
 URL:https://ondepassajogo.com.br/jogo/ado-den-haag-x-excelsior-06-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875515@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:PEC Zwolle x Excelsior
+DTSTART:20261212T200000Z
+DTEND:20261212T220000Z
+LOCATION:MAC³PARK Stadion\, Zwolle
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/pec-zwolle-x-
+ excelsior-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/pec-zwolle-x-excelsior-12-12-2026/
+END:VEVENT
 END:VCALENDAR

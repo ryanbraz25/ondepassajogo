@@ -168,4 +168,21 @@ TRANSP:TRANSPARENT
 CATEGORIES:Championship (Inglaterra)
 URL:https://ondepassajogo.com.br/jogo/southampton-x-burnley-09-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401880098@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Cardiff City x Southampton
+DTSTART:20261212T150000Z
+DTEND:20261212T170000Z
+LOCATION:Cardiff City Stadium\, Cardiff
+DESCRIPTION:Championship (Inglaterra)\nOnde passa: Disney+ (a confirmar)\nD
+ etalhes e onde assistir: https://ondepassajogo.com.br/jogo/cardiff-city-x-
+ southampton-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Championship (Inglaterra)
+URL:https://ondepassajogo.com.br/jogo/cardiff-city-x-southampton-12-12-2026
+ /
+END:VEVENT
 END:VCALENDAR

@@ -196,4 +196,21 @@ TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/villarreal-x-sabah-fk-08-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401882767@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Villarreal x Rayo Vallecano
+DTSTART:20261212T151500Z
+DTEND:20261212T171500Z
+LOCATION:Estádio de la Cerámica\, Villarreal
+DESCRIPTION:La Liga\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/villarreal-x-rayo-valle
+ cano-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:La Liga
+URL:https://ondepassajogo.com.br/jogo/villarreal-x-rayo-vallecano-12-12-202
+ 6/
+END:VEVENT
 END:VCALENDAR

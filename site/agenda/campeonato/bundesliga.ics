@@ -469,4 +469,88 @@ TRANSP:TRANSPARENT
 CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/hamburg-sv-x-schalke-04-11-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884709@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Borussia Dortmund x FC Augsburg
+DTSTART:20261212T143000Z
+DTEND:20261212T163000Z
+LOCATION:Signal Iduna Park\, Aue
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/borussia-dortmund-x-fc-aug
+ sburg-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/borussia-dortmund-x-fc-augsburg-12-12
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884703@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:FC Cologne x RB Leipzig
+DTSTART:20261212T143000Z
+DTEND:20261212T163000Z
+LOCATION:RheinEnergieStadion\, Cologne
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/fc-cologne-x-rb-leipzig-12
+ -12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/fc-cologne-x-rb-leipzig-12-12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884701@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:SC Paderborn 07 x SV Elversberg
+DTSTART:20261212T143000Z
+DTEND:20261212T163000Z
+LOCATION:Home Deluxe Arena\, Paderborn
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sc-paderborn-07-x-sv-elver
+ sberg-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sc-paderborn-07-x-sv-elversberg-12-12
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884708@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:VfB Stuttgart x 1. FC Union Berlin
+DTSTART:20261212T143000Z
+DTEND:20261212T163000Z
+LOCATION:MHPArena\, Stuttgart
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/vfb-stuttgart-x-1-fc-union
+ -berlin-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/vfb-stuttgart-x-1-fc-union-berlin-12-
+ 12-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884705@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Borussia Mönchengladbach x Eintracht Frankfurt
+DTSTART:20261212T173000Z
+DTEND:20261212T193000Z
+LOCATION:BORUSSIA-PARK\, Mönchengladbach
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/borussia-monchengladbach-x
+ -eintracht-frankfurt-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/borussia-monchengladbach-x-eintracht-
+ frankfurt-12-12-2026/
+END:VEVENT
 END:VCALENDAR

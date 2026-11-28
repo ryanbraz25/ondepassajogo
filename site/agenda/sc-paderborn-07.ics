@@ -111,4 +111,21 @@ CATEGORIES:Bundesliga
 URL:https://ondepassajogo.com.br/jogo/bayern-de-munique-x-sc-paderborn-07-0
  4-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401884701@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:SC Paderborn 07 x SV Elversberg
+DTSTART:20261212T143000Z
+DTEND:20261212T163000Z
+LOCATION:Home Deluxe Arena\, Paderborn
+DESCRIPTION:Bundesliga\nOnde passa: OneFootball (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/sc-paderborn-07-x-sv-elver
+ sberg-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Bundesliga
+URL:https://ondepassajogo.com.br/jogo/sc-paderborn-07-x-sv-elversberg-12-12
+ -2026/
+END:VEVENT
 END:VCALENDAR

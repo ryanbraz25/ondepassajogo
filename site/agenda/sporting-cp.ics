@@ -138,4 +138,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Champions League
 URL:https://ondepassajogo.com.br/jogo/roma-x-sporting-cp-08-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885372@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Gil Vicente x Sporting CP
+DTSTART:20261212T203000Z
+DTEND:20261212T223000Z
+LOCATION:Estádio Cidade de Barcelos\, Barcelos
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/gil-vicente-x-sporting-cp-1
+ 2-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/gil-vicente-x-sporting-cp-12-12-2026/
+END:VEVENT
 END:VCALENDAR

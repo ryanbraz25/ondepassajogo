@@ -11,15 +11,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:espn-401915816@ondepassajogo.com.br
-DTSTAMP:20261126T172420Z
-LAST-MODIFIED:20261126T172420Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Kairat Almaty 1 x 0 Mjällby AIF
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 LOCATION:Almaty Ortalyk Stadium\, Almaty
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/kairat-almaty-x-mjallby-aif-26-11-202
- 6/
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/kairat-almaty-x-mjallby-aif-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
@@ -27,48 +26,60 @@ URL:https://ondepassajogo.com.br/jogo/kairat-almaty-x-mjallby-aif-26-11-202
  6/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915815@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:Ajax Amsterdam 4 x 0 FC Thun
+UID:espn-401915739@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Kauno Zalgiris 2 x 0 Riga FC
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
-LOCATION:Johan Cruijff Arena\, Amsterdam
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/
+LOCATION:S. Darius and S. Gireno Stadium\, Kaunas
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/kauno-zalgiris-x-riga-fc-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/
+URL:https://ondepassajogo.com.br/jogo/kauno-zalgiris-x-riga-fc-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915814@ondepassajogo.com.br
-DTSTAMP:20261127T025347Z
-LAST-MODIFIED:20261127T025347Z
-SUMMARY:Brighton 4 x 0 Universitatea Craiova
+UID:espn-401915808@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:SK Brann 1 x 4 AGF
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
-LOCATION:American Express Stadium\, Falmer
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/brighton-x-universitatea-craiova-26-1
- 1-2026/
+LOCATION:Brann Stadium\, Bergen
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/sk-brann-x-agf-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/brighton-x-universitatea-craiova-26-1
- 1-2026/
+URL:https://ondepassajogo.com.br/jogo/sk-brann-x-agf-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915809@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Pafos 0 x 2 FC Midtjylland
+DTSTART:20261126T174500Z
+DTEND:20261126T194500Z
+LOCATION:Alphamega Stadium\, Kolossi
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/pafos-x-fc-midtjylland-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/pafos-x-fc-midtjylland-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915810@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Egnatia 2 x 1 Lincoln Red Imps
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:Air Albania Stadium\, Tirana
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/egnatia-x-lincoln-red-imps-26-11-2026
- /
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/egnatia-x-lincoln-red-imps-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
@@ -77,15 +88,14 @@ URL:https://ondepassajogo.com.br/jogo/egnatia-x-lincoln-red-imps-26-11-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915811@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Heart of Midlothian 2 x 3 AS Monaco
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:Tynecastle Park\, Edinburgh
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/heart-of-midlothian-x-as-monaco-26-11
- -2026/
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/heart-of-midlothian-x-as-monaco-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
@@ -93,172 +103,76 @@ URL:https://ondepassajogo.com.br/jogo/heart-of-midlothian-x-as-monaco-26-11
  -2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915813@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:Iberia 1999 1 x 0 Getafe
-DTSTART:20261126T174500Z
-DTEND:20261126T194500Z
-LOCATION:Mikheil Meskhi Stadioni\, Tbilisi
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/iberia-1999-x-getafe-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/iberia-1999-x-getafe-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:espn-401915812@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Jablonec 2 x 0 FC Lugano
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
 LOCATION:Stadion Strelnice\, Jablonec
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/jablonec-x-fc-lugano-26-11-2026/
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/jablonec-x-fc-lugano-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
 URL:https://ondepassajogo.com.br/jogo/jablonec-x-fc-lugano-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915739@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:Kauno Zalgiris 2 x 0 Riga FC
+UID:espn-401915813@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Iberia 1999 1 x 0 Getafe
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
-LOCATION:S. Darius and S. Gireno Stadium\, Kaunas
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/kauno-zalgiris-x-riga-fc-26-11-2026/
+LOCATION:Mikheil Meskhi Stadioni\, Tbilisi
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/iberia-1999-x-getafe-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/kauno-zalgiris-x-riga-fc-26-11-2026/
+URL:https://ondepassajogo.com.br/jogo/iberia-1999-x-getafe-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915809@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:Pafos 0 x 2 FC Midtjylland
+UID:espn-401915814@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Brighton 4 x 0 Universitatea Craiova
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
-LOCATION:Alphamega Stadium\, Kolossi
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/pafos-x-fc-midtjylland-26-11-2026/
+LOCATION:American Express Stadium\, Falmer
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/brighton-x-universitatea-craiova-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/pafos-x-fc-midtjylland-26-11-2026/
+URL:https://ondepassajogo.com.br/jogo/brighton-x-universitatea-craiova-26-1
+ 1-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915808@ondepassajogo.com.br
-DTSTAMP:20261126T201031Z
-LAST-MODIFIED:20261126T201031Z
-SUMMARY:SK Brann 1 x 4 AGF
+UID:espn-401915815@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Ajax Amsterdam 4 x 0 FC Thun
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
-LOCATION:Brann Stadium\, Bergen
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/sk-brann-x-agf-26-11-2026/
+LOCATION:Johan Cruijff Arena\, Amsterdam
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/sk-brann-x-agf-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915806@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:Borac Banja Luka 2 x 3 Atalanta
-DTSTART:20261126T200000Z
-DTEND:20261126T220000Z
-LOCATION:Gradski Stadion Banja Luka\, Banja Luka
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/borac-banja-luka-x-atalanta-26-11-202
- 6/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/borac-banja-luka-x-atalanta-26-11-202
- 6/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915802@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:Braga 4 x 0 KuPS Kuopio
-DTSTART:20261126T200000Z
-DTEND:20261126T220000Z
-LOCATION:Estádio Municipal de Braga\, Braga
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/braga-x-kups-kuopio-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/braga-x-kups-kuopio-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915803@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:CSKA Sofia 1 x 2 Trabzonspor
-DTSTART:20261126T200000Z
-DTEND:20261126T220000Z
-LOCATION:Balgarska Armia Stadium\, Sofia
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/cska-sofia-x-trabzonspor-26-11-2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/cska-sofia-x-trabzonspor-26-11-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915807@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:FC Nordsjælland 3 x 2 Panathinaikos
-DTSTART:20261126T200000Z
-DTEND:20261126T220000Z
-LOCATION:Right to Dream Park\, Farum
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/fc-nordsjlland-x-panathinaikos-26-11-
- 2026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/fc-nordsjlland-x-panathinaikos-26-11-
- 2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:espn-401915805@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:Hajduk Split 0 x 2 Sint-Truidense
-DTSTART:20261126T200000Z
-DTEND:20261126T220000Z
-LOCATION:Stadion Poljud\, Split
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/hajduk-split-x-sint-truidense-26-11-2
- 026/
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/hajduk-split-x-sint-truidense-26-11-2
- 026/
+URL:https://ondepassajogo.com.br/jogo/ajax-amsterdam-x-fc-thun-26-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915738@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:Inter D'Escaldes 2 x 0 F.C. København
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Estadi de la FAF d'Encamp\, Encamp
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/inter-d-escaldes-x-f-c-kbenhavn-26-11
- -2026/
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/inter-d-escaldes-x-f-c-kbenhavn-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
@@ -266,16 +180,60 @@ URL:https://ondepassajogo.com.br/jogo/inter-d-escaldes-x-f-c-kbenhavn-26-11
  -2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:espn-401915801@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:SC Freiburg 2 x 1 FC Twente
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/sc-freiburg-x-fc-twente-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/sc-freiburg-x-fc-twente-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915802@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Braga 4 x 0 KuPS Kuopio
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Estádio Municipal de Braga\, Braga
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/braga-x-kups-kuopio-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/braga-x-kups-kuopio-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915803@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:CSKA Sofia 1 x 2 Trabzonspor
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Balgarska Armia Stadium\, Sofia
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/cska-sofia-x-trabzonspor-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/cska-sofia-x-trabzonspor-26-11-2026/
+END:VEVENT
+BEGIN:VEVENT
 UID:espn-401915804@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:KAA Gent 1 x 1 Red Star Belgrade
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Ghelamco Arena\, Ghent
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/kaa-gent-x-red-star-belgrade-26-11-20
- 26/
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/kaa-gent-x-red-star-belgrade-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
@@ -283,19 +241,52 @@ URL:https://ondepassajogo.com.br/jogo/kaa-gent-x-red-star-belgrade-26-11-20
  26/
 END:VEVENT
 BEGIN:VEVENT
-UID:espn-401915801@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
-SUMMARY:SC Freiburg 2 x 1 FC Twente
+UID:espn-401915805@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Hajduk Split 0 x 2 Sint-Truidense
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
-LOCATION:Europa-Park Stadion\, Freiburg im Breisgau
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/sc-freiburg-x-fc-twente-26-11-2026/
+LOCATION:Stadion Poljud\, Split
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/hajduk-split-x-sint-truidense-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League
-URL:https://ondepassajogo.com.br/jogo/sc-freiburg-x-fc-twente-26-11-2026/
+URL:https://ondepassajogo.com.br/jogo/hajduk-split-x-sint-truidense-26-11-2
+ 026/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915806@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Borac Banja Luka 2 x 3 Atalanta
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Gradski Stadion Banja Luka\, Banja Luka
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/borac-banja-luka-x-atalanta-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/borac-banja-luka-x-atalanta-26-11-202
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-401915807@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:FC Nordsjælland 3 x 2 Panathinaikos
+DTSTART:20261126T200000Z
+DTEND:20261126T220000Z
+LOCATION:Right to Dream Park\, Farum
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/fc-nordsjlland-x-panathinaikos-26-11-2026/
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+CATEGORIES:Conference League
+URL:https://ondepassajogo.com.br/jogo/fc-nordsjlland-x-panathinaikos-26-11-
+ 2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915737@ondepassajogo.com.br

@@ -51,15 +51,14 @@ CATEGORIES:Conference League
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401915804@ondepassajogo.com.br
-DTSTAMP:20261126T220347Z
-LAST-MODIFIED:20261126T220347Z
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
 SUMMARY:KAA Gent 1 x 1 Red Star Belgrade
 DTSTART:20261126T200000Z
 DTEND:20261126T220000Z
 LOCATION:Ghelamco Arena\, Ghent
-DESCRIPTION:Conference League · 4ª rodada (fase de liga)\nDetalhes do jog
- o: https://ondepassajogo.com.br/jogo/kaa-gent-x-red-star-belgrade-26-11-20
- 26/
+DESCRIPTION:Conference League\nDetalhes do jogo: https://ondepassajogo.com.
+ br/jogo/kaa-gent-x-red-star-belgrade-26-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Conference League

@@ -124,4 +124,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Premier League
 URL:https://ondepassajogo.com.br/jogo/leeds-x-ipswich-town-05-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401878743@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Liverpool x Leeds
+DTSTART:20261212T150000Z
+DTEND:20261212T170000Z
+LOCATION:Anfield\, Liverpool
+DESCRIPTION:Premier League\nOnde passa: Disney+ (a confirmar)\nDetalhes e o
+ nde assistir: https://ondepassajogo.com.br/jogo/liverpool-x-leeds-12-12-20
+ 26/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Premier League
+URL:https://ondepassajogo.com.br/jogo/liverpool-x-leeds-12-12-2026/
+END:VEVENT
 END:VCALENDAR

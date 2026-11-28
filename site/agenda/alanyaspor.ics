@@ -107,4 +107,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga da Turquia
 URL:https://ondepassajogo.com.br/jogo/amed-sfk-x-alanyaspor-05-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401888226@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Alanyaspor x Samsunspor
+DTSTART:20261212T130000Z
+DTEND:20261212T150000Z
+LOCATION:Kirbiyik Holding Stadyumu\, Antalya
+DESCRIPTION:Liga da Turquia\nOnde passa: Disney+ (a confirmar)\nDetalhes e 
+ onde assistir: https://ondepassajogo.com.br/jogo/alanyaspor-x-samsunspor-1
+ 2-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga da Turquia
+URL:https://ondepassajogo.com.br/jogo/alanyaspor-x-samsunspor-12-12-2026/
+END:VEVENT
 END:VCALENDAR

@@ -111,4 +111,21 @@ CATEGORIES:Eredivisie (Holanda)
 URL:https://ondepassajogo.com.br/jogo/fortuna-sittard-x-pec-zwolle-05-12-20
  26/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401875516@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:FC Utrecht x Fortuna Sittard
+DTSTART:20261212T153000Z
+DTEND:20261212T173000Z
+LOCATION:Stadion Galgenwaard\, Utrecht
+DESCRIPTION:Eredivisie (Holanda)\nOnde passa: canais ainda não anunciados\
+ nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo/fc-utrecht-x-
+ fortuna-sittard-12-12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Eredivisie (Holanda)
+URL:https://ondepassajogo.com.br/jogo/fc-utrecht-x-fortuna-sittard-12-12-20
+ 26/
+END:VEVENT
 END:VCALENDAR

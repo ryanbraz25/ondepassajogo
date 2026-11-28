@@ -107,4 +107,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
 URL:https://ondepassajogo.com.br/jogo/strasbourg-x-lorient-05-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401876376@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Angers x Strasbourg
+DTSTART:20261212T194500Z
+DTEND:20261212T214500Z
+LOCATION:Stade Raymond Kopa\, Angers
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
+ e onde assistir: https://ondepassajogo.com.br/jogo/angers-x-strasbourg-12-
+ 12-2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Ligue 1
+URL:https://ondepassajogo.com.br/jogo/angers-x-strasbourg-12-12-2026/
+END:VEVENT
 END:VCALENDAR

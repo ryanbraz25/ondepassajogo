@@ -80,4 +80,20 @@ TRANSP:TRANSPARENT
 CATEGORIES:Liga Portugal
 URL:https://ondepassajogo.com.br/jogo/santa-clara-x-fc-porto-05-12-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:espn-401885373@ondepassajogo.com.br
+DTSTAMP:20261128T034952Z
+LAST-MODIFIED:20261128T034952Z
+SUMMARY:Estoril x Santa Clara
+DTSTART:20261212T153000Z
+DTEND:20261212T173000Z
+LOCATION:Estádio António Coimbra da Mota\, Estoril
+DESCRIPTION:Liga Portugal\nOnde passa: Disney+ (a confirmar)\nDetalhes e on
+ de assistir: https://ondepassajogo.com.br/jogo/estoril-x-santa-clara-12-12
+ -2026/
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+CATEGORIES:Liga Portugal
+URL:https://ondepassajogo.com.br/jogo/estoril-x-santa-clara-12-12-2026/
+END:VEVENT
 END:VCALENDAR
