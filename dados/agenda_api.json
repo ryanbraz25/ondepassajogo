@@ -208,10 +208,20 @@
     "l": "f",
     "m": "72'",
     "n": "J. Jesus"
+   },
+   {
+    "k": "v",
+    "l": "c",
+    "m": "90'",
+    "n": "Samuel Xavier"
    }
   ],
   "lg": "bra.1",
   "local": "Estadio do Maracana, Rio de Janeiro",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401841338": {
@@ -5644,6 +5654,10 @@
   ],
   "lg": "bra.2",
   "local": "Estádio Onésio Brasileiro Alvarenga, Goiãnia",
+  "placar": {
+   "casa": 2,
+   "fora": 0
+  },
   "status": "a_confirmar"
  },
  "espn:401912709": {

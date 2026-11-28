@@ -4326,6 +4326,39 @@
     "fora": 0
    }
   },
+  "401841337": {
+   "casa": "Fluminense",
+   "comp": "brasileirao-a",
+   "fase": "2026-brasileiro-serie-a",
+   "fora": "Cruzeiro",
+   "inicio": "2026-11-27T20:00:00-03:00",
+   "lances": [
+    {
+     "k": "g",
+     "l": "f",
+     "m": "3'",
+     "n": "Kaio Jorge"
+    },
+    {
+     "k": "v",
+     "l": "f",
+     "m": "72'",
+     "n": "J. Jesus"
+    },
+    {
+     "k": "v",
+     "l": "c",
+     "m": "90'",
+     "n": "Samuel Xavier"
+    }
+   ],
+   "lg": "bra.1",
+   "local": "Estadio do Maracana, Rio de Janeiro",
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   }
+  },
   "401841554": {
    "casa": "Estudiantes",
    "comp": "argentina",
@@ -23092,6 +23125,33 @@
    "local": "Heriberto Hülse, Criciúma",
    "placar": {
     "casa": 1,
+    "fora": 0
+   }
+  },
+  "401912683": {
+   "casa": "Vila Nova",
+   "comp": "brasileirao-b",
+   "fase": "2026-brasileiro-serie-b",
+   "fora": "Atlético-GO",
+   "inicio": "2026-11-27T20:00:00-03:00",
+   "lances": [
+    {
+     "k": "c",
+     "l": "c",
+     "m": "53'",
+     "n": "J. Barreto"
+    },
+    {
+     "k": "g",
+     "l": "c",
+     "m": "77'",
+     "n": "J. Vieira"
+    }
+   ],
+   "lg": "bra.2",
+   "local": "Estádio Onésio Brasileiro Alvarenga, Goiãnia",
+   "placar": {
+    "casa": 2,
     "fora": 0
    }
   },

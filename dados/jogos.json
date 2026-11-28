@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T21:51:40-03:00",
+ "atualizado": "2026-11-27T22:46:58-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -2847,8 +2847,18 @@
      "m": "72'",
      "n": "J. Jesus",
      "k": "v"
+    },
+    {
+     "l": "c",
+     "m": "90'",
+     "n": "Samuel Xavier",
+     "k": "v"
     }
    ],
+   "placar": {
+    "casa": 0,
+    "fora": 1
+   },
    "rodada": "37ª rodada",
    "pg": "/jogo/fluminense-x-cruzeiro-27-11-2026/"
   },
@@ -2882,6 +2892,10 @@
      "k": "g"
     }
    ],
+   "placar": {
+    "casa": 2,
+    "fora": 0
+   },
    "rodada": "Playoff de acesso - volta",
    "nota": "Clássico; vale vaga na Série A",
    "links": {
