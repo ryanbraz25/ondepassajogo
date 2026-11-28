@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T23:49:33-03:00",
+ "atualizado": "2026-11-27T23:58:53-03:00",
  "canais": {
   "globo": {
    "nome": "TV Globo",
@@ -162,6 +162,11 @@
    "nome": "Itatiaia (YouTube)",
    "tipo": "YouTube",
    "url": "https://www.youtube.com/results?search_query=Itatiaia+Esportes+ao+vivo"
+  },
+  "jovempan": {
+   "nome": "Jovem Pan Esportes",
+   "tipo": "YouTube",
+   "url": "https://www.youtube.com/results?search_query=Jovem+Pan+Esportes+ao+vivo"
   }
  },
  "competicoes": {
@@ -3015,11 +3020,12 @@
    "canais": [
     "sportynet"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "eid": "401882796",
    "lg": "esp.1",
    "ed": "20261128",
    "rodada": "14ª rodada",
+   "nota": "SportyNet na TV paga e no YouTube",
    "links": {
     "sportynet": "https://www.youtube.com/@SportyNetBrasil"
    },
@@ -3067,7 +3073,7 @@
     "goat",
     "sportv"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "eid": "401900875",
    "lg": "ksa.1",
    "ed": "20261128",
@@ -3775,6 +3781,7 @@
    "fora": "Bahia",
    "local": "João Havelange Stadium, Rio de Janeiro",
    "canais": [
+    "sportv",
     "premiere"
    ],
    "status": "confirmado",
@@ -3877,11 +3884,15 @@
    "comp": "amistoso",
    "canais": [
     "globo",
-    "sportv"
+    "sportv",
+    "getv"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "rodada": "Amistoso da Seleção Feminina",
-   "nota": "Seleção feminina; 50º jogo de Arthur Elias",
+   "nota": "Seleção feminina; Globo e sportv na TV e ge tv no YouTube",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   },
    "pg": "/jogo/japao-x-brasil-29-11-2026/"
   },
   {
@@ -3936,6 +3947,7 @@
    "fora": "Liverpool",
    "local": "Hill Dickinson Stadium, Liverpool",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
@@ -3985,7 +3997,7 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "eid": "401882787",
    "lg": "esp.1",
    "ed": "20261129",
@@ -4005,7 +4017,7 @@
     "espn",
     "disney"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "eid": "401875535",
    "lg": "ned.1",
    "ed": "20261129",
@@ -4034,14 +4046,14 @@
    "fora": "Marseille",
    "local": "Stade de l'Abbé-Deschamps, Auxerre",
    "canais": [
-    "cazetv"
+    "cnn"
    ],
    "status": "a_confirmar",
    "eid": "401876393",
    "lg": "fra.1",
    "ed": "20261129",
    "links": {
-    "cazetv": "https://www.youtube.com/@CazeTV"
+    "cnn": "https://www.youtube.com/@CNNbrasil"
    },
    "pg": "/jogo/aj-auxerre-x-marseille-29-11-2026/"
   },
@@ -4052,13 +4064,18 @@
    "fora": "Napoli",
    "local": "Mapei Stadium, Reggio Emilia",
    "canais": [
+    "sportynet",
     "disney"
    ],
-   "status": "confirmado",
+   "status": "a_confirmar",
    "eid": "401874992",
    "lg": "ita.1",
    "ed": "20261129",
    "rodada": "13ª rodada",
+   "nota": "SportyNet na TV paga e no YouTube",
+   "links": {
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
+   },
    "pg": "/jogo/sassuolo-x-napoli-29-11-2026/"
   },
   {
@@ -4105,6 +4122,7 @@
    "fora": "Bournemouth",
    "local": "Craven Cottage, London",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
@@ -4121,6 +4139,7 @@
    "fora": "Tottenham",
    "local": "Stadium of Light, Sunderland",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
@@ -4137,6 +4156,9 @@
    "fora": "RB Leipzig",
    "local": "Europa-Park Stadion, Freiburg im Breisgau",
    "canais": [
+    "goat",
+    "xsports",
+    "sportv",
     "onefootball"
    ],
    "status": "confirmado",
@@ -4144,6 +4166,9 @@
    "lg": "ger.1",
    "ed": "20261129",
    "rodada": "11ª rodada",
+   "links": {
+    "goat": "https://www.youtube.com/@canalgoatbr"
+   },
    "pg": "/jogo/sc-freiburg-x-rb-leipzig-29-11-2026/"
   },
   {
@@ -4205,7 +4230,7 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "eid": "401876386",
    "lg": "fra.1",
    "ed": "20261129",
@@ -4221,6 +4246,7 @@
    "fora": "Manchester City",
    "local": "Emirates Stadium, London",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
@@ -4238,6 +4264,8 @@
    "fora": "FC Augsburg",
    "local": "PreZero Arena, Sinsheim",
    "canais": [
+    "goat",
+    "jovempan",
     "onefootball"
    ],
    "status": "confirmado",
@@ -4245,6 +4273,10 @@
    "lg": "ger.1",
    "ed": "20261129",
    "rodada": "11ª rodada",
+   "links": {
+    "goat": "https://www.youtube.com/@canalgoatbr",
+    "jovempan": "https://www.youtube.com/results?search_query=Jovem+Pan+Esportes+ao+vivo"
+   },
    "pg": "/jogo/tsg-hoffenheim-x-fc-augsburg-29-11-2026/"
   },
   {
@@ -4254,13 +4286,18 @@
    "fora": "Monza",
    "local": "Olimpico, Roma",
    "canais": [
+    "sportynet",
     "disney"
    ],
-   "status": "confirmado",
+   "status": "a_confirmar",
    "eid": "401874769",
    "lg": "ita.1",
    "ed": "20261129",
    "rodada": "13ª rodada",
+   "nota": "SportyNet na TV paga e no YouTube",
+   "links": {
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
+   },
    "pg": "/jogo/roma-x-monza-29-11-2026/"
   },
   {
@@ -4272,7 +4309,7 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "eid": "401882795",
    "lg": "esp.1",
    "ed": "20261129",
@@ -4304,6 +4341,7 @@
    "fora": "Bayer Leverkusen",
    "local": "Signal Iduna Park, Aue",
    "canais": [
+    "sportv",
     "onefootball"
    ],
    "status": "confirmado",
@@ -4328,7 +4366,33 @@
    "lg": "bra.1",
    "ed": "20261129",
    "rodada": "37ª rodada",
-   "nota": "Flamengo é o líder",
+   "nota": "Flamengo é o líder; Globo para RJ, PR e demais estados (exceto SP, BA, MS, PE, RS, BH e Santarém)",
+   "reg": {
+    "globo": [
+     "AC",
+     "AL",
+     "AM",
+     "AP",
+     "CE",
+     "DF",
+     "ES",
+     "GO",
+     "MA",
+     "MG",
+     "MT",
+     "PA",
+     "PB",
+     "PI",
+     "PR",
+     "RJ",
+     "RN",
+     "RO",
+     "RR",
+     "SC",
+     "SE",
+     "TO"
+    ]
+   },
    "pg": "/jogo/coritiba-x-flamengo-29-11-2026/"
   },
   {
@@ -4361,9 +4425,18 @@
    "lg": "bra.1",
    "ed": "20261129",
    "rodada": "37ª rodada",
-   "nota": "Globo na TV e ge tv no YouTube",
+   "nota": "Globo para SP, BA, MS, PE, RS, BH e Santarém; ge tv grátis no YouTube para todo o Brasil",
    "links": {
     "getv": "https://www.youtube.com/@getv"
+   },
+   "reg": {
+    "globo": [
+     "BA",
+     "MS",
+     "PE",
+     "RS",
+     "SP"
+    ]
    },
    "pg": "/jogo/vitoria-x-santos-29-11-2026/"
   },
@@ -4374,6 +4447,7 @@
    "fora": "Juventus",
    "local": "Giuseppe Sinigaglia, Como",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
@@ -4390,9 +4464,10 @@
    "fora": "AS Monaco",
    "local": "Groupama Stadium, Lyon",
    "canais": [
-    "cazetv"
+    "cazetv",
+    "xsports"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "eid": "401876389",
    "lg": "fra.1",
    "ed": "20261129",
@@ -4408,15 +4483,16 @@
    "fora": "Sevilla",
    "local": "Reale Arena, San Sebastian",
    "canais": [
-    "cazetv"
+    "sportynet"
    ],
    "status": "a_confirmar",
    "eid": "401882788",
    "lg": "esp.1",
    "ed": "20261129",
    "rodada": "14ª rodada",
+   "nota": "SportyNet na TV paga e no YouTube",
    "links": {
-    "cazetv": "https://www.youtube.com/@CazeTV"
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
    },
    "pg": "/jogo/real-sociedad-x-sevilla-29-11-2026/"
   },
@@ -4475,6 +4551,7 @@
    "fora": "Red Bull Bragantino",
    "local": "Estádio Beira-Rio, Porto Alegre",
    "canais": [
+    "sportv",
     "premiere"
    ],
    "status": "confirmado",
@@ -4526,6 +4603,7 @@
    "fora": "Gimnasia La Plata",
    "local": "Alberto José Armando (La Bombonera), Buenos Aires",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "a_confirmar",

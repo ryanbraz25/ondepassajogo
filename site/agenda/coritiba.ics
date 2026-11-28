@@ -93,15 +93,18 @@ URL:https://ondepassajogo.com.br/jogo/bahia-x-coritiba-21-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401841333@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261128T025853Z
+LAST-MODIFIED:20261128T025853Z
 SUMMARY:Coritiba x Flamengo
 DTSTART:20261129T190000Z
 DTEND:20261129T210000Z
 LOCATION:Couto Pereira\, Curitiba
-DESCRIPTION:Brasileirão Série A · 37ª rodada\nOnde passa: TV Globo (gr
- átis)\, Premiere\nFlamengo é o líder\nDetalhes e onde assistir: https:/
- /ondepassajogo.com.br/jogo/coritiba-x-flamengo-29-11-2026/
+DESCRIPTION:Brasileirão Série A · 37ª rodada\nOnde passa: TV Globo (AC\
+ , AL\, AM\, AP\, CE\, DF\, ES\, GO\, MA\, MG\, MT\, PA\, PB\, PI\, PR\, RJ
+ \, RN\, RO\, RR\, SC\, SE e TO) (grátis)\, Premiere\nFlamengo é o líder
+ \; Globo para RJ\, PR e demais estados (exceto SP\, BA\, MS\, PE\, RS\, BH
+  e Santarém)\nDetalhes e onde assistir: https://ondepassajogo.com.br/jogo
+ /coritiba-x-flamengo-29-11-2026/
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Brasileirão Série A

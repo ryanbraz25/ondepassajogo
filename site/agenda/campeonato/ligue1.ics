@@ -239,15 +239,15 @@ URL:https://ondepassajogo.com.br/jogo/paris-saint-germain-x-lorient-28-11-2
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401876393@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261128T025853Z
+LAST-MODIFIED:20261128T025853Z
 SUMMARY:AJ Auxerre x Marseille
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 LOCATION:Stade de l'Abbé-Deschamps\, Auxerre
-DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/aj-auxerre-x-marseille-
- 29-11-2026/
+DESCRIPTION:Ligue 1\nOnde passa: CNN Brasil (grátis) (a confirmar)\nDetalh
+ es e onde assistir: https://ondepassajogo.com.br/jogo/aj-auxerre-x-marseil
+ le-29-11-2026/
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
@@ -255,32 +255,31 @@ URL:https://ondepassajogo.com.br/jogo/aj-auxerre-x-marseille-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401876386@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261128T025853Z
+LAST-MODIFIED:20261128T025853Z
 SUMMARY:Toulouse x Stade Rennais
 DTSTART:20261129T161500Z
 DTEND:20261129T181500Z
 LOCATION:Stadium Municipal de Toulouse\, Toulouse
-DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/toulouse-x-stade-rennai
- s-29-11-2026/
-STATUS:TENTATIVE
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis)\nDetalhes e onde assisti
+ r: https://ondepassajogo.com.br/jogo/toulouse-x-stade-rennais-29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
 URL:https://ondepassajogo.com.br/jogo/toulouse-x-stade-rennais-29-11-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:espn-401876389@ondepassajogo.com.br
-DTSTAMP:20261125T014306Z
-LAST-MODIFIED:20261125T014306Z
+DTSTAMP:20261128T025853Z
+LAST-MODIFIED:20261128T025853Z
 SUMMARY:Lyon x AS Monaco
 DTSTART:20261129T194500Z
 DTEND:20261129T214500Z
 LOCATION:Groupama Stadium\, Lyon
-DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis) (a confirmar)\nDetalhes 
- e onde assistir: https://ondepassajogo.com.br/jogo/lyon-x-as-monaco-29-11-
- 2026/
-STATUS:TENTATIVE
+DESCRIPTION:Ligue 1\nOnde passa: CazéTV (grátis)\, Xsports (grátis)\nDet
+ alhes e onde assistir: https://ondepassajogo.com.br/jogo/lyon-x-as-monaco-
+ 29-11-2026/
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Ligue 1
 URL:https://ondepassajogo.com.br/jogo/lyon-x-as-monaco-29-11-2026/
