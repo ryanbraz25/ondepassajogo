@@ -44472,7 +44472,7 @@
  },
  "401933725": {
   "achada": "2026-11-27T23:47-03:00",
-  "atualizada": "2026-11-28T02:41-03:00",
+  "atualizada": "2026-11-28T03:38-03:00",
   "casa": {
    "esquema": "3-4-3",
    "reservas": [
@@ -44484,11 +44484,15 @@
      "pos": "SUB"
     },
     {
+     "e": "88'",
      "fp": 0,
      "id": "401803",
      "n": "70",
      "nome": "Lineker Rodrigues",
-     "pos": "SUB"
+     "pos": "SUB",
+     "st": {
+      "fs": 1
+     }
     },
     {
      "fp": 0,
@@ -44533,6 +44537,7 @@
      "pos": "SUB"
     },
     {
+     "e": "78'",
      "fp": 0,
      "id": "399190",
      "n": "39",
@@ -44548,7 +44553,8 @@
      "nome": "Rafael",
      "pos": "G",
      "st": {
-      "df": 1
+      "df": 4,
+      "gs": 1
      }
     },
     {
@@ -44558,7 +44564,8 @@
      "nome": "D. Marczuk",
      "pos": "RM",
      "st": {
-      "fc": 2
+      "fc": 2,
+      "fs": 1
      }
     },
     {
@@ -44568,8 +44575,9 @@
      "nome": "J. Sanabria",
      "pos": "LM",
      "st": {
-      "fc": 1,
-      "fs": 1
+      "am": 1,
+      "fc": 2,
+      "fs": 2
      }
     },
     {
@@ -44579,8 +44587,8 @@
      "nome": "K. Henry",
      "pos": "CD-L",
      "st": {
-      "ch": 2,
-      "fs": 1
+      "ch": 3,
+      "fs": 2
      }
     },
     {
@@ -44601,8 +44609,9 @@
      "nome": "L. de Fougerolles",
      "pos": "CD-R",
      "st": {
-      "fc": 1,
-      "fs": 2
+      "ch": 1,
+      "fc": 2,
+      "fs": 4
      }
     },
     {
@@ -44610,7 +44619,12 @@
      "id": "216288",
      "n": "6",
      "nome": "S. Spierings",
-     "pos": "CM-R"
+     "pos": "CM-R",
+     "s": "78'",
+     "st": {
+      "fc": 2,
+      "fs": 1
+     }
     },
     {
      "fp": 8,
@@ -44619,6 +44633,7 @@
      "nome": "N. Caliskan",
      "pos": "CM-L",
      "st": {
+      "fc": 1,
       "fs": 2
      }
     },
@@ -44629,7 +44644,8 @@
      "nome": "S. Solans",
      "pos": "F",
      "st": {
-      "ch": 1,
+      "cg": 1,
+      "ch": 3,
       "imp": 2
      }
     },
@@ -44639,8 +44655,9 @@
      "n": "12",
      "nome": "S. Lobjanidze",
      "pos": "CF-R",
+     "s": "88'",
      "st": {
-      "ch": 1
+      "ch": 2
      }
     },
     {
@@ -44648,12 +44665,17 @@
      "id": "305777",
      "n": "9",
      "nome": "M. Guilavogui",
-     "pos": "CF-L"
+     "pos": "CF-L",
+     "st": {
+      "am": 1,
+      "fc": 2,
+      "fs": 2
+     }
     }
    ]
   },
   "comp": "mls",
-  "completa": false,
+  "completa": true,
   "fora": {
    "esquema": "4-2-3-1",
    "reservas": [
@@ -44672,6 +44694,7 @@
      "pos": "SUB"
     },
     {
+     "e": "87'",
      "fp": 0,
      "id": "286523",
      "n": "2",
@@ -44693,6 +44716,7 @@
      "pos": "SUB"
     },
     {
+     "e": "90'+4'",
      "fp": 0,
      "id": "302798",
      "n": "4",
@@ -44700,13 +44724,20 @@
      "pos": "SUB"
     },
     {
+     "e": "72'",
      "fp": 0,
      "id": "331644",
      "n": "77",
      "nome": "Y. Diaby",
-     "pos": "SUB"
+     "pos": "SUB",
+     "st": {
+      "am": 1,
+      "cg": 1,
+      "ch": 1
+     }
     },
     {
+     "e": "87'",
      "fp": 0,
      "id": "276451",
      "n": "7",
@@ -44714,11 +44745,16 @@
      "pos": "SUB"
     },
     {
+     "e": "72'",
      "fp": 0,
      "id": "371482",
      "n": "59",
      "nome": "J. Badwal",
-     "pos": "SUB"
+     "pos": "SUB",
+     "st": {
+      "fc": 2,
+      "fs": 1
+     }
     }
    ],
    "titulares": [
@@ -44735,9 +44771,11 @@
      "n": "18",
      "nome": "É. Ocampo",
      "pos": "RB",
+     "s": "90'+4'",
      "st": {
-      "fc": 2,
-      "fs": 1
+      "ch": 1,
+      "fc": 3,
+      "fs": 5
      }
     },
     {
@@ -44747,7 +44785,7 @@
      "nome": "T. Johnson",
      "pos": "LB",
      "st": {
-      "fs": 2
+      "fs": 3
      }
     },
     {
@@ -44757,7 +44795,9 @@
      "nome": "A. Cubas",
      "pos": "LM",
      "st": {
-      "ch": 1
+      "am": 1,
+      "ch": 1,
+      "fc": 1
      }
     },
     {
@@ -44765,14 +44805,18 @@
      "id": "256476",
      "n": "33",
      "nome": "T. Blackmon",
-     "pos": "CD-R"
+     "pos": "CD-R",
+     "st": {
+      "ch": 1
+     }
     },
     {
      "fp": 6,
      "id": "297118",
      "n": "6",
      "nome": "R. Priso-Mbongue",
-     "pos": "CD-L"
+     "pos": "CD-L",
+     "s": "87'"
     },
     {
      "fp": 7,
@@ -44781,8 +44825,8 @@
      "nome": "R. Gauld",
      "pos": "AM-R",
      "st": {
-      "ch": 1,
-      "fc": 2
+      "ch": 2,
+      "fc": 3
      }
     },
     {
@@ -44790,7 +44834,12 @@
      "id": "3111934",
      "n": "23",
      "nome": "A. Cvetković",
-     "pos": "RM"
+     "pos": "RM",
+     "s": "72'",
+     "st": {
+      "cg": 1,
+      "ch": 1
+     }
     },
     {
      "fp": 9,
@@ -44799,9 +44848,11 @@
      "nome": "E. Sabbi",
      "pos": "F",
      "st": {
-      "ch": 1,
-      "fc": 2,
-      "fs": 1,
+      "cg": 1,
+      "ch": 2,
+      "fc": 4,
+      "fs": 2,
+      "g": 1,
       "imp": 1
      }
     },
@@ -44811,7 +44862,10 @@
      "n": "13",
      "nome": "T. Müller",
      "pos": "AM",
+     "s": "72'",
      "st": {
+      "ch": 1,
+      "fc": 1,
       "fs": 1
      }
     },
@@ -44821,17 +44875,63 @@
      "n": "14",
      "nome": "B. Caicedo",
      "pos": "AM-L",
+     "s": "87'",
      "st": {
-      "cg": 1,
-      "ch": 2,
-      "fc": 1
+      "a": 1,
+      "am": 1,
+      "cg": 2,
+      "ch": 3,
+      "fc": 2
      }
     }
    ]
   },
   "inicio": "2026-11-28T00:00:00-03:00",
   "pg": "",
-  "subs": [],
+  "subs": [
+   {
+    "ent": "J. Badwal",
+    "l": "f",
+    "m": "72'",
+    "sai": "A. Cvetković"
+   },
+   {
+    "ent": "Y. Diaby",
+    "l": "f",
+    "m": "72'",
+    "sai": "T. Müller"
+   },
+   {
+    "ent": "A. Hezarkhani",
+    "l": "c",
+    "m": "78'",
+    "sai": "S. Spierings"
+   },
+   {
+    "ent": "C. Sabaly",
+    "l": "f",
+    "m": "87'",
+    "sai": "B. Caicedo"
+   },
+   {
+    "ent": "M. Laborda",
+    "l": "f",
+    "m": "87'",
+    "sai": "R. Priso-Mbongue"
+   },
+   {
+    "ent": "Lineker Rodrigues",
+    "l": "c",
+    "m": "88'",
+    "sai": "S. Lobjanidze"
+   },
+   {
+    "ent": "R. Veselinovic",
+    "l": "f",
+    "m": "90'+4'",
+    "sai": "É. Ocampo"
+   }
+  ],
   "time_casa": "Real Salt Lake",
   "time_fora": "Vancouver Whitecaps",
   "v": 3
