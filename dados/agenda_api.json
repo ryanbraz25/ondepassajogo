@@ -7931,8 +7931,20 @@
   "fase": "western-conference-playoffs---round-one",
   "fora": "Vancouver Whitecaps",
   "inicio": "2026-11-28T00:00:00-03:00",
+  "lances": [
+   {
+    "k": "g",
+    "l": "f",
+    "m": "58'",
+    "n": "E. Sabbi"
+   }
+  ],
   "lg": "usa.1",
   "local": "America First Field, Sandy, Utah",
+  "placar": {
+   "casa": 0,
+   "fora": 1
+  },
   "status": "a_confirmar"
  },
  "espn:401933726": {
