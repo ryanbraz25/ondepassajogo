@@ -1,6 +1,6 @@
 {
  "comentario": "Gravado pela pesquisa noturna do Claude: canais (e rodada/nota) de cada jogo. O robô junta isso aos jogos da ESPN. Pode editar à mão.",
- "atualizado": "2026-11-27T11:53:45-03:00",
+ "atualizado": "2026-11-27T23:52:34-03:00",
  "jogos": [
   {
    "data": "2026-11-26",
@@ -477,6 +477,18 @@
   },
   {
    "data": "2026-11-26",
+   "casa": "São Paulo",
+   "fora": "Remo",
+   "inicio": "2026-11-26T20:00:00-03:00",
+   "comp": "brasileirao-a",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado",
+   "rodada": "37ª rodada"
+  },
+  {
+   "data": "2026-11-26",
    "casa": "TSG Hoffenheim",
    "fora": "SK Sturm Graz",
    "canais": [
@@ -526,18 +538,6 @@
     "cazetv": "https://www.youtube.com/@CazeTV"
    },
    "rodada": "5ª rodada (fase de liga)"
-  },
-  {
-   "data": "2026-11-26",
-   "casa": "São Paulo",
-   "fora": "Remo",
-   "inicio": "2026-11-26T20:00:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "premiere"
-   ],
-   "status": "confirmado",
-   "rodada": "37ª rodada"
   },
   {
    "data": "2026-11-27",
@@ -623,6 +623,19 @@
   },
   {
    "data": "2026-11-27",
+   "casa": "Fluminense",
+   "fora": "Cruzeiro",
+   "inicio": "2026-11-27T20:00:00-03:00",
+   "comp": "brasileirao-a",
+   "canais": [
+    "sportv",
+    "premiere"
+   ],
+   "status": "confirmado",
+   "rodada": "37ª rodada"
+  },
+  {
+   "data": "2026-11-27",
    "casa": "Levante",
    "fora": "Racing Santander",
    "canais": [
@@ -689,36 +702,6 @@
   },
   {
    "data": "2026-11-27",
-   "casa": "Werder Bremen",
-   "fora": "Borussia Mönchengladbach",
-   "canais": [
-    "onefootball",
-    "cazetv",
-    "sportynet"
-   ],
-   "status": "confirmado",
-   "rodada": "11ª rodada",
-   "links": {
-    "cazetv": "https://www.youtube.com/@CazeTV",
-    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
-   },
-   "nota": "Grátis no YouTube (CazéTV e SportyNet)"
-  },
-  {
-   "data": "2026-11-27",
-   "casa": "Fluminense",
-   "fora": "Cruzeiro",
-   "inicio": "2026-11-27T20:00:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "sportv",
-    "premiere"
-   ],
-   "status": "confirmado",
-   "rodada": "37ª rodada"
-  },
-  {
-   "data": "2026-11-27",
    "casa": "Vila Nova",
    "fora": "Atlético-GO",
    "inicio": "2026-11-27T20:00:00-03:00",
@@ -735,6 +718,23 @@
    },
    "rodada": "Playoff de acesso - volta",
    "nota": "Clássico; vale vaga na Série A"
+  },
+  {
+   "data": "2026-11-27",
+   "casa": "Werder Bremen",
+   "fora": "Borussia Mönchengladbach",
+   "canais": [
+    "onefootball",
+    "cazetv",
+    "sportynet"
+   ],
+   "status": "confirmado",
+   "rodada": "11ª rodada",
+   "links": {
+    "cazetv": "https://www.youtube.com/@CazeTV",
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
+   },
+   "nota": "Grátis no YouTube (CazéTV e SportyNet)"
   },
   {
    "data": "2026-11-28",
@@ -766,7 +766,7 @@
     "goat",
     "sportv"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "links": {
     "goat": "https://www.youtube.com/@canalgoatbr"
    }
@@ -841,6 +841,19 @@
   },
   {
    "data": "2026-11-28",
+   "casa": "Botafogo",
+   "fora": "Bahia",
+   "inicio": "2026-11-28T21:00:00-03:00",
+   "comp": "brasileirao-a",
+   "canais": [
+    "sportv",
+    "premiere"
+   ],
+   "status": "confirmado",
+   "rodada": "37ª rodada"
+  },
+  {
+   "data": "2026-11-28",
    "casa": "Charlotte FC",
    "fora": "Chicago Fire FC",
    "canais": [
@@ -899,6 +912,25 @@
    "rodada": "11ª rodada",
    "links": {
     "goat": "https://www.youtube.com/@canalgoatbr"
+   }
+  },
+  {
+   "data": "2026-11-28",
+   "casa": "Fortaleza",
+   "fora": "Criciúma",
+   "inicio": "2026-11-28T20:00:00-03:00",
+   "comp": "brasileirao-b",
+   "canais": [
+    "redetv",
+    "espn",
+    "disney",
+    "sportynet"
+   ],
+   "status": "confirmado",
+   "rodada": "Playoff de acesso - volta",
+   "nota": "Vale vaga na Série A; SportyNet também no YouTube",
+   "links": {
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
    }
   },
   {
@@ -1102,6 +1134,27 @@
   },
   {
    "data": "2026-11-28",
+   "casa": "Palmeiras",
+   "fora": "Estudiantes",
+   "inicio": "2026-11-28T17:00:00-03:00",
+   "comp": "libertadores",
+   "canais": [
+    "globo",
+    "getv",
+    "espn",
+    "disney",
+    "paramount"
+   ],
+   "status": "confirmado",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   },
+   "rodada": "Final",
+   "nota": "Final",
+   "local": "Estádio Centenário, Montevidéu"
+  },
+  {
+   "data": "2026-11-28",
    "casa": "Paris Saint-Germain",
    "fora": "Lorient",
    "canais": [
@@ -1149,11 +1202,12 @@
    "canais": [
     "sportynet"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "rodada": "14ª rodada",
    "links": {
     "sportynet": "https://www.youtube.com/@SportyNetBrasil"
-   }
+   },
+   "nota": "SportyNet na TV paga e no YouTube"
   },
   {
    "data": "2026-11-28",
@@ -1280,58 +1334,6 @@
    "status": "confirmado"
   },
   {
-   "data": "2026-11-28",
-   "casa": "Palmeiras",
-   "fora": "Estudiantes",
-   "inicio": "2026-11-28T17:00:00-03:00",
-   "comp": "libertadores",
-   "canais": [
-    "globo",
-    "getv",
-    "espn",
-    "disney",
-    "paramount"
-   ],
-   "status": "confirmado",
-   "links": {
-    "getv": "https://www.youtube.com/@getv"
-   },
-   "rodada": "Final",
-   "nota": "Final",
-   "local": "Estádio Centenário, Montevidéu"
-  },
-  {
-   "data": "2026-11-28",
-   "casa": "Fortaleza",
-   "fora": "Criciúma",
-   "inicio": "2026-11-28T20:00:00-03:00",
-   "comp": "brasileirao-b",
-   "canais": [
-    "redetv",
-    "espn",
-    "disney",
-    "sportynet"
-   ],
-   "status": "confirmado",
-   "rodada": "Playoff de acesso - volta",
-   "nota": "Vale vaga na Série A; SportyNet também no YouTube",
-   "links": {
-    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
-   }
-  },
-  {
-   "data": "2026-11-28",
-   "casa": "Botafogo",
-   "fora": "Bahia",
-   "inicio": "2026-11-28T21:00:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "premiere"
-   ],
-   "status": "confirmado",
-   "rodada": "37ª rodada"
-  },
-  {
    "data": "2026-11-29",
    "casa": "ADO Den Haag",
    "fora": "FC Utrecht",
@@ -1344,11 +1346,11 @@
    "casa": "AJ Auxerre",
    "fora": "Marseille",
    "canais": [
-    "cazetv"
+    "cnn"
    ],
    "status": "a_confirmar",
    "links": {
-    "cazetv": "https://www.youtube.com/@CazeTV"
+    "cnn": "https://www.youtube.com/@CNNbrasil"
    }
   },
   {
@@ -1370,6 +1372,7 @@
    "casa": "Arsenal",
    "fora": "Manchester City",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
@@ -1378,9 +1381,25 @@
   },
   {
    "data": "2026-11-29",
+   "casa": "Atlético-MG",
+   "fora": "Vasco",
+   "inicio": "2026-11-29T19:30:00-03:00",
+   "comp": "brasileirao-a",
+   "canais": [
+    "sportv",
+    "premiere"
+   ],
+   "status": "confirmado",
+   "rodada": "37ª rodada"
+  },
+  {
+   "data": "2026-11-29",
    "casa": "Boca Juniors",
    "fora": "Gimnasia La Plata",
-   "canais": [],
+   "canais": [
+    "espn",
+    "disney"
+   ],
    "status": "a_confirmar"
   },
   {
@@ -1388,6 +1407,7 @@
    "casa": "Borussia Dortmund",
    "fora": "Bayer Leverkusen",
    "canais": [
+    "sportv",
     "onefootball"
    ],
    "status": "confirmado",
@@ -1415,7 +1435,7 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "rodada": "14ª rodada",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
@@ -1426,10 +1446,64 @@
    "casa": "Como",
    "fora": "Juventus",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
    "rodada": "13ª rodada"
+  },
+  {
+   "data": "2026-11-29",
+   "casa": "Corinthians",
+   "fora": "Grêmio",
+   "inicio": "2026-11-29T18:30:00-03:00",
+   "comp": "brasileirao-a",
+   "canais": [
+    "prime"
+   ],
+   "status": "confirmado",
+   "rodada": "37ª rodada",
+   "nota": "Luta contra o rebaixamento"
+  },
+  {
+   "data": "2026-11-29",
+   "casa": "Coritiba",
+   "fora": "Flamengo",
+   "inicio": "2026-11-29T16:00:00-03:00",
+   "comp": "brasileirao-a",
+   "canais": [
+    "globo",
+    "premiere"
+   ],
+   "status": "confirmado",
+   "rodada": "37ª rodada",
+   "nota": "Flamengo é o líder; Globo para RJ, PR e demais estados (exceto SP, BA, MS, PE, RS, BH e Santarém)",
+   "regioes": {
+    "globo": [
+     "AC",
+     "AL",
+     "AP",
+     "AM",
+     "CE",
+     "DF",
+     "ES",
+     "GO",
+     "MA",
+     "MT",
+     "MG",
+     "PA",
+     "PB",
+     "PR",
+     "PI",
+     "RJ",
+     "RN",
+     "RO",
+     "RR",
+     "SC",
+     "SE",
+     "TO"
+    ]
+   }
   },
   {
    "data": "2026-11-29",
@@ -1459,6 +1533,7 @@
    "casa": "Everton",
    "fora": "Liverpool",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
@@ -1501,7 +1576,7 @@
     "espn",
     "disney"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "rodada": "14ª rodada",
    "nota": "Clássico"
   },
@@ -1518,6 +1593,7 @@
    "casa": "Fulham",
    "fora": "Bournemouth",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
@@ -1542,15 +1618,61 @@
   },
   {
    "data": "2026-11-29",
+   "casa": "Internacional",
+   "fora": "Red Bull Bragantino",
+   "inicio": "2026-11-29T18:30:00-03:00",
+   "comp": "brasileirao-a",
+   "canais": [
+    "sportv",
+    "premiere"
+   ],
+   "status": "confirmado",
+   "rodada": "37ª rodada",
+   "nota": "Internacional luta contra o rebaixamento"
+  },
+  {
+   "data": "2026-11-29",
+   "casa": "Japão",
+   "fora": "Brasil",
+   "inicio": "2026-11-29T01:55:00-03:00",
+   "comp": "amistoso",
+   "canais": [
+    "globo",
+    "sportv",
+    "getv"
+   ],
+   "status": "confirmado",
+   "rodada": "Amistoso da Seleção Feminina",
+   "nota": "Seleção feminina; Globo e sportv na TV e ge tv no YouTube",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   }
+  },
+  {
+   "data": "2026-11-29",
    "casa": "Lyon",
    "fora": "AS Monaco",
    "canais": [
-    "cazetv"
+    "cazetv",
+    "xsports"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
    }
+  },
+  {
+   "data": "2026-11-29",
+   "casa": "Mirassol",
+   "fora": "Athletico-PR",
+   "inicio": "2026-11-29T18:30:00-03:00",
+   "comp": "brasileirao-a",
+   "canais": [
+    "premiere"
+   ],
+   "status": "confirmado",
+   "rodada": "37ª rodada",
+   "nota": "Mirassol luta contra o rebaixamento"
   },
   {
    "data": "2026-11-29",
@@ -1584,23 +1706,29 @@
    "casa": "Real Sociedad",
    "fora": "Sevilla",
    "canais": [
-    "cazetv"
+    "sportynet"
    ],
    "status": "a_confirmar",
    "rodada": "14ª rodada",
    "links": {
-    "cazetv": "https://www.youtube.com/@CazeTV"
-   }
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
+   },
+   "nota": "SportyNet na TV paga e no YouTube"
   },
   {
    "data": "2026-11-29",
    "casa": "Roma",
    "fora": "Monza",
    "canais": [
+    "sportynet",
     "disney"
    ],
-   "status": "confirmado",
-   "rodada": "13ª rodada"
+   "status": "a_confirmar",
+   "rodada": "13ª rodada",
+   "links": {
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
+   },
+   "nota": "SportyNet na TV paga e no YouTube"
   },
   {
    "data": "2026-11-29",
@@ -1616,26 +1744,38 @@
    "casa": "SC Freiburg",
    "fora": "RB Leipzig",
    "canais": [
+    "goat",
+    "xsports",
+    "sportv",
     "onefootball"
    ],
    "status": "confirmado",
-   "rodada": "11ª rodada"
+   "rodada": "11ª rodada",
+   "links": {
+    "goat": "https://www.youtube.com/@canalgoatbr"
+   }
   },
   {
    "data": "2026-11-29",
    "casa": "Sassuolo",
    "fora": "Napoli",
    "canais": [
+    "sportynet",
     "disney"
    ],
-   "status": "confirmado",
-   "rodada": "13ª rodada"
+   "status": "a_confirmar",
+   "rodada": "13ª rodada",
+   "links": {
+    "sportynet": "https://www.youtube.com/@SportyNetBrasil"
+   },
+   "nota": "SportyNet na TV paga e no YouTube"
   },
   {
    "data": "2026-11-29",
    "casa": "Sunderland",
    "fora": "Tottenham",
    "canais": [
+    "espn",
     "disney"
    ],
    "status": "confirmado",
@@ -1655,10 +1795,16 @@
    "casa": "TSG Hoffenheim",
    "fora": "FC Augsburg",
    "canais": [
+    "goat",
+    "jovempan",
     "onefootball"
    ],
    "status": "confirmado",
-   "rodada": "11ª rodada"
+   "rodada": "11ª rodada",
+   "links": {
+    "goat": "https://www.youtube.com/@canalgoatbr",
+    "jovempan": "https://www.youtube.com/results?search_query=Jovem+Pan+Esportes+ao+vivo"
+   }
   },
   {
    "data": "2026-11-29",
@@ -1667,7 +1813,7 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
    }
@@ -1689,48 +1835,11 @@
    "canais": [
     "cazetv"
    ],
-   "status": "a_confirmar",
+   "status": "confirmado",
    "rodada": "14ª rodada",
    "links": {
     "cazetv": "https://www.youtube.com/@CazeTV"
    }
-  },
-  {
-   "data": "2026-11-29",
-   "casa": "Çorum FK",
-   "fora": "Kocaelispor",
-   "canais": [
-    "disney"
-   ],
-   "status": "a_confirmar"
-  },
-  {
-   "data": "2026-11-29",
-   "casa": "Japão",
-   "fora": "Brasil",
-   "inicio": "2026-11-29T01:55:00-03:00",
-   "comp": "amistoso",
-   "canais": [
-    "globo",
-    "sportv"
-   ],
-   "status": "a_confirmar",
-   "rodada": "Amistoso da Seleção Feminina",
-   "nota": "Seleção feminina; 50º jogo de Arthur Elias"
-  },
-  {
-   "data": "2026-11-29",
-   "casa": "Coritiba",
-   "fora": "Flamengo",
-   "inicio": "2026-11-29T16:00:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "globo",
-    "premiere"
-   ],
-   "status": "confirmado",
-   "rodada": "37ª rodada",
-   "nota": "Flamengo é o líder"
   },
   {
    "data": "2026-11-29",
@@ -1748,59 +1857,25 @@
     "getv": "https://www.youtube.com/@getv"
    },
    "rodada": "37ª rodada",
-   "nota": "Globo na TV e ge tv no YouTube"
+   "nota": "Globo para SP, BA, MS, PE, RS, BH e Santarém; ge tv grátis no YouTube para todo o Brasil",
+   "regioes": {
+    "globo": [
+     "SP",
+     "BA",
+     "MS",
+     "PE",
+     "RS"
+    ]
+   }
   },
   {
    "data": "2026-11-29",
-   "casa": "Corinthians",
-   "fora": "Grêmio",
-   "inicio": "2026-11-29T18:30:00-03:00",
-   "comp": "brasileirao-a",
+   "casa": "Çorum FK",
+   "fora": "Kocaelispor",
    "canais": [
-    "prime"
+    "disney"
    ],
-   "status": "confirmado",
-   "rodada": "37ª rodada",
-   "nota": "Luta contra o rebaixamento"
-  },
-  {
-   "data": "2026-11-29",
-   "casa": "Internacional",
-   "fora": "Red Bull Bragantino",
-   "inicio": "2026-11-29T18:30:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "premiere"
-   ],
-   "status": "confirmado",
-   "rodada": "37ª rodada",
-   "nota": "Internacional luta contra o rebaixamento"
-  },
-  {
-   "data": "2026-11-29",
-   "casa": "Mirassol",
-   "fora": "Athletico-PR",
-   "inicio": "2026-11-29T18:30:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "premiere"
-   ],
-   "status": "confirmado",
-   "rodada": "37ª rodada",
-   "nota": "Mirassol luta contra o rebaixamento"
-  },
-  {
-   "data": "2026-11-29",
-   "casa": "Atlético-MG",
-   "fora": "Vasco",
-   "inicio": "2026-11-29T19:30:00-03:00",
-   "comp": "brasileirao-a",
-   "canais": [
-    "sportv",
-    "premiere"
-   ],
-   "status": "confirmado",
-   "rodada": "37ª rodada"
+   "status": "a_confirmar"
   },
   {
    "data": "2026-11-30",
@@ -2373,16 +2448,6 @@
   },
   {
    "data": "2026-12-02",
-   "casa": "Zamora CF",
-   "fora": "Real Valladolid",
-   "canais": [
-    "disney"
-   ],
-   "status": "a_confirmar",
-   "rodada": "2ª fase"
-  },
-  {
-   "data": "2026-12-02",
    "casa": "Vasco",
    "fora": "Vitória",
    "inicio": "2026-12-02T21:30:00-03:00",
@@ -2390,6 +2455,16 @@
    "canais": [],
    "status": "a_confirmar",
    "rodada": "38ª rodada"
+  },
+  {
+   "data": "2026-12-02",
+   "casa": "Zamora CF",
+   "fora": "Real Valladolid",
+   "canais": [
+    "disney"
+   ],
+   "status": "a_confirmar",
+   "rodada": "2ª fase"
   },
   {
    "data": "2026-12-03",
@@ -2883,6 +2958,17 @@
   },
   {
    "data": "2026-12-05",
+   "casa": "Japão",
+   "fora": "Brasil",
+   "inicio": "2026-12-05T03:00:00-03:00",
+   "comp": "amistoso",
+   "canais": [],
+   "status": "a_confirmar",
+   "rodada": "Amistoso da Seleção Feminina",
+   "nota": "Seleção feminina"
+  },
+  {
+   "data": "2026-12-05",
    "casa": "Konyaspor",
    "fora": "Gaziantep FK",
    "canais": [
@@ -3150,17 +3236,6 @@
    "rodada": "2ª fase"
   },
   {
-   "data": "2026-12-05",
-   "casa": "Japão",
-   "fora": "Brasil",
-   "inicio": "2026-12-05T03:00:00-03:00",
-   "comp": "amistoso",
-   "canais": [],
-   "status": "a_confirmar",
-   "rodada": "Amistoso da Seleção Feminina",
-   "nota": "Seleção feminina"
-  },
-  {
    "data": "2026-12-06",
    "casa": "ADO Den Haag",
    "fora": "Excelsior",
@@ -3316,6 +3391,27 @@
   },
   {
    "data": "2026-12-06",
+   "casa": "Grêmio",
+   "fora": "Palmeiras",
+   "inicio": "2026-12-06T16:00:00-03:00",
+   "comp": "copa-do-brasil",
+   "canais": [
+    "globo",
+    "sportv",
+    "premiere",
+    "getv",
+    "prime"
+   ],
+   "status": "confirmado",
+   "links": {
+    "getv": "https://www.youtube.com/@getv"
+   },
+   "rodada": "Final",
+   "nota": "Final em jogo único",
+   "local": "Mané Garrincha, Brasília"
+  },
+  {
+   "data": "2026-12-06",
    "casa": "Heerenveen",
    "fora": "SC Cambuur",
    "canais": [],
@@ -3465,27 +3561,6 @@
     "cazetv"
    ],
    "status": "a_confirmar"
-  },
-  {
-   "data": "2026-12-06",
-   "casa": "Grêmio",
-   "fora": "Palmeiras",
-   "inicio": "2026-12-06T16:00:00-03:00",
-   "comp": "copa-do-brasil",
-   "canais": [
-    "globo",
-    "sportv",
-    "premiere",
-    "getv",
-    "prime"
-   ],
-   "status": "confirmado",
-   "links": {
-    "getv": "https://www.youtube.com/@getv"
-   },
-   "rodada": "Final",
-   "nota": "Final em jogo único",
-   "local": "Mané Garrincha, Brasília"
   },
   {
    "data": "2026-12-07",
